@@ -5,7 +5,7 @@ audience: 최종 사용자
 user-guide-title: ID 서비스 도움말
 user-guide-url: /content/help/en/id-service/using/mcvid-home.html
 translation-type: tm+mt
-source-git-commit: c8020fc1cc5acd5fccb1e8a2e2787d95aa1294ab
+source-git-commit: 1dd8b109f7e9567b5f72747ecc653d35d0942413
 
 ---
 
@@ -42,6 +42,7 @@ source-git-commit: c8020fc1cc5acd5fccb1e8a2e2787d95aa1294ab
       + [옵트인 참조](mcvid-implementation-guides/opt-in-service/api.md)
       + [(베타) IAB Framework와 함께 옵트인 서비스 사용](mcvid-implementation-guides/opt-in-service/iab.md)
 + ID 서비스 API {#id-service-api}
+   + [ID 서비스 API 개요](mcvid-library/mcvid-library.md)
    + 구성 {#configurations}
       + [구성 개요](mcvid-library/mcvid-function-vars/mcvid-function-vars.md)
       + [audienceManagerServer 및 audienceManagerServerSecure](mcvid-library/mcvid-function-vars/mcvid-subdomain-config.md)
@@ -77,6 +78,7 @@ source-git-commit: c8020fc1cc5acd5fccb1e8a2e2787d95aa1294ab
       + [isClientSideMarketingCloudVisitorID](mcvid-library/mcvid-get-set/mcvid-client-side-id.md)
       + [resetState](mcvid-library/mcvid-get-set/mcvid-resetstate.md)
 + 참조 {#reference}
+   + [참조 개요](mcvid-reference/mcvid-reference.md)
    + Analytics 참조 {#analytics-reference}
       + [분석 참조 개요](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-reference.md)
       + [Analytics 및 Experience Cloud ID 설정](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-ids.md)
@@ -91,6 +93,7 @@ source-git-commit: c8020fc1cc5acd5fccb1e8a2e2787d95aa1294ab
    + [Experience Cloud ID 서비스의 COPPA 지원](mcvid-reference/mcvid-coppa.md)
    + [Experience Cloud ID 서비스의 CORS 지원](mcvid-reference/mcvid-cors.md)
    + [고객 ID 및 인증 상태](mcvid-reference/mcvid-authenticated-state.md)
+   + [Safari ITP World의 ECID 라이브러리 메서드](mcvid-reference/ecid-library-methods.md)
    + [AMCV 쿠키 또는 ID 서비스에서 지역 및 사용자 ID 가져오기](mcvid-reference/mcvid-regions.md)
    + [Experience Cloud ID 서비스 요구 사항](mcvid-reference/mcvid-requirements.md)
    + [비디오 하트비트 및 Experience Cloud ID 서비스](mcvid-reference/mcvid-heartbeat.md)
