@@ -6,7 +6,7 @@ seo-title: 2017 릴리스 노트
 title: 2017 릴리스 노트
 uuid: 79452 DF 0-49 DB -42 B 8-96 FE -01 AA 7629 FBB 5
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -177,7 +177,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> ID 서비스 API 속성, <span class="codeph">idSyncContainerID</span></p> </td> 
-   <td colname="col2"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsyncontainerid.html" format="https" scope="external"> idSyncContainerID</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external"> idSyncContainerID</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 서비스 API 메서드, <span class="codeph"> appendSupplementalDataIDTo( <span class="varname"> URL </span>, <span class="varname"> SDID</span>)</span></p> </td> 
