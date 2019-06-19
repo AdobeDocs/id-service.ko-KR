@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 구현 안내서
 uuid: null
 translation-type: tm+mt
-source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
+source-git-commit: 4dc668afd37cd1d6f9104adb1b102f1dd4c5746e
 
 ---
 
@@ -34,6 +34,6 @@ Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 �
 * [Analytics, Audience Manager 및 Target용 Experience Cloud ID 서비스 구현](mcvid-setup-aam-analytics-target.md)
 * [Target의 서버측 구현 및 A4T에 Experience Cloud ID 서비스 사용](ecid-a4t-target.md)
 * [Experience Cloud ID 서비스와 직접 통합](mcvid-direct-integration.md)
-* [직접 통합 사용 사례](ecid-direct-integration-examples.md)
+* [직접 통합 사용 사례](mcvid-direct-integration-examples.md)
 * [Experience Cloud ID 서비스 테스트 및 확인](mcvid-test-verify.md)
 * [옵트인 서비스 개요](opt-in-service/mcvid-optin-overview.md)
