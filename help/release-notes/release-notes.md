@@ -6,7 +6,7 @@ seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: A 5 A 59410-7 F 85-48 F 9-A 30 A-FEF 1 C 2 E 2 B 558
 translation-type: tm+mt
-source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
+source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스** 입니다. 옵트인은 Adobe Experience Platform Identity Service의 확장으로, Experience Cloud Libraries가 방문자를 위해 웹 페이지에서 쿠키를 만들 수 있는지 여부를 제어할 수 있습니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타 모든 Experience Cloud 솔루션을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화할 수 있습니다.
+**옵트인 서비스** 입니다. 옵트인은 Experience Cloud ID (ECID) 의 확장으로, Experience Cloud Libraries가 방문자를 위해 웹 페이지에서 쿠키를 만들 수 있는지 여부를 제어할 수 있습니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타 모든 Experience Cloud 솔루션을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
