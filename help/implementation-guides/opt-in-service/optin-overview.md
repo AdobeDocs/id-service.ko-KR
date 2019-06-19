@@ -5,7 +5,7 @@ seo-title: 옵트인 서비스
 title: 옵트인 서비스
 uuid: AEBD 72 AD -4118-471 B -9755-D 08 A 72 CAA 0 FD
 translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 옵트인 서비스를 사용하면 방문자가 사이트를 방문할 때 사용자의 장치 또는 브라우저에서 쿠키를 설정할 수 있는지 여부를 결정하기 위한 프로토콜을 설정할 수 있습니다.
 
-옵트인 서비스는 사용자 동의 전에 방문자를 위해 웹 페이지에서 쿠키를 만들 수 있는지 여부를 제어할 수 있도록 고안된 [ECID (](https://marketing.adobe.com/resources/help/en_US/mcvid/) Experience Cloud ID) 서비스의 확장입니다. 또한 옵트인 서비스를 사용하면 더 큰 디자인의 일부로 CMP (Consent Management Platform) 및 기존 시스템과 통합할 프로토콜을 설정할 수 있습니다.
+옵트인 서비스는 사용자 동의 전에 방문자를 위해 웹 페이지에서 쿠키를 만들 수 있는지 여부를 제어할 수 있도록 고안된 Experience Cloud ID (ECID) 의 익스텐션입니다. 또한 옵트인 서비스를 사용하면 더 큰 디자인의 일부로 CMP (Consent Management Platform) 및 기존 시스템과 통합할 프로토콜을 설정할 수 있습니다.
 
 옵트인 서비스를 사용하여 방문자가 한 번에 Adobe 솔루션을 옵트인할 수 있는지 여부를 지정하거나, 권한 순서에 대한 솔루션을 제공할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색할 수 있습니다.
 
