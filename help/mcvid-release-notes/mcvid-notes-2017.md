@@ -6,7 +6,7 @@ seo-title: 2017 릴리스 노트
 title: 2017 릴리스 노트
 uuid: 79452 DF 0-49 DB -42 B 8-96 FE -01 AA 7629 FBB 5
 translation-type: tm+mt
-source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
+source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
 
 ---
 
@@ -74,7 +74,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **개정된 설명서**
 
-다른 [FAQ](/help/mcvid-faq-intro/mcvid-faq-intro.md)[!DNL Experience Cloud] 를 참조하십시오.
+다른 [FAQ](/help/mcvid-faq-intro/ecid-faq-intro.md)[!DNL Experience Cloud] 를 참조하십시오.
 
 ## 버전 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
@@ -134,7 +134,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../mcvid-faq-intro/mcvid-faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../mcvid-faq-intro/ecid-faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
    <td colname="col2"> <p><span class="keyword">Analytics</span> 섹션이 추적 서버 정보를 찾는 방법에 대한 정보로 업데이트되었습니다. </p> </td> 
   </tr> 
  </tbody> 
