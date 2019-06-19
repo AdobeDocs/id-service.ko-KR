@@ -6,7 +6,7 @@ seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
 uuid: 771 B 5 B 11-A 8 E 3-464 C-B 65 E-B 15135584 ACE
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>AMCV 쿠키에 대한 보안이 강화됨 </p> </td> 
-   <td colname="col2"> <p>내부 보안 스캔 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못했음이 확인되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있었습니다. 이 문제를 해결하기 위해 Adobe에서는 고객이 AMCV 쿠키를 보안 설정할 수 있는 구성을 도입했습니다. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-securecookie.html" format="https" scope="external">secureCookie</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>내부 보안 스캔 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못했음이 확인되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있었습니다. 이 문제를 해결하기 위해 Adobe에서는 고객이 AMCV 쿠키를 보안 설정할 수 있는 구성을 도입했습니다. <a href="/help/library/function-vars/securecookie.md" format="https" scope="external">secureCookie</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
