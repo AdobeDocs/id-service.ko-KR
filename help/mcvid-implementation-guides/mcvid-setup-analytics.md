@@ -6,7 +6,7 @@ seo-title: Analytics용 Experience Cloud ID 서비스 구현
 title: Analytics용 Experience Cloud ID 서비스 구현
 uuid: 7 FBD 6 FA 0-1713-4232-8680-500 ED 62709 D 5
 translation-type: tm+mt
-source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
+source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
 
 ---
 
@@ -134,7 +134,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 
 
-추적 서버를 찾는 방법을 모를 경우 [FAQ를](../mcvid-faq-intro/mcvid-faq.md) 참조하고 [trackingserver 및 trackingserversecure 변수를 올바로](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)채우십시오.
+추적 서버를 찾는 방법을 모를 경우 [FAQ를](../mcvid-faq-intro/ecid-faq.md) 참조하고 [trackingserver 및 trackingserversecure 변수를 올바로](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)채우십시오.
 
 ## 5 단계: Appmeasurement. js 또는 s_ code. js 파일 업데이트 {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
