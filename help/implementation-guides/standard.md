@@ -6,7 +6,7 @@ seo-title: 다이내믹 태그 관리를 사용한 구현
 title: 다이내믹 태그 관리를 사용한 구현
 uuid: C 4 F 752 C 4-392 E -4909-B 178-911706857064
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
 
 >[!NOTE]
 >
->현재, Launch는 [Adobe가](https://docs.adobelaunch.com/) 권장하고 권장하는 구현 도구로, 복잡한 태그 관리 작업을 단순화하고 코드 배치를 DTM의 기능 이상으로 자동화하므로 권장됩니다. Launch [with Launch](../implementation-guides/ecid-implement-with-launch.md)를 참조하십시오.
+>현재 [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) 는 복잡한 태그 관리 작업을 간소화하고 DTM의 기능 이상으로 코드 배치를 자동화하는 데 도움이 되므로 권장되고 권장되는 구현 도구입니다. Launch [with Launch](../implementation-guides/ecid-implement-with-launch.md)를 참조하십시오.
 
 ## 다이내믹 태그 관리 및 ID 서비스 {#section-4a4c4fac5d0a4cbbaff8e1833f73657c}
 
