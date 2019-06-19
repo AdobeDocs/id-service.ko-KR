@@ -5,7 +5,7 @@ seo-title: 옵트인 서비스 설정
 title: 옵트인 서비스 설정
 uuid: F 1 C 27139-CEF 2-4122-AF 12-C 839 CFC 82 E 6 E
 translation-type: tm+mt
-source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 옵트인 서비스를 Experience Cloud 솔루션 (옵트인) 에서 사용되는 단일 참조점으로 구현하여 방문자의 장치에서 쿠키를 만들지 여부를 결정합니다.
 
-옵트인 서비스는 [Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) 에 번들로 제공되는 JavaScript 라이브러리로, 개체 내의 방문자 JS에 `adobe``adobe.optIn` 개체로 존재합니다. 설치된 옵트인 서비스를 사용하면 방문자가 Adobe 솔루션에 한 번에 옵트인할 수 있는지 여부를 지정하거나 각 솔루션에 대한 권한을 순서대로 제공할 수 있습니다. 옵트인 서비스 동의 관리 기능을 사용하면 특정 개인정보 보호 요구 사항에 대한 다양한 구성으로 구현할 수 있습니다.
+옵트인 서비스는 Adobe Experience Platform Identity Service에 번들로 제공되는 JavaScript 라이브러리로, 개체 내의 방문자 JS에 `adobe``adobe.optIn` 개체로 존재합니다. 설치된 옵트인 서비스를 사용하면 방문자가 Adobe 솔루션에 한 번에 옵트인할 수 있는지 여부를 지정하거나 각 솔루션에 대한 권한을 순서대로 제공할 수 있습니다. 옵트인 서비스 동의 관리 기능을 사용하면 특정 개인정보 보호 요구 사항에 대한 다양한 구성으로 구현할 수 있습니다.
 
 옵트인 서비스를 사용하면 방문자가 한 번에 Adobe 솔루션을 옵트인할 수 있는지 여부를 지정하거나 각 솔루션에 대한 권한을 순서대로 제공할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색하여 관련된 동의 호출에 응답할 수 있습니다.
 
