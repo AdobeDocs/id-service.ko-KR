@@ -5,7 +5,7 @@ audience: 최종 사용자
 user-guide-title: Experience Platform Identity Service 도움말
 user-guide-url: /content/help/en/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 1af38efa5e85c09548a6dee6c9c550900f90a8ed
+source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 ---
 
@@ -81,7 +81,7 @@ source-git-commit: 1af38efa5e85c09548a6dee6c9c550900f90a8ed
    + [참조 개요](reference/reference.md)
    + Analytics 참조 {#analytics-reference}
       + [분석 참조 개요](reference/analytics-reference/analytics-reference.md)
-      + [Analytics 및 ID 설정](reference/analytics-reference/analytics-ids.md)
+      + [Analytics 및 Experience Cloud ID 설정](reference/analytics-reference/analytics-ids.md)
       + [Analytics ID 작업 순서](reference/analytics-reference/analytics-order-of-operations.md)
       + [ID 서비스 마이그레이션 의사 결정 지점](reference/analytics-reference/migration-decisions.md)
       + [Identity Service 마이그레이션 시나리오](reference/analytics-reference/migration-scenarios.md)
