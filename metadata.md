@@ -12,7 +12,7 @@ tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/id-service.en
 index: true
 translation-type: tm+mt
-source-git-commit: cacc5a1e1591a4b7b5906711b157527a283d7731
+source-git-commit: 530026cd3bb89b33036e415fcc89e95414f0837a
 
 ---
 
