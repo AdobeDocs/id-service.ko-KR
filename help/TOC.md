@@ -3,16 +3,16 @@ cloud: experience-cloud
 product: ID 서비스
 audience: 최종 사용자
 user-guide-title: ID 서비스 도움말
-user-guide-url: /content/help/en/id-service/using/mcvid-home.html
+user-guide-url: /content/help/en/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 1dd8b109f7e9567b5f72747ecc653d35d0942413
+source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
 
 ---
 
 
 # ID 서비스 도움말 {#using}
 
-+ [Experience Cloud ID 서비스](mcvid-home.md)
++ [Experience Cloud ID 서비스](home.md)
 + 개요 {#mcvid-introduction}
    + [개요](mcvid-introduction/mcvid-overview.md)
    + [ID 서비스 정보](mcvid-introduction/mcvid-about-id-service.md)
@@ -30,7 +30,7 @@ source-git-commit: 1dd8b109f7e9567b5f72747ecc653d35d0942413
    + [Analytics, Audience Manager 및 Target용 Experience Cloud ID 서비스 구현](mcvid-implementation-guides/mcvid-setup-aam-analytics-target.md)
    + [Target의 서버측 구현 및 A4T에 Experience Cloud ID 서비스 사용](mcvid-implementation-guides/ecid-a4t-target.md)
    + [Experience Cloud ID 서비스와 직접 통합](mcvid-implementation-guides/mcvid-direct-integration.md)
-   + [직접 통합 사용 사례](mcvid-implementation-guides/mcvid-direct-integration-examples.md)
+   + [직접 통합 사용 사례](mcvid-implementation-guides/ecid-direct-integration-examples.md)
    + [Experience Cloud ID 서비스 테스트 및 확인](mcvid-implementation-guides/mcvid-test-verify.md)
    + 옵트인 설명서 {#opt-in-service}
       + [옵트인 서비스 개요](mcvid-implementation-guides/opt-in-service/mcvid-optin-overview.md)
@@ -99,10 +99,10 @@ source-git-commit: 1dd8b109f7e9567b5f72747ecc653d35d0942413
    + [비디오 하트비트 및 Experience Cloud ID 서비스](mcvid-reference/mcvid-heartbeat.md)
    + [Data Workbench 및 Experience Cloud ID 서비스](mcvid-reference/mcvid-dwb.md)
 + FAQ {#faqs}
-   + [FAQ 개요](mcvid-faq-intro/mcvid-faq-intro.md)
-   + [ID 서비스 FAQ](mcvid-faq-intro/mcvid-faq.md)
-   + [Analytics 및 ID 서비스 FAQ](mcvid-faq-intro/mcvid-analytics-faq.md)
-   + [기타 Experience Cloud 솔루션에 대한 FAQ](mcvid-faq-intro/mcvid-other-faq.md)
+   + [FAQ 개요](mcvid-faq-intro/ecid-faq-intro.md)
+   + [ID 서비스 FAQ](mcvid-faq-intro/ecid-faq.md)
+   + [Analytics 및 ID 서비스 FAQ](mcvid-faq-intro/ecid-analytics-faq.md)
+   + [기타 Experience Cloud 솔루션에 대한 FAQ](mcvid-faq-intro/ecid-other-faq.md)
 + ID 서비스 릴리스 노트 {#release-notes}
    + [2019 릴리스 노트](mcvid-release-notes/mcvid-release-notes.md)
    + [2018 릴리스 노트](mcvid-release-notes/mcvid-notes-2018.md)
