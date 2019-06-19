@@ -6,7 +6,7 @@ seo-title: Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구�
 title: Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현
 uuid: d 46050 ae -87 de -46 cc -911 b-d 6346 c 7 fd 511
 translation-type: tm+mt
-source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
+source-git-commit: 4dc668afd37cd1d6f9104adb1b102f1dd4c5746e
 
 ---
 
@@ -133,7 +133,7 @@ Analytics는 데이터 수집 시 추적 서버를 사용합니다.
 * Experience Cloud 서버 URL = 추적 서버 URL
 * Experience Cloud 서버 보안 URL = 추적 서버 보안 URL
 
-추적 서버를 찾는 방법을 모를 경우 [FAQ](../mcvid-faq-intro/ecid-faq.md)와 [trackingServer 및 trackingServerSecure 변수 올바로 채우기를 참조하십시오](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+추적 서버를 찾는 방법을 모를 경우 [FAQ](../mcvid-faq-intro/mcvid-faq.md)와 [trackingServer 및 trackingServerSecure 변수 올바로 채우기를 참조하십시오](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## 6 단계: Appmeasurement. js 파일 업데이트 {#section-5517e94a09bc44dfb492ebca14b43048}
 
