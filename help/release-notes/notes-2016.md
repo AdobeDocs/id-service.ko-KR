@@ -6,7 +6,7 @@ seo-title: 2016 릴리스 노트
 title: 2016 릴리스 노트
 uuid: 7 A 5 A 314 A -3 FF 8-4561-9 C 64-6 C 10 D 2223887
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
 >[!IMPORTANT]
 >
 >* 버전 1.10 에는 [!DNL AppMeasurement] 1.8.0 이 필요합니다.
->* Experience Platform Identity Service Library 2.0.0 +를 사용하면 기본적으로 ID 동기화가 Adobe Media Optimizer에 대해 시작됩니다. [ID 동기화 및 일치율 이해](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-match-rates.html)를 참조하십시오.
->
-
+>* Experience Platform Identity Service Library 2.0.0 +를 사용하면 기본적으로 ID 동기화가 Adobe Media Optimizer에 대해 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
 
 
 **수정 사항 및 향상된 기능**
