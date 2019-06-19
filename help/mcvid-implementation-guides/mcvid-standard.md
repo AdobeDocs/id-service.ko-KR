@@ -6,7 +6,7 @@ seo-title: 다이내믹 태그 관리를 사용한 구현
 title: 다이내믹 태그 관리를 사용한 구현
 uuid: C 4 F 752 C 4-392 E -4909-B 178-911706857064
 translation-type: tm+mt
-source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
+source-git-commit: 4dc668afd37cd1d6f9104adb1b102f1dd4c5746e
 
 ---
 
@@ -94,7 +94,7 @@ mcvid-dtm-implement.xml
    >
    >그러면 **[!UICONTROL Experience Cloud 조직 ID]** 상자가 조직 ID로 채워집니다. DTM 계정이 [!DNL Experience Cloud]와 연결되지 않은 경우 해당 ID를 입력해야 합니다. 계정을 연결하려면 [Experience Cloud에서 계정 연결](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)을 참조하십시오. 조직 ID를 찾는 방법에 대한 자세한 내용은 [요구 사항](../mcvid-reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26)을 참조하십시오.
 
-1. **[!UICONTROL 추적 서버]** 상자에 추적 서버 이름을 입력합니다. 추적 서버를 찾는 방법을 모를 경우 [FAQ를](../mcvid-faq-intro/ecid-faq.md) 참조하고 [trackingserver 및 trackingserversecure 변수를 올바로](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)채우십시오.
+1. **[!UICONTROL 추적 서버]** 상자에 추적 서버 이름을 입력합니다. 추적 서버를 찾는 방법을 모를 경우 [FAQ를](../mcvid-faq-intro/mcvid-faq.md) 참조하고 [trackingserver 및 trackingserversecure 변수를 올바로](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)채우십시오.
 1. 도구 **[!UICONTROL 만들기를 클릭하고]** 변경 내용을 **[!UICONTROL 저장합니다]**.
 
    저장하면 ID 서비스가 DTM에 도구로 설정됩니다. 하지만 아직 사용할 준비가 된 것은 아닙니다. DTM 도구는 여전히 DTM 게시/승인 프로세스를 거쳐야 하며, 추가 매개 변수를 구성해야 할 수도 있습니다. DTM 승인 프로세스에 대한 자세한 정보는 [사용자 기본사항 빠른 시작(User Basics Jump Start)](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) 비디오를 참조하십시오. DTM에 추가할 수 있는 매개 변수에 대한 자세한 정보는 [DTM에 대한 Experience Cloud ID 서비스 설정](../mcvid-implementation-guides/mcvid-standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
