@@ -6,7 +6,7 @@ seo-title: 데이터 수집 CNAME 및 도메인 간 추적
 title: 데이터 수집 CNAME 및 도메인 간 추적
 uuid: BA 42 C 822-B 677-4139-B 1 ED -4 D 98 D 3320 FD 0
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -35,16 +35,16 @@ demdex.net 쿠키를 사용하여 방문자 ID 서비스는 Analytics의 s_vi �
 
 Apple Safari 및 일부 다른 브라우저의 서드 파티 컨텍스트에서 퍼스트 파티 쿠키를 사용하는 방식 때문에, CNAME을 사용하면 기본 도메인과 동일한 추적 서버를 사용하는 추가 도메인 사이에서 고객을 추적할 수 있습니다.
 
-예를 들어 `mymainsite.com`에 기본 사이트가 있다고 합니다. 보안 데이터 수집 서버를 가리키도록 CNAME 레코드를 구성했습니다. `smetrics.mymainsite.com`.
+예를 들어 `mymainsite.com`에 기본 사이트가 있다고 합니다. You configured the CNAME record to point to your secure data collection server: `smetrics.mymainsite.com`.
 
-사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. 데이터 수집 서버의 도메인이 웹 사이트의 도메인과 일치하기 때문에 허용되며 *, 퍼스트 파티 컨텍스트에서*쿠키를 사용하거나 퍼스트 파티 쿠키만 *사용합니다*.
+사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. This is allowed since the domain of the data collection server matches the domain of the website, and is what is known as using a cookie in a *first-party context*, or just a *first-party cookie*.
 
-다른 사이트에서 이와 동일한 데이터 수집 서버를 사용하는 경우 (예: `myothersiteA.com`및 `myothersiteB.com`) 방문자가 나중에 이러한 사이트를 방문하면 방문 동안 설정된 쿠키가 데이터 수집 `mymainsite.com` 서버로 HTTPS 요청으로 전송됩니다 (도메인이 현재 도메인의 도메인과 일치하지 않는 경우에도 해당 도메인에 대한 모든 쿠키를 포함하는 도메인의 모든 쿠키를 보냅니다.). 웹 사이트를 참조하십시오. 이를 *타사 컨텍스트에서*쿠키 사용 또는 *타사 쿠키라고*하며, 이를 통해 다른 도메인에서 동일한 방문자 ID를 사용할 수 있습니다. 브라우저는 타사 컨텍스트에서 퍼스트 파티 쿠키와 다르게 쿠키를 처리합니다.
+If you are also using this same data collection server on other sites (for example, `myothersiteA.com`, and `myothersiteB.com`), and a visitor later visits these sites, the cookie that was set during the visit to `mymainsite.com` is sent in the HTTPS request to the data collection server (remember that browsers send all cookies for a domain with all HTTPS requests to that domain, even if the domain doesn&#39;t match the domain of the current website). This is what is known as using a cookie in a *third-party context*, or just a *third-party cookie*, and it enables the same visitor ID to be used on these other domains. 브라우저는 타사 컨텍스트에서 퍼스트 파티 쿠키와 다르게 쿠키를 처리합니다.
 
 *참고: Safari는 서드 파티 컨텍스트에서 쿠키 설정 방법에 관계없이 모든 쿠키를 차단합니다.*
 
-따라서 도메인 간 방문자 식별을 위해서는 수집 도메인이 사람들이 흔히 방문하는 도메인이 되어야 합니다. 데이터 수집 도메인에 사용할 *공통* 도메인이 없는 경우 데이터 수집 도메인의 CNAME 유지 관리에는 크로스 도메인 이점이 없습니다. 처음에 기본 시작 사이트를 방문하지 않으면 방문자는 보조 사이트 및 기본 사이트에서 다르게 식별됩니다.
+따라서 도메인 간 방문자 식별을 위해서는 수집 도메인이 사람들이 흔히 방문하는 도메인이 되어야 합니다. If there is no *common* domain to use for the data collection domain, there is no cross-domain benefit to maintaining a CNAME for the data collection domain. 처음에 기본 시작 사이트를 방문하지 않으면 방문자는 보조 사이트 및 기본 사이트에서 다르게 식별됩니다.
 
-## 경험 플랫폼 ID 서비스로 CNAME 지원 활성화 {#section-25d4feb686d944e3a877d7aad8dbdf9a}
+## Experience Cloud ID 서비스로 CNAME 지원 설정 {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
-데이터 수집 서버 CNAME 지원은 `visitor.marketingCloudServerSecure` 변수를 설정하여 지원합니다.
+Data collection server CNAME support is enabled by setting the `visitor.marketingCloudServerSecure` variables.
