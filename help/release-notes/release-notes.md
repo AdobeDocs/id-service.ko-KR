@@ -1,19 +1,19 @@
 ---
-description: 경험 플랫폼 ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항.
+description: Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
 keywords: ID 서비스
-seo-description: 경험 플랫폼 ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항.
+seo-description: Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: A 5 A 59410-7 F 85-48 F 9-A 30 A-FEF 1 C 2 E 2 B 558
 translation-type: tm+mt
-source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-경험 플랫폼 ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항.
+Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
 
 ## 릴리스 노트 {#topic-1b9a1c3ec5044e1c987785950f697e25}
 
@@ -27,6 +27,6 @@ source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 | 항목 | 설명 |
 |---|---|
-| 문자열을 전달한 경우 `disableIdSyncs` 플래그가 작동하지 않습니다. | 수정했습니다. 함수에 대한 `disableidSyncs``getInstance` 매개 변수에 설정된 값이 이제 유지됩니다. |
+| 문자열을 전달한 경우 `disableIdSyncs` 플래그가 작동하지 않습니다. | 수정했습니다. Values set on `disableidSyncs` parameter for `getInstance` function are now being honored. |
 | 타사 iFrames에서 ECID를 가져오지 않음 | Safari Mobil의 ECID 및 작동하지 않는 여러 iFrames의 ECID가 수정되었습니다. |
 
