@@ -2,16 +2,16 @@
 description: 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
 keywords: ID 서비스
 seo-description: 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
-seo-title: Experience Platform Identity Service 마이그레이션 시나리오
-title: Experience Platform Identity Service 마이그레이션 시나리오
+seo-title: Experience Cloud ID 서비스 마이그레이션 시나리오
+title: Experience Cloud ID 서비스 마이그레이션 시나리오
 uuid: 9 E 229045-6508-48 C 4-AE 39-9537 B 4941853
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Experience Platform Identity Service 마이그레이션 시나리오 {#experience-cloud-id-service-migration-scenarios}
+# Experience Cloud ID 서비스 마이그레이션 시나리오 {#experience-cloud-id-service-migration-scenarios}
 
 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
 
@@ -34,7 +34,7 @@ source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
 * **Analytics JavaScript 파일**: 여러 JavaScript 파일. 하나는 기본 사이트를 위한 파일이고 다른 파일은 별도의 CMS에 유지 관리되는 지원 섹션을 위한 파일입니다.
 * **기타 데이터 수집 방법**: 한 사이트 섹션의 하드 코딩된 이미지 태그
 
-먼저 이 고객이 해당 Adobe Experience Cloud 조직 ID를 찾아야 합니다( [요구 사항](../../reference/requirements.md)). 다음으로, 여러 JavaScript 파일을 사용하고 있으므로 마이그레이션 유예 기간을 구성해야 합니다. 이 고객은 방문자 마이그레이션을 설정한 다음에서 `*.2o7.net` 마이그레이션합니다 `*.sc.omtrdc.net`.
+먼저 이 고객이 해당 Adobe Experience Cloud 조직 ID를 찾아야 합니다( [요구 사항](../../reference/requirements.md)). 다음으로, 여러 JavaScript 파일을 사용하고 있으므로 마이그레이션 유예 기간을 구성해야 합니다. This customer will also set up visitor migration and then migrate from `*.2o7.net` to `*.sc.omtrdc.net`.
 
 이 고객이 [!DNL Experience Cloud] ID 서비스 롤아웃을 준비하는 동안 최신 Analytics JavaScript 코드로 업데이트하면 대신 JavaScript를 사용하도록 하드 코딩된 이미지 태그도 모두 업데이트됩니다.
 
