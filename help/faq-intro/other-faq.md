@@ -6,12 +6,12 @@ seo-title: 다른 Experience Cloud 솔루션에 대한 FAQ
 title: 다른 Experience Cloud 솔루션에 대한 FAQ
 uuid: 7 d 848663-6 cbb -4 d 80-ab 06-7 b 6 d 2 dc 20 e 2 b
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# 다른 Experience Cloud 솔루션에 대한 FAQ{#faqs-for-other-experience-cloud-solutions}
+# FAQs for other Experience Cloud solutions{#faqs-for-other-experience-cloud-solutions}
 
 ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 
@@ -25,7 +25,7 @@ ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 
 
 ## Analytics 및 Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
-**Experience Platform Identity Service를 구현하면 사용자의 방문 내역을에서[!DNL Adobe Analytics][!DNL Audience Manager]내역으로 내보냅니까?**
+**Experience Cloud ID 서비스를 구현하면 사용자 방문 기록이[!DNL Adobe Analytics]에서[!DNL Audience Manager]로 내보내집니까?**
 
 다음 두 가지 옵션을 사용할 수 있습니다.
 
