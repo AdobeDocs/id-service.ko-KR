@@ -1,19 +1,19 @@
 ---
-description: 경험 플랫폼 ID 서비스가 ID 동기화 iframe를 로드하는 방법을 제어하는 선택적 부울 플래그입니다.
+description: Experience Cloud ID 서비스가 ID 동기화 iframe를 로드하는 방법을 제어하는 선택적 부울 플래그입니다.
 keywords: ID 서비스
-seo-description: 경험 플랫폼 ID 서비스가 ID 동기화 iframe를 로드하는 방법을 제어하는 선택적 부울 플래그입니다.
+seo-description: Experience Cloud ID 서비스가 ID 동기화 iframe를 로드하는 방법을 제어하는 선택적 부울 플래그입니다.
 seo-title: idSyncAttachIframeOnWindowLoad
 title: idSyncAttachIframeOnWindowLoad
 uuid: aa 2 c 2 fa 4-2 cab -4 e 08-8 d 35-729 a 6 c 3 e 459 a
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # idSyncAttachIframeOnWindowLoad{#idsyncattachiframeonwindowload}
 
-경험 플랫폼 ID 서비스가 ID 동기화 iframe를 로드하는 방법을 제어하는 선택적 부울 플래그입니다.
+Experience Cloud ID 서비스가 ID 동기화 iframe를 로드하는 방법을 제어하는 선택적 부울 플래그입니다.
 
 **구문:**` `Idsyncattachiframeonwindowload = true | false &quot; `false`(기본값은
 
