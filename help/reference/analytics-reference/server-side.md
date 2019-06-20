@@ -6,7 +6,7 @@ seo-title: JavaScript와 혼합된 서버측 구현
 title: JavaScript와 혼합된 서버측 구현
 uuid: 256 EA 0 E 7-1 EB 4-4 C 92-9 A 7 E-F 61 CB 1 ED 13 C 7
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -21,16 +21,16 @@ Experience Cloud 방문자 ID와 Analytics 방문자 ID를 모두 확인하고 �
 
 >[!IMPORTANT]
 >
->Java 용 appmeasurement는 현재 Experience Platform Identity Service를 지원하지 않습니다.
+>Appmeasurement for Java는 현재 Experience Cloud ID 서비스를 지원하지 않습니다.
 
 ## 데이터 삽입 API {#section-955ce7664a4646d38b3005cb2df40baf}
 
-Analytics 방문자 ID (설정된 경우) 를 `<visitorID>` 요소에 포함합니다.
+Include the Analytics visitor ID (if set) in the `<visitorID>` element.
 
-요소에 Experience Cloud 방문자 ID `<marketingCloudVisitorID>` 를 포함합니다.
+Include the Experience Cloud visitor ID in the `<marketingCloudVisitorID>` element.
 
 [지원되는 XML 태그](https://marketing.adobe.com/developer/en_US/documentation/data-insertion/r-supported-tags)를 참조하십시오.
 
 ## Java용 AppMeasurement {#section-d664b94934924d048300d9c2b6560085}
 
-Appmeasurement for Java는 현재 Experience Platform Identity Service를 지원하지 않습니다.
+Appmeasurement for Java는 현재 Experience Cloud ID 서비스를 지원하지 않습니다.
