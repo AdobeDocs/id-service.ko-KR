@@ -1,19 +1,19 @@
 ---
-description: Experience Platform Identity Service를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고, 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 잠재적인 문제를 이해해야 합니다.
+description: Experience Cloud ID 서비스를 배포하기 전에 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고 잠재적인 문제를 이해해야 합니다.
 keywords: ID 서비스
-seo-description: Experience Platform Identity Service를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고, 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 잠재적인 문제를 이해해야 합니다.
-seo-title: Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험
-title: Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험
+seo-description: Experience Cloud ID 서비스를 배포하기 전에 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고 잠재적인 문제를 이해해야 합니다.
+seo-title: Experience Cloud ID 서비스 마이그레이션 의사 결정 지점
+title: Experience Cloud ID 서비스 마이그레이션 의사 결정 지점
 uuid: ee 56 b 5 de-fcf 3-4 cfb -9 e 53-762 af 7 c 4 d 2 ff
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험
+# Experience Cloud ID 서비스 마이그레이션 의사 결정 지점
 
-Experience Platform Identity Service를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고, 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 잠재적인 문제를 이해해야 합니다.
+Experience Cloud ID 서비스를 배포하기 전에 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고 잠재적인 문제를 이해해야 합니다.
 
 이 섹션의 질문에 답변하여 수행해야 하는 추가 마이그레이션 단계를 확인하십시오.
 
