@@ -2,22 +2,22 @@
 description: ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 keywords: ID 서비스
 seo-description: ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
-seo-title: Experience Platform Identity Service가 ID를 요청하고 설정하는 방법
-title: Experience Platform Identity Service가 ID를 요청하고 설정하는 방법
+seo-title: Experience Cloud ID 서비스가 ID 요청 및 설정
+title: Experience Cloud ID 서비스가 ID 요청 및 설정
 uuid: FF 7 F 5 B 7 E-E 959-4391-B 75 C-B 7 A 36286 E 0 EA
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Experience Platform Identity Service가 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# How the Experience Cloud ID Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 
 >[!NOTE]
 >
->Experience Platform Identity Service에서 방문자 ID를 만드는 방법에 익숙하지 않은 경우 잠시 시간을 내어 [Experience Cloud](../introduction/cookies.md)를 검토하십시오.
+>If you&#39;re not familiar with how the Experience Cloud ID Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
 
 **팁:** [교차 도메인 추적에 나와 있는 ID 서비스 비디오](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html)를 참조하십시오.
 
@@ -44,7 +44,7 @@ ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이
 
 다음 예제와 같이 방문자가 Food Company에 속하는 다른 사이트로 이동할 경우 ID 서비스는 demdex ID 및 조직 ID를 사용하여 올바른 MID를 만들고 반환할 수 있습니다.
 
-## 사이트 간 요청 및 응답 {#section-15ea880453af467abd2874b8b4ed6ee9}
+## Cross-site request and response {#section-15ea880453af467abd2874b8b4ed6ee9}
 
 이 예제에서 Food Company 방문자는 피자 사이트에서 타코 사이트로 이동합니다. Food Company의 타코 웹 사이트에는 ID 서비스 코드가 있습니다. 방문자는 타코 웹 사이트를 방문해본 적이 없습니다.
 
@@ -56,7 +56,7 @@ DCS는 조직 ID 및 demdex ID를 수신한 후에 사이트 방문자에 대한
 
 ![](assets/response2.png)
 
-## 다른 사이트의 ID 요청 {#section-ba9a929e50d64b0aba080630fd83b6f1}
+## ID requests from other sites {#section-ba9a929e50d64b0aba080630fd83b6f1}
 
 이 예제에서 방문자는 Food Company 사이트를 나간 후 Sports Company에서 소유하는 축구 사이트로 이동합니다. 방문자가 축구 사이트를 방문하면 ID 확인 및 요청 프로세스가 이전 예제에서 설명한 것과 동일한 방식으로 작동합니다. 그렇지만 Sports Company에는 자체 조직 ID가 있으므로 ID 서비스는 다른 MID를 반환합니다. 새 MID는 Sports Company에서 제어하는 도메인에 고유하며, 해당 기업이 [!DNL Experience Cloud]에서 솔루션 간에 방문자 데이터를 추적하고 공유할 수 있게 해 줍니다. demdex ID는 타사 쿠키에 포함되고 도메인이 달라져도 그대로 유지되므로 이 방문자에 대해 동일하게 유지됩니다.
 
