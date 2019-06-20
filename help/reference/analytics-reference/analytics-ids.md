@@ -1,19 +1,19 @@
 ---
-description: Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+description: Experience Cloud ID 서비스는 이전 Analytics 방문자 ID 방식을 대체합니다.
 keywords: ID 서비스
-seo-description: Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+seo-description: Experience Cloud ID 서비스는 이전 Analytics 방문자 ID 방식을 대체합니다.
 seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421 cf 597-a 3 e 0-4 ca 3-8 ce 8-d 0 c 80 cbb 6 aca
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # Analytics 및 Experience Cloud ID 설정{#setting-analytics-and-experience-cloud-ids}
 
-Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+Experience Cloud ID 서비스는 이전 Analytics 방문자 ID 방식을 대체합니다.
 
 ID 서비스가 구현된 후에 이 코드가 AppMeasurement 이전에 실행됩니다. ID 서비스는 Experience Cloud 및 Analytics ID를 검색하므로 AppMeasurement가 로드되면 이러한 값을 사용할 수 있습니다.
 
