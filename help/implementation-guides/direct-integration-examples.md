@@ -6,24 +6,24 @@ seo-title: 직접 통합 사용 사례
 title: 직접 통합 사용 사례
 uuid: 6 de 1 EB 8 B -4783-4545-8 A 64-AB 6 B 9 EF 93432
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# 직접 통합 사용 사례 {#direct-integration-use-cases}
+# Direct integration use cases {#direct-integration-use-cases}
 
 이러한 예제에서는 직접 통합 및 Experience Cloud ID(MID)와 관련된 2가지 공통 사용 사례를 다룹니다. MID는 사이트 방문자의 고유한 영구 ID입니다.
 
 >[!TIP]
 >
->* 사용 사례에 들어가기 전에 [코드 구문 및 변수를](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) 검토하고 이해할 수 있습니다.
->* MID에 대한 자세한 내용은 [쿠키 및 Experience Platform Identity Service](../introduction/cookies.md)를 참조하십시오.
+>* Review and understand the [code syntax and variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases.
+>* For more information about the MID, see [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
 >
 
 
 
-## 사용 사례 1: mid가 있지만 방문자 ID를 전달하고 인증 상태를 설정하려면 {#section-a67d89a343754d1286d03cf08d34b806}
+## Use case 1: I have a MID but want to pass my Visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -65,7 +65,7 @@ source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
  </tbody> 
 </table>
 
-## 사용 사례 2: MID가 없고 하나 생성 {#section-8e81291f8b684de8b88fae4002ae0029}
+## Use case 2: I do not have a MID and need to generate one {#section-8e81291f8b684de8b88fae4002ae0029}
 
 <table id="table_666A92693F8A413096DF6A64770C1141"> 
  <thead> 
