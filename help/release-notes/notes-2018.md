@@ -1,19 +1,19 @@
 ---
-description: 2018 년 Experience Platform Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
+description: 2018 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
 keywords: ID 서비스
-seo-description: 2018 년 Experience Platform Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
+seo-description: 2018 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
 seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
 uuid: 771 B 5 B 11-A 8 E 3-464 C-B 65 E-B 15135584 ACE
 translation-type: tm+mt
-source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # 2018 릴리스 노트 {#release-notes}
 
-2018 년 Experience Platform Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
+2018 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
 
 ## 버전 3.3 {#section-3202c8d5457a45a5b5f4b4c838d44de3}
 
@@ -69,7 +69,7 @@ source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>고유 방문자 수의 비정상적인 급증 </p> </td> 
-   <td colname="col2"> <p>Experience Platform Identity Service 3.1.0 릴리스에서는 이 버전이 구현되었을 때 고유 방문자 카운트에 비현실적인 스파이크가 발생하는 문제를 발견했습니다. 이 동작은 최신 버전의 ECID v3.1.0 및 사용자가 Safari 브라우저의 개인정보 보호 설정에서 "현재 웹 사이트에서만 허용" 선택 사항을 선택한 경우에만 발생합니다. 버전 3.1.2에서 이 문제를 수정했습니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID 서비스 3.1.0이 릴리스된 후 이 버전을 구현할 때 고유 방문자 수가 비정상적으로 급증하는 문제가 발견되었습니다. 이 동작은 최신 버전의 ECID v3.1.0 및 사용자가 Safari 브라우저의 개인정보 보호 설정에서 "현재 웹 사이트에서만 허용" 선택 사항을 선택한 경우에만 발생합니다. 버전 3.1.2에서 이 문제를 수정했습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
