@@ -2,16 +2,16 @@
 description: CSP(컨텐츠 보안 정책)는 브라우저에서 웹 페이지에 로드되는 리소스 유형에 대한 제어 권한을 제공하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하며, 신뢰할 수 있는 도메인의 리소스를 승인하는 데 화이트리스트를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 화이트리스트에 추가해야 합니다.
 keywords: ID 서비스
 seo-description: CSP(컨텐츠 보안 정책)는 브라우저에서 웹 페이지에 로드되는 리소스 유형에 대한 제어 권한을 제공하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하며, 신뢰할 수 있는 도메인의 리소스를 승인하는 데 화이트리스트를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 화이트리스트에 추가해야 합니다.
-seo-title: 컨텐츠 보안 정책 및 경험 플랫폼 ID 서비스
-title: 컨텐츠 보안 정책 및 경험 플랫폼 ID 서비스
+seo-title: 컨텐츠 보안 정책 및 Experience Cloud ID 서비스
+title: 컨텐츠 보안 정책 및 Experience Cloud ID 서비스
 uuid: 7399 EDF 3-01 C 1-4730-834 E-E 2 DD 2 C 5791 FF
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# 컨텐츠 보안 정책 및 경험 플랫폼 ID 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
+# 컨텐츠 보안 정책 및 Experience Cloud ID 서비스{#content-security-policies-and-the-experience-cloud-id-service}를 참조하십시오 
 
 CSP(컨텐츠 보안 정책)는 브라우저에서 웹 페이지에 로드되는 리소스 유형에 대한 제어 권한을 제공하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하며, 신뢰할 수 있는 도메인의 리소스를 승인하는 데 화이트리스트를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 화이트리스트에 추가해야 합니다.
 
@@ -53,7 +53,7 @@ CSP 사용이 일반적이며 잘 알려져 있습니다. 이 설명서의 목�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>방문자 ID 서비스</b> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">*.demdex.net</span>을 포함하도록 CSP를 수정합니다. </p> <p><span class="codeph"> demdex. net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 경험 플랫폼 ID 서비스</a> 및 ID 동기화 생성에 사용됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="codeph">*.demdex.net</span>을 포함하도록 CSP를 수정합니다. </p> <p><span class="codeph"> demdex. net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 Experience Cloud ID 서비스</a> 및 ID 동기화 생성에 사용됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
