@@ -1,19 +1,19 @@
 ---
-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 keywords: ID 서비스
-seo-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
-seo-title: 경험 플랫폼 ID 서비스의 CORS 지원
-title: 경험 플랫폼 ID 서비스의 CORS 지원
+seo-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+seo-title: Experience Cloud ID 서비스의 CORS 지원
+title: Experience Cloud ID 서비스의 CORS 지원
 uuid: E 656 B 573-72 A 8-4312-A 7 D 5-5 CC 3818 F 0 A 9 E
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# 경험 플랫폼 ID 서비스의 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스의 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
 
-CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 
 ## 동일 출처 정책 및 ID 서비스 요청 문제 {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
