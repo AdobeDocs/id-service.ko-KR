@@ -6,7 +6,7 @@ seo-title: 고객 ID 및 인증 상태
 title: 고객 ID 및 인증 상태
 uuid: 643 DF 363-224 A -463 E-A 332-BE 59926 B 47 E 7
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증 상태와 �
 >
 >`setCustomerIDs` (고객 ID 동기화) 는 고객 속성 및 핵심 서비스 기능에서 필요합니다. 고객 ID 동기화는 [!DNL Analytics]의 선택적 식별 방법입니다. [!DNL Target] 고객 `Visitor.AuthState.AUTHENTICATED` 속성이 작동하려면 필요합니다. 예제에 대해서는 [핵심 서비스 - 솔루션을 사용하도록 설정하는 방법](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)을 참조하십시오.
 
-Experience Platform Identity Service v 1.5 + 부터는 선택적 `setCustomerIDs``AuthState` 개체를 포함합니다. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태는 정수로 반환됩니다.
+Beginning with Experience Cloud ID Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태는 정수로 반환됩니다.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
@@ -220,4 +220,4 @@ Object customerIDs = visitor.getCustomerIDs();
 
 ## Analytics 및 Audience Manager 고객을 위한 알림 {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 개체가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 병합 규칙 [!DNL Visitor ID Service][코드](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) 구성 설명서의 섹션을 참조하십시오.
+선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 개체가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. For more information, see the [!DNL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation.
