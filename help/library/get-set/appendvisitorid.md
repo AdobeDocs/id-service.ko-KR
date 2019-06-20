@@ -6,7 +6,7 @@ seo-title: appendVisitorIDsTo(도메인 간 추적)
 title: appendVisitorIDsTo(도메인 간 추적)
 uuid: 06 B 453 EE -73 C 5-4625-82 D 9-877 AD 2 B 4 F 702
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -25,14 +25,14 @@ source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
 
 ## 브라우저에서 타사 쿠키를 차단하는 경우 도메인에서 방문자 추적 {#section-7251d88befd440b4b79520e33c5aa44a}
 
-ID 서비스는 사용자가 사이트를 방문할 때 퍼스트 파티 및 서드 파티 쿠키를 브라우저에 씁니다 ( [쿠키 및 Experience Platform Identity Service](../../introduction/cookies.md) 참조). 퍼스트 파티 쿠키에는 해당 방문자의 고유 ID, 즉 MID가 포함되어 있습니다. 타사 쿠키에는 ID 서비스에서 MID를 생성하는 데 사용한 다른 ID가 포함되어 있습니다. 브라우저에서 이 타사 쿠키를 차단하는 경우 ID 서비스에서는 다음 작업을 수행할 수 없습니다.
+ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Cloud ID Service](../../introduction/cookies.md) ). 퍼스트 파티 쿠키에는 해당 방문자의 고유 ID, 즉 MID가 포함되어 있습니다. 타사 쿠키에는 ID 서비스에서 MID를 생성하는 데 사용한 다른 ID가 포함되어 있습니다. 브라우저에서 이 타사 쿠키를 차단하는 경우 ID 서비스에서는 다음 작업을 수행할 수 없습니다.
 
 * 사이트 방문자가 다른 도메인으로 이동할 때 해당 사이트 방문자에 대한 고유 ID를 다시 생성합니다.
 * 조직에서 소유한 여러 도메인에서 방문자를 추적합니다.
 
-이 문제를 해결하려면 ` Visitor.appendVisitorIDsTo( *`URL를 구현합니다`*)`. 이 속성을 사용하면 브라우저에서 서드 파티 쿠키를 차단했을 때도 ID 서비스에서 여러 도메인의 사이트 방문자를 추적할 수 있습니다. 이 함수는 다음과 같이 작동합니다.
+To help solve this problem, implement ` Visitor.appendVisitorIDsTo( *`url`*)`. 이 속성을 사용하면 브라우저에서 서드 파티 쿠키를 차단했을 때도 ID 서비스에서 여러 도메인의 사이트 방문자를 추적할 수 있습니다. 이 함수는 다음과 같이 작동합니다.
 
-* 방문자가 다른 도메인으로 찾아가면 ` Visitor.appendVisitorIDsTo( *`URL`*)` 이 원본 도메인에서 대상 도메인으로 URL 리디렉션의 쿼리 매개 변수로 mid를 추가합니다.
+* As a visitor browses to your other domains, the ` Visitor.appendVisitorIDsTo( *`url`*)` appends the MID as a query parameter in the URL redirect from the original domain to the destination domain.
 * 대상 도메인의 ID 서비스 코드는 Adobe에 해당 방문자의 ID 요청을 전송하는 대신 URL에서 MID를 추출합니다. 이 요청에는 타사 쿠키 ID가 포함되어 있으며, 이 경우에는 사용할 수 없습니다.
 * 대상 페이지의 ID 서비스 코드는 전달한 MID를 사용하여 방문자를 추적할 수 있습니다.
 
@@ -40,7 +40,7 @@ ID 서비스는 사용자가 사이트를 방문할 때 퍼스트 파티 및 서
 
 ## 방문자 ID 코드 샘플 추가 {#section-62d55f7f986542b0b9238e483d50d7b0}
 
-다음 예는 ` Visitor.appendVisitorIDsTo( *`URL`*)`를 시작하는 데 도움이 될 수 있습니다. 제대로 구현된 경우 JavaScript 코드가 다음 예제와 유사할 수 있습니다.
+The following example can help you get started with ` Visitor.appendVisitorIDsTo( *`url`*)`. 제대로 구현된 경우 JavaScript 코드가 다음 예제와 유사할 수 있습니다.
 
 ```js
 //Code on Domain A 
