@@ -6,7 +6,7 @@ seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7 FB 831 B 3-CF 7 E -40 E 2-A 219-07 FEC 28 AD 49 C
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -26,7 +26,7 @@ Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아�
 
 ## 구문 {#section-5aebe3907b2b46e997f45a1d1ed35c09}
 
-이 함수는 다음 구문을 사용합니다 (기울임꼴로 변수의 자리 표시자 표현). ` var *`Valuesid`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`typeid`*, visitor.FIELDS. *`유형`*]);`
+This function uses the following syntax (italics represents a placeholder for a variable): ` var *`values`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID type`*, visitor.FIELDS. *`ID type`*]);`
 
 함수 매개 변수 설명:
 
@@ -108,7 +108,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>방문자 Experience Cloud ID입니다. </p> <p>자세한 내용은 <a href="../../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 Experience Platform Identity Service </a>. </p> </td> 
+   <td colname="col2"> <p>방문자 Experience Cloud ID입니다. </p> <p>자세한 내용은 <a href="../../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 ExExperience Cloud ID 서비스 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
