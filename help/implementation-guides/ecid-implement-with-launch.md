@@ -1,18 +1,18 @@
 ---
-description: Adobe Experience Platform Launch는 다른 Experience Cloud 솔루션과 Experience Platform Identity Service를 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
-seo-description: Adobe Experience Platform Launch는 다른 Experience Cloud 솔루션과 Experience Platform Identity Service를 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
+description: Adobe Experience Platform Launch는 Experience Cloud ID 서비스를 다른 Experience Cloud 솔루션과 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
+seo-description: Adobe Experience Platform Launch는 Experience Cloud ID 서비스를 다른 Experience Cloud 솔루션과 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
 seo-title: Launch를 사용한 구현
 title: Launch를 사용한 구현
 uuid: B 3282 F 8 E -82 B 8-4635-8 C 80-1 B 365 E 8 A 9693
 translation-type: tm+mt
-source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # Launch를 사용한 구현{#implement-with-launch}을 참조하십시오
 
-Adobe Experience Platform Launch는 다른 Experience Cloud 솔루션과 Experience Platform Identity Service를 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
+Adobe Experience Platform Launch는 Experience Cloud ID 서비스를 다른 Experience Cloud 솔루션과 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
 
 ## Launch 정보 {#section-611711602854464ea351a4af80a8dafe}
 
