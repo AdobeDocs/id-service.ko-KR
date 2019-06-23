@@ -23,7 +23,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
    + [구현 안내서](implementation-guides/implementation-guides.md)
    + [구현 방법](implementation-guides/implementation-methods.md)
    + [Launch를 사용한 구현](implementation-guides/ecid-implement-with-launch.md)
-   + [DTM을 사용한 구현](implementation-guides/standard.md)을 참조하십시오
+   + [DTM을 사용한 구현](implementation-guides/standard.md)
    + [Analytics에 대해 구현](implementation-guides/setup-analytics.md)
    + [Target 용으로 구현](implementation-guides/setup-target.md)
    + [Analytics 및 Audience Manager에 대해 구현](implementation-guides/setup-aam-analytics.md)
