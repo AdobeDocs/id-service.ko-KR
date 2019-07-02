@@ -1,6 +1,6 @@
 ---
 source-git-commit: 676f6ca9c37f77fe24dbc3ceb9aef2d540b3adbe
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Adobe 행동 강령
@@ -22,6 +22,7 @@ translation-type: tm+mt
 참여자의 부적절한 행동 예는 다음과 같습니다.
 
 * 성적 매력을 나타내는 언어 또는 이미지의 사용과 달갑지 않은 성적 관심
+
 또는 접근
 * 트롤링, 모욕/경멸적인 발언, 인신 공격 또는 정치적 공격
 * 공개 또는 비공개적인 괴롭힘
@@ -45,6 +46,6 @@ translation-type: tm+mt
 
 선의로 행동 강령을 준수하거나 시행하지 않는 프로젝트 관리자들은 해당 프로젝트 경영진의 판단에 따라 일시적 또는 영구적 영향을 받을 수 있습니다.
 
-## 귀속
+## 속성
 
-이 행동 수칙은 [Contributor Covenant](https://contributor-covenant.org)(기여자 규약) 버전 1.4를 개작한 것이며 다음 사이트에서 확인할 수 있습니다. [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+이 행동 강령은 [기여자 계약](https://contributor-covenant.org), 버전 1.4([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)에서 제공됨)에서 채택되었습니다.
