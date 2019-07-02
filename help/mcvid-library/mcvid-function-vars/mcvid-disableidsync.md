@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: ID 동기화를 비활성화하는 선택적 부울 플래그입니다.
 seo-title: disableIdSyncs
 title: disableIdSyncs
-uuid: 8 BEA 1 DE 8-53 C 8-4 A 15-BCF 5-F 0869763 A 32 E
-translation-type: tm+mt
+uuid: 8bea1de8-53c8-4a15-bcf5-f0869763a32e
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -17,9 +17,9 @@ ID 동기화를 비활성화하는 선택적 부울 플래그입니다.
 
 >[!NOTE]
 >
->이 구성은 v 3.0 2018 년 1 월 18 일 릴리스에서 `idSyncDisableSyncs``disableIdSyncs` 이름이 변경되었습니다.
+>이 구성은 `idSyncDisableSyncs`이며, 2018년 1월 18일 v3.0 릴리스에서 이름이 `disableIdSyncs`로 변경되었습니다.
 
-**구문:**`disableIdSyncs: true|false` (기본값은 `false`.)
+**구문:** `disableIdSyncs: true|false` (기본값은 `false`임)
 
 **코드 샘플**
 
