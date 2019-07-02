@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개 변수로 리디렉션 URL에 추가할 수 있습니다. 이 메서드는 A4T를 사용할 때 그리고 한 페이지에서 다른 페이지로 SDID를 유지하고 그러한 별도의 방문을 함께 결합해야 하는 경우에 유용합니다. 이 기능을 사용하기 위해 소스 및 대상 도메인에서 동일한 조직 ID를 사용하여 ID 서비스를 구현했을 것입니다.
 seo-title: appendSupplementalDataIDTo
 title: appendSupplementalDataIDTo
-uuid: F 3504 D 82-8 DA 3-4971-818 B -3 DF 57 DF 4 EC 2 D
-translation-type: tm+mt
+uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ## 구문 및 코드 샘플 {#section-cbb0b2f73bcc418386796c24c01b2365}
 
-**구문:**` appendSupplementalDataIDTo( *`Urlsdid`*, *``*)`
+**구문:** ` appendSupplementalDataIDTo( *`URL`*, *`SDID`*)`
 
 **코드 샘플**
 
@@ -50,11 +50,11 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219
 
 ## sdidParamExpiry를 사용하여 SDID 시간 제한 변경 {#section-99946715cefa4acc95200b093db5297e}
 
-[Sdidparamexpiry](../../mcvid-library/mcvid-function-vars/mcvid-sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) 구성을 사용하면 `appendSupplementalDataIDTo` 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID 만료 간격을 변경할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 소요됩니다. 수신 페이지의 ID 서비스 코드가 30초 이내에 SDID를 검색할 수 없는 경우에는 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한을 제어하려는 A4T 고객을 위한 것입니다.
+[sdidParamExpiry](../../mcvid-library/mcvid-function-vars/mcvid-sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) 구성을 사용하면 `appendSupplementalDataIDTo` 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID 만료 간격을 변경할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 소요됩니다. 수신 페이지의 ID 서비스 코드가 30초 이내에 SDID를 검색할 수 없는 경우에는 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한을 제어하려는 A4T 고객을 위한 것입니다.
 
 기본 SDID 시간 제한을 변경해야 하는 경우 다음 구문을 사용하여 `sdidParamExpiry`을 `Visitor.getInstance` 함수에 추가합니다.
 
-**구문:**` sdidParamExpiry: *`시간 (초 단위)`*`
+**구문:** ` sdidParamExpiry: *`시간(초)`*`
 
 **코드 샘플**
 
