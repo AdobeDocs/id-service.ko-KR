@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
-uuid: 771 B 5 B 11-A 8 E 3-464 C-B 65 E-B 15135584 ACE
-translation-type: tm+mt
+uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
  <tbody> 
   <tr> 
    <td colname="col1"> <p>AMCV 쿠키에 대한 보안이 강화됨 </p> </td> 
-   <td colname="col2"> <p>내부 보안 스캔 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못했음이 확인되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있었습니다. 이 문제를 해결하기 위해 Adobe에서는 고객이 AMCV 쿠키를 보안 설정할 수 있는 구성을 도입했습니다. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-securecookie.html" format="https" scope="external">secureCookie</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>내부 보안 스캔 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못했음이 확인되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있었습니다. 이 문제를 해결하기 위해 Adobe에서는 고객이 AMCV 쿠키를 보안 설정할 수 있는 구성을 도입했습니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-securecookie.html" format="https" scope="external">secureCookie</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 >[!NOTE]
 >
->가장 빠른 시간에 버전 3.1.0에서 최신 버전으로 업그레이드하는 것이 좋습니다. 버전 3.1.2 설명을 참조하십시오. Adobe 출시, DTM 및 AppMeasurement에서 최신 번들을 사용할 수 있습니다.
+>편리한 시간에 버전 3.1.0에서 최신 버전으로 업그레이드하는 것이 좋습니다. 버전 3.1.2 설명을 참조하십시오. Adobe 출시, DTM 및 AppMeasurement에서 최신 번들을 사용할 수 있습니다.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 
