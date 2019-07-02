@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: Experience Cloud ID 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
 seo-title: getLocationHint
 title: getLocationHint
-uuid: cdc 312 b 7-d 270-4 a 5 c-a 2 bb -0 fbb 37 f 1 e 2 f 4
-translation-type: tm+mt
+uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 Experience Cloud ID 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
 
-**구문:**` var *`변수 이름`* = visitor.getLocationHint()`
+**구문:** ` var *`변수 이름`* = visitor.getLocationHint()`
 
-영역 ID 및 해당 위치 목록에 대해서는 [DCS 영역 ID, 위치 및 호스트 이름](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html)을 참조하십시오.
+지역 ID 및 해당 위치 목록을 보려면 [DCS 지역 ID, 위치 및 호스트 이름](https://marketing.adobe.com/resources/help/ko_KR/aam/dcs-regions.html)을 참조하십시오.
 
 **코드 샘플**
 
