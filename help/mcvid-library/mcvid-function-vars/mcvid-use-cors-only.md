@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 브라우저가 Experience Cloud ID 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
 seo-title: useCORSOnly
 title: useCORSOnly
-uuid: 607 DC 035-DFFC -4 F 4 D-BE 51-08 EF 6 C 0 A 8 FAD
-translation-type: tm+mt
+uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 브라우저가 Experience Cloud ID 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
 
-** 구문: ** `useCORSOnly: true|false` (기본값은 `false`.)
+**구문: ** `useCORSOnly: true|false` (기본값은 `false`임)
 
 **개요**
 
@@ -23,7 +23,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 >[!IMPORTANT]
 >
->`Set useCORSOnly: true` 엄격한 보안 요구 사항이 있는 경우 모든 방문자가 CORS를 지원하는 브라우저를 사용한다고 확신하는 경우에만 이 모드를 활성화해야 합니다. 사용자 경험은 CORS를 지원하지 않는 브라우저의 영향을 받지 않습니다. 하지만 CORS를 지원하지 않는 브라우저에서는 리소스를 요청하거나 [!DNL Adobe Experience Cloud]와 데이터를 교환할 수 없습니다.
+>보안 요구 사항이 엄격하면 `Set useCORSOnly: true`입니다. 모든 방문자가 CORS를 지원하는 브라우저를 사용한다고 확신하는 경우에만 이 모드를 활성화해야 합니다. 사용자 경험은 CORS를 지원하지 않는 브라우저의 영향을 받지 않습니다. 하지만 CORS를 지원하지 않는 브라우저에서는 리소스를 요청하거나 [!DNL Adobe Experience Cloud]와 데이터를 교환할 수 없습니다.
 
 **코드 샘플**
 
