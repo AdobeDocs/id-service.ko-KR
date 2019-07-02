@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 seo-title: Experience Cloud ID 서비스의 CORS 지원
 title: Experience Cloud ID 서비스의 CORS 지원
-uuid: E 656 B 573-72 A 8-4312-A 7 D 5-5 CC 3818 F 0 A 9 E
-translation-type: tm+mt
+uuid: e656b573-72a8-4312-a7d5-5cc3818f0a9e
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -60,7 +60,7 @@ CORS는 여러 도메인에서 리소스를 요청할 수 있는 안전하고 �
  </tbody> 
 </table>
 
-[Usecorsonly를 참조하십시오](../mcvid-library/mcvid-function-vars/mcvid-use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+[useCORSOnly](../mcvid-library/mcvid-function-vars/mcvid-use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa)도 참조하십시오.
 
 ## CORS 사용의 기타 이점 {#section-6f44f30694c44f95bf9854b8a2af8449}
 
@@ -76,7 +76,7 @@ CORS는 여러 도메인에서 리소스를 요청할 수 있는 안전하고 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>보안 강화</b> </p> </td> 
-   <td colname="col2"> <p>CORS는 <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest" format="https" scope="external"> XMLHttpRequest</a>를 사용하여 데이터를 요청하고 전송합니다. 이 방법은 JSONP 요청보다 더 안전하며 DCS의 응답에 포함될 수 있는 임의의 JavaScript를 실행할 수 있는 방법이 없도록 보장합니다. CORS XMLHttpRequest 응답 페이로드는 ID 서비스 JavaScript에 의해 구문 분석되며 콜백 함수에서 실행되지 않습니다. </p> <p> <p>참고: 쿠키를 허용하려면 <span class="codeph">XMLHttpRequest</span> 개체의 <span class="codeph">withCredentials</span> 속성이 <span class="codeph">true</span>로 설정되어 있어야 합니다. 이 속성은 Chrome, Firefox, Internet Explorer(버전 10 이상), Opera 및 Safari에서 지원됩니다. </p> </p> </td> 
+   <td colname="col2"> <p>CORS는 <a href="https://developer.mozilla.org/ko_KR/docs/Web/API/XMLHttpRequest" format="https" scope="external"> XMLHttpRequest</a>를 사용하여 데이터를 요청하고 전송합니다. 이 방법은 JSONP 요청보다 더 안전하며 DCS의 응답에 포함될 수 있는 임의의 JavaScript를 실행할 수 있는 방법이 없도록 보장합니다. CORS XMLHttpRequest 응답 페이로드는 ID 서비스 JavaScript에 의해 구문 분석되며 콜백 함수에서 실행되지 않습니다. </p> <p> <p>참고: 쿠키를 허용하려면 <span class="codeph">XMLHttpRequest</span> 개체의 <span class="codeph">withCredentials</span> 속성이 <span class="codeph">true</span>로 설정되어 있어야 합니다. 이 속성은 Chrome, Firefox, Internet Explorer(버전 10 이상), Opera 및 Safari에서 지원됩니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>성능 향상</b> </p> </td> 
