@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
-uuid: 6 bb 8 ddfc -9 fc 1-4105-b 377-d 9 b 4 d 247 a 0 f 8
-translation-type: tm+mt
+uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -33,7 +33,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 >[!TIP]
 >
->[!DNL Analytics] 고객인 경우 ID를 [!DNL Analytics] 확인하고 함수에 보내십시오. 예를 들어 숨겨진 양식 요소의 방문자 ID를 데이터 삽입 API를 사용하는 서버측 애플리케이션에 전달할 때 두 식별자를 모두 원할 수 있습니다. 이 경우 [!DNL Experience Cloud] , AND [!DNL Analytics] 방문자 ID를 수집 및 반환해야 합니다. [Getmarketingcloudvisitorid](../../mcvid-library/mcvid-get-set/mcvid-getmcvid.md)를 참조하십시오.
+>[!DNL Analytics] 고객인 경우 [!DNL Analytics] ID도 확인한 후 함수로 보내십시오. 예를 들어 숨겨진 양식 요소의 방문자 ID를 데이터 삽입 API를 사용하는 서버측 애플리케이션에 전달할 때 두 식별자를 모두 원할 수 있습니다. 이 경우 [!DNL Experience Cloud] 및 [!DNL Analytics] 방문자 ID를 수집한 후 반환해야 합니다. [getMarketingCloudVisitorID](../../mcvid-library/mcvid-get-set/mcvid-getmcvid.md)를 참조하십시오.
 
 **&quot;aid&quot; 매개 변수는 이전 값입니다.**
 
@@ -44,13 +44,13 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 다음 경우에 쿼리 문자열에 `aid` 매개 변수가 표시됩니다.
 
 * [!DNL Experience Cloud] ID 서비스가 올바르게 배포됩니다.
-* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html)에 저장되어 있습니다.
+* 사이트를 방문하는 사용자에게 [s_vi 쿠키](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/?f=cookies_analytics.html)에 저장된 기존 [!DNL Analytics] ID가 있습니다.
 
 **사례 2**
 
-조직에서 ID `aid` 서비스를 완전히 구현하기 전에 [유예 기간을](../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md) 사용하는 경우 쿼리 문자열에 매개 변수가 표시됩니다. 사이트를 방문하는 사용자가 유예 기간을 사용하지 않는 경우 방문자는 `mid`[!DNL Experience Cloud] (id) 매개 변수를 받게 됩니다.
+ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md)을 사용하는 경우 조회 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid` ([!DNL Experience Cloud] ID) 매개 변수를 받게 됩니다.
 
->[!MORE_ like_ this]
+>[!MORE_LIKE_THIS]
 >
->* [Analytics 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html)
+>* [Analytics 쿠키](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/cookies_analytics.html)
 
