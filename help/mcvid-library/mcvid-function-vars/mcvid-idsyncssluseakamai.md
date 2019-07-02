@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 대상 게시 템플릿이 HTTPS 연결에 대해 Akamai를 사용하는지를 지정합니다.
 seo-title: idSyncSSLUseAkamai
 title: idSyncSSLUseAkamai
-uuid: 501 CCC 37-C 3 AB -4454-BFCF -3 E 3 C 3 E 8 B 5 CA 3
-translation-type: tm+mt
+uuid: 501ccc37-c3ab-4454-bfcf-3e3c3e8b5ca3
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
