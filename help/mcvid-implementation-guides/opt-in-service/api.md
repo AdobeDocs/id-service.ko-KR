@@ -3,8 +3,8 @@ description: 옵트인 라이브러리 및 구성 설정 참조용 API입니다.
 seo-description: 옵트인 라이브러리 및 구성 설정 참조용 API입니다.
 seo-title: 옵트인 참조
 title: 옵트인 참조
-uuid: D 5023 A 34-2 F 3 E -464 D-B 21 F -579 B 2 F 416 CE 6
-translation-type: tm+mt
+uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
+translation-type: ht
 source-git-commit: 1c6dc1871ee2e7b8d1f510576836519f7383b809
 
 ---
@@ -29,7 +29,7 @@ adobe.OptInCategories = {
 
 이 섹션에서는 API를 사용하여 옵트인을 구성하는 방법을 설명합니다. 대부분의 구성 및 구현은 Launch 확장을 사용하여 수행할 수 있습니다.
 
-옵트인 구성은 전역 개체를 인스턴스화하는 방문자 JavaScript `getInstance()` 함수에 `adobe` 제공됩니다. 다음은 옵트인 서비스와 관련된 방문자 JS 구성을 나열합니다.
+옵트인 구성은 전역 `getInstance()` 개체를 인스턴스화하는 Visitor JavaScript `adobe` 함수에 제공됩니다. 다음은 옵트인 서비스와 관련된 Visitor JS 구성 목록입니다.
 
 **`doesOptInApply (boolean or function that evaluates to a boolean)`**:
 
@@ -47,11 +47,11 @@ false이면 방문자가 선택하지 않아도 됩니다. 카테고리 선택 �
 
 자사 쿠키(현재 고객의 도메인 내에 있음)에 권한을 저장하기 위해 옵트인 활성화
 
-(선택 사항) **`optInCookiesDomain (string)`**
+(선택사항) **`optInCookiesDomain (string)`**
 
 옵트인 쿠키에 사용할 자사 도메인 또는 하위 도메인(`isOptInStorageEnabled`가 true인 경우)
 
-(선택 사항) **`optInStorageExpiry (integer)`**
+(선택사항) **`optInStorageExpiry (integer)`**
 
 기본 만료일 13개월을 재정의할 시간(초)
 
@@ -69,15 +69,15 @@ false이면 방문자가 선택하지 않아도 됩니다. 카테고리 선택 �
 
 **`adobe.optIn.approveAll()`**:
 
-방문자가 만들 사이트에 대한 요청이 표현된 경우, 방문자 담요가 사용자 사이트에서 쿠키를 만들거나, 쿠키를 `approveAll()` 만들거나, 응답을 기준으로 쿠키를 만들 수 있는 권한을 `denyAll()`부여하거나 거부합니다.
+사용자 사이트에 대한 작성 권한 요청에 방문자 블랭킷이 사용자 사이트에 대한 쿠키 작성 권한을 부여하거나 거부하도록 지정되어 있는 경우 해당 응답을 기준으로 하여 `approveAll()` 또는 `denyAll()`을 사용합니다.
 
 **`adobe.optIn.denyAll()`**:
 
-방문자가 만들 사이트에 대한 요청이 표현된 경우, 방문자 담요가 사용자 사이트에서 쿠키를 만들거나, 쿠키를 `approveAll()` 만들거나, 응답을 기준으로 쿠키를 `denyAll()`만들도록 허용하십시오.
+사용자 사이트에 대한 작성 권한 요청에 방문자 블랭킷이 사용자 사이트에 대한 쿠키 작성 권한을 부여하거나 거부하도록 지정되어 있는 경우 해당 응답을 기준으로 하여 `approveAll()` 또는 `denyAll()`을 사용합니다.
 
 ## 옵트인 워크플로우 매개 변수 {#section-2c5adfa5459c4e72b96d2693123a53c2}
 
-옵트인은 환경 설정이 한 번에 하나씩 제공되는 워크플로우처럼, 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있는 워크플로우를 지원합니다. 다음 함수를 사용하여 * 설정에 *true`shouldWaitForComplete`를 제공하면 솔루션에서 한 개 솔루션 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 솔루션 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. 첫 번째 호출부터 `adobe.optIn.status` , 속성은 흐름의 끝에서 호출될 때까지 `adobe.optIn.complete()` 대기합니다. 호출되면 상태는 *완료*로 설정됩니다.
+옵트인은 환경 설정이 한 번에 하나씩 제공되는 워크플로우처럼, 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있는 워크플로우를 지원합니다. 다음 함수를 사용하여 * 설정에 *true`shouldWaitForComplete`를 제공하면 솔루션에서 한 개 솔루션 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 솔루션 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 보류됩니다. 호출되면 상태는 *완료*로 설정됩니다.
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 
@@ -109,7 +109,7 @@ false이면 방문자가 선택하지 않아도 됩니다. 카테고리 선택 �
 
 **`permissions`**
 
-방문자 예에 의해 허용되거나 거부된 모든 Experience Cloud 솔루션을 카테고리로 나열하는 개체: `{ aa: true, ecid: false, aam: true... }`
+방문자가 부여하거나 거부한 모든 Experience Cloud 솔루션을 나열하는 개체. 예: `{ aa: true, ecid: false, aam: true... }`
 
 **`status`**
 
@@ -133,8 +133,7 @@ false이면 방문자가 선택하지 않아도 됩니다. 카테고리 선택 �
 
 **`approve(categories, shouldWaitForComplete)`**
 
-**`categories`**: 승인할 하나 이상의 카테고리. 예를 들면 다음과 같습니다. `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`**`shouldWaitForComplete`**
-: (선택 사항) 부울 매개 변수, 기본적으로 false 입니다. true를 전달하면 `adobe.optIn.complete()`()를 호출할 때까지 옵트인이 승인 프로세스를 완료하지 않습니다. 이 프로세스는 워크플로우와 유사합니다.
+**`categories`**: 승인할 하나 이상의 카테고리. 예: `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`**`shouldWaitForComplete`**: (선택 사항) 부울 매개 변수, 기본적으로 false입니다. true를 전달하면 `adobe.optIn.complete()`()를 호출할 때까지 옵트인이 승인 프로세스를 완료하지 않습니다. 이 프로세스는 워크플로우와 유사합니다.
 
 ```
 <codeblock>
@@ -192,7 +191,7 @@ optIn.fetchPermissions(callback, true);
 
 >[!NOTE]
 >
->매개 변수를 통과하거나 거부할 `shouldWaitForComplete` 경우에만 사용할 수 있습니다. 이 API는 승인 프로세스를 완료합니다. 예: `adobe.optIn.complete()`.
+>승인하거나 거부할 `shouldWaitForComplete` 매개 변수를 전달한 경우에만 사용합니다. 이 API는 승인 프로세스를 완료합니다. 예: `adobe.optIn.complete()`.
 
 **`approveAll()`:**
 
@@ -206,7 +205,7 @@ optIn.fetchPermissions(callback, true);
 
 **`complete`:**
 
-승인 프로세스가 완료되면 이벤트 트리거를 완료합니다. 이 이벤트 트리거를 전달하지 않고 `shouldWaitForComplete``approveAll`승인/거부를 `denyAll`호출하는 경우 또는 `shouldWaitForComplete`를 전달하는 경우 `complete`가 호출되면 이 이벤트가 트리거됩니다.
+승인 프로세스가 완료되면 이벤트 트리거를 완료합니다. `shouldWaitForComplete` 또는 `approveAll`/`denyAll`을 전달하지 않고 승인/거부를 호출하는 경우 이 이벤트가 트리거됩니다. 또는 `shouldWaitForComplete`를 전달하는 경우 `complete`가 호출되면 이 이벤트가 트리거됩니다.
 
 **예**
 
