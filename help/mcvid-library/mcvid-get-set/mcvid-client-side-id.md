@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이 ID 서비스 함수를 호출하여 ID 서비스가 클라이언트측 Experience Cloud 방문자 ID(MID)를 생성했는지 확인합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 seo-title: isClientSideMarketingCloudVisitorID
 title: isClientSideMarketingCloudVisitorID
-uuid: 1 c 39 ac 60-1 d 2 b -4 ed 4-a 2 ea -30 d 680 e 61 e 10
-translation-type: tm+mt
+uuid: 1c39ac60-1d2b-4ed4-a2ea-30d680e61e10
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
