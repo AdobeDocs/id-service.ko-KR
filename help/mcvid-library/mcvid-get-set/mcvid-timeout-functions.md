@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이러한 ID 서비스 함수를 호출하여 Experience Cloud ID 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 seo-title: callTimeOut 메서드
 title: callTimeOut 메서드
-uuid: E 5047498-11 DB -4945-B 356-C 92 B 7 D 447573
-translation-type: tm+mt
+uuid: e5047498-11db-4945-b356-c92b7d447573
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -27,15 +27,15 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID 서비스 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variablename</span> = visitor. mcidcalltimedout ()</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.MCIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Analytics</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variablename</span> = visitor. analyticsidcalltimedout ()</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.AnalyticsIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Audience Manager</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variablename</span> = visitor. aamidcalltimedout ()</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.AAMIDCallTimedOut()</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
