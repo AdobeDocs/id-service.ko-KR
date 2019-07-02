@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이 구성을 사용하면 업데이트할 ID 서비스 버전에 따라 고립되었거나 오래된 ECID(Experience Cloud ID)를 지울 수 있습니다.
 seo-title: resetBeforeVersion
 title: resetBeforeVersion
-uuid: B 00 D 18 B 8-6720-42 F 9-9 C 83-BD 306184 CC 0 C
-translation-type: tm+mt
+uuid: b00d18b8-6720-42f9-9c83-bd306184cc0c
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
