@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 동일한 보고서 세트에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.
 seo-title: ID 서비스 유예 기간
 title: ID 서비스 유예 기간
-uuid: 10 A 7 DB 7 D-DE 32-4379-914 F-EDAF 929 EFA 32
-translation-type: tm+mt
+uuid: 10a7db7d-de32-4379-914f-edaf929efa32
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 >[!NOTE]
 >
->유예 기간 지원을 위해서는 [!DNL Experience Cloud] ID 서비스의 버전 1.3 이상이 필요합니다.
+>유예 기간을 지원하려면 [!DNL Experience Cloud] ID 서비스 버전 1.3 이상이 필요합니다.
 
 ## 유예 기간이 필요합니까? {#section-fd34c7ff697348a39f49258b7d39eb42}
 
@@ -33,4 +33,4 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ## 유예 기간을 활성화하려면 어떻게 해야 합니까? {#section-512d5cd8570e483cbdd8b04457a16ced}
 
-고객 지원 센터에 [](https://helpx.adobe.com/marketing-cloud/contact-support.html)문의하십시오.
+[고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
