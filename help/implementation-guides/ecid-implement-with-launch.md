@@ -1,10 +1,10 @@
 ---
-description: Adobe Experience Platform Launch는 Experience Cloud ID 서비스를 다른 Experience Cloud 솔루션과 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
-seo-description: Adobe Experience Platform Launch는 Experience Cloud ID 서비스를 다른 Experience Cloud 솔루션과 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
-seo-title: Launch를 사용한 구현
-title: Launch를 사용한 구현
-uuid: B 3282 F 8 E -82 B 8-4635-8 C 80-1 B 365 E 8 A 9693
-translation-type: tm+mt
+description: Adobe Experience Platform Launch는 다른 Experience Cloud 솔루션을 사용하여 Experience Cloud ID 서비스를 설정, 배포 및 통합하는 데 사용하는 기본 도구입니다.
+seo-description: Adobe Experience Platform Launch는 다른 Experience Cloud 솔루션을 사용하여 Experience Cloud ID 서비스를 설정, 배포 및 통합하는 데 사용하는 기본 도구입니다.
+seo-title: Launch를 사용한 구현을 참조하십시오
+title: Launch를 사용한 구현을 참조하십시오
+uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 # Launch를 사용한 구현{#implement-with-launch}을 참조하십시오
 
-Adobe Experience Platform Launch는 Experience Cloud ID 서비스를 다른 Experience Cloud 솔루션과 구축, 배포 및 통합하는 데 사용되는 기본 툴입니다.
+Adobe Experience Platform Launch는 다른 Experience Cloud 솔루션을 사용하여 Experience Cloud ID 서비스를 설정, 배포 및 통합하는 데 사용하는 기본 도구입니다.
 
 ## Launch 정보 {#section-611711602854464ea351a4af80a8dafe}
 
-[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) 는 Adobe Experience Cloud에 내장되어 있는 차세대 Adobe 태그 관리 기능입니다. Launch를 사용하여 클라이언트가 다음을 수행할 수 있습니다.
+[Experience Platform Launch](https://docs.adobelaunch.com/)는 Adobe Experience Cloud에 내장된 차세대 Adobe 태그 관리 기능입니다. Launch를 사용하여 클라이언트가 다음을 수행할 수 있습니다.
 
 * 확장이라는 통합을 사용하여 클라이언트 측 웹 제품 배포
 * 다른 공급업체 및 Adobe에서 마케팅과 광고 제품 간에 일관되게 데이터 캡처, 정의, 관리 및 공유
