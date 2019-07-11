@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용 가능합니다.
 seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
-uuid: FF 83 D 910-8375-4295-9 F 2 A-E 14 C 15 EEE 09 A
-translation-type: tm+mt
+uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -38,14 +38,14 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByURL(); </span> </p> </td> 
    <td colname="col2"> <p>사용자 지정 동기화 URL을 사용하여 다양한 데이터 파트너와 <span class="keyword">Audience Manager</span> 간에 동기화 </p> <p> 
      <draft-comment>
-       다양한 데이터 파트너와 고객 관리자 간의 공동 작업 예를 들어 파트너 X는 이 아이콘을 사용하여 파트너 Y와 사용자 ID를 동기화한 다음 Audience Manager로 전송합니다. 
+       서로 다른 데이터 파트너와 Audience Manager 간. 예를 들어, 파트너 x는 이 기능을 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager로 전송합니다. 
      </draft-comment> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByDataSource(); </span> </p> </td> 
    <td colname="col2"> <p>이미 DPID 및 DPUUID를 알고 있으며 표준 ID 동기화 URL 포맷으로 <span class="keyword">Audience Manager</span>로 해당 ID를 전송하려고 할 때 </p> <p> 
      <draft-comment>
-       사용자 ID를 이미 알고 있고 Audience Manager로 전송하려는 경우 
+       사용자 ID를 이미 알고 있고 이를 Audience Manager에게 보내려는 경우. 
      </draft-comment> </p> </td> 
   </tr> 
  </tbody> 
@@ -91,13 +91,13 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 두 함수 모두 다음 매크로를 허용합니다.
 
-* ** `%TIMESTAMP%`: ** 타임스탬프를 생성합니다 (밀리초 단위). 캐시 무효화에 사용됩니다.
+* ** `%TIMESTAMP%`: **타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
 * ** `%DID%`: **사용자의 Audience Manager ID를 삽입합니다.
-* ** `%HTTP_PROTO%`: ** 통신 프로토콜 ( `http` 또는 `https`) 를 설정합니다.
+* ** `%HTTP_PROTO%`: **통신 프로토콜(`http` 또는 `https`)을 설정합니다.
 
 ## 샘플 코드 및 출력 {#section-0115615c37584a19a2ab11e917c4e7e9}
 
-두 함수 모두 성공 시 반환됩니다 `Successfully queued` . 실패한 경우 오류 메시지 문자열을 반환합니다.
+성공하면 두 함수 모두 `Successfully queued`를 반환합니다. 실패한 경우 오류 메시지 문자열을 반환합니다.
 
 **visitor.idSyncByURL**
 
@@ -110,15 +110,16 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code class="syntax javascript"> //Instatiate 방문자 
- var visitor = Visitor. getinstance ("marketing-cloud-org-id-here", {});
+   <td colname="col1"> <p> <code class="syntax javascript"> //Instatiate Visitor 
 
-    // &amp; amp; nbsp; Fires &amp; amp; nbsp; URL &amp; amp; nbsp; With &amp; amp; nbsp; 매크로 및 amp; nbsp; Replacedvisitor
-    . idsyncbyurl ({
-    &amp; amp; nbsp; DPID: &amp; amp; nbsp; &#39; 24 &#39;, &amp; amp; nbsp; // &amp; amp; nbsp; 필수 (&amp; amp)nbsp; be &amp; amp; nbsp; A &amp; amp; nbsp; 문자열
-    및 amp; nbsp; URL: &amp; amp; nbsp; &#39;//su.addthis.com/red/usync?pid=16&amp;amp;puid=%DID%&amp;amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D&#39;,&amp;nbsp;minutesToLive:&amp;nbsp;20160&amp;nbsp;//&amp;nbsp;optional,&amp;nbsp;defaults&amp;nbsp;to&amp;nbsp;20160&amp;nbsp;minutes&amp;nbsp;(14&amp;nbsp;days)&amp;nbsp
-    ;
-    }); &lt;/code &gt; &lt;/p &gt; &lt;/td &gt;
+      var visitor = Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
+
+    //&amp;nbsp;Fires&amp;nbsp;url&amp;nbsp;with&amp;nbsp;macros&amp;nbsp;replaced
+    visitor.idSyncByURL({
+    &amp;nbsp;dpid:&amp;nbsp;&#39;24&#39;,&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
+    &amp;nbsp;url:&amp;nbsp;&#39;//su.addthis.com/red/usync?pid=16&amp;amp;puid=%DID%&amp;amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D&#39;,
+    &amp;nbsp;minutesToLive:&amp;nbsp;20160&amp;nbsp;//&amp;nbsp;optional,&amp;nbsp;defaults&amp;nbsp;to&amp;nbsp;20160&amp;nbsp;minutes&amp;nbsp;(14&amp;nbsp;days)&amp;nbsp;
+    }); &lt;/code&gt; &lt;/p&gt; &lt;/td&gt;
 <td colname="col2"> <p> <span class="codeph"> http://su.addthis.com/red/usync?pid=16&amp;puid=28777806459181003670799219185178493848&amp;url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D </span> </p> </td> 
   </tr> 
  </tbody> 
@@ -135,21 +136,22 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code class="syntax javascript"> //Instantiate 방문자 
- var visitor = Visitor. getinstance ("marketing-cloud-org-id-here", {});
+   <td colname="col1"> <p> <code class="syntax javascript"> //Instantiate Visitor 
 
-    // &amp; amp; nbsp; Fires &amp; amp; nbsp; &#39; http:/https:&#39;&amp;nbsp;+&amp;nbsp;&#39;//dpm.demdex.net/ibs:dpid=&amp;lt;dpid&amp;gt;&amp;amp;dpuuid=&amp;lt;dpuuid&amp;gt;&#39;visitor.idSyncByDataSource(
-    {
-    &amp; amp; nbsp; DPID: &amp; amp; nbsp; &#39; 24 &#39;, &amp; amp; nbsp; // &amp; amp; nbsp; 필수 (&amp; amp)nbsp; be &amp; amp; nbsp; A &amp; amp; nbsp; 문자열
-    및 amp; nbsp; DPUUID: &amp; amp; nbsp; &#39; 98765 &#39;, &amp; amp; nbsp; // &amp; amp; nbsp; 필수 (&amp; amp)nbsp; be &amp; amp; nbsp; A &amp; amp; nbsp; 문자열
-    및 amp; nbsp; Minutestolive: &amp; amp; nbsp; 20160 &amp; amp; nbsp; // &amp; amp; nbsp; optional, &amp; amp; nbsp; 기본값 및 amp; nbsp; To &amp; amp; nbsp; 20160 &amp; amp; nbsp; 분 및 amp; nbsp; (14 &amp; amp; nbsp; days) &amp; amp; nbsp;
-    }); &lt;/code &gt; &lt;/p &gt; &lt;/td &gt;
+      var visitor = Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
+
+    //&amp;nbsp;Fires&amp;nbsp;&#39;http:/https:&#39;&amp;nbsp;+&amp;nbsp;&#39;//dpm.demdex.net/ibs:dpid=&amp;lt;dpid&amp;gt;&amp;amp;dpuuid=&amp;lt;dpuuid&amp;gt;&#39;
+    visitor.idSyncByDataSource({
+    &amp;nbsp;dpid:&amp;nbsp;&#39;24&#39;,&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
+    &amp;nbsp;dpuuid:&amp;nbsp;&#39;98765&#39;,&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
+    &amp;nbsp;minutesToLive:&amp;nbsp;20160&amp;nbsp;//&amp;nbsp;optional,&amp;nbsp;defaults&amp;nbsp;to&amp;nbsp;20160&amp;nbsp;minutes&amp;nbsp;(14&amp;nbsp;days)&amp;nbsp;
+    }); &lt;/code&gt; &lt;/p&gt; &lt;/td&gt;
 <td colname="col2"> <p> <span class="codeph"> http://dpm.demdex.net/ibs:dpid=24&amp;dpuuid=98765 </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ like_ this]
+>[!MORE_LIKE_THIS]
 >
->* [DIL idSync](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_idsync.html)
+>* [DIL idSync](https://marketing.adobe.com/resources/help/ko_KR/aam/r_dil_idsync.html)
 
