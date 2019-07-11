@@ -1,11 +1,11 @@
 ---
-description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
+description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
 keywords: ID 서비스
-seo-description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
+seo-description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
 seo-title: getVisitorValues
 title: getVisitorValues
-uuid: 7 FB 831 B 3-CF 7 E -40 E 2-A 219-07 FEC 28 AD 49 C
-translation-type: tm+mt
+uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 # getVisitorValues{#getvisitorvalues}
 
-Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 &quot;blob&quot; 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
+Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 &quot;blob&quot; 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
 
 내용:
 
@@ -26,12 +26,12 @@ Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아�
 
 ## 구문 {#section-5aebe3907b2b46e997f45a1d1ed35c09}
 
-This function uses the following syntax (italics represents a placeholder for a variable): ` var *`values`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID type`*, visitor.FIELDS. *`ID type`*]);`
+이 함수에서 사용하는 구문(기울임체는 변수 자리 표시자를 나타냄): ` var *`값`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID 유형`*, visitor.FIELDS. *`ID 유형`*]);`
 
 함수 매개 변수 설명:
 
-* ` *`콜백은`*` 반환된 ID를 수신하는 자체 콜백 코드를 나타냅니다.
-* *(선택 사항)* ` visitor.FIELDS. *`ID 유형은`*` 이 함수를 반환할 [ID 값을](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) 지정할 수 있는 열거형입니다.
+* ` *`callback`*`은 반환된 ID를 수신하는 고유한 콜백 코드를 나타냅니다.
+* *(선택 사항)* ` visitor.FIELDS. *`ID 유형`*`은 이 함수가 반환할 [ID 값](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5)을 지정할 수 있는 열거형입니다.
 
 자세한 내용은 다음 사용 사례 및 정의를 참조하십시오.
 
@@ -62,7 +62,7 @@ visitor.getVisitorValues(visitorIdsCallback);
 
 ## 사용 사례 2: 사용자 지정 데이터 세트 요청 {#section-467b2f4e513344c89b7332b05f6f59f3}
 
-이 코드는 `visitor.FIELDS`   열거를 사용하여 특정 ID 세트를 반환하기 위해 선택적 배열을 사용합니다. 이 경우 방문자의 Experience Cloud ID(MCID)와 Analytics ID(MCAID)만 사용합니다. 요청 및 응답이 다음 예와 비슷하게 보일 수 있습니다.
+이 코드는 `visitor.FIELDS` 열거를 사용하여 특정 ID 세트를 반환하기 위해 선택적 배열을 사용합니다. 이 경우 방문자의 Experience Cloud ID(MCID)와 Analytics ID(MCAID)만 사용합니다. 요청 및 응답이 다음 예와 비슷하게 보일 수 있습니다.
 
 ```js
 //Call the ID service 
@@ -100,7 +100,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>데이터 수집 영역 ID입니다. 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external"> DCS 영역 ID, 위치 및 호스트 이름 </a> 및 <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getlocationhint </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>데이터 수집 영역 ID입니다. 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. </p> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/aam/dcs-regions.html" format="https" scope="external">DCS 지역 ID, 위치 및 호스트 이름</a>과 <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
