@@ -1,11 +1,11 @@
 ---
-description: 2017 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+description: 2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-seo-description: 2017 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+seo-description: 2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2017 릴리스 노트
 title: 2017 릴리스 노트
-uuid: 79452 DF 0-49 DB -42 B 8-96 FE -01 AA 7629 FBB 5
-translation-type: tm+mt
+uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 # 2017 릴리스 노트 {#release-notes}
 
-2017 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 ID 서비스 릴리스 정보에 대해서는 [이전 릴리스 정보](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 맨 아래에 있는 링크를 참조하십시오.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)에도 캡처되었습니다. 이전 ID 서비스 릴리스 노트에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 하단에 있는 링크를 참조하십시오.
 
 >[!NOTE]
 >
->2017 년 3 월, 4 월, 5 월 및 10 월에 고객용 릴리스 노트나 코드가 변경되지는 않습니다. 이러한 달은 ID 서비스 코드가 v2.1에서 변경되지 않고 그대로 유지되었습니다.
+>2017년 3월, 4월, 5월, 10월에 해당하는 고객 응대 릴리스 노트 또는 코드 변경 사항이 없습니다. 이러한 달은 ID 서비스 코드가 v2.1에서 변경되지 않고 그대로 유지되었습니다.
 
 ## 버전 2.5 {#section-27b441509124493f80984ed09bd9e88b}
 
@@ -42,7 +42,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> getVisitorValues</span> </p> </td> 
-   <td colname="col2"> <p>Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 <span class="codeph">visitor.FIELDS</span> 열거와 함께 반환할 ID를 제어할 수 있습니다. 자세한 내용은 <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues</a>. </p> </td> 
+   <td colname="col2"> <p>Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 <span class="codeph">visitor.FIELDS</span> 열거와 함께 반환할 ID를 제어할 수 있습니다. <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local">getVisitorValues</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 * 이제 ID 서비스는 이벤트 호출 응답의 지역 ID가 변경되면 ID 동기화를 다시 시작합니다.
 * 새 설명서, [컨텐츠 보안 정책 및 Experience Cloud ID 서비스](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)가 추가되었습니다. 이 설명서는 ID 서비스에서 사용하는 Adobe 도메인에 대한 호출을 화이트리스트에 작성하는 방법을 설명합니다.
 
-## Version 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
+## 버전 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
 2017년 8월
 
@@ -74,9 +74,9 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **개정된 설명서**
 
-다른 [FAQ](/help/faq-intro/faq-intro.md)[!DNL Experience Cloud] 를 참조하십시오.
+다른 [FAQ](/help/faq-intro/faq-intro.md)에 다른 [!DNL Experience Cloud] 솔루션에 대한 별도의 FAQ를 포함하도록 업데이트되고 수정되었습니다.
 
-## Version 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
+## 버전 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
 2017년 7월
 
@@ -94,7 +94,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> resetState</span> </p> </td> 
-   <td colname="col2"> <p>이 기능은 주로 A4T 고객이 단일 페이지 사이트/화면 또는 앱에서 ID 작업 관련 문제를 해결할 수 있도록 설계되었습니다. 자세한 내용은 <a href="../library/get-set/resetstate.md#reference-47fc00ae139042d795d78244d9970139" format="dita" scope="local"> resetState</a>. </p> </td> 
+   <td colname="col2"> <p>이 기능은 주로 A4T 고객이 단일 페이지 사이트/화면 또는 앱에서 ID 작업 관련 문제를 해결할 수 있도록 설계되었습니다. <a href="../library/get-set/resetstate.md#reference-47fc00ae139042d795d78244d9970139" format="dita" scope="local">resetState</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 ## 버전 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
 
-릴리스 날짜: 2017 년 6 월
+릴리스 날짜: 2017년 6월
 
 <table id="table_7E412383E89D46759B00FE7328C9946F"> 
  <thead> 
@@ -161,9 +161,9 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  </tbody> 
 </table>
 
-## Version 2.1 {#section-5e666dc47c2f4f92999e92697d75799e}
+## 버전 2.1 {#section-5e666dc47c2f4f92999e92697d75799e}
 
-릴리스 날짜: 2017 년 2 월
+릴리스 날짜: 2017년 2월
 
 **기능**
 
@@ -177,11 +177,11 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> ID 서비스 API 속성, <span class="codeph">idSyncContainerID</span></p> </td> 
-   <td colname="col2"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external"> idSyncContainerID</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external">idSyncContainerID</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 서비스 API 메서드, <span class="codeph"> appendSupplementalDataIDTo( <span class="varname"> URL </span>, <span class="varname"> SDID</span>)</span></p> </td> 
-   <td colname="col2"> <p>이 공개 메서드는 <span class="wintitle">Supplemental Data ID</span>(SDID)를 쿼리 문자열 매개 변수로서 리디렉션 URL에 추가합니다. <a href="../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d" format="dita" scope="local"> Appendappenentaldataidto</a>를 참조하십시오. (MCID-285) </p> </td> 
+   <td colname="col2"> <p>이 공개 메서드는 <span class="wintitle">Supplemental Data ID</span>(SDID)를 쿼리 문자열 매개 변수로서 리디렉션 URL에 추가합니다. <a href="../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d" format="dita" scope="local"> appendSupplementalDataIDTo</a>를 참조하십시오. (MCID-285) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -192,15 +192,15 @@ ID 서비스에서 AMCV 쿠키에 저장된 ID를 사용하지 않고 ID에 대�
 
 **새 설명서**
 
-[다른 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용 `Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/en_US/mcloud/dns-prefetch.html)
+[다른 Experience Cloud 솔루션 및 서비스와 함께 DNS 프리페치 사용`Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/ko_KR/mcloud/dns-prefetch.html)
 
-## Version 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
+## 버전 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
 2017년 1월
 
 >[!IMPORTANT]
 >
->ID 서비스 코드 v 2.0는 기본적으로 ID를 Adobe Media Optimizer와 자동으로 동기화합니다. This means you&#39;ll see a call from the page to `cm.eversttech.net`, which is a legacy [!DNL Media Optimizer] domain controlled by [!DNL Adobe]. [ID 동기화 및 일치율 이해](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab)를 참조하십시오.
+>ID 서비스 코드 v2.0은 기본적으로 ID를 Adobe Media Optimizer와 자동으로 동기화합니다. 즉, [!DNL Adobe]에서 제어하는 기존 [!DNL Media Optimizer] 도메인인 `cm.eversttech.net`으로의 페이지 호출을 확인할 수 있습니다. [ID 동기화 및 일치율 이해](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab)를 참조하십시오.
 
 **수정 사항 및 향상된 기능**
 
