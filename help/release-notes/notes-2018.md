@@ -1,11 +1,11 @@
 ---
-description: 2018 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+description: 2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-seo-description: 2018 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+seo-description: 2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
-uuid: 771 B 5 B 11-A 8 E 3-464 C-B 65 E-B 15135584 ACE
-translation-type: tm+mt
+uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 # 2018 릴리스 노트 {#release-notes}
 
-2018 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
 ## 버전 3.3 {#section-3202c8d5457a45a5b5f4b4c838d44de3}
 
@@ -78,7 +78,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 >[!NOTE]
 >
->가장 빠른 시간에 버전 3.1.0에서 최신 버전으로 업그레이드하는 것이 좋습니다. 버전 3.1.2 설명을 참조하십시오. Adobe 출시, DTM 및 AppMeasurement에서 최신 번들을 사용할 수 있습니다.
+>편리한 시간에 버전 3.1.0에서 최신 버전으로 업그레이드하는 것이 좋습니다. 버전 3.1.2 설명을 참조하십시오. Adobe 출시, DTM 및 AppMeasurement에서 최신 번들을 사용할 수 있습니다.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 
