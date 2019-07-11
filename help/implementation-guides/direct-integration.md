@@ -4,14 +4,14 @@ keywords: ID 서비스
 seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 seo-title: Experience Cloud ID 서비스와 직접 통합
 title: Experience Cloud ID 서비스와 직접 통합
-uuid: de 502 f 7 e-cffd -4130-b 3 ca -7 d 6 b 9 a 9 caae 9
-translation-type: tm+mt
+uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Direct integration with the Experience Cloud ID Service {#direct-integration-with-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
 
 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 
@@ -21,17 +21,17 @@ VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 장치�
 
 ![](assets/directSyntax.png)
 
-In this syntax example, the `d_` prefix identifies the key-value pairs in the call as a system-level variable. You can pass quite a few `d_` parameters to the ID service, but stay focused on the key-value pairs as shown in the code above. 다른 변수에 대한 자세한 내용은 [DCS API 호출 시 지원되는 속성](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)을 참조하십시오.
+이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. 다른 변수에 대한 자세한 내용은 [DCS API 호출에 지원되는 특성]( https://marketing.adobe.com/resources/help/ko_KR/aam/dcs-keys.html)을 참조하십시오.
 
 ID 서비스는 HTTP 및 HTTPS 호출을 지원합니다. 보안 페이지의 데이터를 전달하려면 HTTPS를 사용합니다.
 
-## Sample request {#section-26302b8851704888b6f8e6b2071bcdb0}
+## 샘플 요청 {#section-26302b8851704888b6f8e6b2071bcdb0}
 
 요청은 아래 표시된 샘플과 유사하게 보일 수 있습니다. 긴 변수가 축소되었습니다.
 
 ![](assets/directExample.png)
 
-## Sample response {#section-89bc103b3e9e4a8b98e74c32897b1200}
+## 샘플 응답 {#section-89bc103b3e9e4a8b98e74c32897b1200}
 
 ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합니다. 응답이 다를 수 있습니다.
 
@@ -44,7 +44,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
 }
 ```
 
-## Request and response parameters defined {#section-4a9912b545364dc4acad4f1ea5ec641d}
+## 정의된 요청 및 응답 매개 변수 {#section-4a9912b545364dc4acad4f1ea5ec641d}
 
 **요청 매개 변수**
 
@@ -58,7 +58,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dpm.demdex.net</span> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Adobe</span>에서 제어하는 기존 도메인입니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>를 참조 하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Adobe</span>에서 제어하는 기존 도메인입니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/aam/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>를 참조 하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
@@ -70,10 +70,10 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
-   <td colname="col2"> <p>An optional parameter that passes the Data Provider ID (DPID), the Unique User ID (DPUUID), and an <a href="../reference/authenticated-state.md" format="dita" scope="local"> authenticated state ID</a> to the ID service. 코드 샘플에 표시된 대로 DPID와 DPUUID를 인쇄되지 않는 제어 문자 <span class="codeph">%01</span>로 구분합니다. </p> <p> <b>DPID 및 DPUUID</b> </p> <p><span class="codeph">d_cid</span> 매개 변수에서 관련된 각 DPID 및 DPUUID 조합을 동일한 <span class="codeph">d_cid</span> 매개 변수에 지정합니다. 이렇게 하면 단일 요청으로 여러 ID 세트를 반환할 수 있습니다. 또한 DPID, DPUUID 및 선택적 인증 플래그를 인쇄되지 않는 제어 문자 <span class="codeph">%01</span>로 구분합니다. 아래 예제에서 공급업체 및 사용자 ID는 <b>굵은</b> 텍스트로 강조 표시되어 있습니다. </p> 
+   <td colname="col2"> <p>DPID(데이터 제공자 ID), DPUUID(고유 사용자 ID) 및 <a href="../reference/authenticated-state.md" format="dita" scope="local"> 인증됨 상태 ID</a>를 ID 서비스에 전달하는 선택적 매개변수입니다. 코드 샘플에 표시된 대로 DPID와 DPUUID를 인쇄되지 않는 제어 문자 <span class="codeph">%01</span>로 구분합니다. </p> <p> <b>DPID 및 DPUUID</b> </p> <p><span class="codeph">d_cid</span> 매개 변수에서 관련된 각 DPID 및 DPUUID 조합을 동일한 <span class="codeph">d_cid</span> 매개 변수에 지정합니다. 이렇게 하면 단일 요청으로 여러 ID 세트를 반환할 수 있습니다. 또한 DPID, DPUUID 및 선택적 인증 플래그를 인쇄되지 않는 제어 문자 <span class="codeph">%01</span>로 구분합니다. 아래 예제에서 공급업체 및 사용자 ID는 <b>굵은</b> 텍스트로 강조 표시되어 있습니다. </p> 
     <ul id="ul_2E19D837296B40E9ACD096495CF711C5"> 
      <li id="li_5B94B057654440B99B989BA60E4ED053">구문: <span class="codeph">...d_cid=DPID%01DPUUID%01authentication state...</span> </li> 
-     <li id="li_B07833EF51D54F088574B7B7F9FB841A">Example: <span class="codeph">...d_cid=123%01456%011...</span> </li> 
+     <li id="li_B07833EF51D54F088574B7B7F9FB841A">예: <span class="codeph">...d_cid=123%01456%011...</span> </li> 
     </ul> <p> <b>인증 상태</b> </p> <p><span class="codeph">d_cid</span> 매개 변수에서 선택적 ID입니다. 정수로 표시되며, 아래와 같이 인증 상태에 따라 사용자를 식별합니다. </p> 
     <ul id="ul_E2B36922B11C4AA2A9016B6E2DC9EDAA"> 
      <li id="li_31C018E3F9514B938C73EF40C436715F"> <span class="codeph"> 0</span>(알 수 없음) </li> 
@@ -88,7 +88,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>ID 서비스는 지리적으로 분산되고 로드 분산된 시스템입니다. ID는 호출을 처리하는 데이터 센터의 영역을 식별합니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>ID 서비스는 지리적으로 분산되고 로드 분산된 시스템입니다. ID는 호출을 처리하는 데이터 센터의 영역을 식별합니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/aam/dcs-regions.html" format="https" scope="external">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cb</span> </p> </td> 
@@ -100,7 +100,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_ver</span> </p> </td> 
-   <td colname="col2"> <p>필수. API 버전 번호를 설정합니다. <span class="codeph">d_ver=2</span>로 설정된 대로 둡니다. </p> </td> 
+   <td colname="col2"> <p>필수 여부. API 버전 번호를 설정합니다. <span class="codeph">d_ver=2</span>로 설정된 대로 둡니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
