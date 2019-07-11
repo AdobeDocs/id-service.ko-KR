@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 seo-title: ID 서비스 FAQ
 title: ID 서비스 FAQ
-uuid: E 8 D 8 F 819-3 D 73-4 FA 2-864 C -4867071 C 14 EE
-translation-type: tm+mt
+uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -29,21 +29,21 @@ ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 
 모바일 앱에서 VisitorAPI.js를 로컬 파일로 호스트하는 경우 문제가 발생할 수 있습니다. 웹 서버에 파일을 호스트하는 것이 좋습니다.
 
-## Page load times and latency {#section-c78e148d8dbe4c77a436ef0f2af5434b}
+## 페이지 로드 시간 및 지연 {#section-c78e148d8dbe4c77a436ef0f2af5434b}
 
 **ID 서비스 VisitorAPI.js 라이브러리의 배치가 페이지 로드 시간에 어떻게 영향을 줍니까?**
 
-Place the VisitorAPI.js library at the top of the page in the `<head>` section of your code. 이렇게 하면 페이지 본문 로드가 시작되기 전에 ID에 대한 호출이 종료되고 ID가 성공적으로 반환되는 기회를 최대화하는 데 도움이 됩니다.
+VisitorAPI.js 라이브러리는 코드의 `<head>` 섹션에서 페이지 맨 위에 놓습니다. 이렇게 하면 페이지 본문 로드가 시작되기 전에 ID에 대한 호출이 종료되고 ID가 성공적으로 반환되는 기회를 최대화하는 데 도움이 됩니다.
 
-ID 서비스 호출은 비동기적이며 [demdex.net 도메인](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)에 대한 유일한 호출입니다. ID 서비스 호출은 다른 요소가 페이지에서 로드되는 것을 차단하지 않습니다.
+ID 서비스 호출은 비동기적으로 수행되며 유일한 [demdex.net 도메인](https://marketing.adobe.com/resources/help/ko_KR/aam/demdex-calls.html) 호출입니다. ID 서비스 호출은 다른 요소가 페이지에서 로드되는 것을 차단하지 않습니다.
 
-[!DNL Target] 고객의 경우, 페이지 안에 ID 서비스 `<body>` 코드를 삽입하면 [!DNL Target] 호출이 차단될 수 있습니다. If you must place ID service code in the body of your page, it should be placed after the open `<body>` tag.
+[!DNL Target] 고객의 경우 페이지의 `<body>`에 ID 서비스 코드를 지정하면 [!DNL Target] 호출을 차단할 가능성이 늘어날 수 있습니다. ID 서비스 코드를 페이지의 본문에 배치해야 하는 경우에는 열기 `<body>` 태그 뒤에 배치해야 합니다.
 
 **ID 서비스가 모든 페이지 로드와 함께 서버 호출을 수행합니까?**
 
 아니요, 이 호출은 처음으로 페이지를 렌더링할 때만 발생하고, 이후에는 7일마다 한 번씩 발생합니다. 그동안 서버 호출은 필요하지 않습니다. ID 서비스가 클라이언트측 모드에서 작동하므로 ID를 반환하기 위해 서버를 호출할 필요가 없습니다.
 
-자세한 내용은 [개요](../introduction/overview.md).
+[개요](../introduction/overview.md)를 참조하십시오.
 
 **ID 서비스를 사용할 때 페이지 로드 시간이 느려지거나 사용자 환경에 영향을 줄 수 있는 것은 무엇입니까?**
 
@@ -67,25 +67,25 @@ ID 서비스 호출은 비동기적이며 [demdex.net 도메인](https://marketi
 
 CORS를 사용한 리소스 요청이 JSONP를 사용한 요청보다 더 많이 사용됩니다. JSONP를 사용하는 경우 일부 브라우저에서는 페이지의 다른 동기 및 비동기 호출을 기준으로 하여 요청을 큐에 넣고 우선 순위를 낮게 지정합니다. CORS는 이러한 요청이 브라우저 호출 스택에서 우선 순위가 더 높은 것으로 처리되도록 합니다.
 
-자세한 내용은 [Experience Cloud ID 서비스의 CORS 지원](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+[Experience Cloud ID 서비스에서 CORS 지원](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)을 참조하십시오.
 
 ## 보안 {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **ID 서비스에서 CORS를 지원합니까?**
 
-예. See [CORS Support in the Experience Cloud ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+예. [Experience Cloud ID 서비스에서 CORS 지원](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)을 참조하십시오.
 
 **CORS란 무엇입니까?**
 
-*`Cross-Origin Resource Sharing`* 또는 CORS는 브라우저에서 리소스를 요청하는 데 사용하는 메서드입니다. ID 서비스는 항상 지원하는 브라우저에서 CORS를 사용하여 리소스를 요청합니다. ID 서비스는 요청은 CORS를 지원하지 않는 이전 브라우저에서 JSON-P를 사용하여 리소스를 요청합니다. 자세한 내용은 [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+*`Cross-Origin Resource Sharing`* 또는 CORS는 브라우저에서 리소스를 요청하는 데 사용하는 메서드입니다. ID 서비스는 항상 지원하는 브라우저에서 CORS를 사용하여 리소스를 요청합니다. ID 서비스는 요청은 CORS를 지원하지 않는 이전 브라우저에서 JSON-P를 사용하여 리소스를 요청합니다. [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)를 참조하십시오.
 
 **보안 요구 사항이 너무 엄격하여 JSONP를 사용하지 않을 경우 어떻게 됩니까?**
 
 엄격한 보안 요구 사항이 있는 경우 ID 서비스 API 구성 `useCORSOnly: true`를 설정합니다. 사이트 방문자가 CORS를 지원하는 브라우저를 사용하는 경우에만 이 모드를 사용해야 합니다.
 
-자세한 내용은 [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) 및 [usecorsonly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+자세한 내용은 [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) 및 [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa)를 참조하십시오.
 
->[!MORE_ like_ this]
+>[!MORE_LIKE_THIS]
 >
->* [고객 지원](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오
+>* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 
