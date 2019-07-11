@@ -1,11 +1,11 @@
 ---
-description: 'ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다. '
+description: ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
 keywords: ID 서비스
 seo-description: ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
 seo-title: isCoopSafe
 title: isCoopSafe
-uuid: 4 DFA 1 F 35-0 A 88-48 D 1-9484-D 88 CB 53 AD 461
-translation-type: tm+mt
+uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -27,10 +27,10 @@ ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하
 
 ## 요구 사항 {#section-4883eda6beb8437182bcc82bb58fae41}
 
-`isCoopSafe` 사용하려면 다음을 수행해야 합니다.
+`isCoopSafe`를 사용하려면 다음을 수행해야 합니다.
 
 * ID 서비스 코드 버전 2.4 이상을 사용합니다.
-* [Experience Cloud 장치 Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
+* [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ko_KR/mcdc/)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
 * [!DNL Adobe] 컨설턴트와 함께 장치 Co-op 계정에 화이트리스트 또는 블랙리스트 플래그를 설정합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
@@ -137,7 +137,7 @@ POST 매개 수는 장치 그래프에 사용자 데이터를 포함할 수 있�
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 -->
 
->[!MORE_ like_ this]
+>[!MORE_LIKE_THIS]
 >
->* [DIL isCoopSafe](https://marketing.adobe.com/resources/help/en_US/aam/dil-coopsafe.html)
+>* [DIL isCoopSafe](https://marketing.adobe.com/resources/help/ko_KR/aam/dil-coopsafe.html)
 
