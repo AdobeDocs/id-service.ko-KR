@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이 속성은 ID 동기화에 사용할 데이터 소스 컨테이너 ID를 설정합니다.
 seo-title: idSyncContainerID
 title: idSyncContainerID
-uuid: E 35 DC 48 B -1 AA 1-41 E 3-91 C 1-EF 1 E 9 D 2 D 8 B 90
-translation-type: tm+mt
+uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ## 구문 및 코드 샘플 {#section-b0c50732b1c84bed8616e82e8e83d58c}
 
-**구문:**` idSyncContainerID: *`컨테이너 ID 값`*`
+**구문:** ` idSyncContainerID: *`컨테이너 ID 값`*`
 
 **코드 샘플:**
 
@@ -41,7 +41,7 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 
 **컨테이너**
 
-컨테이너는에서 만든 개체입니다 [!DNL Audience Manager]. 외부에서 액세스할 수 없지만 이러한 컨테이너에는 다음과 같은 데이터 소스가 모두 나열되어 있습니다.
+컨테이너는 [!DNL Audience Manager]에서 만든 개체입니다. 외부에서 액세스할 수 없지만 이러한 컨테이너에는 다음과 같은 데이터 소스가 모두 나열되어 있습니다.
 
 * ID 동기화에 사용할 수 있지만, 사용하지 않는 데이터 소스.
 * ID 동기화에 사용되고 있는 데이터 소스.
