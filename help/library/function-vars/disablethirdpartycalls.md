@@ -1,11 +1,11 @@
 ---
 description: ID 서비스가 다른 도메인을 호출하지 않도록 방지하는 선택적 부울 플래그입니다.
-keywords: 크로스 도메인 추적; ID 서비스
+keywords: 도메인 간 추적;ID 서비스
 seo-description: ID 서비스가 다른 도메인을 호출하지 않도록 방지하는 선택적 부울 플래그입니다.
 seo-title: disableThirdPartyCalls
 title: disableThirdPartyCalls
-uuid: E 92 CE 1 F 5-67 A 4-476 C -9 D 04-41 D 4 E 96 B 1592
-translation-type: tm+mt
+uuid: e92ce1f5-67a4-476c-9d04-41d4e96b1592
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ID 서비스가 다른 도메인을 호출하지 않도록 방지하는 선택적 부울 플래그입니다.
 
-**구문:**` `Disablethirdpartycalls: true | false &quot; (기본값은 `false`.)
+**구문:** ` `disableThirdPartyCalls: true|false``(기본값은 `false`임)
 
 `disableThirdPartyCalls: true`이면 ID 서비스는 다른 도메인을 호출하지 않습니다.
 
