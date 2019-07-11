@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 다른 Experience Cloud ID 서비스 기능에 대한 정보입니다.
 seo-title: 참조
 title: 참조
-uuid: 9 e 8 f 50 db -1 fdf -4 fbc -89 e 5-4431 bb 6402 d 5
-translation-type: tm+mt
+uuid: 9e8f50db-1fdf-4fbc-89e5-4431bb6402d5
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 다른 Experience Cloud ID 서비스 기능에 대한 정보입니다.
 
-* [분석 참조 개요](analytics-reference/analytics-reference.md)
+* [Analytics 참조 개요](analytics-reference/analytics-reference.md)
 * [컨텐츠 보안 정책 및 Experience Cloud ID 서비스](csp.md)
 * [Experience Cloud ID 서비스의 COPPA 지원](coppa.md)
 * [Experience Cloud ID 서비스의 CORS 지원](cors.md)
