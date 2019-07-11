@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: setCustomerIDs는 고객 ID 및 해당 인증 상태를 정의하는 1개 이상의 키-값 쌍을 설정합니다.
 seo-title: setCustomerIDs
 title: setCustomerIDs
-uuid: 4 F 960 F 98-CEC 2-4 DB 6-84 EA -0259 E 2128 EA 2
-translation-type: tm+mt
+uuid: 4f960f98-cec2-4db6-84ea-0259e2128ea2
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -17,7 +17,7 @@ setCustomerIDs는 고객 ID 및 해당 인증 상태를 정의하는 1개 이상
 
 **구문:** `visitor.setCustomerIDs()`
 
-아래 코드 샘플에 표시된 것처럼 단일 또는 다중 ID를 설정할 수 있습니다. 자세한 내용 및 예제에 대해서는 [고객 ID 및 인증 상태](../../reference/authenticated-state.md)를 참조하십시오.
+아래 코드 샘플에 표시된 것처럼 단일 또는 다중 ID를 설정할 수 있습니다. 자세한 내용 및 예는 [고객 ID 및 인증 상태](../../reference/authenticated-state.md)를 참조하십시오.
 
 ```js
 // Single ID with a single authentication state 
