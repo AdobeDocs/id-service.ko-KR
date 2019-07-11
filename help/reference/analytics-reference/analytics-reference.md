@@ -2,10 +2,10 @@
 description: Adobe Analytics의 고유한 ID 서비스 기능입니다.
 keywords: ID 서비스
 seo-description: Adobe Analytics의 고유한 ID 서비스 기능입니다.
-seo-title: 분석 참조
-title: 분석 참조
-uuid: 215 F 0394-A 436-4 F 0 C -9 A 52-3 B 387048 E 40 E
-translation-type: tm+mt
+seo-title: Analytics 참조
+title: Analytics 참조
+uuid: 215f0394-a436-4f0c-9a52-3b387048e40e
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
