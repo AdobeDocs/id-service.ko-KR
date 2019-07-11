@@ -1,11 +1,11 @@
 ---
 description: 'null'
-keywords: 작업 순서; ID 서비스
+keywords: 작업 순서;ID 서비스
 seo-description: 'null'
 seo-title: 데이터 수집 CNAME 및 도메인 간 추적
 title: 데이터 수집 CNAME 및 도메인 간 추적
-uuid: BA 42 C 822-B 677-4139-B 1 ED -4 D 98 D 3320 FD 0
-translation-type: tm+mt
+uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -23,7 +23,7 @@ demdex.net 쿠키를 사용하여 방문자 ID 서비스는 Analytics의 s_vi �
 
 ## 데이터 수집 CNAME {#section-48fd186d376a48079769d12c4bd9f317}
 
-데이터 수집 서버에서 Analytics 쿠키를 설정한 경우 많은 고객은 서드 파티 쿠키를 거부하는 브라우저 문제를 피하기 위해 데이터 수집 서버 CNAME 레코드를 [퍼스트 파티 쿠키 구현](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)의 일부로 구성했습니다. 이 프로세스는 데이터 수집 서버 도메인을 사용자 웹 사이트의 도메인과 일치하게 구성하여 방문자 ID 쿠키가 퍼스트 파티 쿠키로 설정되도록 합니다.
+데이터 수집 서버에서 Analytics 쿠키를 설정한 경우 많은 고객이 타사 쿠키를 거부하는 브라우저와 관련된 문제를 방지하기 위해 데이터 수집 서버 CNAME 레코드를 [자사 쿠키 구현](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/first_party_cookies/)의 일부로 구성했습니다. 이 프로세스는 데이터 수집 서버 도메인을 사용자 웹 사이트의 도메인과 일치하게 구성하여 방문자 ID 쿠키가 퍼스트 파티 쿠키로 설정되도록 합니다.
 
 방문자 ID 서비스는 JavaScript를 사용하여 현재 웹 사이트의 도메인에서 직접 방문자 쿠키를 설정하므로 퍼스트 파티 쿠키를 설정하는 데 이 구성이 더 이상 필요하지 않습니다.
 
@@ -35,16 +35,16 @@ demdex.net 쿠키를 사용하여 방문자 ID 서비스는 Analytics의 s_vi �
 
 Apple Safari 및 일부 다른 브라우저의 서드 파티 컨텍스트에서 퍼스트 파티 쿠키를 사용하는 방식 때문에, CNAME을 사용하면 기본 도메인과 동일한 추적 서버를 사용하는 추가 도메인 사이에서 고객을 추적할 수 있습니다.
 
-예를 들어 `mymainsite.com`에 기본 사이트가 있다고 합니다. You configured the CNAME record to point to your secure data collection server: `smetrics.mymainsite.com`.
+예를 들어 `mymainsite.com`에 기본 사이트가 있다고 합니다. 보안 데이터 수집 서버(`smetrics.mymainsite.com`)를 가리키도록 CNAME 레코드를 구성했습니다.
 
-사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. This is allowed since the domain of the data collection server matches the domain of the website, and is what is known as using a cookie in a *first-party context*, or just a *first-party cookie*.
+사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. 데이터 수집 서버 도메인이 웹 사이트 도메인과 일치하기 때문에 가능한 것으로, 이를 가리켜 *자사 컨텍스트*에서의 쿠키 사용 또는 *자사 쿠키*라고 합니다.
 
-If you are also using this same data collection server on other sites (for example, `myothersiteA.com`, and `myothersiteB.com`), and a visitor later visits these sites, the cookie that was set during the visit to `mymainsite.com` is sent in the HTTPS request to the data collection server (remember that browsers send all cookies for a domain with all HTTPS requests to that domain, even if the domain doesn&#39;t match the domain of the current website). This is what is known as using a cookie in a *third-party context*, or just a *third-party cookie*, and it enables the same visitor ID to be used on these other domains. 브라우저는 타사 컨텍스트에서 퍼스트 파티 쿠키와 다르게 쿠키를 처리합니다.
+다른 사이트에서도 이와 동일한 데이터 수집 서버를 사용하는 경우(예를 들어 `myothersiteA.com` 및 `myothersiteB.com`) 방문자가 나중에 이러한 사이트를 방문하면 `mymainsite.com` 방문 중에 설정된 쿠키가 HTTP 요청을 통해 데이터 수집 서버로 전송됩니다(브라우저는 도메인이 현재 웹 사이트 도메인과 일치하지 않더라도 해당 도메인에 대한 모든 HTTP 요청과 모든 쿠키를 전송함). 이것을 *타사 컨텍스트*에서 쿠키 사용하기 또는 *타사 쿠키*라고 하며, 이를 통해 이러한 다른 도메인에서 같은 방문자 ID를 사용할 수 있습니다. 브라우저는 자사 쿠키와 다르게 타사 컨텍스트에서 쿠키를 처리합니다.
 
-*참고: Safari는 서드 파티 컨텍스트에서 쿠키 설정 방법에 관계없이 모든 쿠키를 차단합니다.*
+*참고: Safari는 설정된 방법에 관계없이 타사 컨텍스트에서 모든 쿠키를 차단합니다.*
 
-따라서 도메인 간 방문자 식별을 위해서는 수집 도메인이 사람들이 흔히 방문하는 도메인이 되어야 합니다. If there is no *common* domain to use for the data collection domain, there is no cross-domain benefit to maintaining a CNAME for the data collection domain. 처음에 기본 시작 사이트를 방문하지 않으면 방문자는 보조 사이트 및 기본 사이트에서 다르게 식별됩니다.
+따라서 도메인 간 방문자 식별을 위해서는 수집 도메인이 사람들이 흔히 방문하는 도메인이 되어야 합니다. 데이터 수집 도메인에 사용할 *일반* 도메인이 없는 경우 데이터 수집 도메인에서 CNAME을 유지해도 도메인 간에 이점이 없습니다. 처음에 기본 시작 사이트를 방문하지 않으면 방문자는 보조 사이트 및 기본 사이트에서 다르게 식별됩니다.
 
 ## Experience Cloud ID 서비스로 CNAME 지원 설정 {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
-Data collection server CNAME support is enabled by setting the `visitor.marketingCloudServerSecure` variables.
+데이터 수집 서버 CNAME 지원은 `visitor.marketingCloudServerSecure` 변수를 설정하여 사용할 수 있습니다.
