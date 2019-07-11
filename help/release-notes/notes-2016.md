@@ -1,11 +1,11 @@
 ---
-description: 2016 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+description: 2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-seo-description: 2016 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+seo-description: 2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2016 릴리스 노트
 title: 2016 릴리스 노트
-uuid: 7 A 5 A 314 A -3 FF 8-4561-9 C 64-6 C 10 D 2223887
-translation-type: tm+mt
+uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -13,35 +13,35 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 # 2016 릴리스 노트 {#release-notes}
 
-2016 년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항.
+2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.[!DNL Experience Cloud]
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)에도 캡처되었습니다. 이전 [!DNL Experience Cloud] 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.
 
-## Version 1.10 {#section-7d719b3213344a46858835042e0214ed}
+## 버전 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
 2016년 11월
 
 >[!IMPORTANT]
 >
->* Version 1.10 requires [!DNL AppMeasurement] 1.8.0.
->* Experience Cloud ID Service Library 2.0.0 +를 사용하면 기본적으로 ID 동기화가 Adobe Media Optimizer에 대해 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
+>* 버전 1.10은 [!DNL AppMeasurement] 1.8.0이 필요합니다.
+>* Experience Cloud ID 서비스 라이브러리 2.0.0 이상을 사용하면 기본적으로 Adobe Media Optimizer에 대한 ID 동기화가 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
 
 
 **수정 사항 및 향상된 기능**
 
 * 서버측 환경에 ID 서비스를 구현하는 방법에 대한 지침을 추가했습니다.
-* 자신이 소유한 다른 도메인의 Experience Cloud 및 Analytics ID를 덮어쓸 수 있는 부울 함수인 `Visitor.overwriteCrossDomainMCIDAndAID`가 추가되었습니다. See [Overwrite Visitor ID](../library/function-vars/overwrite-visitor-id.md#reference-9db13d637ce44fb6a8d519de5743ccde).
+* 자신이 소유한 다른 도메인의 Experience Cloud 및 Analytics ID를 덮어쓸 수 있는 부울 함수인 `Visitor.overwriteCrossDomainMCIDAndAID`가 추가되었습니다. [방문자 ID 덮어쓰기](../library/function-vars/overwrite-visitor-id.md#reference-9db13d637ce44fb6a8d519de5743ccde)를 참조하십시오.
 
 * `TS = UTC` 타임스탬프를 `visitor.appendVisitorIDsTo` 함수의 속성으로 추가했습니다. ID 서비스는 5분 에이징 간격을 기반으로 하여 리디렉션 URL에서 ID를 사용해야 하는지 여부를 결정하는 데 타임스탬프를 사용합니다. 자세한 내용은 [방문자 ID 함수 추가](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce).
 
-* Added `Visitor.getLocationHint,` a new function that returns a region ID. See [Get Region IDs (Location Hint)](../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c).
+* 지역 ID를 반환하는 `Visitor.getLocationHint,` 함수가 새로 추가되었습니다. [지역 ID 가져오기(위치 힌트)](../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c)를 참조하십시오.
 
-* 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있는 `idSyncByURL`과 `idSyncByDataSource` 함수가 추가되었습니다. See [ID Synchronization by URL or Data Source](../library/get-set/idsync.md#reference-b01b88c083434cf8abbeabd3c6956c48).
+* 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있는 `idSyncByURL`과 `idSyncByDataSource` 함수가 추가되었습니다. [URL 또는 데이터 소스 별로 ID 동기화](../library/get-set/idsync.md#reference-b01b88c083434cf8abbeabd3c6956c48)를 참조하십시오.
 
 * `disableThirdPartyCalls:true`인 경우 AppMeasurement 추적 호출을 차단한 버그가 수정되었습니다.
 * ID 서비스에서 다른 도메인의 Experience Cloud ID(MID)를 전달할 수 없었던 버그가 수정되었습니다.
 
-## Version 1.9.0 {#section-04e1b4d4b10d40468f2116b8119998e7}
+## 버전 1.9.0 {#section-04e1b4d4b10d40468f2116b8119998e7}
 
 2016년 10월
 
@@ -53,9 +53,9 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **새로운 설명서 및 수정된 설명서**
 
-**새로운 기능:**[AMCV 쿠키에서 지역 및 사용자 ID 가져오기](../reference/regions.md#concept-15b2c8c894b846a48f1f61a353cfdf4e)
+**새로운 내용:** [AMCV 쿠키에서 영역 및 사용자 ID 가져오기](../reference/regions.md#concept-15b2c8c894b846a48f1f61a353cfdf4e)
 
-## Version 1.8.0 {#section-69f2eb5b246b4c7aafe116b7a2a5448a}
+## 버전 1.8.0 {#section-69f2eb5b246b4c7aafe116b7a2a5448a}
 
 2016년 9월
 
@@ -69,7 +69,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **수정 사항 및 향상된 기능**
 
-* `idSyncAttachIframeOnWindowLoad`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 부울 플래그로 추가되었습니다. `idSyncAttachIframeOnWindowLoad= true`이면 ID 서비스가 창 로드 시 ID 동기화 iFrame을 로드합니다. 기본적으로 ID 서비스는 가능한 빠르게 iFrame을 로드합니다. 이 플래그는 사용되지 않는 *를 *바꿉니다`idSyncAttachIframeASAP`. [Visitor. getinstance 함수 변수를 참조하십시오](../library/function-vars/function-vars.md).
+* `idSyncAttachIframeOnWindowLoad`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 부울 플래그로 추가되었습니다. `idSyncAttachIframeOnWindowLoad= true`이면 ID 서비스가 창 로드 시 ID 동기화 iFrame을 로드합니다. 기본적으로 ID 서비스는 가능한 빠르게 iFrame을 로드합니다. 이 플래그는 사용되지 않는 *를 *바꿉니다`idSyncAttachIframeASAP`. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
 
 * 도메인, 기본 앱 및 하이브리드 앱에서 웹 전환으로 [!DNL Experience Cloud] ID 추적을 지원하는 기능이 추가되었습니다. [방문자 ID 지원 기능 추가](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce)를 참조하십시오.
 
@@ -77,19 +77,19 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **새로운 설명서 및 수정된 설명서**
 
-Revised: [Requirements for the Experience Cloud ID Service](../reference/requirements.md)
+수정된 내용: [Experience Cloud ID 서비스 요구 사항](../reference/requirements.md)
 
 **알려진 문제**
 
-같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://marketing.adobe.com/resources/help/en_US/aam/?f=dil-secure-data-collection.html)을 참조하십시오.
+같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://marketing.adobe.com/resources/help/ko_KR/aam/?f=dil-secure-data-collection.html)을 참조하십시오.
 
-## Version 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
+## 버전 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
 2016년 7월
 
 >[!IMPORTANT]
 >
->[!DNL Experience Cloud] ID 서비스 버전 1.6.0를 *사용하려면* JavaScript 버전 1.6.2 용 appmeasurement가 필요합니다. ID 서비스 버전 1.6.0로 업그레이드하는 경우 올바른 appmeasurement 코드 버전을 사용하고 있는지 확인하십시오.
+>[!DNL Experience Cloud] ID 서비스 버전 1.6.0은 JavaScript 버전 1.6.2용 AppMeasurement가 *필요*합니다. ID 서비스 버전 1.6.0으로 업그레이드하는 경우 올바른 AppMeasurement 코드 버전을 사용 중인지 확인하십시오.
 
 <table id="table_5472AAFA0DD2495DB8D92DEBE44A07A9"> 
  <thead> 
@@ -101,7 +101,7 @@ Revised: [Requirements for the Experience Cloud ID Service](../reference/require
  <tbody> 
   <tr> 
    <td colname="col1"> <p>CORS(교차 도메인 리소스 공유) </p> </td> 
-   <td colname="col2"> <p>CORS를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 CORS 표준을 지원하여 클라이언트측의 크로스 소스 리소스 요청을 활성화합니다. ID 서비스는 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다. </p> <p>다음을 참조하십시오. </p> 
+   <td colname="col2"> <p>CORS를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 클라이언트측의 교차 도메인 리소스 요청이 가능하도록 CORS 표준을 지원합니다. ID 서비스는 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다. </p> <p>다음을 참조하십시오. </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
      <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Experience Cloud ID 서비스의 CORS 지원 </a> </li> 
     </ul> </td> 
@@ -113,11 +113,11 @@ Revised: [Requirements for the Experience Cloud ID Service](../reference/require
 
 * ID 동기화 호출에 대한 `d_fieldgroup` 매개 변수를 `dpm.demdex.net`에 추가했습니다. 이 새 매개 변수는 내부 문제 해결 및 디버깅 목적에 사용됩니다.
 
-* ID 서비스 iFrame에 제목 속성이 추가되었습니다. iFrame 제목 도움말 스크린 리더는 온라인 콘텐츠와 상호 작용할 때 지원이 필요한 사용자에게 페이지 정보를 제공합니다. iFrame 제목 속성이 `Adobe ID Syncing iFrame`으로 설정되어 있습니다. 
-* `idSyncAttachIframeASAP: true`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 플래그로 추가됨. `true`일 경우, ID 서비스는 최대한 빠르게 ID 동기화 iFrame을 로드합니다. ID 동기화 일치율을 향상시킬 수 있도록 설계되었습니다. 기본적으로 ID 서비스는 iFrame을 윈도우 로드에 로드합니다. [Visitor. getinstance 함수 변수를 참조하십시오](../library/function-vars/function-vars.md).
+* ID 서비스 iFrame에 제목 속성이 추가되었습니다. iFrame 제목 도움말 스크린 리더는 온라인 컨텐츠와 상호 작용할 때 지원이 필요한 사용자에게 페이지 정보를 제공합니다. iFrame 제목 속성이 `Adobe ID Syncing iFrame`으로 설정되어 있습니다. 
+* `idSyncAttachIframeASAP: true`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 플래그로 추가됨. `true`일 경우, ID 서비스는 최대한 빠르게 ID 동기화 iFrame을 로드합니다. ID 동기화 일치율을 향상시킬 수 있도록 설계되었습니다. 기본적으로 ID 서비스는 iFrame을 윈도우 로드에 로드합니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
 
 * AppMeasurement에서 무한 루프가 발생한 원인이 되는 콜백 함수 버그를 수정했습니다.
-* 기본 `loadTimeout` 간격이 500밀리초에서 30,000밀리초로 변경되었습니다. [Visitor. getinstance 함수 변수를 참조하십시오](../library/function-vars/function-vars.md).
+* 기본 `loadTimeout` 간격이 500밀리초에서 30,000밀리초로 변경되었습니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
 
 **새로운 설명서 및 수정된 설명서**
 
@@ -131,7 +131,7 @@ Revised: [Requirements for the Experience Cloud ID Service](../reference/require
 * [Experience Cloud ID 서비스 요구 사항](../reference/requirements.md)
 * [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)
 
-## Version 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
+## 버전 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
 
 2016년 6월
 
@@ -145,11 +145,11 @@ Revised: [Requirements for the Experience Cloud ID Service](../reference/require
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">iframe.sandbox</span> 속성 변경 </p> </td> 
-   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/ko-KR/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID(MID) 인코딩 </p> </td> 
-   <td colname="col2"> <p>ID 서비스는 서버에서 반환된 MID 값 또는 <span class="codeph">visitor.setMarketingCloudVisitorID()</span> 함수에 설정된 경우 MID 값을 인코딩합니다. For more information about the MID, see <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID </a>. </p> </td> 
+   <td colname="col2"> <p>ID 서비스는 서버에서 반환된 MID 값 또는 <span class="codeph">visitor.setMarketingCloudVisitorID()</span> 함수에 설정된 경우 MID 값을 인코딩합니다. MID에 대한 자세한 내용은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud ID</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,7 +176,7 @@ Revised: [Requirements for the Experience Cloud ID Service](../reference/require
 
 [Target용 Experience Cloud ID 서비스 구현](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
 
-## Version 1.5.4 {#section-1a44ba147fb3440ea7dec551faee3528}
+## 버전 1.5.4 {#section-1a44ba147fb3440ea7dec551faee3528}
 
 2016년 3월
 
