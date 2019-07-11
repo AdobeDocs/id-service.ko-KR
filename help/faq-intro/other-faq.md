@@ -2,22 +2,22 @@
 description: ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 keywords: ID 서비스
 seo-description: ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
-seo-title: 다른 Experience Cloud 솔루션에 대한 FAQ
-title: 다른 Experience Cloud 솔루션에 대한 FAQ
-uuid: 7 d 848663-6 cbb -4 d 80-ab 06-7 b 6 d 2 dc 20 e 2 b
-translation-type: tm+mt
+seo-title: 기타 Experience Cloud 솔루션에 대한 FAQ
+title: 기타 Experience Cloud 솔루션에 대한 FAQ
+uuid: 7d848663-6cbb-4d80-ab06-7b6d2dc20e2b
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# FAQs for other Experience Cloud solutions{#faqs-for-other-experience-cloud-solutions}
+# 기타 Experience Cloud 솔루션에 대한 FAQ{#faqs-for-other-experience-cloud-solutions}
 
 ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 
 ## Dynamic Tag Management (DTM) {#section-7ac4b9c1f1fd45a5a03eac3fb5968af7}
 
-**다이내믹 태그 관리를 사용하여 방문자 ID 서비스를 배포할 수 있습니까?**
+**Dynamic Tag Management를 사용하여 방문자 ID 서비스를 배포할 수 있습니까?**
 
 예, 이 옵션이 선호되고 권장됩니다.
 
