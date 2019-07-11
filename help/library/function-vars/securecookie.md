@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: AMCV 쿠키에 "Secure" 속성을 추가하는 선택적 부울 플래그입니다.
 seo-title: secureCookie
 title: secureCookie
-uuid: 995 D 19 F 6-9 C 9 D -4493-9 C 9 C -545 B 0 B 5696 B 0
-translation-type: tm+mt
+uuid: 995d19f6-9c9d-4493-9c9c-545b0b5696b0
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -19,9 +19,9 @@ AMCV 쿠키에 &quot;Secure&quot; 속성을 추가하는 선택적 부울 플래
 
 >[!NOTE]
 >
->`SecureCookie` 구성은 비보안 도메인에서 작동하지 않으며 비보안 프로토콜을 사용하는 방문에 대한 MID 값을 받지 않을 수 있습니다. 모든 페이지 및 하위 도메인에서 항상 보안 프로토콜을 사용 중인 경우에만 `secureCookie` 구성을 `true`로 설정해야 합니다.
+>`SecureCookie` 구성은 비보안 도메인에서 작동하지 않으며, 비보안 프로토콜을 사용하는 방문의 경우 MID 값을 수신할 수 없습니다. 모든 페이지 및 하위 도메인에서 항상 보안 프로토콜을 사용 중인 경우에만 `secureCookie` 구성을 `true`로 설정해야 합니다.
 
-**구문:**`secureCookie: true | false` (기본값)
+**구문:** `secureCookie: true | false` (기본값)
 
 **코드 샘플**
 
