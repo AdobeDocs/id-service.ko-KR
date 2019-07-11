@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이러한 구성을 사용하면 iFrame 및 상위 페이지에 구현된 ID 서비스 코드의 다른 인스턴스가 서로 정보를 교환할 수 있습니다. 이러한 구성은 상위 페이지/도메인을 제어할 수 있거나 제어할 수 없고 사용자가 제어하는 도메인의 iFrame에서 ID 서비스 코드가 로드되는 2가지 특정 사용 사례의 문제를 해결하는 데 도움이 되도록 설계되어 있으며, VisitorAPI.js 코드 버전 2.2 이상에서 사용할 수 있습니다.
 seo-title: whitelistParentDomain 및 whitelistIframeDomains
 title: whitelistParentDomain 및 whitelistIframeDomains
-uuid: 6 b 66 a 4 d 0-fea 2-4 d 98-963 e -0 c 4 f 4 ab 1 efb 6
-translation-type: tm+mt
+uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -38,11 +38,11 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Whitelistparentdomain: " <span class="varname"> 상위 페이지의 도메인 이름 </span>" </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> whitelistParentDomain: "<span class="varname"> 상위 페이지의 도메인 이름 </span>" </span> </p> </td> 
    <td colname="col2"> <p>문자열로 전달된 단일 도메인 이름을 허용합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Whitelistiframedomain: [ <span class="varname"> "iframe domain", "iframe domain", "iframe domain" </span>] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> whitelistIframeDomains: [ <span class="varname"> "iFrame 도메인","iFrame 도메인","iFrame 도메인" </span>] </span> </p> </td> 
    <td colname="col2"> <p>배열로 전달된 하나 이상의 iFrame 도메인 이름을 허용합니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ## 코드 샘플 {#section-09d0049fe88a473baa69d404c50bf8ae}
 
-구성된 [!DNL ID service] 코드는 이 예제와 비슷합니다.
+구성된 [!DNL ID service] 코드는 이 예제와 유사할 수 있습니다.
 
 ```js
 //Instantiate Visitor 
@@ -73,7 +73,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
 
 >[!TIP]
 >
->비디오 하트비트가 있는 [iframe에서 비디오를 제공할 때 이러한 구성을 구현할](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)수도 있습니다. 비디오 하트비트가 제대로 작동하려면 ID 서비스 ID(MID)가 필요합니다.
+>[비디오 하트비트](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/hbvideo/)를 사용하여 iFrame에 비디오를 제공할 때 이러한 구성을 구현할 수도 있습니다. 비디오 하트비트가 제대로 작동하려면 ID 서비스 ID(MID)가 필요합니다.
 
 **사용 사례 1: 브라우저에서 타사 쿠키를 차단하고, ID 서비스가 iFrame 및 상위 페이지에 구현됨**
 
@@ -139,7 +139,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션</b> </p> </td> 
-   <td colname="col2"> <p>이러한 화이트리스트 구성을 사용하여 iFrame에서 ID 서비스 <span class="codeph">Visitor.getInstance</span> 함수를 수정합니다. 코드에서 상위 및 하위 도메인을 지정합니다. 이러한 구성을 사용하면 iFrame에서 ID 서비스 코드가 상위 페이지의 ID 서비스 코드에서 방문자 ID를 확인할 수 있습니다. </p> <p>iFrame의 ID 서비스 코드가 응답 상위 페이지를 수신하지 않는 경우 이러한 구성을 사용하면 로컬 방문자 ID가 생성됩니다. </p> </td> 
+   <td colname="col2"> <p>이러한 화이트리스트 구성을 사용하여 iFrame에서 ID 서비스 <span class="codeph">Visitor.getInstance</span> 함수를 수정합니다. 코드에서 상위 및 하위 도메인을 지정합니다. 이러한 구성을 사용하면 iFrame에서 ID 서비스 코드가 상위 페이지의 ID 서비스 코드에서 방문자 ID를 확인할 수 있습니다. </p> <p>iFrame의 ID 서비스 코드가 응답 상위 페이지를 수신하지 않는 경우 이러한 구성을 사용하면 로컬 방문자 ID가 생성됩니다.  </p> </td> 
   </tr> 
  </tbody> 
 </table>
