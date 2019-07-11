@@ -1,10 +1,10 @@
 ---
-description: 옵트인 서비스를 관리하기 위한 샘플 사용 사례 및 솔루션
-seo-description: 옵트인 서비스를 관리하기 위한 샘플 사용 사례 및 솔루션
+description: 옵트인 서비스를 관리하는 샘플 사용 사례 및 솔루션.
+seo-description: 옵트인 서비스를 관리하는 샘플 사용 사례 및 솔루션.
 seo-title: 옵트인 사용 사례
 title: 옵트인 사용 사례
-uuid: d 75 a 44 d 5-b 713-43 d 1-b 5 b 6-95 d 1 d 0 d 213 a 7
-translation-type: tm+mt
+uuid: d75a44d5-b713-43d1-b5b6-95d1d0d213a7
+translation-type: ht
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 # 옵트인 사용 사례 {#opt-in-use-cases}
 
-옵트인 서비스를 관리하기 위한 샘플 사용 사례 및 솔루션
+옵트인 서비스를 관리하는 샘플 사용 사례 및 솔루션.
 
 ## 팁 및 문제 해결 {#section-5c566366410f4a8f89eca0d3f556d99f}
 
@@ -22,7 +22,7 @@ source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ## 옵트인 시나리오 {#section-1178053c065c430bba26f82ef383a71c}
 
-이러한 사용 사례는 옵트인 서비스를 사용하기 위한 예입니다.
+이러한 사용 사례는 옵트인 서비스 사용에 대한 예제입니다.
 
 <table id="table_83C85343611344D8A8315157C1B4240F"> 
  <thead> 
