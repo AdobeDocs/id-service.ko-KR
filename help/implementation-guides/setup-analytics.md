@@ -1,11 +1,11 @@
 ---
-description: 이 지침은 Experience Cloud ID 서비스를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 keywords: ID 서비스
-seo-description: 이 지침은 Experience Cloud ID 서비스를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+seo-description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 seo-title: Analytics용 Experience Cloud ID 서비스 구현
 title: Analytics용 Experience Cloud ID 서비스 구현
-uuid: 7 FBD 6 FA 0-1713-4232-8680-500 ED 62709 D 5
-translation-type: tm+mt
+uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
+translation-type: ht
 source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 # Analytics용 Experience Cloud ID 서비스 구현 {#implement-the-experience-cloud-id-service-for-analytics}
 
-이 지침은 Experience Cloud ID 서비스를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 
 >[!IMPORTANT]
 >
@@ -26,26 +26,26 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 다음 단계에 따라 Adobe Analytics에 대한 ID 서비스를 구현하십시오.
 
 1. [ID 서비스 코드 다운로드](../implementation-guides/setup-analytics.md#section-ead9403a6b7e45b887f9ac959ef89f7f)
-1. [Visitor. getinstance 함수를 ID 서비스 코드에 추가](../implementation-guides/setup-analytics.md#section-6053a6b7c16c466a9f9fdbf9cb9db3df)
-1. [Experience Cloud 조직 ID를 Visitor. getinstance에 추가](../implementation-guides/setup-analytics.md#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e)
-1. [Visitor. getinstance에 추적 서버 추가](../implementation-guides/setup-analytics.md#section-70ec9ebff47940d8ab520be5ec4728c5)
-1. [Appmeasurement. js 또는 s_ code. js 파일 업데이트](../implementation-guides/setup-analytics.md#section-b53113aea1bd4de896e0e4e9a7edee19)
+1. [ID 서비스 코드에 Visitor.getInstance 함수 추가](../implementation-guides/setup-analytics.md#section-6053a6b7c16c466a9f9fdbf9cb9db3df)
+1. [Visitor.getInstance에 Experience Cloud 조직 ID 추가](../implementation-guides/setup-analytics.md#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e)
+1. [Visitor.getInstance에 추적 서버 추가](../implementation-guides/setup-analytics.md#section-70ec9ebff47940d8ab520be5ec4728c5)
+1. [AppMeasurement.js 또는 s_code.js 파일 업데이트](../implementation-guides/setup-analytics.md#section-b53113aea1bd4de896e0e4e9a7edee19)
 1. [페이지에 방문자 API 코드 추가](../implementation-guides/setup-analytics.md#section-d46d6aa324c842f2931d901e38d6db1d)
 1. [(선택 사항) 유예 기간 구성](../implementation-guides/setup-analytics.md#section-7bbb2f72c26e4abeb8881e18366797a3)
 1. [ID 서비스 코드 테스트 및 배포](../implementation-guides/setup-analytics.md#section-e9c1764ac21a4ec5be1ff338c0e2e01b)
 
-## Step 1: Download the ID Service code {#section-ead9403a6b7e45b887f9ac959ef89f7f}
+## 1단계: ID 서비스 코드 다운로드 {#section-ead9403a6b7e45b887f9ac959ef89f7f}
 
-The [!DNL ID Service] requires the `VisitorAPI.js` code library. 이 코드 라이브러리를 다운로드하려면
+[!DNL ID Service]에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드 라이브러리를 다운로드하려면
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 코드 관리자로 이동합니다]**.
-1. In [!DNL Code Manager], click either **[!UICONTROL JavaScript (New)]** or **[!UICONTROL JavaScript (Legacy)]**.
+1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 코드 관리자]** 로 이동합니다.
+1. [!DNL Code Manager]에서 **[!UICONTROL JavaScript(신규)]** 또는 **[!UICONTROL JavaScript(기존)]** 를 클릭합니다.
 
    이렇게 하면 압축된 코드 라이브러리가 다운로드됩니다.
 
 1. 코드 파일의 압축을 풀고 `VisitorAPI.js` 파일을 엽니다.
 
-## 2단계. Add the Visitor.getInstance function to the ID Service Code {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
+## 2단계. ID 서비스 코드에 Visitor.getInstance 함수 추가 {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
 
 >[!IMPORTANT]
 >
@@ -94,23 +94,23 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 }); 
 ```
 
-## Step 3: Add your Experience Cloud Organization ID to Visitor.getInstance {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
+## 3단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
 
-`Visitor.getInstance` 함수에서 조직 ID `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` 로 [!DNL Experience Cloud] 대체합니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 코어 서비스]( https://marketing.adobe.com/resources/help/ko_KR/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
 >[!IMPORTANT]
 >
->*조직 ID에서 문자의 대소문자를* 변경하지 마십시오. ID는 대/소문자를 구분하므로 제공된 그대로 정확히 사용해야 합니다.
+>조직 ID의 대/소문자를 변경하지 *마십시오*. ID는 대/소문자를 구분하므로 제공된 그대로 정확히 사용해야 합니다.
 
-## Step 4: Add your tracking servers to Visitor.getInstance {#section-70ec9ebff47940d8ab520be5ec4728c5}
+## 4단계: Visitor.getInstance에 추적 서버 추가 {#section-70ec9ebff47940d8ab520be5ec4728c5}
 
 추적 서버는 [!DNL Analytics] 데이터 수집에 사용됩니다.
 
 **1부: 추적 서버 URL 찾기**
 
-`s_code.js` 또는 `AppMeasurement.js` 파일을 확인하여 추적 서버 URL를 찾습니다. URL을 다음 변수로 지정할 수 있습니다.
+`s_code.js` 또는 `AppMeasurement.js` 파일을 확인하여 추적 서버 URL을 찾으십시오. URL을 다음 변수로 지정할 수 있습니다.
 
 * `s.trackingServer`
 * `s.trackingServerSecure`
@@ -127,44 +127,44 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 >[!NOTE]
 >
->When used, match the [!DNL Experience Cloud] server URLs to their corresponding tracking server URLs like this: &gt;
+>[!DNL Experience Cloud] 서버 URL을 사용하는 경우 다음과 같이 해당 추적 서버 URL과 일치시킵니다. &gt;
 >* [!DNL Experience Cloud] 서버 URL = 추적 서버 URL
 >* [!DNL Experience Cloud] 서버 보안 URL = 추적 서버 보안 URL
 >
 
 
 
-If you&#39;re not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
 
-## Step 5: Update your AppMeasurement.js or s_code.js file {#section-b53113aea1bd4de896e0e4e9a7edee19}
+## 5단계: AppMeasurement.js 또는 s_code.js 파일 업데이트 {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
-Add this function to your `AppMeasurement.js` or `s_code.js` file:
+다음 함수를 `AppMeasurement.js` 또는 `s_code.js` 파일에 추가합니다.
 
 `s.visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE");`
 
-`linkInternalFilters`, `charSet``trackDownloads`등과 같은 구성을 포함하는 동일한 섹션에 코드를 배치합니다.
+`linkInternalFilters`, `charSet`, `trackDownloads` 등과 같은 구성을 포함하는 섹션에 코드를 다음과 같이 추가합니다.
 
 ***(선택 사항이지만 권장됨)*사용자 지정 Prop 만들기**
 
-Set a custom prop in `AppMeasurement.js` or `s_code.js` to measure coverage. Add this custom prop to the `doPlugins` function of your `AppMeasurement.js` or `s_code.js` files:
+`AppMeasurement.js` 또는 `s_code.js`에 사용자 지정 prop을 설정하여 범위를 측정. 이 사용자 지정 prop을 `doPlugins` 또는 `AppMeasurement.js` 파일의 `s_code.js` 함수에 추가합니다.
 
 ```js
 // prop1 is used as an example only. Choose any available prop. 
 s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI Missing");
 ```
 
-## Step 6: Add Visitor API code to the page {#section-d46d6aa324c842f2931d901e38d6db1d}
+## 6단계: 페이지에 방문자 API 코드 추가 {#section-d46d6aa324c842f2931d901e38d6db1d}
 
-Place the `VisitorAPI.js` file within the `<head>` tags on each page. `VisitorAPI.js` 파일을 페이지에 넣을 경우:
+각 페이지의 `<head>` 태그 내에 `VisitorAPI.js` 파일을 넣습니다. `VisitorAPI.js` 파일을 페이지에 넣을 경우:
 
-* `<head>` 섹션 맨 앞에 배치하면 다른 솔루션 태그 앞에 표시됩니다.
+* `<head>` 섹션의 시작 부분에 넣어 다른 솔루션 태그 앞에 나타나게 합니다.
 * AppMeasurement 및 다른 [!DNL Experience Cloud] 솔루션에 대한 코드 앞에서 실행해야 합니다.
 
 테스트 및 확인 후에 이 코드를 프로덕션으로 이동합니다.
 
-## Step 7: (Optional) Configure a grace period {#section-7bbb2f72c26e4abeb8881e18366797a3}
+## 7단계: (선택 사항) 유예 기간 구성 {#section-7bbb2f72c26e4abeb8881e18366797a3}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
+이러한 사용 사례가 현재 상황에 적용되는 경우 [고객 지원 센터]( https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 임시 [유예 기간](../reference/analytics-reference/grace-period.md)을 설정하도록 요청하십시오. 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
 
 **부분적인 구현**
 
@@ -178,17 +178,17 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 
 구현이 s_vi 쿠키를 읽는 대신 MID를 캡처할 수 있게 되면 유예 기간을 중단하십시오.
 
-자세한 내용은 [쿠키 및 ExExperience Cloud ID 서비스](../introduction/cookies.md).
+자세한 내용은 [쿠키 및 ExExperience Cloud ID 서비스](../introduction/cookies.md)를 참조하십시오.
 
 클릭스트림 데이터 피드에서 내부 시스템으로 데이터를 보내고 해당 프로세스에서 `visid_high` 및 `visid_low` 열이 사용되는 경우에 유예 기간이 필요합니다.
 
-Discontinue the grace period after your data ingestion process can use the `post_visid_high` and `post_visid_low` columns.
+데이터 처리 프로세스에서 `post_visid_high` 및 `post_visid_low` 열을 사용할 수 있게 되면 유예 기간을 중지하십시오.
 
-[클릭스트림 데이터 열 참조](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html)을 참조하십시오.
+[Clickstream 데이터 열 참조]( https://marketing.adobe.com/resources/help/ko_KR/sc/clickstream/datafeeds_reference.html)를 참조하십시오.
 
 **클릭스트림 데이터 처리**
 
-## Step 8: Test and deploy ID Service code {#section-e9c1764ac21a4ec5be1ff338c0e2e01b}
+## 8단계: ID 서비스 코드 테스트 및 배포 {#section-e9c1764ac21a4ec5be1ff338c0e2e01b}
 
 다음과 같이 테스트하고 배포할 수 있습니다.
 
@@ -197,9 +197,9 @@ Discontinue the grace period after your data ingestion process can use the `post
 ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 
 * 페이지가 호스팅된 도메인의 [AMCV 쿠키](../introduction/cookies.md)
-* [!DNL Analytics]Adobe 디버거 도구[를 사용한 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 이미지 요청의 MID 값
+* [Adobe Debugger 도구](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html)를 사용한 [!DNL Analytics] 이미지 요청의 MID 값.
 
-See, [Test and Verify the Experience Cloud ID Service](../implementation-guides/test-verify.md).
+[Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)을 참조하십시오.
 
 **코드 배포**
 
