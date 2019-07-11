@@ -4,8 +4,8 @@ keywords: ID 서비스
 seo-description: 이 속성은 한 도메인에서 다른 도메인으로 이동할 때 방문자의 Experience Cloud 및 Analytics ID를 덮어씁니다. ID를 덮어쓰려면 각 도메인에서 ID 서비스를 보유하고 구현해야 합니다. 이 코드로 사용자가 제어하지 않는 도메인에 ID를 덮어쓸 수 없습니다.
 seo-title: overwriteCrossDomainMCIDAndAID
 title: overwriteCrossDomainMCIDAndAID
-uuid: 8 e 48127 a-ac 62-4 ea 0-9756-2 a 27 b 20 ecbcf
-translation-type: tm+mt
+uuid: 8e48127a-ac62-4ea0-9756-2a27b20ecbcf
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 이 속성은 한 도메인에서 다른 도메인으로 이동할 때 방문자의 Experience Cloud 및 Analytics ID를 덮어씁니다. ID를 덮어쓰려면 각 도메인에서 ID 서비스를 보유하고 구현해야 합니다. 이 코드로 사용자가 제어하지 않는 도메인에 ID를 덮어쓸 수 없습니다.
 
-**구문:**`Visitor.overwriteCrossDomainMCIDAndAID: true|false` (기본값은 `false`)
+**구문:** `Visitor.overwriteCrossDomainMCIDAndAID: true|false`(기본값은 `false`임)
 
 **코드 샘플**
 
