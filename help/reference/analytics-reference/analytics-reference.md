@@ -5,8 +5,8 @@ seo-description: Adobe Analytics의 고유한 ID 서비스 기능입니다.
 seo-title: Analytics 참조
 title: Analytics 참조
 uuid: 215f0394-a436-4f0c-9a52-3b387048e40e
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
@@ -17,8 +17,8 @@ Adobe Analytics의 고유한 ID 서비스 기능입니다.
 
 + [Analytics 및 Experience Cloud ID 설정](analytics-ids.md)
 + [Analytics ID 작업 순서](analytics-order-of-operations.md)
-+ [Experience Cloud ID 서비스 마이그레이션 의사 결정 지점](migration-decisions.md)
-+ [Experience Cloud ID 서비스 마이그레이션 시나리오](migration-scenarios.md)
++ [Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험](migration-decisions.md)
++ [Experience Platform Identity Service 마이그레이션 시나리오](migration-scenarios.md)
 + [Analytics 및 Experience Cloud ID 요청](legacy-analytics.md)
 + [데이터 수집 CNAME 및 도메인 간 추적](cname.md)
 + [JavaScript와 혼합된 서버측 구현](server-side.md)
