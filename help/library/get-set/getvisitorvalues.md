@@ -5,8 +5,8 @@ seo-description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬�
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
@@ -100,7 +100,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>데이터 수집 영역 ID입니다. 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. </p> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/aam/dcs-regions.html" format="https" scope="external">DCS 지역 ID, 위치 및 호스트 이름</a>과 <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>데이터 수집 영역 ID입니다. 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external">DCS 지역 ID, 위치 및 호스트 이름</a>과 <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -108,7 +108,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>방문자 Experience Cloud ID입니다. </p> <p>자세한 내용은 <a href="../../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 ExExperience Cloud ID 서비스 </a>. </p> </td> 
+   <td colname="col2"> <p>방문자 Experience Cloud ID입니다. </p> <p>자세한 내용은 <a href="../../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 Experience Platform Identity Service </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
