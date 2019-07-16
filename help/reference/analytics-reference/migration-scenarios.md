@@ -2,16 +2,16 @@
 description: 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
 keywords: ID 서비스
 seo-description: 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
-seo-title: Experience Cloud ID 서비스 마이그레이션 시나리오
-title: Experience Cloud ID 서비스 마이그레이션 시나리오
+seo-title: Experience Platform Identity Service 마이그레이션 시나리오
+title: Experience Platform Identity Service 마이그레이션 시나리오
 uuid: 9e229045-6508-48c4-ae39-9537b4941853
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Experience Cloud ID 서비스 마이그레이션 시나리오 {#experience-cloud-id-service-migration-scenarios}
+# Experience Platform Identity Service Migration Scenarios {#experience-cloud-id-service-migration-scenarios}
 
 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
 
