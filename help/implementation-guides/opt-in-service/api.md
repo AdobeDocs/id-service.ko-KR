@@ -4,8 +4,8 @@ seo-description: 옵트인 라이브러리 및 구성 설정 참조용 API입니
 seo-title: 옵트인 참조
 title: 옵트인 참조
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-translation-type: ht
-source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
+translation-type: tm+mt
+source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
 
@@ -27,7 +27,7 @@ adobe.OptInCategories = {
 
 ## 옵트인 구성 매개 변수 {#section-d66018342baf401389f248bb381becbf}
 
-이 섹션에서는 API를 사용하여 옵트인을 구성하는 방법을 설명합니다. 대부분의 구성 및 구현은 Launch 확장을 사용하여 수행할 수 있습니다.
+이 섹션에서는 API를 사용하여 옵트인을 구성하는 방법을 설명합니다. 대부분의 구성 및 구현은 Experience Platform Launch Extension를 사용하여 수행할 수 있습니다.
 
 옵트인 구성은 전역 `getInstance()` 개체를 인스턴스화하는 Visitor JavaScript `adobe` 함수에 제공됩니다. 다음은 옵트인 서비스와 관련된 Visitor JS 구성 목록입니다.
 
