@@ -1,19 +1,19 @@
 ---
-description: Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+description: 경험 플랫폼 ID 서비스가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 keywords: ID 서비스
-seo-description: Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+seo-description: 경험 플랫폼 ID 서비스가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+경험 플랫폼 ID 서비스가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 
 **구문** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
@@ -44,7 +44,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 다음 경우에 쿼리 문자열에 `aid` 매개 변수가 표시됩니다.
 
 * [!DNL Experience Cloud] ID 서비스가 올바르게 배포됩니다.
-* 사이트를 방문하는 사용자에게 [s_vi 쿠키](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/?f=cookies_analytics.html)에 저장된 기존 [!DNL Analytics] ID가 있습니다.
+* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html)에 저장되어 있습니다.
 
 **사례 2**
 
@@ -52,5 +52,5 @@ ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](../..
 
 >[!MORE_LIKE_THIS]
 >
->* [Analytics 쿠키](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/cookies_analytics.html)
+>* [Analytics 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html)
 
