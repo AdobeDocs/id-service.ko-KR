@@ -5,8 +5,8 @@ seo-description: 2018년 Experience Cloud ID 서비스의 기능 릴리스, 업�
 seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
 uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
 
@@ -78,7 +78,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 >[!NOTE]
 >
->편리한 시간에 버전 3.1.0에서 최신 버전으로 업그레이드하는 것이 좋습니다. 버전 3.1.2 설명을 참조하십시오. Adobe 출시, DTM 및 AppMeasurement에서 최신 번들을 사용할 수 있습니다.
+>편리한 시간에 버전 3.1.0에서 최신 버전으로 업그레이드하는 것이 좋습니다. 버전 3.1.2 설명을 참조하십시오. Adobe Experience Platform Launch, DTM 및 appmeasurement에서 최신 번들을 사용할 수 있습니다.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 
