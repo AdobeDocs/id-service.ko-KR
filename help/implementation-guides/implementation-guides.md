@@ -6,8 +6,8 @@ seo-title: ID 서비스 구현 가이드
 solution: Experience Cloud
 title: 구현 가이드
 uuid: null
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
 
@@ -20,13 +20,13 @@ Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 �
 
 ## 표준 구현
 
-표준 구현은 [Adobe Exprience Platform Launch](https://docs.adobelaunch.com/)를 사용하여 ID 서비스를 시작하고 다른 Experience Cloud 솔루션과 통합할 수 있습니다. ID 서비스를 구현할 때 Experience Platform Launch를 사용하는 것이 좋습니다.
+A standard implementation uses [Adobe Exprience Platform Launch](https://docs.adobelaunch.com/) to help you get started with the ID service and integrate it with other Experience Cloud solutions. ID 서비스를 구현할 때 Experience Platform Launch를 사용하는 것이 좋습니다.
 
 ## 구현 리소스
 
 * [구현 가이드](implementation-guides.md)
 * [구현 방법](implementation-methods.md)
-* [Launch를 사용한 구현](ecid-implement-with-launch.md)
+* [경험 플랫폼으로 구현](ecid-implement-with-launch.md)
 * [Dynamic Tag Management를 사용하여 구현](standard.md)
 * [Analytics용 Experience Cloud ID 서비스 구현](setup-analytics.md)
 * [Target용 Experience Cloud ID 서비스 구현](setup-target.md)
