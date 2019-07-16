@@ -1,21 +1,21 @@
 ---
-description: 2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+description: 2016 년 Experience Platform Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
 keywords: ID 서비스
-seo-description: 2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+seo-description: 2016 년 Experience Platform Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
 seo-title: 2016 릴리스 노트
 title: 2016 릴리스 노트
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # 2016 릴리스 노트 {#release-notes}
 
-2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+2016 년 Experience Platform Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)에도 캡처되었습니다. 이전 [!DNL Experience Cloud] 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.[!DNL Experience Cloud]
 
 ## 버전 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -24,7 +24,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 >[!IMPORTANT]
 >
 >* 버전 1.10은 [!DNL AppMeasurement] 1.8.0이 필요합니다.
->* Experience Cloud ID 서비스 라이브러리 2.0.0 이상을 사용하면 기본적으로 Adobe Media Optimizer에 대한 ID 동기화가 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
+>* Experience Platform Identity Service Library 2.0.0 +를 사용하면 기본적으로 ID 동기화가 Adobe Media Optimizer에 대해 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
 
 
 **수정 사항 및 향상된 기능**
@@ -77,11 +77,11 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **새로운 설명서 및 수정된 설명서**
 
-수정된 내용: [Experience Cloud ID 서비스 요구 사항](../reference/requirements.md)
+Revised: [Requirements for the Experience Platform Identity Service](../reference/requirements.md)
 
 **알려진 문제**
 
-같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://marketing.adobe.com/resources/help/ko_KR/aam/?f=dil-secure-data-collection.html)을 참조하십시오.
+같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://marketing.adobe.com/resources/help/en_US/aam/?f=dil-secure-data-collection.html)을 참조하십시오.
 
 ## 버전 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
@@ -101,9 +101,9 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
  <tbody> 
   <tr> 
    <td colname="col1"> <p>CORS(교차 도메인 리소스 공유) </p> </td> 
-   <td colname="col2"> <p>CORS를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 클라이언트측의 교차 도메인 리소스 요청이 가능하도록 CORS 표준을 지원합니다. ID 서비스는 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다. </p> <p>다음을 참조하십시오. </p> 
+   <td colname="col2"> <p>CORS를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 CORS 표준을 지원하여 클라이언트측의 크로스 소스 리소스 요청을 활성화합니다. ID 서비스는 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다. </p> <p>다음을 참조하십시오. </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
-     <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Experience Cloud ID 서비스의 CORS 지원 </a> </li> 
+     <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> 경험 플랫폼 ID 서비스의 CORS 지원 </a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -123,13 +123,13 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **신규**
 
-* [Analytics용 Experience Cloud ID 서비스 구현](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd)
-* [Analytics, Audience Manager 및 Target용 Experience Cloud ID 서비스 구현](../implementation-guides/setup-aam-analytics-target.md#concept-e7e2dc0d0bbe481db93328b5604b4673)
+* [분석을 위한 경험 플랫폼 ID 서비스 구현](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd)
+* [Analytics, Audience Manager 및 Target에 대한 경험 플랫폼 ID 서비스 구현](../implementation-guides/setup-aam-analytics-target.md#concept-e7e2dc0d0bbe481db93328b5604b4673)
 
 **수정된 설명서**
 
-* [Experience Cloud ID 서비스 요구 사항](../reference/requirements.md)
-* [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)
+* [경험 플랫폼 ID 서비스 요구 사항](../reference/requirements.md)
+* [Experience Platform Identity Service 테스트 및 확인](../implementation-guides/test-verify.md)
 
 ## 버전 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
 
@@ -145,7 +145,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">iframe.sandbox</span> 속성 변경 </p> </td> 
-   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/ko-KR/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID(MID) 인코딩 </p> </td> 
@@ -165,8 +165,8 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 **설명서 업데이트**
 
 * [Android 및 iOS용 SDK 요구 사항](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
-* [Data Workbench 및 Experience Cloud ID 서비스](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
-* [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)
+* [Data Workbench 및 Experience Platform Identity Service](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
+* [Experience Platform Identity Service 테스트 및 확인](../implementation-guides/test-verify.md)
 
 ## 버전 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
 
@@ -174,7 +174,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **설명서 업데이트**
 
-[Target용 Experience Cloud ID 서비스 구현](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
+[Target에 대한 경험 플랫폼 ID 서비스 구현](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
 
 ## 버전 1.5.4 {#section-1a44ba147fb3440ea7dec551faee3528}
 
@@ -201,9 +201,9 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 **설명서 업데이트**
 
-* [Analytics용 Experience Cloud ID 서비스 ](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd): [!DNL Analytics]에서 ID 서비스를 설정하는 방법을 설명하는 새로운 절차입니다.
+* [Analytics에 대한 경험 플랫폼 ID 서비스 구현](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd) : ID 서비스를 설정하는 방법을 설명하는 새 [!DNL Analytics]절차입니다.
 
-* [Experience Cloud ID 서비스 마이그레이션 의사 결정 지점](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): 명확성을 위해 텍스트가 수정되었습니다. 단일 도메인 사용이란 데이터 수집 CNAME을 더 이상 관리하지 않으려는 경우 여기에서 마이그레이션할 수 있음을 의미합니다. 그렇지만 CNAME이 작동하는 경우에는 변경할 필요가 없습니다.
+* [Experience Platform Identity Service 마이그레이션 의사 결정 지점](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257) : 명확성을 위해 텍스트가 개정되었습니다. 단일 도메인 사용이란 데이터 수집 CNAME을 더 이상 관리하지 않으려는 경우 여기에서 마이그레이션할 수 있음을 의미합니다. 그렇지만 CNAME이 작동하는 경우에는 변경할 필요가 없습니다.
 
 ## 버전 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 
