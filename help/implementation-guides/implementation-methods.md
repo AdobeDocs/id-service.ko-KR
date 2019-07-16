@@ -1,19 +1,19 @@
 ---
-description: Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 및 코드 샘플입니다.
+description: 경험 플랫폼 Identity Service의 표준 및 비표준 구현을 위한 지침과 코드 샘플.
 keywords: ID 서비스
-seo-description: Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 및 코드 샘플입니다.
+seo-description: 경험 플랫폼 Identity Service의 표준 및 비표준 구현을 위한 지침과 코드 샘플.
 seo-title: 구현 가이드
 title: 구현 가이드
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # 구현 방법
 
-Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 및 코드 샘플입니다.
+경험 플랫폼 Identity Service의 표준 및 비표준 구현을 위한 지침과 코드 샘플.
 
 >[!IMPORTANT]
 >
