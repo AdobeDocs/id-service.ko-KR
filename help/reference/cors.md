@@ -1,19 +1,19 @@
 ---
-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 keywords: ID 서비스
-seo-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
-seo-title: Experience Cloud ID 서비스의 CORS 지원
-title: Experience Cloud ID 서비스의 CORS 지원
+seo-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+seo-title: 경험 플랫폼 ID 서비스의 CORS 지원
+title: 경험 플랫폼 ID 서비스의 CORS 지원
 uuid: e656b573-72a8-4312-a7d5-5cc3818f0a9e
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Experience Cloud ID 서비스의 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
+# CORS Support in the Experience Platform Identity Service {#cors-support-in-the-experience-cloud-id-service}
 
-CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Platform Identity Service는 이러한 클라이언트측 교차 리소스 요청을 활성화하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 
 ## 동일 출처 정책 및 ID 서비스 요청 문제 {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
@@ -76,7 +76,7 @@ CORS는 여러 도메인에서 리소스를 요청할 수 있는 안전하고 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>보안 강화</b> </p> </td> 
-   <td colname="col2"> <p>CORS는 <a href="https://developer.mozilla.org/ko_KR/docs/Web/API/XMLHttpRequest" format="https" scope="external"> XMLHttpRequest</a>를 사용하여 데이터를 요청하고 전송합니다. 이 방법은 JSONP 요청보다 더 안전하며 DCS의 응답에 포함될 수 있는 임의의 JavaScript를 실행할 수 있는 방법이 없도록 보장합니다. CORS XMLHttpRequest 응답 페이로드는 ID 서비스 JavaScript에 의해 구문 분석되며 콜백 함수에서 실행되지 않습니다. </p> <p> <p>참고: 쿠키를 허용하려면 <span class="codeph">XMLHttpRequest</span> 개체의 <span class="codeph">withCredentials</span> 속성이 <span class="codeph">true</span>로 설정되어 있어야 합니다. 이 속성은 Chrome, Firefox, Internet Explorer(버전 10 이상), Opera 및 Safari에서 지원됩니다. </p> </p> </td> 
+   <td colname="col2"> <p>CORS는 <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest" format="https" scope="external"> XMLHttpRequest</a>를 사용하여 데이터를 요청하고 전송합니다. 이 방법은 JSONP 요청보다 더 안전하며 DCS의 응답에 포함될 수 있는 임의의 JavaScript를 실행할 수 있는 방법이 없도록 보장합니다. CORS XMLHttpRequest 응답 페이로드는 ID 서비스 JavaScript에 의해 구문 분석되며 콜백 함수에서 실행되지 않습니다. </p> <p> <p>참고: 쿠키를 허용하려면 <span class="codeph">XMLHttpRequest</span> 개체의 <span class="codeph">withCredentials</span> 속성이 <span class="codeph">true</span>로 설정되어 있어야 합니다. 이 속성은 Chrome, Firefox, Internet Explorer(버전 10 이상), Opera 및 Safari에서 지원됩니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>성능 향상</b> </p> </td> 
