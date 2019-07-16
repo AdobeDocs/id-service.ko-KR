@@ -2,16 +2,16 @@
 description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 만들어 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 keywords: Playstation;ID 서비스
 seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 만들어 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
-seo-title: 쿠키 및 ExExperience Cloud ID 서비스
-title: 쿠키 및 ExExperience Cloud ID 서비스
+seo-title: 쿠키 및 경험 플랫폼 ID 서비스
+title: 쿠키 및 경험 플랫폼 ID 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# 쿠키 및 ExExperience Cloud ID 서비스{#cookies-and-the-experience-cloud-id-service}
+# Cookies and the Experience Platform Identity Service{#cookies-and-the-experience-cloud-id-service}
 
 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 만들어 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 
@@ -114,7 +114,7 @@ AMCVS 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/ko_KR/aam/demdex-calls.html)를 참조하십시오.
+For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
@@ -124,4 +124,4 @@ ID 서비스는 페이지가 로드될 때 MID를 생성하기 시작합니다. 
 
 ## 다음 단계 {#section-8db1727a63bc4ff68b495f270315d453}
 
-[Experience Cloud ID 서비스에서 ID를 요청하고 설정하는 방법...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a)을 참조하십시오.
+See [How the Experience Platform Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
