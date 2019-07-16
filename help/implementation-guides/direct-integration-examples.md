@@ -5,8 +5,8 @@ seo-description: 이러한 예제에서는 직접 통합 및 Experience Cloud ID
 seo-title: 직접 통합 사용 사례
 title: 직접 통합 사용 사례
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 >[!TIP]
 >
 >* [코드 구문 및 변수](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9)를 검토하고 이해한 후에 사용 사례로 이동합니다.
->* MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](../introduction/cookies.md)를 참조하십시오.
+>* For more information about the MID, see [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
 >
 
 
