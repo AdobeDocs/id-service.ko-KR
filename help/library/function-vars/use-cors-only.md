@@ -1,19 +1,19 @@
 ---
-description: 브라우저가 Experience Cloud ID 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
+description: 브라우저가 경험 플랫폼 ID 서비스에서 리소스를 요청하는 방법을 제어하는 부울 플래그 (선택 사항) 입니다.
 keywords: ID 서비스
-seo-description: 브라우저가 Experience Cloud ID 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
+seo-description: 브라우저가 경험 플랫폼 ID 서비스에서 리소스를 요청하는 방법을 제어하는 부울 플래그 (선택 사항) 입니다.
 seo-title: useCORSOnly
 title: useCORSOnly
 uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # useCORSOnly{#usecorsonly}
 
-브라우저가 Experience Cloud ID 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
+브라우저가 경험 플랫폼 ID 서비스에서 리소스를 요청하는 방법을 제어하는 부울 플래그 (선택 사항) 입니다.
 
 **구문:** `useCORSOnly: true|false` (기본값은 `false`임)
 
