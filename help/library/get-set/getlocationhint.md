@@ -1,23 +1,23 @@
 ---
-description: Experience Cloud ID 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
+description: 경험 플랫폼 ID 서비스 영역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
 keywords: ID 서비스
-seo-description: Experience Cloud ID 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
+seo-description: 경험 플랫폼 ID 서비스 영역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
 seo-title: getLocationHint를 참조하십시오
 title: getLocationHint를 참조하십시오
 uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
-translation-type: ht
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+translation-type: tm+mt
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # getLocationHint{#getlocationhint}를 참조하십시오
 
-Experience Cloud ID 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
+경험 플랫폼 ID 서비스 영역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. 서버측 API에서 Audience Manager를 호출하도록 하려면 영역 ID가 필요합니다.
 
 **구문:** ` var *`변수 이름`* = visitor.getLocationHint()`
 
-지역 ID 및 해당 위치 목록을 보려면 [DCS 지역 ID, 위치 및 호스트 이름](https://marketing.adobe.com/resources/help/ko_KR/aam/dcs-regions.html)을 참조하십시오.
+영역 ID 및 해당 위치 목록에 대해서는 [DCS 영역 ID, 위치 및 호스트 이름](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html)을 참조하십시오.
 
 **코드 샘플**
 
