@@ -6,7 +6,7 @@ seo-title: appendVisitorIDsTo(도메인 간 추적)
 title: appendVisitorIDsTo(도메인 간 추적)
 uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ## 브라우저에서 타사 쿠키를 차단하는 경우 도메인에서 방문자 추적 {#section-7251d88befd440b4b79520e33c5aa44a}
 
-ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Platform Identity Service](../../introduction/cookies.md) ). 퍼스트 파티 쿠키에는 해당 방문자의 고유 ID, 즉 MID가 포함되어 있습니다. 타사 쿠키에는 ID 서비스에서 MID를 생성하는 데 사용한 다른 ID가 포함되어 있습니다. 브라우저에서 이 타사 쿠키를 차단하는 경우 ID 서비스에서는 다음 작업을 수행할 수 없습니다.
+ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Cloud Identity Service](../../introduction/cookies.md) ). 퍼스트 파티 쿠키에는 해당 방문자의 고유 ID, 즉 MID가 포함되어 있습니다. 타사 쿠키에는 ID 서비스에서 MID를 생성하는 데 사용한 다른 ID가 포함되어 있습니다. 브라우저에서 이 타사 쿠키를 차단하는 경우 ID 서비스에서는 다음 작업을 수행할 수 없습니다.
 
 * 사이트 방문자가 다른 도메인으로 이동할 때 해당 사이트 방문자에 대한 고유 ID를 다시 생성합니다.
 * 조직에서 소유한 여러 도메인에서 방문자를 추적합니다.
