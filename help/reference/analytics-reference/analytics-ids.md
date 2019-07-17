@@ -1,19 +1,19 @@
 ---
-description: Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+description: Experience Cloud Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
 keywords: ID 서비스
-seo-description: Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+seo-description: Experience Cloud Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
 seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # Analytics 및 Experience Cloud ID 설정{#setting-analytics-and-experience-cloud-ids}
 
-Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+Experience Cloud Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
 
 ID 서비스가 구현된 후에 이 코드가 AppMeasurement 이전에 실행됩니다. ID 서비스는 Experience Cloud 및 Analytics ID를 검색하므로 AppMeasurement가 로드되면 이러한 값을 사용할 수 있습니다.
 
@@ -86,7 +86,7 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
  </tbody> 
 </table>
 
-많은 시나리오에서 한 번의 호출로 2~3개의 다른 ID가 표시될 수 있지만, Analytics에서는 해당 목록에 있는 첫 번째 ID를 공식적인 [!DNL Experience Cloud] ID로 사용합니다. 예를 들어, 사용자 지정 방문자 ID(&quot;vid&quot; 쿼리 매개 변수에 포함됨)를 설정하는 경우, 이 ID는 동일한 히트에 있을 수 있는 다른 ID보다 먼저 사용됩니다.
+많은 시나리오에서 한 번의 호출로 2~3개의 다른 ID가 표시될 수 있지만, Analytics에서는 해당 목록에 있는 첫 번째 ID를 공식적인 [!DNL Experience Cloud] ID로 사용합니다. 예를 들어, 사용자 지정 방문자 ID("vid" 쿼리 매개 변수에 포함됨)를 설정하는 경우, 이 ID는 동일한 히트에 있을 수 있는 다른 ID보다 먼저 사용됩니다.
 
 >[!MORE_LIKE_THIS]
 >
