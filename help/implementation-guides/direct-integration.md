@@ -2,22 +2,22 @@
 description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 keywords: ID 서비스
 seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
-seo-title: Experience Platform Identity Service 와의 통합
-title: Experience Platform Identity Service 와의 통합
+seo-title: Experience Cloud Identity Service 와의 통합
+title: Experience Cloud Identity Service 와의 통합
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Direct integration with the Experience Platform Identity Service {#direct-integration-with-the-experience-cloud-id-service}
+# Direct integration with the Experience Cloud Identity Service {#direct-integration-with-the-experience-cloud-id-service}
 
 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 
 ## 구문 {#section-a4754afec5ad40b6be00d6f1011d68bb}
 
-VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 장치에서는 ID 서비스에 사용되는 DCS(Data Collection Server)를 직접 호출할 수 있습니다. 이렇게 하려면 `dpm.demdex.net`을 호출하고 아래 표시된 대로 요청 형식을 지정합니다. *기울임꼴*은 변수 자리 표시자를 나타냅니다.
+VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 장치에서는 ID 서비스에 사용되는 DCS(Data Collection Server)를 직접 호출할 수 있습니다. 이렇게 하려면 `dpm.demdex.net`을 호출하고 아래 표시된 대로 요청 형식을 지정합니다. *기울임꼴*&#x200B;은 변수 자리 표시자를 나타냅니다.
 
 ![](assets/directSyntax.png)
 
@@ -62,11 +62,11 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 방문자 ID입니다. 자세한 내용은 <a href="../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 방문자 ID입니다. 자세한 내용은 <a href="../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 조직 ID입니다. 이 ID를 찾는 데 도움이 필요하면 <a href="../reference/requirements.md" format="dita" scope="local"> Experience Platform Identity Service</a>에 대한 요구 사항 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 조직 ID입니다. 이 ID를 찾는 데 도움이 필요하면 <a href="../reference/requirements.md" format="dita" scope="local"> Experience Cloud Identity Service에 대한 요구 사항입니다</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
