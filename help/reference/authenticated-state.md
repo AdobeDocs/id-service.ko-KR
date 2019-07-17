@@ -6,7 +6,7 @@ seo-title: 고객 ID 및 인증 상태
 title: 고객 ID 및 인증 상태
 uuid: 643df363-224a-463e-a332-be59926b47e7
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증 상태와 �
 >
 >`setCustomerIDs` (고객 ID 동기화)는 고객 특성 및 핵심 서비스 기능에 필요합니다. 고객 ID 동기화는 [!DNL Analytics]의 선택적 식별 방법입니다. [!DNL Target]의 경우 고객 특성이 작동하려면 `Visitor.AuthState.AUTHENTICATED`가 필요합니다. 예제에 대해서는 [핵심 서비스 - 솔루션을 사용하도록 설정하는 방법](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)을 참조하십시오.
 
-Beginning with Experience Platform Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태는 정수로 반환됩니다.
+Beginning with Experience Cloud Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태는 정수로 반환됩니다.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
