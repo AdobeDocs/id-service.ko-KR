@@ -6,7 +6,7 @@ seo-title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -40,7 +40,7 @@ A4T 및 기타 고객은 다음 상황에서 이 버전의 ID 서비스를 사�
 
 ## 2단계: ID 서비스 페이로드 생성 {#section-c86531863db24bd9a5b761c1a2e0d964}
 
-다음으로, ID 서비스에 서버측 *`payload request`*을 만듭니다. 페이로드 요청은
+다음으로, ID 서비스에 서버측 *`payload request`*&#x200B;을 만듭니다. 페이로드 요청은
 
 * AMCV 쿠키를 ID 서비스에 전달합니다.
 * 아래 설명된 이후 단계에서 Target 및 Analytics에 필요한 데이터를 요청합니다.
@@ -166,7 +166,7 @@ Response.send("
 
 ![](assets/server_side_dtm.png)
 
-또한 [DTM 용 Experience](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)Platform Identity Service 설정
+또한 [DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)용 Experience Cloud Identity Service 설정
 
 **DTM을 사용하지 않고 서버 상태 가져오기**
 
