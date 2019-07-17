@@ -6,7 +6,7 @@ seo-title: 2015 릴리스 노트
 title: 2015 릴리스 노트
 uuid: 49423699-1e0f-49e4-9135-2ae84b4f92df
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 2015년 11월
 
-COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 원하는 경우 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 변수를 자신의 [!DNL Experience Cloud] ID 서비스 코드에 추가할 수 있습니다. See [COPPA Support in the Experience Platform Identity Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). 버전 1.5.3 이상
+COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 원하는 경우 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 변수를 자신의 [!DNL Experience Cloud] ID 서비스 코드에 추가할 수 있습니다. See [COPPA Support in the Experience Cloud Identity Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). 버전 1.5.3 이상
 
 ## 버전 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
@@ -38,14 +38,14 @@ COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Pro
    이 문제는 다음 조건을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * ID 서비스 사용
-   * [유예 기간](../reference/analytics-reference/grace-period.md)을 활성화했거나 **자사 쿠키를 사용하고 제3자 쿠키 차단
+   * [유예 기간](../reference/analytics-reference/grace-period.md)을 활성화했거나 **&#x200B;자사 쿠키를 사용하고 제3자 쿠키 차단
 
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
 이 릴리스에서 수정된 설명서 내용은 다음과 같습니다.
 
 * [API 메서드 및 코드 라이브러리](../library/library.md#concept-ff27497375644a898d47984aefb21c97): 컨텐츠 및 텍스트가 재구성되었습니다. 대부분의 경우 각 메서드가 개별 페이지에 설명됩니다.
-* [Experience Platform Identity Service에 대한 요구 사항](../reference/requirements.md): 수정된 컨텐츠 및 재구성된 텍스트.
+* [Experience Cloud Identity Service 요구 사항](../reference/requirements.md): 수정된 컨텐츠 및 재구성된 텍스트.
 
 ## 버전 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
