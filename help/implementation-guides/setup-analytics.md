@@ -1,19 +1,19 @@
 ---
-description: 이 지침은 Experience Platform Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+description: 이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 keywords: ID 서비스
-seo-description: 이 지침은 Experience Platform Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
-seo-title: 분석을 위한 경험 플랫폼 ID 서비스 구현
-title: 분석을 위한 경험 플랫폼 ID 서비스 구현
+seo-description: 이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+seo-title: Analytics에 대한 Experience Cloud ID 서비스 구현
+title: Analytics에 대한 Experience Cloud ID 서비스 구현
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Implement the Experience Platform Identity Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
+# Implement the Experience Cloud Identity Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
-이 지침은 Experience Platform Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 
 >[!IMPORTANT]
 >
@@ -38,8 +38,8 @@ source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 [!DNL ID Service]에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드 라이브러리를 다운로드하려면
 
-1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 코드 관리자]** 로 이동합니다.
-1. [!DNL Code Manager]에서 **[!UICONTROL JavaScript(신규)]** 또는 **[!UICONTROL JavaScript(기존)]** 를 클릭합니다.
+1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 코드 관리자]**&#x200B;로 이동합니다.
+1. [!DNL Code Manager]에서 **[!UICONTROL JavaScript(신규)]** 또는 **[!UICONTROL JavaScript(기존)]**&#x200B;를 클릭합니다.
 
    이렇게 하면 압축된 코드 라이브러리가 다운로드됩니다.
 
@@ -134,7 +134,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 
 
-If you&#39;re not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## 5단계: AppMeasurement.js 또는 s_code.js 파일 업데이트 {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
@@ -178,7 +178,7 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 
 구현이 s_vi 쿠키를 읽는 대신 MID를 캡처할 수 있게 되면 유예 기간을 중단하십시오.
 
-자세한 내용은 [쿠키 및 Experience Platform Identity Service](../introduction/cookies.md).
+자세한 내용은 [쿠키 및 Experience Cloud Identity Service](../introduction/cookies.md).
 
 클릭스트림 데이터 피드에서 내부 시스템으로 데이터를 보내고 해당 프로세스에서 `visid_high` 및 `visid_low` 열이 사용되는 경우에 유예 기간이 필요합니다.
 
@@ -199,7 +199,7 @@ ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 * 페이지가 호스팅된 도메인의 [AMCV 쿠키](../introduction/cookies.md)
 * [!DNL Analytics]Adobe 디버거 도구[를 사용한 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 이미지 요청의 MID 값
 
-See, [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
+See, [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
 
 **코드 배포**
 
