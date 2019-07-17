@@ -1,23 +1,23 @@
 ---
-description: 이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Platform Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
+description: 이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Cloud Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
 keywords: ID 서비스
-seo-description: 이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Platform Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
+seo-description: 이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Cloud Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
 seo-title: Dynamic Tag Management를 사용하여 구현
 title: Dynamic Tag Management를 사용하여 구현
 uuid: c4f752c4-392e-4909-b178-911706857064
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # Dynamic Tag Management를 사용하여 구현{#implementation-with-dynamic-tag-management}
 
-이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Platform Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
+이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Cloud Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
 
 ## Dynamic Tag Management를 사용하여 구현 {#topic-6f4ed5d96977406ca991e50f3fbd5b01}
 
-이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Platform Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
+이전 구현에서는 다이내믹 태그 관리 (DTM) 를 사용하여 Experience Cloud Identity Service를 다른 Experience Cloud 솔루션과 설정, 배포 및 통합합니다.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ DTM은 단순하지만 강력한 도구입니다. 아직 사용해 본 적이 �
 
 ## 배포 지침 {#concept-54a2ec49af8f4bfca9207b1d404e8e1a}
 
-다이내믹 태그 관리 (DTM) 를 사용하여 경험 플랫폼 ID 서비스를 구현하기 전에 이러한 요구 사항과 절차를 검토하십시오.
+다이내믹 태그 관리 (DTM) 를 사용하여 Experience Cloud Identity Service를 구현하기 전에 이러한 요구 사항과 절차를 검토하십시오.
 
 <!--
 mcvid-dtm-deployment.xml
@@ -70,7 +70,7 @@ Customers must provide a CNAME or use [!DNL *.sc.omtrdc] for [regional data coll
 
 새로운 [!DNL Analytics] 고객은 데이터 수집을 위해 [보고서 세트를 생성](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html)해야 합니다.
 
-## Implement the Experience Platform Identity Service with DTM {#task-a659cf19dea84ad48edabe0b72ef9f5c}
+## Implement the Experience Cloud Identity Service with DTM {#task-a659cf19dea84ad48edabe0b72ef9f5c}
 
 다음 단계에 따라 DTM(Dynamic Tag Management)을 사용하여 ID 서비스를 구현할 수 있습니다.
 
@@ -87,24 +87,24 @@ mcvid-dtm-implement.xml
 **구현 단계** DTM을 사용하여 ID 서비스를 구현하는 방법:
 
 1. DTM [!DNL Dashboard]에서 작업하려는 웹 속성을 클릭합니다.
-1. 선택한 웹 속성의 **[!UICONTROL 개요]** 탭에서 **[!UICONTROL 도구 추가]** 를 클릭합니다.
-1. **[!UICONTROL 도구 유형]** 목록에서 **[!UICONTROL Experience Platform Identity Service]** 를 클릭합니다.
+1. 선택한 웹 속성의 **[!UICONTROL 개요]** 탭에서 **[!UICONTROL 도구 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 도구 유형]** 목록에서 **[!UICONTROL Experience Cloud Identity Service]**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
    >이 작업을 수행하면 **[!UICONTROL Experience Cloud 조직 ID]** 상자가 조직 ID로 채워집니다. DTM 계정이 [!DNL Experience Cloud]와 연결되지 않은 경우 해당 ID를 입력해야 합니다. 계정을 연결하려면 [Experience Cloud에서 계정 연결](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)을 참조하십시오. 조직 ID를 찾는 방법에 대한 자세한 내용은 [요구 사항](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26)을 참조하십시오.
 
-1. **[!UICONTROL 추적 서버]** 상자에 추적하는 서버의 이름을 입력합니다. If you&#39;re not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
-1. **[!UICONTROL 도구 생성]**, **[!UICONTROL 변경 내용 저장]** 을 차례로 클릭합니다.
+1. **[!UICONTROL 추적 서버]** 상자에 추적하는 서버의 이름을 입력합니다. If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+1. **[!UICONTROL 도구 생성]**, **[!UICONTROL 변경 내용 저장]**&#x200B;을 차례로 클릭합니다.
 
-   저장하면 ID 서비스가 DTM에 도구로 설정됩니다. 하지만 아직 사용할 준비가 된 것은 아닙니다. DTM 도구는 여전히 DTM 게시/승인 프로세스를 거쳐야 하며, 추가 매개 변수를 구성해야 할 수도 있습니다. DTM 승인 프로세스에 대한 자세한 정보는 [사용자 기본사항 빠른 시작(User Basics Jump Start)](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) 비디오를 참조하십시오. DTM에 추가할 수 있는 매개 변수에 대한 자세한 정보는 [DTM 용 Experience](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)Platform Identity Service 설정
+   저장하면 ID 서비스가 DTM에 도구로 설정됩니다. 하지만 아직 사용할 준비가 된 것은 아닙니다. DTM 도구는 여전히 DTM 게시/승인 프로세스를 거쳐야 하며, 추가 매개 변수를 구성해야 할 수도 있습니다. DTM 승인 프로세스에 대한 자세한 정보는 [사용자 기본사항 빠른 시작(User Basics Jump Start)](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) 비디오를 참조하십시오. DTM에 추가할 수 있는 매개 변수에 대한 자세한 정보는 [DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)용 Experience Cloud Identity Service 설정
 
 >[!MORE_LIKE_THIS]
 >
 >* [웹 속성](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
 
 
-## Experience Platform Identity Service Settings for DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
+## Experience Cloud Identity Service Settings for DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
 [!DNL Organization ID], [!DNL General] 및 [!DNL Customer Settings] 필드와 이러한 필드를 [!DNL Experience Cloud] ID 서비스에서 사용하는 방법에 대해 설명합니다.
 
@@ -124,7 +124,7 @@ ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 �
 
 ![](assets/orgID.png)
 
-[쿠키와 Experience Platform Identity Service](../introduction/cookies.md)를 참조하십시오.
+See also [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
 
 ## 일반 설정 {#section-071d358e40f84629a8901b893dd61392}
 
@@ -136,7 +136,7 @@ ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 �
 
 **방문자 ID 자동 요청**
 
-When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Platform Identity Service.
+When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Cloud Identity Service.
 
 [getMarketingCloudVisitorID](../library/get-set/getmcvid.md)를 참조하십시오.
 
@@ -196,7 +196,7 @@ Analytics 데이터 수집에 사용된 안전한 추적 서버 이름입니다.
 
 인증 상태(예: 로그인함, 로그아웃함)에 따라 방문자를 정의하거나 식별하는 옵션입니다. [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
 
-## Test and verify the Experience Platform Identity Service {#concept-644fdbef433b46ba9c0634ac95eaa680}
+## Test and verify the Experience Cloud Identity Service {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 [!DNL Experience Cloud] 솔루션 조합을 위한 것입니다.
 
@@ -220,7 +220,7 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 ## Adobe 디버거로 테스트하기 {#section-861365abc24b498e925b3837ea81d469}
 
-[!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. See [Cookies and the Experience Platform Identity Service](../introduction/cookies.md) for more information about the MID.
+[!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. See [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md) for more information about the MID.
 
 To verify the status of the ID service with the [!DNL Adobe] [debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html):
 
