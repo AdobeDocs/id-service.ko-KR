@@ -1,19 +1,19 @@
 ---
-description: 이 섹션을 검토하여 경험 플랫폼 ID 서비스에 필요한 솔루션, 서비스 및 코드 버전을 사용하고 있는지 확인하십시오.
+description: 이 섹션을 검토하여 Experience Cloud Identity Service에 필요한 솔루션, 서비스 및 코드 버전을 사용하고 있는지 확인하십시오.
 keywords: ID 서비스
-seo-description: 이 섹션을 검토하여 경험 플랫폼 ID 서비스에 필요한 솔루션, 서비스 및 코드 버전을 사용하고 있는지 확인하십시오.
-seo-title: 경험 플랫폼 ID 서비스 요구 사항
-title: 경험 플랫폼 ID 서비스 요구 사항
+seo-description: 이 섹션을 검토하여 Experience Cloud Identity Service에 필요한 솔루션, 서비스 및 코드 버전을 사용하고 있는지 확인하십시오.
+seo-title: Experience Cloud Identity Service 요구 사항
+title: Experience Cloud Identity Service 요구 사항
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Requirements for the Experience Platform Identity Service {#requirements-for-the-experience-cloud-id-service}
+# Requirements for the Experience Cloud Identity Service {#requirements-for-the-experience-cloud-id-service}
 
-이 섹션을 검토하여 경험 플랫폼 ID 서비스에 필요한 솔루션, 서비스 및 코드 버전을 사용하고 있는지 확인하십시오.
+이 섹션을 검토하여 Experience Cloud Identity Service에 필요한 솔루션, 서비스 및 코드 버전을 사용하고 있는지 확인하십시오.
 
 ## 구현의 성공 및 지원을 위한 요구 사항 {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
 
