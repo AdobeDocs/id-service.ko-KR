@@ -1,12 +1,12 @@
 ---
-description: Experience Platform Identity Service를 사용한 분석 사용과 관련된 기능, 기능 및 문제에 대한 FAQ 입니다.
-keywords: Experience Platform Identity Service
+description: Experience Cloud Identity Service에서 Analytics 사용과 관련된 기능, 기능 및 문제에 대한 FAQ 입니다.
+keywords: Experience Cloud Identity Service
 seo-description: Identity Service에서 Analytics 사용과 관련된 기능, 기능 및 문제에 대한 FAQ 입니다.
 seo-title: 분석 및 ID 서비스 FAQ
 title: 분석 및 ID 서비스 FAQ
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -41,7 +41,7 @@ CNAME이 구성되어 있어도 기본 시작 사이트를 먼저 방문하지 �
 
 **Analytics 요청에 Experience Cloud ID(MID) 매개 변수가 없는 이유는 무엇입니까?**
 
-If the Identity Service is returning information correctly but you do not see the `MID` parameter, make sure that you&#39;ve upgraded to a supported version of AppMeasurement.
+If the Identity Service is returning information correctly but you do not see the `MID` parameter, make sure that you've upgraded to a supported version of AppMeasurement.
 
 **내 사이트에서 ID 서비스와 함께 H 코드와 JavaScript 용 appmeasurement를 사용할 수 있습니까?**
 
@@ -76,7 +76,7 @@ Identity Service 사용 시 불일치의 일반적인 원인은 다음과 같습
 
    페이지가 로드되기 전에 방문자가 페이지에서 나가면 Analytics 히트가 전송되지 않습니다. Analytics에서 이 시나리오의 데이터를 수신하지 않으며 해당 데이터가 페이지의 조기 종료로 손실되었는지 고려합니다. 외딴 지역을 포함한 테스트를 기반으로 했을 때 이 시나리오는 평균적으로 1% 미만의 트래픽을 나타낸다는 것을 발견했습니다. 이러한 시나리오는 ID 서비스가 없는 경우에도 때때로 발생한다는 점을 주목해야 합니다. 이는 페이지 하단에 Analytics 데이터 수집 코드가 포함된 아티팩트입니다.
 
-1. 느린 연결 또는 브라우저 &quot;회전&quot; 로 인해 30 초 시간 초과 창 내에 최종 사용자에게 Identity Service 나 Analytics ID가 할당되지 않았습니다.
+1. 느린 연결 또는 브라우저 "회전" 로 인해 30 초 시간 초과 창 내에 최종 사용자에게 Identity Service 나 Analytics ID가 할당되지 않았습니다.
 
    Identity Service와 Analytics ID 모두 설정되지 않고 방문자에게 클라이언트측 ID가 지정됩니다. 이렇게 하면 Analytics 데이터를 캡처할 수 있지만 이후 페이지에서 Analytics ID가 설정되면 방문자의 프로필이 중단됩니다. 또한 클라이언트측 ID가 Audience Manager 또는 Analytics에 저장된 기존 방문자 프로필과 일치하지 않게 됩니다. 두 개의 별도 도메인이 동일한 보고서 세트에 전송되는 경우 이 클라이언트측 ID는 Analytics에 두 개의 다른 방문자로 표시됩니다.
 
