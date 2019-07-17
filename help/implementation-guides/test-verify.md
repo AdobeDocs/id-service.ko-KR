@@ -2,16 +2,16 @@
 description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud 솔루션 조합을 위한 것입니다.
 keywords: ID 서비스
 seo-description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud 솔루션 조합을 위한 것입니다.
-seo-title: Experience Platform Identity Service 테스트 및 확인
-title: Experience Platform Identity Service 테스트 및 확인
+seo-title: Experience Cloud ID 서비스 테스트 및 확인
+title: Experience Cloud ID 서비스 테스트 및 확인
 uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Test and verify the Experience Platform Identity Service{#test-and-verify-the-experience-cloud-id-service}
+# Test and verify the Experience Cloud Identity Service{#test-and-verify-the-experience-cloud-id-service}
 
 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud 솔루션 조합을 위한 것입니다.
 
@@ -31,7 +31,7 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 ## Adobe 디버거로 테스트하기 {#section-861365abc24b498e925b3837ea81d469}
 
-[!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. See [Cookies and the Experience Platform Identity Service](../introduction/cookies.md) for more information about the MID.
+[!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. See [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md) for more information about the MID.
 
 To verify the status of the ID service with the [!DNL Adobe] [debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html):
 
