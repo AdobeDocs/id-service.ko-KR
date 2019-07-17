@@ -1,19 +1,19 @@
 ---
-description: 이 지침은 Experience Platform Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+description: 이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 keywords: ID 서비스
-seo-description: 이 지침은 Experience Platform Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
-seo-title: Target에 대한 경험 플랫폼 ID 서비스 구현
-title: Target에 대한 경험 플랫폼 ID 서비스 구현
+seo-description: 이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+seo-title: Target에 대한 Experience Cloud ID 서비스 구현
+title: Target에 대한 Experience Cloud ID 서비스 구현
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Implement the Experience Platform Identity Service for Target{#implement-the-experience-cloud-id-service-for-target}
+# Implement the Experience Cloud Identity Service for Target{#implement-the-experience-cloud-id-service-for-target}
 
-이 지침은 Experience Platform Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ ID 서비스 구현을 테스트하려면
 * 페이지가 호스팅된 도메인의 AMCV 쿠키를 확인합니다.
 * `mboxMCGVID`가 [!DNL Target] 요청에 표시되는지 그리고 MID([!DNL Experience Cloud] ID)를 포함하는지 확인합니다.
 
-See [Cookies and the Experience Platform Identity Service](../introduction/cookies.md) for information about the AMCV cookie and the MID.
+See [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md) for information about the AMCV cookie and the MID.
 
 **배포**
 
