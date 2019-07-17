@@ -6,7 +6,7 @@ seo-title: 데이터 수집 CNAME 및 도메인 간 추적
 title: 데이터 수집 CNAME 및 도메인 간 추적
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -37,14 +37,14 @@ Apple Safari 및 일부 다른 브라우저의 서드 파티 컨텍스트에서 
 
 예를 들어 `mymainsite.com`에 기본 사이트가 있다고 합니다. 보안 데이터 수집 서버(`smetrics.mymainsite.com`)를 가리키도록 CNAME 레코드를 구성했습니다.
 
-사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. 데이터 수집 서버 도메인이 웹 사이트 도메인과 일치하기 때문에 가능한 것으로, 이를 가리켜 *자사 컨텍스트*에서의 쿠키 사용 또는 *자사 쿠키*라고 합니다.
+사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. 데이터 수집 서버 도메인이 웹 사이트 도메인과 일치하기 때문에 가능한 것으로, 이를 가리켜 *자사 컨텍스트*&#x200B;에서의 쿠키 사용 또는 *자사 쿠키*&#x200B;라고 합니다.
 
-다른 사이트에서도 이와 동일한 데이터 수집 서버를 사용하는 경우(예를 들어 `myothersiteA.com` 및 `myothersiteB.com`) 방문자가 나중에 이러한 사이트를 방문하면 `mymainsite.com` 방문 중에 설정된 쿠키가 HTTP 요청을 통해 데이터 수집 서버로 전송됩니다(브라우저는 도메인이 현재 웹 사이트 도메인과 일치하지 않더라도 해당 도메인에 대한 모든 HTTP 요청과 모든 쿠키를 전송함). 이것을 *타사 컨텍스트*에서 쿠키 사용하기 또는 *타사 쿠키*라고 하며, 이를 통해 이러한 다른 도메인에서 같은 방문자 ID를 사용할 수 있습니다. 브라우저는 자사 쿠키와 다르게 타사 컨텍스트에서 쿠키를 처리합니다.
+다른 사이트에서도 이와 동일한 데이터 수집 서버를 사용하는 경우(예를 들어 `myothersiteA.com` 및 `myothersiteB.com`) 방문자가 나중에 이러한 사이트를 방문하면 `mymainsite.com` 방문 중에 설정된 쿠키가 HTTP 요청을 통해 데이터 수집 서버로 전송됩니다(브라우저는 도메인이 현재 웹 사이트 도메인과 일치하지 않더라도 해당 도메인에 대한 모든 HTTP 요청과 모든 쿠키를 전송함). 이것을 *타사 컨텍스트*&#x200B;에서 쿠키 사용하기 또는 *타사 쿠키*&#x200B;라고 하며, 이를 통해 이러한 다른 도메인에서 같은 방문자 ID를 사용할 수 있습니다. 브라우저는 자사 쿠키와 다르게 타사 컨텍스트에서 쿠키를 처리합니다.
 
 *참고: Safari는 설정된 방법에 관계없이 타사 컨텍스트에서 모든 쿠키를 차단합니다.*
 
 따라서 도메인 간 방문자 식별을 위해서는 수집 도메인이 사람들이 흔히 방문하는 도메인이 되어야 합니다. 데이터 수집 도메인에 사용할 *일반* 도메인이 없는 경우 데이터 수집 도메인에서 CNAME을 유지해도 도메인 간에 이점이 없습니다. 처음에 기본 시작 사이트를 방문하지 않으면 방문자는 보조 사이트 및 기본 사이트에서 다르게 식별됩니다.
 
-## Enable CNAME support with the Experience Platform Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
+## Enable CNAME support with the Experience Cloud Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
 데이터 수집 서버 CNAME 지원은 `visitor.marketingCloudServerSecure` 변수를 설정하여 사용할 수 있습니다.
