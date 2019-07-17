@@ -1,19 +1,19 @@
 ---
-description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 경험 플랫폼 ID 서비스 코드에 선택적 변수를 추가할 수 있습니다.
+description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 Experience Cloud ID 서비스 코드에 추가할 수 있습니다.
 keywords: ID 서비스
-seo-description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 경험 플랫폼 ID 서비스 코드에 선택적 변수를 추가할 수 있습니다.
-seo-title: Experience Platform Identity Service의 COPPA 지원
-title: Experience Platform Identity Service의 COPPA 지원
+seo-description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 Experience Cloud ID 서비스 코드에 추가할 수 있습니다.
+seo-title: Experience Cloud Identity Service의 COPPA 지원
+title: Experience Cloud Identity Service의 COPPA 지원
 uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# COPPA Support in the Experience Platform Identity Service {#coppa-support-in-the-experience-cloud-id-service}
+# COPPA Support in the Experience Cloud Identity Service {#coppa-support-in-the-experience-cloud-id-service}
 
-COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 경험 플랫폼 ID 서비스 코드에 선택적 변수를 추가할 수 있습니다.
+COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 Experience Cloud ID 서비스 코드에 추가할 수 있습니다.
 
 >[!NOTE]
 >
