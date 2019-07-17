@@ -6,7 +6,7 @@ seo-title: ID 서비스 FAQ
 title: ID 서비스 FAQ
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -23,7 +23,7 @@ ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 
 **ID 서비스에서 Experience Cloud ID를 검색하도록 호출할 수 없는 이유는 무엇입니까?**
 
-진단하기 어려울 수 있습니다. 확인할 수 있는 한 가지는 사이트의 컨텐츠 보안 정책 헤더입니다. 엄격한 보안 정책이 있는 경우 그러한 설정은 ID 서비스에서 보낸 타사 호출을 차단할 수 있습니다. 자세한 내용은 [콘텐츠 보안 정책 및 경험 플랫폼 ID 서비스](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)
+진단하기 어려울 수 있습니다. 확인할 수 있는 한 가지는 사이트의 컨텐츠 보안 정책 헤더입니다. 엄격한 보안 정책이 있는 경우 그러한 설정은 ID 서비스에서 보낸 타사 호출을 차단할 수 있습니다. 자세한 내용은 [콘텐츠 보안 정책 및 Experience Cloud Identity Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)
 
 **VisitorAPI.js 파일 저장소**
 
@@ -67,13 +67,13 @@ ID 서비스 호출은 비동기적이며 [demdex.net 도메인](https://marketi
 
 CORS를 사용한 리소스 요청이 JSONP를 사용한 요청보다 더 많이 사용됩니다. JSONP를 사용하는 경우 일부 브라우저에서는 페이지의 다른 동기 및 비동기 호출을 기준으로 하여 요청을 큐에 넣고 우선 순위를 낮게 지정합니다. CORS는 이러한 요청이 브라우저 호출 스택에서 우선 순위가 더 높은 것으로 처리되도록 합니다.
 
-자세한 내용은 [Experience Platform Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)의 CORS 지원
+자세한 내용은 [Experience Cloud Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)에서 CORS 지원
 
 ## 보안 {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **ID 서비스에서 CORS를 지원합니까?**
 
-예. See [CORS Support in the Experience Platform Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+예. See [CORS Support in the Experience Cloud Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **CORS란 무엇입니까?**
 
