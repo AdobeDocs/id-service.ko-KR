@@ -1,19 +1,19 @@
 ---
-description: 경험 플랫폼 ID 서비스가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+description: Experience Cloud Identity Service가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 keywords: ID 서비스
-seo-description: 경험 플랫폼 ID 서비스가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+seo-description: Experience Cloud Identity Service가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-경험 플랫폼 ID 서비스가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+Experience Cloud Identity Service가 구현되기 전에 s_ vi 쿠키에 저장된 이전 Analytics ID (있는 경우) 를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 
 **구문** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
@@ -35,7 +35,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 >
 >[!DNL Analytics] 고객인 경우 [!DNL Analytics] ID도 확인한 후 함수로 보내십시오. 예를 들어 숨겨진 양식 요소의 방문자 ID를 데이터 삽입 API를 사용하는 서버측 애플리케이션에 전달할 때 두 식별자를 모두 원할 수 있습니다. 이 경우 [!DNL Experience Cloud] 및 [!DNL Analytics] 방문자 ID를 수집한 후 반환해야 합니다. [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md)를 참조하십시오.
 
-**&quot;aid&quot; 매개 변수는 이전 값입니다.**
+**"aid" 매개 변수는 이전 값입니다.**
 
 `aid` 매개 변수는 2개의 다른 조건 세트 아래의 쿼리 문자열에 나타납니다. 
 
