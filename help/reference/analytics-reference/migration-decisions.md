@@ -1,19 +1,19 @@
 ---
-description: Experience Platform Identity Service를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고, 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 잠재적인 문제를 이해해야 합니다.
+description: Experience Cloud Identity Service를 배포하기 전에 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고 잠재적인 문제를 이해해야 합니다.
 keywords: ID 서비스
-seo-description: Experience Platform Identity Service를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고, 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 잠재적인 문제를 이해해야 합니다.
-seo-title: Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험
-title: Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험
+seo-description: Experience Cloud Identity Service를 배포하기 전에 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고 잠재적인 문제를 이해해야 합니다.
+seo-title: Experience Cloud Identity Service 마이그레이션 의사 결정 지점
+title: Experience Cloud Identity Service 마이그레이션 의사 결정 지점
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Experience Platform Identity Service 마이그레이션 의사 결정 지점 경험
+# Experience Cloud Identity Service 마이그레이션 의사 결정 지점
 
-Experience Platform Identity Service를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고, 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 잠재적인 문제를 이해해야 합니다.
+Experience Cloud Identity Service를 배포하기 전에 다른 방법으로 또는 JavaScript 파일을 통해 데이터를 수집하는 경우 이 서비스가 여러 도메인의 방문자 추적 기능에 어떤 영향을 미치는지 이해하고 잠재적인 문제를 이해해야 합니다.
 
 이 섹션의 질문에 답변하여 수행해야 하는 추가 마이그레이션 단계를 확인하십시오.
 
@@ -42,7 +42,7 @@ Experience Platform Identity Service를 배포하기 전에 이 서비스가 여
 
 ## 데이터 수집 CNAME이 있는 경우 여러 개의 도메인이 있습니까?
 
-데이터를 *동일한 보고서 세트*로 보내는 여러 도메인이 있는 경우 CNAME과 함께 데이터 수집을 사용하는 것이 좋습니다. 이렇게 하면 여러 도메인에서 방문자를 추적하는 데 도움이 됩니다. 단일 도메인에서 데이터를 수집하는 경우에는 데이터 수집 CNAME을 유지 관리해도 이점이 없습니다.
+데이터를 *동일한 보고서 세트*&#x200B;로 보내는 여러 도메인이 있는 경우 CNAME과 함께 데이터 수집을 사용하는 것이 좋습니다. 이렇게 하면 여러 도메인에서 방문자를 추적하는 데 도움이 됩니다. 단일 도메인에서 데이터를 수집하는 경우에는 데이터 수집 CNAME을 유지 관리해도 이점이 없습니다.
 
 <table id="table_D132BCA243E54657AEC930559343FDD3"> 
  <thead> 
@@ -71,7 +71,7 @@ Experience Platform Identity Service를 배포하기 전에 이 서비스가 여
 
 ## 여러 개의 Analytics JavaScript 파일이 있습니까 아니면 Flash 애플리케이션이나 비디오를 추적하고 있습니까?
 
-사이트에 *동일한 보고서 세트*로 데이터를 전송하는 Analytics JavaScript 파일 또는 Flash 애플리케이션이나 비디오가 여러 개 있는 경우 [!DNL Experience Cloud] ID 서비스를 롤아웃하는 동안 방문자가 Analytics ID로 계속 식별되도록 유예 기간을 구성해야 합니다.
+사이트에 *동일한 보고서 세트*&#x200B;로 데이터를 전송하는 Analytics JavaScript 파일 또는 Flash 애플리케이션이나 비디오가 여러 개 있는 경우 [!DNL Experience Cloud] ID 서비스를 롤아웃하는 동안 방문자가 Analytics ID로 계속 식별되도록 유예 기간을 구성해야 합니다.
 
 <table id="table_8A4EA063AF4345B69BC98537E2E702BA"> 
  <thead> 
