@@ -1,19 +1,19 @@
 ---
-description: Adobe Media Optimizer 및 ID 서비스를 비롯한 경험 플랫폼 ID 서비스의 ID 동기화 프로세스와 일치 비율에 대한 개요입니다.
+description: Adobe Media Optimizer 및 ID 서비스 등, Experience Cloud Identity Service의 ID 동기화 프로세스와 일치율에 대한 개요입니다.
 keywords: ID 서비스
-seo-description: Adobe Media Optimizer 및 ID 서비스를 비롯한 경험 플랫폼 ID 서비스의 ID 동기화 프로세스와 일치 비율에 대한 개요입니다.
+seo-description: Adobe Media Optimizer 및 ID 서비스 등, Experience Cloud Identity Service의 ID 동기화 프로세스와 일치율에 대한 개요입니다.
 seo-title: ID 동기화 및 일치율 이해하기
 title: ID 동기화 및 일치율 이해하기
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # ID 동기화 및 일치율 이해하기{#understanding-id-synchronization-and-match-rates}
 
-Adobe Media Optimizer 및 ID 서비스를 비롯한 경험 플랫폼 ID 서비스의 ID 동기화 프로세스와 일치 비율에 대한 개요입니다.
+Adobe Media Optimizer 및 ID 서비스 등, Experience Cloud Identity Service의 ID 동기화 프로세스와 일치율에 대한 개요입니다.
 
 ## ID 동기화 및 일치율 {#section-f652aae7234945e89d26dd833c5215fb}
 
@@ -33,7 +33,7 @@ ID 서비스는 ID를 실시간으로 동기화합니다. 이 프로세스는 �
 
 **1단계: 페이지 로드**
 
-방문자가 사이트에 방문하여 페이지를 로드하면 `Visitor.getInstance` 함수는 ID 서비스에 대해 [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) 또는 JSON-P를 호출합니다. ID 서비스는 방문자의 [!DNL Experience Cloud] ID(MID)를 포함하는 쿠키에 응답합니다. MID는 각 사이트 방문자에게 할당된 고유 ID입니다. [쿠키와 Experience Platform Identity Service](../introduction/cookies.md)를 참조하십시오.
+방문자가 사이트에 방문하여 페이지를 로드하면 `Visitor.getInstance` 함수는 ID 서비스에 대해 [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) 또는 JSON-P를 호출합니다. ID 서비스는 방문자의 [!DNL Experience Cloud] ID(MID)를 포함하는 쿠키에 응답합니다. MID는 각 사이트 방문자에게 할당된 고유 ID입니다. [쿠키 및 Experience Cloud Identity Service](../introduction/cookies.md)를 참조하십시오.
 
 **2단계: iFrame 로드**
 
@@ -43,7 +43,7 @@ ID 서비스는 ID를 실시간으로 동기화합니다. 이 프로세스는 �
 * 가능한 신속하게 로드됩니다. 너무 속도가 빠른 경우, 창 로드 이벤트 이후에 iFrame을 로드할 수 있습니다(권장하지 않음). 를 참조하십시오. [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4)를 참조하십시오.
 * iFrame의 코드가 상위 페이지에 대한 액세스 권한을 확보하거나 영향을 주지 않도록 방지합니다.
 
-또한 [Experience Platform Identity Service가 ID를 요청하고 설정하는 방법....](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a)
+또한 [Experience Cloud ID 서비스가 ID를 요청하고 설정하는 방법....](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a)
 
 **3단계: ID 동기화 실행**
 
