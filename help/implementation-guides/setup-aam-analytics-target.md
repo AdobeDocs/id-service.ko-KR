@@ -1,19 +1,19 @@
 ---
-description: 이 지침은 Analytics, Audience Manager 및 Experience Platform Identity Service를 사용하고 DTM (Dynamic Tag Management) 를 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+description: 이 지침은 Analytics, Audience Manager 및 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 keywords: ID 서비스
-seo-description: 이 지침은 Analytics, Audience Manager 및 Experience Platform Identity Service를 사용하고 DTM (Dynamic Tag Management) 를 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
-seo-title: Analytics, Audience Manager 및 Target에 대한 경험 플랫폼 ID 서비스 구현
-title: Analytics, Audience Manager 및 Target에 대한 경험 플랫폼 ID 서비스 구현
+seo-description: 이 지침은 Analytics, Audience Manager 및 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+seo-title: Analytics, Audience Manager 및 Target에 대한 Experience Cloud Identity Service 구현
+title: Analytics, Audience Manager 및 Target에 대한 Experience Cloud Identity Service 구현
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Implement the Experience Platform Identity Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
+# Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
-이 지침은 Analytics, Audience Manager 및 Experience Platform Identity Service를 사용하고 DTM (Dynamic Tag Management) 를 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+이 지침은 Analytics, Audience Manager 및 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 
 >[!IMPORTANT]
 >
@@ -40,8 +40,8 @@ source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ID 서비스에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드 라이브러리를 다운로드하려면
 
-1. **[!UICONTROL 관리자 &gt; 코드 관리자]** 로 이동합니다.
-1. 코드 관리자에서 **[!UICONTROL JavaScript(신규)]** 또는 **[!UICONTROL JavaScript(기존)]** 를 클릭합니다. 이렇게 하면 압축된 코드 라이브러리가 다운로드됩니다.
+1. **[!UICONTROL 관리자 &gt; 코드 관리자]**&#x200B;로 이동합니다.
+1. 코드 관리자에서 **[!UICONTROL JavaScript(신규)]** 또는 **[!UICONTROL JavaScript(기존)]**&#x200B;를 클릭합니다. 이렇게 하면 압축된 코드 라이브러리가 다운로드됩니다.
 
 1. 코드 파일의 압축을 풀고 `VisitorAPI.js` 파일을 엽니다.
 
@@ -178,7 +178,7 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 
 구현이 s_vi 쿠키를 읽는 대신 MID를 캡처할 수 있게 되면 유예 기간을 중단하십시오.
 
-[쿠키와 Experience Platform Identity Service](../introduction/cookies.md)를 참조하십시오.
+[쿠키 및 Experience Cloud Identity Service](../introduction/cookies.md)를 참조하십시오.
 
 **클릭스트림 데이터 통합**
 
@@ -203,7 +203,7 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 * [페이지가 호스팅된 도메인의 AMCV 쿠키](../introduction/cookies.md).
 * [!DNL Adobe] 디버거 또는 선호하는 디버깅 도구와 MID([!DNL Experience Cloud] ID)
 
-For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
+For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
 
 **Analytics**
 
