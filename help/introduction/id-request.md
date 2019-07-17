@@ -2,22 +2,22 @@
 description: ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 keywords: ID 서비스
 seo-description: ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
-seo-title: Experience Platform Identity Service가 ID를 요청하고 설정하는 방법
-title: Experience Platform Identity Service가 ID를 요청하고 설정하는 방법
+seo-title: Experience Cloud ID 서비스가 ID 요청 및 설정 방법
+title: Experience Cloud ID 서비스가 ID 요청 및 설정 방법
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# How the Experience Platform Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# How the Experience Cloud Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 
 >[!NOTE]
 >
->If you&#39;re not familiar with how the Experience Platform Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
+>If you're not familiar with how the Experience Cloud Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
 
 **팁:** [교차 도메인 추적에 나와 있는 ID 서비스 비디오](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html)를 참조하십시오.
 
