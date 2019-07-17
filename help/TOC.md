@@ -2,15 +2,15 @@
 cloud: platform-cloud
 product: ID 서비스
 audience: 최종 사용자
-user-guide-title: Experience Platform Identity Service 도움말
+user-guide-title: Experience Cloud Identity Service 도움말
 user-guide-url: /content/help/kr/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Experience Platform Identity Service Help {#using}
+# Experience Cloud Identity Service Help {#using}
 
 + [ID 서비스 도움말](home.md)
 + 개요 {#intro}
