@@ -4,7 +4,7 @@ seo-description: 옵트인 라이브러리 및 구성 설정 참조용 API입니
 seo-title: 옵트인 참조
 title: 옵트인 참조
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
@@ -27,7 +27,7 @@ adobe.OptInCategories = {
 
 ## 옵트인 구성 매개 변수 {#section-d66018342baf401389f248bb381becbf}
 
-이 섹션에서는 API를 사용하여 옵트인을 구성하는 방법을 설명합니다. 대부분의 구성 및 구현은 Experience Platform Launch Extension를 사용하여 수행할 수 있습니다.
+이 섹션에서는 API를 사용하여 옵트인을 구성하는 방법을 설명합니다. 대부분의 구성 및 구현은 Experience Platform Launch 확장을 사용하여 수행할 수 있습니다.
 
 옵트인 구성은 전역 `getInstance()` 개체를 인스턴스화하는 Visitor JavaScript `adobe` 함수에 제공됩니다. 다음은 옵트인 서비스와 관련된 Visitor JS 구성 목록입니다.
 
@@ -77,7 +77,7 @@ false이면 방문자가 선택하지 않아도 됩니다. 카테고리 선택 �
 
 ## 옵트인 워크플로우 매개 변수 {#section-2c5adfa5459c4e72b96d2693123a53c2}
 
-옵트인은 환경 설정이 한 번에 하나씩 제공되는 워크플로우처럼, 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있는 워크플로우를 지원합니다. 다음 함수를 사용하여 * 설정에 *true`shouldWaitForComplete`를 제공하면 솔루션에서 한 개 솔루션 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 솔루션 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 보류됩니다. 호출되면 상태는 *완료*로 설정됩니다.
+옵트인은 환경 설정이 한 번에 하나씩 제공되는 워크플로우처럼, 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있는 워크플로우를 지원합니다. 다음 함수를 사용하여 *설정에* true`shouldWaitForComplete`를 제공하면 솔루션에서 한 개 솔루션 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 솔루션 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 보류됩니다. 호출되면 상태는 *완료*&#x200B;로 설정됩니다.
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 
@@ -105,7 +105,7 @@ false이면 방문자가 선택하지 않아도 됩니다. 카테고리 선택 �
 
 `adobe.optIn.fetchPermissions(callback, shouldAutoSubscribe)`
 
-권한 목록을 비동기적으로 검색합니다. 권한 부여/거부 프로세스가 완료되면 권한 목록과 함께 콜백이 호출됩니다. *에 대해 *true`shouldAutoSubscribe` 값을 제공하면 옵트인 변경 사항을 전달하기 위해 콜백이 등록됩니다. 다음은 `adobe.OptIn`의 속성입니다.
+권한 목록을 비동기적으로 검색합니다. 권한 부여/거부 프로세스가 완료되면 권한 목록과 함께 콜백이 호출됩니다. *에 대해* true`shouldAutoSubscribe` 값을 제공하면 옵트인 변경 사항을 전달하기 위해 콜백이 등록됩니다. 다음은 `adobe.OptIn`의 속성입니다.
 
 **`permissions`**
 
