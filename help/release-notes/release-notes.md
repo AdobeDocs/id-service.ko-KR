@@ -1,11 +1,11 @@
 ---
-description: Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변경 사항.
+description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변경 사항.
+seo-description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 # 2019 릴리스 노트 {#release-notes}
 
-Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변경 사항.
+Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
 ## 2019 릴리스 노트 {#topic-1b9a1c3ec5044e1c987785950f697e25}
 
@@ -21,7 +21,7 @@ Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변�
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타 모든 Experience Cloud 솔루션을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화할 수 있습니다.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타를 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의를 수집하거나, 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
