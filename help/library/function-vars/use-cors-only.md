@@ -1,11 +1,11 @@
 ---
-description: 브라우저가 Experience Cloud Identity Service에서 리소스를 요청하는 방법을 제어하는 부울 플래그 (선택 사항) 입니다.
+description: 브라우저가 Experience Cloud Identity 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
 keywords: ID 서비스
-seo-description: 브라우저가 Experience Cloud Identity Service에서 리소스를 요청하는 방법을 제어하는 부울 플래그 (선택 사항) 입니다.
+seo-description: 브라우저가 Experience Cloud Identity 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
 seo-title: useCORSOnly
 title: useCORSOnly
 uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 # useCORSOnly{#usecorsonly}
 
-브라우저가 Experience Cloud Identity Service에서 리소스를 요청하는 방법을 제어하는 부울 플래그 (선택 사항) 입니다.
+브라우저가 Experience Cloud Identity 서비스에서 리소스를 요청하는 방법을 제어하는 선택적 부울 플래그입니다.
 
 **구문:** `useCORSOnly: true|false` (기본값은 `false`임)
 
