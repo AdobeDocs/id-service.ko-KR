@@ -2,15 +2,15 @@
 cloud: platform-cloud
 product: ID 서비스
 audience: 최종 사용자
-user-guide-title: Experience Cloud Identity Service 도움말
+user-guide-title: Experience Cloud Identity 서비스 도움말
 user-guide-url: /content/help/kr/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Experience Cloud Identity Service Help {#using}
+# Experience Cloud Identity 서비스 도움말{#using}
 
 + [ID 서비스 도움말](home.md)
 + 개요 {#intro}
@@ -22,7 +22,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 + 구현 가이드 {#implementation-guides}
    + [구현 가이드](implementation-guides/implementation-guides.md)
    + [구현 방법](implementation-guides/implementation-methods.md)
-   + [경험 플랫폼으로 구현](implementation-guides/ecid-implement-with-launch.md)
+   + [Experience Platform Launch로 구현](implementation-guides/ecid-implement-with-launch.md)
    + [DTM을 사용한 구현](implementation-guides/standard.md)
    + [Analytics 구현](implementation-guides/setup-analytics.md)
    + [Target 구현](implementation-guides/setup-target.md)
@@ -36,7 +36,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
       + [옵트인 서비스 개요](implementation-guides/opt-in-service/optin-overview.md)
       + [옵트인 서비스 설정](implementation-guides/opt-in-service/getting-started.md)
       + [옵트인 서비스 확인](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
-      + [경험 플랫폼 Launch를 사용하여 옵트인 구성](implementation-guides/opt-in-service/launch.md)
+      + [Experience Platform Launch로 옵트인 구성](implementation-guides/opt-in-service/launch.md)
       + [DTM으로 옵트인 구성](implementation-guides/opt-in-service/optin-dtm.md)
       + [옵트인 사용 사례](implementation-guides/opt-in-service/use-cases.md)
       + [옵트인 참조](implementation-guides/opt-in-service/api.md)
