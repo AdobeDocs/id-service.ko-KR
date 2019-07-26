@@ -2,24 +2,24 @@
 description: ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 keywords: ID 서비스
 seo-description: ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
-seo-title: Experience Cloud ID 서비스가 ID 요청 및 설정 방법
-title: Experience Cloud ID 서비스가 ID 요청 및 설정 방법
+seo-title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
+title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# How the Experience Cloud Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 
 >[!NOTE]
 >
->If you're not familiar with how the Experience Cloud Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
+>Experience Cloud Identity 서비스에서 방문자 ID를 만드는 방법을 잘 모를 경우 잠시 [Experience Cloud](../introduction/cookies.md)를 검토하십시오.
 
-**팁:** [교차 도메인 추적에 나와 있는 ID 서비스 비디오](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html)를 참조하십시오.
+**팁:** [교차 도메인 추적에 대한 ID 서비스 동영상](https://helpx.adobe.com/kr/marketing-cloud-core/kb/MCID/CrossDomain.html)도 참조하십시오.
 
 ## Experience Cloud ID 요청 {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 
@@ -32,7 +32,7 @@ ID 요청 및 응답 프로세스를 대략적으로 나타낸 것입니다. 이
 이 예제에서 새 방문자는 Food Company에서 관리하는 피자 사이트를 방문합니다. Food Company의 피자 웹 사이트에는 ID 서비스 코드가 있습니다. 피자 사이트가 로드되면 ID 서비스 코드가 피자 도메인에서 AMCV 쿠키를 확인합니다.
 
 * AMCV 쿠키가 설정된 경우 사이트 방문자에게는 Experience Cloud ID가 있습니다. 이 경우 쿠키는 방문자를 추적하고 다른 Experience Cloud 솔루션과 데이터를 공유합니다.
-* AMCV 쿠키가 설정되지 않은 경우 ID 서비스 코드는 [에서 지역 데이터 수집 서버(](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_compcollect.html)DCS`dpm.demdex.net/id`)를 호출합니다([Demdex 도메인 호출 이해](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) 참조). 이 호출에는 Food Company에 대한 조직 ID가 포함됩니다. 조직 ID는 ID 서비스 코드의 `Visitor.getInstance` 함수에 설정됩니다.
+* AMCV 쿠키가 설정되지 않은 경우 ID 서비스 코드가 `dpm.demdex.net/id`에서 지역 D[데이터 수집 서버](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_compcollect.html)(DCS)를 호출합니다([Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) 참조). 이 호출에는 Food Company에 대한 조직 ID가 포함됩니다. 조직 ID는 ID 서비스 코드의 `Visitor.getInstance` 함수에 설정됩니다.
 
 ![](assets/request1.png)
 
