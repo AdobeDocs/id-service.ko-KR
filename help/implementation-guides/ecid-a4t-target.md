@@ -5,7 +5,7 @@ seo-description: 이러한 지침은 Target, Analytics 및 ID 서비스가 혼�
 seo-title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -47,7 +47,7 @@ A4T 및 기타 고객은 다음 상황에서 이 버전의 ID 서비스를 사�
 
 >[!NOTE]
 >
->이 메서드는 [!DNL Target]에서 단일 mbox를 요청합니다. 단일 호출에서 여러 개의 mbox를 호출해야 하는 경우 [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload)를 참조하십시오.
+>이 메서드는 [!DNL Target]에서 단일 mbox를 요청합니다. 한 번의 호출로 여러 mbox를 요청해야 하는 경우 [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload)를 참조하십시오.
 
 페이로드 요청은 다음 코드 샘플과 유사해야 합니다. 코드 샘플에서 `visitor.setCustomerIDs` 함수는 선택 사항입니다. 자세한 내용은 [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
 
@@ -166,7 +166,7 @@ Response.send("
 
 ![](assets/server_side_dtm.png)
 
-또한 [DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)용 Experience Cloud Identity Service 설정
+또한 [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
 
 **DTM을 사용하지 않고 서버 상태 가져오기**
 
