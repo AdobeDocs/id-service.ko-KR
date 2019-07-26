@@ -1,19 +1,19 @@
 ---
-description: 이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 keywords: ID 서비스
-seo-description: 이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
-seo-title: Analytics에 대한 Experience Cloud ID 서비스 구현
-title: Analytics에 대한 Experience Cloud ID 서비스 구현
+seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+seo-title: Analytics용 Experience Cloud Identity 서비스 구현
+title: Analytics용 Experience Cloud Identity 서비스 구현
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Implement the Experience Cloud Identity Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
+# Analytics용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics}
 
-이 지침은 Experience Cloud Identity Service를 사용하고 DTM (다이내믹 태그 관리) 를 사용하지 않으려는 Analytics 고객을 위한 것입니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 ## 3단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
 
-`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 코어 서비스]( https://marketing.adobe.com/resources/help/ko_KR/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
@@ -134,7 +134,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 
 
-If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
 
 ## 5단계: AppMeasurement.js 또는 s_code.js 파일 업데이트 {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
@@ -164,7 +164,7 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## 7단계: (선택 사항) 유예 기간 구성 {#section-7bbb2f72c26e4abeb8881e18366797a3}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
+이러한 사용 사례가 현재 상황에 적용되는 경우 [고객 지원 센터]( https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 임시 [유예 기간](../reference/analytics-reference/grace-period.md)을 설정하도록 요청하십시오. 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
 
 **부분적인 구현**
 
@@ -178,13 +178,13 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 
 구현이 s_vi 쿠키를 읽는 대신 MID를 캡처할 수 있게 되면 유예 기간을 중단하십시오.
 
-자세한 내용은 [쿠키 및 Experience Cloud Identity Service](../introduction/cookies.md).
+자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스 ](../introduction/cookies.md).
 
 클릭스트림 데이터 피드에서 내부 시스템으로 데이터를 보내고 해당 프로세스에서 `visid_high` 및 `visid_low` 열이 사용되는 경우에 유예 기간이 필요합니다.
 
 데이터 처리 프로세스에서 `post_visid_high` 및 `post_visid_low` 열을 사용할 수 있게 되면 유예 기간을 중지하십시오.
 
-[클릭스트림 데이터 열 참조](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html)을 참조하십시오.
+[Clickstream 데이터 열 참조]( https://marketing.adobe.com/resources/help/ko_KR/sc/clickstream/datafeeds_reference.html)를 참조하십시오.
 
 **클릭스트림 데이터 처리**
 
@@ -197,9 +197,9 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 
 * 페이지가 호스팅된 도메인의 [AMCV 쿠키](../introduction/cookies.md)
-* [!DNL Analytics]Adobe 디버거 도구[를 사용한 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 이미지 요청의 MID 값
+* [Adobe Debugger 도구](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html)를 사용한 [!DNL Analytics] 이미지 요청의 MID 값.
 
-See, [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
+[Experience Cloud Identity 서비스 테스트 및 확인](../implementation-guides/test-verify.md)도 참조하십시오.
 
 **코드 배포**
 
