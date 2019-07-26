@@ -5,7 +5,7 @@ seo-description: Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 �
 seo-title: 고객 ID 및 인증 상태
 title: 고객 ID 및 인증 상태
 uuid: 643df363-224a-463e-a332-be59926b47e7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -17,13 +17,13 @@ Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증 상태와 �
 
 ## 인증 상태 {#section-68ad4065dfaa437d9070832d6e2bf85c}
 
-`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=attributes.html)으로 [!DNL Experience Cloud]에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
+`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 특성](https://marketing.adobe.com/resources/help/ko_KR/mcloud/?f=attributes.html)으로 [!DNL Experience Cloud]에 업로드하고 다른 솔루션에서 이 데이터에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
->`setCustomerIDs` (고객 ID 동기화)는 고객 특성 및 핵심 서비스 기능에 필요합니다. 고객 ID 동기화는 [!DNL Analytics]의 선택적 식별 방법입니다. [!DNL Target]의 경우 고객 특성이 작동하려면 `Visitor.AuthState.AUTHENTICATED`가 필요합니다. 예제에 대해서는 [핵심 서비스 - 솔루션을 사용하도록 설정하는 방법](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)을 참조하십시오.
+>`setCustomerIDs` (고객 ID 동기화)는 고객 특성 및 핵심 서비스 기능에 필요합니다. 고객 ID 동기화는 [!DNL Analytics]의 선택적 식별 방법입니다. [!DNL Target]의 경우 고객 특성이 작동하려면 `Visitor.AuthState.AUTHENTICATED`가 필요합니다. 예제는 [핵심 서비스 - 솔루션을 사용하도록 설정하는 방법](https://marketing.adobe.com/resources/help/ko_KR/mcloud/?f=core_services)을 참조하십시오.
 
-Beginning with Experience Cloud Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태는 정수로 반환됩니다.
+Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택적 `AuthState` 개체가 있습니다. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태는 정수로 반환됩니다.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
@@ -215,9 +215,9 @@ Object customerIDs = visitor.getCustomerIDs();
 
 [!DNL Experience Cloud] ID 서비스는 Android 및 iOS SDK 코드에서 고객 ID와 인증 상태를 지원합니다. 다음 코드 라이브러리를 참조하십시오.
 
-* [Android SDK 메서드](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_marketing_cloud.html)
-* [iOS SDK 메서드](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=marketing_cloud.html)
+* [Android SDK 메서드](https://marketing.adobe.com/resources/help/ko_KR/mobile/android/?f=c_marketing_cloud.html)
+* [iOS SDK 메서드](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/?f=marketing_cloud.html)
 
 ## Analytics 및 Audience Manager 고객을 위한 알림 {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 개체가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. For more information, see the [!DNL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation.
+선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 개체가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 [병합 규칙 코드 구성](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) 설명서의 [!DNL Visitor ID Service] 섹션을 참조하십시오.
