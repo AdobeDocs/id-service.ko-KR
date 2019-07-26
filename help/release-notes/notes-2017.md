@@ -1,11 +1,11 @@
 ---
-description: 2017 년 Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
+description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-seo-description: 2017 년 Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
+seo-description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2017 릴리스 노트
 title: 2017 릴리스 노트
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 # 2017 릴리스 노트 {#release-notes}
 
-2017 년 Experience Cloud Identity Service의 기능 릴리스, 업데이트 또는 변경 사항
+2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 ID 서비스 릴리스 정보에 대해서는 [이전 릴리스 정보](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 맨 아래에 있는 링크를 참조하십시오.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)에도 캡처되었습니다. 이전 ID 서비스 릴리스 노트에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 하단에 있는 링크를 참조하십시오.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 * 해당 브라우저에서 뒤로 버튼을 클릭할 때 ID 서비스가 오류를 발생시키는 Chrome 관련 버그가 수정되었습니다.
 * 이제 ID 서비스는 이벤트 호출 응답의 지역 ID가 변경되면 ID 동기화를 다시 시작합니다.
-* 새 설명서, [ID 서비스에서 사용되는 Adobe 도메인으로 화이트 리스트 호출을 하는 방법을 설명하는 컨텐츠 보안 정책 및 Experience Cloud Identity Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+* 새 설명서, [컨텐츠 보안 정책 및 Experience Cloud Identity 서비스](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)가 추가되었습니다. 이 설명서는 ID 서비스에서 사용하는 Adobe 도메인에 대한 호출을 화이트리스트에 작성하는 방법을 설명합니다.
 
 ## 버전 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
@@ -192,7 +192,7 @@ ID 서비스에서 AMCV 쿠키에 저장된 ID를 사용하지 않고 ID에 대�
 
 **새 설명서**
 
-[다른 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용 `Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/en_US/mcloud/dns-prefetch.html)
+[다른 Experience Cloud 솔루션 및 서비스와 함께 DNS 프리페치 사용`Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/ko_KR/mcloud/dns-prefetch.html)
 
 ## 버전 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
