@@ -5,7 +5,7 @@ seo-description: ID 서비스에서 다른 Experience Cloud 솔루션 사용과 
 seo-title: 기타 Experience Cloud 솔루션에 대한 FAQ
 title: 기타 Experience Cloud 솔루션에 대한 FAQ
 uuid: 7d848663-6cbb-4d80-ab06-7b6d2dc20e2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -25,7 +25,7 @@ ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 
 
 ## Analytics 및 Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
-**Experience Cloud Identity Service를 구현하면 사용자의 방문 내역을에서[!DNL Adobe Analytics][!DNL Audience Manager]내역으로 내보낼 수 있습니까?**
+**Experience Cloud Identity 서비스를 구현하면 사용자 방문 기록이[!DNL Adobe Analytics]에서[!DNL Audience Manager]로 내보내집니까?**
 
 다음 두 가지 옵션을 사용할 수 있습니다.
 
