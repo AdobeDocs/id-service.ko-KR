@@ -5,7 +5,7 @@ seo-description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬�
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -108,7 +108,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>방문자 Experience Cloud ID입니다. </p> <p>자세한 내용은 <a href="../../introduction/cookies.md" format="dita" scope="local"> 쿠키 및 Experience Cloud Identity Service </a>. </p> </td> 
+   <td colname="col2"> <p>방문자 Experience Cloud ID입니다. </p> <p>자세한 내용은 <a href="../../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
