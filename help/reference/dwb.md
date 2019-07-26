@@ -2,20 +2,20 @@
 description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합하십시오. 이 프로세스를 사용하면 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있으므로, Adobe Experience Cloud의 다른 제품과 보다 강력하게 통합하고 향상된 방문자 추적 기능을 제공할 수 있습니다.
 keywords: ID 서비스
 seo-description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합하십시오. 이 프로세스를 사용하면 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있으므로, Adobe Experience Cloud의 다른 제품과 보다 강력하게 통합하고 향상된 방문자 추적 기능을 제공할 수 있습니다.
-seo-title: 데이터 워크벤치 및 Experience Cloud ID 서비스
-title: 데이터 워크벤치 및 Experience Cloud ID 서비스
+seo-title: Data Workbench 및 Experience Cloud Identity 서비스
+title: Data Workbench 및 Experience Cloud Identity 서비스
 uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Data Workbench and the Experience Cloud Identity Service {#data-workbench-and-the-experience-cloud-id-service}
+# Data Workbench 및 Experience Cloud Identity 서비스 {#data-workbench-and-the-experience-cloud-id-service}
 
 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합하십시오. 이 프로세스를 사용하면 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있으므로, Adobe Experience Cloud의 다른 제품과 보다 강력하게 통합하고 향상된 방문자 추적 기능을 제공할 수 있습니다.
 
-ID 서비스를 사용하도록 [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)를 업데이트하려면
+[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)를 업데이트하여 ID 서비스를 사용하려면:
 
 1. 현재 [디코더 그룹](https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_text_file_dec_groups.html) 구성 파일을 찾습니다.
 
