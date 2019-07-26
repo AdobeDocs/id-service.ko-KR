@@ -5,7 +5,7 @@ seo-description: 이 기능을 사용하면 브라우저에서 타사 쿠키를 
 seo-title: appendVisitorIDsTo(도메인 간 추적)
 title: appendVisitorIDsTo(도메인 간 추적)
 uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ## 브라우저에서 타사 쿠키를 차단하는 경우 도메인에서 방문자 추적 {#section-7251d88befd440b4b79520e33c5aa44a}
 
-ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Cloud Identity Service](../../introduction/cookies.md) ). 퍼스트 파티 쿠키에는 해당 방문자의 고유 ID, 즉 MID가 포함되어 있습니다. 타사 쿠키에는 ID 서비스에서 MID를 생성하는 데 사용한 다른 ID가 포함되어 있습니다. 브라우저에서 이 타사 쿠키를 차단하는 경우 ID 서비스에서는 다음 작업을 수행할 수 없습니다.
+ID 서비스는 사용자가 사이트를 방문할 때 브라우저에 자사 및 타사 쿠키를 기록합니다([쿠키 및 Experience Cloud Identity 서비스](../../introduction/cookies.md) 참조). 퍼스트 파티 쿠키에는 해당 방문자의 고유 ID, 즉 MID가 포함되어 있습니다. 타사 쿠키에는 ID 서비스에서 MID를 생성하는 데 사용한 다른 ID가 포함되어 있습니다. 브라우저에서 이 타사 쿠키를 차단하는 경우 ID 서비스에서는 다음 작업을 수행할 수 없습니다.
 
 * 사이트 방문자가 다른 도메인으로 이동할 때 해당 사이트 방문자에 대한 고유 ID를 다시 생성합니다.
 * 조직에서 소유한 여러 도메인에서 방문자를 추적합니다.
@@ -72,14 +72,14 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>DTM</b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://helpx.adobe.com/dtm/kb/how-to-set-marketing-cloud-id-service-helper-function-in-adobe-d.html" format="https" scope="external"> DTM에서 appendVisitorIDTo 함수 설정 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://helpx.adobe.com/kr/dtm/kb/how-to-set-marketing-cloud-id-service-helper-function-in-adobe-d.html" format="https" scope="external"> DTM에서 appendVisitorIDTo 함수 설정 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>SDK</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_9D7933FF68EE4C71BAE999B3747F8398"> 
-     <li id="li_9036C76AAECC4E639C23020C0C9F2AF8"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/mc_methods.html" format="https" scope="external"> Android ID 서비스 메서드 </a> </li> 
-     <li id="li_E49D357905584674BFDFE348345B3849"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/mc_methods.html" format="https" scope="external"> iOS ID 서비스 메서드 </a> </li> 
+     <li id="li_9036C76AAECC4E639C23020C0C9F2AF8"> <a href="https://marketing.adobe.com/resources/help/ko_KR/mobile/android/mc_methods.html" format="https" scope="external"> Android ID 서비스 메서드 </a> </li> 
+     <li id="li_E49D357905584674BFDFE348345B3849"> <a href="https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/mc_methods.html" format="https" scope="external"> iOS ID 서비스 메서드 </a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
