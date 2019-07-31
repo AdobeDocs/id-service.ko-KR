@@ -5,7 +5,7 @@ seo-description: ECID (Experience Cloud ID Service) 는 고객 ID 또는 이메�
 seo-title: Setcustomerids에 대한 SHA 256 해싱 지원
 title: Setcustomerids에 대한 SHA 256 해싱 지원
 translation-type: tm+mt
-source-git-commit: c670939cbeaebf4530df0e7d12e992ca5f0963bd
+source-git-commit: 0311d57391a0a9d5ac5a0bba255ca71bdffd67c0
 
 ---
 
@@ -31,11 +31,13 @@ SHA -256 해싱을 사용하여 단일 고객 ID (위에 언급된 이메일 주
 visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256");
 ```
 
+<br> 
+
 Experience Cloud 방문자 ID와 함께 추가 고객 ID, 인증 상태 및 해시 유형 (SHA -256) 를 각 방문자와 연결할 수 있습니다. 해시 유형을 제공하지 않는 경우 해싱 없음으로 간주됩니다.
 
 `setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)으로 Experience Cloud에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
 
-Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs](/help/library/get-set/getcustomerids.md), as shown below:
+Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs`](/help/library/get-set/getcustomerids.md), as shown below:
 
 ```
 > visitor.getCustomerIDs();
@@ -43,6 +45,8 @@ Customer IDs, authenticated states and hash type *are not* stored in a cookie to
     email: {id: "a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097", authState: 1, hashType: "SHA-256"}
     __proto__: Object
 ```
+
+<br> 
 
 `setCustomerIDs` 이 방법을 사용하면 해시된 고객 ID가 포함된 `dpm.demdex.net``d_cid_ic` 쿼리 매개 변수가 추가되면서 Experience Cloud ID 서비스에 대한 호출이 호출됩니다. 샘플 호출은 아래와 같이 표시될 수 있습니다. 명확성을 위해 줄 바꿈이 추가되었습니다.
 
@@ -53,6 +57,8 @@ d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&
 d_cid_ic=email%a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097%011&
 ts=1563299964843
 ```
+
+<br> 
 
 See the table below for a description of the `d_cid_ic` parameter and authentication state.
 
@@ -67,6 +73,8 @@ See the table below for a description of the `d_cid_ic` parameter and authentica
 To add an action in Launch, read the [rules documentation](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html) in Adobe Launch and see the screen capture below:
 
 ![](/help/reference/assets/hashing-support.png)
+
+<br> 
 
 구성을 확인하면 론치가 다음과 같이 데이터를 객체로 래핑합니다.
 
