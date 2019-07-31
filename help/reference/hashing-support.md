@@ -5,7 +5,7 @@ seo-description: ECID (Experience Cloud ID Service) 는 고객 ID 또는 이메�
 seo-title: Setcustomerids에 대한 SHA 256 해싱 지원
 title: Setcustomerids에 대한 SHA 256 해싱 지원
 translation-type: tm+mt
-source-git-commit: 0311d57391a0a9d5ac5a0bba255ca71bdffd67c0
+source-git-commit: ac1131be75fd04b51cd1d646086e1802a43afb18
 
 ---
 
@@ -15,8 +15,8 @@ source-git-commit: 0311d57391a0a9d5ac5a0bba255ca71bdffd67c0
 ECID (Experience Cloud ID Service) 는 고객 ID 또는 이메일 주소를 전달하고 해시된 ID를 전달할 수 있는 SHA -256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 자신의 해싱을 계속 사용할 수 있습니다.
 아래 섹션에 설명된 대로 Setcustomerids를 사용하여 해싱 지원을 구현하는 방법은 두 가지가 있습니다.
 
-* ECID에서 setcustomerids 메서드를 사용합니다.
-* Adobe Experience Platform Launch에서 작업 추가
+* [ECID에서 setcustomerids 메서드를 사용합니다.](/help/reference/hashing-support.md#use-setcustomerids-method)
+* [Adobe Experience Platform Launch에서 작업 추가](/help/reference/hashing-support.md#add-action-launch)
 
 ## Use the `setCustomerIDs` method in ECID {#use-setcustomerids-method}
 
