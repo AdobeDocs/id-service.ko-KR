@@ -5,8 +5,8 @@ seo-description: Experience Cloud Identity 서비스에 대한 기능 릴리스,
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: ht
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+translation-type: tm+mt
+source-git-commit: 4532d09cc9b4d83fa62c13bd1adac7abdae222b1
 
 ---
 
@@ -19,9 +19,29 @@ Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또
 
 [!DNL Experience Cloud] ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
+## 버전 4.4 {#version-4point4}
+
+**새로운 기능**
+
+[Setcustomerids에 대한 SHA 256 해싱 지원](/help/reference/hashing-support.md). ECID (Experience Cloud ID Service) 는 고객 ID 또는 이메일 주소를 전달하고 해시된 ID를 전달할 수 있는 SHA -256 해시 알고리즘을 지원합니다.
+
+**수정 사항, 개선 사항, 개선 사항**
+
+* We made a configuration update to `cookieDomain`. The ECID library now filters out the empty string `cookieDomain` in `initConfig` and uses the top level cookie domain, which is returned by the getDomain method. (CORE-29223)
+* We fixed a bug related to `getVisitorValues` in `localVisitor`. (CORE-31287)
+* We fixed a bug where there was an inconsistency for the MCOPTOUT value in the Safari browser, returned by the `getVisitorValue` method. (CORE-29719)
+* We updated the Opt-in library by adding `optIn.off` to unsubscribe from events.
+* We fixed a bug related to the setTimeout function, where `setTimeout` violated the Content Security Policy (CSP) on some customer sites. (CORE-30623)
+
+## 버전 4.3 {#version-4point3}
+
+**ITP 2.1**&#x200B;지원. 추적 서버가 퍼스트 파티 CNAME에 설정된 경우 새 쿠키 (s_ ECID) 가 ECID 값으로 배치됩니다. ECID 라이브러리는 7 일 넘게 ID를 지속하는 값을 참조합니다. See [ECID library methods in a Safari ITP world](/help/reference/ecid-library-methods.md).
+
+**Securecookie 구성에 대한 버그 수정.**
+
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타를 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의를 수집하거나, 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타 모든 Experience Cloud 솔루션을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
