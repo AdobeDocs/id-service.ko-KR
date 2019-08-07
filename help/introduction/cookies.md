@@ -5,8 +5,8 @@ seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및
 seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+translation-type: tm+mt
+source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 이 ID 서비스는 올바르게 작동하기 위해 AMCV, AMCVS 및 demdex 쿠키를 사용합니다. 이러한 쿠키는 ID 서비스에 사용된 데이터를 저장하는 파일입니다. 이러한 ID 서비스 쿠키는 위험하거나 악의적이지 않고, 브라우저의 서비스 또는 웹 사이트에 저장된 다른 자사 또는 타사 쿠키와 다르지 않으며, 자사 및 타사 쿠키를 제어하는 동일한 규칙을 따릅니다. ID 서비스에서 사용하는 쿠키에 대한 자세한 정보는 아래의 다음 섹션을 참조하십시오.
 
-**ID 서비스 쿠키에서 수행할 수 있는 작업**
+### ID 서비스 쿠키에서 수행할 수 있는 작업
 
 * 사이트 방문자에 대한 고유한 ID(MID) 설정 및 저장.
 * ID 서비스가 데이터를 수집하고 다른 Experience Cloud 솔루션과 공유할 수 있도록 이 고유한 ID 유지.
 * 도메인에서 사용자 추적. 그러나 이 작업을 수행하려면 다른 도메인을 소유하고 있고 이 도메인에 ID 서비스 코드가 배포되어 있어야 합니다.
 
-**ID 서비스 쿠키에서 수행할 수 없는 작업**
+### ID 서비스가 수행할 수 없는 기능
 
 * 컴퓨터 바이러스 저장, 전송 또는 실행.
 * 이메일 주소와 같은 PII(개인식별정보)에 액세스 또는 저장.
@@ -114,7 +114,7 @@ AMCVS 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)를 참조하십시오.
+For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
