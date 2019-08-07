@@ -5,8 +5,8 @@ seo-description: ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 �
 seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
-translation-type: ht
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+translation-type: tm+mt
+source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
 
@@ -91,9 +91,9 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 두 함수 모두 다음 매크로를 허용합니다.
 
-* ** `%TIMESTAMP%`: **타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
-* ** `%DID%`: **사용자의 Audience Manager ID를 삽입합니다.
-* ** `%HTTP_PROTO%`: **통신 프로토콜(`http` 또는 `https`)을 설정합니다.
+* `%TIMESTAMP%`: 타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
+* `%DID%`: 사용자의 Audience Manager ID를 삽입합니다.
+* `%HTTP_PROTO%`: 통신 프로토콜 ( `http` 또는 `https`) 를 설정합니다.
 
 ## 샘플 코드 및 출력 {#section-0115615c37584a19a2ab11e917c4e7e9}
 
@@ -116,8 +116,8 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
     //&amp;nbsp;Fires&amp;nbsp;url&amp;nbsp;with&amp;nbsp;macros&amp;nbsp;replaced
     visitor.idSyncByURL({
-    &amp;nbsp;dpid:&amp;nbsp;&#39;24&#39;,&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
-    &amp;nbsp;url:&amp;nbsp;&#39;//su.addthis.com/red/usync?pid=16&amp;amp;puid=%DID%&amp;amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D&#39;,
+    &amp;nbsp;dpid:&amp;nbsp;'24',&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
+    &amp;nbsp;url:&amp;nbsp;'//su.addthis.com/red/usync?pid=16&amp;amp;puid=%DID%&amp;amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D',
     &amp;nbsp;minutesToLive:&amp;nbsp;20160&amp;nbsp;//&amp;nbsp;optional,&amp;nbsp;defaults&amp;nbsp;to&amp;nbsp;20160&amp;nbsp;minutes&amp;nbsp;(14&amp;nbsp;days)&amp;nbsp;
     }); &lt;/code&gt; &lt;/p&gt; &lt;/td&gt;
 <td colname="col2"> <p> <span class="codeph"> http://su.addthis.com/red/usync?pid=16&amp;puid=28777806459181003670799219185178493848&amp;url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D </span> </p> </td> 
@@ -140,10 +140,10 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
       var visitor = Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
 
-    //&amp;nbsp;Fires&amp;nbsp;&#39;http:/https:&#39;&amp;nbsp;+&amp;nbsp;&#39;//dpm.demdex.net/ibs:dpid=&amp;lt;dpid&amp;gt;&amp;amp;dpuuid=&amp;lt;dpuuid&amp;gt;&#39;
+    //&amp;nbsp;Fires&amp;nbsp;'http:/https:'&amp;nbsp;+&amp;nbsp;'//dpm.demdex.net/ibs:dpid=&amp;lt;dpid&amp;gt;&amp;amp;dpuuid=&amp;lt;dpuuid&amp;gt;'
     visitor.idSyncByDataSource({
-    &amp;nbsp;dpid:&amp;nbsp;&#39;24&#39;,&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
-    &amp;nbsp;dpuuid:&amp;nbsp;&#39;98765&#39;,&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
+    &amp;nbsp;dpid:&amp;nbsp;'24',&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
+    &amp;nbsp;dpuuid:&amp;nbsp;'98765',&amp;nbsp;//&amp;nbsp;must&amp;nbsp;be&amp;nbsp;a&amp;nbsp;string
     &amp;nbsp;minutesToLive:&amp;nbsp;20160&amp;nbsp;//&amp;nbsp;optional,&amp;nbsp;defaults&amp;nbsp;to&amp;nbsp;20160&amp;nbsp;minutes&amp;nbsp;(14&amp;nbsp;days)&amp;nbsp;
     }); &lt;/code&gt; &lt;/p&gt; &lt;/td&gt;
 <td colname="col2"> <p> <span class="codeph"> http://dpm.demdex.net/ibs:dpid=24&amp;dpuuid=98765 </span> </p> </td> 
@@ -153,5 +153,5 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 >[!MORE_LIKE_THIS]
 >
->* [DIL idSync](https://marketing.adobe.com/resources/help/ko_KR/aam/r_dil_idsync.html)
+>* [DIL idSync](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_idsync.html)
 
