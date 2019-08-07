@@ -5,8 +5,8 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
 title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
-translation-type: ht
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+translation-type: tm+mt
+source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
 
@@ -26,13 +26,13 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ## 1단계: 서버측 전달 플랜 {#section-880797cc992d4755b29cada7b831f1fc}
 
-여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://marketing.adobe.com/resources/help/ko_KR/analytics/audiences/ssf.html)를 참조하십시오.
+여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [대상 관리 모듈](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)로 교체할 수 있습니다. 자세한 내용은 [서버측 전달 설명서](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/ssf.html)를 참조하십시오.
 
 서버측 전달로 마이그레이션하려면 계획과 조정이 필요합니다. 이 프로세스에는 사이트 코드에 대한 외부 변경 사항과 Adobe에서 계정을 프로비저닝하기 위해 수행해야 하는 내부 단계가 포함됩니다. 사실상 이러한 마이그레이션 절차의 대부분은 동시에 수행되어 함께 릴리스되어야 합니다. 사용자의 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
 
 1. [!DNL Analytics] 및 [!DNL Audience Manager] 담당자와 협업하여 ID 서비스 및 서버측 전달 마이그레이션을 계획합니다. 이 계획에서 추적 서버 선택을 중요한 부분으로 다룹니다.
 
-1. [!DNL Profiles & Audiences]에 대해 프로비전됩니다. 시작하려면 [통합 및 프로비저닝 사이트](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)에서 양식을 작성합니다.
+1. [ 통합 및 프로비저닝 사이트](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)에서 양식을 작성하여 시작합니다.
 
 1. ID 서비스와 [!DNL Audience Management Module]을 동시에 구현합니다. 제대로 작동하려면 [!DNL Audience Management Module] (서버측 전달) 및 ID 서비스를 동시에 같은 페이지 세트에 대해 릴리스해야 합니다.
 
@@ -133,11 +133,11 @@ Analytics는 데이터 수집 시 추적 서버를 사용합니다.
 * Experience Cloud 서버 URL = 추적 서버 URL
 * Experience Cloud 서버 보안 URL = 추적 서버 보안 URL
 
-추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
+추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)와 [trackingServer 및 trackingServerSecure 변수 올바로 채우기를 참조하십시오](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## 6단계: AppMeasurement.js 파일 업데이트 {#section-5517e94a09bc44dfb492ebca14b43048}
 
-이 단계에는 [!DNL AppMeasurement]가 필요합니다. s_code를 사용하는 경우 계속 진행할 수 없습니다.
+이 단계에는 [!UICONTROL AppMeasurement]가 필요합니다. s_code를 사용하는 경우 계속 진행할 수 없습니다.
 
 아래 표시된 `Visitor.getInstance` 함수를 `AppMeasurement.js` 파일에 추가합니다. `linkInternalFilters`, `charSet`, `trackDownloads` 등과 같은 구성을 포함하는 섹션에 해당 함수를 다음과 같이 추가합니다.
 
@@ -145,7 +145,7 @@ Analytics는 데이터 수집 시 추적 서버를 사용합니다.
 
 >[!IMPORTANT]
 >
->이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 자세한 내용은 [구현 서버측 전달](https://marketing.adobe.com/resources/help/ko_KR/reference/ssf.html)을 참조하십시오.
+>이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)을 참조하십시오.
 
 ***(선택 사항이지만 권장됨)*사용자 지정 Prop 만들기**
 
@@ -158,14 +158,14 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## 7단계: 페이지에 방문자 API 코드 추가 {#section-c2bd096a3e484872a72967b6468d3673}
 
-각 페이지의 `<head>` 태그 내에 ` [!DNL VisitorAPI.js]` 파일을 넣습니다. `VisitorAPI.js` 파일을 페이지에 넣을 경우:
+각 페이지의 `<head>` 태그 내에 ` [!UICONTROL VisitorAPI.js]` 파일을 넣습니다. `VisitorAPI.js` 파일을 페이지에 넣을 경우:
 
 * `<head>` 섹션의 시작 부분에 넣어 다른 솔루션 태그 앞에 나타나게 합니다.
 * AppMeasurement 및 다른 [!DNL Experience Cloud] 솔루션에 대한 코드 앞에서 실행해야 합니다.
 
 ## 8단계: (선택 사항) 유예 기간 구성 {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-이러한 사용 사례가 현재 상황에 적용되는 경우 [고객 지원 센터]( https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 임시 [유예 기간](../reference/analytics-reference/grace-period.md)을 설정하도록 요청하십시오. 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
 
 **부분적인 구현**
 
@@ -187,7 +187,7 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 
 데이터 처리 프로세스에서 `post_visid_high` 및 `post_visid_low` 열을 사용할 수 있게 되면 유예 기간을 중지하십시오.
 
-[Clickstream 데이터 열 참조]( https://marketing.adobe.com/resources/help/ko_KR/sc/clickstream/datafeeds_reference.html)도 참조하십시오.
+또한 [클릭스트림 데이터 열 참조](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html)를 참조하십시오.
 
 ## 9단계: ID 서비스 코드 테스트 및 배포 {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -198,10 +198,10 @@ ID 서비스로 마이그레이션한 후에 새 방문자가 s_vi 쿠키를 보
 ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 
 * [페이지가 호스팅된 도메인의 AMCV 쿠키](../introduction/cookies.md).
-* [Adobe Debugger](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html)를 사용한 Analytics 이미지 요청의 MID 값.
+* [Adobe 디버거](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html)를 사용한 Analytics 이미지 요청의 MID 값.
 * [Experience Cloud Identity 서비스 테스트 및 확인](../implementation-guides/test-verify.md)도 참조하십시오.
 
-서버측 전달을 확인하려면 [서버측 전달 구현을 확인하는 방법](https://marketing.adobe.com/resources/help/ko_KR/reference/ssf-verify.html)을 참조하십시오.
+서버 측 전달을 확인하려면 [서버 측 전달 구현 확인 방법](https://marketing.adobe.com/resources/help/en_US/reference/ssf-verify.html)을 참조하십시오.
 
 **배포**
 
