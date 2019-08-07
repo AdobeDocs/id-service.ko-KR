@@ -5,8 +5,8 @@ seo-description: 이러한 예제에서는 직접 통합 및 Experience Cloud ID
 seo-title: 직접 통합 사용 사례
 title: 직접 통합 사용 사례
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-translation-type: ht
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+translation-type: tm+mt
+source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 
 
-## 사용 사례 1: MID가 있지만 내 방문자 ID를 전달하고 인증 상태를 설정하려고 함 {#section-a67d89a343754d1286d03cf08d34b806}
+## Use case 1: I have an Experience Cloud ID (MID) but want to pass my visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
