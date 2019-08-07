@@ -6,7 +6,7 @@ seo-title: 고객 ID 및 인증 상태
 title: 고객 ID 및 인증 상태
 uuid: 643df363-224a-463e-a332-be59926b47e7
 translation-type: tm+mt
-source-git-commit: 21fb12b817b7c8cd34e6022ca6c188229228d1df
+source-git-commit: 603540150edcdc76aacf407aeb6421c5b8386f56
 
 ---
 
@@ -92,7 +92,7 @@ Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택
 >* ID는 대소문자를 구분합니다.
 >* ID에 대해 인코딩이 해제된 값만 사용하십시오.
 >* 고객 ID 및 인증 상태는 방문자 ID 쿠키에 저장되지 않습니다. 모든 페이지 또는 애플리케이션 컨텍스트에 대해 설정되어야 합니다.
->* 고객 ID에는 PII(개인 식별 정보)를 포함하면 안 됩니다. PII를 사용하여 방문자(예: 이메일 주소)를 식별하는 경우 대신 이 정보의 해시 버전 또는 암호화 버전을 저장하는 것이 좋습니다. ECID 라이브러리는 사용자 ID 해싱 지원을 제공합니다. See [SHA256 Hashing Support for setCustomerIDs](/help/reference/hashing-support.md).
+>* 고객 ID에는 PII(개인 식별 정보)를 포함하면 안 됩니다. PII를 사용하여 방문자(예: 이메일 주소)를 식별하는 경우 대신 이 정보의 해시 버전 또는 암호화 버전을 저장하는 것이 좋습니다. ECID 라이브러리는 사용자 ID 해싱 지원을 제공합니다. Setcustomerids에 [대한 SHA 256 해싱 지원을 참조하십시오](/help/reference/hashing-support.md).
 >
 
 
@@ -220,4 +220,4 @@ Object customerIDs = visitor.getCustomerIDs();
 
 ## Analytics 및 Audience Manager 고객을 위한 알림 {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 개체가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. For more information, see the [!DNL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation.
+선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 개체가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 [병합 규칙 코드 구성](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) 설명서의 [!UICONTROL 방문자 ID 서비스] 섹션을 참조하십시오.
