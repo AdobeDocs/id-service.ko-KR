@@ -3,14 +3,14 @@ cloud: platform-cloud
 product: ID 서비스
 audience: 최종 사용자
 user-guide-title: Experience Cloud Identity 서비스 도움말
-user-guide-url: /content/help/kr/id-service/using/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/ko-KR/id-service/using/home.html
+translation-type: ht
 source-git-commit: 11578e184a86625a246fee84c65fcdee1a086c45
 
 ---
 
 
-# Experience Cloud Identity 서비스 도움말{#using}
+# Experience Cloud Identity 서비스 도움말 {#using}
 
 + [ID 서비스 도움말](home.md)
 + 개요 {#intro}
@@ -98,7 +98,7 @@ source-git-commit: 11578e184a86625a246fee84c65fcdee1a086c45
    + [ID 서비스에 대한 요구 사항](reference/requirements.md)
    + [비디오 하트비트 및 ID 서비스](reference/heartbeat.md)
    + [Data Workbench 및 ID 서비스](reference/dwb.md)
-   + [Setcustomerids에 대한 SHA 256 해싱 지원](reference/hashing-support.md)
+   + [setCustomerIDs에 대한 SHA256 해시 지원](reference/hashing-support.md)
 + FAQ {#faqs}
    + [FAQ 개요](faq-intro/faq-intro.md)
    + [ID 서비스 FAQ](faq-intro/faq.md)
