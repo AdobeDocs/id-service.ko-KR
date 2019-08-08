@@ -5,7 +5,7 @@ seo-description: Experience Cloud Identity 서비스에 대한 기능 릴리스,
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4532d09cc9b4d83fa62c13bd1adac7abdae222b1
 
 ---
@@ -23,25 +23,25 @@ Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또
 
 **새로운 기능**
 
-[Setcustomerids에 대한 SHA 256 해싱 지원](/help/reference/hashing-support.md). ECID (Experience Cloud ID Service) 는 고객 ID 또는 이메일 주소를 전달하고 해시된 ID를 전달할 수 있는 SHA -256 해시 알고리즘을 지원합니다.
+[setCustomerIDs에 대한 SHA256 해시 지원](/help/reference/hashing-support.md). ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다.
 
-**수정 사항, 개선 사항, 개선 사항**
+**수정 사항, 향상된 기능, 개선 사항**
 
-* We made a configuration update to `cookieDomain`. The ECID library now filters out the empty string `cookieDomain` in `initConfig` and uses the top level cookie domain, which is returned by the getDomain method. (CORE-29223)
-* We fixed a bug related to `getVisitorValues` in `localVisitor`. (CORE-31287)
-* We fixed a bug where there was an inconsistency for the MCOPTOUT value in the Safari browser, returned by the `getVisitorValue` method. (CORE-29719)
-* We updated the Opt-in library by adding `optIn.off` to unsubscribe from events.
-* We fixed a bug related to the setTimeout function, where `setTimeout` violated the Content Security Policy (CSP) on some customer sites. (CORE-30623)
+* `cookieDomain`에 대한 구성을 업데이트했습니다. 이제 ECID 라이브러리는 `initConfig`에서 빈 문자열 `cookieDomain`을 필터링하고 getDomain 메서드에서 반환된 최상위 수준의 쿠키 도메인을 사용합니다. (CORE-29223)
+* `localVisitor`에서 `getVisitorValues`와 관련된 버그를 수정했습니다. (CORE-31287)
+* `getVisitorValue` 메서드에서 반환된 Safari 브라우저의 MCOPTOUT 값에 대한 불일치 문제가 발생한 버그를 수정했습니다. (CORE-29719)
+* 이벤트에서 구독을 해지하기 위해 `optIn.off`를 추가하여 옵트인 라이브러리를 업데이트했습니다.
+* `setTimeout`이 일부 고객 사이트에서 CSP(Content Security Policy)를 위반한 setTimeout 함수와 관련된 버그를 수정했습니다. (CORE-30623)
 
 ## 버전 4.3 {#version-4point3}
 
-**ITP 2.1**&#x200B;지원. 추적 서버가 퍼스트 파티 CNAME에 설정된 경우 새 쿠키 (s_ ECID) 가 ECID 값으로 배치됩니다. ECID 라이브러리는 7 일 넘게 ID를 지속하는 값을 참조합니다. See [ECID library methods in a Safari ITP world](/help/reference/ecid-library-methods.md).
+**ITP 2.1 지원**. 추적 서버가 퍼스트 파티 CNAME에 설정된 경우 새 쿠키(s_ecid)가 ECID 값으로 배치됩니다. ECID 라이브러리는 이 값을 참조하여 7일 이상 ID를 유지합니다. [Safari ITP 환경의 ECID 라이브러리 메서드](/help/reference/ecid-library-methods.md)를 참조하십시오.
 
-**Securecookie 구성에 대한 버그 수정.**
+**secureCookie 구성에 대한 버그 수정**.
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타 모든 Experience Cloud 솔루션을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화할 수 있습니다.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타를 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의를 수집하거나, 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
