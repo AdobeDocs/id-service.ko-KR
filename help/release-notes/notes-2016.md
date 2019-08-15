@@ -5,7 +5,7 @@ seo-description: 2016년 Experience Cloud Identity 서비스의 기능 릴리스
 seo-title: 2016 릴리스 노트
 title: 2016 릴리스 노트
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 2016년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.[!DNL Experience Cloud]
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)에도 캡처되었습니다. 이전 [!DNL Experience Cloud] 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.
 
 ## 버전 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -145,7 +145,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">iframe.sandbox</span> 속성 변경 </p> </td> 
-   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/ko-KR/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID(MID) 인코딩 </p> </td> 
