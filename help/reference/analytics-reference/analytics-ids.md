@@ -1,11 +1,11 @@
 ---
 description: Experience Cloud Identity 서비스는 이전 Analytics 방문자 ID 메서드를 대체합니다.
 keywords: ID 서비스
-seo-description: Experience Platform Identity Service는 이전 Analytics 방문자 ID 방식을 대체합니다.
+seo-description: Experience Platform Identity 서비스는 이전 Analytics 방문자 ID 메서드를 대체합니다.
 seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -31,7 +31,7 @@ Adobe 데이터 수집 서버로 요청이 전송되면 헤더에 `s_vi` 쿠키�
 
 그렇지만 Apple Safari와 같은 일부 브라우저는 타사 쿠키를 수락하지 않습니다. 이러한 쿠키는 현재 웹 사이트 이외의 도메인에서 브라우저에 설정되는 쿠키입니다. 또한 Safari는 방문자가 이전에 해당 도메인을 방문한 적이 없는 경우 타사 도메인의 쿠키를 차단합니다. 예를 들어 `mysite.com`을 방문 중이고 데이터 수집 서버가 `mysite.omtrdc.net`인 경우 브라우저가 `mysite.omtrdc.net`의 HTTP 헤더에서 반환되는 쿠키를 거부할 수 있습니다.
 
-이를 피하기 위해 많은 고객들은 데이터 수집 서버에 대해 CNAME 레코드를 구현했습니다. 이것은 [자사 쿠키 구현](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/) 전략의 효과적인 일부가 될 수 있습니다. CNAME 레코드가 고객 도메인의 호스트 이름을 데이터 수집 서버에 매핑하도록 구성된 경우(예: `metrics.mysite.com`을 `mysite.omtrdc.net`으로 매핑) 데이터 수집 도메인이 웹 사이트의 도메인과 일치하므로 [!DNL Experience Cloud] ID 쿠키가 저장됩니다. 이로 인해 ID 서비스 쿠키가 저장될 가능성이 높아집니다. 그렇지만 CNAME 레코드를 구성하고 데이터 수집 서버에 대한 SSL 인증서를 유지 관리해야 하므로 약간의 오버헤드가 발생할 수 있습니다.
+이를 피하기 위해 많은 고객들은 데이터 수집 서버에 대해 CNAME 레코드를 구현했습니다. 이렇게 하는 것이 [자사 쿠키 구현](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/) 전략의 효과적인 부분일 수 있습니다. CNAME 레코드가 고객 도메인의 호스트 이름을 데이터 수집 서버에 매핑하도록 구성된 경우(예: `metrics.mysite.com`을 `mysite.omtrdc.net`으로 매핑) 데이터 수집 도메인이 웹 사이트의 도메인과 일치하므로 [!DNL Experience Cloud] ID 쿠키가 저장됩니다. 이로 인해 ID 서비스 쿠키가 저장될 가능성이 높아집니다. 그렇지만 CNAME 레코드를 구성하고 데이터 수집 서버에 대한 SSL 인증서를 유지 관리해야 하므로 약간의 오버헤드가 발생할 수 있습니다.
 
 **JavaScript**
 
@@ -60,12 +60,12 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <img id="image_9F3E58898A1B4F40BBDEF5ADE362E55C" src="assets/step1_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=visid_custom" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
    <td colname="col3"> <p>s.visitorID가 설정되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics" format="http" scope="external"> aid (s_vi 쿠키)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=visid_analytics" format="http" scope="external"> aid (s_vi 쿠키)</a> </p> </td> 
    <td colname="col3"> <p><span class="keyword">Experience Cloud</span> ID 서비스를 배포하기 전에 방문자에게 기존의 s_vi 쿠키가 있었거나 또는 <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local">유예 기간</a>을 구성했습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -75,12 +75,12 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback" format="http" scope="external"> fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=visid_fallback" format="http" scope="external"> fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)</a> </p> </td> 
    <td colname="col3"> <p>브라우저가 서드 파티 쿠키를 허용하지 않으며 Analytics 추적 서버가 서드 파티 추적 서버로 설정됩니다. </p> <p> <p>참고: <span class="codeph">fid</span>는 기존 식별자이며, 사용자 사이트에서 ID 서비스를 구현한 경우에는 사용되지 않습니다. 이 경우 자사 <a href="../../introduction/cookies.md" format="dita" scope="local">AMCV 쿠키</a>로 인해 <span class="codeph">fid</span>를 사용할 수 없으므로 이 fid가 필요하지 않습니다. fid는 기존 코드를 지원하기 위해 또한 여러 기록상의 이유로 인해 유지되고 있습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback" format="http" scope="external"> IP 주소, 사용자 에이전트, 게이트웨이 IP 주소</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=visid_fallback" format="http" scope="external"> IP 주소, 사용자 에이전트, 게이트웨이 IP 주소</a> </p> </td> 
    <td colname="col3"> <p>방문자의 브라우저가 쿠키를 수락하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
