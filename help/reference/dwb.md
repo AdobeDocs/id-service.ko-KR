@@ -5,7 +5,7 @@ seo-description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Work
 seo-title: Data Workbench 및 Experience Cloud Identity 서비스
 title: Data Workbench 및 Experience Cloud Identity 서비스
 uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합하십시오. 이 프로세스를 사용하면 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있으므로, Adobe Experience Cloud의 다른 제품과 보다 강력하게 통합하고 향상된 방문자 추적 기능을 제공할 수 있습니다.
 
-ID 서비스를 사용하도록 [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)를 업데이트하려면
+[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)를 업데이트하여 ID 서비스를 사용하려면:
 
 1. 현재 [디코더 그룹](https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_text_file_dec_groups.html) 구성 파일을 찾습니다.
 
-   Typically, the [!DNL Decoder Group] is located in a [!UICONTROL Profile Manager] on this path: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. 구성 파일의 현재 디코더 형식을 복사합니다.
+   일반적으로 [!DNL Decoder Group]은 다음 경로의 [!UICONTROL 프로필 관리자]에 있습니다. `Dataset\Log Processing\Decoding Instructions.cfg` 1. 구성 파일의 현재 디코더 형식을 복사합니다.
 1. 원본 아래에 디코더 형식을 붙여넣습니다.
 1. 디코더 형식을 열고 다음 새 필드 위치를 목록 끝에 추가합니다. 
 
