@@ -5,7 +5,7 @@ seo-description: Adobe Media Optimizer 및 ID 서비스를 비롯한 Experience 
 seo-title: ID 동기화 및 일치율 이해하기
 title: ID 동기화 및 일치율 이해하기
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -51,11 +51,11 @@ ID 동기화는 대상 게시 iFrame에서 실행되는 URL입니다. 이 일반
 
 `http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<ADOBE_PARTNER_ID>&dpuuid=<PARTNER_UUID>`
 
-또한 [인바운드 데이터 전송을 위한 ID 동기화](https://marketing.adobe.com/resources/help/en_US/aam/c_id_sync_in.html)를 참조하십시오.
+[인바운드 데이터 전송을 위한 ID 동기화](https://marketing.adobe.com/resources/help/en_US/aam/c_id_sync_in.html)도 참조하십시오.
 
 **4단계: ID 저장**
 
-동기화된 ID는 [에지 및 코어 데이터 서버](https://marketing.adobe.com/resources/help/en_US/aam/c_compedge.html)에 저장됩니다.
+동기화된 ID는 [에지 및 코어 데이터 서버](https://marketing.adobe.com/resources/help/ko_KR/aam/c_compedge.html)에 저장됩니다.
 
 ## 동기화 서비스에서 ID 동기화 관리 {#section-cd5784d7ad404a24aa28ad4816a0119a}
 
@@ -70,7 +70,7 @@ ID 동기화는 대상 게시 iFrame에서 실행되는 URL입니다. 이 일반
 
 ## Adobe Media Optimizer와 ID 동기화 {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Media Optimizer]는 iFrame 기반 ID 동기화 프로세스의 예외입니다. [!DNL Media Optimizer]는 신뢰할 수 있는 도메인이므로 [!UICONTROL 대상 게시 iFrame]보다 상위 페이지에서 ID 동기화가 발생합니다. 동기화 중에 ID 서비스는 `cm.eversttech.net`에서 [!DNL Media Optimizer]를 호출합니다. cm.eversttech.net은 Adobe에서 획득하기 전에 [!DNL Media Optimizer]에 사용된 기존 도메인 이름입니다. 데이터를 [!DNL Media Optimizer]로 보내면 일치율이 향상되고, 버전 2.0 이상을 사용하는 ID 서비스 고객의 경우 자동으로 사용됩니다. [Media Optimizer 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_media_optimizer.html)를 참조하십시오.
+[!DNL Adobe Media Optimizer]는 iFrame 기반 ID 동기화 프로세스의 예외입니다. [!DNL Media Optimizer]는 신뢰할 수 있는 도메인이므로 [!UICONTROL 대상 게시 iFrame]보다 상위 페이지에서 ID 동기화가 발생합니다. 동기화 중에 ID 서비스는 `cm.eversttech.net`에서 [!DNL Media Optimizer]를 호출합니다. cm.eversttech.net은 Adobe에서 획득하기 전에 [!DNL Media Optimizer]에 사용된 기존 도메인 이름입니다. 데이터를 [!DNL Media Optimizer]로 보내면 일치율이 향상되고, 버전 2.0 이상을 사용하는 ID 서비스 고객의 경우 자동으로 사용됩니다. [미디어 최적화 프로그램 쿠키](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/cookies_media_optimizer.html)도 참조하십시오.
 
 >[!MORE_LIKE_THIS]
 >
