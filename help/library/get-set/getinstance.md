@@ -5,7 +5,7 @@ seo-description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 �
 seo-title: getInstance
 title: getInstance
 uuid: 259b88a6-e3d0-4aab-b935-566099bdab98
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -51,7 +51,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 });
 ```
 
-`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. This is similar to the [ `s_gi()` function ](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=function_s_gi.html) in [!DNL AppMeasurement].
+`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. 이는 [!DNL AppMeasurement]의 [ `s_gi()` 함수](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=function_s_gi.html)와 비슷합니다.
 
 **일반적인 사용**
 
