@@ -5,7 +5,7 @@ seo-description: ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 �
 seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -93,7 +93,7 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 * `%TIMESTAMP%`: 타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
 * `%DID%`: 사용자의 Audience Manager ID를 삽입합니다.
-* `%HTTP_PROTO%`: 통신 프로토콜 ( `http` 또는 `https`) 를 설정합니다.
+* `%HTTP_PROTO%`: 통신 프로토콜(`http` 또는 `https`)을 설정합니다.
 
 ## 샘플 코드 및 출력 {#section-0115615c37584a19a2ab11e917c4e7e9}
 
@@ -153,5 +153,5 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 >[!MORE_LIKE_THIS]
 >
->* [DIL idSync](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_idsync.html)
+>* [DIL idSync](https://marketing.adobe.com/resources/help/ko_KR/aam/r_dil_idsync.html)
 
