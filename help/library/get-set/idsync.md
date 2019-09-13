@@ -6,7 +6,7 @@ seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
 translation-type: tm+mt
-source-git-commit: 5345d0d58367bcfa30a98d76cadc28ffb0caa225
+source-git-commit: cc050064465f6d94621e9f4b8879be3c2bd18a47
 
 ---
 
@@ -14,13 +14,6 @@ source-git-commit: 5345d0d58367bcfa30a98d76cadc28ffb0caa225
 # URL 또는 데이터 소스별 ID 동기화{#id-synchronization-by-url-or-data-source}
 
 ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용 가능합니다.
-
-내용:
-
-<ul class="simplelist"> 
- <li> <a href="../../library/get-set/idsync.md#section-90ac61617482463aaf4c57009b830332" format="dita" scope="local"> 구문, 속성 및 매크로 </a> </li> 
- <li> <a href="../../library/get-set/idsync.md#section-0115615c37584a19a2ab11e917c4e7e9" format="dita" scope="local"> 샘플 코드 및 출력 </a> </li> 
-</ul>
 
 ## 구문, 속성 및 매크로 {#section-90ac61617482463aaf4c57009b830332}
 
@@ -99,62 +92,46 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 성공하면 두 함수 모두 `Successfully queued`를 반환합니다. 실패한 경우 오류 메시지 문자열을 반환합니다.
 
-**visitor.idSyncByURL**
+### visitor.idSyncByURL
 
-<table id="table_56AD8291DF9445C69CC2BF50435E1626"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 샘플 코드 </th> 
-   <th colname="col2" class="entry"> 샘플 출력 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code class="syntax javascript"> //Instatiate Visitor 
+**샘플 코드**
 
-      var visitor = Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
+```javascript
+   //Instatiate Visitor
+    var visitor = Visitor.getInstance
+    ("MARKETING-CLOUD-ORG-ID-HERE",{}); 
+   // Fires url with macros replaced 
+    visitor.idSyncByURL({ 
+    dpid: '24', // must be a string 
+    url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%://
+    dpm.demdex.net/ibs:dpid=420&dpuuid={{uid}}', 
+    minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days) });
+```
 
-    // macros URL with macro replacedvisitor
-    . idsyncbyurl ({
-    dpid: ' 24 ', //는 Stringurl
-    이어야 합니다. '//su.addthis.com/red/usync?pid=16&amp;puid=%DID%&amp;url=%HTTP_PROTO%://dpm.demdex.net/ibs:dpid=420&amp;dpuuid= {{uid}}',
-    minutestolive: 20160 // 옵션, 기본값은 20160 분 (14 일)
-    })
-    
-    &lt;/code &gt; &lt;/p &gt; &lt;/td &gt;
-<td colname="col2"> <p> <span class="codeph"> http://su.addthis.com/red/usync?pid=16&amp;puid=28777806459181003670799219185178493848&amp;url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+**샘플 출력**
 
-**visitor.idSyncByDataSource**
+`http://su.addthis.com/red/usync?pid=16&puid=28777806459181003670799219185178493848&url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D`
 
-<table id="table_90D61A7E715D47238AAFF2808B33C2F0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 샘플 코드 </th> 
-   <th colname="col2" class="entry"> 샘플 출력 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code class="syntax javascript"> //Instantiate Visitor 
+### visitor.idSyncByDataSource
 
-      var visitor = Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
+**샘플 코드**
 
-    // fires ' http:/https:' +'//dpm.demdex.net/ibs:dpid= &lt; DPID &gt; &amp; dpuuid = &lt; dpuuid &gt;'
-    visitor. idsyncbydatasource ({
-    dpid: ' 24 ', //는 Stringdpuuid
-    여야 합니다. ' 98765 ', //는 Stringminutestolive
-    여야 합니다. 20160 // 옵션, 기본값은 20160 분 (14 일)
-    })
-    &lt;/code &gt; &lt;/p &gt; &lt;/td &gt;
-<td colname="col2"> <p> <span class="codeph"> http://dpm.demdex.net/ibs:dpid=24&amp;dpuuid=98765 </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+```javascript
+  //Instantiate Visitor
+   var visitor = Visitor.getInstance
+   ("MARKETING-CLOUD-ORG-ID-HERE",{}); 
+  // Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=&dpuuid='
+   visitor.idSyncByDataSource({ 
+     dpid: '24', // must be a string
+     dpuuid: '98765', // must be a string 
+     minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days) });
+```
+
+**샘플 출력**
+
+`http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765`
 
 >[!MORE_LIKE_THIS]
 >
->* [DIL idSync](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_idsync.html)
+>* [DIL idSync](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-instance-methods.html#idsync)
 
