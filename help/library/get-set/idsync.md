@@ -6,7 +6,7 @@ seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
 translation-type: tm+mt
-source-git-commit: cc050064465f6d94621e9f4b8879be3c2bd18a47
+source-git-commit: b83b192655f59a728b488b4e2a9aa2efbcf093f0
 
 ---
 
@@ -29,10 +29,7 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByURL(); </span> </p> </td> 
-   <td colname="col2"> <p>사용자 지정 동기화 URL을 사용하여 다양한 데이터 파트너와 <span class="keyword">Audience Manager</span> 간에 동기화 </p> <p> 
-     <draft-comment>
-       서로 다른 데이터 파트너와 Audience Manager 간. 예를 들어, 파트너 x는 이 기능을 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager로 전송합니다. 
-     </draft-comment> </p> </td> 
+   <td colname="col2"> <p>사용자 지정 동기화 URL을 사용하여 다양한 데이터 파트너와 <span class="keyword">Audience Manager</span> 간에 동기화 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByDataSource(); </span> </p> </td> 
@@ -110,7 +107,9 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 **샘플 출력**
 
-`http://su.addthis.com/red/usync?pid=16&puid=28777806459181003670799219185178493848&url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D`
+```
+http://su.addthis.com/red/usync?pid=16&puid=28777806459181003670799219185178493848&url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D
+```
 
 ### visitor.idSyncByDataSource
 
@@ -129,7 +128,9 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
 
 **샘플 출력**
 
-`http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765`
+```
+http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765
+```
 
 >[!MORE_LIKE_THIS]
 >
