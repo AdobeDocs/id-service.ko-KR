@@ -5,7 +5,7 @@ seo-description: getMarketingCloudVisitorID는 Experience Cloud 방문자 ID를 
 seo-title: getMarketingCloudVisitorID를 참조하십시오
 title: getMarketingCloudVisitorID를 참조하십시오
 uuid: 93e16220-b5b3-4d81-9189-30031bc15129
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
