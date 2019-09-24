@@ -5,7 +5,7 @@ seo-description: ID 동기화를 비활성화하는 선택적 부울 플래그�
 seo-title: disableIdSyncs
 title: disableIdSyncs
 uuid: 8bea1de8-53c8-4a15-bcf5-f0869763a32e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
