@@ -5,7 +5,7 @@ seo-description: 다른 Experience Cloud Identity 서비스 기능에 대한 정
 seo-title: 참조
 title: 참조
 uuid: 9e8f50db-1fdf-4fbc-89e5-4431bb6402d5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
