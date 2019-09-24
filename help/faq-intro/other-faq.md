@@ -5,7 +5,7 @@ seo-description: ID 서비스에서 다른 Experience Cloud 솔루션 사용과 
 seo-title: 기타 Experience Cloud 솔루션에 대한 FAQ
 title: 기타 Experience Cloud 솔루션에 대한 FAQ
 uuid: 7d848663-6cbb-4d80-ab06-7b6d2dc20e2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
