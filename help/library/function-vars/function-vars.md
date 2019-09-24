@@ -5,7 +5,7 @@ seo-description: 이러한 속성을 Visitor.getInstance 정적 메서드에 전
 seo-title: 구성
 title: 구성
 uuid: 2dfe1ed6-f3a6-4f5c-976b-eeb43738c20c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 >[!NOTE]
 >
->*Experience Cloud ID Javascript 라이브러리*가 최근에 이동되었습니다. ECID JS 라이브러리의 최신 릴리스는 [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases)에 있습니다.
+>*Experience Cloud ID Javascript 라이브러리*&#x200B;가 최근에 이동되었습니다. ECID JS 라이브러리의 최신 릴리스는 [ https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases)에 있습니다.
 
 관련 문서:
 
