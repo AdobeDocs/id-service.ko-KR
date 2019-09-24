@@ -5,7 +5,7 @@ seo-description: 이 ID 서비스 함수를 호출하여 ID 서비스가 클라�
 seo-title: isClientSideMarketingCloudVisitorID를 참조하십시오
 title: isClientSideMarketingCloudVisitorID를 참조하십시오
 uuid: 1c39ac60-1d2b-4ed4-a2ea-30d680e61e10
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
