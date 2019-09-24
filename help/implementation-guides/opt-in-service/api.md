@@ -4,7 +4,7 @@ seo-description: 옵트인 라이브러리 및 구성 설정 참조용 API입니
 seo-title: 옵트인 참조
 title: 옵트인 참조
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
