@@ -5,7 +5,7 @@ seo-description: 이러한 예제에서는 직접 통합 및 Experience Cloud ID
 seo-title: 직접 통합 사용 사례
 title: 직접 통합 사용 사례
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
