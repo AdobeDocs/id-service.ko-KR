@@ -5,7 +5,7 @@ seo-description: 기존 구현은 DTM(Dynamic Tag Management)을 사용하여 Ex
 seo-title: Dynamic Tag Management를 사용하여 구현
 title: Dynamic Tag Management를 사용하여 구현
 uuid: c4f752c4-392e-4909-b178-911706857064
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 >[!NOTE]
 >
->현재 [Adobe Experience Platform Launch](https://docs.adobelaunch.com/)는 복잡한 태그 관리 작업을 단순화하고 DTM의 기능을 넘어서 코드 배치를 자동화하는 데 도움이 되므로 널리 사용되고 있는 권장 구현 도구입니다. [Launch를 사용한 구현](../implementation-guides/ecid-implement-with-launch.md)을 참조하십시오.
+>Currently, [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) is the preferred and recommended implementation tool because it helps simplify complex tag management tasks and automates code placement beyond the capabilities of DTM. [Launch를 사용한 구현](../implementation-guides/ecid-implement-with-launch.md)을 참조하십시오.
 
 ## Dynamic Tag Management 및 ID 서비스 {#section-4a4c4fac5d0a4cbbaff8e1833f73657c}
 
-[Dynamic Tag Management](https://marketing.adobe.com/resources/help/ko_KR/dtm/)를 사용하여 ID 서비스 인스턴스 및 관련 [!DNL Experience Cloud] 솔루션 통합을 구성, 배포 및 관리할 수 있습니다. DTM을 사용하면 ID 서비스 및 기타 Experience Cloud 솔루션과 긴밀하게 통합되므로 구현 프로세스를 간소화하는 데 도움이 됩니다. Experience Cloud ID 도구를 추가 및 구성한 후 다음과 같은 정보를 지정하면 됩니다.
+[다이내믹 태그 관리를](https://marketing.adobe.com/resources/help/en_US/dtm/) 사용하면 ID 서비스 인스턴스 및 관련 [!DNL Experience Cloud] 솔루션 통합을 구성, 배포 및 관리할 수 있습니다. DTM을 사용하면 ID 서비스 및 기타 Experience Cloud 솔루션과 긴밀하게 통합되므로 구현 프로세스를 간소화하는 데 도움이 됩니다. Experience Cloud ID 도구를 추가 및 구성한 후 다음과 같은 정보를 지정하면 됩니다.
 
 * Experience Cloud 조직 ID(Experience Cloud에 연결된 경우 자동으로 채워짐)
 * Analytics 추적 서버(보안 및 비보안)
@@ -35,7 +35,7 @@ DTM은 [!DNL Experience Cloud] 고객에게 무료로 제공됩니다.
 
 **DTM 시작하기**
 
-DTM은 단순하지만 강력한 도구입니다. 아직 사용해 본 적이 없다면 지금 사용해 보시기 바랍니다. 이 서비스를 시작하려면 DTM [설명서]( https://marketing.adobe.com/resources/help/ko_KR/dtm/c_overview.html) 및 [DTM 점프 스타트 비디오](https://marketing.adobe.com/resources/help/ko_KR/dtm/jump-start-videos.html)를 참조하십시오. DTM을 사용하여 ID 서비스를 설정하는 방법에 대한 지침은 아래 섹션에서 정보 및 절차를 참조하십시오.
+DTM은 단순하지만 강력한 도구입니다. 아직 사용해 본 적이 없다면 지금 사용해 보시기 바랍니다. DTM [설명서](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) 및 [DTM 빠른 시작(Jump Start) 비디오](https://marketing.adobe.com/resources/help/en_US/dtm/jump-start-videos.html)를 참조하여 이 서비스를 시작할 수 있습니다. DTM을 사용하여 ID 서비스를 설정하는 방법에 대한 지침은 아래 섹션에서 정보 및 절차를 참조하십시오.
 
 ## 배포 지침 {#concept-54a2ec49af8f4bfca9207b1d404e8e1a}
 
@@ -49,9 +49,9 @@ mcvid-dtm-deployment.xml
 
 시작하기 전에, 조직과 솔루션에 [!DNL Experience Cloud]가 프로비저닝되어 있고 [!DNL Dyanamic Tag Management]에 대해 잘 알고 있는지 확인합니다. 이 설명서는 다음을 시작하는 데 도움이 됩니다.
 
-* [핵심 서비스에 대한 솔루션 활성화](https://marketing.adobe.com/resources/help/ko_KR/mcloud/core_services.html): Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 Experience Cloud 대상과 같은 핵심 서비스에 대한 솔루션을 현대화합니다.
-* [Dynamic Tag Management 시작하기](https://marketing.adobe.com/resources/help/ko_KR/dtm/get_started.html)
-* [점프 스타트 비디오](https://marketing.adobe.com/resources/help/ko_KR/dtm/jump-start-videos.html): 기본 DTM 작업을 수행하는 방법을 보여 주는 일련의 짧은 비디오입니다.
+* [핵심 서비스에](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)대한 솔루션 활성화:Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 Experience Cloud 대상과 같은 핵심 서비스에 대한 솔루션을 현대화합니다.
+* [다이내믹 태그 관리 시작하기](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)
+* [이동 시작 비디오](https://marketing.adobe.com/resources/help/en_US/dtm/jump-start-videos.html):기본 DTM 작업을 수행하는 방법을 설명하는 짧은 비디오 시리즈입니다.
 
 **ID 서비스 코드 배치 및 로드 순서**
 
@@ -64,11 +64,11 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 **지역 데이터 수집 유효성 검사**
 
-고객이 CNAME을 제공하거나 [지역 데이터 컬렉션](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/rdc/)(RDC)에 `*.sc.omtrdc`를 사용해야 합니다. [!DNL Adobe] 컨설턴트로부터 특정 RDC 설정을 확보합니다.
+Customers must provide a CNAME or use `*.sc.omtrdc` for [regional data collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/) (RDC). [!DNL Adobe] 컨설턴트로부터 특정 RDC 설정을 확보합니다.
 
 **Analytics 보고서 세트 구성**
 
-신규 [!DNL Analytics] 고객은 데이터 수집을 위한 [보고서 세트를 생성](https://marketing.adobe.com/resources/help/ko_KR/reference/new_report_suite.html)해야 합니다.
+새로운 [!DNL Analytics] 고객은 데이터 수집을 위해 [보고서 세트를 생성](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html)해야 합니다.
 
 ## DTM을 사용하여 Experience Cloud Identity 서비스 구현 {#task-a659cf19dea84ad48edabe0b72ef9f5c}
 
@@ -76,9 +76,9 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 **전제 조건**
 
-* [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. [핵심 서비스에 대한 솔루션 활성화](https://marketing.adobe.com/resources/help/ko_KR/mcloud/core_services.html)를 참조하십시오.
+* [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. See [Enable your solutions for core services](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html).
 
-* DTM에서 웹 속성을 생성합니다. DTM [웹 속성 만들기](https://marketing.adobe.com/resources/help/ko_KR/dtm/web_property.html) 설명서 또는 [관리 점프 스타트 비디오](https://marketing.adobe.com/resources/help/ko_KR/dtm/admin-jump-start.html)를 참조하십시오.
+* DTM에서 웹 속성을 생성합니다. DTM [웹 속성 생성](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) 설명서 또는 [관리자 빠른 시작(Admin Jump Start) 비디오](https://marketing.adobe.com/resources/help/en_US/dtm/admin-jump-start.html)를 참조하십시오.
 
 <!--
 mcvid-dtm-implement.xml
@@ -92,16 +92,16 @@ mcvid-dtm-implement.xml
 
    >[!NOTE]
    >
-   >이 작업을 수행하면 **[!UICONTROL Experience Cloud 조직 ID]** 상자가 조직 ID로 채워집니다. DTM 계정이 [!DNL Experience Cloud]와 연결되지 않은 경우 해당 ID를 입력해야 합니다. 계정을 연결하려면 [Experience Cloud에서 계정 연결](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)을 참조하십시오. 조직 ID를 찾는 방법에 대한 자세한 내용은 [요구 사항](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26)을 참조하십시오.
+   >이 작업을 수행하면 **[!UICONTROL Experience Cloud 조직 ID]** 상자가 조직 ID로 채워집니다. DTM 계정이 [!DNL Experience Cloud]와 연결되지 않은 경우 해당 ID를 입력해야 합니다. 계정을 연결하려면 [Experience Cloud에서 계정 연결](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)을 참조하십시오. 조직 ID를 찾는 방법에 대한 자세한 내용은 [요구 사항](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26)을 참조하십시오.
 
-1. **[!UICONTROL 추적 서버]** 상자에 추적하는 서버의 이름을 입력합니다. 추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
+1. **[!UICONTROL 추적 서버]** 상자에 추적하는 서버의 이름을 입력합니다. If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 1. **[!UICONTROL 도구 생성]**, **[!UICONTROL 변경 내용 저장]**&#x200B;을 차례로 클릭합니다.
 
-   저장하면 ID 서비스가 DTM에 도구로 설정됩니다. 하지만 아직 사용할 준비가 된 것은 아닙니다. DTM 도구는 여전히 DTM 게시/승인 프로세스를 거쳐야 하며, 추가 매개 변수를 구성해야 할 수도 있습니다. DTM 승인 프로세스에 대한 정보는 [사용자 기초 사항 점프 스타트]( https://marketing.adobe.com/resources/help/ko_KR/dtm/user-basics-jump-start.html) 비디오를 참조하십시오. DTM에 추가할 수 있는 추가 매개 변수에 대한 자세한 내용은 [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
+   저장하면 ID 서비스가 DTM에 도구로 설정됩니다. 하지만 아직 사용할 준비가 된 것은 아닙니다. DTM 도구는 여전히 DTM 게시/승인 프로세스를 거쳐야 하며, 추가 매개 변수를 구성해야 할 수도 있습니다. DTM 승인 프로세스에 대한 자세한 정보는 [사용자 기본사항 빠른 시작(User Basics Jump Start)](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) 비디오를 참조하십시오. DTM에 추가할 수 있는 추가 매개 변수에 대한 자세한 내용은 [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
 
 >[!MORE_LIKE_THIS]
 >
->* [웹 속성](https://marketing.adobe.com/resources/help/ko_KR/dtm/web_property.html)
+>* [웹 속성](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
 
 
 ## DTM에 대한 Experience Cloud Identity 서비스 설정{#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
@@ -120,7 +120,7 @@ ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 �
 
 ## 조직 ID {#section-949b5a0d8af940558b04ff675cf53f77}
 
-프로비저닝된 [!DNL Experience Cloud] 회사에서 요구하는 ID로, 해당 회사와 연결되어 있습니다. 조직은 관리자가 사용자와 그룹을 구성하고, [!DNL Experience Cloud]에서 단일 사인온 액세스를 제어할 수 있도록 해주는 엔티티입니다. 이 조직 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. [!DNL Experience Cloud] 관리자는 [Experience Cloud &gt; 도구](https://marketing.adobe.com/resources/help/ko_KR/mcloud/admin_getting_started.html)에서 이 ID를 찾을 수 있습니다.
+프로비저닝된 [!DNL Experience Cloud] 회사에서 요구하는 ID로, 해당 회사와 연결되어 있습니다. 조직은 관리자가 사용자와 그룹을 구성하고, [!DNL Experience Cloud]에서 단일 사인온 액세스를 제어할 수 있도록 해주는 엔티티입니다. 이 조직 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. [!DNL Experience Cloud] 관리자는 [Experience Cloud &gt; 도구](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)에서 이 ID를 찾을 수 있습니다.
 
 ![](assets/orgID.png)
 
@@ -146,7 +146,7 @@ Analytics 데이터 수집에 사용된 추적 서버 이름입니다. 이미지
 
 추적 서버 URL을 알 수 없는 경우 `s_code.js` 또는 `AppMeasurement.js` 파일을 확인하십시오. URL을 `s.trackingServer` 변수로 설정할 수 있습니다.
 
-[trackingServer](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/trackingServer.html)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
+[ trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)를 참조하십시오.
 
 **보안 추적 서버**
 
@@ -154,7 +154,7 @@ Analytics 데이터 수집에 사용된 안전한 추적 서버 이름입니다.
 
 추적 서버 URL을 알 수 없는 경우 `s_code.js` 또는 `AppMeasurement.js` 파일을 확인하십시오. URL을 `s.trackingServerSecure` 변수로 설정할 수 있습니다.
 
-[trackingServer](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/trackingServer.html)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
+[ trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)를 참조하십시오.
 
 **Experience Cloud 서버**
 
@@ -186,7 +186,7 @@ Analytics 데이터 수집에 사용된 안전한 추적 서버 이름입니다.
 
 **통합 코드**
 
-통합 코드는 고객이 제공한 고유한 ID입니다. 통합 코드는 [!DNL Audience Manager]에서 [데이터 소스를 만드는 데](https://marketing.adobe.com/resources/help/en_US/aam/create-datasource.html) 사용한 값이 포함되어 있어야 합니다.
+통합 코드는 고객이 제공한 고유한 ID입니다. 통합 코드에는 에서 [데이터 소스를 생성](https://marketing.adobe.com/resources/help/en_US/aam/create-datasource.html)하기 위해 사용했던 값이 포함되어야 합니다[!DNL Audience Manager].
 
 **값**
 
@@ -216,13 +216,13 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 **도구**
 
-[Adobe Debugger](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html) 및 [Charles HTTP 프록시](https://www.charlesproxy.com/)를 통해 ID 서비스가 Analytics에서 제대로 작동하도록 구성되었는지 확인할 수 있습니다. 이 섹션의 정보는 Adobe 디버거 및 Charles에서 반환한 결과를 기반으로 합니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
+[ Adobe 디버거](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 및 [Charles HTTP 프록시](https://www.charlesproxy.com/)는 ID 서비스가 Analytics에서 제대로 작동하도록 구성되었는지 확인하는 데 도움이 됩니다. 이 섹션의 정보는 Adobe 디버거 및 Charles에서 반환한 결과를 기반으로 합니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
 
 ## Adobe 디버거로 테스트하기 {#section-861365abc24b498e925b3837ea81d469}
 
 [!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
 
-[!DNL Adobe][ 디버거](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html)를 사용하여 ID 서비스의 상태를 확인하려면 다음을 수행하십시오.
+[!DNL Adobe] 디버거를 [](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html)사용하여 ID 서비스의 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명의 브라우저 세션을 엽니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
@@ -248,7 +248,7 @@ mid=20265673158980419722735089753036633573
 
 **실패**
 
-디버거인 경우 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
+디버거가 다음과 같은 경우 [고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오.
 
 * MID를 반환하지 않는 경우
 * 파트너 ID가 프로비저닝되지 않았다는 오류 메시지가 반환되는 경우
@@ -274,7 +274,7 @@ Charles를 사용하여 HTTP 호출을 모니터링할 때 살펴볼 위치와 �
 
 ### Charles의 성공적인 ID 서비스 응답
 
-[데이터 수집 서버](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html)(DCS)의 응답이 MID를 반환하는 경우 계정이 ID 서비스에 대해 올바르게 프로비저닝되었습니다. MID는 `d_mid: visitor Experience Cloud ID` 구문을 사용하는 키-값 쌍으로 반환됩니다. 아래 표시된 것처럼 [!UICONTROL 응답] 탭에서 MID를 찾습니다.
+[DCS(데이터 수집 서버)](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html)의 응답에서 MID를 반환하면 계정이 ID 서비스에 대해 제대로 프로비저닝된 것입니다. MID는 `d_mid: visitor Experience Cloud ID` 구문을 사용하는 키-값 쌍으로 반환됩니다. 아래 표시된 것처럼 [!UICONTROL 응답] 탭에서 MID를 찾습니다.
 
 ![](assets/charles_response_success.png)
 
@@ -284,4 +284,4 @@ DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되�
 
 ![](assets/charles_response_unsuccessful.png)
 
-오류 코드에 대한 자세한 내용은 [DCS 오류 코드, 메시지 및 예제](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html)
+오류 코드에 대한 자세한 정보는 [DCS 오류 코드, 메시지 및 예제](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html)를 참조하십시오.
