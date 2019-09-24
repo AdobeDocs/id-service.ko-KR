@@ -5,7 +5,7 @@ seo-description: ID 서비스와 상호 작용할 수 있는 공용 메서드입
 seo-title: 메서드에서 사용할 수 있습니다
 title: 메서드에서 사용할 수 있습니다
 uuid: 184d0a62-0c8d-481b-9afe-b7a67bdafdce
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -17,7 +17,7 @@ ID 서비스와 상호 작용할 수 있는 공용 메서드입니다.
 
 >[!NOTE]
 >
->*Experience Cloud ID Javascript 라이브러리*가 최근에 이동되었습니다. ECID JS 라이브러리의 최신 릴리스는 [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases)에 있습니다.
+>*Experience Cloud ID Javascript 라이브러리*&#x200B;가 최근에 이동되었습니다. ECID JS 라이브러리의 최신 릴리스는 [ https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases)에 있습니다.
 
 관련 문서:
 
