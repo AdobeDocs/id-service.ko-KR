@@ -5,7 +5,7 @@ seo-description: 이러한 구성을 사용하면 iFrame 및 상위 페이지에
 seo-title: whitelistParentDomain 및 whitelistIframeDomains
 title: whitelistParentDomain 및 whitelistIframeDomains
 uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -73,7 +73,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
 
 >[!TIP]
 >
->[비디오 하트비트](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/hbvideo/)를 사용하여 iFrame에 비디오를 제공할 때 이러한 구성을 구현할 수도 있습니다. 비디오 하트비트가 제대로 작동하려면 ID 서비스 ID(MID)가 필요합니다.
+>You may also want to implement these configurations when you're serving video in an iFrame with [Video Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/). 비디오 하트비트가 제대로 작동하려면 ID 서비스 ID(MID)가 필요합니다.
 
 **사용 사례 1: 브라우저에서 타사 쿠키를 차단하고, ID 서비스가 iFrame 및 상위 페이지에 구현됨**
 
