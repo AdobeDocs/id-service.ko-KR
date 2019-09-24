@@ -3,7 +3,7 @@ title: Safari ITP 환경의 ECID 라이브러리 메서드
 seo-title: Safari ITP 환경의 ECID 라이브러리 메서드
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 seo-description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 Safari는 ITP를 통해 교차 도메인 추적을 강화하므로 Adobe는 소비자 개인 정보 및 선택 사항뿐만 아니라 고객을 지원하는 라이브러리에 대한 모범 사례를 유지 관리해야 합니다.
 
-2019년 2월 21일, Apple은 ITP(Intelligent Tracking Prevention)에 대한 최신 업데이트를 발표했습니다. 타사 쿠키에 중점을 둔 이전 버전과 달리, 이 버전은 자사 쿠키에 대한 새로운 추적 방지 조치를 제공합니다. document.cookie API를 통해 설정된 모든 자사의 영구 쿠키는 &quot;클라이언트측&quot; 쿠키라고 하며, 만료가 7일로 제한됩니다. 이전 버전의 ITP에 명시된 대로 타사 쿠키는 계속 차단됩니다. ITP 2.1 및 Adobe 솔루션이 미치는 영향에 대한 자세한 내용은 [Safari ITP 2.1이 Adobe Experience Cloud 및 Experience 플랫폼 고객에게 미치는 영향](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)을 참조하십시오.
+2019년 2월 21일, Apple은 ITP(Intelligent Tracking Prevention)에 대한 최신 업데이트를 발표했습니다. 타사 쿠키에 중점을 둔 이전 버전과 달리, 이 버전은 자사 쿠키에 대한 새로운 추적 방지 조치를 제공합니다. document.cookie API를 통해 설정된 모든 자사의 영구 쿠키는 "클라이언트측" 쿠키라고 하며, 만료가 7일로 제한됩니다. 이전 버전의 ITP에 명시된 대로 타사 쿠키는 계속 차단됩니다. For more details on ITP 2.1 and the impact of Adobe solutions, read [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## Safari ITP용 Adobe ECID FAQ
 
 **ECID(Experience Cloud ID 라이브러리)가 고객의 자사 도메인에 설정한 AMCV 쿠키가 ITP 2.1의 영향을 받는 이유는 무엇입니까?**
 
-AMCV 쿠키는 현재 document.cookie API를 사용하며 &quot;클라이언트측&quot;을 통해 설정됩니다. Safari는 고객의 서버에서 설정된 쿠키를 선호합니다.
+AMCV 쿠키는 현재 document.cookie API를 사용하며 "클라이언트측"을 통해 설정됩니다. Safari는 고객의 서버에서 설정된 쿠키를 선호합니다.
 
 **CNAME 추적 서버를 통해 설정된 쿠키가 Safari에서 추적하는 데 더 나은 옵션인 이유는 무엇입니까?**
 
@@ -33,7 +33,7 @@ ECID 라이브러리, AMCV 쿠키 및 ECID(MID라고도 함)는 모든 Adobe 솔
 
 이전에 CNAME에 있던 동일한 규칙 및 조건이 여전히 있습니다. 경우에 따라 CNAME은 다중 도메인 시나리오에서 도움이 될 수 있습니다. 사용자가 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 타사 쿠키를 수락하지 않는 브라우저(예: Safari)에서 다중 도메인 추적을 활성화할 수 있습니다. 그러나 CNAME이 일부 시나리오의 다중 도메인에 도움이 될 수 있지만 ECID가 CNAME 구현으로 이동하는 이유는 다중 도메인 추적이 아닌 지속적인 방문자 식별을 위한 것입니다. CNAME 및 다중 도메인에 대한 자세한 내용은 [데이터 수집 CNAME 및 도메인 간 추적](/help/reference/analytics-reference/cname.md)을 참조하십시오.
 
-추가 ITP 변경 사항이 릴리스되면 추가된 FAQ가 여기에 추가됩니다. 자세한 내용은 [Adobe Experience League](https://experienceleague.adobe.com/#recommended/solutions/analytics)를 참조하십시오.
+추가 ITP 변경 사항이 릴리스되면 추가된 FAQ가 여기에 추가됩니다. For more inquiries, please visit [Adobe Experience League](https://experienceleague.adobe.com/#recommended/solutions/analytics).
 
 ## ITP 관련 변경 사항, 메서드 및 구성
 
@@ -47,7 +47,7 @@ ITP 및 ECID 라이브러리 사용과 관련된 작업은 아래를 참조하�
 
 ITP 2.1은 클라이언트측 쿠키를 작성하는 기능을 제한하여 고객에게 정확한 방문자 추적 정보를 제공하는 기능에 손상을 줍니다. 따라서 방문자의 ECID(Experience Cloud ID)를 자사 쿠키에 저장하도록 Adobe의 CNAME 추적 서버가 변경되었습니다.
 
-이 변경 사항은 자사 컨텍스트에서 Analytics CNAME을 사용하는 ECID 고객에게만 유용합니다. 현재 CNAME을 사용하고 있지 않은 Analytics 고객이거나 비 Analytics 고객이더라도 CNAME 레코드 대상입니다. 고객 지원 센터 또는 계정 담당자에게 문의하여 [CNAME](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)에 등록하는 절차를 시작합니다.
+이 변경 사항은 자사 컨텍스트에서 Analytics CNAME을 사용하는 ECID 고객에게만 유용합니다. 현재 CNAME을 사용하고 있지 않은 Analytics 고객이거나 비 Analytics 고객이더라도 CNAME 레코드 대상입니다. CNAME 등록 프로세스를 시작하려면 고객 지원 센터 또는 계정 담당자에게 [문의하십시오](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).
 
 이 변경 사항을 사용하려면 ECID 라이브러리 v. 4.3.0 이상으로 업그레이드하십시오.
 
@@ -57,7 +57,7 @@ demdex.net에 ID를 요청하고 ECID를 검색하면 추적 서버가 ECID 라�
 
 이러한 새로운 `s_ecid` 쿠키는 AMCV 쿠키와 동일한 옵트아웃 상태를 따릅니다. ecid를 `s_ecid` 쿠키에서 읽으면 demdex는 항상 해당 ID의 최신 옵트아웃 상태를 검색하도록 즉시 호출되고 AMCV 쿠키에 저장됩니다.
 
-또한 고객이 이 [메서드](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/opt_out_link.html)를 통해 Analytics 추적을 옵트아웃한 경우 이 `s_ecid` 쿠키가 삭제됩니다.
+또한 소비자가 이 [방법을](https://marketing.adobe.com/resources/help/en_US/sc/implement/opt_out_link.html)통해 Analytics 추적을 옵트아웃한 경우 이 `s_ecid` 쿠키가 삭제됩니다.
 
 trackingServer 또는 trackingServerSecure를 사용하여 라이브러리를 초기화할 때 추적 서버 이름을 VisitorJS 라이브러리에 제공해야 합니다. 이 옵션은 Analytics 구성의 trackingServer 구성과 일치해야 합니다.
 
