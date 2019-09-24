@@ -5,7 +5,7 @@ seo-description: 서버 예제 구성과 필요한 마이그레이션 단계를 
 seo-title: Experience Cloud Identity 서비스 마이그레이션 시나리오
 title: Experience Cloud Identity 서비스 마이그레이션 시나리오
 uuid: 9e229045-6508-48c4-ae39-9537b4941853
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
