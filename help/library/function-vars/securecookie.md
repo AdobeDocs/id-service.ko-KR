@@ -5,7 +5,7 @@ seo-description: AMCV 쿠키에 "Secure" 속성을 추가하는 선택적 부울
 seo-title: secureCookie
 title: secureCookie
 uuid: 995d19f6-9c9d-4493-9c9c-545b0b5696b0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 # secureCookie{#securecookie}
 
-AMCV 쿠키에 &quot;Secure&quot; 속성을 추가하는 선택적 부울 플래그입니다.
+AMCV 쿠키에 "Secure" 속성을 추가하는 선택적 부울 플래그입니다.
 
 이 구성 속성은 `visitorAPI` 버전 3.3.0에서 사용 가능합니다.
 
