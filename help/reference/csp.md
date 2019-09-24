@@ -5,7 +5,7 @@ seo-description: CSP(컨텐츠 보안 정책)는 브라우저에서 웹 페이�
 seo-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -61,6 +61,6 @@ CSP 사용이 일반적이며 잘 알려져 있습니다. 이 설명서의 목�
 >[!MORE_LIKE_THIS]
 >
 >* [컨텐츠 보안 정책 참조](https://content-security-policy.com/)
->* [MDN: 컨텐츠 보안 정책](https://developer.mozilla.org/ko_KR/docs/Web/HTTP/CSP)
+>* [MDN: 컨텐츠 보안 정책](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 >* [Wikipedia: 컨텐츠 보안 정책](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
