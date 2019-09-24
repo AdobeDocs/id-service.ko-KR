@@ -5,7 +5,7 @@ seo-description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FA
 seo-title: ID 서비스 FAQ
 title: ID 서비스 FAQ
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -35,7 +35,7 @@ ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 
 VisitorAPI.js 라이브러리는 코드의 `<head>` 섹션에서 페이지 맨 위에 놓습니다. 이렇게 하면 페이지 본문 로드가 시작되기 전에 ID에 대한 호출이 종료되고 ID가 성공적으로 반환되는 기회를 최대화하는 데 도움이 됩니다.
 
-ID 서비스 호출은 비동기적으로 수행되며 유일한 [demdex.net 도메인](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) 호출입니다. ID 서비스 호출은 다른 요소가 페이지에서 로드되는 것을 차단하지 않습니다.
+ID 서비스 호출은 비동기적이며 [demdex.net 도메인](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)에 대한 유일한 호출입니다. ID 서비스 호출은 다른 요소가 페이지에서 로드되는 것을 차단하지 않습니다.
 
 [!DNL Target] 고객의 경우 페이지의 `<body>`에 ID 서비스 코드를 지정하면 [!DNL Target] 호출을 차단할 가능성이 늘어날 수 있습니다. ID 서비스 코드를 페이지의 본문에 배치해야 하는 경우에는 열기 `<body>` 태그 뒤에 배치해야 합니다.
 
@@ -67,7 +67,7 @@ ID 서비스 호출은 비동기적으로 수행되며 유일한 [demdex.net 도
 
 CORS를 사용한 리소스 요청이 JSONP를 사용한 요청보다 더 많이 사용됩니다. JSONP를 사용하는 경우 일부 브라우저에서는 페이지의 다른 동기 및 비동기 호출을 기준으로 하여 요청을 큐에 넣고 우선 순위를 낮게 지정합니다. CORS는 이러한 요청이 브라우저 호출 스택에서 우선 순위가 더 높은 것으로 처리되도록 합니다.
 
-자세한 내용은 [Experience Cloud Identity 서비스에서 CORS 지원](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)을 참조하십시오.
+[Experience Cloud Identity 서비스에서 CORS 지원](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)을 참조하십시오.
 
 ## 보안 {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
@@ -87,5 +87,5 @@ CORS를 사용한 리소스 요청이 JSONP를 사용한 요청보다 더 많이
 
 >[!MORE_LIKE_THIS]
 >
->* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
+>* [고객 지원](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오
 
