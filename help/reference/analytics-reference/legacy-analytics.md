@@ -5,7 +5,7 @@ seo-description: Experience Cloud Identity 서비스가 기존 Analytics ID와 �
 seo-title: Analytics 및 Experience Cloud ID 요청
 title: Analytics 및 Experience Cloud ID 요청
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동�
 
 ## AMCV 쿠키가 브라우저에서 설정되지 않음 {#section-cccf10cd775e4a95a7e98d3c3c0ff9a9}
 
-[!DNL Experience Cloud] (AMCV) 쿠키가 없는 경우 [!DNL Adobe] 에 대한 ID 서비스 호출은 기존 Analytics ID의 존재 여부에 따라 달라지는 응답을 생성합니다. 기존 [!DNL Analytics] ID가 [s_vi cookie](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/?f=cookies_analytics.html)에 저장됩니다. 아래 표는 s_vi 쿠키의 상태를 기반으로 AMCV 쿠키에 ID를 쓰는 방법을 설명합니다.
+[!DNL Experience Cloud] (AMCV) 쿠키가 없는 경우 [!DNL Adobe] 에 대한 ID 서비스 호출은 기존 Analytics ID의 존재 여부에 따라 달라지는 응답을 생성합니다. 이전 [!DNL Analytics] ID는 [s_vi 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html)에 저장됩니다. 아래 표는 s_vi 쿠키의 상태를 기반으로 AMCV 쿠키에 ID를 쓰는 방법을 설명합니다.
 
 <table id="table_DC85FECE26DD424E841BA1059AF1E57F"> 
  <thead> 
@@ -48,7 +48,7 @@ Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동�
 
 >[!NOTE]
 >
->s_fid 쿠키로 식별되는 사용자의 이전 FID 값은 AMCV 쿠키로 마이그레이션되지 않습니다. s_fid 쿠키가 있는 경우 사용자는 마치 s_vi 쿠키가 없는 것처럼(위 참조) 마이그레이션되고 사이트의 새 방문자로 나타납니다. 자세한 내용은 [Analytics 쿠키](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/?f=cookies_analytics.html)를 참조하십시오.
+>s_fid 쿠키로 식별되는 사용자의 이전 FID 값은 AMCV 쿠키로 마이그레이션되지 않습니다. s_fid 쿠키가 있는 경우 사용자는 마치 s_vi 쿠키가 없는 것처럼(위 참조) 마이그레이션되고 사이트의 새 방문자로 나타납니다. 자세한 내용은 [Analytics 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html)를 참조하십시오.
 
 ## AMCV 쿠키가 브라우저에서 설정됨 {#section-01c088fc565c4b24ba1722c7cc240310}
 
