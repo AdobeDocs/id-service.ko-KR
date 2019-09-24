@@ -5,7 +5,7 @@ seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 
 seo-title: Experience Cloud Identity 서비스와 직접 통합
 title: Experience Cloud Identity 서비스와 직접 통합
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -21,7 +21,7 @@ VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 장치�
 
 ![](assets/directSyntax.png)
 
-이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. 다른 변수에 대한 자세한 내용은 [DCS API 호출에 지원되는 특성]( https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)을 참조하십시오.
+이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. 다른 변수에 대한 자세한 내용은 [DCS API 호출 시 지원되는 속성](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)을 참조하십시오.
 
 ID 서비스는 HTTP 및 HTTPS 호출을 지원합니다. 보안 페이지의 데이터를 전달하려면 HTTPS를 사용합니다.
 
