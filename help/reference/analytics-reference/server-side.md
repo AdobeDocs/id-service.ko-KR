@@ -5,7 +5,7 @@ seo-description: '일부 구현에서 방문자 ID가 JavaScript에서 서버로
 seo-title: JavaScript와 혼합된 서버측 구현
 title: JavaScript와 혼합된 서버측 구현
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -29,7 +29,7 @@ Analytics 방문자 ID(설정된 경우)를 `<visitorID>` 요소에 포함합니
 
 Experience Cloud 방문자 ID를 `<marketingCloudVisitorID>` 요소에 포함합니다.
 
-[지원되는 XML 태그](https://marketing.adobe.com/developer/ko_KR/documentation/data-insertion/r-supported-tags)를 참조하십시오.
+[지원되는 XML 태그](https://marketing.adobe.com/developer/en_US/documentation/data-insertion/r-supported-tags)를 참조하십시오.
 
 ## Java용 AppMeasurement {#section-d664b94934924d048300d9c2b6560085}
 
