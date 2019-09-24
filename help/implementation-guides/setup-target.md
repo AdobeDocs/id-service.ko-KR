@@ -5,7 +5,7 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Target용 Experience Cloud Identity 서비스 구현
 title: Target용 Experience Cloud Identity 서비스 구현
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ## 1단계: ID 서비스 코드 가져오기 {#section-b32ba0548aa546a79dd38be59832a53e}
 
-[!UICONTROL ID 서비스]에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드를 받으려면 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
+[!UICONTROL ID 서비스]에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드를 받으려면 [고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오.
 
 ## 2단계: ID 서비스 코드에 Visitor.getInstance 함수 추가 {#section-287ef2958e9f43858fe9d630ae519e22}
 
@@ -54,7 +54,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE")
 
 ## 3단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-522b1877be9243c39b222859b821f0ce}
 
-`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 코어 서비스]( https://marketing.adobe.com/resources/help/ko_KR/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg");`
 
