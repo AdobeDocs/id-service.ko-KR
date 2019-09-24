@@ -5,7 +5,7 @@ seo-description: Experience Cloud Identity 서비스 지역 ID를 반환합니�
 seo-title: getLocationHint를 참조하십시오
 title: getLocationHint를 참조하십시오
 uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -17,7 +17,7 @@ Experience Cloud Identity 서비스 지역 ID를 반환합니다. 지역 ID(또�
 
 **구문:** ` var *`변수 이름`* = visitor.getLocationHint()`
 
-지역 ID 및 해당 위치 목록을 보려면 [DCS 지역 ID, 위치 및 호스트 이름](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html)을 참조하십시오.
+영역 ID 및 해당 위치 목록에 대해서는 [DCS 영역 ID, 위치 및 호스트 이름](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html)을 참조하십시오.
 
 **코드 샘플**
 
