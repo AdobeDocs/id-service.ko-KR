@@ -5,7 +5,7 @@ seo-description: 대상 게시 템플릿이 HTTPS 연결에 대해 Akamai를 사
 seo-title: idSyncSSLUseAkamai
 title: idSyncSSLUseAkamai
 uuid: 501ccc37-c3ab-4454-bfcf-3e3c3e8b5ca3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
