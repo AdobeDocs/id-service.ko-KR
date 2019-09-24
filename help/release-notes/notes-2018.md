@@ -5,7 +5,7 @@ seo-description: 2018년 Experience Cloud Identity 서비스의 기능 릴리스
 seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
 uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
