@@ -4,7 +4,7 @@ seo-description: 웹 사이트에서 옵트인을 활성화한 후에는 유효�
 seo-title: 옵트인 서비스 확인
 title: 옵트인 서비스 확인
 uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ---
@@ -59,7 +59,7 @@ Visitor.getInstance({{YOUR_ORG_ID}}, {
 });
 ```
 
-사용 사례 2의 유일한 차이점은 방문자가 제공한 옵트인 권한이 포함되는 *새 쿠키*인 **adobeujs-optin** 이 표시된다는 것입니다.
+사용 사례 2의 유일한 차이점은 방문자가 제공한 옵트인 권한이 포함되는 *새 쿠키*&#x200B;인 **adobeujs-optin**&#x200B;이 표시된다는 것입니다.
 
 ## 사용 사례 3: 옵트인 활성화 및 Adobe Analytics 사전 승인 {#section-257fe582b425496cbf986d0ec12d3692}
 
