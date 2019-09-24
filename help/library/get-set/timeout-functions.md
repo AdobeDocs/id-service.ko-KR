@@ -5,7 +5,7 @@ seo-description: 이러한 ID 서비스 함수를 호출하여 Experience Cloud 
 seo-title: callTimeOut 메서드
 title: callTimeOut 메서드
 uuid: e5047498-11db-4945-b356-c92b7d447573
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
