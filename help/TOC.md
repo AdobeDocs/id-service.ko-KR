@@ -4,7 +4,7 @@ product: ID 서비스
 audience: 최종 사용자
 user-guide-title: Experience Cloud Identity 서비스 도움말
 user-guide-url: /content/help/ko-KR/id-service/using/home.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 11578e184a86625a246fee84c65fcdee1a086c45
 
 ---
