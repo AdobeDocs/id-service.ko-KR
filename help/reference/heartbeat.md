@@ -5,7 +5,7 @@ seo-description: 비디오 하트비트를 사용하려면 Experience Cloud Iden
 seo-title: 비디오 하트비트 및 Experience Cloud Identity 서비스
 title: 비디오 하트비트 및 Experience Cloud Identity 서비스
 uuid: 07986a78-23ac-4fd4-ab8f-be9275616a29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -17,5 +17,5 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 >[!MORE_LIKE_THIS]
 >
->* [비디오 하트비트를 사용하여 Adobe Analytics에서 비디오 측정](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/hbvideo/)
+>* [비디오 하트비트를 사용하여 Analytics에서 비디오 측정](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)
 
