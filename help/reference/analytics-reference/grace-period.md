@@ -5,7 +5,7 @@ seo-description: 동일한 보고서 세트에 데이터를 전송 중인 JavaSc
 seo-title: ID 서비스 유예 기간
 title: ID 서비스 유예 기간
 uuid: 10a7db7d-de32-4379-914f-edaf929efa32
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -29,8 +29,8 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 단일 Analytics JavaScript 파일이 있고 다른 AppMeasurement 라이브러리를 사용하지 않는 경우에는 유예 기간이 필요하지 않을 수 있습니다. 단일 JavaScript 파일로 업데이트를 만들면 새 방문자가 방문 중에 Marketing Cloud ID를 사용하여 일관되게 식별됩니다.
 
-*동일한 보고서 세트*에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.
+*동일한 보고서 세트*&#x200B;에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.
 
 ## 유예 기간을 활성화하려면 어떻게 해야 합니까? {#section-512d5cd8570e483cbdd8b04457a16ced}
 
-[고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
+Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
