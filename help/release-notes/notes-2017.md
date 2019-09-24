@@ -5,7 +5,7 @@ seo-description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스
 seo-title: 2017 릴리스 노트
 title: 2017 릴리스 노트
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)에도 캡처되었습니다. 이전 ID 서비스 릴리스 노트에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 하단에 있는 링크를 참조하십시오.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 ID 서비스 릴리스 정보에 대해서는 [이전 릴리스 정보](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 맨 아래에 있는 링크를 참조하십시오.
 
 >[!NOTE]
 >
@@ -192,7 +192,7 @@ ID 서비스에서 AMCV 쿠키에 저장된 ID를 사용하지 않고 ID에 대�
 
 **새 설명서**
 
-[다른 Experience Cloud 솔루션 및 서비스와 함께 DNS 프리페치 사용`Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/ko_KR/mcloud/dns-prefetch.html)
+[다른 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용 `Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/en_US/mcloud/dns-prefetch.html)
 
 ## 버전 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
