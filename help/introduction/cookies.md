@@ -5,7 +5,7 @@ seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및
 seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -114,7 +114,7 @@ AMCVS 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)를 참조하십시오.
+For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
