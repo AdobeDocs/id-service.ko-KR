@@ -5,7 +5,7 @@ seo-description: ID 서비스 및 Experience Cloud 솔루션 조합에 대한 �
 seo-title: FAQ
 title: FAQ
 uuid: b075957b-165f-4087-99ad-bf608b4d4967
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
