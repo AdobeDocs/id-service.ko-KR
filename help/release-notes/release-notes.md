@@ -5,7 +5,7 @@ seo-description: Experience Cloud Identity 서비스에 대한 기능 릴리스,
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4532d09cc9b4d83fa62c13bd1adac7abdae222b1
 
 ---
@@ -41,7 +41,7 @@ Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 및 기타를 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의를 수집하거나, 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. Using [Experience Platform Launch](https://docs.adobelaunch.com/), you can simplify gathering visitor opt-in consents for Experience Cloud solution by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt-in to your consent management system.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
