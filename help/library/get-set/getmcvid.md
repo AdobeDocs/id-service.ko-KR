@@ -2,16 +2,16 @@
 description: getMarketingCloudVisitorID는 Experience Cloud 방문자 ID를 반환합니다.
 keywords: ID 서비스
 seo-description: getMarketingCloudVisitorID는 Experience Cloud 방문자 ID를 반환합니다.
-seo-title: getMarketingCloudVisitorID를 참조하십시오
-title: getMarketingCloudVisitorID를 참조하십시오
+seo-title: getMarketingCloudVisitorID
+title: getMarketingCloudVisitorID
 uuid: 93e16220-b5b3-4d81-9189-30031bc15129
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a5fbc971dc950c65e5c8f92dffdfe5dde528b54
 
 ---
 
 
-# getMarketingCloudVisitorID{#getmarketingcloudvisitorid}를 참조하십시오
+# getMarketingCloudVisitorID{#getmarketingcloudvisitorid}
 
 getMarketingCloudVisitorID는 Experience Cloud 방문자 ID를 반환합니다.
 
