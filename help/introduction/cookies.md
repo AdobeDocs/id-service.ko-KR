@@ -6,7 +6,7 @@ seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: 57161205bb48a82db223a733f384ea8338596b7e
 
 ---
 
@@ -121,6 +121,18 @@ For related information, see [Understanding Calls to the Demdex Domain](https://
 Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생됩니다. 이러한 ID가 일관되게 유지되는 한, 특정 사용자에 대한 올바른 MID를 생성하는 것은 단순히 수학 문제에 불과합니다. 동일한 조직 ID 및 demdex ID를 사용할 경우 매번 동일한 MID 값을 얻게 됩니다. 이 경우 ID 서비스에서 사용자가 ID 서비스 코드를 사용하여 제어하고 구성한 도메인의 방문자를 추적할 수 있습니다.
 
 ID 서비스는 페이지가 로드될 때 MID를 생성하기 시작합니다. 이 프로세스 중에 `visitorAPI.js` 코드 라이브러리에서 제공한 코드는 ID 서비스에 대한 이벤트 호출에 조직 ID를 보냅니다. ID 서비스에서 MID 및 demdex ID를 생성하고 각각 AMCV 및 demdex 쿠키에 반환합니다.
+
+## 쿠키에 대한 보안 플래그
+
+다음 표에서는 Experience Cloud 쿠키가 보안 플래그로 작동하는 방식을 설명합니다.
+
+| 쿠키(설정된 사람) | httpOnly | 보안 | SameSite |
+|--- |--- |--- |--- |
+| demdex(http 응답) | 아니요 | 예 | "없음" |
+| AMCV(Javascript) | 아니요 | 구성 가능 | 설정 취소(기본값: Lax) |
+| AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 취소(기본값: Lax) |
+
+*참고:보안 특성을 사용하여 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은 secureCookie에 대한 항목을[참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/securecookie.html).*
 
 ## 다음 단계 {#section-8db1727a63bc4ff68b495f270315d453}
 
