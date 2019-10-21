@@ -6,7 +6,7 @@ seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
 translation-type: tm+mt
-source-git-commit: 57161205bb48a82db223a733f384ea8338596b7e
+source-git-commit: 7d7ecdf65cca67539b1b63c8811a0bad04c694c3
 
 ---
 
@@ -122,9 +122,9 @@ Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생
 
 ID 서비스는 페이지가 로드될 때 MID를 생성하기 시작합니다. 이 프로세스 중에 `visitorAPI.js` 코드 라이브러리에서 제공한 코드는 ID 서비스에 대한 이벤트 호출에 조직 ID를 보냅니다. ID 서비스에서 MID 및 demdex ID를 생성하고 각각 AMCV 및 demdex 쿠키에 반환합니다.
 
-## 쿠키에 대한 보안 플래그
+## 쿠키 플래그
 
-다음 표에서는 Experience Cloud 쿠키가 보안 플래그로 작동하는 방식을 설명합니다.
+다음 표에서는 Experience Cloud 쿠키의 플래그에 대해 설명합니다.
 
 | 쿠키(설정된 사람) | httpOnly | 보안 | SameSite |
 |--- |--- |--- |--- |
