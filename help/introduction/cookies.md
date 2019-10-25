@@ -5,7 +5,7 @@ seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및
 seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7d7ecdf65cca67539b1b63c8811a0bad04c694c3
 
 ---
@@ -114,7 +114,7 @@ AMCVS 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
+관련 정보는 [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/ko_KR/aam/demdex-calls.html)를 참조하십시오.
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
@@ -126,13 +126,13 @@ ID 서비스는 페이지가 로드될 때 MID를 생성하기 시작합니다. 
 
 다음 표에서는 Experience Cloud 쿠키의 플래그에 대해 설명합니다.
 
-| 쿠키(설정된 사람) | httpOnly | 보안 | SameSite |
+| 쿠키(설정) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
 | demdex(http 응답) | 아니요 | 예 | "없음" |
-| AMCV(Javascript) | 아니요 | 구성 가능 | 설정 취소(기본값: Lax) |
-| AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 취소(기본값: Lax) |
+| AMCV(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
+| AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 
-*참고:보안 특성을 사용하여 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은 secureCookie에 대한 항목을[참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/securecookie.html).*
+*참고: 보안 속성으로 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은[secureCookie](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/configurations/securecookie.html)항목을 참조하십시오.*
 
 ## 다음 단계 {#section-8db1727a63bc4ff68b495f270315d453}
 
