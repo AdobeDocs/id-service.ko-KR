@@ -6,7 +6,7 @@ seo-title: Analytics 및 Identity 서비스 FAQ
 title: Analytics 및 Identity 서비스 FAQ
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -51,7 +51,7 @@ Identity 서비스가 정보를 올바르게 반환하지만 `MID` 매개 변수
 
 **유예 기간이란 무엇이며, 어떻게 구성합니까?**
 
-See [The Identity Service Grace Period](../reference/analytics-reference/grace-period.md) and contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+ID [서비스 유예 기간을](../reference/analytics-reference/grace-period.md) 참조하고 고객 [지원 센터에 문의하십시오](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 **Identity 서비스를 사용하기 위해 RDC(실시간 데이터 수집)로 마이그레이션해야 하는 이유는 무엇입니까?**
 
@@ -88,7 +88,7 @@ Identity 서비스 사용 시 나타나는 불일치의 가능한 원인은 다�
 >
 >VisitorAPI.js 및 AppMeasurement.js에 대한 최신 업데이트를 기본 설정으로 사용하면 위의 세 가지 시나리오에서 발생하는 심각한 영향이나 주목할 만한 영향을 방지할 수 있습니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [고객 지원](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오
 
