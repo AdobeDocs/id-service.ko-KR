@@ -6,7 +6,7 @@ seo-title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -197,7 +197,7 @@ Response.send("
 * AppMeasurement가 SDID를 포함하여 페이지 조회수에 관한 데이터를 [!DNL Analytics]에 전달합니다.
 * [!DNL Analytics] 및 [!DNL Target]에서 해당 방문자의 SDID를 비교합니다. SDID가 일치하면 [!DNL Target] 및 [!DNL Analytics]가 서버측 호출과 클라이언트측 호출을 함께 결합합니다. 이제 두 개의 솔루션에서 해당 방문자를 동일한 사람으로 인지합니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [노드 패키지 관리자의 서버측 ID 서비스 패키지](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
 
