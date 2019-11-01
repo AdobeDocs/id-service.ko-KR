@@ -6,7 +6,7 @@ seo-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -58,7 +58,7 @@ CSP 사용이 일반적이며 잘 알려져 있습니다. 이 설명서의 목�
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [컨텐츠 보안 정책 참조](https://content-security-policy.com/)
 >* [MDN: 컨텐츠 보안 정책](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
