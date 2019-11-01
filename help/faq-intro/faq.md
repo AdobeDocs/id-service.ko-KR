@@ -6,7 +6,7 @@ seo-title: ID 서비스 FAQ
 title: ID 서비스 FAQ
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -85,7 +85,7 @@ CORS를 사용한 리소스 요청이 JSONP를 사용한 요청보다 더 많이
 
 자세한 내용은 [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) 및 [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa)를 참조하십시오.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [고객 지원](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오
 
