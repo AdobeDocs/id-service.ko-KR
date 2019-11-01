@@ -6,7 +6,7 @@ seo-title: Experience Cloud Identity 서비스에서 COPPA 지원
 title: Experience Cloud Identity 서비스에서 COPPA 지원
 uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
 translation-type: tm+mt
-source-git-commit: 584b6240c3e0286111689499ca5df5d98aa9fab2
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -43,7 +43,7 @@ var visitor = Visitor.getInstance("insert marketing cloud ID here", {
 
 `true`로 설정되면 `disableThirdPartyCookies` 개체는 DCS가 타사의 demdex.net 쿠키를 반환하지 않게 합니다. 사이트 방문자의 브라우저에 이미 이 쿠키가 있는 경우 ID 서비스에서 새 [!DNL Experience Cloud] ID를 만들거나 기존 ID를 반환하는 데 이 쿠키를 사용하지 않습니다. 대신 [!DNL Experience Cloud] ID 서비스는 퍼스트 파티 쿠키에 새로운 무작위 ID를 만듭니다. 사용하도록 설정하면 ID 서비스를 사용하여 데이터를 수집한 후, COPPA에서 허용한 다른 내부 작업을 비롯하여 다양한 [!DNL Experience Cloud] 솔루션에서 공유할 수 있습니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Adobe 개인 정보 보호 센터](http://www.adobe.com/privacy.html)
 >* [COPPA란?](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online#whatis)
