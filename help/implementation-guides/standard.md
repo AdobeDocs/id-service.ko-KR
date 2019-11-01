@@ -6,7 +6,7 @@ seo-title: Dynamic Tag Management를 사용하여 구현
 title: Dynamic Tag Management를 사용하여 구현
 uuid: c4f752c4-392e-4909-b178-911706857064
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -98,11 +98,6 @@ mcvid-dtm-implement.xml
 1. **[!UICONTROL 도구 생성]**, **[!UICONTROL 변경 내용 저장]**&#x200B;을 차례로 클릭합니다.
 
    저장하면 ID 서비스가 DTM에 도구로 설정됩니다. 하지만 아직 사용할 준비가 된 것은 아닙니다. DTM 도구는 여전히 DTM 게시/승인 프로세스를 거쳐야 하며, 추가 매개 변수를 구성해야 할 수도 있습니다. DTM 승인 프로세스에 대한 자세한 정보는 [사용자 기본사항 빠른 시작(User Basics Jump Start)](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) 비디오를 참조하십시오. DTM에 추가할 수 있는 추가 매개 변수에 대한 자세한 내용은 [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
-
->[!MORE_LIKE_THIS]
->
->* [웹 속성](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
-
 
 ## DTM에 대한 Experience Cloud Identity 서비스 설정{#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
@@ -285,3 +280,8 @@ DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되�
 ![](assets/charles_response_unsuccessful.png)
 
 오류 코드에 대한 자세한 정보는 [DCS 오류 코드, 메시지 및 예제](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html)를 참조하십시오.
+
+>[!MORELIKETHIS]
+>
+>* [웹 속성](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
+
