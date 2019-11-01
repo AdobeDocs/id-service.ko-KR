@@ -6,7 +6,7 @@ seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -88,7 +88,7 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
 
 많은 시나리오에서 한 번의 호출로 2~3개의 다른 ID가 표시될 수 있지만, Analytics에서는 해당 목록에 있는 첫 번째 ID를 공식적인 [!DNL Experience Cloud] ID로 사용합니다. 예를 들어, 사용자 지정 방문자 ID("vid" 쿼리 매개 변수에 포함됨)를 설정하는 경우, 이 ID는 동일한 히트에 있을 수 있는 다른 ID보다 먼저 사용됩니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Analytics ID 작업 순서](../../reference/analytics-reference/analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)
 
