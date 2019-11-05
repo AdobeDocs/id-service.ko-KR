@@ -5,7 +5,7 @@ seo-description: 이러한 지침은 Target, Analytics 및 ID 서비스가 혼�
 seo-title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
