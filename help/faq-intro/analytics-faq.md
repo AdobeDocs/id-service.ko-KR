@@ -5,7 +5,7 @@ seo-description: Identity 서비스에서 Analytics 사용과 관련된 기능 �
 seo-title: Analytics 및 Identity 서비스 FAQ
 title: Analytics 및 Identity 서비스 FAQ
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
@@ -23,7 +23,7 @@ Identity 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대�
 
 하지만 고객이 Analytics AppMeasurement 파일을 별도의 파일로 나눌 수 있는 경우도 있습니다. 예를 들어 고객이 구성 변수를 한 파일에 지정하고, 플러그인에 두 번째 파일을 사용한 다음, AppMeasurement 코드를 세 번째 파일에 지정할 수 있습니다. 이 방법은 권장하지 않습니다.
 
-추적 서버 정보를 찾을 수 없는 경우 Analytics 인스턴스가 제대로 구성되지 않을 수 있습니다. 추적 서버 정보를 찾을 수 없는 경우 [고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오.
+추적 서버 정보를 찾을 수 없는 경우 Analytics 인스턴스가 제대로 구성되지 않을 수 있습니다. 추적 서버 정보를 찾을 수 없는 경우 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
 
 **Identity 서비스를 사용하고 있는데 추적 서버를 변경하면 어떻게 됩니까?**
 
@@ -51,7 +51,7 @@ Identity 서비스가 정보를 올바르게 반환하지만 `MID` 매개 변수
 
 **유예 기간이란 무엇이며, 어떻게 구성합니까?**
 
-ID [서비스 유예 기간을](../reference/analytics-reference/grace-period.md) 참조하고 고객 [지원 센터에 문의하십시오](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+[ID 서비스 유예 기간](../reference/analytics-reference/grace-period.md)을 살펴보고 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
 
 **Identity 서비스를 사용하기 위해 RDC(실시간 데이터 수집)로 마이그레이션해야 하는 이유는 무엇입니까?**
 
@@ -90,5 +90,5 @@ Identity 서비스 사용 시 나타나는 불일치의 가능한 원인은 다�
 
 >[!MORELIKETHIS]
 >
->* [고객 지원](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오
+>* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 
