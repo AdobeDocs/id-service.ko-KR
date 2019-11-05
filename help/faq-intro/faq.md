@@ -5,7 +5,7 @@ seo-description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FA
 seo-title: ID 서비스 FAQ
 title: ID 서비스 FAQ
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
@@ -87,5 +87,5 @@ CORS를 사용한 리소스 요청이 JSONP를 사용한 요청보다 더 많이
 
 >[!MORELIKETHIS]
 >
->* [고객 지원](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오
+>* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 
