@@ -5,7 +5,7 @@ audience: 최종 사용자
 user-guide-title: Experience Cloud Identity 서비스 도움말
 user-guide-url: /content/help/ko-KR/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 11578e184a86625a246fee84c65fcdee1a086c45
+source-git-commit: 9de8fc07d30b5b641bc1445420973052605d25b6
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: 11578e184a86625a246fee84c65fcdee1a086c45
    + [쿠키 및 ID 서비스](introduction/cookies.md)
    + [ ID 서비스에서 ID를 요청하고 설정하는 방법](introduction/id-request.md)
    + [ 동기화 및 일치율 이해하기](introduction/match-rates.md)
-+ 구현 가이드 {#implementation-guides}
-   + [구현 가이드](implementation-guides/implementation-guides.md)
++ 구현 {#implementation}
    + [구현 방법](implementation-guides/implementation-methods.md)
+   + [구현 가이드](implementation-guides/implementation-guides.md)
    + [Experience Platform Launch로 구현](implementation-guides/ecid-implement-with-launch.md)
    + [DTM을 사용한 구현](implementation-guides/standard.md)
    + [Analytics 구현](implementation-guides/setup-analytics.md)
