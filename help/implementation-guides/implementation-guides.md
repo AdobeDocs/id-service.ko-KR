@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 구현 가이드
 uuid: null
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: e75a448a2fa1c384c88f00648a6f868a886c6569
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 Experience Cloud Identity 서비스의 표준 및 비표준 구현에 대한 지침 및 코드 샘플입니다.
 
-중요: ID 서비스 요구 사항을 읽고 이해한 후에 이러한 절차를 시작하십시오.
+>[!IMPORTANT]
+>
+>[ID 서비스 요구 사항](../reference/requirements.md)을 읽고 이해한 후에 이러한 절차를 시작하십시오.
 
 ## 표준 구현
 
@@ -24,7 +26,6 @@ A standard implementation uses [Adobe Exprience Platform Launch](https://docs.ad
 
 ## 구현 리소스
 
-* [구현 가이드](implementation-guides.md)
 * [구현 방법](implementation-methods.md)
 * [Experience Platform Launch로 구현](ecid-implement-with-launch.md)
 * [Dynamic Tag Management를 사용하여 구현](standard.md)
