@@ -6,14 +6,14 @@ seo-title: 구현 방법
 title: 구현 방법
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
 translation-type: tm+mt
-source-git-commit: e75a448a2fa1c384c88f00648a6f868a886c6569
+source-git-commit: 6c1ff82104bc021d047bb066829328d5fd9eedbf
 
 ---
 
 
 # 구현 방법
 
-표준 [!DNL Experience Cloud ID Service] 구현 방법은 [!DNL Experience Platform Launch], [!DNL Dynamic Tag Manager] (DTM) 또는 비표준 방법을 사용하여 선택할 수 있습니다.
+표준 [!DNL Experience Cloud ID Service] 구현 방법이나 비표준 방법을 사용하여 [!DNL Experience Platform Launch] 선택할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,3 @@ ID 서비스를 구현하는 [!DNL Experience Platform Launch](https://docs.adob
 ## 비표준 구현 {#section-2c4f2db1f9704315a7cccab6d2e07113}
 
 The procedures and code samples in this guide can help you set up the [!DNL Experience Cloud] ID service in a manual, or non-standard manner. 이러한 구현은 보통 기술적으로 어려운 작업이며 복잡합니다. 매우 드문 엔지니어링 리소스가 필요하거나 Adobe 컨설턴트와 계약된 지원 시간을 소모할 수도 있습니다.
-
->[!TIP]
->
->대신 를 사용하여 ID 서비스를 구현할 수 [!DNL Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)있습니다. 그러나 신규 고객은 이를 사용해야 [!DNL Experience Platform Launch]합니다. 에서 [!DNL Experience Platform Launch] 로 업그레이드하려면 [!DNL Dynamic Tag Manager]DTM에서 [실행으로 업그레이드를 참조하십시오](https://docs.adobe.com/content/help/en/launch/using/reference/upgrade/overview.html).
