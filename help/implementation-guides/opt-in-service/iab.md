@@ -1,20 +1,20 @@
 ---
-description: 옵트인의 IAB 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
-seo-description: 옵트인의 IAB 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
+description: 동의 관리 플랫폼(CMP)을 Opt-in의 IAB 투명도 및 동의 프레임워크(TCF)용 Audience Manager 플러그인과 연결합니다.
+seo-description: CMP(Consent Management Platform)를 IAB Transparency and Consent Framework(TCF)용 Audience Manager 플러그인과 연결합니다.
 seo-title: (베타) IAB 프레임워크에서 옵트인 서비스 사용
 title: (베타) IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
 
 ---
 
 
 # (베타) IAB 프레임워크에서 옵트인 서비스 사용{#beta-using-opt-in-services-with-iab-framework}
 
-옵트인의 IAB 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
+동의 관리 플랫폼(CMP)을 Audience Manager용 Opt-in의 IAB 플러그인과 연결합니다.
 
-Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. ECID 라이브러리를 사용하여 IAB 플러그인이 구현되면 IAB 준수 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
+IAB Transparency [and Consent Framework(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 를 사용하는 Audience Manager 고객은 자신의 CMP(Consent Management Platform)를 Opt-in의 IAB TCF 용 Audience Manager 플러그인과 연결할 수 있습니다. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. ECID 라이브러리를 사용하여 IAB 플러그인이 구현되면 IAB 준수 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
 
 ## IAB를 지원하는 CMP 구현 {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
