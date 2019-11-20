@@ -1,11 +1,11 @@
 ---
 cloud: platform-cloud
-product: ID 서비스
-audience: 최종 사용자
-user-guide-title: Experience Cloud Identity 서비스 도움말
-user-guide-url: /content/help/ko-KR/id-service/using/home.html
-translation-type: ht
-source-git-commit: 9de8fc07d30b5b641bc1445420973052605d25b6
+product: ID Service
+audience: end-user
+user-guide-title: Experience Cloud Identity Service Help
+user-guide-url: /content/help/en/id-service/using/home.html
+translation-type: tm+mt
+source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 9de8fc07d30b5b641bc1445420973052605d25b6
    + [ID 서비스와 직접 통합](implementation-guides/direct-integration.md)
    + [직접 통합 사용 사례](implementation-guides/direct-integration-examples.md)
    + [ID 서비스 테스트 및 확인](implementation-guides/test-verify.md)
-   + 옵트인 설명서 {#opt-in-service}
+   + 옵트인 서비스 {#opt-in-service}
       + [옵트인 서비스 개요](implementation-guides/opt-in-service/optin-overview.md)
       + [옵트인 서비스 설정](implementation-guides/opt-in-service/getting-started.md)
       + [옵트인 서비스 확인](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
