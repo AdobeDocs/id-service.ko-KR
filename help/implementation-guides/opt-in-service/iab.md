@@ -1,10 +1,10 @@
 ---
-description: 동의 관리 플랫폼(CMP)을 Opt-in의 IAB 투명도 및 동의 프레임워크(TCF)용 Audience Manager 플러그인과 연결합니다.
-seo-description: CMP(Consent Management Platform)를 IAB Transparency and Consent Framework(TCF)용 Audience Manager 플러그인과 연결합니다.
+description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
+seo-description: IAB TCF(Transparency and Consent Framework)를 위한 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
 seo-title: (베타) IAB 프레임워크에서 옵트인 서비스 사용
 title: (베타) IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
 
 # (베타) IAB 프레임워크에서 옵트인 서비스 사용{#beta-using-opt-in-services-with-iab-framework}
 
-동의 관리 플랫폼(CMP)을 Audience Manager용 Opt-in의 IAB 플러그인과 연결합니다.
+Audience Manager를 위한 옵트인의 IAB 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
 
-IAB Transparency [and Consent Framework(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 를 사용하는 Audience Manager 고객은 자신의 CMP(Consent Management Platform)를 Opt-in의 IAB TCF 용 Audience Manager 플러그인과 연결할 수 있습니다. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. ECID 라이브러리를 사용하여 IAB 플러그인이 구현되면 IAB 준수 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
+[IAB TCF(Transparency and Consent Framework)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)를 사용하는 Audience Manager 고객은 IAB TCF를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결할 수 있습니다. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. ECID 라이브러리를 사용하여 IAB 플러그인이 구현되면 IAB 준수 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
 
 ## IAB를 지원하는 CMP 구현 {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
@@ -31,7 +31,7 @@ IAB Transparency [and Consent Framework(TCF)](https://iabtechlab.com/standards/g
 >
 >옵트인은 ECID 4.0+에서만 사용할 수 있습니다.
 
-사이트에 대한 옵트인과 IAB 플러그인을 모두 구현하려면 Adobe Experience Platform Launch를 사용하십시오. Read the [documentation for the ECID Opt-in extension](https://marketing-beta.adobe.com/resources/help/launch/ecid-optin/) to learn how to set up the Experience Platform Launch extension.
+사이트에 대한 옵트인과 IAB 플러그인을 모두 구현하려면 Adobe Experience Platform Launch를 사용하십시오. [ECID 옵트인 확장 설명서](https://marketing-beta.adobe.com/resources/help/launch/ecid-optin/)를 읽고 Experience Platform Launch 확장을 설정하는 방법을 알아보십시오.
 
 옵트인에 대한 IAB를 수동으로 활성화할 때 Visitor 개체 내에 다음 설정이 true로 지정되어 있는지 확인하십시오.
 
@@ -55,5 +55,5 @@ Visitor.getInstance("YOUR_ORG_ID", {
 * [IAB TCF(Transparency and Consent Framework)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) - IAB 표준에 대한 자세한 정보
 * [Adobe 옵트인](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360) - 플랫폼 솔루션의 동의 관리에 필요한 구성 요소인 옵트인에 대한 자세한 정보
 * [Audience Manager](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html)의 IAB TCF(Transparency and Consent Framework) 지원
-* [개인 정보 보호 선택 사항](https://www.adobe.com/privacy/opt-out.html#customeruse) - 사용자 처리 시 다른 개인 정보 보호 옵션은 다른 전역 옵트아웃 도구를 사용하여 모든 데이터 수집을 옵트아웃하는 기능입니다. 전역 옵트아웃이 옵트인 및 IAB 확인보다 우선함
+* [개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) - 사용자 처리 시 다른 개인 정보 보호 옵션은 다른 전역 옵트아웃 도구를 사용하여 모든 데이터 수집을 옵트아웃하는 기능입니다. 전역 옵트아웃이 옵트인 및 IAB 확인보다 우선함
 
