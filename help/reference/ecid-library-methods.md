@@ -4,7 +4,7 @@ seo-title: Safari ITP 환경의 ECID 라이브러리 메서드
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 seo-description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 translation-type: tm+mt
-source-git-commit: 51abd7b0f38da4c3375c0d2fe48d8bf96bdfb387
+source-git-commit: 8f4175b942ed4228ccd1f96791aa668be8aff95d
 
 ---
 
@@ -28,6 +28,10 @@ ITP 규칙은 개발자에게 다시 제어 권한을 제공하는 데 중점을
 **다른 Analytics 방문자 추적 메서드를 CNAME에서 사용할 때 Adobe가 ECID에 중점을 두는 이유는 무엇입니까?**
 
 ECID 라이브러리, AMCV 쿠키 및 ECID(MID라고도 함)는 모든 Adobe 솔루션을 하나의 ID에 통합하는 메서드로 시작되었습니다. 이 ID는 Adobe 제품 로드맵에서 우선 순위 쿠키 수준 ID가 되며, Adobe Experience Platform의 기본 쿠키 ID입니다.
+
+**CNAME은 고객이 다중 도메인 추적을 사용하도록 지원합니까?**
+
+이전에 CNAME에 있던 동일한 규칙 및 조건이 여전히 있습니다. 경우에 따라 CNAME은 다중 도메인 시나리오에서 도움이 될 수 있습니다. 사용자가 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 타사 쿠키를 수락하지 않는 브라우저(예: Safari)에서 다중 도메인 추적을 활성화할 수 있습니다. 그러나 CNAME이 일부 시나리오의 다중 도메인에 도움이 될 수 있지만 ECID가 CNAME 구현으로 이동하는 이유는 다중 도메인 추적이 아닌 지속적인 방문자 식별을 위한 것입니다. CNAME 및 다중 도메인에 대한 자세한 내용은 [데이터 수집 CNAME 및 도메인 간 추적](/help/reference/analytics-reference/cname.md)을 참조하십시오.
 
 추가 ITP 변경 사항이 릴리스되면 추가된 FAQ가 여기에 추가됩니다. For more inquiries, please visit [Adobe Experience League](https://experienceleague.adobe.com/#recommended/solutions/analytics).
 
