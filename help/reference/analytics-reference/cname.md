@@ -6,48 +6,45 @@ seo-title: 데이터 수집 CNAME 및 도메인 간 추적
 title: 데이터 수집 CNAME 및 도메인 간 추적
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
 translation-type: tm+mt
-source-git-commit: 989b5f537848a7506a96e2eac17409f8b0307217
+source-git-commit: 8f4175b942ed4228ccd1f96791aa668be8aff95d
 
 ---
 
 
-# 데이터 수집 및 ID{#data-collection-and-identity}
+# 데이터 수집 CNAME 및 도메인 간 추적{#data-collection-cnames-and-cross-domain-tracking}
 
-Analytics에서는 방문자를 ID로 지정하는 데 사용할 수 있는 세 가지 방법이 있습니다.
+고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드 파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.
 
-- 방문자 ID [서비스 사용](https://docs.adobe.com/content/help/en/id-service/using/home.md)
-- 이전 Analytics [방문자 ID 사용](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/unique-visitors/visid-overview.md)
-- 고유한 ID 제공
+타사 쿠키를 수락하는 브라우저에서 쿠키는 방문자 ID에 대한 요청 동안 데이터 수집 서버에 의해 설정됩니다. 이 쿠키를 사용하면 방문자 ID 서비스에서는 동일한 Experience Cloud 조직 ID를 사용하여 구성된 모든 도메인에 동일한 Experience Cloud 방문자 ID를 반환할 수 있습니다.
 
-## Using the Visitor ID Service{#using-the-visitor-id-service}
+타사 쿠키를 거부하는 브라우저에서는 새 Experience Cloud 방문자 ID가 각 도메인에 대해 지정됩니다.
 
-방문자 ID 서비스는 방문자를 식별하는 권장 방법입니다. 두 가지 구성 요소를 기반으로 합니다.
+demdex.net 쿠키를 사용하여 방문자 ID 서비스는 Analytics의 s_vi 쿠키와 동일한 수준의 도메인 간 추적을 제공합니다. Analytics에서 쿠키는 일부 브라우저에서 수락되고 도메인 간에 사용되지만 다른 브라우저에서는 거부됩니다.
 
-- 자사 ID - 자사 웹 사이트의 방문자를 측정하는 데 사용할 수 있는 퍼스트 파티 ID입니다. 이 ID는 첫 번째 partry id에 저장됩니다. 이 ID는 클라이언트측 쿠키와 서버측 쿠키(CNAME 포함) 모두에 저장됩니다.
-- 타사 ID(선택 사항) - 여러 도메인(예: example.com 및 example.net)에서 방문자를 측정하는 데 사용할 수 있는 demdex.net에 저장되는 별도의 타사 ID
+## 데이터 수집 CNAME {#section-48fd186d376a48079769d12c4bd9f317}
 
-Analytics는 타사 ID가 활성화되지 않는 한 퍼스트 파티 ID를 사용하며, 브라우저에서 이를 사용할 수 있습니다. 타사 ID는 고객이 Analytics에서 다른 고객과 데이터를 결합할 수 없도록 사전 고객으로 지정되어 있습니다.
+데이터 수집 서버에서 Analytics 쿠키를 설정한 경우 많은 고객은 서드 파티 쿠키를 거부하는 브라우저 문제를 피하기 위해 데이터 수집 서버 CNAME 레코드를 [퍼스트 파티 쿠키 구현](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)의 일부로 구성했습니다. 이 프로세스는 데이터 수집 서버 도메인을 사용자 웹 사이트의 도메인과 일치하게 구성하여 방문자 ID 쿠키가 퍼스트 파티 쿠키로 설정되도록 합니다.
 
-## 기존 분석 도메인
+방문자 ID 서비스는 JavaScript를 사용하여 현재 웹 사이트의 도메인에서 직접 방문자 쿠키를 설정하므로 퍼스트 파티 쿠키를 설정하는 데 이 구성이 더 이상 필요하지 않습니다.
 
-Adobe 방문자 ID 서비스를 시작하기 전에 많은 고객이 기본 분석 도메인을 사용하여 ID 쿠키를 설정했습니다. 여기에는 CNAME `omtrdc.net`도메인 `2o7.net` 또는 CNAME 도메인이 포함됩니다. `omtrdc.net`, `2o7.net`경우에 따라서는 타사 쿠키를 저장하는 데 CNAME 도메인을 사용하기도 했습니다. 이러한 방식으로 설정된 쿠키는 고객이 다른 고객의 데이터와 데이터를 결합할 수 없도록 단일 고객으로 제한되었습니다. 고객이 소유하고 있는 사이트(예: example.com, example.co.jp)에서 사용자를 추적하려는 경우 타사 CNAMED 도메인(친숙한 타사 도메인)이라고도 함)이 사용되었습니다. 이 방법 또는 CNAME을 사용하여 친숙한 타사 도메인을 지원하는 방법은 더 강력하고 개인 정보 인식 방문자 ID 서비스를 허용하기 위해 더 이상 사용되지 않습니다. 고객은 가능한 한 빨리 도메인당 CNAME을 사용하는 방문자 ID 서비스로 이동해야 합니다.
+단일 웹 속성(단일 도메인)을 갖는 고객은 데이터 수집 CNAME 외부로 마이그레이션하고 대신 기본 데이터 수집 호스트 이름(`omtrdc.net` 또는 `2o7.net`)을 사용할 수 있습니다.
 
-## 자신의 ID 제공
+그렇지만 데이터 수집에 대해 CNAME을 사용하면 브라우저에서 기본 랜딩 도메인과 서드 파티 쿠키를 수락하지 않는 다른 도메인 사이에서 방문자를 추적할 수 있다는 추가적인 이점이 있습니다. 여러 웹 속성(다중 도메인)을 갖는 고객은 데이터 수집 CNAME을 유지 관리하여 혜택을 얻을 수 있습니다. 다음 섹션에서는 도메인 간 방문자 추적 기능이 작동하는 방식을 설명합니다.
 
-고객이 선택하는 경우 Adobe의 ID 시스템을 모두 패싱하고 [사용자 지정 방문자 ID를 제공하여 자체적으로 구현할 수 있습니다](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/unique-visitors/visid-custom.md). 이 길을 선택하시면 알아두어야 할 사항이 몇 가지 있습니다.
+## CNAME이 도메인 간 추적을 가능하게 하는 방식 {#section-78925af798e24917b9abed79de290ad9}
 
-- 옵트아웃 및 적절한 개인 정보 보호 컨트롤을 구현해야 합니다.
-- 이 ID는 Analytics에만 적용됩니다.
-- 귀하는 해당 ID를 유지할 책임이 있습니다.
+Apple Safari 및 일부 다른 브라우저의 서드 파티 컨텍스트에서 퍼스트 파티 쿠키를 사용하는 방식 때문에, CNAME을 사용하면 기본 도메인과 동일한 추적 서버를 사용하는 추가 도메인 사이에서 고객을 추적할 수 있습니다.
 
-## 데이터 수집 CNAMES
+예를 들어 `mymainsite.com`에 기본 사이트가 있다고 합니다. 보안 데이터 수집 서버(`smetrics.mymainsite.com`)를 가리키도록 CNAME 레코드를 구성했습니다.
 
-방문자 ID 서비스와 함께 CNAME을 사용하는 것이 좋습니다. 이렇게 하면 퍼스트 파티 방문자 ID가 HTTP 쿠키를 사용하여 지속되므로 쿠키의 지속성이 향상됩니다.
+사용자가 `mymainsite.com`을 방문하면 데이터 수집 서버에 의해 ID 서비스 쿠키가 설정됩니다. 데이터 수집 서버 도메인이 웹 사이트 도메인과 일치하기 때문에 가능한 것으로, 이를 가리켜 *자사 컨텍스트*&#x200B;에서의 쿠키 사용 또는 *자사 쿠키*&#x200B;라고 합니다.
 
-## OPTOUT
+다른 사이트에서도 이와 동일한 데이터 수집 서버를 사용하는 경우(예를 들어 `myothersiteA.com` 및 `myothersiteB.com`) 방문자가 나중에 이러한 사이트를 방문하면 `mymainsite.com` 방문 중에 설정된 쿠키가 HTTP 요청을 통해 데이터 수집 서버로 전송됩니다(브라우저는 도메인이 현재 웹 사이트 도메인과 일치하지 않더라도 해당 도메인에 대한 모든 HTTP 요청과 모든 쿠키를 전송함). 이것을 *타사 컨텍스트*&#x200B;에서 쿠키 사용하기 또는 *타사 쿠키*&#x200B;라고 하며, 이를 통해 이러한 다른 도메인에서 같은 방문자 ID를 사용할 수 있습니다. 브라우저는 자사 쿠키와 다르게 타사 컨텍스트에서 쿠키를 처리합니다.
 
-Adobe는 고객에게 옵트아웃 신호를 Adobe 시스템과 공유하기 위한 API를 제공하여 고객이 추적을 거부할 수 있도록 합니다. Adobe는 고객이 사용자 선택을 지원하기 위해 적절한 제어를 구현할 수 있는 방법에 대한 자세한 지침을 제공합니다.동의 [받기 전까지 쿠키가](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) 실행되지 [](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md) 않도록 하는 옵트아웃 API 또는 옵션
+*참고: Safari는 설정된 방법에 관계없이 타사 컨텍스트에서 모든 쿠키를 차단합니다.*
+
+따라서 도메인 간 방문자 식별을 위해서는 수집 도메인이 사람들이 흔히 방문하는 도메인이 되어야 합니다. 데이터 수집 도메인에 사용할 *일반* 도메인이 없는 경우 데이터 수집 도메인에서 CNAME을 유지해도 도메인 간에 이점이 없습니다. 처음에 기본 시작 사이트를 방문하지 않으면 방문자는 보조 사이트 및 기본 사이트에서 다르게 식별됩니다.
 
 ## Experience Cloud Identity 서비스로 CNAME 지원 설정 {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
-데이터 수집 서버 CNAME 지원은 CNAME을 [설정하고](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.md) Experience Cloud Identity Service에서 `visitor.marketingCloudServerSecure` 변수를 설정하고 AppMeasurement `s.trackingServerSecure` 에서 설정하여활성화됩니다.
+데이터 수집 서버 CNAME 지원은 `visitor.marketingCloudServerSecure` 변수를 설정하여 사용할 수 있습니다.
