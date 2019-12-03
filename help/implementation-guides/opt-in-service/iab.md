@@ -5,14 +5,14 @@ seo-title: (베타) IAB 프레임워크에서 옵트인 서비스 사용
 title: (베타) IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 translation-type: tm+mt
-source-git-commit: 27d3da940e4bba20a4eba86edfc44bf834173d6a
+source-git-commit: 65947bf4078222561060501178bf28b3c6cfed7c
 
 ---
 
 
 # (베타) IAB 프레임워크에서 옵트인 서비스 사용{#beta-using-opt-in-services-with-iab-framework}
 
-CMP(Consent Management Platform)를 Audience Manager용 Opt-in의 Audience Manager IAB 플러그인과 연결합니다.
+동의 관리 플랫폼(CMP)을 Opt-in의 Audience Manager Plugin for IAB TCF와 연결합니다.
 
 [IAB TCF(Transparency and Consent Framework)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)를 사용하는 Audience Manager 고객은 IAB TCF를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결할 수 있습니다. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. IAB TCF용 Audience Manager 플러그인이 ECID 라이브러리와 함께 구현되면 IAB 호환 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
 
@@ -44,7 +44,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 >[!IMPORTANT]
 >
->쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purposes 1, 2, 5에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. [여기](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html) Audience Manager 설명서에서 IAB 플러그인에 대해 자세히 알아보십시오.
+>쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purposes 1, 2, 5에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. Audience Manager의 IAB TCF용 Audience Manager 플러그인에 대한 자세한 내용은 [여기에서](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html)확인하십시오.
 
 For more information on how to validate both Opt-in and the Audience Manager plug-in for IAB, check use case #4 in the validation guide [here](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 
