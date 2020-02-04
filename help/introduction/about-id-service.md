@@ -1,12 +1,12 @@
 ---
-description: Adobe Experience Cloud에서 Experience Platform Identity 서비스의 역할입니다.
-keywords: ID 서비스
-seo-description: Adobe Experience Cloud에서 Experience Platform Identity 서비스의 역할입니다.
+description: Adobe Experience Cloud에서 Experience Cloud Identity 서비스의 역할입니다.
+keywords: ID Service
+seo-description: Adobe Experience Cloud에서 Experience Cloud Identity 서비스의 역할입니다.
 seo-title: ID 서비스에 대한 정보
 title: 개요
 uuid: c52d6155-00a0-4fc5-9d8e-5ce00b8d01e6
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: 6c314656c134a697540c289560c67ca3ab88bc63
 
 ---
 
