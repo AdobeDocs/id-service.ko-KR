@@ -1,18 +1,18 @@
 ---
-description: Adobe Experience Cloud에서 Experience Platform Identity 서비스의 역할입니다.
-seo-description: Experience Platform Identity 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상에 공통된 ID 프레임워크를 사용할 수 있습니다.
+description: Adobe Experience Cloud에서 Experience Cloud Identity 서비스의 역할입니다.
+seo-description: Experience Cloud Identity 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상에 공통된 ID 프레임워크를 사용할 수 있습니다.
 seo-title: ID 서비스 개요
 title: 개요
 uuid: null
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: 6c314656c134a697540c289560c67ca3ab88bc63
 
 ---
 
 
 # 개요
 
-Experience Platform Identity 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상에 공통된 ID 프레임워크를 사용할 수 있습니다. Experience Cloud ID 서비스, ECID, Marketing Cloud ID 서비스, MID, 방문자 ID 서비스 등 이전 이름이나 약어에 대한 참조가 표시될 수 있습니다. ID 서비스는 영구적인 고유 ID를 사이트 방문자에게 할당하여 작동됩니다. 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
+Experience Cloud Identity Service를 사용하면 플랫폼 ID 서비스에서 Experience Cloud 코어 서비스, 솔루션, 고객 속성 및 고객을 위한 공통 ID 프레임워크를 사용할 수 있습니다. Experience Cloud ID 서비스, ECID, Marketing Cloud ID 서비스, MID, 방문자 ID 서비스 등 이전 이름이나 약어에 대한 참조가 표시될 수 있습니다. ID 서비스는 영구적인 고유 ID를 사이트 방문자에게 할당하여 작동됩니다. 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
 ![](assets/ecid.png)
 
