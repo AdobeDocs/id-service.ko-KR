@@ -5,7 +5,7 @@ seo-description: CSP(컨텐츠 보안 정책)는 브라우저에서 웹 페이�
 seo-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c642bd9f1ca6841f6d532cef2c11ce4acca0b61
 
 ---
@@ -56,13 +56,13 @@ CSP 사용이 일반적이며 잘 알려져 있습니다. 이 설명서의 목�
    <td colname="col2"> <p><span class="codeph">*.demdex.net</span>을 포함하도록 CSP를 수정합니다. </p> <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하십시오. </p> </td> </tr> 
  <tr>
  <td colname="col1"> <p> <b>Activity Map 플러그인</b> </p> </td> 
- <td colname="col2"> <p>*.adobe.com을 포함하도록 CSP를 수정합니다. **참고**:2020년 1월 이전에 Activity Map을 이미 설치한 경우 브라우저에는 여전히 *.omniture.com에 대한 초기 요청이 표시되지만 *.adobe.com으로 리디렉션됩니다. </p></td> 
+ <td colname="col2"> <p>CSP가 *.adobe.com을 포함하도록 수정합니다. **참고**: 2020년 1월 이전에 Activity Map을 이미 설치한 경우 브라우저에는 여전히 *.omniture.com에 대한 초기 요청이 표시되지만 *.adobe.com으로 리디렉션 됩니다. </p></td> 
  </tr>
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >* [컨텐츠 보안 정책 참조](https://content-security-policy.com/)
->* [MDN: 컨텐츠 보안 정책](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+>* [MDN: 컨텐츠 보안 정책](https://developer.mozilla.org/ko-KR/docs/Web/HTTP/CSP)
 >* [Wikipedia: 컨텐츠 보안 정책](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
