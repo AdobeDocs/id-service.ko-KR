@@ -1,18 +1,26 @@
 ---
-description: Adobe Experience Cloud에서 Experience Cloud Identity 서비스의 역할입니다.
-seo-description: Experience Cloud Identity 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상에 공통된 ID 프레임워크를 사용할 수 있습니다.
-seo-title: ID 서비스 개요
-title: 개요
-uuid: null
+description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역할.
+seo-description: Experience Cloud ID 서비스(이전 방문자 ID 서비스 또는 Marketing Cloud ID 서비스)를 사용하면 고객 특성 및 대상과 같은 Experience Cloud 서비스에 대한 공통 ID 프레임워크를 사용할 수 있습니다.
+seo-title: Experience Cloud ID 서비스 개요
+title: Experience Cloud ID 서비스 개요
 translation-type: tm+mt
-source-git-commit: 6c314656c134a697540c289560c67ca3ab88bc63
+source-git-commit: 9e020c3292a7c9f14ec77615a54ec61a37762eec
 
 ---
 
 
-# 개요
+# Experience Cloud ID 서비스 개요
 
-Experience Cloud Identity Service를 사용하면 플랫폼 ID 서비스에서 Experience Cloud 코어 서비스, 솔루션, 고객 속성 및 고객을 위한 공통 ID 프레임워크를 사용할 수 있습니다. Experience Cloud ID 서비스, ECID, Marketing Cloud ID 서비스, MID, 방문자 ID 서비스 등 이전 이름이나 약어에 대한 참조가 표시될 수 있습니다. ID 서비스는 영구적인 고유 ID를 사이트 방문자에게 할당하여 작동됩니다. 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
+The [!UICONTROL Experience Cloud Identity Service] enables the common identification framework for Experience Cloud Core Services (such as customer attributes and audiences) solutions in the Experience Platform Identity Service.
+
+>[!NOTE]
+>
+> ECID, Marketing Cloud ID Service(MID) 및 방문자 ID 서비스와 같은 이전 이름 또는 약어에 대한 참조가 표시될 수 있습니다. Experience Cloud [!UICONTROL Identity Service를 참조하십시오]. 또한 Experience Platform Identity [!UICONTROL Service가 표시될 수 있습니다]. 명확히 하려면
+
+* [!UICONTROL Experience Platform Identity Service]:ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 디바이스 연결 서비스입니다.
+* [!UICONTROL Experience Cloud ID 서비스] (ECID):사이트 방문자에게 할당된 고유한 영구 ID입니다. 플랫폼 ID 서비스에서 사용할 수 있는 특정 엔터티입니다.
+
+조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
 ![](assets/ecid.png)
 
