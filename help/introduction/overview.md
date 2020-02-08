@@ -4,7 +4,7 @@ seo-description: Experience Cloud ID 서비스(이전 방문자 ID 서비스 또
 seo-title: Experience Cloud ID 서비스 개요
 title: Experience Cloud ID 서비스 개요
 translation-type: tm+mt
-source-git-commit: 9e020c3292a7c9f14ec77615a54ec61a37762eec
+source-git-commit: 6342ea02c74e6d1c96f987c5f2620246602ce6c5
 
 ---
 
@@ -15,7 +15,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 >[!NOTE]
 >
-> ECID, Marketing Cloud ID Service(MID) 및 방문자 ID 서비스와 같은 이전 이름 또는 약어에 대한 참조가 표시될 수 있습니다. Experience Cloud [!UICONTROL Identity Service를 참조하십시오]. 또한 Experience Platform Identity [!UICONTROL Service가 표시될 수 있습니다]. 명확히 하려면
+> ID 서비스에 대한 참조를 약어 또는 이전 이름(예: ECID, Marketing Cloud ID Service(MID) 및 방문자 ID 서비스)으로 볼 수 있습니다. Experience Cloud [!UICONTROL Identity Service를 참조하십시오]. 또한 Experience Platform Identity [!UICONTROL Service가 표시될 수 있습니다]. 명확히 하려면
 
 * [!UICONTROL Experience Platform Identity Service]:ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 디바이스 연결 서비스입니다.
 * [!UICONTROL Experience Cloud ID 서비스] (ECID):사이트 방문자에게 할당된 고유한 영구 ID입니다. 플랫폼 ID 서비스에서 사용할 수 있는 특정 엔터티입니다.
@@ -34,7 +34,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 * 프로필 및 ID를 연결하는 데 사용할 수 있는 공통 키 또는 ID를 만듭니다.
 * 여러 솔루션에서 장치를 고유하게 식별합니다.
-* 동일한 도메인에서 추적할 수 있도록 고객의 도메인에서 퍼스트 파트 쿠키를 설정합니다. Experience Cloud를 참조하십시오.
+* 동일한 도메인에서 추적할 수 있도록 고객의 도메인에서 퍼스트 파트 쿠키를 설정합니다. 자세한 내용은 쿠키 및 [Experience Cloud Identity Service에](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) 대한 문서를 참조하십시오.
 * Experience Cloud 고객 및 파트너로부터 별칭 및 ID 매핑을 받습니다.
 * Experience Cloud에서 ID 동기화를 관리합니다.
 * 광고 기술 에코 시스템에서 다른 타사와 ID 동기화를 지원합니다.
