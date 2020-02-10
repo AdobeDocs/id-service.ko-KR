@@ -6,7 +6,7 @@ seo-title: ID 서비스에 대한 정보
 title: 개요
 uuid: c52d6155-00a0-4fc5-9d8e-5ce00b8d01e6
 translation-type: tm+mt
-source-git-commit: 6c314656c134a697540c289560c67ca3ab88bc63
+source-git-commit: ec67177fc6491e4c8cea835d198574c9fdb4b01f
 
 ---
 
@@ -23,7 +23,7 @@ mcvid-functionality.xml
 
 Experience Cloud Identity 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상에 공통된 ID 프레임워크를 사용할 수 있습니다. 이는 영구적인 고유 ID를 사이트 방문자에게 할당하여 작동됩니다. 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
-![](assets/ecid.png)
+![](assets/ecid-new.png)
 
 또한 ID 서비스는 다양한 솔루션별 ID(예: Analytics AID)를 대체할 수 있습니다. ID 서비스에서는 [고객 ID 및 인증 상태](../reference/authenticated-state.md) 기능인 ID 서비스를 사용하여 고유한 고객 ID를 [!DNL Experience Cloud]에 전달할 수 있습니다. 그렇지만 ID 서비스는 사용자가 이미 구독한 솔루션에서만 작동합니다. 따라서 등록하지 않은 제품에는 액세스할 수 없습니다.
 
