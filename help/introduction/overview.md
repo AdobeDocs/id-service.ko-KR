@@ -4,7 +4,7 @@ seo-description: Experience Cloud ID 서비스(이전 방문자 ID 서비스 또
 seo-title: Experience Cloud ID 서비스 개요
 title: Experience Cloud ID 서비스 개요
 translation-type: tm+mt
-source-git-commit: 6342ea02c74e6d1c96f987c5f2620246602ce6c5
+source-git-commit: 98b72f87b188debd6a5f6b86822c3f714647de61
 
 ---
 
@@ -22,7 +22,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
-![](assets/ecid.png)
+![](assets/ecid-new.png)
 
 또한 ID 서비스는 다양한 솔루션별 ID(예: Analytics AID)를 대체할 수 있습니다. ID 서비스에서는 [고객 ID 및 인증 상태](/help/reference/authenticated-state.md) 기능인 ID 서비스를 사용하여 고유한 고객 ID를 Experience Cloud에 전달할 수 있습니다. 그렇지만 ID 서비스는 사용자가 이미 구독한 솔루션에서만 작동합니다. 따라서 등록하지 않은 제품에는 액세스할 수 없습니다.
 
