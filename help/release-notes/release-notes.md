@@ -1,12 +1,12 @@
 ---
 description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 translation-type: tm+mt
-source-git-commit: 4532d09cc9b4d83fa62c13bd1adac7abdae222b1
+source-git-commit: ba84c4dac9023ab13f5176c5665adbbdaeb00d33
 
 ---
 
@@ -38,6 +38,20 @@ Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또
 **ITP 2.1 지원**. 추적 서버가 퍼스트 파티 CNAME에 설정된 경우 새 쿠키(s_ecid)가 ECID 값으로 배치됩니다. ECID 라이브러리는 이 값을 참조하여 7일 이상 ID를 유지합니다. [Safari ITP 환경의 ECID 라이브러리 메서드](/help/reference/ecid-library-methods.md)를 참조하십시오.
 
 **secureCookie 구성에 대한 버그 수정**.
+
+## 버전 4.1
+
+새로운 API `publishDestinations` 변경 사항별로 업데이트합니다. 이 업데이트를 통해 페이지의 레퍼러 정보가 ID 동기화 중에 노출될 수 있습니다. (CORE-23693)
+
+## 버전 4.2
+
+ECID 옵트인 개체를 통해 IAB TCF용 Audience Manager 플러그인에 대한 지원
+
+**수정 사항**
+
+* IAB + OptIn이 신규 고객 확보를 위한 MID를 얻지 못했습니다(CORE-26022).
+* DTM의 옵트인 dotOptInApply 구성에 대한 버그가 수정되었습니다(DTM-12958).
+* ECID 옵트아웃은 ID 동기화를 비활성화합니다(CORE-23814).
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
