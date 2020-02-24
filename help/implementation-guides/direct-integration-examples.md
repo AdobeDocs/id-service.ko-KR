@@ -5,7 +5,7 @@ seo-description: 이러한 예제에서는 직접 통합 및 Experience Cloud ID
 seo-title: 직접 통합 사용 사례
 title: 직접 통합 사용 사례
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec67177fc6491e4c8cea835d198574c9fdb4b01f
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: ec67177fc6491e4c8cea835d198574c9fdb4b01f
 
 # 직접 통합 사용 사례 {#direct-integration-use-cases}
 
-이러한 예는 직접 통합과 관련된 2개의 일반적인 사용 사례와 Experience Cloud ID(ECID 또는 MID)를 포함합니다. 이 ID 파섹
+이러한 예제에서는 직접 통합 및 Experience Cloud ID(ECID 또는 MID)와 관련된 2가지 공통 사용 사례를 다룹니다. 이 ID는 사이트 방문자의 고유한 영구 ID입니다.
 
 >[!TIP]
 >
