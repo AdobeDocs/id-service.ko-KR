@@ -1,9 +1,9 @@
 ---
-description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역할.
+description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역할입니다.
 seo-description: Experience Cloud ID 서비스(이전 방문자 ID 서비스 또는 Marketing Cloud ID 서비스)를 사용하면 고객 특성 및 대상과 같은 Experience Cloud 서비스에 대한 공통 ID 프레임워크를 사용할 수 있습니다.
 seo-title: Experience Cloud ID 서비스 개요
 title: Experience Cloud ID 서비스 개요
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 98b72f87b188debd6a5f6b86822c3f714647de61
 
 ---
@@ -11,14 +11,14 @@ source-git-commit: 98b72f87b188debd6a5f6b86822c3f714647de61
 
 # Experience Cloud ID 서비스 개요
 
-The [!UICONTROL Experience Cloud Identity Service] enables the common identification framework for Experience Cloud Core Services (such as customer attributes and audiences) solutions in the Experience Platform Identity Service.
+[!UICONTROL Experience Cloud ID 서비스]를 통해 Experience Cloud ID 서비스의 고객 속성 및 대상과 같은 Experience Cloud 핵심 서비스의 솔루션에 대한 공통된 ID 프레임워크를 사용할 수 있습니다.
 
 >[!NOTE]
 >
-> ID 서비스에 대한 참조를 약어 또는 이전 이름(예: ECID, Marketing Cloud ID Service(MID) 및 방문자 ID 서비스)으로 볼 수 있습니다. Experience Cloud [!UICONTROL Identity Service를 참조하십시오]. 또한 Experience Platform Identity [!UICONTROL Service가 표시될 수 있습니다]. 명확히 하려면
+> ID 서비스에 대한 참조를 약어 또는 이전 이름(예: ECID, Marketing Cloud ID Service(MID) 및 방문자 ID 서비스)으로 볼 수 있습니다. [!UICONTROL Experience Cloud ID 서비스]와 관련 있습니다. 또한 [!UICONTROL Experience Platform ID 서비스]가 표시될 수 있습니다. 명확히 하려면 다음을 확인하십시오.
 
-* [!UICONTROL Experience Platform Identity Service]:ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 디바이스 연결 서비스입니다.
-* [!UICONTROL Experience Cloud ID 서비스] (ECID):사이트 방문자에게 할당된 고유한 영구 ID입니다. 플랫폼 ID 서비스에서 사용할 수 있는 특정 엔터티입니다.
+* [!UICONTROL Experience Platform ID 서비스]: ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 장치 연결 서비스입니다.
+* [!UICONTROL Experience Cloud ID 서비스](ECID): 사이트 방문자에게 할당된 고유한 영구 ID입니다. Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다.
 
 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
@@ -26,7 +26,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 또한 ID 서비스는 다양한 솔루션별 ID(예: Analytics AID)를 대체할 수 있습니다. ID 서비스에서는 [고객 ID 및 인증 상태](/help/reference/authenticated-state.md) 기능인 ID 서비스를 사용하여 고유한 고객 ID를 Experience Cloud에 전달할 수 있습니다. 그렇지만 ID 서비스는 사용자가 이미 구독한 솔루션에서만 작동합니다. 따라서 등록하지 않은 제품에는 액세스할 수 없습니다.
 
-나아가 ID 서비스는 현재 및 미래의 수 많은 Experience Cloud 기능, 개선 사항 및 서비스의 필수 구성 요소입니다. 현재 ID 서비스는 [Analytics](http://www.adobe.com/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/marketing-cloud/data-management-platform.html) 및 [Target](http://www.adobe.com/marketing-cloud/testing-targeting.html)을 지원합니다. Adobe Experience Cloud 장치 Co-op에 참여하려는 경우에도 ID 서비스가 필요합니다. ID 서비스를 구현하지 않았다면 지금이 바로 마이그레이션 전략을 시작할 적기입니다. ID 서비스의 중요성과 역할에 대한 자세한 내용은 [Experience Cloud Identity 서비스가 나의 레이더가 되어야 하는 이유](http://blogs.adobe.com/digitalmarketing/analytics/why-new-adobe-marketing-cloud-id-service-should-be-on-your-radar/)/를 참조하십시오.
+나아가 ID 서비스는 현재 및 미래의 수 많은 Experience Cloud 기능, 개선 사항 및 서비스의 필수 구성 요소입니다. 현재 ID 서비스는 [Analytics](http://www.adobe.com/kr/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/kr/marketing-cloud/data-management-platform.html) 및 [Target](http://www.adobe.com/kr/marketing-cloud/testing-targeting.html)을 지원합니다. Adobe Experience Cloud 장치 Co-op에 참여하려는 경우에도 ID 서비스가 필요합니다. ID 서비스를 구현하지 않았다면 지금이 바로 마이그레이션 전략을 시작할 적기입니다. ID 서비스의 중요성과 역할에 대한 자세한 내용은 [Experience Cloud Identity 서비스가 나의 레이더가 되어야 하는 이유](http://blogs.adobe.com/digitalmarketing/analytics/why-new-adobe-marketing-cloud-id-service-should-be-on-your-radar/)를 참조하십시오.
 
 ## 기능 요약
 
@@ -34,7 +34,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 * 프로필 및 ID를 연결하는 데 사용할 수 있는 공통 키 또는 ID를 만듭니다.
 * 여러 솔루션에서 장치를 고유하게 식별합니다.
-* 동일한 도메인에서 추적할 수 있도록 고객의 도메인에서 퍼스트 파트 쿠키를 설정합니다. 자세한 내용은 쿠키 및 [Experience Cloud Identity Service에](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) 대한 문서를 참조하십시오.
+* 동일한 도메인에서 추적할 수 있도록 고객의 도메인에서 퍼스트 파트 쿠키를 설정합니다. 자세한 내용은 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html)에 대한 문서를 참조하십시오.
 * Experience Cloud 고객 및 파트너로부터 별칭 및 ID 매핑을 받습니다.
 * Experience Cloud에서 ID 동기화를 관리합니다.
 * 광고 기술 에코 시스템에서 다른 타사와 ID 동기화를 지원합니다.
