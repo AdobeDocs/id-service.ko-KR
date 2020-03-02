@@ -1,23 +1,23 @@
 ---
-description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID Service
 seo-description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 25a9af7a28462bc0bd26cf4a5a58203e76a83366
 
 ---
 
 
-# Experience Cloud release notes - 2019 {#release-notes}
+# Experience Cloud 릴리스 노트 - 2019 {#release-notes}
 
-Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
 ## 버전 4.4.1
 
-ECID 실행 확장의 미디어 분석에 대한 사전 옵트인 승인 확인란 추가(CORE-33185)
+ECID Launch 확장에 미디어 분석에 대한 사전 옵트인 승인 확인란 추가(CORE-33185)
 
 **수정 사항**
 
@@ -46,21 +46,21 @@ ECID 실행 확장의 미디어 분석에 대한 사전 옵트인 승인 확인�
 
 ## 버전 4.1
 
-새로운 API `publishDestinations` 변경 사항별로 업데이트합니다. 이 업데이트를 통해 페이지의 레퍼러 정보가 ID 동기화 중에 노출될 수 있습니다. (CORE-23693)
+새로운 API 변경 사항별로 `publishDestinations`을(를) 업데이트합니다. 이 업데이트를 통해 페이지의 레퍼러 정보가 ID 동기화 중에 노출될 수 있습니다. (CORE-23693)
 
 ## 버전 4.2
 
-ECID 옵트인 개체를 통해 IAB TCF용 Audience Manager 플러그인에 대한 지원
+ECID 옵트인 객체를 통해 사용할 수 있는 IAB TCF의 Audience Manager 플러그인에 대한 지원
 
 **수정 사항**
 
-* IAB + OptIn이 신규 고객 확보를 위한 MID를 얻지 못했습니다(CORE-26022).
-* DTM의 옵트인 dotOptInApply 구성에 대한 버그가 수정되었습니다(DTM-12958).
-* ECID 옵트아웃은 ID 동기화를 비활성화합니다(CORE-23814).
+* IAB + OptIn이 신규 고객 확보를 위한 MID를 얻지 못함(CORE-26022).
+* DTM의 옵트인 dotOptInApply 구성에 대한 버그를 수정함(DTM-12958).
+* ECID 옵트아웃은 ID 동기화를 사용하지 않음(CORE-23814).
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. Using [Experience Platform Launch](https://docs.adobelaunch.com/), you can simplify gathering visitor opt-in consents for Experience Cloud solution by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt-in to your consent management system.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://docs.adobelaunch.com/)를 사용하면 Analytics, Target, Audience Manager 등을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화하거나 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
