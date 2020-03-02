@@ -4,7 +4,7 @@ product: ID Service
 audience: end-user
 user-guide-title: Experience Cloud Identity Service Help
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 25a9af7a28462bc0bd26cf4a5a58203e76a83366
 
 ---
@@ -106,7 +106,7 @@ source-git-commit: 25a9af7a28462bc0bd26cf4a5a58203e76a83366
    + [Analytics 및 ID 서비스 FAQ](faq-intro/analytics-faq.md)
    + [기타 Experience Cloud 솔루션에 대한 FAQ](faq-intro/other-faq.md)
 + ID 서비스에 대한 릴리스 노트 {#release-notes}
-   + [2020 릴리스 노트](release-notes/release-notes.md)
+   + [2020년 릴리스 노트](release-notes/release-notes.md)
    + [2019 릴리스 노트](release-notes/notes-2019.md)
    + [2018 릴리스 노트](release-notes/notes-2018.md)
    + [2017 릴리스 노트](release-notes/notes-2017.md)
