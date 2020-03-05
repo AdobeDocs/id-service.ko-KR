@@ -18,7 +18,7 @@ source-git-commit: 98b72f87b188debd6a5f6b86822c3f714647de61
 > ID 서비스에 대한 참조를 약어 또는 이전 이름(예: ECID, Marketing Cloud ID Service(MID) 및 방문자 ID 서비스)으로 볼 수 있습니다. [!UICONTROL Experience Cloud ID 서비스]와 관련 있습니다. 또한 [!UICONTROL Experience Platform ID 서비스]가 표시될 수 있습니다. 명확히 하려면 다음을 확인하십시오.
 
 * [!UICONTROL Experience Platform ID 서비스]: ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 장치 연결 서비스입니다.
-* [!UICONTROL Experience Cloud ID 서비스](ECID): 사이트 방문자에게 할당된 고유한 영구 ID입니다. Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다.
+* [!UICONTROL Experience Cloud ID 서비스]&#x200B;(ECID): 사이트 방문자에게 할당된 고유한 영구 ID입니다. Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다.
 
 조직에서 ID 서비스를 구현하면 이 ID를 통해 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
