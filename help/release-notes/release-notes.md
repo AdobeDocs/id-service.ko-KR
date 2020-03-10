@@ -4,7 +4,7 @@ keywords: ID Service
 seo-description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2020년 릴리스 노트
 title: 2020년 릴리스 노트
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a958ea783bbe602f52635bbf2b315c85a8de57a7
 
 ---
@@ -17,4 +17,4 @@ Experience Cloud ID 서비스(ECID)에 대한 기능 릴리스, 업데이트 또
 ## 버전 4.5
 
 * ECID는 버전 4.5부터 `setCustomerIDs` 메서드에 전송된 모든 빈 ID를 거부합니다. (CORE-38828)
-* Fixed an issue occurring when opt-in is configured as `doesOptInApply=false` and `isIabContext=true.` (CORE-38351)
+* 옵트인이 `doesOptInApply=false` 및 `isIabContext=true.`(으)로 구성되었을 때 발생하는 문제를 수정했습니다(CORE-38351).
