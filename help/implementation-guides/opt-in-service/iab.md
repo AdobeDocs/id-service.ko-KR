@@ -1,16 +1,16 @@
 ---
 description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
 seo-description: IAB TCF(Transparency and Consent Framework)를 위한 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
-seo-title: IAB Framework에서 옵트인 서비스 사용
-title: IAB Framework에서 옵트인 서비스 사용
+seo-title: IAB 프레임워크에서 옵트인 서비스 사용
+title: IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c20510d9b2174b14599eab04fb694389ff87589
 
 ---
 
 
-# Using Opt-in Services with IAB Framework{#using-opt-in-services-with-iab-framework}
+# IAB 프레임워크에서 옵트인 서비스 사용{#using-opt-in-services-with-iab-framework}
 
 IAB TCF를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
 
@@ -44,7 +44,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 >[!IMPORTANT]
 >
->쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purposes 1, 2, 5에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. Audience Manager 설명서의 IAB TCF용 Audience Manager 플러그인에 대한 자세한 내용은 [여기](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html)에서 확인합니다.
+>쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purposes 1, 2, 5에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. Audience Manager 설명서의 IAB TCF용 Audience Manager 플러그인에 대한 자세한 내용은 [여기](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html)에서 확인합니다.
 
 옵트인과 IAB TCF용 Audience Manager 플러그인을 모두 확인하는 방법에 대해서는 [여기](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0)에 나와 있는 유효성 검사 가이드의 사용 사례 4를 확인하십시오.
 
@@ -52,6 +52,6 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 * [IAB TCF(Transparency and Consent Framework)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) - IAB 표준에 대한 자세한 정보
 * [Adobe 옵트인](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360) - 플랫폼 솔루션의 동의 관리에 필요한 구성 요소인 옵트인에 대한 자세한 정보
-* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)의 IAB TCF(Transparency and Consent Framework) 지원
-* [개인 정보 보호 선택 사항](https://www.adobe.com/privacy/opt-out.html#customeruse) - 사용자 처리 시 다른 개인 정보 보호 옵션은 다른 전역 옵트아웃 도구를 사용하여 모든 데이터 수집을 옵트아웃하는 기능입니다. 전역 옵트아웃이 옵트인 및 IAB 확인보다 우선함
+* [Audience Manager](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)의 IAB TCF(Transparency and Consent Framework) 지원
+* [개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) - 사용자 처리 시 다른 개인 정보 보호 옵션은 다른 전역 옵트아웃 도구를 사용하여 모든 데이터 수집을 옵트아웃하는 기능입니다. 전역 옵트아웃이 옵트인 및 IAB 확인보다 우선함
 
