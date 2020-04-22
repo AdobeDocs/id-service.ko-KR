@@ -5,7 +5,7 @@ seo-description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업�
 seo-title: 2019 릴리스 노트
 title: 2019 릴리스 노트
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ece066545f4ca4a7bd1eca67c8f02dcd2a88369
 
 ---
@@ -17,7 +17,7 @@ Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 �
 
 ## 버전 4.4.1
 
-ECID 실행 확장의 미디어 분석에 대한 사전 옵트인 승인 확인란을 추가합니다.
+ECID Launch 확장에 미디어 분석에 대한 사전 옵트인 승인 확인란을 추가합니다.
 
 **수정 사항**
 
@@ -33,8 +33,8 @@ ECID 실행 확장의 미디어 분석에 대한 사전 옵트인 승인 확인�
 **수정 사항, 향상된 기능, 개선 사항**
 
 * `cookieDomain`에 대한 구성을 업데이트했습니다. 이제 ECID 라이브러리는 `initConfig`에서 빈 문자열 `cookieDomain`을 필터링하고 getDomain 메서드에서 반환된 최상위 수준의 쿠키 도메인을 사용합니다.
-* `getVisitorValues`에서 `localVisitor`와 관련된 버그를 수정했습니다. 
-* `getVisitorValue` 메서드에서 반환된 Safari 브라우저의 MCOPTOUT 값에 대한 불일치 문제가 발생한 버그를 수정했습니다. 
+* `getVisitorValues`에서 `localVisitor`와 관련된 버그를 수정했습니다.
+* `getVisitorValue` 메서드에서 반환된 Safari 브라우저의 MCOPTOUT 값에 대한 불일치 문제가 발생한 버그를 수정했습니다.
 * 이벤트에서 구독을 해지하기 위해 `optIn.off`를 추가하여 옵트인 라이브러리를 업데이트했습니다.
 * `setTimeout`이 일부 고객 사이트에서 CSP(Content Security Policy)를 위반한 setTimeout 함수와 관련된 버그를 수정했습니다.
 
@@ -54,9 +54,9 @@ ECID 옵트인 객체를 통해 사용할 수 있는 IAB TCF의 Audience Manager
 
 **수정 사항**
 
-* IAB + OptIn이 고객을 수정하기 위해 MID를 가져오지 못했습니다.
-* DTM 파섹
-* ECID 옵트아웃은 ID 동기화를 비활성화합니다.
+* IAB + OptIn이 신규 고객 확보를 위한 MID를 얻지 못했습니다.
+* DTM의 옵트인 dotOptInApply 구성에 대한 버그를 수정했습니다.
+* ECID 옵트아웃은 ID 동기화를 사용하지 않습니다.
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
@@ -67,4 +67,4 @@ ECID 옵트인 객체를 통해 사용할 수 있는 IAB TCF의 Audience Manager
 | 항목 | 설명 |
 |---|---|
 | 문자열을 전달한 경우 `disableIdSyncs` 플래그가 작동하지 않습니다. | 수정되었습니다. `getInstance` 함수의 `disableidSyncs` 매개 변수에 설정된 값이 이제 적용됩니다. |
-| 타사 iFrame에서 ECID를 받지 못함 | Safari Mobile 및 ECID가 작동하지 않는 다양한 iFrame의 ECID를 수정했습니다. |
+| 타사 iFrame에서 ECID를 받지 못함 | Safari Mobil의 ECID 및 작동하지 않는 다양한 iFrame의 ECID를 수정했습니다. |
