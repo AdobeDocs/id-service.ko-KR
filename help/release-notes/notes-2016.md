@@ -1,12 +1,12 @@
 ---
 description: 2016년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: 2016년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2016 릴리스 노트
 title: 2016 릴리스 노트
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 2016년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 공지 사항에 대해서는 [이전 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html)를 참조하십시오.[!DNL Experience Cloud]
+이러한 변경 사항은 [Experience Cloud 릴리스 노트에서도 캡처됩니다](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
 
 ## 버전 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -32,7 +32,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 * 서버측 환경에 ID 서비스를 구현하는 방법에 대한 지침을 추가했습니다.
 * 자신이 소유한 다른 도메인의 Experience Cloud 및 Analytics ID를 덮어쓸 수 있는 부울 함수인 `Visitor.overwriteCrossDomainMCIDAndAID`가 추가되었습니다. [방문자 ID 덮어쓰기](../library/function-vars/overwrite-visitor-id.md#reference-9db13d637ce44fb6a8d519de5743ccde)를 참조하십시오.
 
-* `TS = UTC` 타임스탬프를 `visitor.appendVisitorIDsTo` 함수의 속성으로 추가했습니다. ID 서비스는 5분 에이징 간격을 기반으로 하여 리디렉션 URL에서 ID를 사용해야 하는지 여부를 결정하는 데 타임스탬프를 사용합니다. 자세한 내용은 [방문자 ID 함수 추가](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce).
+* `TS = UTC` 타임스탬프를 `visitor.appendVisitorIDsTo` 함수의 속성으로 추가했습니다. ID 서비스는 타임스탬프를 사용하여 5분 에이징 간격을 기준으로 리디렉션 URL의 ID를 사용해야 하는지 확인합니다. See [Append Visitor ID Function](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce).
 
 * 지역 ID를 반환하는 `Visitor.getLocationHint,` 함수가 새로 추가되었습니다. [지역 ID 가져오기(위치 힌트)](../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c)를 참조하십시오.
 
@@ -48,8 +48,8 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 **수정 사항 및 향상된 기능**
 
 * Audience Manager 고유 사용자 ID(AAMUUID)를 Experience Cloud ID로 ID 서비스에 전달하는 버그를 수정했습니다.
-* AMCV 쿠키에 대한 TTL(time-to-live)이 만료된 경우, ID 서비스에서는 Experience Cloud ID가 쿠키에 들어 있는 한 해당 정보를 서버에 반환합니다. 이 호출 후, ID 서비스는 비동기 호출을 만들어 쿠키를 업데이트합니다. 이렇게 하면 ID 서비스가 서버 응답을 기다릴 필요가 없으므로 성능을 개선하는 데 도움이 됩니다. 이 서비스에서는 기존의 AMCV 쿠키 값을 사용한 다음, 업데이트를 요청할 수 있습니다.
-* ID 서비스는 Experience Cloud ID(MID)를 페이지의 Adobe Media Optimizer 및 기타 내부 Adobe 도메인과 직접 자동으로 동기화합니다. 기존 계정 및 신규 계정 전체에 자동 동기화가 활성화됩니다. 이것은 Media Optimizer에 대한 일치율을 개선하는 데 도움이 됩니다. VisitorAPI.js 버전 1.8, 이상에 적용됩니다. [ID 동기화 및 일치율 이해](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab)를 참조하십시오.
+* AMCV 쿠키에 대한 TTL(time-to-live)이 만료된 경우 쿠키에 Experience Cloud ID가 포함되어 있는 한 ID 서비스는 여전히 해당 정보를 서버로 반환합니다. 이 호출 후에 ID 서비스는 쿠키를 업데이트하기 위해 비동기 호출을 만듭니다. 이렇게 하면 ID 서비스가 서버 응답을 기다릴 필요가 없기 때문에 성능이 향상됩니다. 기존 AMCV 쿠키 값을 사용한 다음 업데이트를 요청할 수 있습니다.
+* ID 서비스는 Experience Cloud ID(MID)를 페이지에서 바로 Adobe Media Optimizer 및 다른 내부 Adobe 도메인과 자동으로 동기화합니다. 기존 계정 및 신규 계정 전체에 자동 동기화가 활성화됩니다. 이를 통해 Media Optimizer의 일치 비율을 높일 수 있습니다. VisitorAPI.js 버전 1.8, 이상에 적용됩니다. [ID 동기화 및 일치율 이해](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab)를 참조하십시오.
 
 **새로운 설명서 및 수정된 설명서**
 
@@ -81,7 +81,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 **알려진 문제**
 
-같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://marketing.adobe.com/resources/help/en_US/aam/?f=dil-secure-data-collection.html)을 참조하십시오.
+같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. secureDataCollection을 [참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html).
 
 ## 버전 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
@@ -100,8 +100,8 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>CORS(교차 도메인 리소스 공유) </p> </td> 
-   <td colname="col2"> <p>CORS를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud Identity 서비스는 클라이언트측의 교차 도메인 리소스 요청이 가능하도록 CORS 표준을 지원합니다. ID 서비스는 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다. </p> <p>다음을 참조하십시오. </p> 
+   <td colname="col1"> <p>CORS(Cross-Origin Resource Sharing) </p> </td> 
+   <td colname="col2"> <p>CORS를 사용하면 브라우저가 현재 도메인이 아닌 도메인에서 리소스를 요청할 수 있습니다. Experience Cloud Identity 서비스는 클라이언트측의 교차 도메인 리소스 요청이 가능하도록 CORS 표준을 지원합니다. ID 서비스는 CORS를 지원하지 않는 브라우저의 JSONP 요청으로 돌아갑니다. </p> <p>다음을 참조하십시오. </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
      <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local">Experience Cloud Identity 서비스에서 CORS 지원</a> </li> 
     </ul> </td> 
@@ -111,10 +111,10 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 **수정 사항 및 향상된 기능**
 
-* ID 동기화 호출에 대한 `d_fieldgroup` 매개 변수를 `dpm.demdex.net`에 추가했습니다. 이 새 매개 변수는 내부 문제 해결 및 디버깅 목적에 사용됩니다.
+* ID 동기화 호출에 대한 `d_fieldgroup` 매개 변수를 `dpm.demdex.net`에 추가했습니다. 이 새 매개 변수는 내부 문제 해결 및 디버깅에 사용됩니다.
 
-* ID 서비스 iFrame에 제목 속성이 추가되었습니다. iFrame 제목 도움말 스크린 리더는 온라인 컨텐츠와 상호 작용할 때 지원이 필요한 사용자에게 페이지 정보를 제공합니다. iFrame 제목 속성이 `Adobe ID Syncing iFrame`으로 설정되어 있습니다. 
-* `idSyncAttachIframeASAP: true`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 플래그로 추가됨. `true`일 경우, ID 서비스는 최대한 빠르게 ID 동기화 iFrame을 로드합니다. ID 동기화 일치율을 향상시킬 수 있도록 설계되었습니다. 기본적으로 ID 서비스는 iFrame을 윈도우 로드에 로드합니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
+* ID 서비스 iFrame에 제목 속성을 추가했습니다. iFrame 제목 도움말 스크린 리더는 온라인 컨텐츠와 상호 작용할 때 지원이 필요한 사용자에게 페이지 정보를 제공합니다. iFrame 제목 속성이 `Adobe ID Syncing iFrame`으로 설정되어 있습니다. 
+* `idSyncAttachIframeASAP: true`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 플래그로 추가됨. `true`일 경우, ID 서비스는 최대한 빠르게 ID 동기화 iFrame을 로드합니다. ID 동기화 일치 비율을 개선하는 데 도움이 됩니다. 기본적으로 ID 서비스는 창 로드 시 iFrame을 로드합니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
 
 * AppMeasurement에서 무한 루프가 발생한 원인이 되는 콜백 함수 버그를 수정했습니다.
 * 기본 `loadTimeout` 간격이 500밀리초에서 30,000밀리초로 변경되었습니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
@@ -145,7 +145,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">iframe.sandbox</span> 속성 변경 </p> </td> 
-   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>이제 iFrame이 <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin';</span>으로 설정되었습니다. </p> <p>이 2개의 토큰만 허용하므로 보안이 강화되고 ID 서비스에 ID 동기화에 필요한 기본 기능이 제공됩니다. </p> <p>sandbox 속성은 Internet Explorer 버전 9 이하에서 지원되지 않습니다. 자세한 내용은 이 <a href="https://developer.mozilla.org/ko-KR/docs/Web/HTML/Element/iframe" format="https" scope="external">iFrame 설명서</a>의 속성 섹션을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID(MID) 인코딩 </p> </td> 
@@ -156,7 +156,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 **수정 사항**
 
-방문자 API는 기존 Analytics 방문자 ID가 없는 경우 Audience Manager와의 추가 재동기화 호출을 지정하지 않습니다.
+이전 Analytics 방문자 ID가 없을 때 방문자 API는 더 이상 Audience Manager와 추가적인 재동기화 호출을 강제로 수행하지 않습니다.
 
 ## 버전 1.5.x {#section-a62ae48275324058b57edf66ee5a579f}
 
@@ -203,7 +203,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 * [Analytics용 Experience Cloud Identity 서비스 ](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd): [!DNL Analytics]에서 ID 서비스를 설정하는 방법을 설명하는 새로운 절차입니다.
 
-* [Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): 명확성을 위해 텍스트가 수정되었습니다. 단일 도메인 사용이란 데이터 수집 CNAME을 더 이상 관리하지 않으려는 경우 여기에서 마이그레이션할 수 있음을 의미합니다. 그렇지만 CNAME이 작동하는 경우에는 변경할 필요가 없습니다.
+* [Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): 명확성을 위해 텍스트가 수정되었습니다. 단일 도메인을 사용하여 작업하면 더 이상 관리하지 않으려는 경우 데이터 수집 CNAME에서 마이그레이션할 수 있습니다. 그러나 CNAME이 작동하는 경우에는 변경할 필요가 없습니다.
 
 ## 버전 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 
@@ -221,7 +221,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../reference/authenticated-state.md" format="dita" scope="local"> 고객 ID 및 인증 상태 </a> </p> </td> 
-   <td colname="col2"> <p>텍스트가 개정되었습니다. 고객 ID를 인코딩 해제된 값으로만 전달해야 합니다. 인코딩 ID는 이중으로 인코딩된 식별자를 만듭니다. </p> </td> 
+   <td colname="col2"> <p>텍스트가 수정되었습니다. 고객 ID는 인코딩되지 않은 값으로만 전달되어야 합니다. 인코딩 ID는 이중으로 인코딩된 식별자를 만듭니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
