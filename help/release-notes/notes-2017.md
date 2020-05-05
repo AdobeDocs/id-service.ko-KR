@@ -1,12 +1,12 @@
 ---
 description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2017 릴리스 노트
 title: 2017 릴리스 노트
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)에도 캡처되어 있습니다. 이전 ID 서비스 릴리스 정보에 대해서는 [이전 릴리스 정보](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) 또는 이 페이지 맨 아래에 있는 링크를 참조하십시오.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트에서도 캡처됩니다](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **버그 수정 및 기타 변경**
 
-* 해당 브라우저에서 뒤로 버튼을 클릭할 때 ID 서비스가 오류를 발생시키는 Chrome 관련 버그가 수정되었습니다.
-* 이제 ID 서비스는 이벤트 호출 응답의 지역 ID가 변경되면 ID 동기화를 다시 시작합니다.
-* 새 설명서, [컨텐츠 보안 정책 및 Experience Cloud Identity 서비스](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)가 추가되었습니다. 이 설명서는 ID 서비스에서 사용하는 Adobe 도메인에 대한 호출을 화이트리스트에 작성하는 방법을 설명합니다.
+* 해당 브라우저에서 뒤로 단추를 클릭할 때 ID 서비스에서 오류가 발생하던 크롬 관련 버그가 수정되었습니다.
+* 이제 ID 서비스가 이벤트 호출 응답의 지역 ID가 변경되면 ID 동기화를 다시 실행합니다.
+* Added new documentation, [Content Security Policies and the Experience Cloud Identity Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
 
 ## 버전 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
@@ -74,7 +74,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **개정된 설명서**
 
-다른 [FAQ](/help/faq-intro/faq-intro.md)에 다른 [!DNL Experience Cloud] 솔루션에 대한 별도의 FAQ를 포함하도록 업데이트되고 수정되었습니다.
+다른 [솔루션에 대해 별도의 FAQ를 포함하도록 FAQ를](/help/faq-intro/faq-intro.md) [!DNL Experience Cloud] 업데이트 및 수정했습니다.
 
 ## 버전 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
@@ -101,8 +101,8 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **버그 수정 및 기타 변경**
 
-* ID 서비스와 Target이 Internet Explorer에서 함께 작동하지 못하게 하는 VisitorAPI.js v2.2의 버그를 수정했습니다.
-* ID 서비스에서 대상 게시 iFrame에 데이터를 보내는 방법을 개선하는 데 도움이 되도록 코드를 수정했습니다. 이렇게 하면 CPU 사용량이 줄어듭니다.
+* ID 서비스와 Target이 Internet Explorer에서 함께 작동하지 않는 VisitorAPI.js v2.2의 버그를 수정했습니다.
+* ID 서비스가 데이터를 대상 게시 iFrame으로 보내는 방법을 개선하기 위해 코드를 수정했습니다. CPU 사용을 줄이는 데 도움이 됩니다.
 
 ## 버전 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
 
@@ -118,12 +118,12 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../library/function-vars/whitelistdomain.md#reference-999899ff7b5b429a8824c9db7a379808" format="dita" scope="local"> whitelistParentDomain 및 whitelistIframeDomains </a> </p> </td> 
-   <td colname="col2"> <p>이러한 구성을 사용하면 iFrame 및 상위 페이지에 구현된 ID 서비스 코드의 다른 인스턴스가 서로 정보를 교환할 수 있습니다. 이러한 구성은 상위 페이지/도메인을 제어할 수 있거나 제어할 수 없고 사용자가 제어하는 도메인의 iFrame에서 ID 서비스 코드가 로드되는 2가지 특정 사용 사례의 문제를 해결하는 데 도움이 되도록 설계되어 있으며,  </p> </td> 
+   <td colname="col2"> <p>이러한 구성을 사용하면 iFrame 및 상위 페이지에 구현된 ID 서비스 코드의 다른 인스턴스가 서로 통신할 수 있습니다. 상위 페이지/도메인을 제어할 수 있거나 제어할 수 없고 제어하는 도메인의 iFrame에서 ID 서비스 코드가 로드되는 2개의 특정 사용 사례와 관련된 문제를 해결하는 데 도움이 되도록 설계되었습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 5월 설명서 업데이트 {#section-1d36b91bb7a140ce8a145251ffac9f2f}
+## Documentation Updates for May {#section-1d36b91bb7a140ce8a145251ffac9f2f}
 
 <table id="table_CD031A716A694E8FA89695C9B614BC91"> 
  <thead> 
@@ -188,11 +188,11 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **수정 사항**
 
-ID 서비스에서 AMCV 쿠키에 저장된 ID를 사용하지 않고 ID에 대한 중복 서버 호출을 수행했던 버그를 수정했습니다. (MCID-296)
+ID 서비스가 AMCV 쿠키에 저장된 ID를 사용하는 대신 ID에 대한 중복 서버 호출을 생성하는 버그를 수정했습니다. (MCID-296)
 
 **새 설명서**
 
-[다른 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용 `Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/en_US/mcloud/dns-prefetch.html)
+[다른 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용](https://docs.adobe.com/content/help/en/core-services/interface/more-resources/dns-prefetch.html)
 
 ## 버전 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
@@ -204,9 +204,9 @@ ID 서비스에서 AMCV 쿠키에 저장된 ID를 사용하지 않고 ID에 대�
 
 **수정 사항 및 향상된 기능**
 
-* AppMeasurement가 Analytics에 대한 호출을 추적할 수 없는 버그를 수정했습니다. (MCID-254, MCID-256, MCID-286).
-* 방문자가 광고 차단기를 활성화하고 해당 차단기가 demdex.net 도메인을 제외하도록 구성된 경우 ID 서비스가 바로 실패하지 않는 버그를 수정했습니다. 대부분의 광고 차단 도구가 demdex.net 도메인을 차단하지 않기 때문에 이 버그는 거의 발생하지 않습니다. (MCID-233)
-* 고객 웹사이트에서 ID 서비스 코드와 사용자 정의 스크립트 간 상호 작용에 의해 발생한 버그를 수정했습니다. 이 문제로 인해 Internet Explorer 9에 웹 페이지가 로드되지 않았습니다. (MCID-206)
+* AppMeasurement가 Analytics에 대한 추적 호출을 하지 못했던 버그를 수정했습니다. (MCID-254, MCID-256, MCID-286)
+* 방문자가 광고 차단을 활성화했고 해당 차단이 demdex.net 도메인을 제외하도록 구성된 경우 ID 서비스가 바로 실패하지 않던 버그를 수정했습니다. 대부분의 광고 차단 도구가 demdex.net 도메인을 차단하지 않으므로 이는 드물고 이례적인 버그입니다. (MCID-233)
+* 고객 웹 사이트에서 ID 서비스 코드와 사용자 지정 스크립트 간의 상호 작용으로 인해 발생하는 버그를 수정했습니다. 이 문제로 인해 Internet Explorer 9에서 웹 페이지를 로드할 수 없었습니다. (MCID-206)
 
 ## 이전 연도 {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
