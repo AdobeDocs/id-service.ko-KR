@@ -1,12 +1,12 @@
 ---
 description: Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동되는지에 대한 개요입니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동되는지에 대한 개요입니다.
 seo-title: Analytics 및 Experience Cloud ID 요청
 title: Analytics 및 Experience Cloud ID 요청
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동�
 
 ## AMCV 쿠키가 브라우저에서 설정되지 않음 {#section-cccf10cd775e4a95a7e98d3c3c0ff9a9}
 
-[!DNL Experience Cloud] (AMCV) 쿠키가 없는 경우 [!DNL Adobe] 에 대한 ID 서비스 호출은 기존 Analytics ID의 존재 여부에 따라 달라지는 응답을 생성합니다. 이전 [!DNL Analytics] ID는 [s_vi 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html)에 저장됩니다. 아래 표는 s_vi 쿠키의 상태를 기반으로 AMCV 쿠키에 ID를 쓰는 방법을 설명합니다.
+[!DNL Experience Cloud] (AMCV) 쿠키가 없는 경우 [!DNL Adobe] 에 대한 ID 서비스 호출은 기존 Analytics ID의 존재 여부에 따라 달라지는 응답을 생성합니다. 기존 [!DNL Analytics] ID는 [s_vi cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html)에 저장됩니다. 아래 표는 s_vi 쿠키의 상태를 기반으로 AMCV 쿠키에 ID를 쓰는 방법을 설명합니다.
 
 <table id="table_DC85FECE26DD424E841BA1059AF1E57F"> 
  <thead> 
@@ -40,7 +40,7 @@ Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동�
    <td colname="col2"> <p>s_vi 쿠키를 사용하는 사이트 방문자가 Experience Cloud Identity 서비스를 처음 사용하면 이 서비스는 다음을 수행합니다. </p> 
     <ul id="ul_BE584810280D4874AF802A9247011787"> 
      <li id="li_AA395B09A3174AF78F3EC10053E2E4F5">s_vi 쿠키에 저장된 <span class="keyword">Analytics</span> ID를 AMCV 쿠키에 씁니다. AID(<span class="keyword">Analytics</span> ID)로 기록됩니다. 이 동작은 방문자 수에 영향을 미치지 <i>않습니다</i>. <span class="keyword"> Analytics</span>는 이전 ID를 사용하여 사용자를 계속 식별합니다. </li> 
-     <li id="li_8735DE21FEA542BA8024109B8FE1E2ED">MID를 AMCV 쿠키에 씁니다. MID는 여러 다른 솔루션에서 사용자를 식별합니다. </li> 
+     <li id="li_8735DE21FEA542BA8024109B8FE1E2ED">MID를 AMCV 쿠키에 씁니다. MID는 다른 솔루션에서 사용자를 식별합니다. </li> 
     </ul> <p> <p>참고: <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local">유예 기간</a>을 사용할 경우 데이터 센터 응답에는 항상 s_vi 쿠키에 저장된 이전 ID가 포함됩니다. 유예 기간 동안 이전 ID가 AMCV 쿠키에 AID 값으로 기록됩니다. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -48,7 +48,7 @@ Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동�
 
 >[!NOTE]
 >
->s_fid 쿠키로 식별되는 사용자의 이전 FID 값은 AMCV 쿠키로 마이그레이션되지 않습니다. s_fid 쿠키가 있는 경우 사용자는 마치 s_vi 쿠키가 없는 것처럼(위 참조) 마이그레이션되고 사이트의 새 방문자로 나타납니다. 자세한 내용은 [Analytics 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html)를 참조하십시오.
+>s_fid 쿠키로 식별되는 사용자의 이전 FID 값은 AMCV 쿠키로 마이그레이션되지 않습니다. s_fid 쿠키가 있는 경우 사용자는 마치 s_vi 쿠키가 없는 것처럼(위 참조) 마이그레이션되고 사이트의 새 방문자로 나타납니다. 자세한 내용은 [Analytics 쿠키를](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) 참조하십시오.
 
 ## AMCV 쿠키가 브라우저에서 설정됨 {#section-01c088fc565c4b24ba1722c7cc240310}
 
