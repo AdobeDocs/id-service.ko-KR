@@ -1,19 +1,19 @@
 ---
-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
-keywords: ID 서비스
-seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
+description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
+keywords: ID Service
+seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 seo-title: Experience Cloud Identity 서비스와 직접 통합
 title: Experience Cloud Identity 서비스와 직접 통합
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # Experience Cloud Identity 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
 
-이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 승인하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 어플라이언스와 같은 장치가 여기에 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
+이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 
 ## 구문 {#section-a4754afec5ad40b6be00d6f1011d68bb}
 
@@ -21,19 +21,19 @@ VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 장치�
 
 ![](assets/directSyntax.png)
 
-이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. 다른 변수에 대한 자세한 내용은 [DCS API 호출 시 지원되는 속성](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)을 참조하십시오.
+이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. For more information about other variables, see [Supported Attributes for DCS API calls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
-ID 서비스는 HTTP 및 HTTPS 호출을 지원합니다. 보안 페이지의 데이터를 전달하려면 HTTPS를 사용합니다.
+ID 서비스는 HTTP 및 HTTPS 호출을 지원합니다. 보안 페이지에서 데이터를 전달하려면 HTTPS를 사용합니다.
 
 ## 샘플 요청 {#section-26302b8851704888b6f8e6b2071bcdb0}
 
-요청은 아래 표시된 샘플과 유사하게 보일 수 있습니다. 긴 변수가 축소되었습니다.
+요청이 아래 표시된 샘플과 유사할 수 있습니다. 긴 변수가 단축되었습니다.
 
 ![](assets/directExample.png)
 
 ## 샘플 응답 {#section-89bc103b3e9e4a8b98e74c32897b1200}
 
-ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합니다. 응답이 다를 수 있습니다.
+ID 서비스는 아래와 같이 JSON 개체에 있는 데이터를 반환합니다. 반응이 다를 수 있습니다.
 
 ```js
 {
@@ -58,15 +58,15 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dpm.demdex.net</span> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Adobe</span>에서 제어하는 기존 도메인입니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>를 참조 하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Adobe</span>에서 제어하는 기존 도메인입니다. <a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>를 참조 하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 방문자 ID입니다. 자세한 내용은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 방문자 ID. See <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 조직 ID입니다. 이 ID를 찾는 데 도움이 필요하면 <a href="../reference/requirements.md" format="dita" scope="local"> Experience Cloud Identity 서비스 요구 사항</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 조직 ID. 이 ID를 찾는 데 도움이 필요하면 Experience Cloud ID 서비스 <a href="../reference/requirements.md" format="dita" scope="local"> 요구 사항을 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
@@ -88,7 +88,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>ID 서비스는 지리적으로 분산되고 로드 분산된 시스템입니다. ID는 호출을 처리하는 데이터 센터의 영역을 식별합니다. <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>ID 서비스는 지리적으로 분산된 부하 균형 조정 시스템입니다. ID는 호출을 처리하는 데이터 센터의 영역을 식별합니다. <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cb</span> </p> </td> 
@@ -96,7 +96,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_blob</span> </p> </td> 
-   <td colname="col2"> <p>JavaScript 메타데이터의 암호화된 청크입니다. 크기 제한은 Blob을 512바이트 이하로 제한합니다. </p> </td> 
+   <td colname="col2"> <p>JavaScript 메타데이터의 암호화된 청크입니다. 크기 제한은 Blob를 512바이트 이하로 제한합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_ver</span> </p> </td> 
@@ -107,7 +107,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
 
 **응답 매개 변수**
 
-일부 응답 매개 변수는 요청에 포함되며, 위 섹션에서 정의되어 있습니다.
+일부 응답 매개 변수는 요청의 일부이며 위의 섹션에 정의되어 있습니다.
 
 <table id="table_58D0E8876DDC4A81B1F24F845E87EC18"> 
  <thead> 
@@ -119,7 +119,7 @@ ID 서비스는 아래에 표시된 대로 JSON 개체에 데이터를 반환합
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> id_sync_ttl</span> </p> </td> 
-   <td colname="col2"> <p>초 단위로 지정된 재동기화 간격입니다. 기본 간격은 604,800초(7일)입니다. </p> </td> 
+   <td colname="col2"> <p>재동기화 간격(초 단위)입니다. 기본 간격은 604,800초(7일)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
