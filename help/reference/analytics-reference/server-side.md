@@ -1,12 +1,12 @@
 ---
 description: '일부 구현에서 방문자 ID가 JavaScript에서 서버로 전달되므로 서버에서 추가 Analytics 이벤트(예: 구입)를 전송할 수 있습니다.'
-keywords: ID 서비스
+keywords: ID Service
 seo-description: '일부 구현에서 방문자 ID가 JavaScript에서 서버로 전달되므로 서버에서 추가 Analytics 이벤트(예: 구입)를 전송할 수 있습니다.'
 seo-title: JavaScript와 혼합된 서버측 구현
 title: JavaScript와 혼합된 서버측 구현
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 일부 구현에서 방문자 ID가 JavaScript에서 서버로 전달되므로 서버에서 추가 Analytics 이벤트(예: 구입)를 전송할 수 있습니다.
 
-ID 서비스 API는 ID 값을 검색한 다음 서버로 전달하기 위해 [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md) 및 [getAnalyticsVisitorID](../../library/get-set/getanalyticsvisitorid.md) 메서드를 제공합니다.
+ID 서비스 API는 서버에 전달할 수 있는 ID 값을 검색할 수 있도록 [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md) 및 [getAnalyticsVisitorID](../../library/get-set/getanalyticsvisitorid.md)메서드를 제공합니다.
 
 Experience Cloud 방문자 ID와 Analytics 방문자 ID를 모두 확인하고 두 ID(있는 경우)를 모두 전송하여 전송된 데이터가 기존 Analytics 방문자 프로필과 연결되어 있는지 확인합니다.
 
@@ -29,7 +29,7 @@ Analytics 방문자 ID(설정된 경우)를 `<visitorID>` 요소에 포함합니
 
 Experience Cloud 방문자 ID를 `<marketingCloudVisitorID>` 요소에 포함합니다.
 
-[지원되는 XML 태그](https://marketing.adobe.com/developer/en_US/documentation/data-insertion/r-supported-tags)를 참조하십시오.
+지원되는 [XML 태그를 참조하십시오](https://www.adobe.io).
 
 ## Java용 AppMeasurement {#section-d664b94934924d048300d9c2b6560085}
 
