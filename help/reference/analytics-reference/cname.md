@@ -5,8 +5,8 @@ seo-description: 'null'
 seo-title: 데이터 수집 CNAME 및 도메인 간 추적
 title: 데이터 수집 CNAME 및 도메인 간 추적
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
-translation-type: ht
-source-git-commit: 8f4175b942ed4228ccd1f96791aa668be8aff95d
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -15,21 +15,21 @@ source-git-commit: 8f4175b942ed4228ccd1f96791aa668be8aff95d
 
 고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드 파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.
 
-타사 쿠키를 수락하는 브라우저에서 쿠키는 방문자 ID에 대한 요청 동안 데이터 수집 서버에 의해 설정됩니다. 이 쿠키를 사용하면 방문자 ID 서비스에서는 동일한 Experience Cloud 조직 ID를 사용하여 구성된 모든 도메인에 동일한 Experience Cloud 방문자 ID를 반환할 수 있습니다.
+타사 쿠키를 허용하는 브라우저의 경우, 쿠키는 방문자 ID에 대한 요청 중에 데이터 수집 서버에서 설정합니다. 이 쿠키를 사용하면 방문자 ID 서비스가 동일한 Experience Cloud 조직 ID를 사용하여 구성된 모든 도메인에서 동일한 Experience Cloud 방문자 ID를 반환할 수 있습니다.
 
-타사 쿠키를 거부하는 브라우저에서는 새 Experience Cloud 방문자 ID가 각 도메인에 대해 지정됩니다.
+타사 쿠키를 거부하는 브라우저에서는 각 도메인에 대해 새 Experience Cloud 방문자 ID가 할당됩니다.
 
-demdex.net 쿠키를 사용하여 방문자 ID 서비스는 Analytics의 s_vi 쿠키와 동일한 수준의 도메인 간 추적을 제공합니다. Analytics에서 쿠키는 일부 브라우저에서 수락되고 도메인 간에 사용되지만 다른 브라우저에서는 거부됩니다.
+demdex.net 쿠키를 사용하면 방문자 ID 서비스가 Analytics의 s_vi 쿠키와 동일한 수준의 도메인 간 추적을 제공할 수 있습니다. 이 쿠키는 일부 브라우저에서 수락되고 도메인 간에 사용되지만 다른 브라우저에서는 거부됩니다.
 
-## 데이터 수집 CNAME {#section-48fd186d376a48079769d12c4bd9f317}
+## Data Collection CNAMEs {#section-48fd186d376a48079769d12c4bd9f317}
 
-데이터 수집 서버에서 Analytics 쿠키를 설정한 경우 많은 고객은 서드 파티 쿠키를 거부하는 브라우저 문제를 피하기 위해 데이터 수집 서버 CNAME 레코드를 [퍼스트 파티 쿠키 구현](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)의 일부로 구성했습니다. 이 프로세스는 데이터 수집 서버 도메인을 사용자 웹 사이트의 도메인과 일치하게 구성하여 방문자 ID 쿠키가 퍼스트 파티 쿠키로 설정되도록 합니다.
+When the Analytics cookie was set by the data collection server, many customers have configured data collection server CNAME records as part of a [first-party cookie implementation](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) to avoid issues with browsers that reject third-party cookies. 이 프로세스에서는 방문자 ID 쿠키가 퍼스트 파티 쿠키로 설정되도록 데이터 수집 서버 도메인을 웹 사이트 도메인과 일치하도록 구성합니다.
 
-방문자 ID 서비스는 JavaScript를 사용하여 현재 웹 사이트의 도메인에서 직접 방문자 쿠키를 설정하므로 퍼스트 파티 쿠키를 설정하는 데 이 구성이 더 이상 필요하지 않습니다.
+방문자 ID 서비스는 JavaScript를 사용하여 현재 웹 사이트의 도메인에서 직접 방문자 쿠키를 설정하므로 퍼스트 파티 쿠키를 설정하는 데 더 이상 이 구성이 필요하지 않습니다.
 
 단일 웹 속성(단일 도메인)을 갖는 고객은 데이터 수집 CNAME 외부로 마이그레이션하고 대신 기본 데이터 수집 호스트 이름(`omtrdc.net` 또는 `2o7.net`)을 사용할 수 있습니다.
 
-그렇지만 데이터 수집에 대해 CNAME을 사용하면 브라우저에서 기본 랜딩 도메인과 서드 파티 쿠키를 수락하지 않는 다른 도메인 사이에서 방문자를 추적할 수 있다는 추가적인 이점이 있습니다. 여러 웹 속성(다중 도메인)을 갖는 고객은 데이터 수집 CNAME을 유지 관리하여 혜택을 얻을 수 있습니다. 다음 섹션에서는 도메인 간 방문자 추적 기능이 작동하는 방식을 설명합니다.
+그러나 데이터 수집에 CNAME을 사용하면 기본 랜딩 도메인과 서드 파티 쿠키를 수락하지 않는 브라우저의 다른 도메인 간 방문자를 추적할 수 있습니다. 여러 웹 속성(여러 도메인)을 가진 고객은 데이터 수집 CNAME을 유지 관리함으로써 혜택을 받을 수 있습니다. 다음 섹션에서는 도메인 간 방문자 추적이 작동하는 방식을 설명합니다.
 
 ## CNAME이 도메인 간 추적을 가능하게 하는 방식 {#section-78925af798e24917b9abed79de290ad9}
 
