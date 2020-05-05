@@ -1,37 +1,37 @@
 ---
-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 만들어 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
-keywords: Playstation;ID 서비스
-seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 만들어 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
+description: ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유한 영구 식별자를 만들고 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
+keywords: playstation;ID Service
+seo-description: ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유한 영구 식별자를 만들고 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
-source-git-commit: 7d7ecdf65cca67539b1b63c8811a0bad04c694c3
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # 쿠키 및 Experience Cloud Identity 서비스{#cookies-and-the-experience-cloud-id-service}
 
-이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 만들어 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
+ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유한 영구 식별자를 만들고 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 
 ## ID 서비스 쿠키 이해 {#section-f438168beaec409ab8b2cc58bd021e26}
 
-이 ID 서비스는 올바르게 작동하기 위해 AMCV, AMCVS 및 demdex 쿠키를 사용합니다. 이러한 쿠키는 ID 서비스에 사용된 데이터를 저장하는 파일입니다. 이러한 ID 서비스 쿠키는 위험하거나 악의적이지 않고, 브라우저의 서비스 또는 웹 사이트에 저장된 다른 자사 또는 타사 쿠키와 다르지 않으며, 자사 및 타사 쿠키를 제어하는 동일한 규칙을 따릅니다. ID 서비스에서 사용하는 쿠키에 대한 자세한 정보는 아래의 다음 섹션을 참조하십시오.
+ID 서비스는 AMCV, AMCVS 및 demdex 쿠키가 제대로 작동하도록 합니다. 이러한 쿠키는 ID 서비스에서 사용하는 데이터를 저장하는 파일입니다. 이러한 ID 서비스 쿠키는 다른 퍼스트 파티 및 서드 파티 쿠키를 제어하는 동일한 규칙에 따라, 브라우저에서 웹 사이트 또는 서비스에 의해 저장된 다른 퍼스트 파티 또는 서드 파티 쿠키와 위험하거나 악의적인 또는 다른 것이 아닙니다. ID 서비스에서 사용하는 쿠키에 대한 자세한 정보는 아래의 다음 섹션을 참조하십시오.
 
 ### ID 서비스 쿠키에서 수행할 수 있는 작업
 
-* 사이트 방문자에 대한 고유한 ID(MID) 설정 및 저장.
-* ID 서비스가 데이터를 수집하고 다른 Experience Cloud 솔루션과 공유할 수 있도록 이 고유한 ID 유지.
-* 도메인에서 사용자 추적. 그러나 이 작업을 수행하려면 다른 도메인을 소유하고 있고 이 도메인에 ID 서비스 코드가 배포되어 있어야 합니다.
+* 사이트 방문자(MID)의 고유 ID를 설정하고 저장합니다.
+* 이 고유 ID를 유지하여 ID 서비스가 데이터를 수집하고 다른 Experience Cloud 솔루션과 공유할 수 있습니다.
+* 도메인에서 사용자를 추적합니다. 그러나 다른 도메인을 소유하고 있고 해당 도메인에 ID 서비스 코드가 배포되어 있어야 합니다.
 
 ### ID 서비스 쿠키에서 수행할 수 없는 작업
 
-* 컴퓨터 바이러스 저장, 전송 또는 실행.
-* 이메일 주소와 같은 PII(개인식별정보)에 액세스 또는 저장.
-* 컴퓨터 하드웨어 또는 소프트웨어 제어.
-* 컴퓨터를 불안정하게 만들거나 성능 문제를 일으킴.
-* ID 서비스를 사용하지 않는 사이트에서 사용자 추적.
+* 컴퓨터 바이러스 저장, 전송 또는 실행
+* 이메일 주소와 같은 PII(개인 식별 정보)에 액세스하거나 저장할 수 있습니다.
+* 컴퓨터 하드웨어 또는 소프트웨어 제어
+* 컴퓨터를 불안정하게 하거나 성능 문제를 야기합니다.
+* ID 서비스를 사용하지 않는 사이트에서 사용자를 추적합니다.
 
 ## AMCV 쿠키 {#section-c55af54828dc4cce89f6118655d694c8}
 
@@ -61,9 +61,9 @@ mid|20265673158980419722735089753036633573
 
 **도메인**
 
-AMCV 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용자가 현재 방문한 사이트 도메인에 설정됩니다. 따라서 ID 서비스 코드 및 기타 Experience Cloud 코드 라이브러리는 AMCV 쿠키에 저장된 MID를 읽을 수 있습니다.
+AMCV 쿠키는 브라우저의 자사 도메인에 설정됩니다. 즉, 사용자가 현재 방문한 사이트의 도메인에 설정됩니다. 이와 같이 ID 서비스 코드 및 기타 Experience Cloud 코드 라이브러리는 AMCV 쿠키에 저장된 MID를 읽을 수 있습니다.
 
-그렇지만 AMCV 쿠키는 자사 도메인에 설정되므로 다른 도메인 간 사용자를 추적하고 식별하는 데는 사용할 수 없습니다. 대신, ID 서비스는 조직 ID 및 demdex ID에 의존하여 사이트 방문자가 다른 도메인으로 이동할 때 올바른 MID를 반환합니다.
+그러나 AMCV 쿠키는 자사 도메인에 설정되므로 다른 도메인에서 사용자를 추적하고 식별하는 데 사용할 수 없습니다. 대신 ID 서비스는 조직 ID와 demdex ID에 의존하여 사이트 방문자가 다른 도메인으로 이동할 때 올바른 MID를 반환합니다.
 
 ## AMCVS 쿠키 {#section-92a9454f1ac645948f9059b9fad928bf}
 
@@ -79,22 +79,22 @@ AMCVS_1FD6776A524453CC0A490D44%40AdobeOrg
 
 **내용**
 
-AMCVS 쿠키는 세션이 초기화되었음을 나타내는 플래그로 사용됩니다. 이 값은 항상 `1`이며, 세션이 종료되면 중단됩니다.
+AMCVS 쿠키는 세션이 초기화되었음을 나타내는 플래그 역할을 합니다. 이 값은 항상 `1`이며, 세션이 종료되면 중단됩니다.
 
 **도메인**
 
-AMCVS 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용자가 현재 방문한 사이트 도메인에 설정됩니다.
+AMCVS 쿠키는 브라우저의 퍼스트 파티 도메인에 설정됩니다. 즉, 사용자가 현재 방문한 사이트의 도메인에 설정됩니다.
 
 ![](assets/AMCVS-cookie.png)
 
 ## Demdex 쿠키 {#section-7ff7d96d6e4141b08a84a75a63d7814c}
 
-다음 표에는 demdex 쿠키의 중요한 몇 가지 속성과 속성에 대한 정의가 나와 있습니다.
+다음 표에서는 demdex 쿠키의 몇 가지 중요한 특성을 나열하고 정의합니다.
 
 <table id="table_18E3CAF3550E4BB6A199736AACE39202"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -105,22 +105,22 @@ AMCVS 쿠키는 자사 브라우저의 도메인에 설정됩니다. 즉, 사용
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>내용</b> </p> </td> 
-   <td colname="col2"> <p>demdex 쿠키에는 DCS가 생성하는 demdex ID가 포함되어 있습니다. </p> </td> 
+   <td colname="col2"> <p>demdex 쿠키에는 DCS에서 생성된 demdex ID가 포함되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>도메인</b> </p> </td> 
-   <td colname="col2"> <p>demdex 쿠키는 브라우저의 타사 demdex.net 도메인에 설정됩니다. 이 도메인은 사용자가 현재 방문한 사이트와는 별개입니다. </p> <p>자사 AMCV 쿠키와 달리, demdex 쿠키 및 ID는 도메인이 달라져도 유지됩니다. demdex ID 및 조직 ID는 ID 서비스에서 올바른 방문자 ID를 가진 사이트 방문자를 반환하고 식별할 수 있는 공통 값입니다. </p> </td> 
+   <td colname="col2"> <p>demdex 쿠키는 브라우저의 타사 demdex.net 도메인에 설정됩니다. 이 도메인은 사용자가 현재 방문한 사이트와 별개입니다. </p> <p>퍼스트 파티, AMCV 쿠키와 달리, demdex 쿠키 및 ID는 다른 도메인에서 유지됩니다. demdex ID와 조직 ID는 ID 서비스가 올바른 방문자 ID가 있는 사이트 방문자를 반환하고 식별할 수 있도록 하는 일반적인 값입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/ko_KR/aam/demdex-calls.html)를 참조하십시오.
+관련 정보는 [Demdex 도메인에 대한 호출 이해](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html)를 참조하십시오.
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
-Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생됩니다. 이러한 ID가 일관되게 유지되는 한, 특정 사용자에 대한 올바른 MID를 생성하는 것은 단순히 수학 문제에 불과합니다. 동일한 조직 ID 및 demdex ID를 사용할 경우 매번 동일한 MID 값을 얻게 됩니다. 이 경우 ID 서비스에서 사용자가 ID 서비스 코드를 사용하여 제어하고 구성한 도메인의 방문자를 추적할 수 있습니다.
+Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생됩니다. 이러한 ID가 일정하게 유지되는 한 특정 사용자에 대해 올바른 MID를 생성하는 것은 단순한 수학 문제입니다. 동일한 조직 ID와 demdex ID를 사용하면 항상 동일한 MID 값을 얻을 수 있습니다. 이를 통해 ID 서비스가 사용자가 제어하고 ID 서비스 코드로 구성된 도메인 간 방문자를 추적할 수 있습니다.
 
-ID 서비스는 페이지가 로드될 때 MID를 생성하기 시작합니다. 이 프로세스 중에 `visitorAPI.js` 코드 라이브러리에서 제공한 코드는 ID 서비스에 대한 이벤트 호출에 조직 ID를 보냅니다. ID 서비스에서 MID 및 demdex ID를 생성하고 각각 AMCV 및 demdex 쿠키에 반환합니다.
+페이지가 로드되면 ID 서비스가 MID를 만들기 시작합니다. 이 프로세스 중에 `visitorAPI.js` 코드 라이브러리에서 제공한 코드는 ID 서비스에 대한 이벤트 호출에 조직 ID를 보냅니다. ID 서비스에서 MID 및 demdex ID를 생성하고 각각 AMCV 및 demdex 쿠키에 반환합니다.
 
 ## 쿠키 플래그
 
@@ -128,7 +128,7 @@ ID 서비스는 페이지가 로드될 때 MID를 생성하기 시작합니다. 
 
 | 쿠키(설정) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| demdex(http 응답) | 아니요 | 예 | "없음" |
+| demdex(http 응답) | 아니요 | 예 | &quot;없음&quot; |
 | AMCV(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 | AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 
