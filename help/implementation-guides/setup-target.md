@@ -1,19 +1,19 @@
 ---
-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
-keywords: ID 서비스
-seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+keywords: ID Service
+seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 seo-title: Target용 Experience Cloud Identity 서비스 구현
 title: Target용 Experience Cloud Identity 서비스 구현
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # Target용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-target}
 
-이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 하지만 ID 서비스를 구현하려면 DTM을 사용하는 것이 좋습니다. DTM은 구현 작업 과정을 간소하게 하고 올바른 코드 배치 및 시퀀스를 자동으로 보장합니다.
+이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -25,17 +25,17 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ## 1단계: ID 서비스 코드 가져오기 {#section-b32ba0548aa546a79dd38be59832a53e}
 
-[!UICONTROL ID 서비스]에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드를 받으려면 [고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오.
+[!UICONTROL ID 서비스]에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. 이 코드를 [받으려면 고객](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html) 지원 센터에 문의하십시오.
 
 ## 2단계: ID 서비스 코드에 Visitor.getInstance 함수 추가 {#section-287ef2958e9f43858fe9d630ae519e22}
 
-**1부: 아래의 Visitor.getInstance 함수 복사**
+**1부: 아래 Visitor.getInstance 함수 복사**
 
 ```js
 var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE"); 
 ```
 
-**2부: 함수 코드를 VisitorAPI.js 파일에 추가**
+**2부: VisitorAPI.js 파일에 함수 코드 추가**
 
 `Visitor.getInstance` 함수를 파일 끝, 코드 블록 뒤에 추가합니다. 편집한 파일은 다음과 같습니다.
 
@@ -54,7 +54,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE")
 
 ## 3단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-522b1877be9243c39b222859b821f0ce}
 
-`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. [관리 - 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. 관리 - 핵심 [서비스를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html). 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg");`
 
@@ -74,11 +74,11 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE")
 
 ID 서비스 구현을 테스트하려면
 
-* 페이지가 호스팅된 도메인의 AMCV 쿠키를 확인합니다.
+* 페이지가 호스팅된 도메인에서 AMCV 쿠키를 확인합니다.
 * `mboxMCGVID`가 [!DNL Target] 요청에 표시되는지 그리고 MID([!DNL Experience Cloud] ID)를 포함하는지 확인합니다.
 
 AMCV 쿠키 및 MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
 
 **배포**
 
-테스트를 통과한 후에 코드를 배포하십시오.
+테스트를 통과한 후 코드를 배포합니다.
