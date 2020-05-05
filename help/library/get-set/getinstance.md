@@ -1,19 +1,19 @@
 ---
-description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. 이 메서드는 s.visitor를 통해 AppMeasurement에 제공되는 방문자 ID 개체를 초기화하는 데 필요합니다.
-keywords: ID 서비스
-seo-description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. 이 메서드는 s.visitor를 통해 AppMeasurement에 제공되는 방문자 ID 개체를 초기화하는 데 필요합니다.
+description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. s.visitor를 통해 AppMeasurement에 제공된 방문자 ID 개체를 초기화하는 데 필요합니다.
+keywords: ID Service
+seo-description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. s.visitor를 통해 AppMeasurement에 제공된 방문자 ID 개체를 초기화하는 데 필요합니다.
 seo-title: getInstance
 title: getInstance
 uuid: 259b88a6-e3d0-4aab-b935-566099bdab98
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # getInstance{#getinstance}
 
-getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. 이 메서드는 s.visitor를 통해 AppMeasurement에 제공되는 방문자 ID 개체를 초기화하는 데 필요합니다.
+getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. s.visitor를 통해 AppMeasurement에 제공된 방문자 ID 개체를 초기화하는 데 필요합니다.
 
 **구문**
 
@@ -33,7 +33,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 >[!CAUTION]
 >
->`var visitor = new Visitor`을 사용하여 방문자 함수를 인스턴스화하지 *마십시오*. 여기에 언급된 적절한 함수 호출을 사용해야 합니다. [!UICONTROL VisitorAPI.js] 코드 라이브러리 v3.0 이상에 적용됩니다.
+>`var visitor = new Visitor`을 사용하여 방문자 함수를 인스턴스화하지 *마십시오*. 여기에 언급된 적절한 함수 호출을 사용해야 합니다. Applies to [!UICONTROL VisitorAPI.js] code library v3.0 or higher.
 
 **ActionScript/Flash**
 
@@ -51,7 +51,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 });
 ```
 
-`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. This is similar to the [ `s_gi()` function ](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=function_s_gi.html) in [!DNL AppMeasurement].
+`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. 이것은 의 [`s_gi()` 기능과 ](https://docs.adobe.com/content/help/en/analytics/implementation/vars/functions/s-gi.html) 비슷하다 [!DNL AppMeasurement].
 
 **일반적인 사용**
 
