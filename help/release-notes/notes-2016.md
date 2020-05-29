@@ -5,8 +5,11 @@ seo-description: 2016년 Experience Cloud Identity 서비스의 기능 릴리스
 seo-title: 2016 릴리스 노트
 title: 2016 릴리스 노트
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '1162'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 2016년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트에서도 캡처됩니다](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)에서도 제공됩니다.
 
 ## 버전 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -32,7 +35,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 * 서버측 환경에 ID 서비스를 구현하는 방법에 대한 지침을 추가했습니다.
 * 자신이 소유한 다른 도메인의 Experience Cloud 및 Analytics ID를 덮어쓸 수 있는 부울 함수인 `Visitor.overwriteCrossDomainMCIDAndAID`가 추가되었습니다. [방문자 ID 덮어쓰기](../library/function-vars/overwrite-visitor-id.md#reference-9db13d637ce44fb6a8d519de5743ccde)를 참조하십시오.
 
-* `TS = UTC` 타임스탬프를 `visitor.appendVisitorIDsTo` 함수의 속성으로 추가했습니다. ID 서비스는 타임스탬프를 사용하여 5분 에이징 간격을 기준으로 리디렉션 URL의 ID를 사용해야 하는지 확인합니다. See [Append Visitor ID Function](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce).
+* `TS = UTC` 타임스탬프를 `visitor.appendVisitorIDsTo` 함수의 속성으로 추가했습니다. ID 서비스는 타임스탬프를 사용하여 5분 유예 기간 간격을 기준으로 리디렉션 URL의 ID를 사용해야 하는지 확인합니다. [방문자 ID 기능 추가](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce)를 참조하십시오.
 
 * 지역 ID를 반환하는 `Visitor.getLocationHint,` 함수가 새로 추가되었습니다. [지역 ID 가져오기(위치 힌트)](../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c)를 참조하십시오.
 
@@ -47,8 +50,8 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 **수정 사항 및 향상된 기능**
 
-* Audience Manager 고유 사용자 ID(AAMUUID)를 Experience Cloud ID로 ID 서비스에 전달하는 버그를 수정했습니다.
-* AMCV 쿠키에 대한 TTL(time-to-live)이 만료된 경우 쿠키에 Experience Cloud ID가 포함되어 있는 한 ID 서비스는 여전히 해당 정보를 서버로 반환합니다. 이 호출 후에 ID 서비스는 쿠키를 업데이트하기 위해 비동기 호출을 만듭니다. 이렇게 하면 ID 서비스가 서버 응답을 기다릴 필요가 없기 때문에 성능이 향상됩니다. 기존 AMCV 쿠키 값을 사용한 다음 업데이트를 요청할 수 있습니다.
+* Audience Manager 고유 사용자 ID(AAMUUIDs)를 Experience Cloud ID로서 ID 서비스에 전달하는 버그를 수정했습니다.
+* AMCV 쿠키에 대한 TTL(time-to-live)이 만료된 경우, ID 서비스는 쿠키에 Experience Cloud ID가 들어 있는 한 여전히 해당 정보를 서버에 반환합니다. 이 호출 후에 ID 서비스는 쿠키를 업데이트하기 위해 비동기 호출을 생성합니다. 이렇게 하면 ID 서비스가 서버 응답을 기다릴 필요가 없기 때문에 성능이 향상됩니다. 기존 AMCV 쿠키 값을 사용한 다음 업데이트를 요청할 수 있습니다.
 * ID 서비스는 Experience Cloud ID(MID)를 페이지에서 바로 Adobe Media Optimizer 및 다른 내부 Adobe 도메인과 자동으로 동기화합니다. 기존 계정 및 신규 계정 전체에 자동 동기화가 활성화됩니다. 이를 통해 Media Optimizer의 일치 비율을 높일 수 있습니다. VisitorAPI.js 버전 1.8, 이상에 적용됩니다. [ID 동기화 및 일치율 이해](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab)를 참조하십시오.
 
 **새로운 설명서 및 수정된 설명서**
@@ -81,7 +84,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 **알려진 문제**
 
-같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. secureDataCollection을 [참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html).
+같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/dil-api/dil-overview.html)을 참조하십시오.
 
 ## 버전 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
@@ -100,8 +103,8 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>CORS(Cross-Origin Resource Sharing) </p> </td> 
-   <td colname="col2"> <p>CORS를 사용하면 브라우저가 현재 도메인이 아닌 도메인에서 리소스를 요청할 수 있습니다. Experience Cloud Identity 서비스는 클라이언트측의 교차 도메인 리소스 요청이 가능하도록 CORS 표준을 지원합니다. ID 서비스는 CORS를 지원하지 않는 브라우저의 JSONP 요청으로 돌아갑니다. </p> <p>다음을 참조하십시오. </p> 
+   <td colname="col1"> <p>CORS(원본 간 리소스 공유) </p> </td> 
+   <td colname="col2"> <p>CORS를 사용하면 브라우저가 현재 도메인이 아닌 도메인에서 리소스를 요청할 수 있습니다. Experience Cloud Identity 서비스는 클라이언트측의 교차 도메인 리소스 요청이 가능하도록 CORS 표준을 지원합니다. ID 서비스는 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다. </p> <p>다음을 참조하십시오. </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
      <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local">Experience Cloud Identity 서비스에서 CORS 지원</a> </li> 
     </ul> </td> 
@@ -114,7 +117,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 * ID 동기화 호출에 대한 `d_fieldgroup` 매개 변수를 `dpm.demdex.net`에 추가했습니다. 이 새 매개 변수는 내부 문제 해결 및 디버깅에 사용됩니다.
 
 * ID 서비스 iFrame에 제목 속성을 추가했습니다. iFrame 제목 도움말 스크린 리더는 온라인 컨텐츠와 상호 작용할 때 지원이 필요한 사용자에게 페이지 정보를 제공합니다. iFrame 제목 속성이 `Adobe ID Syncing iFrame`으로 설정되어 있습니다. 
-* `idSyncAttachIframeASAP: true`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 플래그로 추가됨. `true`일 경우, ID 서비스는 최대한 빠르게 ID 동기화 iFrame을 로드합니다. ID 동기화 일치 비율을 개선하는 데 도움이 됩니다. 기본적으로 ID 서비스는 창 로드 시 iFrame을 로드합니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
+* `idSyncAttachIframeASAP: true`가 `Visitor.getInstance` 함수에서 설정할 수 있는 선택적 플래그로 추가됨. `true`일 경우, ID 서비스는 최대한 빠르게 ID 동기화 iFrame을 로드합니다. ID 동기화 일치 비율을 개선하는 데 도움이 됩니다. 기본적으로 ID 서비스는 창을 로드할 때 iFrame을 로드합니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
 
 * AppMeasurement에서 무한 루프가 발생한 원인이 되는 콜백 함수 버그를 수정했습니다.
 * 기본 `loadTimeout` 간격이 500밀리초에서 30,000밀리초로 변경되었습니다. [Visitor.getInstance 함수 변수](../library/function-vars/function-vars.md)를 참조하십시오.
@@ -156,7 +159,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 **수정 사항**
 
-이전 Analytics 방문자 ID가 없을 때 방문자 API는 더 이상 Audience Manager와 추가적인 재동기화 호출을 강제로 수행하지 않습니다.
+방문자 API는 기존 Analytics 방문자 ID가 없는 경우 Audience Manager와의 추가 재동기화 호출을 지정하지 않습니다.
 
 ## 버전 1.5.x {#section-a62ae48275324058b57edf66ee5a579f}
 
@@ -221,7 +224,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../reference/authenticated-state.md" format="dita" scope="local"> 고객 ID 및 인증 상태 </a> </p> </td> 
-   <td colname="col2"> <p>텍스트가 수정되었습니다. 고객 ID는 인코딩되지 않은 값으로만 전달되어야 합니다. 인코딩 ID는 이중으로 인코딩된 식별자를 만듭니다. </p> </td> 
+   <td colname="col2"> <p>텍스트가 수정되었습니다. 고객 ID는 인코딩되지 않은 값으로만 전달되어야 합니다. 인코딩 ID는 이중으로 인코딩된 식별자를 생성합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
