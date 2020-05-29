@@ -5,8 +5,11 @@ seo-description: 이러한 구성을 사용하면 iFrame 및 상위 페이지에
 seo-title: whitelistParentDomain 및 whitelistIframeDomains
 title: whitelistParentDomain 및 whitelistIframeDomains
 uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '932'
+ht-degree: 100%
 
 ---
 
@@ -66,16 +69,16 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
 
 ## 사용 사례 {#section-fc2eeb93546b406fae3b102dbcd11de7}
 
-이러한 구성은 브라우저가 타사 쿠키를 차단하거나 다음 조건 중 하나가 적용되는 경우 ID 서비스 쿠키를 설정하고 방문자 ID를 할당하는 문제를 해결하는 데 도움이 됩니다.
+이러한 구성은 브라우저가 서드파티 쿠키를 차단하거나 다음 조건 중 하나가 적용되는 경우 ID 서비스 쿠키를 설정하고 방문자 ID를 할당하는 문제를 해결하는 데 도움이 됩니다.
 
 * 상위 페이지/도메인을 제어하거나 제어하지 않습니다.
 * ID 서비스 코드가 상위 페이지에 설치되어 있지 않지만 iFrame에서 구현됩니다.
 
 >[!TIP]
 >
->iFrame에서 [비디오 하트비트를 사용하여 비디오를 제공할 때 이러한 구성을 구현할 수도 있습니다](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html). 비디오 하트비트가 제대로 작동하려면 ID 서비스 ID(MID)가 필요합니다.
+>iFrame에서 [비디오 하트비트](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)를 사용하여 비디오를 제공할 때 이러한 구성을 구현할 수도 있습니다. 비디오 하트비트가 올바르게 작동하려면 ID 서비스 ID(MID)가 필요합니다.
 
-**사용 사례 1: 브라우저는 타사 쿠키를 차단하며 ID 서비스는 iFrame 및 상위 페이지에 구현됩니다**
+**사용 사례 1: 브라우저가 서드파티 쿠키를 차단하며 ID 서비스가 iFrame 및 상위 페이지에 구현됨**
 
 <table id="table_B479AA96DBE64685A253A6DF98D81B31"> 
  <thead> 
@@ -92,20 +95,20 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
       <li id="li_6E04CF0B6A204B4D8856656B0C9EF2A5">회사 A는 홈 페이지에서 ID 서비스를 구현합니다. </li> 
       <li id="li_B53AE0F0C69844E7B6C4D3464C57883B">회사 A는 홈 페이지의 iFrame에서 ID 서비스를 구현합니다. </li> 
       <li id="li_07E0A6D7BEB140E4B9FB6C7B9629B860">회사 A는 상위 페이지와 iFrame을 소유하며 두 위치에서 ID 서비스를 구현했습니다. </li> 
-      <li id="li_76967BD69DDB40A8A9C915DADC58AC62">고객은 타사 쿠키를 차단하는 브라우저에서 상위 페이지를 로드합니다. </li> 
+      <li id="li_76967BD69DDB40A8A9C915DADC58AC62">고객은 서드파티 쿠키를 차단하는 브라우저에서 상위 페이지를 로드합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>결과</b> </p> </td> 
-   <td colname="col2"> <p>ID 서비스는 다음과 같은 조건을 제공합니다. </p> <p> 
+   <td colname="col2"> <p>해당 조건에서 ID 서비스는: </p> <p> 
      <ul id="ul_12356701501E40DFA57903494FFE58F7"> 
-      <li id="li_B57EDF1B0762486F95FA6526C047390C">상위 페이지에서 올바르게 작동합니다. AMCV 쿠키를 요청 및 설정하고 사이트 방문자에게 고유 ID를 지정합니다. </li> 
-      <li id="li_BA9F42C759E747EAAE14DD3FBB6130A5">iFrame에서 작동하지 않습니다. 이는 브라우저가 iFrame을 타사 도메인으로 보고 ID 서비스가 AMCV 쿠키를 설정하지 못하도록 하기 때문입니다. </li> 
+      <li id="li_B57EDF1B0762486F95FA6526C047390C">상위 페이지에서 올바르게 작동합니다. AMCV 쿠키를 요청 및 설정하고 사이트 방문자에게 고유 ID를 할당합니다. </li> 
+      <li id="li_BA9F42C759E747EAAE14DD3FBB6130A5">iFrame에서 작동하지 않습니다. 이는 브라우저가 iFrame을 서드파티 도메인으로 보고 ID 서비스가 AMCV 쿠키를 설정하지 못하도록 하기 때문입니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션</b> </p> </td> 
-   <td colname="col2"> <p>이러한 화이트리스트 구성을 사용하여 iFrame에서 ID 서비스 <span class="codeph">Visitor.getInstance</span> 함수를 수정합니다. 코드에서 상위 및 하위 도메인을 지정합니다. 이러한 구성을 사용하여 iFrame의 ID 서비스 코드가 상위 페이지의 ID 서비스 코드에서 방문자 ID를 확인할 수 있습니다. </p> <p>iFrame의 ID 서비스 코드가 응답 상위 페이지를 받지 못하면 이러한 구성은 로컬 방문자 ID를 생성합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 화이트리스트 구성을 사용하여 iFrame에서 ID 서비스 <span class="codeph">Visitor.getInstance</span> 함수를 수정합니다. 코드에서 상위 및 하위 도메인을 지정합니다. 이러한 구성을 사용하여 iFrame의 ID 서비스 코드가 상위 페이지의 ID 서비스 코드에서 방문자 ID를 확인할 수 있습니다. </p> <p>iFrame의 ID 서비스 코드가 응답 상위 페이지를 수신하지 못하면 이러한 구성은 로컬 방문자 ID를 생성합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,20 +129,20 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
      <ul id="ul_356E8FB0B1D14F46A844FE5281967E28"> 
       <li id="li_1285D945361842268B46FB492A3B5AA5">회사 A는 ID 서비스를 사용하지 않습니다. </li> 
       <li id="li_880D6D473F8342FF9BB49FCE111FD61A">회사 A는 페이지에 iFrame을 로드합니다. 이 iFrame은 회사 B가 소유하고 회사 A가 아닌 별도의 도메인에 로드됩니다. </li> 
-      <li id="li_7988F0272B094FE0B398006AD4E6F81B">브라우저는 타사 쿠키를 차단합니다. </li> 
+      <li id="li_7988F0272B094FE0B398006AD4E6F81B">브라우저는 서드파티 쿠키를 차단합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>결과</b> </p> </td> 
-   <td colname="col2"> <p>ID 서비스는 다음과 같은 조건을 제공합니다. </p> <p> 
+   <td colname="col2"> <p>해당 조건에서 ID 서비스는: </p> <p> 
      <ul id="ul_A92D90896E5A42C5804AC5CE83E8EB25"> 
-      <li id="li_9734EA9C5D9D4F908DE783188C9E5530">iFrame에서 작동하지 않습니다. 이는 브라우저가 iFrame을 타사 도메인으로 보고 ID 서비스가 AMCV 쿠키를 설정하지 못하도록 하기 때문입니다. </li> 
+      <li id="li_9734EA9C5D9D4F908DE783188C9E5530">iFrame에서 작동하지 않습니다. 이는 브라우저가 iFrame을 서드파티 도메인으로 보고 ID 서비스가 AMCV 쿠키를 설정하지 못하도록 하기 때문입니다. </li> 
       <li id="li_3F4BE9048E774902A867D67E5A80674D">회사 A가 이 서비스를 사용하지 않으므로 상위 페이지에서 방문자 ID를 가져올 수 없습니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션</b> </p> </td> 
-   <td colname="col2"> <p>이러한 화이트리스트 구성을 사용하여 iFrame에서 ID 서비스 <span class="codeph">Visitor.getInstance</span> 함수를 수정합니다. 코드에서 상위 및 하위 도메인을 지정합니다. 이러한 구성을 사용하여 iFrame의 ID 서비스 코드가 상위 페이지의 ID 서비스 코드에서 방문자 ID를 확인할 수 있습니다. </p> <p>iFrame의 ID 서비스 코드가 응답 상위 페이지를 받지 못하면 이러한 구성은 로컬 방문자 ID를 생성합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 화이트리스트 구성을 사용하여 iFrame에서 ID 서비스 <span class="codeph">Visitor.getInstance</span> 함수를 수정합니다. 코드에서 상위 및 하위 도메인을 지정합니다. 이러한 구성을 사용하여 iFrame의 ID 서비스 코드가 상위 페이지의 ID 서비스 코드에서 방문자 ID를 확인할 수 있습니다. </p> <p>iFrame의 ID 서비스 코드가 응답 상위 페이지를 수신하지 못하면 이러한 구성은 로컬 방문자 ID를 생성합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,9 +151,9 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
 
 다음 이유로 이러한 구성을 안전하게 구현할 수 있습니다.
 
-* 부모 도메인 및 iFrame 도메인에 구현된 ID 서비스는 동일한 조직 ID를 사용해야 합니다. 상위 또는 iFrame의 조직 ID가 다른 경우 이러한 허용 목록 구성이 작동하지 않습니다.
-* 이러한 구성은 코드에 지정된 도메인 및 iFrames와만 통신합니다.
-* iFrame과 상위 페이지 간의 통신은 특정 형식을 따릅니다. 상위 페이지의 ID 서비스가 예상 형식의 요청을 받지 못하면 이 공유 프로세스가 실패합니다.
+* 상위 도메인 및 iFrame 도메인에 구현된 ID 서비스는 동일한 조직 ID를 사용해야 합니다. 상위 또는 iFrame의 조직 ID가 다른 경우 이러한 허용 목록 구성이 작동하지 않습니다.
+* 이러한 구성은 코드에 지정된 도메인 및 iFrame과만 통신합니다.
+* iFrame과 상위 페이지 간의 통신은 특정 형식을 따릅니다. 상위 페이지의 ID 서비스가 예상 형식의 요청을 수신하지 못하면 이 공유 프로세스가 실패합니다.
 
 ## 지원되는 방문자 API 메서드 {#section-30c6a9f4dcdc4265a1149260b97cc057}
 
