@@ -5,8 +5,11 @@ seo-description: Experience Cloud Identity 서비스는 이전 Analytics 방문�
 seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '972'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +20,11 @@ Experience Cloud Identity 서비스는 이전 Analytics 방문자 ID 메서드�
 
 ID 서비스가 구현되면 이 코드는 AppMeasurement 전에 실행됩니다. ID 서비스는 Experience Cloud 및 Analytics ID를 검색하므로 AppMeasurement가 로드될 때 이러한 값이 준비됩니다.
 
-AppMeasurement가 로드되면 Experience Cloud 및 Analytics ID 값이 ID 서비스에서 요청되고 각 서버 호출이 있을 때 데이터 수집으로 전송됩니다. ID 서비스는 방문자 ID를 결정하고 이를 단순히 AppMeasurement로 전달하므로 AppMeasurement JavaScript 파일 이전에 각 페이지에 ID 서비스를 포함하고 구현해야 합니다.
+AppMeasurement가 로드되면 Experience Cloud 및 Analytics ID 값이 ID 서비스에서 요청되고 각 서버 호출과 함께 데이터 수집으로 전송됩니다. ID 서비스는 방문자 ID를 결정하고 이를 단순히 AppMeasurement로 전달하므로 AppMeasurement JavaScript 파일 이전에 각 페이지에 ID 서비스를 포함 및 구현해야 합니다.
 
 ## Analytics ID 프로세스 변경 {#section-79bb86ae63f546419bb1a7ef5e710462}
 
-[!DNL Experience Cloud] ID 서비스로 마이그레이션할 때의 주된 변경 사항은 이제 데이터 수집 웹 서버에서 반환되는 HTTP 헤더가 아니라 JavaScript를 사용하여 ID 쿠키가 설정된다는 것입니다. 이 변경 사항을 이해하기 위해 다음 섹션에서는 이러한 두 가지 방법을 사용하여 쿠키가 설정되는 방법을 설명합니다.
+[!DNL Experience Cloud] ID 서비스로 마이그레이션할 때의 주된 변경 사항은 이제 데이터 수집 웹 서버에서 반환되는 HTTP 헤더가 아니라 JavaScript를 사용하여 ID 쿠키가 설정된다는 것입니다. 이 변경 사항을 이해하기 위해 다음 섹션에서는 이러한 두 가지 방법을 사용하여 쿠키를 설정하는 방법에 대해 설명합니다.
 
 **HTTP 헤더**
 
@@ -29,15 +32,15 @@ AppMeasurement가 로드되면 Experience Cloud 및 Analytics ID 값이 ID 서�
 
 Adobe 데이터 수집 서버로 요청이 전송되면 헤더에 `s_vi` 쿠키가 있는지 확인을 받습니다. 이 쿠키가 요청에 있으면 방문자 식별에 사용됩니다. 쿠키가 요청에 없으면 서버에서 고유한 [!DNL Experience Cloud] ID를 생성하여 HTTP 응답 헤더의 쿠키로 설정한 다음 요청과 함께 다시 전송합니다. 쿠키는 브라우저에 저장되고 이후 사이트를 방문하는 동안 데이터 수집 서버로 다시 전송됩니다. 이를 통해 방문자를 방문 간에 식별할 수 있습니다.
 
-그러나 Apple Safari와 같은 일부 브라우저는 타사 쿠키를 수락하지 않습니다. 현재 웹 사이트 이외의 도메인에서 브라우저에 설정된 쿠키입니다. 또한 Safari는 방문자가 이전에 해당 도메인에 방문한 적이 없는 경우 타사 도메인에서 쿠키를 차단합니다. 예를 들어 `mysite.com`을 방문 중이고 데이터 수집 서버가 `mysite.omtrdc.net`인 경우 브라우저가 `mysite.omtrdc.net`의 HTTP 헤더에서 반환되는 쿠키를 거부할 수 있습니다.
+그러나 Apple Safari와 같은 일부 브라우저는 서드파티 쿠키를 허용하지 않습니다. 이러한 쿠키는 현재 웹 사이트 이외의 도메인에서 브라우저에 설정된 쿠키입니다. 또한, Safari는 방문자가 이전에 해당 도메인에 방문한 적이 없는 경우 서드파티 도메인에서 쿠키를 차단합니다. 예를 들어 `mysite.com`을 방문 중이고 데이터 수집 서버가 `mysite.omtrdc.net`인 경우 브라우저가 `mysite.omtrdc.net`의 HTTP 헤더에서 반환되는 쿠키를 거부할 수 있습니다.
 
-이를 피하기 위해 많은 고객들은 데이터 수집 서버에 대해 CNAME 레코드를 구현했습니다. This can be an effective part of a [first-party cookie implementation](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) strategy. CNAME 레코드가 고객 도메인의 호스트 이름을 데이터 수집 서버에 매핑하도록 구성된 경우(예: `metrics.mysite.com`을 `mysite.omtrdc.net`으로 매핑) 데이터 수집 도메인이 웹 사이트의 도메인과 일치하므로 [!DNL Experience Cloud] ID 쿠키가 저장됩니다. 따라서 ID 서비스 쿠키가 저장될 가능성이 높아집니다. 그러나 CNAME 레코드를 구성하고 데이터 수집 서버에 대한 SSL 인증서를 유지해야 하므로 약간의 오버헤드가 발생합니다.
+이를 피하기 위해 많은 고객들은 데이터 수집 서버에 대해 CNAME 레코드를 구현했습니다. 이렇게 하는 것이 [자사 쿠키 구현](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html) 전략의 효과적인 부분일 수 있습니다. CNAME 레코드가 고객 도메인의 호스트 이름을 데이터 수집 서버에 매핑하도록 구성된 경우(예: `metrics.mysite.com`을 `mysite.omtrdc.net`으로 매핑) 데이터 수집 도메인이 웹 사이트의 도메인과 일치하므로 [!DNL Experience Cloud] ID 쿠키가 저장됩니다. 따라서 ID 서비스 쿠키가 저장될 가능성이 높아집니다. 그러나 CNAME 레코드를 구성하고 데이터 수집 서버에 대한 SSL 인증서를 유지해야 하므로 이로 인해 약간의 오버헤드가 발생합니다.
 
 **JavaScript**
 
-JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 쿠키를 읽고 쓸 수 있습니다. [!DNL Experience Cloud] ID 서비스는 이 방법을 사용하여 모든 방문자 ID가 포함된 `AMCV_###@AdobeOrg` 쿠키를 설정하므로 방문자 ID 쿠키를 저장하기 위해 더 이상 추적 서버의 도메인이 웹 사이트의 도메인과 일치하지 않아도 됩니다. 대부분의 상황에서 ID 서비스 쿠키를 설정하는 것이 더 좋습니다. CNAME 레코드 및 SSL 인증서의 오버헤드가 해소되기 때문입니다.
+JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 쿠키를 읽고 쓸 수 있습니다. [!DNL Experience Cloud] ID 서비스는 이 방법을 사용하여 모든 방문자 ID가 포함된 `AMCV_###@AdobeOrg` 쿠키를 설정하므로 방문자 ID 쿠키를 저장하기 위해 더 이상 추적 서버의 도메인이 웹 사이트의 도메인과 일치하지 않아도 됩니다. 대부분의 상황에서는 ID 서비스 쿠키를 설정하는 것이 더 좋습니다. CNAME 레코드 및 SSL 인증서의 오버헤드가 해소되기 때문입니다.
 
-그러나 HTTP 헤더에서 쿠키를 설정하는 것이 도메인 간 추적에 도움이 되는 경우가 있으며, 이는 [데이터 수집 CNAME 및 도메인 간 추적에 설명되어 있습니다](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).
+그러나 HTTP 헤더에서 쿠키를 설정하는 것이 도메인 간 추적에 도움이 되는 경우가 있으며, 이는 [데이터 수집 CNAME 및 도메인 간 추적](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d)에 설명되어 있습니다.
 
 ## 사용자 지정 분석 ID {#section-b6a7bd19e9ff432390010062450808f6}
 
@@ -47,25 +50,25 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
 
 ## Analytics 방문자 ID 순서 {#section-de1dc9fc9b6d4388995b70e35b8bcddf}
 
-방문자 ID 서비스를 배포한 후에는 Analytics에서 방문자를 식별하는 5가지 방법이 있습니다(기본 설정 순서로 다음 표에 나열됨).
+방문자 ID 서비스를 배포한 후에는 Analytics에서 방문자를 식별하는 다음과 같은 5가지 방법이 있습니다(기본 설정 순서로 다음 표에 나열됨).
 
 <table id="table_D267D36451F643D1BB68AF6FEAA6AD1A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 사용한 주문 </th> 
-   <th colname="col2" class="entry"> 쿼리 매개 변수(컬렉션 메서드) </th> 
-   <th colname="col3" class="entry"> 제공 시기 </th> 
+   <th colname="col1" class="entry"> 사용된 명령 </th> 
+   <th colname="col2" class="entry"> 쿼리 매개 변수(수집 방법) </th> 
+   <th colname="col3" class="entry"> 제공 시점 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <img id="image_9F3E58898A1B4F40BBDEF5ADE362E55C" src="assets/step1_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
    <td colname="col3"> <p>s.visitorID가 설정되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html" format="http" scope="external"> aid (s_vi 쿠키)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-analytics.html" format="http" scope="external"> aid (s_vi 쿠키)</a> </p> </td> 
    <td colname="col3"> <p><span class="keyword">Experience Cloud</span> ID 서비스를 배포하기 전에 방문자에게 기존의 s_vi 쿠키가 있었거나 또는 <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local">유예 기간</a>을 구성했습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +78,7 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)</a> </p> </td> 
    <td colname="col3"> <p>브라우저가 서드 파티 쿠키를 허용하지 않으며 Analytics 추적 서버가 서드 파티 추적 서버로 설정됩니다. </p> <p> <p>참고: <span class="codeph">fid</span>는 기존 식별자이며, 사용자 사이트에서 ID 서비스를 구현한 경우에는 사용되지 않습니다. 이 경우 자사 <a href="../../introduction/cookies.md" format="dita" scope="local">AMCV 쿠키</a>로 인해 <span class="codeph">fid</span>를 사용할 수 없으므로 이 fid가 필요하지 않습니다. fid는 기존 코드를 지원하기 위해 또한 여러 기록상의 이유로 인해 유지되고 있습니다. </p> </p> </td> 
   </tr> 
   <tr> 
