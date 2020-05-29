@@ -5,8 +5,11 @@ seo-description: Experience Cloud Identity 서비스가 구현되기 전에 s_vi
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '338'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 다음 경우에 쿼리 문자열에 `aid` 매개 변수가 표시됩니다.
 
 * [!DNL Experience Cloud] ID 서비스가 올바르게 배포됩니다.
-* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679)에 저장되어 있습니다.
+* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679)에 저장되어 있습니다.
 
 **사례 2**
 
@@ -52,5 +55,5 @@ ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](../..
 
 >[!MORELIKETHIS]
 >
->* [Analytics 쿠키](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html)
+>* [Analytics 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-privacy.html)
 
