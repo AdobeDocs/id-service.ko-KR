@@ -5,8 +5,11 @@ seo-description: 기존 구현은 DTM(Dynamic Tag Management)을 사용하여 Ex
 seo-title: Dynamic Tag Management를 사용하여 구현
 title: Dynamic Tag Management를 사용하여 구현
 uuid: c4f752c4-392e-4909-b178-911706857064
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '2056'
+ht-degree: 100%
 
 ---
 
@@ -29,13 +32,13 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 * Experience Cloud 조직 ID(Experience Cloud에 연결된 경우 자동으로 채워짐)
 * Analytics 추적 서버(보안 및 비보안)
-* Experience Cloud 서버(퍼스트 파티 추적 서버)
+* Experience Cloud 서버(자사 추적 서버)
 
 DTM은 [!DNL Experience Cloud] 고객에게 무료로 제공됩니다.
 
 **DTM 시작하기**
 
-DTM은 간단하면서도 강력한 툴입니다. 아직 사용하고 있지 않으시면 적극 권장합니다. 이 서비스를 시작하려면 [DTM 설명서를](https://docs.adobe.com/content/help/ko-KR/dtm/using/c-overview.html) 참조하십시오. DTM을 사용하여 ID 서비스를 설정하는 방법에 대한 지침은 아래 섹션에서 정보 및 절차를 참조하십시오.
+DTM은 간단하면서도 강력한 툴입니다. 아직 사용하고 있지 않는 경우 적극 권장합니다. 이 서비스를 시작하려면 [DTM 설명서](https://docs.adobe.com/content/help/ko-KR/dtm/using/c-overview.html)를 참조하십시오. DTM을 사용하여 ID 서비스를 설정하는 방법에 대한 지침은 아래 섹션에서 정보 및 절차를 참조하십시오.
 
 ## 배포 지침 {#concept-54a2ec49af8f4bfca9207b1d404e8e1a}
 
@@ -50,7 +53,7 @@ mcvid-dtm-deployment.xml
 시작하기 전에, 조직과 솔루션에 [!DNL Experience Cloud]가 프로비저닝되어 있고 [!DNL Dyanamic Tag Management]에 대해 잘 알고 있는지 확인합니다. 이 설명서는 다음을 시작하는 데 도움이 됩니다.
 
 * [핵심 서비스용 솔루션을 사용하도록 설정](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/core-services.html): Experience Cloud를 구현하고 관리자가 되십시오. 이 프로세스는 고객 속성 및 Experience Cloud 대상과 같은 핵심 서비스에 대한 솔루션을 현대화합니다.
-* [DTM(Dynamic Tag Management) 시작하기](https://docs.adobe.com/content/help/en/dtm/using/getting-started/get-started.html)
+* [DTM(Dynamic Tag Management) 시작하기](https://docs.adobe.com/content/help/ko-KR/dtm/using/getting-started/get-started.html)
 
 **ID 서비스 코드 배치 및 로드 순서**
 
@@ -63,11 +66,11 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 **지역 데이터 수집 유효성 검사**
 
-고객은 [RDC(지역 데이터 수집)](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)을 위해 CNAME를 제공하거나 `*.sc.omtrdc`을(를) 사용해야 합니다. [!DNL Adobe] 컨설턴트로부터 특정 RDC 설정을 확보합니다.
+고객은 [RDC(지역 데이터 수집)](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html)을 위해 CNAME를 제공하거나 `*.sc.omtrdc`을(를) 사용해야 합니다. [!DNL Adobe] 컨설턴트로부터 특정 RDC 설정을 확보합니다.
 
 **Analytics 보고서 세트 구성**
 
-새로운 [!DNL Analytics] 고객은 데이터 수집을 위해 [보고서 세트를 생성](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)해야 합니다.
+새로운 [!DNL Analytics] 고객은 데이터 수집을 위해 [보고서 세트를 생성](https://docs.adobe.com/content/help/ko-KR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)해야 합니다.
 
 ## DTM을 사용하여 Experience Cloud Identity 서비스 구현 {#task-a659cf19dea84ad48edabe0b72ef9f5c}
 
@@ -77,7 +80,7 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 * [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. [핵심 서비스용 솔루션을 사용하도록 설정](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/core-services.html)을 참조하십시오.
 
-* DTM에서 웹 속성을 생성합니다. DTM 웹 [속성 만들기 설명서를](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) 참조하십시오.
+* DTM에서 웹 속성을 생성합니다. [DTM 웹 속성 생성하기](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/web-property.html) 설명서를 참조하십시오.
 
 <!--
 mcvid-dtm-implement.xml
@@ -96,7 +99,7 @@ mcvid-dtm-implement.xml
 1. **[!UICONTROL 추적 서버]** 상자에 추적하는 서버의 이름을 입력합니다. 추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
 1. **[!UICONTROL 도구 생성]**, **[!UICONTROL 변경 내용 저장]**&#x200B;을 차례로 클릭합니다.
 
-   저장 후 ID 서비스는 DTM에서 도구로 설정됩니다. 그러나 아직 사용할 준비가 되지 않았습니다. DTM 도구는 DTM 게시/승인 프로세스를 계속 진행해야 하며 추가 매개 변수를 구성할 수도 있습니다. DTM에 추가할 수 있는 추가 매개 변수에 대한 자세한 내용은 [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
+   저장한 후, ID 서비스는 DTM에서 도구로 설정됩니다. 그러나 아직 사용할 준비가 되지 않았습니다. DTM 도구는 DTM 게시/승인 프로세스를 진행해야 하며 추가 매개 변수를 구성할 수도 있습니다. DTM에 추가할 수 있는 추가 매개 변수에 대한 자세한 내용은 [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)을 참조하십시오.
 
 ## DTM에 대한 Experience Cloud Identity 서비스 설정{#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
@@ -108,7 +111,7 @@ mcvid-dtm-settings.xml
 
 ## 이러한 설정을 찾는 방법 {#section-c5b2d1c928944ae2b8565c1b182fe575}
 
-ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 뒤에 설정을 사용할 수 있습니다. You can also access these settings by clicking the gear icon from the [!UICONTROL Installed Tools] section of your DTM web property.
+ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 뒤에 설정을 사용할 수 있습니다. 또한 DTM 웹 속성의 [!UICONTROL  설치된 도구] 섹션에서 톱니바퀴 아이콘을 클릭하여 이러한 설정에 액세스할 수도 있습니다.
 
 ![](assets/installedTools.png)
 
@@ -126,7 +129,7 @@ ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 �
 
 ![](assets/generalSettings.png)
 
-The following table lists and defines the [!UICONTROL General] settings.
+다음 표에는 [!UICONTROL 일반] 설정이 나열 및 정의되어 있습니다.
 
 **방문자 ID 자동 요청**
 
@@ -164,13 +167,13 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 **설정**
 
-이러한 필드를 사용하면 [함수 변수를](../library/function-vars/function-vars.md) 키-값 쌍으로 추가할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 클릭하여 한 개 이상의 변수를 ID 서비스 구현에 추가할 수 있습니다.
+이러한 필드를 사용하면 [함수 변수](../library/function-vars/function-vars.md)를 키-값 쌍으로 추가할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 클릭하여 한 개 이상의 변수를 ID 서비스 구현에 추가할 수 있습니다.
 
 ![](assets/dtmVars.png)
 
 >[!IMPORTANT]
 >
->여기서 `cookieDomain` 변수를 설정합니다. URL의 마지막 2부분이 2자보다 큰 다중 부분의 최상위 도메인에 필요합니다. 위에 연결된 구성 변수 설명서를 참조하십시오.
+>여기서 `cookieDomain` 변수를 설정합니다. URL의 마지막 두 부분이 2자보다 큰 다중 부분의 최상위 도메인에 필요합니다. 위에 링크된 구성 변수 설명서를 참조하십시오.
 
 ## 고객 설정 {#section-238d1272c1504d148fe38fb0ae5d71c2}
 
@@ -184,11 +187,11 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 **값**
 
-값은 사용자 ID가 포함된 데이터 요소여야 합니다. 데이터 요소는 클라이언트별 내부 시스템의 ID와 같은 동적 값에 적합한 컨테이너입니다.
+값은 사용자 ID가 포함된 데이터 요소여야 합니다. 데이터 요소는 클라이언트별 내부 시스템의 ID와 같이 동적 값에 적합한 컨테이너입니다.
 
 **인증 상태**
 
-인증 상태(예: 로그인, 로그아웃)에 따라 방문자를 정의하거나 식별하는 옵션. [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
+인증 상태(예: 로그인, 로그아웃)에 따라 방문자를 정의하거나 식별하는 옵션입니다. [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
 
 ## Experience Cloud Identity 서비스 테스트 및 확인 {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
@@ -204,19 +207,19 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 **브라우저 환경**
 
-일반 브라우저 세션에서 테스트할 때 각 테스트 전에 브라우저 캐시를 지웁니다.
+일반 브라우저 세션에서 테스트하는 경우 브라우저 캐시를 지운 후 각 테스트를 수행하십시오.
 
-또는 익명 또는 익명 브라우저 세션에서 ID 서비스를 테스트할 수 있습니다. 익명 세션에서 각 테스트 전에 브라우저 쿠키나 캐시를 지울 필요가 없습니다.
+또는 익명 또는 시크릿 브라우저 세션에서 ID 서비스를 테스트할 수 있습니다. 익명 세션에서는 각 테스트를 수행하기 전에 브라우저 쿠키나 캐시를 지울 필요가 없습니다.
 
 **도구**
 
-[ Adobe 디버거](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html) 및 [Charles HTTP 프록시](https://www.charlesproxy.com/)는 ID 서비스가 Analytics에서 제대로 작동하도록 구성되었는지 확인하는 데 도움이 됩니다. 이 섹션의 정보는 Adobe 디버거 및 Charles가 반환하는 결과를 기반으로 합니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
+[ Adobe 디버거](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/validate/debugger.html) 및 [Charles HTTP 프록시](https://www.charlesproxy.com/)는 ID 서비스가 Analytics에서 제대로 작동하도록 구성되었는지 확인하는 데 도움이 됩니다. 이 섹션의 정보는 Adobe 디버거 및 Charles가 반환하는 결과를 기반으로 합니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
 
 ## Adobe Debugger를 사용한 테스트 {#section-861365abc24b498e925b3837ea81d469}
 
 [!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
 
-[!DNL Adobe] [디버거](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
+[!DNL Adobe] [디버거](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명 브라우징 세션을 엽니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
@@ -229,32 +232,32 @@ MID는 이 `MID= *`Experience Cloud ID`*` 구문을 사용하는 키-값 쌍에 
 
 **성공**
 
-ID 서비스는 다음과 유사한 응답이 있을 경우 제대로 구현되었습니다.
+ID 서비스는 다음과 유사한 응답이 있는 경우 올바르게 구현된 것입니다.
 
 ```
 mid=20265673158980419722735089753036633573
 ```
 
-[!DNL Analytics] 고객인 경우 MID 외에 AID([!DNL Analytics] ID)가 표시될 수 있습니다. 이러한 문제가 발생합니다.
+[!DNL Analytics] 고객인 경우 MID 외에 AID([!DNL Analytics] ID)가 표시될 수 있습니다. 다음이 발생합니다.
 
-* 초기/장기 사이트 방문자 수
-* 유예 기간이 활성화된 경우
+* 초기/장기 사이트 방문자 수 포함.
+* 유예 기간을 활성화한 경우.
 
 **실패**
 
-디버거가 [있는 경우 고객 지원](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html) 센터에 문의하십시오.
+디버거가 다음과 같은 경우 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
 
 * MID를 반환하지 않습니다.
 * 파트너 ID가 제공되지 않았음을 나타내는 오류 메시지를 반환합니다.
 
 ## Charles HTTP 프록시로 테스트하기 {#section-d9e91f24984146b2b527fe059d7c9355}
 
-Charles와 ID 서비스의 상태를 확인하려면:
+Charles를 사용하여 ID 서비스의 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명 브라우징 세션을 엽니다.
-1. 찰스를 시작합니다.
+1. Charles를 시작합니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
-1. 아래 설명된 요청 및 응답 호출 및 데이터를 확인하십시오.
+1. 아래 설명되는 요청 및 응답 호출과 데이터를 확인하십시오.
 
 ## Charles 결과 이해하기 {#section-c10c3dc0bb9945cbaffcf6fec7082fab}
 
@@ -268,19 +271,19 @@ Charles를 사용하여 HTTP 호출을 모니터링할 때 살펴볼 위치와 �
 
 ### Charles의 성공적인 ID 서비스 응답
 
-[DCS(데이터 수집 서버)](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html)의 응답에서 MID를 반환하면 계정이 ID 서비스에 대해 제대로 프로비저닝된 것입니다. MID는 `d_mid: visitor Experience Cloud ID` 구문을 사용하는 키-값 쌍으로 반환됩니다. 아래 표시된 것처럼 [!UICONTROL 응답] 탭에서 MID를 찾습니다.
+[DCS(데이터 수집 서버)](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/system-components/components-data-collection.html)의 응답에서 MID를 반환하면 계정이 ID 서비스에 대해 제대로 프로비저닝된 것입니다. MID는 `d_mid: visitor Experience Cloud ID` 구문을 사용하는 키-값 쌍으로 반환됩니다. 아래 표시된 것처럼 [!UICONTROL 응답] 탭에서 MID를 찾습니다.
 
 ![](assets/charles_response_success.png)
 
 ### Charles의 ID 서비스 응답 실패
 
-DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되지 않은 것입니다. An unsuccessful response returns an error code and message in the [!UICONTROL Response] tab as shown below. DCS 응답에서 이 오류 메시지가 표시되면 고객 지원 센터에 문의하십시오.
+DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되지 않은 것입니다. 실패한 응답은 아래 표시된 것처럼 [!UICONTROL 응답] 탭에 오류 코드와 메시지를 반환합니다. DCS 응답에서 이 오류 메시지가 표시되면 고객 지원 센터에 문의하십시오.
 
 ![](assets/charles_response_unsuccessful.png)
 
-For more information about error codes, see [DCS Error Codes, Messages, and Examples](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html).
+오류 코드에 대한 자세한 내용은 [DCS 오류 코드, 메시지 및 예제](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
->* [웹 속성](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html)
+>* [웹 속성](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/web-property.html)
 
