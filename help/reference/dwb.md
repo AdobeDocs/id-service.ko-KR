@@ -1,23 +1,26 @@
 ---
-description: 다음 지침에 따라 Experience Cloud ID 필드를 데이터 워크벤치에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
+description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
 keywords: ID Service
-seo-description: 다음 지침에 따라 Experience Cloud ID 필드를 데이터 워크벤치에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
+seo-description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
 seo-title: Data Workbench 및 Experience Cloud Identity 서비스
 title: Data Workbench 및 Experience Cloud Identity 서비스
 uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
 
 # Data Workbench 및 Experience Cloud Identity 서비스 {#data-workbench-and-the-experience-cloud-id-service}
 
-다음 지침에 따라 Experience Cloud ID 필드를 데이터 워크벤치에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
+다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
 
-To update [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) to use the ID service:
+[Data Workbench](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html)를 업데이트하여 ID 서비스를 사용하려면:
 
-1. 현재 디코더 [그룹](https://docs.adobe.com/content/help/en/data-workbench/using/dataset/dataset-include-files/types-dataset-inc-files/c-text-file-dec-groups.html) 구성 파일을 찾습니다.
+1. 현재 [디코더 그룹](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/dataset/dataset-include-files/types-dataset-inc-files/c-text-file-dec-groups.html) 구성 파일을 찾습니다.
 
    일반적으로 [!DNL Decoder Group]은 다음 경로의 [!UICONTROL 프로필 관리자]에 있습니다. `Dataset\Log Processing\Decoding Instructions.cfg` 1. 구성 파일의 현재 디코더 형식을 복사합니다.
 1. 원본 아래에 디코더 형식을 붙여넣습니다.
