@@ -1,38 +1,41 @@
 ---
-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 keywords: ID Service
-seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 seo-title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '1572'
+ht-degree: 100%
 
 ---
 
 
 # Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
-이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >시작하기 전에 ID 서비스 [요구 사항](../reference/requirements.md)을 읽고 이 구현에 해당하는 다음 요구 사항을 알아 두십시오. >
 >* s_code를 사용하는 고객은 이 절차를 완료할 수 없습니다. 이 절차를 완료하려면 mbox 코드 v61로 업그레이드하십시오.
->* Configure and test this code in a development environment *before* you implement it in production.
+>* 프로덕션 환경에서 구현하기 *전에* 개발 환경에서 이 코드를 구성하고 테스트하십시오.
 >
 
 
 
 ## 1단계: 서버측 전달 플랜 {#section-880797cc992d4755b29cada7b831f1fc}
 
-여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. Server-side forwarding lets you remove DIL (Audience Manager&#39;s data collection code) and replace it with the [Audience Management Module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). See the [server-side forwarding documentation](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for more information.
+여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf.html)를 참조하십시오.
 
-서버측 전달으로 마이그레이션하려면 계획 및 조정이 필요합니다. 이 프로세스에는 계정을 프로비저닝하기 위해 Adobe가 수행해야 하는 사이트 코드와 내부 단계에 대한 외부 변경 사항이 포함됩니다. 실제로 이러한 마이그레이션 절차는 대부분 동시에 수행되어야 하며 함께 출시됩니다. 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
+서버측 전달로 마이그레이션하려면 계획 및 조정이 필요합니다. 이 프로세스에는 계정을 프로비저닝하기 위해 Adobe가 수행해야 하는 사이트 코드와 내부 단계에 대한 외부 변경 사항이 포함됩니다. 실제로 이러한 마이그레이션 절차는 대부분 동시에 수행되어야 하며 함께 출시됩니다. 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
 
 1. [!DNL Analytics] 및 [!DNL Audience Manager] 담당자와 협업하여 ID 서비스 및 서버측 전달 마이그레이션을 계획합니다. 이 계획에서 추적 서버 선택을 중요한 부분으로 다룹니다.
 
-1. Complete the form on the [integrations and provisioning site](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) to get started.
+1. 시작하려면 [통합 및 프로비저닝 사이트](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)에서 양식을 작성합니다.
 
 1. ID 서비스와 [!DNL Audience Management Module]을 동시에 구현합니다. 제대로 작동하려면 [!DNL Audience Management Module] (서버측 전달) 및 ID 서비스를 동시에 같은 페이지 세트에 대해 릴리스해야 합니다.
 
@@ -49,7 +52,7 @@ ID 서비스에는 `VisitorAPI.js` 코드 라이브러리가 필요합니다. �
 
 >[!IMPORTANT]
 >
->* 이전 버전의 ID 서비스 API는 이 함수를 다른 위치에 배치했으며 다른 구문이 필요합니다. 버전 1.4 이전 버전에서 마이그레이션하는 경우 여기에 설명된 새 [배치 및 구문을](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572)참고하십시오.
+>* 이전 버전의 ID 서비스 API는 이 함수를 다른 위치에 배치했으며 다른 구문이 필요합니다. [버전 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572) 이전 버전에서 마이그레이션하는 경우 여기에 설명된 새 배치 및 구문을 참고하십시오.
 >* ALL CAPS의 코드는 실제 값의 자리 표시자입니다. 이 텍스트를 조직 ID, 추적 서버 URL 또는 기타 명명된 값으로 바꿉니다.
 >
 
@@ -69,7 +72,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE",
 }); 
 ```
 
-**2부: 방문자 API.js 파일에 함수 코드 추가**
+**2부: Visitor API.js 파일에 함수 코드 추가**
 
 `Visitor.getInstance` 함수를 파일 끝, 코드 블록 뒤에 추가합니다. 편집한 파일은 다음과 같습니다.
 
@@ -96,7 +99,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE",
 
 ## 4단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-e2947313492546789b0c3b2fc3e897d8}
 
-`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 Experience Cloud 조직 ID로 바꿉니다. 조직 ID를 모르는 경우 Experience Cloud 관리 페이지에서 찾을 수 있습니다. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 Experience Cloud 조직 ID로 바꿉니다. 조직 ID를 모를 경우 Experience Cloud 관리 페이지에서 찾을 수 있습니다. 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
@@ -117,9 +120,9 @@ Analytics에서는 데이터 수집을 위해 추적 서버를 사용합니다.
 
 **2부: 추적 서버 변수 설정**
 
-사용할 추적 서버 변수를 확인하려면 다음을 수행하십시오.
+사용할 추적 서버 변수를 확인하려면:
 
-1. 아래의 의사 결정 매트릭스에 나와 있는 질문에 대답하십시오. 응답에 해당하는 변수를 사용합니다.
+1. 아래 의사 결정 매트릭스에 나와 있는 질문에 답변합니다. 답변에 해당하는 변수를 사용합니다.
 1. 추적 서버 자리 표시자를 추적 서버 URL로 바꿉니다.
 1. 사용하지 않은 추적 서버 및 Experience Cloud 서버 변수를 코드에서 제거합니다.
 
@@ -136,7 +139,7 @@ Analytics에서는 데이터 수집을 위해 추적 서버를 사용합니다.
 
 ## 6단계: AppMeasurement.js 파일 업데이트 {#section-5517e94a09bc44dfb492ebca14b43048}
 
-This step requires [!UICONTROL AppMeasurement]. s_code를 사용하는 경우 계속 진행할 수 없습니다.
+이 단계에는 [!UICONTROL AppMeasurement]가 필요합니다. s_code를 사용하는 경우 계속 진행할 수 없습니다.
 
 아래 표시된 `Visitor.getInstance` 함수를 `AppMeasurement.js` 파일에 추가합니다. `linkInternalFilters`, `charSet`, `trackDownloads` 등과 같은 구성을 포함하는 섹션에 해당 함수를 다음과 같이 추가합니다.
 
@@ -144,7 +147,7 @@ This step requires [!UICONTROL AppMeasurement]. s_code를 사용하는 경우 �
 
 >[!IMPORTANT]
 >
->이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) 구현을 참조하십시오.
+>이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 참조하십시오.
 
 ***(선택 사항이지만 권장됨)*사용자 지정 Prop 만들기&#x200B;**
 
@@ -164,17 +167,17 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## 8단계: (선택 사항) 유예 기간 구성 {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). 유예 기간은 최대 180일 동안 실행할 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
+이러한 사용 사례가 현재 상황에 적용되는 경우 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 임시 [유예 기간](../reference/analytics-reference/grace-period.md)을 설정하도록 요청하십시오. 유예 기간은 최대 180일 동안 실행될 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
 
 **부분적인 구현**
 
-ID 서비스를 사용하는 일부 페이지와 그렇지 않은 일부 페이지가 있고 모두 동일한 Analytics 보고서 세트로 보고하는 경우 유예 기간이 필요합니다. 도메인 간에 보고하는 글로벌 보고서 세트가 있는 경우 일반적입니다.
+ID 서비스를 사용하는 페이지도 있고 그렇지 않은 페이지도 있으며 이러한 모든 페이지가 동일한 Analytics 보고서 세트로 보고하는 경우에 유예 기간이 필요합니다. 이는 도메인 간에 보고하는 글로벌 보고서 세트가 있는 경우 일반적입니다.
 
 ID 서비스가 동일한 보고서 세트에 보고하는 모든 웹 페이지에 배포된 후 유예 기간을 중단합니다.
 
 **s_vi 쿠키 요구 사항**
 
-ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있어야 하는 경우 유예 기간이 필요합니다. 이는 구현에서 s_vi 쿠키를 읽고 변수에 저장하는 경우에 일반적입니다.
+ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있어야 하는 경우에는 유예 기간이 필요합니다. 이는 구현에서 s_vi 쿠키를 읽고 변수에 저장하는 경우에 일반적입니다.
 
 구현에서 s_vi 쿠키를 읽는 대신 MID를 캡처할 수 있게 되면 유예 기간을 중단하십시오.
 
@@ -186,7 +189,7 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 
 데이터 처리 프로세스에서 `post_visid_high` 및 `post_visid_low` 열을 사용할 수 있게 되면 유예 기간을 중지하십시오.
 
-클릭스트림 데이터 [열 참조도 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html).
+또한, [클릭스트림 데이터 열 참조](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html)도 참조하십시오.
 
 ## 9단계: 테스트 및 확인 {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -194,7 +197,7 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 
 >[!TIP]
 >
->Adobe [Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html) 또는 [Charles HTTP 프록시를](https://www.charlesproxy.com/) 사용하여 이러한 솔루션별 ID를 확인할 수 있습니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
+>[Adobe Debugger](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/validate/debugger.html) 또는 [Charles HTTP 프록시](https://www.charlesproxy.com/)를 사용하여 이러한 솔루션별 ID를 확인할 수 있습니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
 
 **모든 솔루션**
 
@@ -209,7 +212,7 @@ ID 서비스가 제대로 작동하는지 확인하는 데 도움이 되는 추�
 
 JavaScript 요청에서 SDID 식별자를 확인합니다. Analytics SDID는 Target mboxMCSDID와 일치해야 합니다.
 
-테스트가 AID를 반환하면 다음 중 하나를 나타냅니다.
+테스트가 AID를 반환하면, 이는 다음 중 하나를 나타냅니다.
 
 * 기존 [!DNL Analytics] ID를 마이그레이션하는 과정에 있는 재방문자입니다.
 * [유예 기간](../reference/analytics-reference/grace-period.md)을 활성화했습니다.
@@ -218,7 +221,7 @@ AID가 표시되면 [!DNL Target] mboxMCAVID에 대해 해당 값을 확인합�
 
 **Audience Manager**
 
-서버측 전달을 테스트하려면 [서버측 전달 구현을 확인하는 방법을 참조하십시오](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html).
+서버측 전달을 테스트하려면 [서버측 전달 구현을 확인하는 방법](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html)을 참조하십시오.
 
 **Target**
 
@@ -227,7 +230,7 @@ AID가 표시되면 [!DNL Target] mboxMCAVID에 대해 해당 값을 확인합�
 * mboxMCGVID
 * mboxMCSDID(mboxMCSDID가 Analytics SDID와 일치해야 함)
 
-테스트가 mboxMCAVID를 반환하는 경우, 이것은 다음 중 하나를 나타냅니다.
+테스트가 mboxMCAVID를 반환하는 경우, 이는 다음 중 하나를 나타냅니다.
 
 * 기존 [!DNL Analytics] ID를 마이그레이션하는 과정에 있는 재방문자입니다.
 * 유예 기간을 활성화했습니다.
@@ -243,5 +246,5 @@ mboxMCAVID가 표시되면 [!DNL Analytics] AID에 대해 해당 값을 확인�
 유예 기간을 활성화한 경우:
 
 * 이미지 요청에 AID(Analytics ID) 및 MID가 있는지 확인합니다.
-* Remember to disable the grace period once you meet the [criteria for discontinuation](../implementation-guides/setup-aam-analytics-target.md#section-aceacdb7d5794f25ac6ff46f82e148e1).
+* [중단 기준](../implementation-guides/setup-aam-analytics-target.md#section-aceacdb7d5794f25ac6ff46f82e148e1)을 충족한 경우 유예 기간을 사용하지 않도록 설정하십시오.
 
