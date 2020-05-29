@@ -3,8 +3,11 @@ title: Safari ITP 환경의 ECID 라이브러리 메서드
 seo-title: Safari ITP 환경의 ECID 라이브러리 메서드
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 seo-description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '1090'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,7 @@ ITP 및 ECID 라이브러리 사용과 관련된 작업은 아래를 참조하�
 
 ITP 2.1은 클라이언트측 쿠키를 작성하는 기능을 제한하여 고객에게 정확한 방문자 추적 정보를 제공하는 기능에 손상을 줍니다. 따라서 방문자의 ECID(Experience Cloud ID)를 자사 쿠키에 저장하도록 Adobe의 CNAME 추적 서버가 변경되었습니다.
 
-이 변경 사항은 자사 컨텍스트에서 Analytics CNAME을 사용하는 ECID 고객에게만 유용합니다. 현재 CNAME을 사용하고 있지 않은 Analytics 고객이거나 비 Analytics 고객이더라도 CNAME 레코드 대상입니다. [CNAME](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) 등록 프로세스를 시작하려면 고객 지원 센터 또는 계정 담당자에게 문의하십시오.
+이 변경 사항은 자사 컨텍스트에서 Analytics CNAME을 사용하는 ECID 고객에게만 유용합니다. 현재 CNAME을 사용하고 있지 않은 Analytics 고객이거나 비 Analytics 고객이더라도 CNAME 레코드 대상입니다. [CNAME](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html) 등록 프로세스를 시작하려면 고객 지원 센터 또는 계정 담당자에게 문의하십시오.
 
 이 변경 사항을 사용하려면 ECID 라이브러리 v. 4.3.0 이상으로 업그레이드하십시오.
 
@@ -57,7 +60,7 @@ demdex.net에 ID를 요청하고 ECID를 검색하면 추적 서버가 ECID 라�
 
 이러한 새로운 `s_ecid` 쿠키는 AMCV 쿠키와 동일한 옵트아웃 상태를 따릅니다. ecid를 `s_ecid` 쿠키에서 읽으면 demdex는 항상 해당 ID의 최신 옵트아웃 상태를 검색하도록 즉시 호출되고 AMCV 쿠키에 저장됩니다.
 
-또한 소비자가 이 [방법](https://docs.adobe.com/content/help/en/analytics/implementation/js/opt-out.html)을 통해 Analytics 추적을 옵트아웃한 경우 이 `s_ecid` 쿠키가 삭제됩니다.
+또한 소비자가 이 [방법](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/js/opt-out.html)을 통해 Analytics 추적을 옵트아웃한 경우 이 `s_ecid` 쿠키가 삭제됩니다.
 
 trackingServer 또는 trackingServerSecure를 사용하여 라이브러리를 초기화할 때 추적 서버 이름을 VisitorJS 라이브러리에 제공해야 합니다. 이 옵션은 Analytics 구성의 trackingServer 구성과 일치해야 합니다.
 
