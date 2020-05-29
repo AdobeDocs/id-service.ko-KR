@@ -5,8 +5,11 @@ seo-description: 이 섹션을 검토하여 Experience Cloud Identity 서비스�
 seo-title: Experience Cloud Identity 서비스 요구 사항
 title: Experience Cloud Identity 서비스 요구 사항
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ## 구현의 성공 및 지원을 위한 요구 사항 {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
 
-지원되는 성공적인 구현은 코드 요구 사항을 충족하며 [!DNL Adobe] 도움말에 표시된 지침을 따릅니다. 지원되지 않는 구현으로 인해 예기치 않은 결과가 발생하고 고객 지원 센터 및 엔지니어링 팀이 ID 서비스의 문제를 해결하거나 해결하는 데 도움을 주지 못합니다.
+지원되는 성공적인 구현은 코드 요구 사항을 충족하며 [!DNL Adobe] 도움말에 표시된 지침을 따릅니다. 지원되지 않는 구현으로 인해 예기치 않은 결과가 발생하고, 고객 지원 센터 및 엔지니어링 팀이 ID 서비스의 문제를 해결하거나 해결하는 데 도움을 주지 못지 못할 수 있습니다.
 
 <table id="table_2216C44AA66248DCAA13BF64BDF2D88A"> 
  <thead> 
@@ -37,17 +40,17 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
     <ul id="ul_3B62559317ED4C7AA548C3B8DBA281F7"> 
      <li id="li_1F16C6D412944197BEA56BC24730782C"> 이러한 DTM 포함 코드를 마크업 및/또는 페이지 코드의 다른 곳에 배치합니다. </li> 
      <li id="li_05615C01F3A947BBBD41046E68377224"> 비동기 메서드, 호출/콜백 메서드 또는 래퍼를 사용하여 DTM 코드를 추가, 추가 또는 로드할 수 있습니다. </li> 
-     <li id="li_B2137DFF627B473FA876580449026D2B">동일한 페이지에 포함 코드의 여러 인스턴스를 포함할 수 있습니다. </li> 
+     <li id="li_B2137DFF627B473FA876580449026D2B">동일한 페이지에 임베드 코드의 여러 인스턴스를 포함할 수 있습니다. </li> 
     </ul> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/deployment.html" format="https" scope="external">포함 코드 및 호스트 옵션</a>도 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../implementation-guides/implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113" format="dita" scope="local"> 비표준 구현 </a> </p> </td> 
-   <td colname="col2"> <p>비표준 또는 수동 구현의 경우 이 안내서의 절차에 따라 ID 서비스를 설정해야 합니다. 위의 DTM 지침과 마찬가지로, 부적절한 코드 배치 및 로딩은 지원되지 않는 구현을 만듭니다. </p> </td> 
+   <td colname="col2"> <p>비표준 또는 수동 구현의 경우 이 안내서의 절차에 따라 ID 서비스를 설정해야 합니다. 위의 DTM 지침과 마찬가지로, 부적절한 코드 배치 및 로딩으로 인해 지원되지 않는 구현이 수행될 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Experience Cloud Requirements: Organization ID {#section-a02f537129a64ffbb690d5738d360c26}
+## Experience Cloud 요구 사항: 조직 ID {#section-a02f537129a64ffbb690d5738d360c26}
 
 ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화되고 조직 ID가 있어야 합니다. 회사의 [!DNL Experience Cloud] 상태를 잘 모르고 조직 ID를 찾아야 하는 경우에는 다음 목록을 확인합니다.
 
@@ -121,7 +124,7 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> <span class="keyword"> Audience Manager </span> </b> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> dil.js</span> </p> <p> <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html" format="https" scope="external">DIL(데이터 통합 라이브러리)</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> dil.js</span> </p> <p> <a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/dil-api/dil-overview.html" format="https" scope="external">DIL(데이터 통합 라이브러리)</a>를 참조하십시오. </p> </td> 
    <td colname="col4"> <p>5.0 </p> <p> 
      <draft-comment>
        4.9에서 업데이트됨 
@@ -129,11 +132,11 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <b> <span class="keyword"> Target </span> </b> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-technical.html" format="https" scope="external">mbox 코드</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/mbox-implement/mbox-technical.html" format="https" scope="external">mbox 코드</a>를 참조하십시오. </p> </td> 
    <td colname="col4"> <p>61 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/at-js/how-atjs-works.html" format="https" scope="external">at.js 구현</a>을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/at-js/how-atjs-works.html" format="https" scope="external">at.js 구현</a>을 참조하십시오. </p> </td> 
    <td colname="col4"> <p>0.9.1 </p> </td> 
   </tr> 
  </tbody> 
@@ -141,7 +144,7 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
 
 ## Android 및 iOS용 SDK 요구 사항 {#section-73b2446fba8e463888642c7d7dfd94f1}
 
-최소한 ID 서비스에는 아래에 나열된 SDK 버전이 필요합니다.
+최소한으로, ID 서비스에는 아래에 나열된 SDK 버전이 필요합니다.
 
 * Android: 4.11.0
 * iOS: 4.11.0
@@ -150,11 +153,11 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
 >
 >필요한 최소 코드 버전보다 최신 코드 버전을 사용하는 것이 좋습니다.
 
-ID 서비스에 대해 SDK 코드를 활성화해야 합니다. Enable and download the latest SDK code for each app from your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. 다음도 참조하십시오.
+ID 서비스에 대해 SDK 코드를 활성화해야 합니다. [Adobe Mobile Services](https://mobilemarketing.adobe.com/) 계정의 각 앱에 대한 최신 SDK 코드를 활성화하고 다운로드합니다. 다음도 참조하십시오.
 
-* [SDK 방문자 ID 서비스 옵션 구성](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html)
-* [Android SDK 메서드](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/c-marketing-cloud.html)
-* [iOS SKD 메서드](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/marketing-cloud.html)
+* [SDK 방문자 ID 서비스 옵션 구성](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html)
+* [Android SDK 메서드](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/experience-cloud-android/c-marketing-cloud.html)
+* [iOS SKD 메서드](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/exp-cloud-ios/marketing-cloud.html)
 
 >[!MORELIKETHIS]
 >
