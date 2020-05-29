@@ -1,35 +1,38 @@
 ---
-description: CSP(Content Security Policy)는 브라우저에서 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 화이트리스트를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 keywords: ID Service
-seo-description: CSP(Content Security Policy)는 브라우저에서 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 화이트리스트를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+seo-description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 seo-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '539'
+ht-degree: 100%
 
 ---
 
 
 # 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
 
-CSP(Content Security Policy)는 브라우저에서 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 화이트리스트를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 
 ## CSP 검토 {#section-5fde5c00a678455c914b8307a8caab82}
 
 CSP는 HTTP 헤더 `Content-Security-Policy`를 사용하여 브라우저에서 페이지에 허용하거나 로드하는 리소스 유형을 제어합니다. CSP를 적용하면 다음을 방지할 수 있습니다.
 
-* 소스를 알 수 없거나 허용 목록에 포함되지 않은 경우 JavaScript 파일이 로드되지 않습니다.
+* 소스를 알 수 없거나 허용 목록에 포함되지 않은 경우 JavaScript 파일이 로드됨.
 * XXS(교차 사이트 스크립팅) 공격.
-* 데이터 주입 공격
-* 사이트 요소 공격.
-* 맬웨어 배포.
+* 데이터 주입 공격.
+* 사이트 디페이스먼트 공격.
+* 악성 코드 배포.
 
-CSP의 사용은 일반적이고 잘 이해됩니다. CSP를 자세히 설명하는 것은 이 설명서의 목적이 아닙니다(자세한 내용은 아래 관련 정보 링크 참조). 중요한 것은 CSP를 사용하고 보안 정책이 강력한 경우 CSP에 추가해야 하는 Adobe 도메인 이름을 이해하는 것입니다. 이러한 도메인을 추가하면 사이트에 액세스하는 방문자 브라우저에서 사용하는 Experience Cloud 리소스에 대한 중요한 호출을 수행할 수 있습니다.
+CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설명하는 것은 이 설명서의 목적이 아닙니다(자세한 내용은 아래 관련 정보 링크 참조). 중요한 것은 CSP를 사용하고 보안 정책이 강력한 경우 CSP에 어떤 Adobe 도메인 이름을 추가해야 하는지를 이해하는 것입니다. 이러한 도메인을 추가하면 사이트에 액세스하는 방문자 브라우저에서 사용하는 Experience Cloud 리소스에 대한 중요한 호출을 수행할 수 있습니다.
 
 ## 화이트리스트에 작성할 Experience Cloud 도메인 {#section-30693e9a96834edfbf04de9e698cf2aa}
 
-사용하는 각 목록 Experience Cloud 솔루션 또는 서비스에 대해 이러한 도메인 이름 또는 URL을 CSP에 추가합니다.
+사용하는 각 목록 Experience Cloud 솔루션 또는 서비스에 이러한 도메인 이름 또는 URL을 CSP에 추가합니다.
 
 <table id="table_EC9FC999A62D4B7A830CE73B0AB9EF3C"> 
  <thead> 
