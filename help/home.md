@@ -5,8 +5,11 @@ seo-description: Adobe Experience Cloud Identity 서비스는 Experience Cloud�
 seo-title: Experience Cloud Identity 서비스
 title: Experience Cloud Identity 서비스
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ Adobe Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루�
    <td colname="col2"> <p> <b>릴리스 노트</b> </p> <p><b>버전 4.4</b> 2019년 7월 17일 릴리스에는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 <a href="reference/hashing-support.md" format="dita" scope="local">SHA-256 해시 알고리즘</a>에 대한 지원이 포함되어 있습니다.</p><p><b>버전 4.0</b> 2019년 2월 12일 릴리스에는 사이트를 방문할 때 사용자의 장치 또는 브라우저에 쿠키 배치 가능 여부를 식별하는 데 사용되는 <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local">옵트인 서비스</a>가 포함되어 있습니다. </p> <p> 
      <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
       <li id="li_45A7CD556FE44F4DAB035C736A058F36"> 새 기능 및 수정 사항에 대해서는 최신 <a href="https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오. </li> 
-      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">See the <a href="https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html" format="html" scope="external"> Previous Release Notes</a> section for older releases. </li> 
+      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">이전 릴리스에 대해서는 <a href="https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html" format="html" scope="external">이전 릴리스 노트</a>를 참조하십시오. </li> 
      </ul> </p> <p> <b>Experience Cloud 리소스</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="https://www.adobe.com/kr/privacy.html" format="http" scope="external"> Adobe 개인 정보 보호 센터</a> </li> 
