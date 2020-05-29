@@ -5,8 +5,11 @@ seo-description: ID 서비스에서 Adobe Experience Cloud Device Co-op로 데�
 seo-title: isCoopSafe
 title: isCoopSafe
 uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '604'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하
 `isCoopSafe`를 사용하려면 다음을 수행해야 합니다.
 
 * ID 서비스 코드 버전 2.4 이상을 사용합니다.
-* Experience [Cloud Device Co-op에 참여합니다](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html). 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
+* [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/about/overview.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
 * [!DNL Adobe] 컨설턴트와 함께 장치 Co-op 계정에 화이트리스트 또는 블랙리스트 플래그를 설정합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
@@ -73,7 +76,7 @@ ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하
 
 **코드 샘플**
 
-ID 서비스 코드가 인스턴스화할 때 설정합니다.
+ID 서비스 코드가 인스턴스화할 때 이를 설정합니다.
 
 ```js
 var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here",{ 
@@ -112,7 +115,7 @@ POST 매개 수는 장치 그래프에 사용자 데이터를 포함할 수 있�
 
 ## 사후 인스턴스화 API {#section-9281c39c8b6249d7864100b5cbca7dc6}
 
-이러한 API를 사용하면 `isCoopSafe` 상태를 재정의할 수 있습니다. 이러한 기능은 페이지가 새로 고쳐지지 않는 사이트 또는 단일 페이지 앱에서 방문자의 사후 인스턴스화/사후 로그인 상태를 변경할 수 있도록 해주므로 필요합니다. 예를 들어 사용자가 사이트 또는 앱을 인증하고 나중에 Device Co-op에서 해당 데이터를 사용할 수 있도록 하는 사용 약관 정책을 수락하는 경우 이러한 API를 호출해야 합니다.
+이러한 API를 사용하면 `isCoopSafe` 상태를 재정의할 수 있습니다. 이러한 기능은 페이지가 새로 고쳐지지 않는 사이트 또는 단일 페이지 앱에서 방문자의 사후 인스턴스화/사후 로그인 상태를 변경할 수 있도록 해주므로 필요합니다. 예를 들어, 사용자가 사이트 또는 앱을 인증하고 나중에 Device Co-op에서 해당 데이터를 사용할 수 있도록 하는 사용 약관 정책을 수락하는 경우 이러한 API를 호출해야 합니다.
 
 <table id="table_BAA96B1F82BE48C3A61A1AF1367BA45C"> 
  <thead> 
@@ -139,5 +142,5 @@ Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
 >[!MORELIKETHIS]
 >
->* [DIL isCoopSafe](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html)
+>* [DIL isCoopSafe](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html)
 
