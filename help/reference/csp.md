@@ -5,11 +5,11 @@ seo-description: CSP(Content Security Policy)는 브라우저가 웹 페이지�
 seo-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
-source-wordcount: '539'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: acf10dd734132662698791e473c1f3f4dda85d67
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 87%
 
 ---
 
@@ -66,6 +66,10 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
  <tr>
  <td colname="col1"> <p> <b>Activity Map 플러그인</b> </p> </td> 
  <td colname="col2"> <p>CSP가 *.adobe.com을 포함하도록 수정합니다. **참고**: 2020년 1월 이전에 Activity Map을 이미 설치한 경우 브라우저에는 여전히 *.omniture.com에 대한 초기 요청이 표시되지만 *.adobe.com으로 리디렉션 됩니다. </p></td> 
+ </tr>
+ <tr>
+ <td colname="col1"> <p> <b>Advertising Analytics</b> </p> </td> 
+ <td colname="col2"> <p>쿼리 문자열 매개 변수에 대한 컨트롤이 있는 경우 매개 변수 's_kwcid' 및 'ef_id'를 허용 목록에 포함해야 합니다. 기술적으로 광고 분석은 's_kwcid'만 사용하지만 Ad Cloud 검색 또는 DSP를 선택하는 경우 'ef_id'도 사용합니다. 이러한 쿼리 문자열 매개 변수는 영숫자입니다. 's_kwcid' 매개 변수는 "!"를 사용합니다. character와 'ef_id' 매개 변수는 ":" 문자를 사용합니다. "If you are blocking the "!" URL에 있는 문자도 허용 목록에 추가해야 합니다.</p></td> 
  </tr>
  </tbody> 
 </table>
