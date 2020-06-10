@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Experience Cloud Identity 서비스 도움말
 user-guide-description: The ID service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 238135b08f66a3a10d6439bba558819e4aa5a7e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
 ht-degree: 100%
 
@@ -110,7 +110,7 @@ ht-degree: 100%
    + [Analytics 및 ID 서비스 FAQ](faq-intro/analytics-faq.md)
    + [기타 Experience Cloud 솔루션에 대한 FAQ](faq-intro/other-faq.md)
 + ID 서비스에 대한 릴리스 노트 {#release-notes}
-   + [2020년 릴리스 노트](release-notes/release-notes.md)
+   + [2020 릴리스 노트](release-notes/release-notes.md)
    + [2019 릴리스 노트](release-notes/notes-2019.md)
    + [2018 릴리스 노트](release-notes/notes-2018.md)
    + [2017 릴리스 노트](release-notes/notes-2017.md)
