@@ -5,11 +5,11 @@ seo-description: CSP(Content Security Policy)는 브라우저가 웹 페이지�
 seo-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: acf10dd734132662698791e473c1f3f4dda85d67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
  </tr>
  <tr>
  <td colname="col1"> <p> <b>Advertising Analytics</b> </p> </td> 
- <td colname="col2"> <p>쿼리 문자열 매개 변수에 대한 컨트롤이 있는 경우 매개 변수 's_kwcid' 및 'ef_id'를 허용 목록에 포함해야 합니다. 기술적으로 광고 분석은 's_kwcid'만 사용하지만 Ad Cloud 검색 또는 DSP를 선택하는 경우 'ef_id'도 사용합니다. 이러한 쿼리 문자열 매개 변수는 영숫자입니다. 's_kwcid' 매개 변수는 "!"를 사용합니다. character와 'ef_id' 매개 변수는 ":" 문자를 사용합니다. "If you are blocking the "!" URL에 있는 문자도 허용 목록에 추가해야 합니다.</p></td> 
+ <td colname="col2"> <p>쿼리 문자열 매개 변수에 대한 제어 권한이 있는 경우 매개 변수 's_kwcid' 및 'ef_id'를 화이트리스트에 추가해야 합니다. 기술적으로, Advertising Analytics는 's_kwcid'만 사용하지만 Ad Cloud 검색 또는 DSP를 선택하는 경우 'ef_id'도 사용합니다. 이러한 쿼리 문자열 매개 변수는 영숫자입니다. `s_kwcid` 매개 변수는 “!”를 사용합니다. 문자 및 `ef_id` 매개 변수는 “:” 문자를 사용합니다. URL에서 “!” 문자를 차단하고 있는 경우, 문자를 화이트리스트에 추가해야 합니다.</p></td> 
  </tr>
  </tbody> 
 </table>
