@@ -5,9 +5,9 @@ seo-description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Work
 seo-title: Data Workbench 및 Experience Cloud Identity 서비스
 title: Data Workbench 및 Experience Cloud Identity 서비스
 uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -28,6 +28,7 @@ ht-degree: 100%
 
    * `x-mcvisid`
    * `x-tnt-action`
+
    이러한 필드를 사용하거나 정의할 준비가 되지 않았으면 비워 둡니다.  **디코딩 지침**
 
 위에 언급된 새 필드를 비롯하여 아래 전체 디코더 내용을 참조하십시오.
