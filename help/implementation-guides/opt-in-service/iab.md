@@ -4,11 +4,11 @@ seo-description: IAB TCF(Transparency and Consent Framework)를 위한 Audience 
 seo-title: IAB 프레임워크에서 옵트인 서비스 사용
 title: IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c37c8dd3b76dbf17b955864f0562363350eaecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 71%
 
 >[!IMPORTANT] 다음 문서는 IAB 2.0에만 적용됩니다. 사용자는 IAB 2.0에서 작업하려면 Visitor.js 버전 5.0을 사용해야 합니다.
 
-동의 관리 플랫폼(CMP)을 옵트인의 IAB 투명도 및 동의 프레임워크(TCF) 플러그인과 연결합니다.
+CMP(동의 관리 플랫폼)을 옵트인의 IAB 투명도 및 TCF(Transparency and Consent Framework) 플러그인과 연결합니다.
 
-IAB TCF를 사용하는 Adobe [Audience Manager 고객은 자신의 CMP(Consent Management Platform)를 Opt-in의 IAB TCF 플러그인과 연결할 수 있습니다](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) . 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. ECID 라이브러리를 사용하여 옵트인의 IAB TCF 플러그인을 구현하면 IAB TCF를 지원하는 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
+[IAB TCF](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)를 사용하는 Adobe Audience Manager 고객은 CMP(동의 관리 플랫폼)을 옵트인의 IAB TCF 플러그인과 연결할 수 있습니다 . 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. 옵트인의 IAB TCF 플러그인이 ECID 라이브러리로 구현되면 IAB TCF를 지원하는 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
 
 ## IAB를 지원하는 CMP 구현 {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
@@ -30,7 +30,7 @@ IAB TCF를 사용하는 Adobe [Audience Manager 고객은 자신의 CMP(Consent 
 
 자세한 내용은[Interactive Advertising Bureau 문서](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/TCF-Implementation-Guidelines.md)를 참조하십시오.
 
-## Enable Opt-in&#39;s IAB TCF plugin within your ECID Javascript Library {#section-77bf1b9ed67241a59e56c21ab752e82f}
+## ECID Javascript 라이브러리 내에서 옵트인의 IAB TCF 플러그인 활성화 {#section-77bf1b9ed67241a59e56c21ab752e82f}
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 >[!IMPORTANT]
 >
->쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purpose 1, 10에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. Read more about the Opt-in&#39;s IAB TCF plugin in Audience Manager documentation [here](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html).
+>쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purpose 1, 10에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. [여기](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html)에 나와 있는 Audience Manager 설명서에서 옵트인의 IAB TCF 플러그인에 대해 자세히 알아보십시오.
 
-For more information on how to validate Opt-in&#39;s IAB TCF plugin, check use case #4 in the validation guide [here](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
+옵트인과 IAB TCF 플러그인을 확인하는 방법에 대해서는 [여기](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0)에 나와 있는 유효성 검사 가이드의 사용 사례 4를 확인하십시오.
 
 ## 관련 설명서 {#section-55da1110051a4b39b1037803f4a7b264}
 
