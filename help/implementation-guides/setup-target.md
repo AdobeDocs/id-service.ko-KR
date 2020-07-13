@@ -5,9 +5,9 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Target용 Experience Cloud Identity 서비스 구현
 title: Target용 Experience Cloud Identity 서비스 구현
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -22,8 +22,6 @@ ht-degree: 100%
 >
 >* [시작하기 전에 요구 사항을 읽어보십시오](../reference/requirements.md).
 >* 프로덕션 환경에서 구현하기 전에 개발 환경에서 이 코드를 구성하고 테스트하십시오.
->
-
 
 
 ## 1단계: ID 서비스 코드 가져오기 {#section-b32ba0548aa546a79dd38be59832a53e}
