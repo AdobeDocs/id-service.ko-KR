@@ -5,11 +5,11 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Analytics용 Experience Cloud Identity 서비스 구현
 title: Analytics용 Experience Cloud Identity 서비스 구현
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 100%
 >
 >* [시작하기 전에 요구 사항을 읽어보십시오](../reference/requirements.md).
 >* 프로덕션 환경에서 구현하기 전에 개발 환경에서 이 코드를 구성하고 테스트하십시오.
->
-
 
 
 다음 단계에 따라 Adobe Analytics에 대한 ID 서비스를 구현하십시오.
@@ -54,8 +52,6 @@ ht-degree: 100%
 >
 >* 이전 버전의 ID 서비스 API는 이 함수를 다른 위치에 배치했으며 다른 구문이 필요합니다. [버전 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572) 이전 버전에서 마이그레이션하는 경우 여기에 설명된 새 배치 및 구문을 참고하십시오.
 >* ALL CAPS의 코드는 실제 값의 자리 표시자입니다. 이 텍스트를 조직 ID, 추적 서버 URL 또는 기타 명명된 값으로 바꿉니다.
->
-
 
 
 **1부: 아래 Visitor.getInstance 함수 복사**
@@ -130,11 +126,10 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 >[!NOTE]
 >
->[!DNL Experience Cloud] 서버 URL을 사용하는 경우 다음과 같이 해당 추적 서버 URL과 일치시킵니다. >
+>When used, match the [!DNL Experience Cloud] server URLs to their corresponding tracking server URLs like this:
+>
 >* [!DNL Experience Cloud] 서버 URL = 추적 서버 URL
 >* [!DNL Experience Cloud] 서버 보안 URL = 추적 서버 보안 URL
->
-
 
 
 추적 서버를 찾는 방법을 모를 경우 [FAQ](../faq-intro/faq.md)를 참조하고 [올바르게 trackingServer 및 trackingServerSecure 변수를 채웁니다](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#).
