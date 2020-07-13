@@ -4,9 +4,9 @@ seo-description: IAB TCF(Transparency and Consent Framework)를 위한 Audience 
 seo-title: IAB 프레임워크에서 옵트인 서비스 사용
 title: IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: ht
-source-git-commit: 4c37c8dd3b76dbf17b955864f0562363350eaecd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # IAB 프레임워크에서 옵트인 서비스 사용{#using-opt-in-services-with-iab-framework}
 
->[!IMPORTANT] 다음 문서는 IAB 2.0에만 적용됩니다. 사용자는 IAB 2.0에서 작업하려면 Visitor.js 버전 5.0을 사용해야 합니다.
+>[!IMPORTANT]
+>
+>다음 문서는 IAB 2.0에만 적용됩니다. 사용자는 IAB 2.0에서 작업하려면 Visitor.js 버전 5.0을 사용해야 합니다.
 
 CMP(동의 관리 플랫폼)을 옵트인의 IAB 투명도 및 TCF(Transparency and Consent Framework) 플러그인과 연결합니다.
 
