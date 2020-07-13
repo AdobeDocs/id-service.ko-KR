@@ -3,9 +3,9 @@ title: Safari ITP 환경의 ECID 라이브러리 메서드
 seo-title: Safari ITP 환경의 ECID 라이브러리 메서드
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 seo-description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -42,7 +42,9 @@ ECID 라이브러리, AMCV 쿠키 및 ECID(MID라고도 함)는 모든 Adobe 솔
 
 Safari에서 추적을 위해 추가 메서드가 생성되면 이 페이지에 참조로 추가됩니다.
 
->[!NOTE]*아래 모든 문서에서 ECID* = *MID* = *MCID*.
+>[!NOTE]
+>
+>*아래 모든 문서에서 ECID* = *MID* = *MCID*.
 
 ITP 및 ECID 라이브러리 사용과 관련된 작업은 아래를 참조하십시오.
 
