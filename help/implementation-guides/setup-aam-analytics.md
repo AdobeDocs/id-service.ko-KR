@@ -5,9 +5,9 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
 title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
 ht-degree: 100%
 
