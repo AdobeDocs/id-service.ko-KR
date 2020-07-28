@@ -5,11 +5,11 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1572'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Read the ID service [requirements](../reference/requirements.md) before you begin and note the following requirements that are specific to this implementation:
+>시작하기 전에 ID 서비스 [요구 사항](../reference/requirements.md)을 읽고 이 구현에 해당하는 다음 요구 사항을 알아 두십시오.
 >
 >* s_code를 사용하는 고객은 이 절차를 완료할 수 없습니다. 이 절차를 완료하려면 mbox 코드 v61로 업그레이드하십시오.
 >* 프로덕션 환경에서 구현하기 *전에* 개발 환경에서 이 코드를 구성하고 테스트하십시오.
