@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# getLocationHint{#getlocationhint}를 참조하십시오
+# 를 참조하십시오 getLocationHint{#getlocationhint}
 
 Experience Cloud Identity 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. Audience Manager에 서버측 API를 호출하려면 지역 ID가 필요합니다.
 
