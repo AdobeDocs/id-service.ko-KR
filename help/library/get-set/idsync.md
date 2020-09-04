@@ -1,19 +1,22 @@
 ---
-description: ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용 가능합니다.
-keywords: ID 서비스
-seo-description: ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용 가능합니다.
+description: ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용할 수 있습니다.
+keywords: ID Service
+seo-description: ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용할 수 있습니다.
 seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
-translation-type: ht
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+translation-type: tm+mt
+source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 50%
 
 ---
 
 
 # URL 또는 데이터 소스별 ID 동기화{#id-synchronization-by-url-or-data-source}
 
-ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용 가능합니다.
+ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용할 수 있습니다.
 
 ## 구문, 속성 및 매크로 {#section-90ac61617482463aaf4c57009b830332}
 
@@ -33,17 +36,14 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByDataSource(); </span> </p> </td> 
-   <td colname="col2"> <p>이미 DPID 및 DPUUID를 알고 있으며 표준 ID 동기화 URL 포맷으로 <span class="keyword">Audience Manager</span>로 해당 ID를 전송하려고 할 때 </p> <p> 
-     <draft-comment>
-       사용자 ID를 이미 알고 있고 이를 Audience Manager에게 보내려는 경우. 
-     </draft-comment> </p> </td> 
+   <td colname="col2"> <p>이미 DPID 및 DPUUID를 알고 있으며 표준 ID 동기화 URL 포맷으로 <span class="keyword">Audience Manager</span>로 해당 ID를 전송하려고 할 때 </p> <p></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **속성**
 
-다음 표에는 두 함수 모두에 사용 가능한 속성이 나열 및 정의되어 있습니다.
+다음 표는 두 함수 모두에서 사용할 수 있는 속성을 나열하고 정의합니다.
 
 <table id="table_5343BE784E694C67B09A0A8878CF8001"> 
  <thead> 
@@ -57,17 +57,17 @@ ID 서비스 함수인 idSyncByURL 및 idSyncByDataSource를 사용하면 대상
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> dpid </span> </td> 
    <td colname="col2"> 문자열 </td> 
-   <td colname="col3"> <p>Audience Manager가 할당한 데이터 제공업체 ID입니다. </p> </td> 
+   <td colname="col3"> <p>Audience Manager에서 지정한 데이터 공급자 ID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> dpuuid </span> </td> 
    <td colname="col2"> 문자열 </td> 
-   <td colname="col3"> <p>사용자에 대한 데이터 제공업체의 고유한 ID입니다. </p> </td> 
+   <td colname="col3"> <p>사용자에 대한 데이터 공급자의 고유 ID입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> minutesToLive </span> </td> 
    <td colname="col2"> 숫자 </td> 
-   <td colname="col3"> <p> <i>(선택 사항)</i> 쿠키 만료 시간을 설정하며 정수여야 합니다. 기본값은 20160분(14일)입니다. </p> </td> 
+   <td colname="col3"> <p> <i>(선택 사항)</i> 쿠키 만료 시간을 설정합니다. 정수여야 합니다. 기본값은 20160분(14일)입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> url </span> </td> 
