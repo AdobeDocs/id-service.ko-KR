@@ -5,9 +5,9 @@ seo-description: Adobe Media Optimizer 및 ID 서비스를 비롯한 Experience 
 seo-title: ID 동기화 및 일치율 이해하기
 title: ID 동기화 및 일치율 이해하기
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
