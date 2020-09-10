@@ -5,11 +5,11 @@ seo-description: ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사�
 seo-title: URL 또는 데이터 소스별 ID 동기화
 title: URL 또는 데이터 소스별 ID 동기화
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
