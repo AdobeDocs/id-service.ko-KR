@@ -4,7 +4,7 @@ seo-title: Google Chrome SameSite 레이블 설정 변경
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 seo-description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 translation-type: tm+mt
-source-git-commit: f74a028532e95ab17f5d2e64697d69eb64e03391
+source-git-commit: 592ca6ca6a72e57b728e286d0b730c5bd93c0c7b
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 4%
@@ -64,7 +64,9 @@ Adobe은 쿠키를 업데이트할 수 있는 권한을 가지지만 Adobe은 �
 
 이제 Analytics에서 변경 사항을 수용하기 위해 쿠키의 SameSite 값을 명시적으로 `s_vi` 설정합니다 `lax`. 친숙하고 타사 컨텍스트에서 이 쿠키를 사용하려면 SameSite 값을 다음으로 `none`설정합니다. 즉, 항상 HTTPS를 사용해야 합니다. 보안 CNAME에 대해 SameSite 값을 변경하려면 고객 지원 센터에 문의하십시오.
 
-> [!IMPORTANT] 이 작업은 ECID를 사용하는 Analytics 고객, 각 도메인에 대해 별도의 CNAME을 사용하는 고객 또는 타사 Analytics 데이터 수집만 사용하는 고객에게 필요하지 않습니다.
+>[!IMPORTANT]
+>
+>이 작업은 ECID를 사용하는 Analytics 고객, 각 도메인에 대해 별도의 CNAME을 사용하는 고객 또는 타사 Analytics 데이터 수집만 사용하는 고객에게 필요하지 않습니다.
 
 ## Adobe 표준 방문자 쿠키
 
