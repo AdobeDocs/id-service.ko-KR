@@ -7,7 +7,7 @@ breadcrumb-title: Identity Service 안내서
 user-guide-description: ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 user-guide-url: /content/help/en/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 3aba8820ef40d068c732a637be5ab67652a8d35d
+source-git-commit: 0bf1464a7caf3f2a8a06178ed5c2d2525e79cfd6
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 97%
@@ -43,7 +43,7 @@ ht-degree: 97%
       + [옵트인 서비스 확인](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
       + [Experience Platform Launch로 옵트인 구성](implementation-guides/opt-in-service/launch.md)
       + [DTM으로 옵트인 구성](implementation-guides/opt-in-service/optin-dtm.md)
-      + [사용자 동의에 따라 Experience Cloud 활동 제어](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent)
+      + [사용자 동의에 따라 Experience Cloud 활동 제어](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
       + [옵트인 사용 사례](implementation-guides/opt-in-service/use-cases.md)
       + [옵트인 참조](implementation-guides/opt-in-service/api.md)
       + [IAB 프레임워크에서 옵트인 서비스 사용](implementation-guides/opt-in-service/iab.md)
