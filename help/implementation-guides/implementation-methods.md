@@ -5,10 +5,10 @@ seo-description: Experience Cloud Identity 서비스의 표준 및 비표준 구
 seo-title: 구현 방법
 title: 구현 방법
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63de22a29ebd8a504800d1045a69ea7eec05077a
-workflow-type: ht
-source-wordcount: '153'
+workflow-type: tm+mt
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 표준 구현 {#section-ea1e5270f2184f85a2e85214a6ac60cb}
 
-Adobe는 [[!DNL Experience Platform Launch]](https://docs.adobe.com/content/help/ko-KR/launch/using/implement/solutions/idservice-save.html)를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 이 방법을 사용하면 다른 [!DNL Experience Cloud] 솔루션과 통합하고 구현 워크플로우를 간소화하며 자동으로 올바른 코드 배치 및 순서를 확보할 수 있습니다.
+[[!DNL Experience Platform Launch]를 사용하여 ID 서비스를 구현하는 것이 좋습니다. ](https://docs.adobe.com/content/help/ko-KR/launch/using/implement/solutions/idservice-save.html) 이 방법을 사용하면 다른 [!DNL Experience Cloud] 솔루션과 통합하고 구현 워크플로우를 간소화하며 자동으로 올바른 코드 배치 및 순서를 확보할 수 있습니다.
 
 ## 비표준 구현 {#section-2c4f2db1f9704315a7cccab6d2e07113}
 
