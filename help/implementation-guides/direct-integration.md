@@ -5,9 +5,9 @@ seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 
 seo-title: Experience Cloud Identity 서비스와 직접 통합
 title: Experience Cloud Identity 서비스와 직접 통합
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
 
