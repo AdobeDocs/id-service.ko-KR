@@ -1,12 +1,15 @@
 ---
 description: 이 변수를 사용하면 AMCV 쿠키의 기본 수명 간격을 무시할 수 있습니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: 이 변수를 사용하면 AMCV 쿠키의 기본 수명 간격을 무시할 수 있습니다.
 seo-title: cookieLifetime
 title: cookieLifetime
 uuid: cd945db3-429a-4625-ac3f-69ac259377a3
 translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 100%
 
 ---
 
