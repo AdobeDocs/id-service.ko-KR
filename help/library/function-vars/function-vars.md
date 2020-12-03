@@ -1,12 +1,15 @@
 ---
 description: 이러한 속성을 Visitor.getInstance 정적 메서드에 전달하여 ID 서비스를 구성합니다.
-keywords: 조직 ID;ID 서비스
+keywords: Organization ID;ID Service
 seo-description: 이러한 속성을 Visitor.getInstance 정적 메서드에 전달하여 ID 서비스를 구성합니다.
 seo-title: 구성
 title: 구성
 uuid: 2dfe1ed6-f3a6-4f5c-976b-eeb43738c20c
 translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 >[!NOTE]
 >
->*Experience Cloud ID Javascript 라이브러리*&#x200B;가 최근에 이동되었습니다. ECID JS 라이브러리의 최신 릴리스는 [ https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases)에 있습니다.
+>*Experience Cloud ID Javascript 라이브러리*&#x200B;가 최근에 이동되었습니다. The latest release of the ECID JS libraries can be found at [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
 
 관련 문서:
 
