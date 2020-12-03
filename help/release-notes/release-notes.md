@@ -4,9 +4,9 @@ keywords: ID Service
 seo-description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2020년 릴리스 노트
 title: 2020년 릴리스 노트
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0057a8242dafca63101b1a2f569766bde11bea7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
