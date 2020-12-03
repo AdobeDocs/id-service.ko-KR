@@ -5,9 +5,9 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -146,7 +146,7 @@ Analytics에서는 데이터 수집을 위해 추적 서버를 사용합니다.
 >
 >이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 참조하십시오.
 
-***(선택 사항이지만 권장됨)*사용자 지정 Prop 만들기&#x200B;**
+***(선택 사항이지만 권장됨)* 사용자 지정 Prop 만들기&#x200B;**
 
 `AppMeasurement.js`에 사용자 지정 prop을 설정하여 범위를 측정. 이 사용자 지정 prop을 `doPlugins` 파일의 `AppMeasurement.js` 함수에 추가합니다.
 
