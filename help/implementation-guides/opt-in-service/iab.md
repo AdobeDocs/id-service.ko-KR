@@ -4,9 +4,9 @@ seo-description: IAB TCF(Transparency and Consent Framework)를 위한 Audience 
 seo-title: IAB 프레임워크에서 옵트인 서비스 사용
 title: IAB 프레임워크에서 옵트인 서비스 사용
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 
