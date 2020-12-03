@@ -5,9 +5,9 @@ seo-description: ID 요청 및 응답 프로세스에 대한 개요입니다. �
 seo-title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
 
