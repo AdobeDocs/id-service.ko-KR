@@ -3,9 +3,9 @@ title: Safari ITP 환경의 ECID 라이브러리 메서드
 seo-title: Safari ITP 환경의 ECID 라이브러리 메서드
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 seo-description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
