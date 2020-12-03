@@ -1,12 +1,15 @@
 ---
 description: 이 ID 서비스 함수를 호출하여 ID 서비스가 클라이언트측 Experience Cloud 방문자 ID(MID)를 생성했는지 확인합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: 이 ID 서비스 함수를 호출하여 ID 서비스가 클라이언트측 Experience Cloud 방문자 ID(MID)를 생성했는지 확인합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 seo-title: isClientSideMarketingCloudVisitorID를 참조하십시오
 title: isClientSideMarketingCloudVisitorID를 참조하십시오
 uuid: 1c39ac60-1d2b-4ed4-a2ea-30d680e61e10
 translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 52%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 `var *`variableName`* = visitor.isClientSideMarketingCloudVisitorID()`
 
-다음 표에는 이 함수에 의해 반환된 응답이 나열 및 설명되어 있습니다.
+다음 표에서는 이 함수에서 반환된 응답을 나열하고 설명합니다.
 
 <table id="table_5D08A5DD6FD04F94818B0E8B790D3136"> 
  <thead> 
