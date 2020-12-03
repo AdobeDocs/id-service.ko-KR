@@ -1,12 +1,15 @@
 ---
 description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud Identity 서비스 코드에 추가할 수 있습니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud Identity 서비스 코드에 추가할 수 있습니다.
 seo-title: Experience Cloud Identity 서비스에서 COPPA 지원
 title: Experience Cloud Identity 서비스에서 COPPA 지원
 uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 77%
 
 ---
 
@@ -21,14 +24,14 @@ COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Pro
 
 **쿠키 및 추적**
 
-웹 페이지가 로드되면 [!DNL Experience Cloud] ID 서비스는 [!DNL Adobe] 데이터 수집 서버(DCS)를 호출합니다. DCS 응답에는 Experience Cloud 쿠키와 demdex.net 쿠키가 포함되어 있습니다.
+웹 페이지가 로드되면 [!DNL Experience Cloud] ID 서비스는 [!DNL Adobe] 데이터 수집 서버(DCS)를 호출합니다. DCS 응답에는 Experience Cloud 쿠키와 demdex.net 쿠키가 포함됩니다.
 
-* Experience Cloud 쿠키는 퍼스트 파티 도메인에서 설정됩니다. 해당 도메인이 액세스를 허용하기 위해 함께 작동하지 않는 한, 여러 다른 도메인에서 방문자를 추적하는 데 사용할 수 없습니다.
-* demdex.net 쿠키는 타사 도메인에서 설정됩니다. 여기에는 다양한 도메인의 방문자를 추적하는 데 사용할 수 있는 고유한 식별자가 포함되어 있습니다.
+* Experience Cloud 쿠키는 퍼스트 파티 도메인에 설정됩니다. 이러한 도메인이 액세스를 허용하기 위해 함께 작동하지 않는 한 여러 도메인 간 방문자를 추적하는 데 사용할 수 없습니다.
+* demdex.net 쿠키는 타사 도메인에 설정됩니다. 여기에는 서로 다른 도메인에서 방문자를 추적하는 데 사용할 수 있는 고유한 식별자가 포함됩니다.
 
-**쿠키 및 COPPA 규격**
+**쿠키 및 COPPA 규정 준수**
 
-주로 아이들을 대상으로 하는 웹 사이트의 여러 다양한 도메인에서 방문자를 추적하는 타사 쿠키는 COPPA 보호자 동의 요구 사항을 트리거합니다. 내부 웹 사이트 분석을 위해 COPPA를 보다 쉽게 준수하려면 아래에 표시된 것처럼 변수 `disableThirdPartyCookies:true`를 `Visitor.getInstance` 함수에 추가합니다.
+주로 어린이를 대상으로 하는 웹 사이트의 다양한 도메인에서 방문자를 추적하는 타사 쿠키는 COPPA 보호자 동의 요구 사항을 트리거합니다. 내부 웹 사이트 분석을 위해 COPPA를 보다 쉽게 준수하려면 아래에 표시된 것처럼 변수 `disableThirdPartyCookies:true`를 `Visitor.getInstance` 함수에 추가합니다.
 
 ```js
 //Call the ID service 
