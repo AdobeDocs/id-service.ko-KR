@@ -1,9 +1,9 @@
 ---
 title: 사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 활동 제어
 description: Adobe 옵트인 개체는 Adobe Experience Platform ID 서비스의 확장으로, 최종 사용자의 동의에 따라 웹페이지에서 쿠키를 생성하거나, 비콘을 시작할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계되었습니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3aba8820ef40d068c732a637be5ab67652a8d35d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Adobe [!UICONTROL 옵트인] 개체는 Adobe [!UICONTROL Experience Platform ID 
 
 또한, [!UICONTROL 옵트인]은 Adobe Experience Platform Launch를 통해 가장 쉽게 구성할 수 있습니다. 다음의 짧은 비디오에서 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
 
 Experience Platform Launch를 사용하지 않는 경우, [문서](https://marketing.adobe.com/resources/help/ko_KR/mcvid/getting-started.html)에 표시된대로 글로벌 방문자 개체의 초기화에서 [!UICONTROL 옵트인] 구성을 설정할 수 있습니다.
 
@@ -46,7 +46,7 @@ Experience Platform Launch를 사용하지 않는 경우, [문서](https://marke
 
 다음 비디오에서는 페이지에서 작동하는 [!UICONTROL 옵트인]에 대한 빠른 데모 및 Experience Cloud 솔루션의 쿠키 설정과 비콘 시작 등의 여부를 결정하는데 어떤 영향을 미칠 수 있는지 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12)
 
 **참고:** 이 문서를 작성할 때, 모든 Experience Cloud 솔루션의 라이브러리에 [!UICONTROL 옵트인]이 내장된 것은 아니라는 점에 주의하십시오. 현재 [!UICONTROL 옵트인]에 대해 지원되는 라이브러리는 다음과 같습니다.
 
