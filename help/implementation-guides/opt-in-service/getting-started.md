@@ -6,6 +6,9 @@ title: 옵트인 서비스 설정
 uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
 translation-type: tm+mt
 source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +25,7 @@ Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용�
 
 1. ECID 버전 4.0.
 
-   최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)합니다.
+   [최신 ECID 릴리스를 다운로드합니다](https://github.com/Adobe-Marketing-Cloud/id-service/releases) .
 
 1. 지원 라이브러리:
 
@@ -30,19 +33,19 @@ Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용�
    * AppMeasurement 2.11 이상
    * DIL 9.0
    * AT.js 버전 1.7.0
-   * AT.js Launch 확장 버전 9.0
-   * Analytics의 경우 확장 1.6이 포함된 App Measurement 2.11
-   * Target의 경우 확장 0.9.1
+   * AT.js 실행 확장 버전 9.0
+   * Analytics의 경우 App Measurement 2.11(확장 1.6 포함)
+   * Target의 경우 익스텐션 0.9.1
 
-1. 옵트인에서 사용할 동의 관리 프레임워크를 잘 알아두고 추가 사전 요구 사항을 파악합니다.
+1. 옵트인에 사용할 동의 관리 프레임워크에 대해 잘 이해하고 추가 전제 조건을 파악합니다.
 
    <!--
    For IAB, see here for additional pre-reqs.
    -->
 
-1. 회사의 개인 정보 요구 사항은 GDPR 준수를 위해 선택하는 방법에 따라 달라집니다. 회사 개인 정보 팀이 사전 동의 상태에서 안전하게 사용할 수 있는 라이브러리를 파악합니다.
+1. 회사의 개인 정보 보호 요건은 GDPR을 준수하기 위해 선택하는 방법에 따라 다릅니다. 회사 개인 정보 보호 팀에서 사전 동의 상태에서 사용하는 데 문제가 없는 라이브러리를 알고 있어야 합니다.
 
-[Adobe Launch](https://docs.adobelaunch.com/)를 사용하는 경우 [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
+If using [Adobe Launch](https://docs.adobelaunch.com/), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
 
 ## 옵트인 카테고리 {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
@@ -60,13 +63,13 @@ adobe.OptInCategories = {
 };
 ```
 
-옵트인 서비스를 사용하면 사이트에서 사용되는 각 Adobe 솔루션에 대한 방문자의 권한 환경 설정을 지정할 수 있습니다. 이 개체에는 방문자 설정을 승인된 카테고리별로 저장하고 순차적 흐름을 지원하는 라이브러리가 포함되어 있습니다. 여기서 승인 프로세스는 한 번에 하나씩 각 카테고리에 대한 "확인" 또는 "거부" 환경 설정을 수신합니다. 전체 또는 개별 솔루션으로 옵트인할 솔루션/카테고리를 설정할 수 있습니다.
+옵트인 서비스를 사용하면 사이트에서 사용되는 각 Adobe 솔루션에 대한 방문자의 권한 환경 설정을 지정할 수 있습니다. 이 개체에는 방문자 설정을 승인된 카테고리별로 저장하고 순차적 흐름을 지원하는 라이브러리가 포함되어 있습니다. 여기서 승인 프로세스는 한 번에 하나씩 각 카테고리에 대한 &quot;확인&quot; 또는 &quot;거부&quot; 환경 설정을 수신합니다. 전체 또는 개별 솔루션으로 옵트인할 솔루션/카테고리를 설정할 수 있습니다.
 
 모든 Adobe 솔루션의 클라이언트측 라이브러리는 옵트인 서비스에 종속되며, 솔루션에 권한이 부여되지 않은 경우 쿠키를 생성하지 않습니다. 옵트인은 현재 방문자에 대한 동의 설정을 제공하고 업데이트하는 다양한 방법을 지원합니다. 이 섹션에서는 옵트인 서비스 환경 설정을 지정하는 예를 제공합니다. 함수 및 매개 변수의 전체 목록은 [옵트인 API 참조](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867)를 참조하십시오.
 
 옵트인 서비스 구성은 전역 `adobe` 개체를 인스턴스화하는 Visitor JS `getInstance()` 함수에 제공됩니다. 다음은 옵트인 서비스에 대한 Visitor JS [구성 설정](../../implementation-guides/opt-in-service/api.md#section-d66018342baf401389f248bb381becbf) 목록입니다.
 
-**전역`Visitor`개체의 초기화에서 옵트인 구성 예제**
+**전역 `Visitor` 개체의 초기화에서 옵트인 구성 예제**
 
 ```
 // FORMAT: Object<adobe.OptInCategories enum: boolean> 
@@ -89,9 +92,9 @@ Visitor.getInstance("YOUR_ORG_ID", {
 });
 ```
 
-**동의 변경 사항 처리**
+**동의로 변경 처리**
 
-방문자는 사용자 사이트를 경험할 때 언제든지 환경 설정을 처음으로 지정하거나 CMP를 사용하여 환경 설정을 변경할 수 있습니다. Visitor JS가 초기 설정으로 초기화되면 방문자의 권한을 변경할 수 있습니다. 동의 함수 관리 목록에 대해서는 [동의 변경](../../implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc)을 참조하십시오.
+방문자가 사이트에 머무는 동안 언제든지 처음으로 환경 설정을 지정하거나 CMP를 사용하여 환경 설정을 변경할 수 있습니다. 방문자 JS가 초기 설정으로 초기화되면 방문자의 권한을 변경할 수 있습니다. 동의 함수 관리 목록에 대해서는 [동의 변경](../../implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc)을 참조하십시오.
 
 <!--
 <p> *** <b>sample code block </b>*** </p>
@@ -111,7 +114,7 @@ adobe.optIn.complete();
 
 ## 방문자의 옵트인 권한 검사 {#section-f136a9024e054d84881e6667fb7c94eb}
 
-방문자가 자신의 권한을 변경할 때 옵트인 서비스의 변경 사항과 동의 저장 내용을 동기화하기 위해서는 결과 권한에 대한 통찰력이 필요합니다. [권한 함수](../../implementation-guides/opt-in-service/api.md#section-7fe57279b5b44b4f8fe47e336df60155)를 사용하여 방문자의 환경 설정을 검사합니다. 예를 들면 다음과 같습니다.
+방문자가 자신의 권한을 변경할 때 옵트인 서비스의 변경 사항과 동의 저장 내용을 동기화하기 위해서는 결과 권한에 대한 통찰력이 필요합니다. Inspect에서 [권한 기능을 사용하여 방문자의 환경](../../implementation-guides/opt-in-service/api.md#section-7fe57279b5b44b4f8fe47e336df60155)설정을 지정합니다. 예:
 
 **fetchPermissions 샘플**
 
@@ -135,13 +138,13 @@ function callback() {
 optIn.fetchPermissions(callback, true);
 ```
 
-이 문서에 언급된 함수, 속성 또는 구성에 대한 자세한 내용은 [API 설명서](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867)를 참조하십시오.
+See [API documentation](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for more details on these and any functions, properties, or configurations mentioned in this document.
 
 ## 방문자 환경 설정 저장 {#section-ef2884ae67e34879bf7c7c3372706c9f}
 
 옵트인 서비스는 개발 환경 또는 CRM을 사용할 수 없는 환경에 맞게 동의 환경 설정을 저장하는 옵션을 제공합니다. 구성 속성 `isOptInStorageEnabled`를 *true*&#x200B;로 지정하면 옵트인 서비스를 트리거하여 도메인 내에 방문자의 시스템에 대한 쿠키를 생성합니다.
 
-`adobe.optIn` 개체는 상태를 저장하지 않으며, 저장 메커니즘을 제공하지 않습니다. 대신 사용자 지정 데이터를 저장할 수 있는 경우 기존의 CMP(동의 관리 플랫폼)에 있는 Adobe 동의 설정을 관리하도록 설계되었습니다. 또는 방문자 브라우저의 쿠키에 방문자 환경 설정을 저장할 수 있습니다. 사용자의 환경 설정을 옵트인 서비스에 제공하는 두 가지 옵션이 있습니다.
+`adobe.optIn` 개체는 상태를 저장하지 않으며, 저장 메커니즘을 제공하지 않습니다. 사용자 지정 데이터를 저장할 수 있는 경우 기존 CMP(Consent Management Platform)에서 Adobe 동의 설정을 관리하는 대신 사용됩니다. 또는 방문자의 브라우저에 있는 쿠키에 방문자 기본 설정을 저장할 수 있습니다. 사용자의 환경 설정을 옵트인 서비스에 제공하는 두 가지 옵션이 있습니다.
 
 * 사용자 동의 지속성 솔루션이 방문자의 브라우저에서 CMP이든, 쿠키이든 간에 방문자 환경 설정을 적시에 검색할 수 있도록 허용하는 경우, 방문자 초기화 중에 그러한 환경 설정을 옵트인 서비스에 제공할 수 있습니다.
 * 그러나 검색이 오래 걸릴 수 있는 경우 또는 비동기 프로세스로 최상의 서비스를 제공할 수 있는 경우에는 그러한 설정이 성공적으로 로드되면 서비스의 `approve()` 함수를 사용하여 설정을 제공할 수 있습니다.
