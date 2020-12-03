@@ -5,9 +5,9 @@ seo-description: 비디오 하트비트를 사용하려면 Experience Cloud Iden
 seo-title: 비디오 하트비트 및 Experience Cloud Identity 서비스
 title: 비디오 하트비트 및 Experience Cloud Identity 서비스
 uuid: 07986a78-23ac-4fd4-ab8f-be9275616a29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 
