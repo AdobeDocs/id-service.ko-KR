@@ -5,9 +5,9 @@ seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사�
 seo-title: Analytics용 Experience Cloud Identity 서비스 구현
 title: Analytics용 Experience Cloud Identity 서비스 구현
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 `linkInternalFilters`, `charSet`, `trackDownloads` 등과 같은 구성을 포함하는 섹션에 코드를 다음과 같이 추가합니다.
 
-***(선택 사항이지만 권장됨)*사용자 지정 Prop 만들기&#x200B;**
+***(선택 사항이지만 권장됨)* 사용자 지정 Prop 만들기&#x200B;**
 
 `AppMeasurement.js` 또는 `s_code.js`에 사용자 지정 prop을 설정하여 범위를 측정. 이 사용자 지정 prop을 `doPlugins` 또는 `AppMeasurement.js` 파일의 `s_code.js` 함수에 추가합니다.
 
