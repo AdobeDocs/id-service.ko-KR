@@ -1,12 +1,15 @@
 ---
 description: 2018년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: 2018년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2018 릴리스 노트
 title: 2018 릴리스 노트
 uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
 translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 39%
 
 ---
 
@@ -26,8 +29,8 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>AMCV 쿠키에 대한 보안이 강화됨 </p> </td> 
-   <td colname="col2"> <p>내부 보안 스캔 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못했음이 확인되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있었습니다. 이 문제를 해결하기 위해 Adobe에서는 고객이 AMCV 쿠키를 보안 설정할 수 있는 구성을 도입했습니다. <a href="/help/library/function-vars/securecookie.md" format="https" scope="external">secureCookie</a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p>AMCV 쿠키에 대한 보안 강화 </p> </td> 
+   <td colname="col2"> <p>내부 보안 검사 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못한 것으로 발견되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있습니다. 이를 해결하기 위해 Adobe는 고객이 AMCV 쿠키를 안전하게 설정할 수 있도록 하는 구성을 도입했습니다. <a href="/help/library/function-vars/securecookie.md" format="https" scope="external">secureCookie</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,15 +46,15 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>AMCV 쿠키에 대한 보안이 강화됨 </p> </td> 
-   <td colname="col2"> <p>내부 보안 스캔 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못했음이 확인되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있었습니다. 이 문제를 해결하기 위해 Adobe에서는 고객이 AMCV 쿠키를 보안 설정할 수 있는 구성을 도입했습니다. secureCookie를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p>AMCV 쿠키에 대한 보안 강화 </p> </td> 
+   <td colname="col2"> <p>내부 보안 검사 중에 DTM 라이브러리를 사용할 때 세션 관리에 사용된 쿠키가 적절한 속성을 지정하지 못한 것으로 발견되었습니다. 이로 인해 쿠키 정보가 실수로 공유될 수 있습니다. 이를 해결하기 위해 Adobe는 고객이 AMCV 쿠키를 안전하게 설정할 수 있도록 하는 구성을 도입했습니다. secureCookie를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>통합 코드 및 ID는 숫자 또는 비어 있지 않은 문자열이어야 함 </p> </td> 
-   <td colname="col2"> <p>데이터에 숫자가 아니거나 빈 문자열이 아닌 통합 `code` 또는 `id`가 포함되어 있을 때`setCustomerIDs '를 확인하는 문제가 해결되었습니다. </p> </td> 
+   <td colname="col1"> <p>통합 코드와 id는 숫자이거나 비어 있지 않은 문자열이어야 합니다. </p> </td> 
+   <td colname="col2"> <p>데이터에 숫자 또는 비어 있지 않은 문자열이 아닌 통합 'code' 또는 'id'가 포함된 경우 'setCustomerIDs'의 유효성을 검사하는 문제가 해결되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> ECID JS는 공용 Git 리포지토리에서 사용할 수 있음 </td> 
+   <td colname="col1"> ECID JS는 Public Git 보고서에서 사용할 수 있습니다. </td> 
    <td colname="col2"> 이제 모든 Experience Cloud 고객이 다음에 있는 공용 Git 리포지토리의 ECID JS를 사용할 수 있습니다. https://github.com/Adobe-Marketing-Cloud/id-service/releases </td> 
   </tr> 
  </tbody> 
@@ -69,7 +72,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
  <tbody> 
   <tr> 
    <td colname="col1"> <p>고유 방문자 수의 비정상적인 급증 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud Identity 서비스 3.1.0이 릴리스된 후 이 버전을 구현할 때 고유 방문자 수가 비정상적으로 급증하는 문제가 발견되었습니다. 이 동작은 최신 버전의 ECID v3.1.0 및 사용자가 Safari 브라우저의 개인정보 보호 설정에서 "현재 웹 사이트에서만 허용" 선택 사항을 선택한 경우에만 발생합니다. 버전 3.1.2에서 이 문제를 수정했습니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud Identity 서비스 3.1.0이 릴리스된 후 이 버전을 구현할 때 고유 방문자 수가 비정상적으로 급증하는 문제가 발견되었습니다. 이 동작은 최신 버전의 ECID, v3.1.0에서만 표시되며 사용자가 Safari 브라우저의 개인 정보 설정에서 "현재 웹 사이트에서만 허용" 옵션을 선택한 경우에만 표시됩니다. 버전 3.1.2에서 이 문제를 해결합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +93,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
  <tbody> 
   <tr> 
    <td colname="col1"> <p>잘못된 도메인에 설정된 쿠키 </p> </td> 
-   <td colname="col2"> <p>임시 방문자 쿠키가 구성(initConfig)에 제공된 도메인에 설정하지 않고 '기본' 쿠키 도메인에 쿠키를 설정하는 버그를 수정했습니다. </p> </td> 
+   <td colname="col2"> <p>임시 방문자 쿠키가 구성(initConfig)에 제공된 도메인에 쿠키를 설정하는 대신 '기본' 쿠키 도메인에 쿠키를 설정하는 버그를 수정했습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +110,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
  <tbody> 
   <tr> 
    <td colname="col1"> <p>여러 ID 동기화 요청에 대한 스레드 산출 </p> </td> 
-   <td colname="col2"> <p><b>Iframe</b> </p> <p>여러 ID 동기화를 수행하는 고객의 경우 지속적인 CPU 계산으로 인해 경우에 따라 UI가 차단됩니다. 100밀리초 당 하나의 ID 동기화 요청을 구분하기 위해 스레드 산출을 도입하고 있습니다. </p> <p>이 변경 사항은 Visitor 2.3.0+ 및 DIL 6.10+를 사용하는 고객의 성능을 향상시킵니다. </p> </td> 
+   <td colname="col2"> <p><b>Iframe</b> </p> <p>여러 ID 동기화를 수행하는 고객의 경우, 지속적인 CPU 계산 때문에 UI가 차단되는 경우가 있습니다. ID 동기화 요청을 각각 100밀리초씩 구분하는 스레드 양산을 소개합니다. </p> <p>이 변경 사항은 방문자 2.3.0+ 및 DIL 6.10+을 사용하는 고객의 성능을 향상시킵니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 타사 통화를 비활성화하는 기능이 추가됨 </td> 
