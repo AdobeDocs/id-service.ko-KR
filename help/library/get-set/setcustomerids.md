@@ -1,12 +1,15 @@
 ---
 description: setCustomerIDs는 고객 ID 및 해당 인증 상태를 정의하는 1개 이상의 키-값 쌍을 설정합니다.
-keywords: ID 서비스
+keywords: ID Service
 seo-description: setCustomerIDs는 고객 ID 및 해당 인증 상태를 정의하는 1개 이상의 키-값 쌍을 설정합니다.
 seo-title: setCustomerIDs
 title: setCustomerIDs
 uuid: 4f960f98-cec2-4db6-84ea-0259e2128ea2
 translation-type: tm+mt
 source-git-commit: 21fb12b817b7c8cd34e6022ca6c188229228d1df
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 100%
 
 ---
 
