@@ -5,9 +5,9 @@ seo-description: Experience Cloud Identity 서비스가 기존 Analytics ID와 �
 seo-title: Analytics 및 Experience Cloud ID 요청
 title: Analytics 및 Experience Cloud ID 요청
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
