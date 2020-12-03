@@ -5,9 +5,9 @@ seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및
 seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생
 | AMCV(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 | AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 
-*참고: 보안 속성으로 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은[secureCookie](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/configurations/securecookie.html)항목을 참조하십시오.*
+*참고: 보안 속성으로 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은 [secureCookie](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/configurations/securecookie.html) 항목을 참조하십시오.*
 
 ## 다음 단계 {#section-8db1727a63bc4ff68b495f270315d453}
 
