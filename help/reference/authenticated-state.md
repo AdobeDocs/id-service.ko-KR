@@ -5,9 +5,9 @@ seo-description: Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 �
 seo-title: 고객 ID 및 인증 상태
 title: 고객 ID 및 인증 상태
 uuid: 643df363-224a-463e-a332-be59926b47e7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
 
