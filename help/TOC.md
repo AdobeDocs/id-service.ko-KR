@@ -6,11 +6,11 @@ user-guide-title: Experience Cloud Identity 서비스 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc198b092480f66611b6302ed3cb25dd2a0b22b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 99%
       + [overwriteCrossDomainMCIDAndAID](library/function-vars/overwrite-visitor-id.md)
       + [resetBeforeVersion](library/function-vars/resetbeforeversion.md)
       + [sdidParamExpiry](library/function-vars/sdidparamexpiry.md)
-      + [보안 및 동일 사이트 구성](library/function-vars/secure-samesite-config.md)
+      + [보안 및 SameSite 구성](library/function-vars/secure-samesite-config.md)
       + [secureCookie](library/function-vars/securecookie.md)
       + [useCORSOnly](library/function-vars/use-cors-only.md)
       + [whitelistParentDomain 및 whitelistIframeDomains](library/function-vars/whitelistdomain.md)
