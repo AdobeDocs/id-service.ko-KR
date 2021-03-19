@@ -1,14 +1,14 @@
 ---
 description: Experience Cloud Identity 서비스는 이전 Analytics 방문자 ID 메서드를 대체합니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: Experience Cloud Identity 서비스는 이전 Analytics 방문자 ID 메서드를 대체합니다.
 seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '945'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Adobe 데이터 수집 서버로 요청이 전송되면 헤더에 `s_vi` 쿠키�
 
 JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 쿠키를 읽고 쓸 수 있습니다. [!DNL Experience Cloud] ID 서비스는 이 방법을 사용하여 모든 방문자 ID가 포함된 `AMCV_###@AdobeOrg` 쿠키를 설정하므로 방문자 ID 쿠키를 저장하기 위해 더 이상 추적 서버의 도메인이 웹 사이트의 도메인과 일치하지 않아도 됩니다. 대부분의 상황에서는 ID 서비스 쿠키를 설정하는 것이 더 좋습니다. CNAME 레코드 및 SSL 인증서의 오버헤드가 해소되기 때문입니다.
 
-그러나 HTTP 헤더에서 쿠키를 설정하는 것이 도메인 간 추적에 도움이 되는 경우가 있으며, 이는 [데이터 수집 CNAME 및 도메인 간 추적](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d)에 설명되어 있습니다.
+<!---However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).-->
 
 ## 사용자 지정 분석 ID {#section-b6a7bd19e9ff432390010062450808f6}
 
