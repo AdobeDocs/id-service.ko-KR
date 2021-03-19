@@ -1,14 +1,14 @@
 ---
-description: 'null'
-keywords: order of operations;ID Service
-seo-description: 'null'
+description: '고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드 파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.'
+keywords: 작업 순서;ID 서비스
+seo-description: '고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드 파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.'
 seo-title: 데이터 수집 CNAME 및 도메인 간 추적
 title: 데이터 수집 CNAME 및 도메인 간 추적
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
 translation-type: tm+mt
-source-git-commit: 9fe63cf3983a2ed6642837b02a3c3441ef745d70
+source-git-commit: 053d45656e941adc1950d49099c30da1d9a72aa0
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '675'
 ht-degree: 100%
 
 ---
