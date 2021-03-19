@@ -1,14 +1,14 @@
 ---
 description: Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적에 어떻게 영향을 미치는지 이해하고, 다른 메서드를 사용하거나 JavaScript 파일을 통해 데이터를 수집하는 경우에 발생할 수 있는 문제를 알고 있어야 합니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적에 어떻게 영향을 미치는지 이해하고, 다른 메서드를 사용하거나 JavaScript 파일을 통해 데이터를 수집하는 경우에 발생할 수 있는 문제를 알고 있어야 합니다.
 seo-title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
 translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>복수 도메인 </p> </td> 
-   <td colname="col2"> <p>복수 도메인에서 방문자를 추적하고 고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 데이터 수집 CNAME을 계속 사용해야 합니다. 자세한 내용은 <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local">데이터 수집 CNAME 및 도메인 간 추적</a>을 참조하십시오. </p> <p>ID 서비스에서 CNAME를 구성하려면 추적 서버 매개 변수인 <span class="codeph">visitor.marketingCloudServer</span> 및 <span class="codeph">visitor.marketingCloudServerSecure</span>를 추가로 지정해야 합니다. </p> </td> 
+   <td colname="col2"> <p>복수 도메인에서 방문자를 추적하고 고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 데이터 수집 CNAME을 계속 사용해야 합니다. <!--See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation.--> </p> <p>ID 서비스에서 CNAME를 구성하려면 추적 서버 매개 변수인 <span class="codeph">visitor.marketingCloudServer</span> 및 <span class="codeph">visitor.marketingCloudServerSecure</span>를 추가로 지정해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>단일 도메인 </p> </td> 
