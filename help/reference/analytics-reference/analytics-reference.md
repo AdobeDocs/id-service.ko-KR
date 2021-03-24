@@ -5,9 +5,9 @@ seo-description: Adobe Analytics의 고유한 ID 서비스 기능입니다.
 seo-title: Analytics 참조
 title: Analytics 참조
 uuid: 215f0394-a436-4f0c-9a52-3b387048e40e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73465dcdab8b8316e0e9d41c5780ff0231270058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
 
