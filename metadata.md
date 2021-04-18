@@ -1,8 +1,8 @@
 ---
 cloud: Experience Cloud
-product: ID Service
+product: id service
 solution: Experience Cloud Services
-type: 설명서
+type: Documentation
 audience: end-user
 solution-title: 학습 및 지원
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
@@ -14,10 +14,10 @@ tutorials-url: https://docs.adobe.com/content/help/kr/core-services-learn/tutori
 git-repo: https://git.corp.adobe.com/AdobeDocs/id-service.ko-KR
 description: ID 서비스
 index: true
-translation-type: ht
-source-git-commit: 26e76f846623e9a78f784816bec5acc970ed30f0
-workflow-type: ht
-source-wordcount: '39'
+translation-type: tm+mt
+source-git-commit: 6fa0d2eafa06878d8d4778ac7d45f7737b86d5a4
+workflow-type: tm+mt
+source-wordcount: '38'
 ht-degree: 100%
 
 ---
