@@ -1,14 +1,13 @@
 ---
 cloud: platform-cloud
-product: ID Service
 audience: end-user
 user-guide-title: Experience Cloud Identity 서비스 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: ht
-source-git-commit: 560fbedd698c569b82992c54b8c9cfe176424b4f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6fa0d2eafa06878d8d4778ac7d45f7737b86d5a4
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
