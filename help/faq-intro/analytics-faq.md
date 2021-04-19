@@ -1,18 +1,18 @@
 ---
 description: Experience Cloud Identity 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
-keywords: Experience Cloud Identity Service
+keywords: Experience Cloud Identity 서비스
 seo-description: Identity 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 seo-title: Analytics 및 Identity 서비스 FAQ
 title: Analytics 및 Identity 서비스 FAQ
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '989'
+exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '993'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 및 Identity 서비스 FAQ{#analytics-and-id-service-faqs}
 
@@ -77,7 +77,7 @@ Identity 서비스 사용 시 나타나는 불일치의 가능한 원인은 다�
 
 1. AMCV 쿠키가 성공적으로 설정되기 전에(30초 제한 시간 내) 최종 사용자가 페이지를 나갑니다.
 
-   페이지가 로드되기 전에 방문자가 페이지를 떠나면  Analytics 히트가 전송되지 않습니다. Analytics는 이 시나리오에서 데이터를 수신하지 않으며 페이지의 조기 종료로 인해 데이터가 손실되었다고 간주합니다. 원거리 지역을 포함한 Adobe의 테스트에 따르면, 이 시나리오는 평균적으로 트래픽의 1% 미만으로 나타났습니다. 이 시나리오는 Identity 서비스, 즉 페이지 맨 아래에 Analytics 데이터 수집 코드가 포함되어 있는 아티팩트가 없는 경우에도 발생합니다.
+   페이지가 로드되기 전에 방문자가 페이지를 떠나면 Analytics 히트가 전송되지 않습니다. Analytics는 이 시나리오에서 데이터를 수신하지 않으며 페이지의 조기 종료로 인해 데이터가 손실되었다고 간주합니다. 원거리 지역을 포함한 Adobe의 테스트에 따르면, 이 시나리오는 평균적으로 트래픽의 1% 미만으로 나타났습니다. 이 시나리오는 Identity 서비스, 즉 페이지 맨 아래에 Analytics 데이터 수집 코드가 포함되어 있는 아티팩트가 없는 경우에도 발생합니다.
 
 1. 느린 연결 또는 브라우저 &quot;회전&quot;으로 인해 30초 시간 제한 창 내에서 Identity 서비스 또는 Analytics ID가 최종 사용자에게 지정되지 않습니다.
 
