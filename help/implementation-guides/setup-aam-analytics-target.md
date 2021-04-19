@@ -1,18 +1,18 @@
 ---
 description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 seo-title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: tm+mt
-source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
-source-wordcount: '1572'
+exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '1574'
 ht-degree: 100%
 
 ---
-
 
 # Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
@@ -244,4 +244,3 @@ mboxMCAVID가 표시되면 [!DNL Analytics] AID에 대해 해당 값을 확인�
 
 * 이미지 요청에 AID(Analytics ID) 및 MID가 있는지 확인합니다.
 * [중단 기준](../implementation-guides/setup-aam-analytics-target.md#section-aceacdb7d5794f25ac6ff46f82e148e1)을 충족한 경우 유예 기간을 사용하지 않도록 설정하십시오.
-
