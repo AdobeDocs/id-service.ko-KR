@@ -4,14 +4,14 @@ seo-description: 옵트인 서비스를 사용하면 방문자가 사용자의 �
 seo-title: 옵트인 서비스
 title: 옵트인 서비스
 uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
-translation-type: tm+mt
-source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
-workflow-type: tm+mt
+exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
-
 
 # 옵트인 서비스{#opt-in-service}
 
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 옵트인 서비스를 사용하여 방문자가 Adobe 솔루션을 한꺼번에 옵트인할 수 있는지를 지정하거나 권한을 얻기 위해 솔루션을 순서대로 표시할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색할 수 있습니다.
 
-The Opt-in service is implemented and configured easily using [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) with the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md). [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
+옵트인 서비스는 [Adobe Experience Platform Launch](https://docs.adobelaunch.com/)를 [옵트인 확장](../../implementation-guides/opt-in-service/launch.md)과 함께 사용하여 쉽게 구현하고 구성합니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
 
 시작하려면 [옵트인 서비스 설정](../../implementation-guides/opt-in-service/getting-started.md)을 참조하십시오.
 
@@ -31,21 +31,21 @@ The Opt-in service is implemented and configured easily using [Adobe Experience 
 
 >[!IMPORTANT]
 >
->이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. 옵트인 구현 시 동의 및 관행에 대한 조언을 얻으려면 회사의 법무팀에 문의하십시오.
+>이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. 옵트인 구현을 설정할 때 동의 및 관행에 관한 조언을 구하려면 귀사의 법무 부서에 문의하십시오.
 
-## Experience Cloud 솔루션 간 옵트인 {#section-053e6224505542cf961896f0ca869e52}
+## Experience Cloud 솔루션에서 옵트인 {#section-053e6224505542cf961896f0ca869e52}
 
 옵트인 서비스는 사용자 자신의 요구 사항에 따라 동의 옵트인 워크플로우를 구축하는 도구로서, 사용자 또는 사용자 동의 컨트롤러에서 동의를 제공하기 전과 후에 반응(태그 실행)하는 워크플로우를 설계할 수 있습니다.
 
 옵트인 서비스를 사용하면 Adobe 솔루션에 대한 동의 관리 작업을 다음과 같이 설정할 수 있습니다.
 
-* 사용자의 동의 수집 요구 사항이 일반적으로 적용되는지 여부를 나타냅니다.
-* 쿠키를 생성할 수 있는 솔루션을 지정합니다.
-* 범주에 명시적으로 동의 또는 거절하지 않은 솔루션에 대해 기본 환경 설정을 적용합니다.
-* 사용자의 동의 설정에 대한 변경 사항을 기반으로 사용자 지정 응답을 트리거하여 사용자의 설정을 유지하거나 업데이트할 수 있습니다.
+* 동의 수집 요구 사항이 일반적으로 사용자에게 적용되는지 여부를 표시합니다.
+* 쿠키 생성이 허용되는 솔루션을 지정합니다.
+* 범주가 사용자에 의해 명시 적으로 동의 또는 거부되지 않은 모든 솔루션에 대해 기본 환경 설정을 적용합니다.
+* 사용자 동의 설정 변경 사항에 따라 사용자 지정 응답을 트리거하여 사용자 설정을 유지하거나 업데이트할 수 있습니다.
 
-옵트인 서비스를 사용하면 사용자가 선택하기 전에 사전 동의를 사용하여 일부 쿠키를 로드하도록 사이트를 구성할 수 있습니다. 사용자 동의 후에 또는 선택한 후에 쿠키를 로드할 수 있도록 새 고객에 대한 옵트인 서비스를 설정할 수 있습니다. 또한 기존 동의 관리 플랫폼에서 옵트인 동의를 저장 및 검색하거나 쿠키에 옵트인 권한을 저장할 수도 있습니다.
+옵트인 서비스를 사용하면 사용자가 선택하기 전에 사전 동의를 사용하여 일부 쿠키를 로드하도록 사이트를 구성할 수 있습니다. 사용자 동의 후에 또는 선택한 후에 쿠키를 로드할 수 있도록 새 고객에 대한 옵트인 서비스를 설정할 수 있습니다. 또한 기존 동의 관리 플랫폼에서 옵트인 동의를 저장하고 검색하거나 단순히 동의 권한을 쿠키에 저장할 수 있습니다.
 
 ![](assets/Opt-in-approval.png)
 
-그런 다음 Adobe 솔루션을 통해 태그가 승인되었는지 확인하고, 변경 사항에 가입한 후 모든 옵트인 고객을 검색할 수 있습니다. 옵트인 서비스를 사용하면 솔루션 JavaScript 라이브러리나 ECID가 구현된 경우 해당 라이브러리나 ECID를 통해 직접 권한을 얻을 수 있습니다.
+그런 다음 Adobe 솔루션에서 태그가 승인되었는지 확인하고 변경 사항에 동의한 다음 모든 옵트인 고객을 검색할 수 있습니다. 옵트인 서비스를 사용하면 솔루션 JavaScript 라이브러리나 ECID가 구현된 경우 해당 라이브러리나 ECID를 통해 직접 권한을 얻을 수 있습니다.
