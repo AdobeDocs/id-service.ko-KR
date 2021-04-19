@@ -1,18 +1,18 @@
 ---
 description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 seo-title: ID 서비스 FAQ
 title: ID 서비스 FAQ
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '804'
+exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '806'
 ht-degree: 100%
 
 ---
-
 
 # ID 서비스 FAQ{#id-service-faqs}
 
