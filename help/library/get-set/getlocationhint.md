@@ -1,18 +1,18 @@
 ---
 description: Experience Cloud Identity 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. Audience Manager에 서버측 API를 호출하려면 지역 ID가 필요합니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: Experience Cloud Identity 서비스 지역 ID를 반환합니다. 지역 ID(또는 위치 힌트)는 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. Audience Manager에 서버측 API를 호출하려면 지역 ID가 필요합니다.
 seo-title: getLocationHint를 참조하십시오
 title: getLocationHint를 참조하십시오
 uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '230'
+exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
-
 
 # getLocationHint{#getlocationhint}
 
@@ -36,4 +36,3 @@ var callback = function (
 //Get the region ID 
 visitor.getLocationHint(callback, true); 
 ```
-
