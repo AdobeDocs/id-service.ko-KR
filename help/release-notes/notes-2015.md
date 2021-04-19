@@ -1,18 +1,18 @@
 ---
 description: 2015년의 릴리스 노트 및 업데이트입니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 2015년의 릴리스 노트 및 업데이트입니다.
 seo-title: 2015 릴리스 노트
 title: 2015 릴리스 노트
 uuid: 49423699-1e0f-49e4-9135-2ae84b4f92df
-translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
-workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 65%
+exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
-
 
 # 2015 릴리스 노트 {#release-notes}
 
@@ -28,24 +28,24 @@ COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Pro
 
 2015년 9월
 
-* 사용자가 타사 쿠키를 차단했을 때 동기화 서비스가 작동하지 않던 Safari 브라우저의 버그를 수정했습니다. (AAM-20764)
-* 이제 ID 서비스 호출 시 `d_visid_ver=` 매개 변수에 버전 ID가 포함됩니다. 반환된 ID는 문제 해결 및 지원 문제가 있는 내부 팀에게 도움이 됩니다. (AAM-20824)
+* 사용자가 서드파티 쿠키를 차단할 때 동기화 서비스가 작동하지 않는 Safari 브라우저의 버그가 수정되었습니다. (AAM-20764)
+* 이제 ID 서비스 호출 시 `d_visid_ver=` 매개 변수에 버전 ID가 포함됩니다. 반환된 ID는 문제 해결 및 지원 문제와 관련하여 내부 팀에 도움이 됩니다. (AAM-20824)
 
 ## 버전 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
 
 2015년 8월
 
-* 동기화하거나 실행할 데이터가 없는 경우 ID 서비스가 iframe을 요청하지 못하게 하던 버그가 해결되었습니다. (AAM-20164)
-* ID 서비스가 다중 부분, 최상위 도메인 쿠키를 제대로 설정하지 못하게 하던 버그를 수정했습니다. 예를 들어 `my_company.co.uk`와 같은 도메인이 있는 경우 일부 상황에서 ID 서비스가 `co.uk`에만 쿠키를 설정합니다. (AN-104683)
+* 동기화하거나 실행할 데이터가 없는 경우 ID 서비스가 iframe을 요청하지 못하게 하던 버그가 수정되었습니다. (AAM-20164)
+* ID 서비스가 다중 부분, 최상위 도메인 쿠키를 제대로 설정하지 못하게 하던 버그가 수정되었습니다. 예를 들어 `my_company.co.uk`와 같은 도메인이 있는 경우 일부 상황에서 ID 서비스가 `co.uk`에만 쿠키를 설정합니다. (AN-104683)
 
-   이는 다음 기준을 *모두* 충족하는 몇 개의 클라이언트에만 영향을 주었습니다.
+   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * ID 서비스 사용.
-   * [유예 기간&#x200B;](../reference/analytics-reference/grace-period.md)*을 활성화했거나*&#x200B;자사 쿠키를 사용하고 제3자 쿠키 차단
+   * [유예 기간&#x200B;](../reference/analytics-reference/grace-period.md)*을 활성화했거나*&#x200B;자사 쿠키를 사용하고 사용자가 서드파티 쿠키 차단
 
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
-이 릴리스의 설명서 개정에는 다음이 포함됩니다.
+이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.
 
 * [API 메서드 및 코드 라이브러리](../library/library.md#concept-ff27497375644a898d47984aefb21c97): 컨텐츠 및 텍스트가 재구성되었습니다. 대부분의 경우 각 메서드가 개별 페이지에 설명됩니다.
 * [Experience Cloud Identity 서비스 요구 사항](../reference/requirements.md): 컨텐츠가 수정되고 텍스트가 재구성되었습니다.
@@ -76,7 +76,7 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
 
 2015년 2월
 
-AAM Blob 및 위치 힌트에 대한 요청 처리 제한 시간이 수정되었습니다. 이제 제한 시간이 되면 시스템은 현재 페이지에 대해 해당 필드를 빈 상태로 유지하고 모든 콜백을 만듭니다. 시간 초과는 오류 상태로 취급되므로 다음 페이지에서 다시 시도됩니다. (AN-94473, AN-94474)
+AAM Blob 및 위치 힌트 요청에 대한 제한 시간의 처리가 수정되었습니다. 이제 시간 초과 시 시스템은 현재 페이지에 대해 해당 필드를 올바르게 비워두고 모든 콜백을 만듭니다. 시간 초과는 오류 조건으로 처리되므로 다음 페이지에서 다시 시도됩니다. (AN-94473, AN-94474)
 
 ## 버전 1.3.4 {#section-bca4a3e7c05546b7af1c9ec47fdb3331}
 
