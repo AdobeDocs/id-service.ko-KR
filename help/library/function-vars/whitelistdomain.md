@@ -1,18 +1,18 @@
 ---
 description: 이러한 구성을 사용하면 iFrame 및 상위 페이지에 구현된 ID 서비스 코드의 다른 인스턴스가 서로 통신할 수 있습니다. 상위 페이지/도메인을 제어할 수 있거나 제어할 수 없고 제어하는 도메인의 iFrame에서 ID 서비스 코드가 로드되는 2개의 특정 사용 사례와 관련된 문제를 해결하는 데 도움이 되도록 설계되었습니다. VisitorAPI.js 코드 버전 2.2 이상에서 사용할 수 있습니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 이러한 구성을 사용하면 iFrame 및 상위 페이지에 구현된 ID 서비스 코드의 다른 인스턴스가 서로 통신할 수 있습니다. 상위 페이지/도메인을 제어할 수 있거나 제어할 수 없고 제어하는 도메인의 iFrame에서 ID 서비스 코드가 로드되는 2개의 특정 사용 사례와 관련된 문제를 해결하는 데 도움이 되도록 설계되었습니다. VisitorAPI.js 코드 버전 2.2 이상에서 사용할 수 있습니다.
 seo-title: whitelistParentDomain 및 whitelistIframeDomains
 title: whitelistParentDomain 및 whitelistIframeDomains
 uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '932'
+exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '934'
 ht-degree: 100%
 
 ---
-
 
 # whitelistParentDomain 및 whitelistIframeDomains{#whitelistparentdomain-and-whitelistiframedomains}
 
@@ -188,4 +188,3 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
   </tr> 
  </tbody> 
 </table>
-
