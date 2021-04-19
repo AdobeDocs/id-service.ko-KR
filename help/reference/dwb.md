@@ -1,18 +1,18 @@
 ---
 description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
 seo-title: Data Workbench 및 Experience Cloud Identity 서비스
 title: Data Workbench 및 Experience Cloud Identity 서비스
 uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '260'
+exl-id: 1903918d-44e4-4790-ab1f-49f5bb701e31
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # Data Workbench 및 Experience Cloud Identity 서비스 {#data-workbench-and-the-experience-cloud-id-service}
 
@@ -831,4 +831,3 @@ Log Processing Include = LogProcessingInclude:
   Stage = string: Default
   Transformations = vector: 0 items
 ```
-
