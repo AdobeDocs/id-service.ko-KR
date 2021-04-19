@@ -4,20 +4,20 @@ seo-description: 옵트인 라이브러리 및 구성 설정 참조용 API입니
 seo-title: 옵트인 참조
 title: 옵트인 참조
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-translation-type: tm+mt
-source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
-workflow-type: tm+mt
+exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
-
 
 # 옵트인 참조{#opt-in-reference}
 
 옵트인 라이브러리 및 구성 설정 참조용 API입니다.
 
-동의 설정이 옵트인 기능에 카테고리로 제공됩니다.
+동의 설정은 범주로 옵트인 기능에 제공됩니다.
 
 ```
 adobe.OptInCategories = { 
@@ -36,7 +36,7 @@ adobe.OptInCategories = {
 
 **`doesOptInApply (boolean or function that evaluates to a boolean)`**:
 
-false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. 옵트인 또는 아웃된 카테고리에 관계없이 쿠키를 Experience Cloud으로 만듭니다. 이 구성은 전체적인 관점에서 옵트인을 활성화하거나 비활성화합니다.
+false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. 옵트인 또는 옵트아웃된 범주에 관계없이 Experience Cloud에서 쿠키를 생성합니다. 이 구성은 옵트인을 전체적으로 활성화 또는 비활성화합니다.
 
 **`preOptInApprovals (Object <adobe.OptInCategories enum: boolean>)`**
 
@@ -50,21 +50,21 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 
 자사 쿠키(현재 고객의 도메인 내에 있음)에 권한을 저장하기 위해 옵트인 활성화
 
-(선택 사항입니다) **`optInCookiesDomain (string)`**
+(선택 사항) **`optInCookiesDomain (string)`**
 
 옵트인 쿠키에 사용할 자사 도메인 또는 하위 도메인(`isOptInStorageEnabled`가 true인 경우)
 
-(선택 사항입니다) **`optInStorageExpiry (integer)`**
+(선택 사항) **`optInStorageExpiry (integer)`**
 
-기본 만료인 13개월을 재정의하는 시간(초)
+기본 만료 기간인 13개월을 재정의하는 시간(초)
 
 ## 동의 매개 변수 변경 {#section-c3d85403ff0d4394bd775c39f3d001fc}
 
-방문자가 사이트에서 경험하는 동안 언제든지 처음으로 환경 설정을 지정하거나 CMP를 사용하여 환경 설정을 변경할 수 있습니다. 방문자 JS가 초기 설정으로 초기화되면 다음 기능을 사용하여 방문자의 권한을 변경할 수 있습니다.
+방문자는 귀하의 사이트에서 경험하는 동안 언제든지 처음으로 기본 설정을 지정하거나 CMP를 사용하여 기본 설정을 변경할 수 있습니다. 방문자 JS가 초기 설정으로 초기화되면 다음 함수를 사용하여 방문자의 권한을 변경할 수 있습니다.
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 
-목록의 모든 카테고리에 대해 방문자를 승인하거나 옵트인하는 함수입니다. shouldWaitForComplete 매개 변수에 대한 자세한 내용은 [옵트인 워크플로우를 참조하십시오](../../implementation-guides/opt-in-service/getting-started.md#section-70cd243dec834c8ea096488640ae20a5).
+목록의 모든 카테고리에 대해 방문자를 승인하거나 옵트인하는 함수입니다. shouldWaitForComplete 매개 변수에 대한 자세한 내용은 [옵트인 워크플로](../../implementation-guides/opt-in-service/getting-started.md#section-70cd243dec834c8ea096488640ae20a5)를 참조하십시오.
 
 **`adobe.optIn.deny(categories, shouldWaitForComplete)`**
 
@@ -108,7 +108,7 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 
 `adobe.optIn.fetchPermissions(callback, shouldAutoSubscribe)`
 
-비동기적으로 권한 목록을 검색합니다. 콜백은 권한 목록과 함께 호출되며, 권한을 부여하거나 프로세스를 거부하는 권한이 완료됩니다. *에 대해* true`shouldAutoSubscribe` 값을 제공하면 옵트인 변경 사항을 전달하기 위해 콜백이 등록됩니다. 다음은 `adobe.OptIn`의 속성입니다.
+권한 목록을 비동기 적으로 검색합니다. 권한 부여/거부 프로세스가 완료되면 권한 목록과 함께 콜백이 호출됩니다. *에 대해* true`shouldAutoSubscribe` 값을 제공하면 옵트인 변경 사항을 전달하기 위해 콜백이 등록됩니다. 다음은 `adobe.OptIn`의 속성입니다.
 
 **`permissions`**
 
@@ -117,7 +117,7 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 **`status`**
 
 * 보류 중
-* 변경
+* 변경됨
 * 완료
 
 **`doesOptInApply`**
@@ -126,17 +126,18 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 
 **`isPending`**
 
-상태 값에 따라 true 또는 false입니다. 아직 명시적으로 수락하지 않았거나 거부된 방문자에 대해 이 속성에 대해 옵트인 보고서 true
+상태 값에 따라 True 또는 False. 아직 명시적으로 권한을 수락하거나 거부하지 않은 방문자의 경우 옵트인은 이 속성에 대해 true를 보고합니다.
 
 **`isComplete`**
 
-상태 값에 따라 true 또는 false입니다. 워크플로우 스타일 동의가 시작되었지만 완료되지 않은 경우 옵트인은 이 속성에 대해 false를 보고할 수 있습니다.
+상태 값에 따라 True 또는 False. 워크플로 스타일 동의가 시작되었지만 완료되지 않은 경우 옵트인이 이 속성에 대해 false를 보고할 수 있습니다.
 
-## 옵트인 개체 메서드 {#section-e0417801a82548d199d833010033e433}
+## 옵트인 개체의 메서드 {#section-e0417801a82548d199d833010033e433}
 
 **`approve(categories, shouldWaitForComplete)`**
 
-**`categories`**: 승인할 하나 이상의 카테고리. 예: `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`**`shouldWaitForComplete`**: (선택 사항) 부울 매개 변수, 기본적으로 false입니다. true를 전달하면 `adobe.optIn.complete()`()를 호출할 때까지 옵트인이 승인 프로세스를 완료하지 않습니다. 이 프로세스는 워크플로우와 유사합니다.
+**`categories`**: 승인할 하나 이상의 범주. 예: `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`
+**`shouldWaitForComplete`**: (선택 사항) 부울 매개 변수, 기본적으로 false입니다. true를 전달하면 `adobe.optIn.complete()`()를 호출할 때까지 옵트인이 승인 프로세스를 완료하지 않습니다. 이 프로세스는 워크플로우와 유사합니다.
 
 ```
 <codeblock>
@@ -148,8 +149,8 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 
 **`deny(categories, shouldWaitForComplete)`**
 
-* 1개 이상의 카테고리가 승인되었는지 확인합니다.
-* 전달된 카테고리가 없으면 사용 가능한 모든 카테고리가 선택됩니다.
+* 승인 여부를 확인하기 위해 1개 이상의 범주를 전달합니다.
+* 전달된 범주가 없으면 사용 가능한 모든 범주가 확인됩니다.
 
 **`isApproved(categories)`**
 
@@ -161,7 +162,7 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 
 **`fetchPermissions(callback, shouldAutoSubscribe)`**
 
-사용 권한 목록을 검색하기 위한 비동기 API. 콜백은 권한 목록과 함께 호출되며, 권한을 부여하거나 프로세스를 거부하는 권한이 완료됩니다. **`shouldAutoSubscribe`:** 도우미 유틸리티는 이 콜백을 향후 모든 이벤트에 자동으로 구독합니다. 즉, [옵트인]에서 승인 또는 거부 트리거가 발생할 때마다 콜백이 호출됩니다. 이러한 방식으로 이벤트를 직접 구독하지 않고도 항상 업데이트할 수 있습니다.
+권한 목록을 검색하는 비동기 API입니다. 권한 부여/거부 프로세스가 완료되면 권한 목록과 함께 콜백이 호출됩니다. **`shouldAutoSubscribe`:** 도우미 유틸리티는 이 콜백을 향후 모든 이벤트에 자동으로 구독합니다. 즉, 옵트인에서 승인 또는 거부 트리거가 발생할 때마다 콜백이 호출됩니다. 이렇게 하면 이벤트를 직접 구독하지 않고도 항상 업데이트됩니다.
 
 **예**
 
@@ -202,7 +203,7 @@ optIn.fetchPermissions(callback, true);
 
 **`denyAll()`**
 
-모든 기존 카테고리 거부.
+모든 기존 범주를 거부합니다.
 
 ## 옵트인 개체의 이벤트 {#section-06f25b33cab54bafb053183e937fb710}
 
