@@ -1,18 +1,18 @@
 ---
 description: Adobe Media Optimizer 및 ID 서비스를 비롯한 Experience Cloud Identity 서비스의 ID 동기화 프로세스 및 일치율에 대한 개요입니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: Adobe Media Optimizer 및 ID 서비스를 비롯한 Experience Cloud Identity 서비스의 ID 동기화 프로세스 및 일치율에 대한 개요입니다.
 seo-title: ID 동기화 및 일치율 이해하기
 title: ID 동기화 및 일치율 이해하기
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '831'
+exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '833'
 ht-degree: 100%
 
 ---
-
 
 # ID 동기화 및 일치율 이해하기{#understanding-id-synchronization-and-match-rates}
 
@@ -42,7 +42,7 @@ ID 서비스는 실시간으로 ID를 동기화합니다. 이 프로세스는 �
 
 페이지 본문을 로드하는 동안 ID 서비스는 *`Destination Publishing iFrame`*&#x200B;라는 iFrame을 로드합니다. [!UICONTROL 대상 게시 iFrame]은 상위 페이지와 별도로 도메인에서 로드됩니다. 이러한 설계는 iFrame을 사용하여 페이지 성능을 보장하고 보안을 개선하는 데 도움이 됩니다.
 
-* 상위 페이지를 기준으로 비동기식으로 로드합니다. 즉, 상위 페이지는 [!UICONTROL 대상 게시 iFrame]과 별도로 로드될 수 있습니다. iFrame을 로드하고  iFrame 내에서 ID 동기화 픽셀을 로드해도 상위 페이지나 사용자 경험에 영향을 주지 않습니다.
+* 상위 페이지를 기준으로 비동기식으로 로드합니다. 즉, 상위 페이지는 [!UICONTROL 대상 게시 iFrame]과 별도로 로드될 수 있습니다. iFrame을 로드하고 iFrame 내에서 ID 동기화 픽셀을 로드해도 상위 페이지나 사용자 경험에 영향을 주지 않습니다.
 * 가능한 빠르게 로드합니다. 너무 빠르게 로드되는 경우, 창 로드 이벤트 후에 iFrame리 로드될 수 있습니다(권장되지 않음). 자세한 정보는 [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4)를 참조하십시오.
 * iFrame의 코드가 상위 페이지에 액세스하거나 영향을 받지 않도록 합니다.
 
