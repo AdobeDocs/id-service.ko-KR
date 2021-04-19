@@ -1,18 +1,18 @@
 ---
 description: '일부 구현에서 방문자 ID가 JavaScript에서 서버로 전달되므로 서버에서 추가 Analytics 이벤트(예: 구입)를 전송할 수 있습니다.'
-keywords: ID Service
+keywords: ID 서비스
 seo-description: '일부 구현에서 방문자 ID가 JavaScript에서 서버로 전달되므로 서버에서 추가 Analytics 이벤트(예: 구입)를 전송할 수 있습니다.'
 seo-title: JavaScript와 혼합된 서버측 구현
 title: JavaScript와 혼합된 서버측 구현
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '211'
+exl-id: 1986ee11-2021-4f34-bb56-6eaa87b6dd6d
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
-
 
 # JavaScript와 혼합된 서버측 구현 {#server-side-implementation-mixed-with-javascript}
 
