@@ -1,18 +1,18 @@
 ---
 description: Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동되는지에 대한 개요입니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동되는지에 대한 개요입니다.
 seo-title: Analytics 및 Experience Cloud ID 요청
 title: Analytics 및 Experience Cloud ID 요청
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '467'
+exl-id: 8c682159-e23a-4641-9ffd-e0028dc2f305
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '469'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 및 Experience Cloud ID 요청{#analytics-and-experience-cloud-id-requests}
 
