@@ -1,18 +1,18 @@
 ---
 description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 seo-title: Experience Cloud Identity 서비스와 직접 통합
 title: Experience Cloud Identity 서비스와 직접 통합
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '712'
+exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '714'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud Identity 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
 
@@ -126,4 +126,3 @@ ID 서비스는 아래와 같이 JSON 개체에 있는 데이터를 반환합니
   </tr> 
  </tbody> 
 </table>
-
