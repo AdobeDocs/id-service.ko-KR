@@ -1,18 +1,18 @@
 ---
 description: ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 seo-title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '804'
+exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '806'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
@@ -64,4 +64,3 @@ DCS가 조직 ID와 demdex ID를 수신하면, 사이트 방문자에 대한 정
 이 예에서는 방문자가 Food Company 사이트를 떠나 Sports Company가 소유한 축구 사이트로 이동합니다. 방문자가 축구 사이트를 방문하면 ID 확인 및 요청 프로세스가 이전 예제에 설명된 것과 동일한 방식으로 작동합니다. 하지만 Sports Company의 자체 조직 ID가 있으므로 ID 서비스는 다른 MID를 반환합니다. 새 MID는 Sports Company에서 제어하는 도메인에 고유하며, 해당 기업이 [!DNL Experience Cloud]에서 솔루션 간에 방문자 데이터를 추적하고 공유할 수 있게 해 줍니다. demdex ID는 타사 쿠키에 포함되고 도메인이 달라져도 그대로 유지되므로 이 방문자에 대해 동일하게 유지됩니다.
 
 ![](assets/req_resp.png)
-
