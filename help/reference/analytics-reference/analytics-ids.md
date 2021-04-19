@@ -5,14 +5,14 @@ seo-description: Experience Cloud Identity 서비스는 이전 Analytics 방문�
 seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
+exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
 translation-type: ht
-source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
 workflow-type: ht
 source-wordcount: '945'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 및 Experience Cloud ID 설정{#setting-analytics-and-experience-cloud-ids}
 
