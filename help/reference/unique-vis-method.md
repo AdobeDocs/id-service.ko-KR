@@ -1,14 +1,14 @@
 ---
 title: 고유 방문자 식별
 description: Adobe ECID(ID 서비스)에 대한 문서
-translation-type: tm+mt
-source-git-commit: 8ad5ae179540596913fccc59070aecc57b09f586
-workflow-type: tm+mt
+exl-id: 379dbf0a-814d-4348-9ac4-d0e8fc13b9dc
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # 고유 방문자 식별
 
