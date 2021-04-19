@@ -1,17 +1,17 @@
 ---
-description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
-keywords: ID Service
+description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+keywords: ID 서비스
 seo-description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 seo-title: 2020년 릴리스 노트
 title: 2020년 릴리스 노트
-translation-type: tm+mt
-source-git-commit: d0057a8242dafca63101b1a2f569766bde11bea7
-workflow-type: tm+mt
-source-wordcount: '145'
+exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud 릴리스 노트 - 2020 {#release-notes}
 
