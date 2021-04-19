@@ -1,18 +1,18 @@
 ---
 description: 이러한 구성을 사용하여 Experience Cloud Identity 서비스 호출에 사용된 기본 도메인 이름을 고유한 하위 도메인 이름으로 변경합니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 이러한 구성을 사용하여 Experience Cloud Identity 서비스 호출에 사용된 기본 도메인 이름을 고유한 하위 도메인 이름으로 변경합니다.
 seo-title: audienceManagerServer 및 audienceManagerServerSecure
 title: audienceManagerServer 및 audienceManagerServerSecure
 uuid: e21cacbf-5151-4d34-b0f7-9e90275f4c7c
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '243'
+exl-id: b740eb5c-ac4e-46f4-ba7c-1080d8d9292d
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '245'
 ht-degree: 100%
 
 ---
-
 
 # audienceManagerServer 및 audienceManagerServerSecure{#audiencemanagerserver-and-audiencemanagerserversecure}
 
@@ -49,4 +49,3 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
      } 
 );
 ```
-
