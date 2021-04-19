@@ -1,28 +1,28 @@
 ---
-description: 이러한 지침은 Target, Analytics 및 ID 서비스의 서버 및 클라이언트측 구현이 혼합된 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하고 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 설치 지침 및 기타 구성 요구 사항은 이 섹션을 검토하십시오.
-keywords: ID Service
-seo-description: 이러한 지침은 Target, Analytics 및 ID 서비스의 서버 및 클라이언트측 구현이 혼합된 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하고 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 설치 지침 및 기타 구성 요구 사항은 이 섹션을 검토하십시오.
+description: 이 지침은 Target, Analytics 및 ID 서비스에 대해 혼합된 서버측 및 클라이언트측 구현이 있는 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하여 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 이 섹션에서 설치 지침 및 기타 구성 요구 사항을 검토하십시오.
+keywords: ID 서비스
+seo-description: 이 지침은 Target, Analytics 및 ID 서비스에 대해 혼합된 서버측 및 클라이언트측 구현이 있는 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하여 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 이 섹션에서 설치 지침 및 기타 구성 요구 사항을 검토하십시오.
 seo-title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
-translation-type: tm+mt
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
-workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 58%
+exl-id: 6f201378-29a1-44b7-b074-6004246fc999
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '915'
+ht-degree: 100%
 
 ---
 
-
 # Target의 서버측 구현 및 A4T에 ID 서비스 사용 {#using-the-id-service-with-a-t-and-a-server-side-implementation-of-target}
 
-이러한 지침은 Target, Analytics 및 ID 서비스의 서버 및 클라이언트측 구현이 혼합된 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하고 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 설치 지침 및 기타 구성 요구 사항은 이 섹션을 검토하십시오.
+이 지침은 Target, Analytics 및 ID 서비스에 대해 혼합된 서버측 및 클라이언트측 구현이 있는 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하여 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 이 섹션에서 설치 지침 및 기타 구성 요구 사항을 검토하십시오.
 
 ## 소개 {#section-ab0521ff5bbd44c592c3eaab31c1de8b}
 
-A4T(및 기타 고객)는 다음 작업이 필요할 때 이 버전의 ID 서비스를 사용할 수 있습니다.
+A4T(및 기타 고객)는 다음과 같은 작업이 필요한 경우 이 버전의 ID 서비스를 사용할 수 있습니다.
 
-* 서버에서 웹 페이지 컨텐츠를 렌더링하여 브라우저에 전달하여 최종 표시할 수 있습니다.
+* 서버에서 웹 페이지 콘텐츠를 렌더링하고 최종 표시되도록 브라우저에 전달합니다
 * 서버측 [!DNL Target]을 호출합니다.
 * [!DNL Analytics]에 클라이언트측(인브라우저) 호출을 해야 하는 경우
 * 별개의[!DNL Target] 및 [!DNL Analytics] ID를 동기화하여 한 개의 솔루션에 의해 표시된 방문자가 다른 솔루션에 표시된 방문자와 동일한 인물인지 확인해야 할 경우
@@ -39,18 +39,18 @@ A4T(및 기타 고객)는 다음 작업이 필요할 때 이 버전의 ID 서비
 
 ## 1단계: 페이지 요청 {#section-c12e82633bc94e8b8a65747115d0dda8}
 
-방문자가 웹 페이지를 로드하기 위해 HTTP 요청을 하면 서버측 활동이 시작됩니다. 이 단계 동안 서버는 이 요청을 수신하고 [AMCV 쿠키를 확인합니다](../introduction/cookies.md). AMCV 쿠키에는 방문자의 MID([!DNL Experience Cloud] ID)가 포함되어 있습니다.
+방문자가 웹 페이지를 로드하기 위해 HTTP 요청을 할 때 서버측 활동이 시작됩니다. 이 단계에서 서버는 이 요청을 수신하고 [AMCV 쿠키](../introduction/cookies.md)를 확인합니다. AMCV 쿠키에는 방문자의 MID([!DNL Experience Cloud] ID)가 포함되어 있습니다.
 
 ## 2단계: ID 서비스 페이로드 생성 {#section-c86531863db24bd9a5b761c1a2e0d964}
 
 다음으로, ID 서비스에 서버측 *`payload request`*&#x200B;을 만듭니다. 페이로드 요청:
 
 * AMCV 쿠키를 ID 서비스에 전달합니다.
-* 아래 설명된 이후 단계에서 Target 및 Analytics에 필요한 데이터를 요청합니다.
+* 아래에 설명된 후속 단계에서 Target 및 Analytics에 필요한 데이터를 요청합니다.
 
 >[!NOTE]
 >
->이 메서드는 [!DNL Target]에서 단일 mbox를 요청합니다. If you need to request multiple mboxes in a single call, see [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
+>이 메서드는 [!DNL Target]에서 단일 mbox를 요청합니다. 한 번의 호출로 여러 mbox를 요청해야 하는 경우 [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload)를 참조하십시오.
 
 페이로드 요청은 다음 코드 샘플과 유사해야 합니다. 코드 샘플에서 `visitor.setCustomerIDs` 함수는 선택 사항입니다. 자세한 내용은 [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
 
@@ -165,11 +165,11 @@ Response.send("
    >
    >값 이름은 페이지 코드의 `serverState`에 설정한 변수 이름과 일치해야 합니다.
 
-구성된 설정은 다음과 같아야 합니다.
+구성된 설정은 다음과 같습니다.
 
 ![](assets/server_side_dtm.png)
 
-See also, [Experience Cloud Identity Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
+See also, [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)도 참조하십시오.
 
 **DTM을 사용하지 않고 서버 상태 가져오기**
 
@@ -194,7 +194,7 @@ Response.send("
 
 ## 5단계: 페이지 제공 및 Experience Cloud 데이터 반환 {#section-4b5631a0d75a41febd6f43f8c214c263}
 
-이때 웹 서버는 방문자의 브라우저에 페이지 컨텐츠를 전송합니다. 이 시점에서부터 브라우저(서버가 아님)가 나머지 모든 ID 서비스와 [!DNL Analytics] 호출을 수행합니다. 예를 들어 브라우저에서 다음을 수행합니다.
+이때 웹 서버는 방문자의 브라우저에 페이지 컨텐츠를 전송합니다. 이 시점에서부터 브라우저(서버가 아님)가 나머지 모든 ID 서비스와 [!DNL Analytics] 호출을 수행합니다. 예를 들어 브라우저에서:
 
 * ID 서비스는 서버에서 상태 데이터를 수신하고 SDID를 AppMeasurement로 전달합니다.
 * AppMeasurement가 SDID를 포함하여 페이지 조회수에 관한 데이터를 [!DNL Analytics]에 전달합니다.
