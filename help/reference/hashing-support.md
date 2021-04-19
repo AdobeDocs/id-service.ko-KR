@@ -1,17 +1,17 @@
 ---
 description: ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 고유한 해시 메서드를 계속 사용할 수 있습니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 고유한 해시 메서드를 계속 사용할 수 있습니다.
 seo-title: setCustomerIDs에 대한 SHA256 해시 지원
 title: setCustomerIDs에 대한 SHA256 해시 지원
-translation-type: tm+mt
-source-git-commit: ac1131be75fd04b51cd1d646086e1802a43afb18
-workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 91%
+exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
-
 
 # `setCustomerIDs`에 대한 SHA256 해시 지원 {#hashing-support}
 
@@ -23,7 +23,7 @@ ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 �
 
 ## ECID에서 `setCustomerIDs` 메서드 사용 {#use-setcustomerids-method}
 
-The first method leverages using the [`setCustomerIDs`](/help/library/get-set/setcustomerids.md) (`customerIDs<object>`, `hashType<string>`) method.
+첫 번째 메서드는 [`setCustomerIDs`](/help/library/get-set/setcustomerids.md) (`customerIDs<object>`, `hashType<string>`) 메서드를 사용하여 활용합니다.
 
 ECID 라이브러리는 해싱하기 전에 customerIDs에 데이터 표준화를 수행합니다. 이 과정에서는 양쪽 끝에서 customerIDs의 공백을 트리밍하고 모든 문자를 소문자로 변환합니다. 예를 들어, 이메일 주소의 경우 &quot; ecid@adobe.com &quot;은 &quot;ecid@adobe.com&quot;이 됩니다.
 
@@ -38,7 +38,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Experience Cloud 방문자 ID와 함께 추가 고객 ID, 인증 상태 및 해시 유형(SHA-256)을 각 방문자와 연결할 수 있습니다. 해시 유형을 제공하지 않으면 해시 없음으로 간주됩니다.
 
-`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. For example, you can upload these IDs as [customer attributes](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html) to the Experience Cloud and access this data across the different solutions.
+`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)으로 Experience Cloud에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
 
 고객 ID, 인증된 상태 및 해시 유형은 나중에 사용할 수 있게 쿠키에 저장되지 *않습니다*. 대신, 고객 ID, 인증된 상태 및 해시 유형은 아래와 같이 [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)를 사용하여 검색할 수 있도록 인스턴스 변수에 저장해야 합니다.
 
@@ -71,9 +71,9 @@ ts=1563299964843
 
 ## Adobe Experience Platform Launch에서 동작 추가 {#add-action-launch}
 
-Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. Read more about Launch in the [Launch product documentation](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html).
+Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://docs.adobe.com/content/help/en/launch/using/overview.html)에서 Launch에 대해 자세히 알아보십시오.
 
-To add an action in Launch, read the [rules documentation](https://docs.adobe.com/help/ko-KR/launch/using/reference/manage-resources/rules.html) in Adobe Launch and see the screen capture below:
+Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
 
 ![](/help/reference/assets/hashing-support.png)
 
