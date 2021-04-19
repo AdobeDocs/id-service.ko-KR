@@ -5,14 +5,14 @@ seo-description: Experience Cloud Identity 서비스를 배포하기 전에 이 
 seo-title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
+exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
 translation-type: ht
-source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
 workflow-type: ht
 source-wordcount: '679'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 
@@ -66,7 +66,7 @@ Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여�
      <li id="li_32E2CD3E58454E20A642BADE507AE86E">새 추적 서버가 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html" format="https" scope="external">RDC 규격</a> 서버인지 확인합니다. </li> 
      <li id="li_865BB6DAA3594EBBAB688E73C8343762"><span class="keyword">Experience Cloud</span> ID 서비스로 마이그레이션하기 몇 개월 전에 CNAME에서 RDC 추적 서버로 이동합니다. </li> 
      <li id="li_284A015177554C848C8648DC5BBAA365"> <i>*.2o7.net</i> 추적 서버를 사용하지 <span class="codeph">마십시오</span>. </li> 
-     <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1"><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="https" scope="external">고객 지원 센터</a>에 문의하여 방문자 마이그레이션을 설정하십시오. 이렇게 하면 일관된 방문자 수를 계산하는 데 도움이 됩니다. </li> 
+     <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1"><a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html" format="https" scope="external">고객 지원 센터</a>에 문의하여 방문자 마이그레이션을 설정하십시오. 이렇게 하면 일관된 방문자 수를 계산하는 데 도움이 됩니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -125,4 +125,3 @@ Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여�
   </tr> 
  </tbody> 
 </table>
-
