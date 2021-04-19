@@ -1,18 +1,18 @@
 ---
 description: 기존 구현은 DTM(Dynamic Tag Management)을 사용하여 Experience Cloud Identity 서비스를 설정 및 배포하고 다른 Experience Cloud 솔루션과 통합합니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 기존 구현은 DTM(Dynamic Tag Management)을 사용하여 Experience Cloud Identity 서비스를 설정 및 배포하고 다른 Experience Cloud 솔루션과 통합합니다.
 seo-title: Dynamic Tag Management를 사용하여 구현
 title: Dynamic Tag Management를 사용하여 구현
 uuid: c4f752c4-392e-4909-b178-911706857064
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '2056'
+exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '2058'
 ht-degree: 100%
 
 ---
-
 
 # Dynamic Tag Management를 사용하여 구현 {#implementation-with-dynamic-tag-management}
 
