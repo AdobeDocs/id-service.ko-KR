@@ -1,18 +1,18 @@
 ---
 description: '이 기능은 주로 A4T 고객이 단일 페이지 사이트/화면 또는 앱에서 ID 작업 관련 문제를 해결할 수 있도록 설계되었습니다. '
-keywords: ID Service
+keywords: ID 서비스
 seo-description: '이 기능은 주로 A4T 고객이 단일 페이지 사이트/화면 또는 앱에서 ID 작업 관련 문제를 해결할 수 있도록 설계되었습니다. '
 seo-title: resetState
 title: resetState
 uuid: ed7be76d-a7ee-4e51-b26c-456ff85fd096
-translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
-workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 66%
+exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '400'
+ht-degree: 100%
 
 ---
-
 
 # resetState{#resetstate}
 
@@ -22,8 +22,8 @@ ht-degree: 66%
 
 ID 서비스를 사용하는 A4T 고객은 다음을 수행해야 하는 경우 `visitor.resetState()` 함수를 사용할 수 있습니다.
 
-* 리디렉션을 통해 페이지 또는 화면에서 다른 페이지로 보조 데이터 ID(SDID) 또는 기타 ID를 전달하려면 일반적으로 이 함수 없이는 ID 서비스가 이 ID를 전달하지 않습니다.
-* Ajax 호출을 통해 페이지 또는 앱의 특정 섹션만 업데이트하고 이러한 작업을 추적하려는 코드를 사용하십시오. 예를 들어, 개체를 클릭하는 것은 특수 섹션만 로드하거나 변경하는 페이지가 있다고 가정합니다. 이 경우 페이지를 다시 로드하지 않으면 ID 서비스가 다른 ID를 요청할 수 없습니다. 그러나 `visitor.resetState()`를 사용하면 이러한 조건에서 새 ID를 요청할 수 있습니다.
+* 리디렉션을 통해 한 페이지 또는 화면에서 다른 페이지 또는 화면으로 SDID(Supplemental Data ID) 또는 기타 ID를 전달합니다. 일반적으로 ID 서비스는 이 함수가 없으면 이 ID를 전달하지 않습니다.
+* Ajax 호출을 통해 페이지 또는 앱의 특정 섹션만 업데이트하는 코드를 사용합니다. 그리고 해당 작업을 추적하고 싶습니다. 예를 들어 개체를 클릭하면 특별 섹션만 로드하거나 변경하는 페이지가 있다고 가정해 보겠습니다. 이 경우 ID 서비스는 페이지가 다시 로드되지 않는 한 다른 ID를 요청할 수 없습니다. 그러나 `visitor.resetState()`를 사용하면 이러한 조건에서 새 ID를 요청할 수 있습니다.
 
 아래 코드 샘플을 참조하십시오.
 
@@ -33,7 +33,7 @@ ID 서비스를 사용하는 A4T 고객은 다음을 수행해야 하는 경우 
 
 ## 코드 샘플 {#section-d75b211bb4ea473887eb284de2ad838b}
 
-ID 서비스 구현은 이 함수를 사용하는 방법에 영향을 줍니다. 예를 보려면 아래 표를 참조하십시오.
+ID 서비스 구현은 이 함수를 사용하는 방법에 영향을 줍니다. 예시는 아래 표를 참조하십시오.
 
 **서버측 구현**
 
@@ -66,7 +66,7 @@ visitor.resetState(serverState);
 
 **비표준 구현** (ID를 전달하지 않음)
 
-이 경우 `visitor.resetState()`를 사용하여 새 ID를 생성할 수 있습니다. 사용자가 페이지를 새로 고치지 않고 새 화면으로 이동하고 새 ID가 필요한 경우 단일 페이지 앱에서 유용할 수 있습니다.
+이 경우 `visitor.resetState()`를 사용하여 새 ID를 생성할 수 있습니다. 사용자가 페이지를 새로 고치지 않고 새 화면으로 이동하며 새 ID가 필요할 때 단일 페이지 앱에서 유용할 수 있는 방법입니다.
 
 ```js
  
