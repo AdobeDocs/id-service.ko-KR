@@ -1,18 +1,18 @@
 ---
 description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 seo-title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
 title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
-translation-type: tm+mt
-source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
-source-wordcount: '1303'
+exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '1305'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
@@ -210,4 +210,3 @@ ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 
 * 이미지 요청에 AID(Analytics ID) 및 MID가 있는지 확인합니다.
 * 중단 기준을 충족한 경우 유예 기간을 사용하지 않도록 설정하십시오.
-
