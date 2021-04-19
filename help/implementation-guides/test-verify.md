@@ -1,18 +1,18 @@
 ---
 description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
-keywords: ID Service
+keywords: ID 서비스
 seo-description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
 seo-title: Experience Cloud Identity 서비스 테스트 및 확인
 title: Experience Cloud Identity 서비스 테스트 및 확인
 uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '721'
+exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud Identity 서비스 테스트 및 확인{#test-and-verify-the-experience-cloud-id-service}
 
