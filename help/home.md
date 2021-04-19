@@ -1,18 +1,18 @@
 ---
 description: 'Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. '
-keywords: ID Service
+keywords: ID 서비스
 seo-description: Adobe Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 seo-title: Experience Cloud Identity 서비스
 title: Experience Cloud Identity 서비스
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
-translation-type: tm+mt
-source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: tm+mt
-source-wordcount: '303'
+exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud Identity 서비스 {#experience-cloud-id-service}
 
@@ -52,4 +52,3 @@ Adobe Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루�
   </tr> 
  </tbody> 
 </table>
-
