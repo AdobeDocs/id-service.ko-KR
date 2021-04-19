@@ -1,14 +1,14 @@
 ---
 title: 사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 활동 제어
 description: Adobe 옵트인 개체는 Adobe Experience Platform ID 서비스의 확장으로, 최종 사용자의 동의에 따라 웹페이지에서 쿠키를 생성하거나, 비콘을 시작할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계되었습니다.
-translation-type: tm+mt
-source-git-commit: 3aba8820ef40d068c732a637be5ab67652a8d35d
-workflow-type: tm+mt
+exl-id: ac44e628-01ca-401c-864b-30fed0450e5f
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
 ---
-
 
 # 사용자 동의에 따라 Experience Cloud 활동 제어
 
