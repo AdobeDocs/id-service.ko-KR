@@ -22,7 +22,6 @@ ht-degree: 100%
 >
 >* [코드 구문 및 변수](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9)를 검토하고 이해한 후에 사용 사례로 이동합니다.
 >* MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
-
 >
 
 
