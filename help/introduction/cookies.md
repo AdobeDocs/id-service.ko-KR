@@ -6,11 +6,10 @@ seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
+source-git-commit: d2bc28329c68c54a85dcf714083b3fcb5afc5a14
+workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +27,7 @@ ID 서비스는 AMCV, AMCVS 및 demdex 쿠키가 올바르게 작동하도록 �
 * 이 고유 ID를 유지하여 ID 서비스가 데이터를 수집하고 다른 Experience Cloud 솔루션과 공유할 수 있습니다.
 * 도메인 전반에서 사용자를 추적합니다. 그러나 다른 도메인을 소유하고 있고 해당 도메인에 ID 서비스 코드가 배포되어 있어야 합니다.
 
-### ID 서비스 쿠키에서 수행할 수 없는 작업
+### ID 서비스 쿠키로는 할 수 없는 작업
 
 * 컴퓨터 바이러스를 저장, 전송 또는 실행합니다.
 * 이메일 주소와 같은 PII(개인 식별 정보)에 액세스하거나 저장할 수 있습니다.
@@ -52,12 +51,12 @@ AMCV_1FD6776A524453CC0A490D44%40AdobeOrg
 
 **내용**
 
-AMCV 쿠키에는 Experience Cloud 방문자 ID 또는 MID가 포함되어 있습니다. MID는 `mid|<Experience Cloud ID>` 구문 뒤에 오는 키-값 쌍에 저장됩니다.
+AMCV 쿠키에는 Experience Cloud 방문자 ID 또는 MID가 포함되어 있습니다. MID는 `MCMID|<Experience Cloud ID>` 구문 뒤에 오는 키-값 쌍에 저장됩니다.
 
 전체 형식의 키-값 쌍은 다음과 비슷합니다.
 
 ```
-mid|20265673158980419722735089753036633573
+MCMID|20265673158980419722735089753036633573
 ```
 
 이 영구 식별자는 솔루션 간 데이터 공유를 가능하게 합니다.
