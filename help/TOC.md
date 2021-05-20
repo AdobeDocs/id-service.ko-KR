@@ -5,11 +5,11 @@ user-guide-title: Experience Cloud Identity 서비스 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01d50f9def8916b45fac846de235363836ba0429
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 99%
    + [개요](introduction/overview.md)
    + [ID 서비스에 대한 정보](introduction/about-id-service.md)
    + [쿠키 및 ID 서비스](introduction/cookies.md)
-   + [ ID 서비스에서 ID를 요청하고 설정하는 방법](introduction/id-request.md)
-   + [ 동기화 및 일치율 이해하기](introduction/match-rates.md)
+   + [ID 서비스에서 ID를 요청하고 설정하는 방법](introduction/id-request.md)
+   + [동기화 및 일치율 이해하기](introduction/match-rates.md)
 + 구현 {#implementation}
    + [구현 방법](implementation-guides/implementation-methods.md)
    + [구현 가이드](implementation-guides/implementation-guides.md)
@@ -96,7 +96,7 @@ ht-degree: 99%
       + [JavaScript와 혼합된 서버측 구현](reference/analytics-reference/server-side.md)
       + [ID 서비스 유예 기간](reference/analytics-reference/grace-period.md)
    + [Google Chrome SameSite 레이블 설정 변경](reference/chrome-samesite-labelling.md)
-   + [컨텐츠 보안 정책 및 ID 서비스](reference/csp.md)
+   + [콘텐츠 보안 정책 및 ID 서비스](reference/csp.md)
    + [ID 서비스에서 COPPA 지원](reference/coppa.md)
    + [ID 서비스에서 CORS 지원](reference/cors.md)
    + [고객 ID 및 인증 상태](reference/authenticated-state.md)
@@ -112,10 +112,10 @@ ht-degree: 99%
    + [ID 서비스 FAQ](faq-intro/faq.md)
    + [Analytics 및 ID 서비스 FAQ](faq-intro/analytics-faq.md)
    + [기타 Experience Cloud 솔루션에 대한 FAQ](faq-intro/other-faq.md)
-+ ID 서비스에 대한 릴리스 노트 {#release-notes}
-   + [2020 릴리스 노트](release-notes/release-notes.md)
-   + [2019 릴리스 노트](release-notes/notes-2019.md)
-   + [2018 릴리스 노트](release-notes/notes-2018.md)
-   + [2017 릴리스 노트](release-notes/notes-2017.md)
-   + [2016 릴리스 노트](release-notes/notes-2016.md)
-   + [2015 릴리스 노트](release-notes/notes-2015.md)
++ ID 서비스에 대한 릴리스 정보 {#release-notes}
+   + [2020 릴리스 정보](release-notes/release-notes.md)
+   + [2019 릴리스 정보](release-notes/notes-2019.md)
+   + [2018 릴리스 정보](release-notes/notes-2018.md)
+   + [2017 릴리스 정보](release-notes/notes-2017.md)
+   + [2016 릴리스 정보](release-notes/notes-2016.md)
+   + [2015 릴리스 정보](release-notes/notes-2015.md)
