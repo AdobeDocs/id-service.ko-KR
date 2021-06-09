@@ -6,11 +6,10 @@ seo-title: ID 동기화 및 일치율 이해하기
 title: ID 동기화 및 일치율 이해하기
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 95%
 
 ---
 
@@ -54,11 +53,11 @@ ID 동기화는 대상 게시 iFrame에서 실행되는 URL입니다. 이 일반
 
 `http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<ADOBE_PARTNER_ID>&dpuuid=<PARTNER_UUID>`
 
-또한 [인바운드 데이터 전송을 위한 ID 동기화](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/implementation-integration-guides/sending-audience-data/batch-data-transfer-process/id-sync-http.html)를 참조하십시오.
+또한 [인바운드 데이터 전송을 위한 ID 동기화](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/sending-audience-data/batch-data-transfer-process/id-sync-http.html?lang=en)를 참조하십시오.
 
 **4단계: ID 저장**
 
-동기화된 ID는 [에지 및 핵심 데이터 서버](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/system-components/components-edge.html)에 저장됩니다.
+동기화된 ID는 [에지 및 핵심 데이터 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-edge.html?lang=en)에 저장됩니다.
 
 ## 동기화 서비스에서 ID 동기화 관리 {#section-cd5784d7ad404a24aa28ad4816a0119a}
 
@@ -73,9 +72,9 @@ ID 동기화는 대상 게시 iFrame에서 실행되는 URL입니다. 이 일반
 
 ## Adobe Advertising Cloud를 사용한 ID 동기화 {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Advertising Cloud] (이전에 호출된 [!DNL Adobe Media Optimizer])는 iFrame 기반 ID 동기화 프로세스의 예외입니다. [!DNL Advertising Cloud]는 신뢰할 수 있는 도메인이므로 [!UICONTROL 대상 게시 iFrame]보다 상위 페이지에서 ID 동기화가 발생합니다. 동기화 중에 ID 서비스는 `cm.eversttech.net`에서 [!DNL Advertising Cloud]를 호출합니다. cm.eversttech.net은 Adobe에서 획득하기 전에 [!DNL Advertising Cloud]에 사용된 기존 도메인 이름입니다. 데이터를 [!DNL Advertising Cloud]로 보내면 일치율이 향상되고, 버전 2.0 이상을 사용하는 ID 서비스 고객의 경우 자동으로 사용됩니다. 또한, [Advertising Cloud 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-advertising-cloud.html)도 참조하십시오.
+[!DNL Adobe Advertising Cloud] (이전에 호출된 [!DNL Adobe Media Optimizer])는 iFrame 기반 ID 동기화 프로세스의 예외입니다. [!DNL Advertising Cloud]는 신뢰할 수 있는 도메인이므로 [!UICONTROL 대상 게시 iFrame]보다 상위 페이지에서 ID 동기화가 발생합니다. 동기화 중에 ID 서비스는 `cm.eversttech.net`에서 [!DNL Advertising Cloud]를 호출합니다. cm.eversttech.net은 Adobe에서 획득하기 전에 [!DNL Advertising Cloud]에 사용된 기존 도메인 이름입니다. 데이터를 [!DNL Advertising Cloud]로 보내면 일치율이 향상되고, 버전 2.0 이상을 사용하는 ID 서비스 고객의 경우 자동으로 사용됩니다. 또한, [Advertising Cloud 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud.html?lang=en)도 참조하십시오.
 
 >[!MORELIKETHIS]
 >
->* [Demdex 도메인에 대한 호출 이해](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html)
+>* [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)
 
