@@ -6,9 +6,9 @@ seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
-source-git-commit: d2bc28329c68c54a85dcf714083b3fcb5afc5a14
+source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '987'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,7 @@ ID 서비스는 AMCV, AMCVS 및 demdex 쿠키가 올바르게 작동하도록 �
 * 이 고유 ID를 유지하여 ID 서비스가 데이터를 수집하고 다른 Experience Cloud 솔루션과 공유할 수 있습니다.
 * 도메인 전반에서 사용자를 추적합니다. 그러나 다른 도메인을 소유하고 있고 해당 도메인에 ID 서비스 코드가 배포되어 있어야 합니다.
 
-### ID 서비스 쿠키로는 할 수 없는 작업
+### ID 서비스 쿠키에서 수행할 수 없는 작업
 
 * 컴퓨터 바이러스를 저장, 전송 또는 실행합니다.
 * 이메일 주소와 같은 PII(개인 식별 정보)에 액세스하거나 저장할 수 있습니다.
@@ -116,7 +116,7 @@ AMCVS 쿠키는 브라우저의 자사 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html)를 참조하십시오.
+관련 정보는 [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)를 참조하십시오.
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
@@ -134,7 +134,7 @@ Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생
 | AMCV(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 | AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
 
-*참고: 보안 속성으로 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은 [secureCookie](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/configurations/securecookie.html) 항목을 참조하십시오.*
+*참고: 보안 속성으로 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은 [secureCookie](../library/function-vars/securecookie.md) 항목을 참조하십시오.*
 
 ## 다음 단계 {#section-8db1727a63bc4ff68b495f270315d453}
 
