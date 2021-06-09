@@ -4,10 +4,9 @@ seo-description: Experience Cloud ID 서비스(이전 방문자 ID 서비스 또
 seo-title: Experience Cloud ID 서비스 개요
 title: Experience Cloud ID 서비스 개요
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '615'
+source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -37,7 +36,7 @@ ID 서비스를 요약하자면 다음과 같습니다.
 
 * 프로필과 ID를 연결하는 데 사용할 수 있는 일반 키 또는 ID를 만듭니다.
 * 여러 솔루션에서 장치를 고유하게 식별합니다.
-* 동일한 도메인에서 추적할 수 있도록 고객 도메인에 자사 쿠키를 설정합니다. 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html)에 대한 문서를 참조하십시오.
+* 동일한 도메인에서 추적할 수 있도록 고객 도메인에 자사 쿠키를 설정합니다. 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](./cookies.md)에 대한 문서를 참조하십시오.
 * Experience Cloud 고객 및 파트너로부터 별칭 및 ID 매핑을 받습니다.
 * Experience Cloud에서 ID 동기화를 관리합니다.
 * 광고 기술 에코 시스템에서 다른 타사와 ID 동기화를 지원합니다.
