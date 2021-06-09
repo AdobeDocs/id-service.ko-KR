@@ -6,11 +6,10 @@ seo-title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정�
 title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
 exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
+source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -35,7 +34,7 @@ ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에
 이 예에서는 Food Company에서 관리하는 피자 사이트에 신규 방문자가 방문합니다. Food Company는 피자 웹 사이트에 ID 서비스 코드가 있습니다. 피자 사이트가 로드되면 ID 서비스 코드는 피자 도메인에서 AMCV 쿠키를 확인합니다.
 
 * AMCV 쿠키가 설정된 경우 사이트 방문자는 Experience Cloud ID를 갖습니다. 이 경우 쿠키는 방문자를 추적하고 다른 Experience Cloud 솔루션과 데이터를 공유합니다.
-* AMCV 쿠키가 설정되지 않은 경우 ID 서비스 코드가 `dpm.demdex.net/id`에서 지역 [데이터 수집 서버](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html)(DCS)를 호출합니다([Demdex 도메인에 대한 호출 이해](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html) 참조). 이 호출에는 Food Company에 대한 조직 ID가 포함됩니다. 조직 ID는 ID 서비스 코드의 `Visitor.getInstance` 함수에 설정됩니다.
+* AMCV 쿠키가 설정되지 않은 경우 ID 서비스 코드가 `dpm.demdex.net/id`에서 지역 [데이터 수집 서버](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)(DCS)를 호출합니다([Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en) 참조). 이 호출에는 Food Company에 대한 조직 ID가 포함됩니다. 조직 ID는 ID 서비스 코드의 `Visitor.getInstance` 함수에 설정됩니다.
 
 ![](assets/request1.png)
 
