@@ -1,15 +1,11 @@
 ---
 description: 이 지침은 Target, Analytics 및 ID 서비스에 대해 혼합된 서버측 및 클라이언트측 구현이 있는 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하여 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 이 섹션에서 설치 지침 및 기타 구성 요구 사항을 검토하십시오.
 keywords: ID 서비스
-seo-description: 이 지침은 Target, Analytics 및 ID 서비스에 대해 혼합된 서버측 및 클라이언트측 구현이 있는 A4T 고객을 위한 것입니다. NodeJS 또는 Rhino 환경에서 ID 서비스를 실행해야 하는 고객도 이 정보를 검토해야 합니다. 이 ID 서비스 인스턴스는 NPM(Node Package Manager)에서 다운로드하여 설치하는 단축된 버전의 VisitorAPI.js 코드 라이브러리를 사용합니다. 이 섹션에서 설치 지침 및 기타 구성 요구 사항을 검토하십시오.
-seo-title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
-uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '915'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '829'
 ht-degree: 100%
 
 ---
