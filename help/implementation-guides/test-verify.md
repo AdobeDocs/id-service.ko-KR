@@ -1,16 +1,12 @@
 ---
 description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
 keywords: ID 서비스
-seo-description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
-seo-title: Experience Cloud Identity 서비스 테스트 및 확인
 title: Experience Cloud Identity 서비스 테스트 및 확인
-uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +32,7 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 [!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
 
-[!DNL Adobe] [디버거](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
+[!DNL Adobe] [디버거](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명 브라우징 세션을 엽니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
