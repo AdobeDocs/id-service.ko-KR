@@ -1,16 +1,12 @@
 ---
 description: 이 기능을 사용하면 브라우저에서 서드파티 쿠키를 차단할 때 도메인에서 방문자의 Experience Cloud ID를 공유할 수 있습니다. 이 기능을 사용하기 위해 ID 서비스를 구현했을 것이며, 소스 및 대상 도메인을 소유해야 합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 keywords: ID 서비스
-seo-description: 이 기능을 사용하면 브라우저에서 서드파티 쿠키를 차단할 때 도메인에서 방문자의 Experience Cloud ID를 공유할 수 있습니다. 이 기능을 사용하기 위해 ID 서비스를 구현했을 것이며, 소스 및 대상 도메인을 소유해야 합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
-seo-title: appendVisitorIDsTo(도메인 간 추적)
 title: appendVisitorIDsTo(도메인 간 추적)
-uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
