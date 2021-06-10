@@ -1,16 +1,12 @@
 ---
 description: Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동되는지에 대한 개요입니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동되는지에 대한 개요입니다.
-seo-title: Analytics 및 Experience Cloud ID 요청
 title: Analytics 및 Experience Cloud ID 요청
-uuid: 28beed16-7ef9-4824-8e82-853930756eca
 exl-id: 8c682159-e23a-4641-9ffd-e0028dc2f305
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +47,7 @@ Experience Cloud Identity 서비스가 기존 Analytics ID와 어떻게 작동�
 
 >[!NOTE]
 >
->s_fid 쿠키로 식별되는 사용자의 이전 FID 값은 AMCV 쿠키로 마이그레이션되지 않습니다. s_fid 쿠키가 있는 경우 사용자는 마치 s_vi 쿠키가 없는 것처럼(위 참조) 마이그레이션되고 사이트의 새 방문자로 나타납니다. 자세한 내용은 [Analytics 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-analytics.html)를 참조하십시오.
+>s_fid 쿠키로 식별되는 사용자의 이전 FID 값은 AMCV 쿠키로 마이그레이션되지 않습니다. s_fid 쿠키가 있는 경우 사용자는 마치 s_vi 쿠키가 없는 것처럼(위 참조) 마이그레이션되고 사이트의 새 방문자로 나타납니다. 자세한 내용은 [Analytics 쿠키](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html)를 참조하십시오.
 
 ## AMCV 쿠키가 브라우저에서 설정됨 {#section-01c088fc565c4b24ba1722c7cc240310}
 
