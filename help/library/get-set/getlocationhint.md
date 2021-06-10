@@ -3,10 +3,10 @@ description: Experience Cloud Identity 서비스 지역 ID를 반환합니다. �
 keywords: ID 서비스
 title: getLocationHint를 참조하십시오
 exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ Experience Cloud Identity 서비스 지역 ID를 반환합니다. 지역 ID(또�
 
 **구문:** ` var *`변수 이름`* = visitor.getLocationHint()`
 
-지역 ID 및 해당 위치 목록을 보려면 [DCS 지역 ID, 위치 및 호스트 이름](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html)을 참조하십시오.
+지역 ID 및 해당 위치 목록을 보려면 [DCS 지역 ID, 위치 및 호스트 이름](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html)을 참조하십시오.
 
 **코드 샘플**
 
