@@ -1,16 +1,12 @@
 ---
 description: ID 동기화를 비활성화하는 선택적 부울 플래그입니다.
 keywords: ID 서비스
-seo-description: ID 동기화를 비활성화하는 선택적 부울 플래그입니다.
-seo-title: disableIdSyncs
 title: disableIdSyncs
-uuid: 8bea1de8-53c8-4a15-bcf5-f0869763a32e
 exl-id: 96d42133-6040-4da3-9315-fd94318b33aa
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '46'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
