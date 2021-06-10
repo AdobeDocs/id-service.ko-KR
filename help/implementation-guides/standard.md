@@ -1,16 +1,12 @@
 ---
 description: 기존 구현은 DTM(Dynamic Tag Management)을 사용하여 Experience Cloud Identity 서비스를 설정 및 배포하고 다른 Experience Cloud 솔루션과 통합합니다.
 keywords: ID 서비스
-seo-description: 기존 구현은 DTM(Dynamic Tag Management)을 사용하여 Experience Cloud Identity 서비스를 설정 및 배포하고 다른 Experience Cloud 솔루션과 통합합니다.
-seo-title: Dynamic Tag Management를 사용하여 구현
 title: Dynamic Tag Management를 사용하여 구현
-uuid: c4f752c4-392e-4909-b178-911706857064
 exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '2058'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->현재 [Adobe Experience Platform Launch](https://docs.adobelaunch.com/)는 복잡한 태그 관리 작업을 단순화하고 DTM의 기능을 넘어서 코드 배치를 자동화하는 데 도움이 되므로 널리 사용되고 있는 권장 구현 도구입니다. [Launch를 사용한 구현](../implementation-guides/ecid-implement-with-launch.md)을 참조하십시오.
+>현재 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)는 복잡한 태그 관리 작업을 단순화하고 DTM의 기능을 넘어서 코드 배치를 자동화하는 데 도움이 되므로 널리 사용되고 있는 권장 구현 도구입니다. [Launch를 사용한 구현](../implementation-guides/ecid-implement-with-launch.md)을 참조하십시오.
 
 ## Dynamic Tag Management 및 ID 서비스 {#section-4a4c4fac5d0a4cbbaff8e1833f73657c}
 
@@ -78,7 +74,7 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 **전제 조건**
 
-* [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. [핵심 서비스용 솔루션을 사용하도록 설정](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/core-services.html)을 참조하십시오.
+* [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. [핵심 서비스용 솔루션을 사용하도록 설정](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)을 참조하십시오.
 
 * DTM에서 웹 속성을 생성합니다. [DTM 웹 속성 생성하기](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/web-property.html) 설명서를 참조하십시오.
 
@@ -143,7 +139,7 @@ Analytics 데이터 수집에 사용되는 추적 서버 이름입니다. 이미
 
 추적 서버 URL을 알 수 없는 경우 `s_code.js` 또는 `AppMeasurement.js` 파일을 확인하십시오. URL을 `s.trackingServer` 변수로 설정할 수 있습니다.
 
-[ trackingServer](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#)를 참조하십시오.
+[ trackingServer](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)를 참조하십시오.
 
 **추적 서버 보안**
 
@@ -151,7 +147,7 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 추적 서버 URL을 알 수 없는 경우 `s_code.js` 또는 `AppMeasurement.js` 파일을 확인하십시오. URL을 `s.trackingServerSecure` 변수로 설정할 수 있습니다.
 
-[ trackingServer](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#)를 참조하십시오.
+[ trackingServer](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)를 참조하십시오.
 
 **Experience Cloud 서버**
 
@@ -219,7 +215,7 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 [!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
 
-[!DNL Adobe] [디버거](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
+[!DNL Adobe] [디버거](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명 브라우징 세션을 엽니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
@@ -285,5 +281,5 @@ DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되�
 
 >[!MORELIKETHIS]
 >
->* [웹 속성](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/web-property.html)
+>* [웹 속성](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html)
 
