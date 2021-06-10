@@ -1,16 +1,12 @@
 ---
 description: 동일한 보고서 세트에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.
 keywords: ID 서비스
-seo-description: 동일한 보고서 세트에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.
-seo-title: ID 서비스 유예 기간
 title: ID 서비스 유예 기간
-uuid: 10a7db7d-de32-4379-914f-edaf929efa32
 exl-id: 83b4898c-8358-458b-a798-1e3c9633afe9
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
