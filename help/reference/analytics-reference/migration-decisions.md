@@ -3,10 +3,10 @@ description: Experience Cloud Identity 서비스를 배포하기 전에 이 서�
 keywords: ID 서비스
 title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여�
    <td colname="col1"> <p>단일 도메인 </p> </td> 
    <td colname="col2"> <p>단일 도메인을 사용하여 작업하면 더 이상 관리하지 않으려는 경우 데이터 수집 CNAME에서 마이그레이션할 수 있습니다. 그러나 CNAME이 작동하는 경우에는 변경할 필요가 없습니다. </p> <p>CNAME을 제거하는 경우: </p> 
     <ul id="ul_12CDECEFC7BB41A18895B507CAA42315"> 
-     <li id="li_32E2CD3E58454E20A642BADE507AE86E">새 추적 서버가 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html" format="https" scope="external">RDC 규격</a> 서버인지 확인합니다. </li> 
+     <li id="li_32E2CD3E58454E20A642BADE507AE86E">새 추적 서버가 <a href="https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html" format="https" scope="external">RDC 규격</a> 서버인지 확인합니다. </li> 
      <li id="li_865BB6DAA3594EBBAB688E73C8343762"><span class="keyword">Experience Cloud</span> ID 서비스로 마이그레이션하기 몇 개월 전에 CNAME에서 RDC 추적 서버로 이동합니다. </li> 
      <li id="li_284A015177554C848C8648DC5BBAA365"> <i>*.2o7.net</i> 추적 서버를 사용하지 <span class="codeph">마십시오</span>. </li> 
      <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1"><a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html" format="https" scope="external">고객 지원 센터</a>에 문의하여 방문자 마이그레이션을 설정하십시오. 이렇게 하면 일관된 방문자 수를 계산하는 데 도움이 됩니다. </li> 
