@@ -1,16 +1,12 @@
 ---
 description: 이러한 ID 서비스 함수를 호출하여 Experience Cloud Identity 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 keywords: ID 서비스
-seo-description: 이러한 ID 서비스 함수를 호출하여 Experience Cloud Identity 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
-seo-title: callTimeOut 메서드
 title: callTimeOut 메서드
-uuid: e5047498-11db-4945-b356-c92b7d447573
 exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
