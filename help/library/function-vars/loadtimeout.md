@@ -1,15 +1,11 @@
 ---
 description: '시간 제한 간격(밀리초)을 설정합니다. ID 서비스로부터의 응답을 기다리는 시간을 다른 솔루션(예: Analytics, Audience Manager, Target 등)에 알리는 데 사용됩니다.'
 keywords: ID 서비스
-seo-description: '시간 제한 간격(밀리초)을 설정합니다. ID 서비스로부터의 응답을 기다리는 시간을 다른 솔루션(예: Analytics, Audience Manager, Target 등)에 알리는 데 사용됩니다.'
-seo-title: loadTimeout
 title: loadTimeout
-uuid: f627e044-bd73-49a4-8a90-6d19aa566751
 exl-id: 485264f4-ee24-4042-8be3-259e70462110
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '169'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '140'
 ht-degree: 100%
 
 ---
