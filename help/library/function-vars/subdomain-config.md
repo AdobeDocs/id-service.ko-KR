@@ -3,10 +3,10 @@ description: 이러한 구성을 사용하여 Experience Cloud Identity 서비�
 keywords: ID 서비스
 title: audienceManagerServer 및 audienceManagerServerSecure
 exl-id: b740eb5c-ac4e-46f4-ba7c-1080d8d9292d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **용도**
 
-일반적으로 [!DNL Experience Cloud] ID 서비스는 `dpm.demdex.net`에서 [!DNL Adobe]를 호출합니다. 너무 일반적이거나 &quot;타사&quot;처럼 보이기 때문에 이 대상을 호출하지 않는 경우도 있을 수 있습니다. ID 서비스 호출을 퍼스트 파티 호출처럼 보이도록 하려면 이러한 구성을 사용하여 [!DNL Audience Manager] 하위 도메인 이름을 아래 표시된 대로 `demdex.net`에 추가합니다. `dpm.demdex.net` 호출에 대한 자세한 내용은 [Demdex 도메인에 대한 호출 이해](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html)를 참조하십시오.
+일반적으로 [!DNL Experience Cloud] ID 서비스는 `dpm.demdex.net`에서 [!DNL Adobe]를 호출합니다. 너무 일반적이거나 &quot;타사&quot;처럼 보이기 때문에 이 대상을 호출하지 않는 경우도 있을 수 있습니다. ID 서비스 호출을 퍼스트 파티 호출처럼 보이도록 하려면 이러한 구성을 사용하여 [!DNL Audience Manager] 하위 도메인 이름을 아래 표시된 대로 `demdex.net`에 추가합니다. `dpm.demdex.net` 호출에 대한 자세한 내용은 [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)를 참조하십시오.
 
 **요구 사항**
 
