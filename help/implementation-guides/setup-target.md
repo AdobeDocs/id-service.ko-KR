@@ -3,10 +3,10 @@ description: 이러한 지침은 Experience Cloud Identity 서비스를 사용�
 keywords: ID 서비스
 title: Target용 Experience Cloud Identity 서비스 구현
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE")
 
 ## 3단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-522b1877be9243c39b222859b821f0ce}
 
-`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. 또한, [관리 - 핵심 서비스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. 또한, [관리 - 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg");`
 
