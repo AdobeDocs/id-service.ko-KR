@@ -1,20 +1,16 @@
 ---
 description: Experience Cloud Identity 서비스가 타사의 demdex.net 쿠키를 반환하지 않도록 방지하는 선택적 부울 플래그입니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity 서비스가 타사의 demdex.net 쿠키를 반환하지 않도록 방지하는 선택적 부울 플래그입니다.
-seo-title: disableThirdPartyCookies
 title: disableThirdPartyCookies
-uuid: 7ed5aa16-44ca-4702-878a-1a208ca95270
 exl-id: 19d12822-0e17-4a1c-8e9c-25a22e20a4a8
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# disableThirdPartyCookies 를 참조하십시오 {#disablethirdpartycookies}
+# disableThirdPartyCookies{#disablethirdpartycookies}
 
 Experience Cloud Identity 서비스가 타사의 demdex.net 쿠키를 반환하지 않도록 방지하는 선택적 부울 플래그입니다.
 
