@@ -1,20 +1,16 @@
 ---
 description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개 변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
 keywords: ID 서비스
-seo-description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개 변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
-seo-title: appendSupplementalDataIDTo를 참조하십시오
 title: appendSupplementalDataIDTo를 참조하십시오
-uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# appendSupplementalDataIDTo 를 참조하십시오 {#appendsupplementaldataidto}
+# appendSupplementalDataIDTo를 참조하십시오{#appendsupplementaldataidto}
 
 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개 변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
 
