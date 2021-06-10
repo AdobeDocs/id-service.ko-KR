@@ -1,16 +1,12 @@
 ---
 description: 이 속성은 ID 동기화에 사용할 데이터 소스 컨테이너 ID를 설정합니다.
 keywords: ID 서비스
-seo-description: 이 속성은 ID 동기화에 사용할 데이터 소스 컨테이너 ID를 설정합니다.
-seo-title: idSyncContainerID
 title: idSyncContainerID
-uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
 exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
