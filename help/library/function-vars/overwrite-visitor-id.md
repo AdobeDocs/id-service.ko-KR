@@ -1,20 +1,16 @@
 ---
 description: 이 속성은 방문자가 한 도메인에서 두 번째 도메인으로 이동할 때 방문자의 Experience Cloud 및 Analytics ID를 덮어씁니다. ID를 덮어쓰려면 각 도메인에서 ID 서비스를 소유하고 있으며 구현했어야 합니다. 이 코드를 사용하면 제어하지 않는 도메인의 ID를 덮어쓸 수 없습니다.
 keywords: ID 서비스
-seo-description: 이 속성은 방문자가 한 도메인에서 두 번째 도메인으로 이동할 때 방문자의 Experience Cloud 및 Analytics ID를 덮어씁니다. ID를 덮어쓰려면 각 도메인에서 ID 서비스를 소유하고 있으며 구현했어야 합니다. 이 코드를 사용하면 제어하지 않는 도메인의 ID를 덮어쓸 수 없습니다.
-seo-title: overwriteCrossDomainMCIDAndAID
 title: overwriteCrossDomainMCIDAndAID
-uuid: 8e48127a-ac62-4ea0-9756-2a27b20ecbcf
 exl-id: 726261b1-c8d0-4b12-b0cb-52d7e21e7fac
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# overwriteCrossDomainMCIDAndAID 를 참조하십시오 {#overwritecrossdomainmcidandaid}
+# overwriteCrossDomainMCIDAndAID{#overwritecrossdomainmcidandaid}
 
 이 속성은 방문자가 한 도메인에서 두 번째 도메인으로 이동할 때 방문자의 Experience Cloud 및 Analytics ID를 덮어씁니다. ID를 덮어쓰려면 각 도메인에서 ID 서비스를 소유하고 있으며 구현했어야 합니다. 이 코드를 사용하면 제어하지 않는 도메인의 ID를 덮어쓸 수 없습니다.
 
