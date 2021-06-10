@@ -1,14 +1,10 @@
 ---
 description: Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 장치에 쿠키를 작성할지 여부를 결정합니다.
-seo-description: Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 장치에 쿠키를 작성할지 여부를 결정합니다.
-seo-title: 옵트인 서비스 설정
 title: 옵트인 서비스 설정
-uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '941'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '908'
 ht-degree: 100%
 
 ---
@@ -45,7 +41,7 @@ Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용�
 
 1. 귀사의 개인 정보 보호 요구 사항은 GDPR 준수를 유지하기 위해 선택한 방법에 따라 특정됩니다. 귀사의 개인 정보 보호 팀이 동의 전 상태에서 사용할 수 있는 라이브러리를 알고 있어야 합니다.
 
-[Adobe Launch](https://docs.adobelaunch.com/)를 사용하는 경우 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)을 활용하여 옵트인 서비스를 구성하십시오.
+[Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)를 사용하는 경우 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)을 활용하여 옵트인 서비스를 구성하십시오.
 
 ## 옵트인 카테고리 {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
