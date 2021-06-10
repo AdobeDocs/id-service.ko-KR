@@ -1,6 +1,8 @@
 ---
-source-git-commit: 676f6ca9c37f77fe24dbc3ceb9aef2d540b3adbe
-translation-type: ht
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 # 기여
@@ -18,7 +20,7 @@ translation-type: ht
 
 ## 기여자 안내서 설명서
 
-[기여자 안내서](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[콘텐츠 작가 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하십시오.
 
 ## 질문이 있습니까?
 
@@ -34,7 +36,7 @@ translation-type: ht
 
 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
 
-재배포할 수 있는 권한을 얻게 됩니다. [Adobe CLA](http://opensource.adobe.com/cla.html)에 서명하십시오. Adobe
+재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명](http://opensource.adobe.com/cla.html)하십시오. Adobe
 
 CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 언제든지
 
@@ -43,9 +45,8 @@ CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 �
 ## 수칙 검토
 
 모든 제출 사항은 끌어오기 요청 양식으로 제출해야 하며 프로젝트
-
-커미터가 검토해야 합니다. 풀 요청 전송에 대한 자세한 내용은 [GitHub의 풀 요청 설명서](https://help.github.com/articles/about-pull-requests/)
-를 참조하십시오.
+커미터가 검토해야 합니다. 끌어오기 요청 전송에 대한 자세한 내용은
+[GitHub의 끌어오기 요청 설명서](https://help.github.com/articles/about-pull-requests/)를 참조하십시오.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
