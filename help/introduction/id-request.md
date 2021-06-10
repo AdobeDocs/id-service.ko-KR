@@ -1,14 +1,11 @@
 ---
 description: ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 keywords: ID 서비스
-seo-description: ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
-seo-title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
 title: Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법
-uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
 exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
-source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '762'
 ht-degree: 94%
 
 ---
