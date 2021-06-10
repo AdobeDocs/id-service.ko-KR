@@ -1,15 +1,11 @@
 ---
 description: 이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID(Supplemental Data ID) 만료 간격을 재정의할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 ID 서비스 코드가 30 초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
 keywords: ID 서비스
-seo-description: 이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID(Supplemental Data ID) 만료 간격을 재정의할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 ID 서비스 코드가 30 초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
-seo-title: sdidParamExpiry
 title: sdidParamExpiry
-uuid: cdaf7e2d-b196-4c70-936d-8a98191cbb85
 exl-id: 5458ffa5-03d1-4c52-907d-c50fe00ce35d
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '357'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
