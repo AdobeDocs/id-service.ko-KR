@@ -1,16 +1,12 @@
 ---
 description: 방문자 ID 서비스를 배포한 후에는 5가지 방법으로 Analytics에서 방문자를 식별할 수 있습니다.
 keywords: ID 서비스
-seo-description: 방문자 ID 서비스를 배포한 후에는 5가지 방법으로 Analytics에서 방문자를 식별할 수 있습니다.
-seo-title: Analytics ID 작업 순서
 title: Analytics ID 작업 순서
-uuid: cb1d136e-093f-43b0-a7e1-96f1e61fdad0
 exl-id: 8ee340fe-ef3b-40e6-9441-7ee0c9e20357
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '331'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
