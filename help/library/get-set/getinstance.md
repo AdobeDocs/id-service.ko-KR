@@ -1,15 +1,11 @@
 ---
 description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. s.visitor를 통해 AppMeasurement에 제공된 방문자 ID 개체를 초기화하는 데 필요합니다.
 keywords: ID 서비스
-seo-description: getInstance는 지정된 Experience Cloud 조직 ID에 대한 방문자 ID 개체를 반환합니다. s.visitor를 통해 AppMeasurement에 제공된 방문자 ID 개체를 초기화하는 데 필요합니다.
-seo-title: getInstance
 title: getInstance
-uuid: 259b88a6-e3d0-4aab-b935-566099bdab98
 exl-id: 4941cf51-a8d0-4796-a102-4cd13cd5574d
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '256'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
