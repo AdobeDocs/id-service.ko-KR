@@ -3,10 +3,10 @@ description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스, �
 keywords: ID 서비스
 title: 2017 릴리스 노트
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '744'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)에서도 제공됩니다.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)에서도 제공됩니다.
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ ID 서비스가 AMCV 쿠키에 저장된 ID를 사용하는 대신 ID에 대한 
 
 **새 설명서**
 
-[다양한 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용](https://docs.adobe.com/content/help/ko-KR/core-services/interface/more-resources/dns-prefetch.html)
+[다양한 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
 
 ## 버전 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
