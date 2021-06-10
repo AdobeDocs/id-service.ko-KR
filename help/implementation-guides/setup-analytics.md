@@ -3,10 +3,10 @@ description: 이러한 지침은 Experience Cloud Identity 서비스를 사용�
 keywords: ID 서비스
 title: Analytics용 Experience Cloud Identity 서비스 구현
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1025'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 ## 3단계: Visitor.getInstance에 Experience Cloud 조직 ID 추가 {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
 
-`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. 또한, [관리 - 핵심 서비스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
+`Visitor.getInstance` 함수에서 `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE`를 [!DNL Experience Cloud] 조직 ID로 바꿉니다. 조직 ID를 모를 경우 [!DNL Experience Cloud] 관리 페이지에서 찾을 수 있습니다. 또한, [관리 - 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)도 참조하십시오. 편집한 함수는 아래 예제와 비슷합니다.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
@@ -178,7 +178,7 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 
 데이터 처리 프로세스에서 `post_visid_high` 및 `post_visid_low` 열을 사용할 수 있게 되면 유예 기간을 중지하십시오.
 
-[클릭스트림 데이터 열 참조](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html)를 참조하십시오.
+[클릭스트림 데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html)를 참조하십시오.
 
 **클릭스트림 데이터 처리**
 
@@ -191,7 +191,7 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 
 * 페이지가 호스팅된 도메인의 [AMCV 쿠키](../introduction/cookies.md).
-* [!DNL Analytics] 이미지 요청이 [Adobe 디버거 도구](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/validate/debugger.html)를 통해 수행될 때의 MID 값입니다.
+* [!DNL Analytics] 이미지 요청이 [Adobe 디버거 도구](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html)를 통해 수행될 때의 MID 값입니다.
 
 [Experience Cloud Identity 서비스 테스트 및 확인](../implementation-guides/test-verify.md)도 참조하십시오.
 
