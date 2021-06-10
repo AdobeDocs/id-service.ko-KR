@@ -1,16 +1,12 @@
 ---
 description: Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적에 어떻게 영향을 미치는지 이해하고, 다른 메서드를 사용하거나 JavaScript 파일을 통해 데이터를 수집하는 경우에 발생할 수 있는 문제를 알고 있어야 합니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity 서비스를 배포하기 전에 이 서비스가 여러 도메인의 방문자 추적에 어떻게 영향을 미치는지 이해하고, 다른 메서드를 사용하거나 JavaScript 파일을 통해 데이터를 수집하는 경우에 발생할 수 있는 문제를 알고 있어야 합니다.
-seo-title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
 title: Experience Cloud Identity 서비스 마이그레이션 의사 결정 지점
-uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
 exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '679'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
