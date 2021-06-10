@@ -1,14 +1,12 @@
 ---
 description: ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 고유한 해시 메서드를 계속 사용할 수 있습니다.
 keywords: ID 서비스
-seo-description: ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 고유한 해시 메서드를 계속 사용할 수 있습니다.
-seo-title: setCustomerIDs에 대한 SHA256 해시 지원
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
-source-git-commit: cca52e1ece7a31199cb86a286dd772a41f01eeaa
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
