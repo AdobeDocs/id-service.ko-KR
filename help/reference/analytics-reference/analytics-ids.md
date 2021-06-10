@@ -1,16 +1,12 @@
 ---
 description: Experience Cloud Identity 서비스는 이전 Analytics 방문자 ID 메서드를 대체합니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity 서비스는 이전 Analytics 방문자 ID 메서드를 대체합니다.
-seo-title: Analytics 및 Experience Cloud ID 설정
 title: Analytics 및 Experience Cloud ID 설정
-uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '945'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
