@@ -3,9 +3,9 @@ description: Experience Cloud Identity 서비스에서 Analytics 사용과 관�
 keywords: Experience Cloud Identity 서비스
 title: Analytics 및 Identity 서비스 FAQ
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '970'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Identity 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대�
 
 고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드 파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.
 
-타사 쿠키를 허용하는 브라우저에서 방문자 ID 검색을 요청하는 중 [demdex.net 도메인](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html)에 쿠키가 설정됩니다. 이 쿠키를 사용하면 Identity 서비스에서는 동일한 조직 ID를 사용하여 구성된 모든 도메인에 동일한 Experience Cloud 방문자 ID를 반환할 수 있습니다. 서드파티 쿠키를 거부하는 브라우저에서는 각 도메인에 대해 새 Experience Cloud 방문자 ID가 할당됩니다.
+타사 쿠키를 허용하는 브라우저에서 방문자 ID 검색을 요청하는 중 [demdex.net 도메인](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)에 쿠키가 설정됩니다. 이 쿠키를 사용하면 Identity 서비스에서는 동일한 조직 ID를 사용하여 구성된 모든 도메인에 동일한 Experience Cloud 방문자 ID를 반환할 수 있습니다. 서드파티 쿠키를 거부하는 브라우저에서는 각 도메인에 대해 새 Experience Cloud 방문자 ID가 할당됩니다.
 
 CNAME이 구성되어 있어도 기본 시작 사이트를 먼저 방문하지 않으면 방문자는 보조 사이트 및 서드파티 쿠키를 허용하지 않는 브라우저의 기본 사이트에서 다르게 식별됩니다.
 
