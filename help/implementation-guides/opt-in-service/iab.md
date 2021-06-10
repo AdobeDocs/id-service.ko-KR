@@ -1,15 +1,11 @@
 ---
 description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
-seo-description: IAB TCF(Transparency and Consent Framework)를 위한 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
-seo-title: IAB 프레임워크에서 옵트인 서비스 사용
 title: IAB 프레임워크에서 옵트인 서비스 사용
-uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
