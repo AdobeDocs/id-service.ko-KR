@@ -1,16 +1,12 @@
 ---
 description: ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 keywords: ID 서비스
-seo-description: ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
-seo-title: 기타 Experience Cloud 솔루션에 대한 FAQ
 title: 기타 Experience Cloud 솔루션에 대한 FAQ
-uuid: 7d848663-6cbb-4d80-ab06-7b6d2dc20e2b
 exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
