@@ -1,16 +1,12 @@
 ---
 description: 다른 Experience Cloud Identity 서비스 기능에 대한 정보입니다.
 keywords: ID 서비스
-seo-description: 다른 Experience Cloud Identity 서비스 기능에 대한 정보입니다.
-seo-title: 참조
 title: 참조
-uuid: 9e8f50db-1fdf-4fbc-89e5-4431bb6402d5
 exl-id: 9a14300c-206c-4960-b594-517809f7e979
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,4 +22,4 @@ ht-degree: 100%
 * [AMCV 쿠키 또는 ID 서비스에서 지역 및 사용자 ID 가져오기](regions.md)
 * [Experience Cloud Identity 서비스 요구 사항](requirements.md)
 * [비디오 하트비트 및 Experience Cloud Identity 서비스](heartbeat.md)
-* [Data Workbench 및 Experience Cloud Identity 서비스 ](dwb.md)
+* [Data Workbench 및 Experience Cloud Identity 서비스](dwb.md)
