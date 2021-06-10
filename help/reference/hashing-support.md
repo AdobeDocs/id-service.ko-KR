@@ -3,10 +3,10 @@ description: ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 �
 keywords: ID 서비스
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '606'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Experience Cloud 방문자 ID와 함께 추가 고객 ID, 인증 상태 및 해시 유형(SHA-256)을 각 방문자와 연결할 수 있습니다. 해시 유형을 제공하지 않으면 해시 없음으로 간주됩니다.
 
-`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)으로 Experience Cloud에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
+`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)으로 Experience Cloud에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
 
 고객 ID, 인증된 상태 및 해시 유형은 나중에 사용할 수 있게 쿠키에 저장되지 *않습니다*. 대신, 고객 ID, 인증된 상태 및 해시 유형은 아래와 같이 [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)를 사용하여 검색할 수 있도록 인스턴스 변수에 저장해야 합니다.
 
