@@ -1,16 +1,12 @@
 ---
 description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud Identity 서비스 코드에 추가할 수 있습니다.
 keywords: ID 서비스
-seo-description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud Identity 서비스 코드에 추가할 수 있습니다.
-seo-title: Experience Cloud Identity 서비스에서 COPPA 지원
 title: Experience Cloud Identity 서비스에서 COPPA 지원
-uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
 exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
