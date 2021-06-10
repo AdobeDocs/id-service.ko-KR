@@ -3,10 +3,10 @@ description: 2016년 Experience Cloud Identity 서비스의 기능 릴리스, �
 keywords: ID 서비스
 title: 2016 릴리스 노트
 exl-id: f96b9869-6282-4090-b392-797608e25a51
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1146'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 2016년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)에서도 제공됩니다.
+이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)에서도 제공됩니다.
 
 ## 버전 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 **알려진 문제**
 
-같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/dil-api/dil-overview.html)을 참조하십시오.
+같은 페이지에서 [!DNL Audience Manager] DIL 코드와 visitorAPI.js 코드를 사용하는 고객은 DIL 변수 `secureDataCollection= false`를 설정해야 합니다. [secureDataCollection](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/dil-overview.html)을 참조하십시오.
 
 ## 버전 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
