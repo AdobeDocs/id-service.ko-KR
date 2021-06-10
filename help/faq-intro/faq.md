@@ -3,10 +3,10 @@ description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입
 keywords: ID 서비스
 title: ID 서비스 FAQ
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '787'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 
 VisitorAPI.js 라이브러리는 코드의 `<head>` 섹션에서 페이지 맨 위에 놓습니다. 이렇게 하면 페이지 본문 로드가 시작되기 전에 ID에 대한 호출이 종료되고 ID가 성공적으로 반환되는 기회를 최대화하는 데 도움이 됩니다.
 
-ID 서비스 호출은 비동기적으로 수행되며 유일한 [demdex.net 도메인](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/demdex-calls.html) 호출입니다. ID 서비스 호출은 다른 요소가 페이지에서 로드되는 것을 차단하지 않습니다.
+ID 서비스 호출은 비동기적으로 수행되며 유일한 [demdex.net 도메인](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR) 호출입니다. ID 서비스 호출은 다른 요소가 페이지에서 로드되는 것을 차단하지 않습니다.
 
 [!DNL Target] 고객의 경우 페이지의 `<body>`에 ID 서비스 코드를 지정하면 [!DNL Target] 호출을 차단할 가능성이 늘어날 수 있습니다. ID 서비스 코드를 페이지의 본문에 배치해야 하는 경우에는 열기 `<body>` 태그 뒤에 배치해야 합니다.
 
