@@ -1,15 +1,11 @@
 ---
 description: 이 예제는 직접 통합 및 Experience Cloud ID(MID)와 관련된 2가지 공통 사용 사례를 다룹니다. MID는 사이트 방문자를 위한 고유하고 영구적인 ID입니다.
 keywords: ID 서비스
-seo-description: 이 예제는 직접 통합 및 Experience Cloud ID(MID)와 관련된 2가지 공통 사용 사례를 다룹니다. MID는 사이트 방문자를 위한 고유하고 영구적인 ID입니다.
-seo-title: 직접 통합 사용 사례
 title: 직접 통합 사용 사례
-uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -22,6 +18,7 @@ ht-degree: 100%
 >
 >* [코드 구문 및 변수](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9)를 검토하고 이해한 후에 사용 사례로 이동합니다.
 >* MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
+
 >
 
 
