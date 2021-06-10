@@ -1,15 +1,11 @@
 ---
 description: ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
 keywords: ID 서비스
-seo-description: ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
-seo-title: isCoopSafe
 title: isCoopSafe
-uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
 exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '606'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '582'
 ht-degree: 100%
 
 ---
