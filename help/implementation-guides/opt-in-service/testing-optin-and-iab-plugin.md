@@ -1,14 +1,10 @@
 ---
 description: 웹 사이트에서 옵트인을 활성화한 후에는 유효성 검사 메서드를 사용하여 브라우저의 개발자 도구로 서비스가 예상대로 작동하는지 테스트합니다.
-seo-description: 웹 사이트에서 옵트인을 활성화한 후에는 유효성 검사 메서드를 사용하여 브라우저의 개발자 도구로 서비스가 예상대로 작동하는지 테스트합니다.
-seo-title: 옵트인 서비스 확인
 title: 옵트인 서비스 확인
-uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '471'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
