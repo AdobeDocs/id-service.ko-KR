@@ -1,15 +1,12 @@
 ---
 description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 생성하여 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 keywords: Playstation;ID 서비스
-seo-description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 생성하여 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
-seo-title: 쿠키 및 Experience Cloud Identity 서비스
 title: 쿠키 및 Experience Cloud Identity 서비스
-uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
-source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
