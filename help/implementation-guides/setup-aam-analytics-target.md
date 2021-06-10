@@ -1,16 +1,12 @@
 ---
 description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 keywords: ID 서비스
-seo-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics, Audience Manager 및 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
-seo-title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
 title: Analytics, Audience Manager 및 Target용 Experience Cloud Identity 서비스 구현
-uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
 exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '1574'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -144,7 +140,7 @@ Analytics에서는 데이터 수집을 위해 추적 서버를 사용합니다.
 
 >[!IMPORTANT]
 >
->이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 참조하십시오.
+>이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 참조하십시오.
 
 ***(선택 사항이지만 권장됨)* 사용자 지정 Prop 만들기&#x200B;**
 
