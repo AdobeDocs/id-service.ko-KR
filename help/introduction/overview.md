@@ -1,12 +1,10 @@
 ---
 description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역할입니다.
-seo-description: Experience Cloud ID 서비스(이전 방문자 ID 서비스 또는 Marketing Cloud ID 서비스)를 사용하면 고객 특성 및 대상과 같은 Experience Cloud 서비스에 대한 공통 ID 프레임워크를 사용할 수 있습니다.
-seo-title: Experience Cloud ID 서비스 개요
 title: Experience Cloud ID 서비스 개요
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
-source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
