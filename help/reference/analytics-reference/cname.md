@@ -1,14 +1,10 @@
 ---
 description: '고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.'
 keywords: 작업 순서;ID 서비스
-seo-description: '고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 CNAME은 서드파티 쿠키를 수락하지 않는 브라우저(예: Safari)에서 도메인 간 추적을 활성화할 수 있습니다.'
-seo-title: CNAME 구현 개요
 title: CNAME 구현 개요
-uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
-translation-type: ht
-source-git-commit: ebeca9e285af71872c05d58ba252ca65bde24f3d
-workflow-type: ht
-source-wordcount: '259'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
