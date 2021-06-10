@@ -1,16 +1,12 @@
 ---
 description: AMCV 쿠키에는 사이트 방문자에 대한 Experience Cloud ID(MID) 및 지역 ID가 포함되어 있습니다. 이러한 ID는 키-값 쌍으로 저장됩니다. mid 사용자 ID는 방문자의 Experience Cloud ID를 보유합니다. aamlh 지역 ID는 사이트 방문자에 대한 지역 ID를 보유합니다. AMCV 쿠키를 구문 분석하여 해당 정보를 복구할 수 있습니다.
 keywords: ID 서비스
-seo-description: AMCV 쿠키에는 사이트 방문자에 대한 Experience Cloud ID(MID) 및 지역 ID가 포함되어 있습니다. 이러한 ID는 키-값 쌍으로 저장됩니다. mid 사용자 ID는 방문자의 Experience Cloud ID를 보유합니다. aamlh 지역 ID는 사이트 방문자에 대한 지역 ID를 보유합니다. AMCV 쿠키를 구문 분석하여 해당 정보를 복구할 수 있습니다.
-seo-title: AMCV 쿠키 또는 ID 서비스에서 지역 및 사용자 ID 가져오기
 title: AMCV 쿠키 또는 ID 서비스에서 지역 및 사용자 ID 가져오기
-uuid: bdd9d001-f29f-4ff0-800b-8182243da218
 exl-id: 986e761e-4bc7-4511-86b7-7d13a7761a2b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
