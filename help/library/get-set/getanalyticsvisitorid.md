@@ -1,15 +1,11 @@
 ---
 description: Experience Cloud Identity 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
-seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
-uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '340'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
