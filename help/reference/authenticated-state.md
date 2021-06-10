@@ -1,16 +1,12 @@
 ---
 description: Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증 상태와 각 방문자를 연결할 수 있습니다.
 keywords: ID 서비스
-seo-description: Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증 상태와 각 방문자를 연결할 수 있습니다.
-seo-title: 고객 ID 및 인증 상태
 title: 고객 ID 및 인증 상태
-uuid: 643df363-224a-463e-a332-be59926b47e7
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +64,7 @@ Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.UNKNOWN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.UNKNOWN  </span> </p> </td> 
    <td colname="col2"> <p>이 상태는 다음과 같은 시나리오에 사용할 수 있습니다. </p> <p> 
      <ul id="ul_086C7446D258443DA7AF5BB96A6AAEC7"> 
       <li id="li_7845BBD62D7B4362AD3FE33DEDA8FBA1">이메일을 읽기(이 작업은 독자가 의도한 수신자이지만 이메일을 전송할 수도 있음을 의미함) </li> 
@@ -76,11 +72,11 @@ Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.AUTHENTICATED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.AUTHENTICATED  </span> </p> </td> 
    <td colname="col2"> <p>사용자는 현재 웹 사이트 또는 앱에서 활성 세션으로 인증됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT  </span> </p> </td> 
    <td colname="col2"> <p>사용자가 인증되었지만 현재 로그아웃되었습니다. 사용자가 인증된 상태에서 연결을 끊고자 했습니다. 사용자가 더 이상 인증된 것으로 취급되고 싶어하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
