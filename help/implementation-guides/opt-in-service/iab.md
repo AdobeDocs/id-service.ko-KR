@@ -2,10 +2,10 @@
 description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
 title: IAB 프레임워크에서 옵트인 서비스 사용
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 98%
 
 ---
 
@@ -55,5 +55,5 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 * [IAB TCF(Transparency and Consent Framework)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) - IAB 표준에 대한 자세한 정보
 * [Adobe 옵트인](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360) - 플랫폼 솔루션의 동의 관리에 필요한 구성 요소인 옵트인에 대한 자세한 정보
-* [Audience Manager](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)에서 IAB TCF(Transparency and Consent Framework) 지원
+* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)에서 IAB TCF(Transparency and Consent Framework) 지원
 * [개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) - 사용자 처리 시 다른 개인 정보 보호 옵션은 다른 전역 옵트아웃 도구를 사용하여 모든 데이터 수집을 옵트아웃하는 기능입니다. 전역 옵트아웃이 옵트인 및 IAB TCF 확인보다 우선함
