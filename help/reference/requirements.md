@@ -1,16 +1,12 @@
 ---
 description: 이 섹션을 검토하여 Experience Cloud Identity 서비스에 필요한 올바른 솔루션, 서비스 및 쿠키 버전을 사용 중인지 확인하십시오.
 keywords: ID 서비스
-seo-description: 이 섹션을 검토하여 Experience Cloud Identity 서비스에 필요한 올바른 솔루션, 서비스 및 쿠키 버전을 사용 중인지 확인하십시오.
-seo-title: Experience Cloud Identity 서비스 요구 사항
 title: Experience Cloud Identity 서비스 요구 사항
-uuid: 608b1082-6e9e-4101-b6cb-60027950109b
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
