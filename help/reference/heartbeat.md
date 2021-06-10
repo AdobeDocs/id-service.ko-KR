@@ -3,9 +3,9 @@ description: 비디오 하트비트를 사용하려면 Experience Cloud Identity
 keywords: ID 서비스
 title: 비디오 하트비트 및 Experience Cloud Identity 서비스
 exl-id: 5e905925-54ba-43ce-ae87-a9bf193d7b95
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -16,5 +16,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Analytics에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)
+>* [Adobe Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)
 
