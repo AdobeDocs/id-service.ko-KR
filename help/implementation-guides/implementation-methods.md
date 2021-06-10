@@ -1,16 +1,12 @@
 ---
 description: Experience Cloud Identity 서비스의 표준 및 비표준 구현 방법을 비교합니다.
 keywords: ID 서비스
-seo-description: Experience Cloud Identity 서비스의 표준 및 비표준 구현 방법을 비교합니다.
-seo-title: 구현 방법
 title: 구현 방법
-uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
 exl-id: 0fe40a3c-bdcd-4290-bcd7-25344ff108d6
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
