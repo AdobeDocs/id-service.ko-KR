@@ -1,15 +1,11 @@
 ---
 description: Experience Cloud Identity 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 keywords: Experience Cloud Identity 서비스
-seo-description: Identity 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
-seo-title: Analytics 및 Identity 서비스 FAQ
 title: Analytics 및 Identity 서비스 FAQ
-uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '993'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '972'
 ht-degree: 100%
 
 ---
@@ -54,7 +50,7 @@ Identity 서비스가 정보를 올바르게 반환하지만 `MID` 매개 변수
 
 **유예 기간은 무엇이며 어떻게 구성할 수 있습니까?**
 
-[ID 서비스 유예 기간](../reference/analytics-reference/grace-period.md)을 살펴보고 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
+[ID 서비스 유예 기간](../reference/analytics-reference/grace-period.md)을 살펴보고 [고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)에 문의하십시오.
 
 **Identity 서비스를 사용하기 위해 RDC(실시간 데이터 수집)로 마이그레이션해야 하는 이유는 무엇입니까?**
 
@@ -93,5 +89,5 @@ Identity 서비스 사용 시 나타나는 불일치의 가능한 원인은 다�
 
 >[!MORELIKETHIS]
 >
->* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
+>* [고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 
