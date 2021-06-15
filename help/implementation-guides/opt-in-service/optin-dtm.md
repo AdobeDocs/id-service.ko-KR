@@ -3,9 +3,9 @@ description: DTM(Dynamic Tag Management)을 사용하여 옵트인 서비스를 
 title: DTM으로 옵트인 구성
 exl-id: 0e21e73c-aefe-41a5-87e6-499d2164f301
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '52'
+ht-degree: 100%
 
 ---
 
