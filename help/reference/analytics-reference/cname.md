@@ -3,7 +3,7 @@ description: '고객이 다른 도메인을 방문하기 전에 식별될 수 �
 keywords: 작업 순서;ID 서비스
 title: CNAME 구현 개요
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
 ht-degree: 100%
 
