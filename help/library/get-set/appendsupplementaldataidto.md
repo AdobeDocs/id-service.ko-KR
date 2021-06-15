@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: appendSupplementalDataIDTo를 참조하십시오
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
