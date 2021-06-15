@@ -3,7 +3,7 @@ description: 웹 사이트에서 옵트인을 활성화한 후에는 유효성 �
 title: 옵트인 서비스 확인
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
