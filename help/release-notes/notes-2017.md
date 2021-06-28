@@ -1,24 +1,24 @@
 ---
-description: 2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+description: 2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-title: 2017 릴리스 노트
+title: 2017 릴리스 정보
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '744'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 2017 릴리스 노트 {#release-notes}
+# 2017 릴리스 정보 {#release-notes}
 
-2017년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-이러한 변경 사항은 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)에서도 제공됩니다.
+이러한 변경 사항은 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)에서도 제공됩니다.
 
 >[!NOTE]
 >
->2017년 3월, 4월, 5월, 10월에 해당하는 고객 응대 릴리스 노트 또는 코드 변경 사항이 없습니다. 이러한 달은 ID 서비스 코드가 v2.1에서 변경되지 않고 그대로 유지되었습니다.
+>2017년 3월, 4월, 5월, 10월에 해당하는 고객 응대 릴리스 정보 또는 코드 변경 사항이 없습니다. 이러한 달은 ID 서비스 코드가 v2.1에서 변경되지 않고 그대로 유지되었습니다.
 
 ## 버전 2.5 {#section-27b441509124493f80984ed09bd9e88b}
 
@@ -41,16 +41,16 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> getVisitorValues</span> </p> </td> 
-   <td colname="col2"> <p>Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 <span class="codeph">visitor.FIELDS</span> 열거와 함께 반환할 ID를 제어할 수 있습니다. <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local">getVisitorValues</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 <span class="codeph">visitor.FIELDS</span> 열거와 함께 반환할 ID를 제어할 수 있습니다. <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local">getVisitorValues</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **버그 수정 및 기타 변경**
 
-* 해당 브라우저에서 뒤로 단추를 클릭할 때 ID 서비스에서 오류가 발생하던 Chrome 관련 버그가 수정되었습니다.
+* 해당 브라우저에서 뒤로가기 버튼을 클릭할 때 ID 서비스에서 오류가 발생하던 Chrome 관련 버그가 수정되었습니다.
 * 이제 ID 서비스가 이벤트 호출 응답의 지역 ID가 변경되면 ID 동기화를 다시 실행합니다.
-* 새 설명서 [컨텐츠 보안 정책 및 Experience Cloud Identity 서비스](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)가 추가되었습니다. 이 설명서는 ID 서비스에서 사용하는 Adobe 도메인에 대한 호출을 허용 목록에 작성하는 방법을 설명합니다.
+* 새 설명서 [콘텐츠 보안 정책 및 Experience Cloud ID 서비스](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)가 추가되었습니다. 이 설명서는 ID 서비스에서 사용하는 Adobe 도메인에 대한 호출을 허용 목록에 작성하는 방법을 설명합니다.
 
 ## 버전 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
@@ -89,7 +89,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sdidParamExpiry</span> </p> </td> 
-   <td colname="col2"> <p>이 기능을 <span class="codeph">Visitor.getInstance</span> 함수에 추가하면, 해당 ID를 한 페이지에서 다른 페이지로 전달할 때 기본 SDID(Supplemental Data ID) 만료일 간격을 무시할 수 있습니다. <span class="codeph">sdidParamExpiry</span>는 <span class="codeph">appendSupplimentalDataTo</span> 도우미 함수와 함께 사용합니다. <a href="../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458" format="dita" scope="local">sdidParamExpiry</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이 기능을 <span class="codeph">Visitor.getInstance</span> 함수에 추가하면 해당 ID를 한 페이지에서 다른 페이지로 전달할 때 기본 SDID(Supplemental Data ID) 만료일 간격을 무시할 수 있습니다. <span class="codeph">sdidParamExpiry</span>는 <span class="codeph">appendSupplimentalDataTo</span> 도우미 함수와 함께 사용합니다. <a href="../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458" format="dita" scope="local">sdidParamExpiry</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> resetState</span> </p> </td> 
@@ -154,7 +154,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
    <td colname="col2"> <p><span class="codeph">demdex.net</span> 도메인에 대한 호출을 설명하는 <span class="keyword">Audience Manager</span> 설명서에 대한 링크가 추가되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../library/function-vars/subdomain-config.md" format="dita" scope="local"> ID 동기화 및 일치율 이해하기</a>를 참조하십시오  </p> </td> 
+   <td colname="col1"> <p> <a href="../library/function-vars/subdomain-config.md" format="dita" scope="local"> ID 동기화 및 일치율 이해하기 </a> </p> </td> 
    <td colname="col2"> <p><span class="keyword">Media Optimizer</span> 섹션이 <span class="codeph">cm.eversttech.net</span>에 대한 호출을 설명하는 내용으로 수정되었습니다. ID 서비스에서 <span class="keyword">Media Optimizer</span>를 사용하여 수행하는 자동 ID 동기화입니다. 이 기능은 2017년 1월에 출시되었습니다. 아래의 <a href="../release-notes/notes-2017.md#section-0ceac6007c1241b58ad607e2b76b2b7e" format="dita" scope="local">버전 2.0</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
@@ -191,7 +191,7 @@ ID 서비스가 AMCV 쿠키에 저장된 ID를 사용하는 대신 ID에 대한 
 
 **새 설명서**
 
-[다양한 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
+[다양한 Experience Cloud 솔루션 및 서비스에서 DNS 프리페치 사용](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html?lang=ko-KR)
 
 ## 버전 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
@@ -209,4 +209,4 @@ ID 서비스가 AMCV 쿠키에 저장된 ID를 사용하는 대신 ID에 대한 
 
 ## 이전 연도 {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
-이전 ID 서비스 릴리스 노트입니다.
+이전 ID 서비스 릴리스 정보입니다.
