@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ A4T(및 기타 고객)는 다음과 같은 작업이 필요한 경우 이 버전
 
 서버측 코드 패키지를 다운로드하고 현재 빌드에 포함된 인터페이스를 검토하려면 [ID 서비스 NPM 저장소](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)를 참조하십시오.
 
-## 워크플로우 {#section-56b01017922046ed96536404239a272b}
+## 워크플로 {#section-56b01017922046ed96536404239a272b}
 
 아래 다이어그램과 섹션에서는 서버측 구현 프로세스의 각 단계에서 어떤 상황이 발생하고 무엇을 구성해야 하는지 설명합니다.
 
@@ -165,7 +165,7 @@ Response.send("
 
 ![](assets/server_side_dtm.png)
 
-See also, [DTM에 대한 Experience Cloud Identity 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)도 참조하십시오.
+See also, [DTM에 대한 Experience Cloud ID 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)도 참조하십시오.
 
 **DTM을 사용하지 않고 서버 상태 가져오기**
 
@@ -190,7 +190,7 @@ Response.send("
 
 ## 5단계: 페이지 제공 및 Experience Cloud 데이터 반환 {#section-4b5631a0d75a41febd6f43f8c214c263}
 
-이때 웹 서버는 방문자의 브라우저에 페이지 컨텐츠를 전송합니다. 이 시점에서부터 브라우저(서버가 아님)가 나머지 모든 ID 서비스와 [!DNL Analytics] 호출을 수행합니다. 예를 들어 브라우저에서:
+이때 웹 서버는 방문자의 브라우저에 페이지 콘텐츠를 전송합니다. 이 시점에서부터 브라우저(서버가 아님)가 나머지 모든 ID 서비스와 [!DNL Analytics] 호출을 수행합니다. 예를 들어 브라우저에서:
 
 * ID 서비스는 서버에서 상태 데이터를 수신하고 SDID를 AppMeasurement로 전달합니다.
 * AppMeasurement가 SDID를 포함하여 페이지 조회수에 관한 데이터를 [!DNL Analytics]에 전달합니다.
