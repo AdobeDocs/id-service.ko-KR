@@ -1,16 +1,16 @@
 ---
 description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 생성하여 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 keywords: Playstation;ID 서비스
-title: 쿠키 및 Experience Cloud Identity 서비스
+title: 쿠키 및 Experience Cloud ID 서비스
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 쿠키 및 Experience Cloud Identity 서비스{#cookies-and-the-experience-cloud-id-service}
+# 쿠키 및 Experience Cloud ID 서비스{#cookies-and-the-experience-cloud-id-service}
 
 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 생성하여 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 
@@ -113,11 +113,11 @@ AMCVS 쿠키는 브라우저의 자사 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)를 참조하십시오.
+관련 정보는 [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)를 참조하십시오.
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
-Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생됩니다. 이러한 ID가 일정하게 유지된다면, 특정 사용자에 대해 올바른 MID를 생성하는 것은 단순한 수학 문제입니다. 동일한 조직 ID와 demdex ID를 사용하면 항상 동일한 MID 값을 얻을 수 있습니다. 이를 통해 사용자가 제어하고 ID 서비스 코드로 구성된 도메인 간 방문자를 ID 서비스가 추적할 수 있습니다.
+Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생됩니다. 이러한 ID가 일정하게 유지된다면 특정 사용자에 대해 올바른 MID를 생성하는 것은 단순한 수학 문제입니다. 동일한 조직 ID와 demdex ID를 사용하면 항상 동일한 MID 값을 얻을 수 있습니다. 이를 통해 사용자가 제어하고 ID 서비스 코드로 구성된 도메인 간 방문자를 ID 서비스가 추적할 수 있습니다.
 
 페이지가 로드되면 ID 서비스가 MID를 생성하기 시작합니다. 이 프로세스 중에 `visitorAPI.js` 코드 라이브러리에서 제공한 코드는 ID 서비스에 대한 이벤트 호출에 조직 ID를 보냅니다. ID 서비스에서 MID 및 demdex ID를 생성하고 각각 AMCV 및 demdex 쿠키에 반환합니다.
 
@@ -135,4 +135,4 @@ Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생
 
 ## 다음 단계 {#section-8db1727a63bc4ff68b495f270315d453}
 
-[Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a)을 참조하십시오.
+[Experience Cloud ID 서비스에서 ID를 요청하고 설정하는 방법...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a)을 참조하십시오.
