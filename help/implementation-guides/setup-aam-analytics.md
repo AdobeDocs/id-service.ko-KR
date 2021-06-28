@@ -1,18 +1,18 @@
 ---
-description: 이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 keywords: ID 서비스
-title: Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현
+title: Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1231'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
+# Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
-이러한 지침은 Experience Cloud Identity 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로우를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 ## 1단계: 서버측 전달 플랜 {#section-880797cc992d4755b29cada7b831f1fc}
 
-여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf.html)를 참조하십시오.
+여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko-KR)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/server-side-forwarding/ssf.html)를 참조하십시오.
 
 서버측 전달로 마이그레이션하려면 계획 및 조정이 필요합니다. 이 프로세스에는 계정을 프로비저닝하기 위해 Adobe가 수행해야 하는 사이트 코드와 내부 단계에 대한 외부 변경 사항이 포함됩니다. 실제로 이러한 마이그레이션 절차는 대부분 동시에 수행되어야 하며 함께 출시됩니다. 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
 
@@ -140,7 +140,7 @@ Analytics에서는 데이터 수집을 위해 추적 서버를 사용합니다.
 
 >[!IMPORTANT]
 >
->이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 참조하십시오.
+>이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 참조하십시오.
 
 ***(선택 사항이지만 권장됨)* 사용자 지정 Prop 만들기&#x200B;**
 
@@ -174,7 +174,7 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 
 구현에서 s_vi 쿠키를 읽는 대신 MID를 캡처할 수 있게 되면 유예 기간을 중단하십시오.
 
-[쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)도 참조하십시오.
+[쿠키 및 Experience Cloud ID 서비스](../introduction/cookies.md)도 참조하십시오.
 
 **클릭스트림 데이터 통합**
 
@@ -182,7 +182,7 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 
 데이터 처리 프로세스에서 `post_visid_high` 및 `post_visid_low` 열을 사용할 수 있게 되면 유예 기간을 중지하십시오.
 
-또한, [클릭스트림 데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html)도 참조하십시오.
+또한 [클릭스트림 데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)도 참조하십시오.
 
 ## 9단계: ID 서비스 코드 테스트 및 배포 {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -193,10 +193,10 @@ ID 서비스로 마이그레이션한 후 새 방문자에게 s_vi 쿠키가 있
 ID 서비스 구현을 테스트하려면 다음을 확인하십시오.
 
 * [페이지가 호스팅된 도메인의 AMCV 쿠키](../introduction/cookies.md).
-* [Adobe 디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html)를 사용하는 Analytics 이미지 요청에 있는 MID 값입니다.
-* [Experience Cloud Identity 서비스 테스트 및 확인](../implementation-guides/test-verify.md)도 참조하십시오.
+* [Adobe 디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=ko-KR)를 사용하는 Analytics 이미지 요청에 있는 MID 값입니다.
+* [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)도 참조하십시오.
 
-서버측 전달을 확인하려면 [서버측 전달 구현을 확인하는 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html)을 참조하십시오.
+서버측 전달을 확인하려면 [서버측 전달 구현을 확인하는 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html?lang=ko-KR)을 참조하십시오.
 
 **배포**
 
