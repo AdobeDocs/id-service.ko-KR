@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: 고객 ID 및 인증 상태
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증 상태와 �
 
 ## 인증 상태 {#section-68ad4065dfaa437d9070832d6e2bf85c}
 
-`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)으로 [!DNL Experience Cloud]에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
+`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 디바이스에서 개별 사용자를 식별하고 타기팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)으로 [!DNL Experience Cloud]에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
->`setCustomerIDs` (고객 ID 동기화)는 고객 특성 및 핵심 서비스 기능에 필요합니다. 고객 ID 동기화는 [!DNL Analytics]의 선택적 식별 방법입니다. [!DNL Target]의 경우 고객 특성이 작동하려면 `Visitor.AuthState.AUTHENTICATED`가 필요합니다. 예제에 대해서는 [핵심 서비스 - 솔루션을 사용하도록 설정하는 방법](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html)을 참조하십시오.
+>`setCustomerIDs` (고객 ID 동기화)는 고객 특성 및 핵심 서비스 기능에 필요합니다. 고객 ID 동기화는 [!DNL Analytics]의 선택적 식별 방법입니다. [!DNL Target]의 경우 고객 특성이 작동하려면 `Visitor.AuthState.AUTHENTICATED`가 필요합니다. 예제에 대해서는 [핵심 서비스 - 솔루션을 사용하도록 설정하는 방법](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=ko-KR)을 참조하십시오.
 
-Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택적 `AuthState` 개체가 있습니다. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태가 정수로 반환됩니다.
+Experience Cloud ID 서비스 v1.5 이상부터 `setCustomerIDs`에 선택적 `AuthState` 개체가 있습니다. `AuthState`는 인증 상태(예: 로그인함 또는 로그아웃함)에 따라 방문자를 식별합니다. 표에 나열된 상태 값으로 인증 상태를 설정합니다. 인증 상태가 정수로 반환됩니다.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
@@ -64,7 +64,7 @@ Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.UNKNOWN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.UNKNOWN </span> </p> </td> 
    <td colname="col2"> <p>이 상태는 다음과 같은 시나리오에 사용할 수 있습니다. </p> <p> 
      <ul id="ul_086C7446D258443DA7AF5BB96A6AAEC7"> 
       <li id="li_7845BBD62D7B4362AD3FE33DEDA8FBA1">이메일을 읽기(이 작업은 독자가 의도한 수신자이지만 이메일을 전송할 수도 있음을 의미함) </li> 
@@ -72,11 +72,11 @@ Experience Cloud Identity 서비스 v1.5 이상부터 `setCustomerIDs`에 선택
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.AUTHENTICATED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.AUTHENTICATED </span> </p> </td> 
    <td colname="col2"> <p>사용자는 현재 웹 사이트 또는 앱에서 활성 세션으로 인증됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT </span> </p> </td> 
    <td colname="col2"> <p>사용자가 인증되었지만 현재 로그아웃되었습니다. 사용자가 인증된 상태에서 연결을 끊고자 했습니다. 사용자가 더 이상 인증된 것으로 취급되고 싶어하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -212,8 +212,8 @@ Object customerIDs = visitor.getCustomerIDs();
 
 [!DNL Experience Cloud] ID 서비스는 Android 및 iOS SDK 코드에서 고객 ID와 인증 상태를 지원합니다. 다음 코드 라이브러리를 참조하십시오.
 
-* [Android SDK 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
-* [iOS SDK 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
+* [Android SDK 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR)
+* [iOS SDK 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR)
 
 ## Analytics 및 Audience Manager 고객을 위한 알림 {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
