@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Experience Cloud 방문자 ID와 함께 추가 고객 ID, 인증 상태 및 해시 유형(SHA-256)을 각 방문자와 연결할 수 있습니다. 해시 유형을 제공하지 않으면 해시 없음으로 간주됩니다.
 
-`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 장치에서 개별 사용자를 식별하고 타깃팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)으로 Experience Cloud에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
+`setCustomerIDs` 메서드는 동일한 방문자의 여러 고객 ID를 수락합니다. 따라서 여러 다른 디바이스에서 개별 사용자를 식별하고 타기팅하는 데 도움이 됩니다. 예를 들어 이러한 ID를 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)으로 Experience Cloud에 업로드하고 다른 솔루션에 있는 이 데이터에 액세스할 수 있습니다.
 
 고객 ID, 인증된 상태 및 해시 유형은 나중에 사용할 수 있게 쿠키에 저장되지 *않습니다*. 대신, 고객 ID, 인증된 상태 및 해시 유형은 아래와 같이 [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)를 사용하여 검색할 수 있도록 인스턴스 변수에 저장해야 합니다.
 
@@ -68,9 +68,9 @@ ts=1563299964843
 
 ## Adobe Experience Platform Launch에서 동작 추가 {#add-action-launch}
 
-Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)에서 Platform launch에 대해 자세히 알아보십시오.
+Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)에서 Platform Launch에 대해 자세히 알아보십시오.
 
-Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
+Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://docs.adobe.com/help/ko-KR/launch/using/reference/manage-resources/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
 
 ![](/help/reference/assets/hashing-support.png)
 
