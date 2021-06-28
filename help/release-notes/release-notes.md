@@ -1,16 +1,16 @@
 ---
-description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-title: 2020년 릴리스 노트
+title: 2020 릴리스 정보
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud 릴리스 노트 - 2020 {#release-notes}
+# Experience Cloud 릴리스 정보 - 2020 {#release-notes}
 
 Experience Cloud ID 서비스(ECID)에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
@@ -25,4 +25,4 @@ ECID에 optIn `pre-approval`이 부여되고 나중에 업데이트되는 경우
 * ECID는 버전 4.5부터 `setCustomerIDs` 메서드에 전송된 모든 빈 ID를 거부합니다.
 * 옵트인이 `doesOptInApply=false` 및 `isIabContext=true`로 구성되었을 때 발생하는 문제를 수정했습니다.
 
-모든 제품에 대한 월별 릴리스 노트는 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)를 확인하십시오.
+모든 제품에 대한 월별 릴리스 정보는 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 확인하십시오.
