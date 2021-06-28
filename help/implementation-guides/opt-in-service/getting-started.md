@@ -1,9 +1,9 @@
 ---
-description: Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 장치에 쿠키를 작성할지 여부를 결정합니다.
+description: Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 디바이스에 쿠키를 작성할지 여부를 결정합니다.
 title: 옵트인 서비스 설정
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -11,9 +11,9 @@ ht-degree: 100%
 
 # 옵트인 서비스 설정{#setting-up-opt-in-service}
 
-Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 장치에 쿠키를 작성할지 여부를 결정합니다.
+Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 디바이스에 쿠키를 작성할지 여부를 결정합니다.
 
-옵트인 서비스는 ECID(Experience Cloud ID)와 함께 번들로 제공되는 JavaScript 라이브러리이며, 전역 `adobe` 개체에서 `adobe.optIn` 개체로 Visitor JS에 있습니다. 설치된 옵트인 서비스를 사용하면 방문자가 Adobe 솔루션에 한꺼번에 옵트인할 수 있는지 여부 또는 각 솔루션의 권한을 얻기 위해 솔루션을 순서대로 표시할지 여부를 지정할 수 있습니다. 옵트인 서비스 동의 관리 기능을 사용하여 특정 개인 정보 보호 요구 사항에 맞게 다양한 구성을 구현할 수 있습니다.
+옵트인 서비스는 ECID(Experience Cloud ID)와 함께 번들로 제공되는 JavaScript 라이브러리이며, 전역 `adobe` 개체에서 `adobe.optIn` 개체로 Visitor JS에 있습니다. 설치된 옵트인 서비스를 사용하면 방문자가 Adobe 솔루션에 한꺼번에 옵트인할 수 있는지 여부 또는 각 솔루션의 권한을 얻기 위해 솔루션을 순서대로 표시할지 여부를 지정할 수 있습니다. 옵트인 서비스 동의 관리 기능을 사용하여 특정 개인정보 보호 요구 사항에 맞게 다양한 구성을 구현할 수 있습니다.
 
 옵트인 서비스를 사용하면 방문자가 Adobe 솔루션에 한꺼번에 옵트인할 수 있는지 여부 또는 각 솔루션의 권한을 얻기 위해 솔루션을 순서대로 표시할지 여부를 지정할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색하여 관련된 동의 호출에 응답할 수 있습니다.
 
@@ -39,9 +39,9 @@ Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용�
    For IAB, see here for additional pre-reqs.
    -->
 
-1. 귀사의 개인 정보 보호 요구 사항은 GDPR 준수를 유지하기 위해 선택한 방법에 따라 특정됩니다. 귀사의 개인 정보 보호 팀이 동의 전 상태에서 사용할 수 있는 라이브러리를 알고 있어야 합니다.
+1. 귀사의 개인정보 보호 요구 사항은 GDPR 준수를 유지하기 위해 선택한 방법에 따라 특정됩니다. 귀사의 개인정보 보호 팀이 동의 전 상태에서 사용할 수 있는 라이브러리를 알고 있어야 합니다.
 
-[Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)를 사용하는 경우 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)을 활용하여 옵트인 서비스를 구성하십시오.
+[Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)를 사용하는 경우 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)을 활용하여 옵트인 서비스를 구성하십시오.
 
 ## 옵트인 카테고리 {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
@@ -60,7 +60,6 @@ adobe.OptInCategories = {
 ```
 
 옵트인 서비스를 사용하면 사이트에서 사용되는 각 Adobe 솔루션에 대한 방문자의 권한 환경 설정을 지정할 수 있습니다. 이 개체에는 방문자 설정을 승인된 카테고리별로 저장하고 순차적 흐름을 지원하는 라이브러리가 포함되어 있습니다. 여기서 승인 프로세스는 한 번에 하나씩 각 카테고리에 대한 &quot;확인&quot; 또는 &quot;거부&quot; 환경 설정을 수신합니다. 전체 또는 개별 솔루션으로 옵트인할 솔루션/카테고리를 설정할 수 있습니다.
-
 모든 Adobe 솔루션의 클라이언트측 라이브러리는 옵트인 서비스에 종속되며, 솔루션에 권한이 부여되지 않은 경우 쿠키를 생성하지 않습니다. 옵트인은 현재 방문자에 대한 동의 설정을 제공하고 업데이트하는 다양한 방법을 지원합니다. 이 섹션에서는 옵트인 서비스 환경 설정을 지정하는 예를 제공합니다. 함수 및 매개 변수의 전체 목록은 [옵트인 API 참조](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867)를 참조하십시오.
 
 옵트인 서비스 구성은 전역 `adobe` 개체를 인스턴스화하는 Visitor JS `getInstance()` 함수에 제공됩니다. 다음은 옵트인 서비스에 대한 Visitor JS [구성 설정](../../implementation-guides/opt-in-service/api.md#section-d66018342baf401389f248bb381becbf) 목록입니다.
@@ -96,9 +95,9 @@ Visitor.getInstance("YOUR_ORG_ID", {
 <p> *** <b>sample code block </b>*** </p>
 -->
 
-## 옵트인 워크플로우 {#section-70cd243dec834c8ea096488640ae20a5}
+## 옵트인 워크플로 {#section-70cd243dec834c8ea096488640ae20a5}
 
-옵트인 서비스는 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있고 환경 설정이 한 번에 하나씩 제공되는 워크플로우를 지원합니다. 다음 함수를 사용하여 **&#x200B;에 `shouldWaitForComplete`true를 제공하면 솔루션에서 한 개 카테고리 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 카테고리 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 *보류*&#x200B;됩니다. 호출되면 상태는 *complete*&#x200B;로 설정됩니다.
+옵트인 서비스는 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있고 환경 설정이 한 번에 하나씩 제공되는 워크플로를 지원합니다. 다음 함수를 사용하여 `shouldWaitForComplete`에 대해 *true*&#x200B;를 제공하면 솔루션에서 한 개 카테고리 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 후 다음 카테고리 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 *보류*&#x200B;됩니다. 호출되면 상태는 *complete*&#x200B;로 설정됩니다.
 
 ```
 adobe.optIn.approve(['AAM', 'ECID'], true); 
@@ -106,7 +105,7 @@ adobe.optIn.deny(['ANALYTICS'], true);
 adobe.optIn.complete();
 ```
 
-[워크플로우 구성 설정](../../implementation-guides/opt-in-service/api.md#section-2c5adfa5459c4e72b96d2693123a53c2)을 참조하십시오.
+[워크플로 구성 설정](../../implementation-guides/opt-in-service/api.md#section-2c5adfa5459c4e72b96d2693123a53c2)을 참조하십시오.
 
 ## 방문자의 옵트인 권한 검사 {#section-f136a9024e054d84881e6667fb7c94eb}
 
