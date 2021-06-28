@@ -1,18 +1,18 @@
 ---
-description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud Identity 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+description: CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 keywords: ID 서비스
-title: Experience Cloud Identity 서비스에서 CORS 지원
+title: Experience Cloud ID 서비스에서 CORS 지원
 exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
-# Experience Cloud Identity 서비스에서 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스에서 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
 
-CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud Identity 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
+CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 
 ## 동일 출처 정책 및 ID 서비스 요청 문제 {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
@@ -31,7 +31,7 @@ CORS는 여러 도메인에서 리소스를 요청할 수 있는 안전하고 �
 * `Origin`: 요청의 소스를 식별하는 요청 헤더입니다.
 * `Access-Control-Allow-Origin`: 리소스를 요청자와 공유할 수 있는지 나타내는 응답 헤더입니다.
 
-이러한 헤더가 어떻게 작동하는지 살펴보겠습니다. 이 예제에서는 [!DNL Experience Cloud] ID 서비스를 다음 사이트에 구현한 금융 서비스 회사가 있다고 가정합니다. www.finance-website.com 다음 표는 CORS 요청 및 응답 헤더가 리소스에 대한 액세스를 확인하는 방법을 정의합니다.
+이러한 헤더가 어떻게 작동하는지 살펴보겠습니다. 이 예제에서는 [!DNL Experience Cloud] ID 서비스를 www.finance-website.com 사이트에 구현한 금융 서비스 회사가 있다고 가정합니다. 다음 표는 CORS 요청 및 응답 헤더가 리소스에 대한 액세스를 확인하는 방법을 정의합니다.
 
 <table id="table_B004ACF52B5A4D33B1DCF7EA77BE4E6D"> 
  <thead> 
