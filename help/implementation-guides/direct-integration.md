@@ -1,26 +1,26 @@
 ---
-description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
+description: 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 디바이스에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 디바이스가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 keywords: ID 서비스
-title: Experience Cloud Identity 서비스와 직접 통합
+title: Experience Cloud ID 서비스와 직접 통합
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Experience Cloud Identity 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
 
-이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 장치에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 장치가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
+이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 디바이스에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 디바이스가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 
 ## 구문 {#section-a4754afec5ad40b6be00d6f1011d68bb}
 
-VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 장치에서는 ID 서비스에 사용되는 DCS(Data Collection Server)를 직접 호출할 수 있습니다. 이렇게 하려면 `dpm.demdex.net`을 호출하고 아래 표시된 대로 요청 형식을 지정합니다. *기울임꼴*&#x200B;은 변수 자리 표시자를 나타냅니다.
+VisitorAPI.js 또는 SDK 코드 라이브러리를 사용할 수 없는 디바이스에서는 ID 서비스에 사용되는 DCS(Data Collection Server)를 직접 호출할 수 있습니다. 이렇게 하려면 `dpm.demdex.net`을 호출하고 아래 표시된 대로 요청 형식을 지정합니다. *기울임꼴*&#x200B;은 변수 자리 표시자를 나타냅니다.
 
 ![](assets/directSyntax.png)
 
-이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. 다른 변수에 대한 자세한 내용은 [DCS API 호출에 지원되는 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)을 참조하십시오.
+이 구문 예제에서 `d_` 접두사는 호출 시 키-값 쌍을 시스템 수준 변수로 식별합니다. 상당수의 `d_` 매개 변수를 ID 서비스에 전달할 수 있지만, 위 코드에 표시된 대로 키-값 쌍에 초점을 맞추고 있습니다. 다른 변수에 대한 자세한 내용은 [DCS API 호출에 지원되는 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
 
 ID 서비스는 HTTP 및 HTTPS 호출을 지원합니다. 보안 페이지에서 데이터를 전달하려면 HTTPS를 사용합니다.
 
@@ -61,11 +61,11 @@ ID 서비스는 아래와 같이 JSON 개체에 있는 데이터를 반환합니
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 방문자 ID입니다. <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 방문자 ID입니다. <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud ID 서비스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 조직 ID입니다. 이 ID를 찾는 데 도움이 필요하면 <a href="../reference/requirements.md" format="dita" scope="local">Experience Cloud Identity 서비스 요구 사항</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 조직 ID입니다. 이 ID를 찾는 데 도움이 필요하면 <a href="../reference/requirements.md" format="dita" scope="local">Experience Cloud ID 서비스 요구 사항</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
@@ -87,7 +87,7 @@ ID 서비스는 아래와 같이 JSON 개체에 있는 데이터를 반환합니
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>ID 서비스는 지리적으로 분산된 부하 분산 시스템입니다. ID는 호출을 처리하는 데이터 센터의 지역을 식별합니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>ID 서비스는 지리적으로 분산된 부하 분산 시스템입니다. ID는 호출을 처리하는 데이터 센터의 지역을 식별합니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=ko-KR" format="https" scope="external">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cb</span> </p> </td> 
