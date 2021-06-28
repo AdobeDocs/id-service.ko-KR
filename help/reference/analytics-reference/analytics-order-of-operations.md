@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: Analytics ID 작업 순서
 exl-id: 8ee340fe-ef3b-40e6-9441-7ee0c9e20357
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>첫 번째<sup></sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/visitorid.html?lang=ko-KR" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
    <td colname="col3"> <p><span class="codeph">s.visitorID</span>가 설정되었습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -42,12 +42,12 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>네 번째<sup></sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)</a> </p> </td> 
-   <td colname="col3"> <p>브라우저가 서드 파티 쿠키를 허용하지 않으며 Analytics 추적 서버가 서드 파티 추적 서버로 설정됩니다. </p> <p> <p>참고: <span class="codeph">fid</span>는 기존 식별자이며, 사용자 사이트에서 ID 서비스를 구현한 경우에는 사용되지 않습니다. 이 경우 자사 <a href="../../introduction/cookies.md" format="dita" scope="local">AMCV 쿠키</a>로 인해 <span class="codeph">fid</span>를 사용할 수 없으므로 이 fid가 필요하지 않습니다. fid는 기존 코드를 지원하기 위해 또한 여러 기록상의 이유로 인해 유지되고 있습니다. </p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=ko-KR" format="http" scope="external"> fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)</a> </p> </td> 
+   <td colname="col3"> <p>브라우저가 서드파티 쿠키를 허용하지 않으며 Analytics 추적 서버가 서드파티 추적 서버로 설정됩니다. </p> <p> <p>참고: <span class="codeph">fid</span>는 기존 식별자이며, 사용자 사이트에서 ID 서비스를 구현한 경우에는 사용되지 않습니다. 이 경우 자사 <a href="../../introduction/cookies.md" format="dita" scope="local">AMCV 쿠키</a>로 인해 <span class="codeph">fid</span>를 사용할 수 없으므로 이 fid가 필요하지 않습니다. fid는 기존 코드를 지원하기 위해 또한 여러 기록상의 이유로 인해 유지되고 있습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>다섯 번째<sup></sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html" format="http" scope="external"> IP 주소, 사용자 에이전트, 게이트웨이 IP 주소</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html?lang=ko-KR" format="http" scope="external"> IP 주소, 사용자 에이전트, 게이트웨이 IP 주소</a> </p> </td> 
    <td colname="col3"> <p>방문자의 브라우저가 쿠키를 수락하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
