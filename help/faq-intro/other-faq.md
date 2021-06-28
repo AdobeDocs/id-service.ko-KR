@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: 기타 Experience Cloud 솔루션에 대한 FAQ
 exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '186'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ID 서비스에서 다른 Experience Cloud 솔루션 사용과 관련된 기능 
 
 **Dynamic Tag Management를 사용하여 방문자 ID 서비스를 배포할 수 있습니까?**
 
-예, 선호되고 권장되는 배포 옵션입니다.
+예. 선호되고 권장되는 배포 옵션입니다.
 
 [DTM을 사용한 표준 구현](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445)을 참조하십시오.
 
 ## Analytics 및 Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
-**Experience Cloud Identity 서비스를 구현하면 사용자 방문 기록이 [!DNL Adobe Analytics]에서 [!DNL Audience Manager]로 내보내집니까?**
+**Experience Cloud ID 서비스를 구현하면 사용자 방문 기록이 [!DNL Adobe Analytics]에서 [!DNL Audience Manager]로 내보내집니까?**
 
 다음 두 가지 옵션을 사용할 수 있습니다.
 
