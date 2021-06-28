@@ -1,12 +1,12 @@
 ---
-description: Experience Cloud Identity 서비스의 표준 및 비표준 구현 방법을 비교합니다.
+description: Experience Cloud ID 서비스의 표준 및 비표준 구현 방법을 비교합니다.
 keywords: ID 서비스
 title: 구현 방법
 exl-id: 0fe40a3c-bdcd-4290-bcd7-25344ff108d6
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## 표준 구현 {#section-ea1e5270f2184f85a2e85214a6ac60cb}
 
-[[!DNL Experience Platform Launch]를 사용하여 ID 서비스를 구현하는 것이 좋습니다. ](https://experienceleague.adobe.com/docs/launch/using/implement/solutions/idservice-save.html) 이 방법을 사용하면 다른 [!DNL Experience Cloud] 솔루션과 통합하고 구현 워크플로우를 간소화하며 자동으로 올바른 코드 배치 및 순서를 확보할 수 있습니다.
+Adobe는 [[!DNL Experience Platform Launch]](https://experienceleague.adobe.com/docs/launch/using/implement/solutions/idservice-save.html?lang=ko-KR)를 사용하여 ID 서비스를 구현할 것을 권장합니다. 이 방법을 사용하면 다른 [!DNL Experience Cloud] 솔루션과 통합하고 구현 워크플로를 간소화하며 자동으로 올바른 코드 배치 및 순서를 확보할 수 있습니다.
 
 ## 비표준 구현 {#section-2c4f2db1f9704315a7cccab6d2e07113}
 
