@@ -1,18 +1,18 @@
 ---
-description: 이러한 ID 서비스 함수를 호출하여 Experience Cloud Identity 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
+description: 이러한 ID 서비스 함수를 호출하여 Experience Cloud ID 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 keywords: ID 서비스
 title: callTimeOut 메서드
 exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '125'
+ht-degree: 100%
 
 ---
 
 # callTimeOut 메서드{#calltimeout-methods}
 
-이러한 ID 서비스 함수를 호출하여 Experience Cloud Identity 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
+이러한 ID 서비스 함수를 호출하여 Experience Cloud ID 서비스, Analytics 또는 Audience Manager ID 요청에 대한 시간 초과 상태를 확인할 수 있습니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 
 ## 시간 제한 기본 함수 {#section-e08228ef5f9b45c9a84139bbb763164a}
 
@@ -25,7 +25,7 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Identity 서비스 </p> </td> 
+   <td colname="col1"> <p>Experience Cloud ID 서비스 </p> </td> 
    <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.MCIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 
