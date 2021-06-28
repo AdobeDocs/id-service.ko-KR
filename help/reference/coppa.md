@@ -1,18 +1,18 @@
 ---
-description: COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud Identity 서비스 코드에 추가할 수 있습니다.
+description: COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 서드파티 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud ID 서비스 코드에 추가할 수 있습니다.
 keywords: ID 서비스
-title: Experience Cloud Identity 서비스에서 COPPA 지원
+title: Experience Cloud ID 서비스에서 COPPA 지원
 exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
-# Experience Cloud Identity 서비스에서 COPPA 지원{#coppa-support-in-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스에서 COPPA 지원{#coppa-support-in-the-experience-cloud-id-service}
 
-COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud Identity 서비스 코드에 추가할 수 있습니다.
+COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 서드파티 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud ID 서비스 코드에 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -40,10 +40,10 @@ var visitor = Visitor.getInstance("insert marketing cloud ID here", {
 });
 ```
 
-`true`로 설정되면 `disableThirdPartyCookies` 개체는 DCS가 타사의 demdex.net 쿠키를 반환하지 않게 합니다. 사이트 방문자의 브라우저에 이미 이 쿠키가 있는 경우 ID 서비스에서 새 [!DNL Experience Cloud] ID를 만들거나 기존 ID를 반환하는 데 이 쿠키를 사용하지 않습니다. 대신 [!DNL Experience Cloud] ID 서비스는 퍼스트 파티 쿠키에 새로운 무작위 ID를 만듭니다. 사용하도록 설정하면 ID 서비스를 사용하여 데이터를 수집한 후, COPPA에서 허용한 다른 내부 작업을 비롯하여 다양한 [!DNL Experience Cloud] 솔루션에서 공유할 수 있습니다.
+`true`로 설정되면 `disableThirdPartyCookies` 개체는 DCS가 서드파티의 demdex.net 쿠키를 반환하지 않게 합니다. 사이트 방문자의 브라우저에 이미 이 쿠키가 있는 경우 ID 서비스에서 새 [!DNL Experience Cloud] ID를 만들거나 기존 ID를 반환하는 데 이 쿠키를 사용하지 않습니다. 대신 [!DNL Experience Cloud] ID 서비스는 퍼스트 파티 쿠키에 새로운 무작위 ID를 만듭니다. 사용하도록 설정하면 ID 서비스를 사용하여 데이터를 수집한 후, COPPA에서 허용한 다른 내부 작업을 비롯하여 다양한 [!DNL Experience Cloud] 솔루션에서 공유할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
->* [Adobe 개인 정보 보호 센터](https://www.adobe.com/kr/privacy.html)
+>* [Adobe 개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)
 >* [COPPA란?](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online#whatis)
 
