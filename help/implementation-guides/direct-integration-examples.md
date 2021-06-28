@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: 직접 통합 사용 사례
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -17,7 +17,8 @@ ht-degree: 100%
 >[!TIP]
 >
 >* [코드 구문 및 변수](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9)를 검토하고 이해한 후에 사용 사례로 이동합니다.
->* MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
+>* MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](../introduction/cookies.md)를 참조하십시오.
+
 >
 
 
@@ -50,7 +51,7 @@ ht-degree: 100%
      <li id="li_4869572B40E54C54B88A2474DAC475A8">데이터 공급자 ID입니다. 회사에 할당된 고유 ID입니다. 이 ID를 4444라고 하겠습니다. </li> 
      <li id="li_05C8ED47488C4E289D84093127EC7B19">방문자의 ID(9876)입니다. </li> 
      <li id="li_3D1556AD18C843828A362CC604A9F76B"> <i>(선택 사항)</i> 이 방문자의 인증 상태를 정의하는 상태 ID입니다. </li> 
-    </ul> <p>또한 <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> 직접 통합 가이드</a>에 나열된 다른 매개 변수가 있는 경우(예: <span class="codeph"> d_blob</span> 또는 <span class="codeph"> dcs_region</span> 등) 해당 매개 변수를 전달해도 됩니다. </p> </td> 
+    </ul> <p>또한 <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> 직접 통합 안내서</a>에 나열된 다른 매개 변수가 있는 경우(예: <span class="codeph"> d_blob</span> 또는 <span class="codeph"> dcs_region</span> 등) 해당 매개 변수를 전달해도 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션 및 코드 샘플</b> </p> </td> 
@@ -85,7 +86,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>작업</b> </p> </td> 
-   <td colname="col2"> <p>이러한 조건이 주어지면 조직 ID를 포함하는 ID 서비스를 호출합니다. </p> <p>또한 <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> 직접 통합 가이드</a>에 나열된 다른 매개 변수가 있는 경우(예: <span class="codeph"> d_blob</span> 또는 <span class="codeph"> dcs_region</span> 등) 해당 매개 변수를 전달해도 됩니다. </p> </td> 
+   <td colname="col2"> <p>이러한 조건이 주어지면 조직 ID를 포함하는 ID 서비스를 호출합니다. </p> <p>또한 <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> 직접 통합 안내서</a>에 나열된 다른 매개 변수가 있는 경우(예: <span class="codeph"> d_blob</span> 또는 <span class="codeph"> dcs_region</span> 등) 해당 매개 변수를 전달해도 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션 및 코드 샘플</b> </p> </td> 
