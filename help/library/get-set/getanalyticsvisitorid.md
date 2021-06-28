@@ -1,18 +1,18 @@
 ---
-description: Experience Cloud Identity 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+description: Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 keywords: ID 서비스
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Experience Cloud Identity 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 
 **구문** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
@@ -36,14 +36,14 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 **&quot;aid&quot; 매개 변수는 이전 값입니다.**
 
-`aid` 매개 변수는 2개의 다른 조건 세트 아래의 쿼리 문자열에 나타납니다. 
+`aid` 매개 변수는 2개의 다른 조건 세트 아래의 쿼리 문자열에 나타납니다.
 
 **사례 1**
 
 다음 경우에 쿼리 문자열에 `aid` 매개 변수가 표시됩니다.
 
 * [!DNL Experience Cloud] ID 서비스가 올바르게 배포됩니다.
-* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679)에 저장되어 있습니다.
+* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR#section-5d50a078de444d12b7d927d68ff3b679)에 저장되어 있습니다.
 
 **사례 2**
 
@@ -51,5 +51,5 @@ ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](../..
 
 >[!MORELIKETHIS]
 >
->* [Analytics 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html)
+>* [Analytics 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko-KR)
 
