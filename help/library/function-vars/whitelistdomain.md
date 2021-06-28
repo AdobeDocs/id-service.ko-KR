@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: whitelistParentDomain 및 whitelistIframeDomains
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
 
 >[!TIP]
 >
->iFrame에서 [비디오 하트비트](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)를 사용하여 비디오를 제공할 때 이러한 구성을 구현할 수도 있습니다. 비디오 하트비트가 올바르게 작동하려면 ID 서비스 ID(MID)가 필요합니다.
+>iFrame에서 [비디오 하트비트](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)를 사용하여 비디오를 제공할 때 이러한 구성을 구현할 수도 있습니다. 비디오 하트비트가 올바르게 작동하려면 ID 서비스 ID(MID)가 필요합니다.
 
 **사용 사례 1: 브라우저가 서드파티 쿠키를 차단하며 ID 서비스가 iFrame 및 상위 페이지에 구현됨**
 
@@ -178,7 +178,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
    <td colname="col1"> <p> <b>사례 2</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_CCAD7E362E7F4DAB9D5C3E166EEE6BDD"> 
-      <li id="li_1F0B006BAD044ECBA5604625DE411E84"> <span class="codeph"> getSupplementalDataID  </span> </li> 
+      <li id="li_1F0B006BAD044ECBA5604625DE411E84"> <span class="codeph"> getSupplementalDataID </span> </li> 
       <li id="li_C6022223C8314B9C923202207C7472EA"> <span class="codeph"> getMarketingCloudVisitorID </span> </li> 
      </ul> </p> </td> 
   </tr> 
