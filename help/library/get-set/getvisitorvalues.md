@@ -1,18 +1,18 @@
 ---
-description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
+description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 "blob" 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
 keywords: ID 서비스
 title: getVisitorValues
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # getVisitorValues{#getvisitorvalues}
 
-Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 &quot;blob&quot; 컨텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
+Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아웃, 지리적 위치 및 메타데이터 &quot;blob&quot; 콘텐츠를 기본적으로 반환하는 비동기 API입니다. 또한 선택적 visitor.FIELDS 열거와 함께 반환할 ID를 제어할 수 있습니다.
 
 내용:
 
@@ -99,7 +99,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>데이터 수집 지역 ID. 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS 지역 ID, 위치 및 호스트 이름</a>과 <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>데이터 수집 지역 ID. 특정 ID 서비스 데이터 센터의 지리적 위치에 대한 숫자 식별자입니다. </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=ko-KR" format="https" scope="external">DCS 지역 ID, 위치 및 호스트 이름</a>과 <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -107,7 +107,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>방문자의 Experience Cloud ID. </p> <p><a href="../../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>방문자의 Experience Cloud ID. </p> <p><a href="../../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud ID 서비스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
