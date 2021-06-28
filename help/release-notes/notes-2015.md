@@ -1,24 +1,24 @@
 ---
-description: 2015년의 릴리스 노트 및 업데이트입니다.
+description: 2015년의 릴리스 정보 및 업데이트입니다.
 keywords: ID 서비스
-title: 2015 릴리스 노트
+title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '408'
+ht-degree: 100%
 
 ---
 
-# 2015 릴리스 노트 {#release-notes}
+# 2015 릴리스 정보 {#release-notes}
 
-2015년의 릴리스 노트 및 업데이트입니다.
+2015년의 릴리스 정보 및 업데이트입니다.
 
 ## 버전 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 
 2015년 11월
 
-COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인 정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 원하는 경우 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 변수를 자신의 [!DNL Experience Cloud] ID 서비스 코드에 추가할 수 있습니다. [Experience Cloud Identity 서비스에서 COPPA 지원](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413)을 참조하십시오. 버전 1.5.3 이상
+COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 원하는 경우 브라우저의 서드파티 도메인에서 쿠키를 설정하지 못하도록 하는 변수를 자신의 [!DNL Experience Cloud] ID 서비스 코드에 추가할 수 있습니다. [Experience Cloud ID 서비스에서 COPPA 지원](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413)을 참조하십시오. 버전 1.5.3 이상
 
 ## 버전 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
@@ -43,8 +43,8 @@ COPPA(온라인 아동 개인 정보 보호법 - Children’s Online Privacy Pro
 
 이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.
 
-* [API 메서드 및 코드 라이브러리](../library/library.md#concept-ff27497375644a898d47984aefb21c97): 컨텐츠 및 텍스트가 재구성되었습니다. 대부분의 경우 각 메서드가 개별 페이지에 설명됩니다.
-* [Experience Cloud Identity 서비스 요구 사항](../reference/requirements.md): 컨텐츠가 수정되고 텍스트가 재구성되었습니다.
+* [API 메서드 및 코드 라이브러리](../library/library.md#concept-ff27497375644a898d47984aefb21c97): 콘텐츠 및 텍스트가 재구성되었습니다. 대부분의 경우 각 메서드가 개별 페이지에 설명됩니다.
+* [Experience Cloud ID 서비스 요구 사항](../reference/requirements.md): 콘텐츠가 수정되고 텍스트가 재구성되었습니다.
 
 ## 버전 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
