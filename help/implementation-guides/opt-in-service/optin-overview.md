@@ -1,23 +1,23 @@
 ---
-description: 옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 장치 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다.
+description: 옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다.
 title: 옵트인 서비스
 exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '507'
+ht-degree: 100%
 
 ---
 
 # 옵트인 서비스{#opt-in-service}
 
-옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 장치 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다.
+옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다.
 
 옵트인 서비스는 ECID(Experience Cloud ID)의 확장으로, 사용자 동의 전에 방문자의 웹 페이지에 쿠키를 생성할 수 있는 Experience Cloud 솔루션과 쿠키 생성 여부를 제어할 수 있도록 설계되었습니다. 또한 옵트인 서비스를 사용하여 더 큰 디자인의 일부로 CMP(동의 관리 플랫폼) 및 기존 시스템과 통합하도록 설정할 수 있습니다.
 
 옵트인 서비스를 사용하여 방문자가 Adobe 솔루션을 한꺼번에 옵트인할 수 있는지를 지정하거나 권한을 얻기 위해 솔루션을 순서대로 표시할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색할 수 있습니다.
 
-옵트인 서비스는 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)를 [옵트인 확장](../../implementation-guides/opt-in-service/launch.md)과 함께 사용하여 쉽게 구현하고 구성합니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
+옵트인 서비스는 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)를 [옵트인 확장](../../implementation-guides/opt-in-service/launch.md)과 함께 사용하여 쉽게 구현하고 구성합니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
 
 시작하려면 [옵트인 서비스 설정](../../implementation-guides/opt-in-service/getting-started.md)을 참조하십시오.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## Experience Cloud 솔루션에서 옵트인 {#section-053e6224505542cf961896f0ca869e52}
 
-옵트인 서비스는 사용자 자신의 요구 사항에 따라 동의 옵트인 워크플로우를 구축하는 도구로서, 사용자 또는 사용자 동의 컨트롤러에서 동의를 제공하기 전과 후에 반응(태그 실행)하는 워크플로우를 설계할 수 있습니다.
+옵트인 서비스는 사용자 자신의 요구 사항에 따라 동의 옵트인 워크플로를 구축하는 도구로서, 사용자 또는 사용자 동의 컨트롤러에서 동의를 제공하기 전과 후에 반응(태그 실행)하는 워크플로를 설계할 수 있습니다.
 
 옵트인 서비스를 사용하면 Adobe 솔루션에 대한 동의 관리 작업을 다음과 같이 설정할 수 있습니다.
 
