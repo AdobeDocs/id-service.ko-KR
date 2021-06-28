@@ -1,16 +1,16 @@
 ---
 description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 keywords: ID 서비스
-title: 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스
+title: 콘텐츠 보안 정책 및 Experience Cloud ID 서비스
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
 ht-degree: 100%
 
 ---
 
-# 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
+# 콘텐츠 보안 정책 및 Experience Cloud ID 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
 
 CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 
@@ -58,7 +58,7 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
    <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
    <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
    <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
-   <li>Adobe Launch를 사용하여 태그를 배포하는 경우 도메인 목록에 <code>https://assets.adobedtm.com</code>도 추가해야 합니다.</li></ul></p> <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하십시오. </p> </td> </tr> 
+   <li>Adobe Launch를 사용하여 태그를 배포하는 경우 도메인 목록에 <code>https://assets.adobedtm.com</code>도 추가해야 합니다.</li></ul></p> <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud ID 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하십시오. </p> </td> </tr> 
  <tr>
  <td colname="col1"> <p> <b>Activity Map 플러그인</b> </p> </td> 
  <td colname="col2"> <p>CSP가 *.adobe.com을 포함하도록 수정합니다. **참고**: 2020년 1월 이전에 Activity Map을 이미 설치한 경우 브라우저에는 여전히 *.omniture.com에 대한 초기 요청이 표시되지만 *.adobe.com으로 리디렉션 됩니다. </p></td> 
@@ -72,7 +72,7 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
 
 >[!MORELIKETHIS]
 >
->* [컨텐츠 보안 정책 참조](https://content-security-policy.com/)
->* [MDN: 컨텐츠 보안 정책](https://developer.mozilla.org/ko-KR/docs/Web/HTTP/CSP)
->* [Wikipedia: 컨텐츠 보안 정책](https://en.wikipedia.org/wiki/Content_Security_Policy)
+>* [콘텐츠 보안 정책 참조](https://content-security-policy.com/)
+>* [MDN: 콘텐츠 보안 정책](https://developer.mozilla.org/ko-KR/docs/Web/HTTP/CSP)
+>* [Wikipedia: 콘텐츠 보안 정책](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
