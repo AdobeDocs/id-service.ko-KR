@@ -1,16 +1,16 @@
 ---
 description: 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
 keywords: ID 서비스
-title: Experience Cloud Identity 서비스 테스트 및 확인
+title: Experience Cloud ID 서비스 테스트 및 확인
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Experience Cloud Identity 서비스 테스트 및 확인{#test-and-verify-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스 테스트 및 확인{#test-and-verify-the-experience-cloud-id-service}
 
 이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
 
@@ -26,13 +26,13 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 **도구**
 
-[ Adobe 디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html) 및 [Charles HTTP 프록시](https://www.charlesproxy.com/)는 ID 서비스가 Analytics에서 제대로 작동하도록 구성되었는지 확인하는 데 도움이 됩니다. 이 섹션의 정보는 Adobe 디버거 및 Charles가 반환하는 결과를 기반으로 합니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
+[ Adobe 디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=ko-KR) 및 [Charles HTTP 프록시](https://www.charlesproxy.com/)는 ID 서비스가 Analytics에서 제대로 작동하도록 구성되었는지 확인하는 데 도움이 됩니다. 이 섹션의 정보는 Adobe 디버거 및 Charles가 반환하는 결과를 기반으로 합니다. 하지만 가장 적합한 도구나 디버거를 자유롭게 사용할 수 있습니다.
 
 ## Adobe Debugger를 사용한 테스트 {#section-861365abc24b498e925b3837ea81d469}
 
-[!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud Identity 서비스](../introduction/cookies.md)를 참조하십시오.
+[!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](../introduction/cookies.md)를 참조하십시오.
 
-[!DNL Adobe] [디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
+[!DNL Adobe] [디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=ko-KR)에서 ID 서비스 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명 브라우징 세션을 엽니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
@@ -84,7 +84,7 @@ Charles를 사용하여 HTTP 호출을 모니터링할 때 살펴볼 위치와 �
 
 **Charles의 성공적인 ID 서비스 응답**
 
-[DCS(데이터 수집 서버)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html)의 응답에서 MID를 반환하면 계정이 ID 서비스에 대해 제대로 프로비저닝된 것입니다. MID는 `d_mid: *`visitor Experience Cloud ID`*` 구문을 사용하는 키-값 쌍으로 반환됩니다. 아래 표시된 것처럼 [!UICONTROL 응답] 탭에서 MID를 찾습니다.
+[DCS(데이터 수집 서버)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko-KR)의 응답에서 MID를 반환하면 계정이 ID 서비스에 대해 제대로 프로비저닝된 것입니다. MID는 `d_mid: *`visitor Experience Cloud ID`*` 구문을 사용하는 키-값 쌍으로 반환됩니다. 아래 표시된 것처럼 [!UICONTROL 응답] 탭에서 MID를 찾습니다.
 
 ![](assets/charles_response_success.png)
 
@@ -94,4 +94,4 @@ DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되�
 
 ![](assets/charles_response_unsuccessful.png)
 
-오류 코드에 대한 자세한 내용은 [DCS 오류 코드, 메시지 및 예제](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html)를 참조하십시오.
+오류 코드에 대한 자세한 내용은 [DCS 오류 코드, 메시지 및 예제](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html?lang=ko-KR)를 참조하십시오.
