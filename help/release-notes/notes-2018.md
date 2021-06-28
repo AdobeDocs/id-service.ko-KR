@@ -1,18 +1,18 @@
 ---
-description: 2018년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+description: 2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-title: 2018 릴리스 노트
+title: 2018 릴리스 정보
 exl-id: ad3cccf1-2753-4ac9-a68c-15b2d62bbc1a
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
 # 2018 릴리스 정보 {#release-notes}
 
-2018년 Experience Cloud Identity 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
+2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
 ## 버전 3.3 {#section-3202c8d5457a45a5b5f4b4c838d44de3}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>고유 방문자 수의 비정상적인 급증 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud Identity 서비스 3.1.0이 릴리스된 후 이 버전을 구현할 때 고유 방문자 수가 비정상적으로 급증하는 문제가 발견되었습니다. 이 동작은 최신 버전의 ECID, v3.1.0에서만 나타나며 사용자가 Safari 브라우저의 개인 정보 설정에서 “현재 웹 사이트에서만 허용” 옵션을 선택한 경우에만 나타납니다. 버전 3.1.2는 이 문제를 해결합니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID 서비스 3.1.0이 릴리스된 후 이 버전을 구현할 때 고유 방문자 수가 비정상적으로 급증하는 문제가 발견되었습니다. 이 동작은 최신 버전의 ECID, v3.1.0에서만 나타나며 사용자가 Safari 브라우저의 개인정보 설정에서 “현재 웹 사이트에서만 허용” 옵션을 선택한 경우에만 나타납니다. 버전 3.1.2는 이 문제를 해결합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,8 +109,8 @@ ht-degree: 0%
    <td colname="col2"> <p><b>Iframe</b> </p> <p>여러 ID 동기화를 수행하는 고객의 경우 지속적인 CPU 계산으로 인해 일부 경우 UI가 차단됩니다. ID 동기화 요청을 각각 100밀리초 씩 분리하는 스레드 일시 중단을 도입하고 있습니다. </p> <p>이 변경 사항은 Visitor 2.3.0+ 및 DIL 6.10+를 사용하는 고객의 성능을 향상시킵니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 타사 통화를 비활성화하는 기능이 추가됨 </td> 
-   <td colname="col2"> <p><b>JavaScript - 3.0.0</b> </p> <p>Adobe에서 타사 동기화 통화를 비활성화할 수 있도록 다음 구성 이름을 변경했습니다. </p> <p>idSyncDisableSyncs에서 disableIdSyncs로 </p> <p>idSyncDisable3rdPartySyncing에서 disableThirdPartyCookies로 </p> </td> 
+   <td colname="col1"> 서드파티 통화를 비활성화하는 기능이 추가됨 </td> 
+   <td colname="col2"> <p><b>JavaScript - 3.0.0</b> </p> <p>Adobe에서 서드파티 동기화 통화를 비활성화할 수 있도록 다음 구성 이름을 변경했습니다. </p> <p>idSyncDisableSyncs에서 disableIdSyncs로 </p> <p>idSyncDisable3rdPartySyncing에서 disableThirdPartyCookies로 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Internet Explorer 지원 </p> </td> 
