@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: Dynamic Tag Management를 사용하여 구현
 exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
 source-git-commit: 0dde49ca194e4a86ea7957629eec79d0b75a1e81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 99%
 
 [DTM(Dynamic Tag Management)](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=ko-KR)을 사용하면 ID 서비스 인스턴스 및 관련 [!DNL Experience Cloud] 솔루션 통합을 구성, 배포, 관리할 수 있습니다. DTM은 ID 서비스 및 기타 Experience Cloud 솔루션과 긴밀하게 통합되어 있으므로 구현 프로세스를 간소화할 수 있습니다. Experience Cloud ID 도구를 추가하고 구성하면 다음과 같은 정보를 지정할 수 있습니다.
 
-* Experience Cloud 조직 ID(Experience Cloud에 연결된 경우 자동으로 채워짐)
-* Analytics 추적 서버(보안 및 비보안)
-* Experience Cloud 서버(자사 추적 서버)
+* Experience Cloud 조직 ID (Experience Cloud에 연결된 경우 자동으로 채워짐)
+* Analytics 추적 서버 (보안 및 비보안)
+* Experience Cloud 서버 (자사 추적 서버)
 
 DTM은 [!DNL Experience Cloud] 고객에게 무료로 제공됩니다.
 
@@ -38,7 +38,7 @@ DTM은 간단하면서도 강력한 툴입니다. 아직 사용하고 있지 않
 
 ## 배포 지침 {#concept-54a2ec49af8f4bfca9207b1d404e8e1a}
 
-DTM(Dynamic Tag Management)을 사용하여 Experience Cloud ID 서비스를 구현하기 전에 이러한 요구 사항과 절차를 검토하십시오.
+DTM(Dynamic Tag Management)을 사용하여 Experience Cloud ID 서비스를 구현하기 전에 이들 요구 사항과 절차를 검토하십시오.
 
 <!--
 mcvid-dtm-deployment.xml
@@ -62,7 +62,7 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 **지역 데이터 수집 유효성 검사**
 
-고객은 [RDC(지역 데이터 수집)](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR)을 위해 CNAME를 제공하거나 `*.sc.omtrdc`을(를) 사용해야 합니다. [!DNL Adobe] 컨설턴트로부터 특정 RDC 설정을 확보합니다.
+고객은 [RDC(지역 데이터 수집)](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR)를 위해 CNAME를 제공하거나 `*.sc.omtrdc`를 사용해야 합니다. [!DNL Adobe] 컨설턴트로부터 특정 RDC 설정을 확보합니다.
 
 **Analytics 보고서 세트 구성**
 
@@ -74,7 +74,7 @@ ID 서비스는 [!DNL Adobe] 데이터 수집 서버에서 고유 ID를 요청 �
 
 **전제 조건**
 
-* [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. [핵심 서비스용 솔루션을 사용하도록 설정](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html)을 참조하십시오.
+* [!DNL Experience Cloud]에 대해 솔루션을 활성화하고 관리자 권한을 보유하고 있는지 확인합니다. [핵심 서비스용 솔루션을 사용하도록 설정](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=ko-KR)을 참조하십시오.
 
 * DTM에서 웹 속성을 생성합니다. [DTM 웹 속성 생성하기](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=ko-KR) 설명서를 참조하십시오.
 
@@ -99,15 +99,15 @@ mcvid-dtm-implement.xml
 
 ## DTM에 대한 Experience Cloud ID 서비스 설정 {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
-[!UICONTROL 조직 ID], [!UICONTROL 일반] 및 [!UICONTROL 고객 설정] 필드와 [!DNL Experience Cloud] ID 서비스에서 이러한 필드를 사용하는 방법에 대해 설명합니다.
+[!UICONTROL 조직 ID], [!UICONTROL 일반] 및 [!UICONTROL 고객 설정] 필드와 [!DNL Experience Cloud] ID 서비스에서 이들 필드를 사용하는 방법에 대해 설명합니다.
 
 <!--
 mcvid-dtm-settings.xml
 -->
 
-## 이러한 설정을 찾는 방법  {#section-c5b2d1c928944ae2b8565c1b182fe575}
+## 이들 설정을 찾는 방법 {#section-c5b2d1c928944ae2b8565c1b182fe575}
 
-ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 뒤에 설정을 사용할 수 있습니다. 또한 DTM 웹 속성의 [!UICONTROL  설치된 도구] 섹션에서 톱니바퀴 아이콘을 클릭하여 이러한 설정에 액세스할 수도 있습니다.
+ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 뒤에 설정을 사용할 수 있습니다. 또한 DTM 웹 속성의 [!UICONTROL  설치된 도구] 섹션에서 톱니바퀴 아이콘을 클릭하여 이들 설정에 액세스할 수도 있습니다.
 
 ![](assets/installedTools.png)
 
@@ -121,7 +121,7 @@ ID 서비스를 DTM(Dynamic Tag Management)에 도구로 추가 및 저장한 �
 
 ## 일반 설정 {#section-071d358e40f84629a8901b893dd61392}
 
-이러한 설정을 사용하여 추적 서버와 코드 버전을 지정하고 다른 변수를 추가할 수 있습니다.
+이들 설정을 사용하여 추적 서버와 코드 버전을 지정하고 다른 변수를 추가할 수 있습니다.
 
 ![](assets/generalSettings.png)
 
@@ -139,7 +139,7 @@ Analytics 데이터 수집에 사용되는 추적 서버 이름입니다. 이미
 
 추적 서버 URL을 알 수 없는 경우 `s_code.js` 또는 `AppMeasurement.js` 파일을 확인하십시오. URL을 `s.trackingServer` 변수로 설정할 수 있습니다.
 
-[ trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ko-KR) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)를 참조하십시오.
+[ trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ko-KR) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#)를 참조하십시오.
 
 **추적 서버 보안**
 
@@ -147,7 +147,7 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 추적 서버 URL을 알 수 없는 경우 `s_code.js` 또는 `AppMeasurement.js` 파일을 확인하십시오. URL을 `s.trackingServerSecure` 변수로 설정할 수 있습니다.
 
-[ trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/analytics/kb/determining-data-center.html#)를 참조하십시오.
+[ trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ko-KR) 및 [trackingServer 및 trackingServerSecure 변수 올바로 채우기](https://helpx.adobe.com/kr/analytics/kb/determining-data-center.html#)를 참조하십시오.
 
 **Experience Cloud 서버**
 
@@ -159,11 +159,11 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 **라이브러리 버전**
 
-사용하려는 ID 서비스 코드 라이브러리 버전(`VisitorAPI.js`)을 설정합니다. 이러한 메뉴 옵션은 편집할 수 없습니다.
+사용하려는 ID 서비스 코드 라이브러리 버전(`VisitorAPI.js`)을 설정합니다. 이들 메뉴 옵션은 편집할 수 없습니다.
 
 **설정**
 
-이러한 필드를 사용하면 [함수 변수](../library/function-vars/function-vars.md)를 키-값 쌍으로 추가할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 클릭하여 한 개 이상의 변수를 ID 서비스 구현에 추가할 수 있습니다.
+이들 필드를 사용하면 [함수 변수](../library/function-vars/function-vars.md)를 키-값 쌍으로 추가할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 클릭하여 한 개 이상의 변수를 ID 서비스 구현에 추가할 수 있습니다.
 
 ![](assets/dtmVars.png)
 
@@ -179,7 +179,7 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 **통합 코드**
 
-통합 코드는 고객이 제공한 고유한 ID입니다. 통합 코드에는 에서 [데이터 소스를 생성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html#create-data-source)하기 위해 사용했던 값이 포함되어야 합니다[!DNL Audience Manager].
+통합 코드는 고객이 제공한 고유한 ID입니다. 통합 코드에는 에서 [데이터 소스를 생성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=ko-KR#create-data-source)하기 위해 사용했던 값이 포함되어야 합니다[!DNL Audience Manager].
 
 **값**
 
@@ -191,13 +191,13 @@ Analytics 데이터 수집에 사용되는 보안 추적 서버의 이름입니�
 
 ## Experience Cloud ID 서비스 테스트 및 확인 {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
-이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 [!DNL Experience Cloud] 솔루션 조합을 위한 것입니다.
+이들 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이들 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 [!DNL Experience Cloud] 솔루션 조합을 위한 것입니다.
 
 <!--
 mcvid-test-verify.xml
 -->
 
-## 시작하기 전에 {#section-b1e76ad552ed4eb793b6e521a55127d4}
+## 시작하기에 앞서 {#section-b1e76ad552ed4eb793b6e521a55127d4}
 
 ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 중요한 정보입니다.
 
@@ -215,7 +215,7 @@ ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 �
 
 [!DNL Adobe] 디버거 응답에 [!DNL Experience Cloud ID] (MID)가 표시되면 서비스 통합이 제대로 구성된 것입니다. MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](../introduction/cookies.md)를 참조하십시오.
 
-[!DNL Adobe] [디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html)에서 ID 서비스 상태를 확인하려면:
+[!DNL Adobe] [디버거](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=ko-KR)에서 ID 서비스 상태를 확인하려면:
 
 1. 브라우저 쿠키를 지우거나 익명 브라우징 세션을 엽니다.
 1. ID 서비스 코드가 포함된 테스트 페이지를 로드합니다.
@@ -236,8 +236,8 @@ mid=20265673158980419722735089753036633573
 
 [!DNL Analytics] 고객인 경우 MID 외에 AID([!DNL Analytics] ID)가 표시될 수 있습니다. 다음이 발생합니다.
 
-* 초기/장기 사이트 방문자 수 포함.
-* 유예 기간을 활성화한 경우.
+* 초기/장기 사이트 방문자 수 포함
+* 유예 기간을 활성화한 경우
 
 **실패**
 
@@ -281,5 +281,5 @@ DCS 응답에서 MID가 누락된 경우 계정이 제대로 프로비저닝되�
 
 >[!MORELIKETHIS]
 >
->* [웹 속성](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html)
+>* [웹 속성](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=ko-KR)
 
