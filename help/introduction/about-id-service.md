@@ -1,11 +1,11 @@
 ---
-description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역할입니다.
+description: Adobe Experience Cloud에서 Experience Cloud Identity 서비스의 역할입니다.
 keywords: ID 서비스
 title: 개요
 exl-id: d907e299-bde0-4b5f-8c16-867a4eaa8be1
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '339'
+source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
+workflow-type: tm+mt
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Experience Cloud ID 서비스를 통해 Experience Cloud 핵심 서비스, 솔�
 
 또한 ID 서비스는 다른 솔루션별 ID(예: Analytics AID)를 대체할 수 있습니다. 그리고 [고객 ID 및 인증 상태](../reference/authenticated-state.md) 기능을 통해 ID 서비스를 사용하면 자신의 고객 ID를 [!DNL Experience Cloud]에 전달할 수 있습니다. 그러나 ID 서비스는 이미 구독한 솔루션에서만 작동한다는 점을 명심하십시오. 등록하지 않은 경우 다른 제품에 대한 액세스를 제공하지 않습니다.
 
-나아가 ID 서비스는 현재 및 미래의 수 많은 [!DNL Experience Cloud] 기능, 개선 사항 및 서비스의 필수 구성 요소입니다. 현재 ID 서비스는 [Analytics](http://www.adobe.com/kr/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/kr/marketing-cloud/data-management-platform.html) 및 [Target](http://www.adobe.com/kr/marketing-cloud/testing-targeting.html)을 지원합니다. [!DNL Adobe Experience Cloud] 디바이스 Co-op에 참여하려는 경우에도 ID 서비스가 필요합니다. ID 서비스를 구현하지 않았다면 지금이 바로 마이그레이션 전략을 시작할 적기입니다. ID 서비스의 중요성과 역할에 대한 자세한 내용은 [Experience Cloud ID 서비스가 나의 레이더가 되어야 하는 이유](http://blogs.adobe.com/digitalmarketing/analytics/why-new-adobe-marketing-cloud-id-service-should-be-on-your-radar/)를 참조하십시오.
+나아가 ID 서비스는 현재 및 미래의 수 많은 [!DNL Experience Cloud] 기능, 개선 사항 및 서비스의 필수 구성 요소입니다. 현재 ID 서비스는 [Analytics](http://www.adobe.com/kr/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/kr/marketing-cloud/data-management-platform.html) 및 [Target](http://www.adobe.com/kr/marketing-cloud/testing-targeting.html)을 지원합니다. [!DNL Adobe Experience Cloud] 디바이스 Co-op에 참여하려는 경우에도 ID 서비스가 필요합니다. ID 서비스를 구현하지 않았다면 지금이 바로 마이그레이션 전략을 시작할 적기입니다.
 
 ## 기능 요약 {#section-96555473455c4bf8924c2d56ff4f3255}
 

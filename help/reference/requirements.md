@@ -3,14 +3,14 @@ description: 이 섹션을 검토하여 Experience Cloud ID 서비스에 필요�
 keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '730'
+source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
+workflow-type: tm+mt
+source-wordcount: '731'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud ID 서비스 요구 사항 {#requirements-for-the-experience-cloud-id-service}
+# Experience Cloud Identity 서비스 요구 사항 {#requirements-for-the-experience-cloud-id-service}
 
 이 섹션을 검토하여 Experience Cloud ID 서비스에 필요한 올바른 솔루션, 서비스 및 쿠키 버전을 사용 중인지 확인하십시오.
 
@@ -79,7 +79,7 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
 
 ## Analytics 요구 사항: RDC(지역 데이터 수집) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
-모든 추적 서버가 RDC로 변환되었으므로 Analytics 추적 서버를 변경할 필요가 없습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/admin/data-collection/regional-data-collection/regional-data-collection.html?lang=ko-KR)
+모든 추적 서버가 RDC로 변환되었으므로 Analytics 추적 서버를 변경할 필요가 없습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR)
 
 ## 코드 라이브러리 및 버전 요구 사항 {#section-ad7542a4317d430fa79fc6b095beb84d}
 
