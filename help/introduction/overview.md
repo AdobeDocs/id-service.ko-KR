@@ -3,7 +3,7 @@ description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역�
 title: Experience Cloud ID 서비스 개요
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
 source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
