@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
 ht-degree: 100%
 
@@ -72,12 +72,12 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>활성화되지 않음</b> </p> </td> 
-   <td colname="col2"> <p> 회사에 Experience Cloud가 활성화되지 않은 경우 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=ko-KR" format="https" scope="external">핵심 서비스 - 솔루션 활성화</a>를 참조하여 시작하십시오. </p> </td> 
+   <td colname="col2"> <p> 귀사에서 Experience Cloud를 활성화하지 않은 경우 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=ko-KR" format="https" scope="external">핵심 서비스 - 솔루션 활성화</a>를 참조하여 시작하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Analytics 요구 사항: RDC(지역 데이터 수집) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
+## Analytics 요구 사항: 지역 데이터 수집 (RDC) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
 모든 추적 서버가 RDC로 변환되었으므로 Analytics 추적 서버를 변경할 필요가 없습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR)
 
