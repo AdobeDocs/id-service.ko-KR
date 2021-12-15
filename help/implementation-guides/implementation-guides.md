@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 구현 안내서
 uuid: null
 exl-id: af6da32b-72d9-463d-a933-fd1fe960d4d8
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '190'
+source-git-commit: 8b8615b65dd3ea0427ba585a6707f059148d05e2
+workflow-type: tm+mt
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,6 @@ Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 �
 
 * [구현 방법](implementation-methods.md)
 * [Experience Platform Launch로 구현](ecid-implement-with-launch.md)
-* [Dynamic Tag Management를 사용하여 구현](standard.md)
 * [Analytics용 Experience Cloud ID 서비스 구현](setup-analytics.md)
 * [Target용 Experience Cloud ID 서비스 구현](setup-target.md)
 * [Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현](setup-aam-analytics.md)

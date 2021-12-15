@@ -3,9 +3,9 @@ description: 이 지침은 Target, Analytics 및 ID 서비스에 대해 혼합�
 keywords: ID 서비스
 title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '829'
+source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+workflow-type: tm+mt
+source-wordcount: '820'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ A4T(및 기타 고객)는 다음과 같은 작업이 필요한 경우 이 버전
 
 서버측 코드 패키지를 다운로드하고 현재 빌드에 포함된 인터페이스를 검토하려면 [ID 서비스 NPM 저장소](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)를 참조하십시오.
 
-## 워크플로 {#section-56b01017922046ed96536404239a272b}
+## 워크플로우 {#section-56b01017922046ed96536404239a272b}
 
 아래 다이어그램과 섹션에서는 서버측 구현 프로세스의 각 단계에서 어떤 상황이 발생하고 무엇을 구성해야 하는지 설명합니다.
 
@@ -164,8 +164,6 @@ Response.send("
 구성된 설정은 다음과 같습니다.
 
 ![](assets/server_side_dtm.png)
-
-See also, [DTM에 대한 Experience Cloud ID 서비스 설정](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59)도 참조하십시오.
 
 **DTM을 사용하지 않고 서버 상태 가져오기**
 

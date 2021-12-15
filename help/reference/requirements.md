@@ -3,10 +3,10 @@ description: 이 섹션을 검토하여 Experience Cloud ID 서비스에 필요�
 keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
-workflow-type: ht
-source-wordcount: '731'
-ht-degree: 100%
+source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
 
@@ -18,33 +18,13 @@ ht-degree: 100%
 
 지원되는 성공적인 구현은 코드 요구 사항을 충족하며 [!DNL Adobe] 도움말에 표시된 지침을 따릅니다. 지원되지 않는 구현으로 인해 예기치 않은 결과가 발생하고, 고객 지원 센터 및 엔지니어링 팀이 ID 서비스의 문제를 해결하거나 해결하는 데 도움을 주지 못지 못할 수 있습니다.
 
-<table id="table_2216C44AA66248DCAA13BF64BDF2D88A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 구현 유형 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> 표준</a> </p> </td> 
-   <td colname="col2"> <p>DTM(Dynamic Tag Management)을 사용한 표준 구현의 경우, 다음을 수행해야 합니다. </p> 
-    <ul id="ul_59CDE179566844B494F3068FF6333809"> 
-     <li id="li_CCCB6AFC08EE405F94C42216D3CE50AC"> 페이지의 <span class="codeph">&lt;head&gt;</span> 섹션에 포함 헤드 코드를 넣습니다. </li> 
-     <li id="li_13962F2CB1764091A84863BE499675A2"><span class="codeph">&lt;/body&gt;</span> 태그를 닫기 전에 포함 바닥글 코드를 넣습니다. </li> 
-    </ul> <p>다음과 같은 경우에는 표준 구현이 지원되지 않습니다. </p> 
-    <ul id="ul_3B62559317ED4C7AA548C3B8DBA281F7"> 
-     <li id="li_1F16C6D412944197BEA56BC24730782C"> 이러한 DTM 포함 코드를 마크업 및/또는 페이지 코드의 다른 곳에 배치합니다. </li> 
-     <li id="li_05615C01F3A947BBBD41046E68377224"> 비동기 메서드, 호출/콜백 메서드 또는 래퍼를 사용하여 DTM 코드를 추가, 추가 또는 로드할 수 있습니다. </li> 
-     <li id="li_B2137DFF627B473FA876580449026D2B">동일한 페이지에 임베드 코드의 여러 인스턴스를 포함할 수 있습니다. </li> 
-    </ul> <p><a href="https://experienceleague.adobe.com/docs/dtm/using/client-side/deployment.html?lang=ko-KR" format="https" scope="external">포함 코드 및 호스트 옵션</a>도 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../implementation-guides/implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113" format="dita" scope="local"> 비표준 구현 </a> </p> </td> 
-   <td colname="col2"> <p>비표준 또는 수동 구현의 경우 이 안내서의 절차에 따라 ID 서비스를 설정해야 합니다. 위의 DTM 지침과 마찬가지로, 부적절한 코드 배치 및 로딩으로 인해 지원되지 않는 구현이 수행될 수 있습니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### 표준 구현
+
+자세한 내용은 [Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 을 참조하십시오.
+
+### 비표준 구현
+
+비표준 또는 수동 구현의 경우 이 안내서의 절차에 따라 ID 서비스를 설정해야 합니다. 위의 DTM 지침과 마찬가지로, 부적절한 코드 배치 및 로딩으로 인해 지원되지 않는 구현이 수행될 수 있습니다.
 
 ## Experience Cloud 요구 사항: 조직 ID {#section-a02f537129a64ffbb690d5738d360c26}
 

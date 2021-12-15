@@ -3,9 +3,9 @@ description: Adobe Media Optimizer 및 ID 서비스를 비롯한 Experience Clou
 keywords: ID 서비스
 title: ID 동기화 및 일치율 이해하기
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '805'
+source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+workflow-type: tm+mt
+source-wordcount: '785'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ID 동기화는 ID 서비스가 할당한 ID와 고객이 사이트 방문자에
 
 **높은 일치율 보장**
 
-높은 일치율을 만들려면 ID 서비스를 제대로 설정하는 것이 중요합니다([표준 구현 안내서](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445) 참조). 적절한 구현은 ID 서비스가 ID가 작동하고 활성화된 데이터 파트너와 동기화하는 데 필요한 쿠키를 설정할 수 있기 때문에 높은 일치 속도를 보장하는 데 도움이 됩니다. 하지만 느린 인터넷 연결, 모바일 디바이스 또는 무선 네트워크에서 데이터 수집 등과 같은 요소는 ID 서비스가 ID를 얼마나 잘 수집, 동기화 및 일치하는지에 영향을 줄 수 있습니다. 이러한 클라이언트측 변수는 ID 서비스나 [!DNL Adobe]의 제어 범위를 벗어납니다.
+적절한 구현은 ID 서비스가 ID가 작동하고 활성화된 데이터 파트너와 동기화하는 데 필요한 쿠키를 설정할 수 있기 때문에 높은 일치 속도를 보장하는 데 도움이 됩니다. 하지만 느린 인터넷 연결, 모바일 디바이스 또는 무선 네트워크에서 데이터 수집 등과 같은 요소는 ID 서비스가 ID를 얼마나 잘 수집, 동기화 및 일치하는지에 영향을 줄 수 있습니다. 이러한 클라이언트측 변수는 ID 서비스나 [!DNL Adobe]의 제어 범위를 벗어납니다.
 
 ## ID 동기화 프로세스 설명 {#section-a541a85cbbc74f5682824b1a2ee2a657}
 

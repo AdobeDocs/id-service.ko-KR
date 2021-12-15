@@ -5,11 +5,10 @@ user-guide-title: Experience Cloud Identity 서비스 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: ht
-source-git-commit: 01d50f9def8916b45fac846de235363836ba0429
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +24,8 @@ ht-degree: 100%
    + [동기화 및 일치율 이해하기](introduction/match-rates.md)
 + 구현 {#implementation}
    + [구현 방법](implementation-guides/implementation-methods.md)
-   + [구현 가이드](implementation-guides/implementation-guides.md)
-   + [Experience Platform Launch로 구현](implementation-guides/ecid-implement-with-launch.md)
-   + [DTM을 사용한 구현](implementation-guides/standard.md)
+   + [구현 안내서](implementation-guides/implementation-guides.md)
+   + [Experience Platform 태그로 구현](implementation-guides/ecid-implement-with-launch.md)
    + [Analytics 구현](implementation-guides/setup-analytics.md)
    + [Target 구현](implementation-guides/setup-target.md)
    + [Analytics 및 Audience Manager 구현](implementation-guides/setup-aam-analytics.md)
@@ -69,9 +67,9 @@ ht-degree: 100%
       + [useCORSOnly](library/function-vars/use-cors-only.md)
       + [whitelistParentDomain 및 whitelistIframeDomains](library/function-vars/whitelistdomain.md)
    + 메서드 {#methods}
-      + [메서드](library/get-set/get-set.md)
+      + [메서드에서 사용할 수 있습니다](library/get-set/get-set.md)
       + [appendSupplementalDataIDTo](library/get-set/appendsupplementaldataidto.md)
-      + [appendVisitorIDsTo(도메인 간 추적)](library/get-set/appendvisitorid.md)
+      + [appendVisitorIDsTo (도메인 간 추적)](library/get-set/appendvisitorid.md)
       + [callTimeOut 메서드](library/get-set/timeout-functions.md)
       + [URL 또는 데이터 소스별 ID 동기화](library/get-set/idsync.md)
       + [getInstance](library/get-set/getinstance.md)
