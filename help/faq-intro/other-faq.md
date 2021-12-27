@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: 기타 Experience Cloud 솔루션에 대한 FAQ
 exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
