@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ### 표준 구현
 
-자세한 내용은 [Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 을 참조하십시오.
+표준 구현에 대한 [Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
 
 ### 비표준 구현
 
