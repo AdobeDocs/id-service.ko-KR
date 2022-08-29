@@ -3,14 +3,14 @@ description: 2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데�
 keywords: ID 서비스
 title: 2017 릴리스 정보
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '744'
+source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
+workflow-type: tm+mt
+source-wordcount: '700'
 ht-degree: 100%
 
 ---
 
-# 2017 릴리스 정보 {#release-notes}
+# 2017 릴리스 노트 {#release-notes}
 
 2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
@@ -52,28 +52,28 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 * 이제 ID 서비스가 이벤트 호출 응답의 지역 ID가 변경되면 ID 동기화를 다시 실행합니다.
 * 새 설명서 [콘텐츠 보안 정책 및 Experience Cloud ID 서비스](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)가 추가되었습니다. 이 설명서는 ID 서비스에서 사용하는 Adobe 도메인에 대한 호출을 허용 목록에 작성하는 방법을 설명합니다.
 
-## 버전 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
+<!-- ## Version 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
-2017월 8월
+August, 2017
 
 <table id="table_D9623D34F4444B038F7835750932C8AA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 기능 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> isCoopSafe</span> </p> </td> 
-   <td colname="col2"> <p>ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다. <a href="../library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local">isCoopSafe</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op. See <a href="../library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**개정된 설명서**
+**Revised Documentation**
 
-다른 [솔루션에 대해 별도의 ](/help/faq-intro/faq-intro.md)FAQ[!DNL Experience Cloud]를 포함하도록 FAQ를 업데이트 및 수정했습니다.
+Updated and revised the [FAQs](/help/faq-intro/faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions. -->
 
 ## 버전 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 

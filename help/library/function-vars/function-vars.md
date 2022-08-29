@@ -3,10 +3,10 @@ description: 이러한 속성을 Visitor.getInstance 정적 메서드에 전달�
 keywords: 조직 ID;ID 서비스
 title: 구성
 exl-id: a369f624-d263-4287-bb7e-b89d584fa245
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '86'
-ht-degree: 100%
+source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,6 @@ ht-degree: 100%
 + [idSyncAttachIframeOnWindowLoad](idsyncattachiframeonwindowload.md)
 + [idSyncContainerID](idsyncontainerid.md)
 + [idSyncSSLUseAkamai](idsyncssluseakamai.md)
-+ [isCoopSafe](coopsafe.md)
 + [loadTimeout](loadtimeout.md)
 + [overwriteCrossDomainMCIDAndAID](overwrite-visitor-id.md)
 + [resetBeforeVersion](resetbeforeversion.md)

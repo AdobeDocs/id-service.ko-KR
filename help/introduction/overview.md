@@ -2,10 +2,10 @@
 description: Adobe Experience Cloud에서 Experience Cloud ID 서비스의 역할입니다.
 title: Experience Cloud ID 서비스 개요
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
-source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
-workflow-type: ht
-source-wordcount: '543'
-ht-degree: 100%
+source-git-commit: 953a4932e581a7a0019bec354201be4bc39f8b6b
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 또한 ID 서비스는 다른 솔루션별 ID(예: Analytics AID)를 대체할 수 있습니다. 그리고 [고객 ID 및 인증 상태](/help/reference/authenticated-state.md) 기능을 통해 ID 서비스를 사용하면 자신의 고객 ID를 Experience Cloud에 전달할 수 있습니다. 그러나 ID 서비스는 이미 구독한 솔루션에서만 작동한다는 점을 명심하십시오. 등록하지 않은 경우 다른 제품에 대한 액세스를 제공하지 않습니다.
 
-나아가 ID 서비스는 현재 및 미래의 수 많은 Experience Cloud 기능, 개선 사항 및 서비스의 필수 구성 요소입니다. 현재 ID 서비스는 [Analytics](http://www.adobe.com/kr/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/kr/marketing-cloud/data-management-platform.html) 및 [Target](http://www.adobe.com/kr/marketing-cloud/testing-targeting.html)을 지원합니다. Adobe Experience Cloud 디바이스 Co-op에 참여하려는 경우에도 ID 서비스가 필요합니다. ID 서비스를 구현하지 않았다면 지금이 바로 마이그레이션 전략을 시작할 적기입니다.
+나아가 ID 서비스는 현재 및 미래의 수 많은 Experience Cloud 기능, 개선 사항 및 서비스의 필수 구성 요소입니다. 현재 ID 서비스는 [Analytics](http://www.adobe.com/kr/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/kr/marketing-cloud/data-management-platform.html) 및 [Target](http://www.adobe.com/kr/marketing-cloud/testing-targeting.html)을 지원합니다. ID 서비스를 구현하지 않았다면 지금이 바로 마이그레이션 전략을 시작할 적기입니다.
 
 ## 기능 요약
 
@@ -34,7 +34,7 @@ ID 서비스를 요약하자면 다음과 같습니다.
 
 * 프로필과 ID를 연결하는 데 사용할 수 있는 일반 키 또는 ID를 만듭니다.
 * 여러 솔루션에서 디바이스를 고유하게 식별합니다.
-* 동일한 도메인에서 추적할 수 있도록 고객 도메인에 자사 쿠키를 설정합니다. 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](./cookies.md)에 대한 문서를 참조하십시오.
+* 동일한 도메인에서 추적을 보장하도록 고객의 도메인에 자사 쿠키를 설정합니다. 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](./cookies.md)에 대한 문서를 참조하십시오.
 * Experience Cloud 고객 및 파트너로부터 별칭 및 ID 매핑을 받습니다.
 * Experience Cloud에서 ID 동기화를 관리합니다.
 * 광고 기술 에코 시스템에서 다른 서드파티와 ID 동기화를 지원합니다.
