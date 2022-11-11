@@ -3,22 +3,20 @@ description: ID 요청 및 응답 프로세스에 대한 개요입니다. 이러
 keywords: ID 서비스
 title: Experience Cloud ID 서비스에서 ID를 요청하고 설정하는 방법
 exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '762'
+source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
+workflow-type: tm+mt
+source-wordcount: '746'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud ID 서비스에서 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 
 >[!NOTE]
 >
 >Experience Cloud ID 서비스에서 방문자 ID를 만드는 방법을 잘 모를 경우 잠시 [Experience Cloud](../introduction/cookies.md)를 검토하십시오.
-
-**팁:** [도메인 간 추적에 대한 ID 서비스 비디오](https://helpx.adobe.com/kr/marketing-cloud-core/kb/MCID/CrossDomain.html)를 참조하십시오.
 
 ## Experience Cloud ID 요청 {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 

@@ -2,10 +2,10 @@
 description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 Audience Manager 플러그인과 CMP(동의 관리 플랫폼)를 연결합니다.
 title: IAB 프레임워크에서 옵트인 서비스 사용
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ CMP(동의 관리 플랫폼)을 옵트인의 IAB 투명도 및 TCF(Transparency 
 
 옵트인을 IAB TCF와 통합하려면 다음을 완료해야 합니다.
 
-1. IAB를 지원하고 [IAB 공급업체로 등록된](https://vendorlist.consensu.org/vendorlist.json) CMP를 구현하거나, IAB TCF 사양을 구현하는 내부 CMP를 개발하고 IAB TCF에 CMP로 등록합니다.
+1. IAB를 지원하고 IAB 공급업체로 등록된 CMP를 구현하거나, IAB TCF 사양을 구현하는 내부 CMP를 개발하고 IAB TCF에 CMP로 등록합니다.
 1. Adobe JS를 로드하기 전에 `__tcfapi`를 정의/로드합니다.
 
 자세한 내용은[Interactive Advertising Bureau 문서](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/TCF-Implementation-Guidelines.md)를 참조하십시오.

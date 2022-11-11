@@ -3,8 +3,8 @@ description: '일부 구현에서 방문자 ID가 JavaScript에서 서버로 전
 keywords: ID 서비스
 title: JavaScript와 혼합된 서버측 구현
 exl-id: 1986ee11-2021-4f34-bb56-6eaa87b6dd6d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
+workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Analytics 방문자 ID(설정된 경우)를 `<visitorID>` 요소에 포함합니
 
 Experience Cloud 방문자 ID를 `<marketingCloudVisitorID>` 요소에 포함합니다.
 
-[지원되는 XML 태그](https://www.adobe.io)를 참조하십시오.
+[지원되는 XML 태그](https://developer.adobe.com/)를 참조하십시오.
 
 ## Java용 AppMeasurement {#section-d664b94934924d048300d9c2b6560085}
 
