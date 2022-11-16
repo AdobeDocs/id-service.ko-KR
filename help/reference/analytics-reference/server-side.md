@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: JavaScript와 혼합된 서버측 구현
 exl-id: 1986ee11-2021-4f34-bb56-6eaa87b6dd6d
 source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Experience Cloud 방문자 ID와 Analytics 방문자 ID를 모두 확인하고 �
 
 >[!IMPORTANT]
 >
->Java용 AppMeasurement는 현재 Experience Cloud ID 서비스를 지원하지 않습니다.
+>Java용 AppMeasurement는 현재 Experience Cloud Identity Service를 지원하지 않습니다.
 
 ## 데이터 삽입 API {#section-955ce7664a4646d38b3005cb2df40baf}
 
@@ -32,4 +32,4 @@ Experience Cloud 방문자 ID를 `<marketingCloudVisitorID>` 요소에 포함합
 
 ## Java용 AppMeasurement {#section-d664b94934924d048300d9c2b6560085}
 
-Experience Cloud ID 서비스는 현재 Java용 AppMeasurement에서 지원하지 않습니다.
+Experience Cloud Identity Service는 현재 Java용 AppMeasurement에서 지원하지 않습니다.
