@@ -1,16 +1,16 @@
 ---
 description: 이 기능을 사용하면 브라우저에서 서드파티 쿠키를 차단할 때 도메인에서 방문자의 Experience Cloud ID를 공유할 수 있습니다. 이 기능을 사용하기 위해 ID 서비스를 구현했을 것이며, 소스 및 대상 도메인을 소유해야 합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 keywords: ID 서비스
-title: appendVisitorIDsTo(도메인 간 추적)
+title: appendVisitorIDsTo (도메인 간 추적)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
 source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
 ---
 
-# appendVisitorIDsTo(도메인 간 추적){#appendvisitoridsto-cross-domain-tracking}
+# appendVisitorIDsTo (도메인 간 추적){#appendvisitoridsto-cross-domain-tracking}
 
 이 기능을 사용하면 브라우저에서 서드파티 쿠키를 차단할 때 도메인에서 방문자의 Experience Cloud ID를 공유할 수 있습니다. 이 기능을 사용하기 위해 ID 서비스를 구현했을 것이며, 소스 및 대상 도메인을 소유해야 합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 브라우저에서 서드파티 쿠키를 차단하는 경우 도메인에서 방문자 추적 {#section-7251d88befd440b4b79520e33c5aa44a}
 
-ID 서비스는 사용자가 사이트를 방문할 때 브라우저에 자사 및 서드파티 쿠키를 기록합니다([쿠키 및 Experience Cloud ID 서비스](../../introduction/cookies.md) 참조). 자사 쿠키에는 해당 방문자에 대한 고유 ID인 MID가 포함되어 있습니다. 서드파티 쿠키에는 ID 서비스가 MID를 생성하는 데 사용하는 다른 ID가 포함되어 있습니다. 브라우저가 이 서드파티 쿠키를 차단하면 ID 서비스는 다음을 수행할 수 없습니다.
+ID 서비스는 사용자가 사이트를 방문할 때 브라우저에 자사 및 서드파티 쿠키를 기록합니다([쿠키 및 Experience Cloud Identity Service](../../introduction/cookies.md) 참조). 자사 쿠키에는 해당 방문자에 대한 고유 ID인 MID가 포함되어 있습니다. 서드파티 쿠키에는 ID 서비스가 MID를 생성하는 데 사용하는 다른 ID가 포함되어 있습니다. 브라우저가 이 서드파티 쿠키를 차단하면 ID 서비스는 다음과 같은 작업을 수행할 수 없습니다.
 
 * 다른 도메인으로 이동할 때 해당 사이트 방문자의 고유 ID를 다시 생성합니다.
 * 조직이 소유한 여러 도메인에서 방문자를 추적합니다.
