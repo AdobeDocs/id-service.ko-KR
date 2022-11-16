@@ -1,22 +1,22 @@
 ---
 description: ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 keywords: ID 서비스
-title: Experience Cloud ID 서비스에서 ID를 요청하고 설정하는 방법
+title: Experience Cloud Identity Service에서 ID를 요청하고 설정하는 방법
 exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
 source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud Identity 서비스에서 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# Experience Cloud Identity Service에서 ID를 요청하고 설정하는 방법{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에서는 개별 사이트, 여러 다른 사이트 및 자체 조직 ID가 있는 다른 Experience Cloud 고객이 관리하는 사이트에 대한 ID 지정을 다룹니다.
 
 >[!NOTE]
 >
->Experience Cloud ID 서비스에서 방문자 ID를 만드는 방법을 잘 모를 경우 잠시 [Experience Cloud](../introduction/cookies.md)를 검토하십시오.
+>Experience Cloud Identity Service에서 방문자 ID를 만드는 방법을 잘 모를 경우 잠시 [Experience Cloud](../introduction/cookies.md)를 검토하십시오.
 
 ## Experience Cloud ID 요청 {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 
@@ -35,7 +35,7 @@ ID 요청 및 응답 프로세스에 대한 개요입니다. 이러한 예제에
 
 **첫 번째 응답**
 
-응답에서 DCS는 [!DNL Experience Cloud] ID(MID) 및 demdex 쿠키를 반환합니다. ID 서비스 코드는 MID 값을 AMCV 쿠키에 씁니다. 예를 들어, DCS가 1234의 MID 값을 반환한다고 가정해 보겠습니다. AMCV 쿠키가 `mid|1234`로 저장되고 자사의 피자 도메인에 설정됩니다. demdex 쿠키에도 고유한 ID(예: 5678)가 포함되어 있습니다. 이 쿠키는 피자 도메인과 별개인 서드파티 demdex.net 도메인에 설정됩니다.
+응답에서 DCS는 [!DNL Experience Cloud] ID(MID) 및 demdex 쿠키를 반환합니다. ID 서비스 코드는 MID 값을 AMCV 쿠키에 씁니다. 예를 들어 DCS가 1234의 MID 값을 반환한다고 가정해 보겠습니다. AMCV 쿠키가 `mid|1234`로 저장되고 자사의 피자 도메인에 설정됩니다. demdex 쿠키에도 고유한 ID(예: 5678)가 포함되어 있습니다. 이 쿠키는 피자 도메인과 별개인 서드파티 demdex.net 도메인에 설정됩니다.
 
 ![](assets/response1.png)
 
