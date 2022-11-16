@@ -3,9 +3,9 @@ description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 
 title: IAB 프레임워크에서 옵트인 서비스 사용
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
 source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,24 +17,24 @@ ht-degree: 89%
 
 CMP(동의 관리 플랫폼)을 옵트인의 IAB 투명도 및 TCF(Transparency and Consent Framework) 플러그인과 연결합니다.
 
-[IAB TCF](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)를 사용하는 Adobe Audience Manager 고객은 CMP(동의 관리 플랫폼)을 옵트인의 IAB TCF 플러그인과 연결할 수 있습니다. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 포함된 기능입니다. 옵트인의 IAB TCF 플러그인이 ECID 라이브러리로 구현되면 IAB TCF를 지원하는 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
+[IAB TCF](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)를 사용하는 Adobe Audience Manager 고객은 CMP(동의 관리 플랫폼)을 옵트인의 IAB TCF 플러그인과 연결할 수 있습니다. 옵트인은 CMP 내에 설정된 방문자 환경 설정에 따라 개별 Adobe 솔루션 라이브러리를 비활성화할 수 있는 ECID JavaScript 라이브러리 내에 임베드된 기능입니다. 옵트인의 IAB TCF 플러그인이 ECID 라이브러리로 구현되면 IAB TCF를 지원하는 CMP의 방문자 환경 설정이 자동으로 옵트인에 매핑됩니다. 이러한 환경 설정은 동의를 받으면 Audience Manager 기반 라이브러리(DIL 및 ECID) 및 연관된 호출을 활성화합니다.
 
 ## IAB를 지원하는 CMP 구현 {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
-옵트인을 IAB TCF와 통합하려면 다음을 완료해야 합니다.
+옵트인을 IAB TCF와 통합하려면 다음 작업을 완료해야 합니다.
 
-1. IAB를 지원하고 IAB 공급업체로 등록된 CMP를 구현하거나, IAB TCF 사양을 구현하는 내부 CMP를 개발하고 IAB TCF에 CMP로 등록합니다.
+1. IAB를 지원하고 IAB 공급업체로 등록된 CMP를 구현하거나 IAB TCF 사양을 구현하는 내부 CMP를 개발하고 IAB TCF에 CMP로 등록합니다.
 1. Adobe JS를 로드하기 전에 `__tcfapi`를 정의/로드합니다.
 
 자세한 내용은[Interactive Advertising Bureau 문서](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/TCF-Implementation-Guidelines.md)를 참조하십시오.
 
-## ECID Javascript 라이브러리 내에서 옵트인의 IAB TCF 플러그인 활성화 {#section-77bf1b9ed67241a59e56c21ab752e82f}
+## ECID JavaScript 라이브러리 내에서 옵트인의 IAB TCF 플러그인 활성화 {#section-77bf1b9ed67241a59e56c21ab752e82f}
 
 >[!NOTE]
 >
 >옵트인은 ECID 4.0+에서만 사용할 수 있습니다.
 
-Adobe Experience Platform Launch를 사용하여 사이트에 대해 옵트인의 IAB TCF 플러그인을 구현합니다. 옵트인용 IAB를 수동으로 활성화하는 경우, 방문자 개체 내에서 다음 설정이 true로 설정되어 있는지 확인하십시오.
+Adobe Experience Platform Launch를 사용하여 사이트에 대해 옵트인의 IAB TCF 플러그인을 구현합니다. 옵트인용 IAB를 수동으로 활성화하는 경우, 방문자 오브젝트 내에서 다음 설정이 true로 설정되어 있는지 확인하십시오.
 
 ```javascript
 Visitor.getInstance("YOUR_ORG_ID", {  
