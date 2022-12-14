@@ -3,12 +3,12 @@ cloud: platform-cloud
 audience: end-user
 user-guide-title: Experience Cloud Identity 서비스 도움말
 breadcrumb-title: Identity 서비스 안내서
-user-guide-description: ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Target 및 기타 Experience Cloud 솔루션이나 기능과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
+user-guide-description: Adobe Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. Experience Cloud 솔루션 및 서비스의 기존 ID 생성 코드를 대체하는 데 도움이 됩니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-source-git-commit: 953a4932e581a7a0019bec354201be4bc39f8b6b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: f7c25f5ebd0690c56c081422949eb34f1f277ae1
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 90%
 
 ---
 
