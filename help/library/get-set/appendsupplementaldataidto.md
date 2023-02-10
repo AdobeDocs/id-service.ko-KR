@@ -1,18 +1,18 @@
 ---
-description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개 변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
+description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
 keywords: ID 서비스
 title: appendSupplementalDataIDTo를 참조하십시오
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
 source-git-commit: 5710539b45a81394061cd4af2ef3edc27b49092e
-workflow-type: tm+mt
-source-wordcount: '348'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
 
 # appendSupplementalDataIDTo를 참조하십시오{#appendsupplementaldataidto}
 
-이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개 변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
+이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
 
 내용:
 
@@ -52,7 +52,7 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID));
 
 [sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) 구성을 사용하면 `appendSupplementalDataIDTo` 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID 만료 간격을 변경할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 ID 서비스 코드가 30 초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
 
-기본 SDID 시간 제한을 변경해야 하는 경우 다음 구문을 사용하여 `sdidParamExpiry`을 `Visitor.getInstance` 함수에 추가합니다.
+기본 SDID 시간 제한을 변경해야 하는 경우 다음 구문을 사용하여 `sdidParamExpiry`를 `Visitor.getInstance` 함수에 추가합니다.
 
 **구문:** ` sdidParamExpiry: *`시간(초)`*`
 
