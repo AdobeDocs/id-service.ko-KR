@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: appendVisitorIDsTo (도메인 간 추적)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
 source-git-commit: 7d37d9ca44db9d7a8d3b32d9a5d5a47d3fa137ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ID 서비스는 사용자가 사이트를 방문할 때 브라우저에 자사 �
 
 >[!IMPORTANT]
 >
->appendVisitorIDsTo를 통해 URL로 전달된 값을 선택하려면 다음을 수행하십시오. [overwriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) 변수를 true로 설정해야 합니다.
+>appendVisitorsIDsTo를 통해 URL에 전달된 값을 선택하려면 [ovewriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) 변수를 true로 설정해야 합니다.
 
 다음 예제를 통해 ` Visitor.appendVisitorIDsTo( *`url`*)`을 시작할 수 있습니다. 제대로 구현된 경우 JavaScript 코드가 다음 예제와 유사할 수 있습니다.
 
