@@ -3,14 +3,14 @@ description: 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 dem
 keywords: Playstation;ID 서비스
 title: 쿠키 및 Experience Cloud ID 서비스
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '932'
-ht-degree: 100%
+source-git-commit: 33e467ade389144423abf14539aad8a5a5f69d21
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 96%
 
 ---
 
-# 쿠키 및 Experience Cloud ID 서비스{#cookies-and-the-experience-cloud-id-service}
+# 쿠키 및 Experience Cloud Identity 서비스{#cookies-and-the-experience-cloud-id-service}
 
 이 ID 서비스는 조직 ID, Experience Cloud AMCV 쿠키 및 demdex 쿠키를 사용하여 사이트 방문자에 대한 고유하고 영구적인 식별자를 생성하여 저장합니다. 이러한 쿠키를 사용하면 ID 서비스에서 다른 도메인의 방문자를 추적하고 다른 Experience Cloud 솔루션 간에 데이터 공유를 사용할 수 있습니다.
 
@@ -113,7 +113,9 @@ AMCVS 쿠키는 브라우저의 자사 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-관련 정보는 [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)를 참조하십시오.
+Demdex 관련 공개 사항에 대한 자세한 내용은 [Audience Manager 장치 스토리지 공개](https://aam-iab-tcf-vendor.s3.amazonaws.com/aam_device_storage_disclosures.json).
+
+관련 정보는 의 설명서를 참조하십시오. [demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR).
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
