@@ -4,9 +4,9 @@ keywords: Playstation;ID 서비스
 title: 쿠키 및 Experience Cloud ID 서비스
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
 source-git-commit: 33e467ade389144423abf14539aad8a5a5f69d21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -113,9 +113,9 @@ AMCVS 쿠키는 브라우저의 자사 도메인에 설정됩니다. 즉, 사용
  </tbody> 
 </table>
 
-Demdex 관련 공개 사항에 대한 자세한 내용은 [Audience Manager 장치 스토리지 공개](https://aam-iab-tcf-vendor.s3.amazonaws.com/aam_device_storage_disclosures.json).
+Demdex와 관련된 공개에 대한 정보는 [Audience Manager 디바이스 스토리지 공개](https://aam-iab-tcf-vendor.s3.amazonaws.com/aam_device_storage_disclosures.json)를 참조하십시오.
 
-관련 정보는 의 설명서를 참조하십시오. [demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR).
+관련 정보는 설명서의 [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)를 참조하십시오.
 
 ## Experience Cloud ID 생성 {#section-15f69c0bac394b4b9966a23fbc586d17}
 
