@@ -2,10 +2,10 @@
 description: Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용되는 단일 참조 지점으로 옵트인 서비스를 구현하여 방문자의 디바이스에 쿠키를 작성할지 여부를 결정합니다.
 title: 옵트인 서비스 설정
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
+workflow-type: tm+mt
+source-wordcount: '911'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용�
 
 옵트인 서비스를 사용하면 방문자가 Adobe 솔루션에 한꺼번에 옵트인할 수 있는지 여부 또는 각 솔루션의 권한을 얻기 위해 솔루션을 순서대로 표시할지 여부를 지정할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색하여 관련된 동의 호출에 응답할 수 있습니다.
 
-## 전제 조건 {#section-c39246f45e514c8ea9fdbe6f7ffa3ad0}
+## 사전 요구 사항 {#section-c39246f45e514c8ea9fdbe6f7ffa3ad0}
 
 1. ECID 버전 4.0.
 
@@ -41,7 +41,7 @@ Experience Cloud 솔루션(옵트인에서 카테고리라고도 함)에 사용�
 
 1. 귀사의 개인정보 보호 요구 사항은 GDPR 준수를 유지하기 위해 선택한 방법에 따라 특정됩니다. 귀사의 개인정보 보호 팀이 동의 전 상태에서 사용할 수 있는 라이브러리를 알고 있어야 합니다.
 
-[Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)를 사용하는 경우 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)을 활용하여 옵트인 서비스를 구성하십시오.
+를 사용하는 경우 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하여 [옵트인 확장](../../implementation-guides/opt-in-service/launch.md) 옵트인 서비스를 구성하려면 다음을 수행하십시오.
 
 ## 옵트인 카테고리 {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 

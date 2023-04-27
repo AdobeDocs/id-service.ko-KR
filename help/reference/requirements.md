@@ -3,9 +3,9 @@ description: 이 섹션을 검토하여 Experience Cloud ID 서비스에 필요�
 keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: ht
-source-wordcount: '649'
+source-git-commit: 159b37e360b586bbada13e34793009e3067de668
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ID 서비스를 사용하려면 회사에 [!DNL Experience Cloud]가 활성화�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>확실하지 않음</b> </p> </td> 
-   <td colname="col2"> <p> 회사의 <span class="keyword">Experience Cloud</span> 상태를 잘 모를 경우 회사 구성원이 Adobe ID를 사용하여 <a href="https://experiencecloud.adobe.com" format="https" scope="external">marketing.adobe.com</a>에 로그인할 수 있는지를 Adobe 계정 관리자에게 문의하십시오. 로그인할 수 있으면 해당 기능이 사용 가능하게 설정되어 있고 관리자가 사용자의 조직 ID를 볼 수 있는 것입니다. 조직 ID를 찾으려면 <a href="https://docs.adobe.com/help/ko-KR/core-services/interface/experience-cloud.html" format="https" scope="external">Experience Cloud 관리</a>에서 "관리 페이지" 섹션을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 회사의 <span class="keyword">Experience Cloud</span> 상태를 잘 모를 경우 회사 구성원이 Adobe ID를 사용하여 <a href="https://experiencecloud.adobe.com" format="https" scope="external">marketing.adobe.com</a>에 로그인할 수 있는지를 Adobe 계정 관리자에게 문의하십시오. 로그인할 수 있으면 해당 기능이 사용 가능하게 설정되어 있고 관리자가 사용자의 조직 ID를 볼 수 있는 것입니다. 조직 ID를 찾으려면 <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en" format="https" scope="external">Experience Cloud 관리</a>에서 "관리 페이지" 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>활성화되지 않음</b> </p> </td> 

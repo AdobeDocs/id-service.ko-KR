@@ -3,10 +3,10 @@ description: 이 기능을 사용하면 브라우저에서 서드파티 쿠키�
 keywords: ID 서비스
 title: appendVisitorIDsTo (도메인 간 추적)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
-source-git-commit: 70e0ff00be9037b475084a906405180107f2514c
+source-git-commit: c035f0af76f70322e4d79ed842502b26c3f155ac
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 96%
+source-wordcount: '367'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,11 @@ ID 서비스는 사용자가 사이트를 방문할 때 브라우저에 자사 �
 
 ## 방문자 ID 코드 샘플 추가 {#section-62d55f7f986542b0b9238e483d50d7b0}
 
-다음 예제 코드는 를 시작하는 데 도움이 될 수 있습니다. `appendVisitorIDsTo` 함수:
+다음 예제 코드를 활용하여 `appendVisitorIDsTo` 함수 사용을 시작해 보십시오.
+
+>[!TIP]
+>
+>이 코드는 Adobe Analytics 확장의 일부인 사용자 지정 코드 편집기 또는 의 맨 위에 배치할 수 있습니다 [AppMeasurement.js](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko-KR).
 
 ```js
 var adbeDomains = ["marketo.com", "figma.com", "workfront.com"];

@@ -3,14 +3,14 @@ description: ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 �
 keywords: ID 서비스
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '606'
+source-git-commit: 159b37e360b586bbada13e34793009e3067de668
+workflow-type: tm+mt
+source-wordcount: '602'
 ht-degree: 100%
 
 ---
 
-# `setCustomerIDs`에 대한 SHA256 해시 지원 {#hashing-support}
+# `setCustomerIDs`에 대한 SHA256 해시 지원  {#hashing-support}
 
 ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 고유한 해시 메서드를 계속 사용할 수 있습니다.
 아래 섹션에 설명된 대로 setCustomerIDs를 사용하여 해시 지원을 구현하는 방법은 두 가지가 있습니다.
@@ -68,9 +68,9 @@ ts=1563299964843
 
 ## Adobe Experience Platform Launch에서 동작 추가 {#add-action-launch}
 
-Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)에서 Platform Launch에 대해 자세히 알아보십시오.
+Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)에서 Platform Launch에 대해 자세히 알아보십시오.
 
-Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://docs.adobe.com/help/ko-KR/launch/using/reference/manage-resources/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
+Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
 
 ![](/help/reference/assets/hashing-support.png)
 

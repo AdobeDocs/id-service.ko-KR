@@ -5,8 +5,8 @@ solution: Experience Cloud
 title: 구현 안내서
 uuid: null
 exl-id: af6da32b-72d9-463d-a933-fd1fe960d4d8
-source-git-commit: 8b8615b65dd3ea0427ba585a6707f059148d05e2
-workflow-type: ht
+source-git-commit: 39eaffe8b166babb186ec9cd4c0da26b53b999ae
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Experience Cloud ID 서비스의 표준 및 비표준 구현에 대한 지침 �
 
 ## 표준 구현
 
-표준 구현에서는 ID 서비스를 시작하고 다른 Experience Cloud 솔루션과 통합하는 데 도움이 되는 [Adobe Exprience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)를 사용합니다. ID 서비스를 구현할 때 Experience Platform Launch를 사용하는 것이 좋습니다.
+표준 구현에서는 ID 서비스를 시작하고 다른 Experience Cloud 솔루션과 통합하는 데 도움이 되는 [Adobe Exprience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용합니다. ID 서비스를 구현할 때 Experience Platform Launch를 사용하는 것이 좋습니다.
 
 ## 구현 리소스
 

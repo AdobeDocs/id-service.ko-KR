@@ -3,8 +3,8 @@ description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이
 keywords: ID 서비스
 title: 2019 릴리스 정보
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+source-git-commit: 503683b66b6022b7c1fecbfb197fe17e05ae9c64
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ECID 옵트인 개체를 통해 사용할 수 있는 IAB TCF의 Audience Manager
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)를 사용하면 Analytics, Target, Audience Manager 등을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화하거나 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 프로그램입니다. [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하면 Analytics, Target, Audience Manager 등을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화하거나 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
