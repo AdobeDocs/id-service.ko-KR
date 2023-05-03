@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
 ht-degree: 100%
 
 ---
 
-# `setCustomerIDs`에 대한 SHA256 해시 지원  {#hashing-support}
+# `setCustomerIDs`에 대한 SHA256 해시 지원 {#hashing-support}
 
 ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다. 해시된 식별자를 Experience Cloud로 전송하는 선택적 Javascript 메서드입니다. 고객 ID를 전송하기 전에 고유한 해시 메서드를 계속 사용할 수 있습니다.
 아래 섹션에 설명된 대로 setCustomerIDs를 사용하여 해시 지원을 구현하는 방법은 두 가지가 있습니다.
@@ -22,7 +22,7 @@ ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 �
 
 첫 번째 메서드는 [`setCustomerIDs`](/help/library/get-set/setcustomerids.md) (`customerIDs<object>`, `hashType<string>`) 메서드를 사용하여 활용합니다.
 
-ECID 라이브러리는 해싱하기 전에 customerIDs에 데이터 표준화를 수행합니다. 이 과정에서는 양쪽 끝에서 customerIDs의 공백을 트리밍하고 모든 문자를 소문자로 변환합니다. 예를 들어, 이메일 주소의 경우 &quot; ecid@adobe.com &quot;은 &quot;ecid@adobe.com&quot;이 됩니다.
+ECID 라이브러리는 해싱하기 전에 customerIDs에 데이터 표준화를 수행합니다. 이 과정에서는 양쪽 끝에서 customerIDs의 공백을 트리밍하고 모든 문자를 소문자로 변환합니다. 예를 들어 이메일 주소의 경우 “ecid@adobe.com”은 “ecid@adobe.com”이 됩니다.
 
 SHA-256 해시를 사용하여 단일 고객 ID(위에서 언급한 이메일 주소)를 설정하는 방법에 대한 아래의 코드 예를 참조하십시오.
 
@@ -48,7 +48,7 @@ Experience Cloud 방문자 ID와 함께 추가 고객 ID, 인증 상태 및 해�
 
 <br> 
 
-`setCustomerIDs` 메서드를 사용하면 해시된 고객 ID가 포함된 `d_cid_ic` 쿼리 매개 변수의 추가로 Experience Cloud ID 서비스, `dpm.demdex.net`가 호출됩니다. 샘플 호출은 아래와 같이 표시될 수 있습니다. 명확하게 하기 위해 줄 바꿈을 추가했습니다.
+`setCustomerIDs` 메서드를 사용하면 해시된 고객 ID가 포함된 `d_cid_ic` 쿼리 매개변수의 추가로 Experience Cloud ID 서비스, `dpm.demdex.net`가 호출됩니다. 샘플 호출은 아래와 같이 표시될 수 있습니다. 명확하게 하기 위해 줄 바꿈을 추가했습니다.
 
 ```
 http://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&
@@ -60,11 +60,11 @@ ts=1563299964843
 
 <br> 
 
-`d_cid_ic` 매개 변수 및 인증 상태에 대한 설명은 아래 표를 참조하십시오.
+`d_cid_ic` 매개변수 및 인증 상태에 대한 설명은 아래 표를 참조하십시오.
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |------------|----------|
-| `d_cid_ic` | 통합 코드, DPUUID(고유 사용자 ID) 및 인증된 상태 ID를 ID 서비스에 전달합니다. 통합 코드 및 DPUUID를 인쇄되지 않는 제어 문자 %01</code>와 구분합니다. <br> 예:d_cid_ic=Integration_code%01DPUUID%01Authentication_state</code> <br> <b>인증 상태</b> <br> d_cid_ic 매개 변수에서 선택적 ID입니다. 정수로 표시되며, 아래와 같이 인증 상태에 따라 사용자를 식별합니다. <br> <ul><li>0(알 수 없음 또는 인증되지 않음)</li><li>1(현재 이 인스턴스/페이지/앱 컨텍스트에 대해 인증됨)</li><li>2(로그아웃됨)</li></ul> <br> 예: <br> <ul><li>알 수 없음: ...d_cid=123%01456%01<b>0</b></li><li>인증됨: ...d_cid=123%01456%01<b>1</b></li><li>로그아웃됨: ...d_cid=123%01456%01<b>2</b></li></ul> |
+| `d_cid_ic` | 통합 코드, DPUUID(고유 사용자 ID) 및 인증된 상태 ID를 ID 서비스에 전달합니다. 통합 코드 및 DPUUID를 인쇄되지 않는 제어 문자 %01</code>와 구분합니다. <br> 예:d_cid_ic=Integration_code%01DPUUID%01Authentication_state</code> <br> <b>인증 상태</b> <br> d_cid_ic 매개변수에서 선택적 ID입니다. 정수로 표시되며, 아래와 같이 인증 상태에 따라 사용자를 식별합니다. <br> <ul><li>0(알 수 없음 또는 인증되지 않음)</li><li>1(현재 이 인스턴스/페이지/앱 컨텍스트에 대해 인증됨)</li><li>2(로그아웃됨)</li></ul> <br> 예: <br> <ul><li>알 수 없음: ...d_cid=123%01456%01<b>0</b></li><li>인증됨: ...d_cid=123%01456%01<b>1</b></li><li>로그아웃됨: ...d_cid=123%01456%01<b>2</b></li></ul> |
 
 ## Adobe Experience Platform Launch에서 동작 추가 {#add-action-launch}
 
@@ -76,7 +76,7 @@ Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](htt
 
 <br> 
 
-구성을 확인한 후 Launch에서 다음과 같이 데이터를 개체에 래핑합니다.
+구성을 확인한 후 Launch에서 다음과 같이 데이터를 오브젝트에 래핑합니다.
 
 ```
 {
@@ -99,4 +99,4 @@ setCustomerIDs(Ingeration code: {
 });
 ```
 
-첫 번째 섹션에 설명된 `setCustomerIDs` 메서드와 유사하게, `d_cid_ic` 쿼리 매개 변수의 추가로 Experience Cloud ID 서비스가 호출됩니다.
+첫 번째 섹션에 설명된 `setCustomerIDs` 메서드와 유사하게, `d_cid_ic` 쿼리 매개변수의 추가로 Experience Cloud ID 서비스가 호출됩니다.
