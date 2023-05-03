@@ -1,28 +1,29 @@
 ---
-description: Experience Cloud Identity 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
-title: 2022 릴리스 노트
-source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+title: 2022 릴리스 정보
+exl-id: 1550f43f-81be-447e-904c-b408785965fe
+source-git-commit: fcd3e8b65bb84e94eabac7ffec6a34f4cf75ec3d
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
-# Experience Cloud ID 서비스 릴리스 노트 - 2022
+# Experience Cloud ID 서비스 릴리스 정보 - 2022
 
 Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
-## Visitor 5.5.0
+## 방문자 5.5.0
 
-다음 업데이트는 Visitor 5.5.0 릴리스에 포함되어 있습니다.
+방문자 5.5.0 릴리스에는 다음 업데이트가 포함되어 있습니다.
 
-* 가져오기 패치 수정 `sameSite` 및 `secure` 개인 정보 쿠키를 위한 속성 .
-* 상위 도메인과 동일한 도메인을 사용하는 iFrame이 로드될 때 ECID를 가져오기 위한 패치 수정.
+* 개인 정보 쿠키에 대한 `sameSite` 및 `secure` 속성을 가져오도록 패치가 수정되었습니다.
+* 상위 도메인과 동일한 도메인이 있는 iFrame이 로드될 때 ECID를 가져오도록 패치가 수정되었습니다.
 
-## Visitor 5.4.0
+## 방문자 5.4.0
 
-다음 업데이트는 Visitor 5.4.0 릴리스에 포함되어 있습니다.
+방문자 5.4.0 릴리스에는 다음 업데이트가 포함되어 있습니다.
 
-* 라이프타임 구성 지원 `s_ecid` 를 사용하여 `cookieLifetime` 구성합니다.
-* 하위 iFrame에 페이지가 로드될 때 Firefox 브라우저 문제에 대한 패치 수정.
+* `cookieLifetime` config를 사용하여 `s_ecid` 쿠키 수명을 구성하는 기능이 지원됩니다.
+* 페이지가 하위 iFrame에 로드될 때 발생하는 Firefox 브라우저 문제에 대한 패치가 수정되었습니다.
