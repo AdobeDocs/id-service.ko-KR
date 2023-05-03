@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud Identity 서비스 요구 사항 {#requirements-for-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스 요구 사항 {#requirements-for-the-experience-cloud-id-service}
 
 이 섹션을 검토하여 Experience Cloud ID 서비스에 필요한 올바른 솔루션, 서비스 및 쿠키 버전을 사용 중인지 확인하십시오.
 
