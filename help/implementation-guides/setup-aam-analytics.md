@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
 source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Analytics 및 Audience Manager용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
+# Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
@@ -140,11 +140,11 @@ Analytics에서는 데이터 수집을 위해 추적 서버를 사용합니다.
 
 >[!IMPORTANT]
 >
->이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 참조하십시오.
+>이제 [!DNL Audience Manager] DIL 코드를 제거하고 대상자 관리 모듈로 대체해야 합니다. 지침은 [서버측 전달 구현](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 참조하십시오.
 
-***(선택 사항이지만 권장됨)* 사용자 지정 Prop 만들기&#x200B;**
+***(선택 사항이지만 권장됨)* 사용자 정의 Prop 만들기&#x200B;**
 
-`AppMeasurement.js`에 사용자 지정 prop을 설정하여 범위를 측정. 이 사용자 지정 prop을 `doPlugins` 파일의 `AppMeasurement.js` 함수에 추가합니다.
+`AppMeasurement.js`에 사용자 정의 prop을 설정하여 범위를 측정. 이 사용자 정의 prop을 `doPlugins` 파일의 `AppMeasurement.js` 함수에 추가합니다.
 
 ```js
 // prop1 is used as an example only. Choose any available prop. 
