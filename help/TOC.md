@@ -5,9 +5,9 @@ breadcrumb-title: Identity 서비스 안내서
 user-guide-description: Adobe Experience Cloud Identity Service는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이는 Experience Cloud 솔루션 및 서비스에 대한 레거시 ID 생성 코드를 대체하는 데 도움이 됩니다.
 user-guide-url: /content/help/en/id-service/using/home.html
 source-git-commit: 6ef86bdb7bc10e24dbd3efe2481cb2e6e6c270fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,8 +109,8 @@ ht-degree: 98%
    + [Analytics 및 ID 서비스 FAQ](faq-intro/analytics-faq.md)
    + [기타 Experience Cloud 솔루션에 대한 FAQ](faq-intro/other-faq.md)
 + ID 서비스에 대한 릴리스 정보 {#release-notes}
-   + [2022 릴리스 노트](release-notes/notes-2022.md)
-   + [2021 릴리스 노트](release-notes/notes-2021.md)
+   + [2022 릴리스 정보](release-notes/notes-2022.md)
+   + [2021 릴리스 정보](release-notes/notes-2021.md)
    + [2020 릴리스 정보](release-notes/notes-2020.md)
    + [2019 릴리스 정보](release-notes/notes-2019.md)
    + [2018 릴리스 정보](release-notes/notes-2018.md)
