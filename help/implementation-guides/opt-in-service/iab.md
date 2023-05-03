@@ -3,7 +3,7 @@ description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 
 title: IAB 프레임워크에서 옵트인 서비스 사용
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 >[!IMPORTANT]
 >
->쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purpose 1, 10에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. [여기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)에 나와 있는 Audience Manager 설명서에서 옵트인의 IAB TCF 플러그인에 대해 자세히 알아보십시오.
+>쿠키를 배포하고 ID 동기화를 시작하거나 처리하려면 Audience Manager는 *purpose 1, 10에 대한 동의와 공급업체 동의*&#x200B;가 필요합니다. [여기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html?lang=ko-KR)에 나와 있는 Audience Manager 설명서에서 옵트인의 IAB TCF 플러그인에 대해 자세히 알아보십시오.
 
 옵트인과 IAB TCF 플러그인을 확인하는 방법에 대해서는 [여기](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0)에 나와 있는 유효성 검사 안내서의 사용 사례 4를 확인하십시오.
 
