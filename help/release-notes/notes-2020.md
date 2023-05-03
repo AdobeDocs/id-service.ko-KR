@@ -4,9 +4,9 @@ keywords: ID 서비스
 title: 2020 릴리스 정보
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
@@ -16,24 +16,24 @@ Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 �
 
 ## 버전 5.1.1
 
-* AMCV 쿠키를 `SameSite=None` visitorJS가 iFrame에 로드되는 경우.
+* VisitorJS가 iFrame에 로드될 때 AMCV 쿠키를 `SameSite=None`(으)로 설정하는 패치가 수정되었습니다.
 
 ## 버전 5.1.0
 
-* 추가 중 `sameSiteCookie` 구성을 지정하여 `SameSite` amcv 쿠키에 대한 속성입니다. 이 구성은 `SameSite` attribute:
+* AMCV 쿠키에 대한 `sameSiteCookie` 속성을 지정하기 위해 `SameSite` 구성을 추가합니다. 이 구성은 `SameSite` 속성에 대해 다음 값을 지원합니다.
    * `Strict`
    * `Lax`
    * `None`
 
-이러한 속성 값에 대한 자세한 내용은 [web.dev](https://web.dev/samesite-cookies-explained/) 및 [Chromium 프로젝트의 SameSite 업데이트](https://www.chromium.org/updates/same-site/).
+이러한 속성 값에 대한 자세한 내용은 [web.dev](https://web.dev/samesite-cookies-explained/) 및 [Chromium Projects의 SameSite 업데이트](https://www.chromium.org/updates/same-site/)를 참조하십시오.
 
 ## 버전 5.0.1
 
-* 다음을 포함하는 패치 수정 `d_cf` 새 IAB 동의 문자열이 Adobe 데이터 수집 가장자리로 전송될 때 플래그.
+* 새 IAB 동의 문자열이 Adobe Data 데이터 수집 에지로 전송될 때 `d_cf` 플래그를 포함하는 패치가 수정되었습니다.
 
 ## 버전 5.0.0
 
-* 에 대한 지원이 포함된 방문자 5.0.0 릴리스 `IAB 2.0`.
+* Visitor 5.0.0 릴리스에는 `IAB 2.0`에 대한 지원이 포함됩니다.
 
 ## 버전 4.6
 
