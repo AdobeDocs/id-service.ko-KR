@@ -3,9 +3,9 @@ description: Adobe Experience Platform Launch를 사용하여 옵트인에 대�
 title: Launch로 옵트인 구성
 exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
 source-git-commit: 5858933e9d51ec97b1ba7a8fbe483f1919954543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Experience Cloud ID 확장 기능이 아직 설치되지 않은 경우 속성을
 
 확장 기능을 구성하려면 *확장* 탭을 열고 확장 위로 마우스를 가져갑니다. 그런 다음 *구성*&#x200B;을 클릭합니다.
 
-추가 참조 정보는 [Adobe Experience Cloud Identity 서비스 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=ko-KR).
+추가 참조 정보는 [Adobe Experience Cloud ID 서비스 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=ko-KR)를 참조하십시오.
 
 ![](assets/optin-launch.jpg)
