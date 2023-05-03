@@ -3,9 +3,9 @@ description: 옵트인 서비스를 사용하면 방문자가 사용자의 사�
 title: 옵트인 서비스
 exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
 source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 옵트인 서비스를 사용하여 방문자가 Adobe 솔루션을 한꺼번에 옵트인할 수 있는지를 지정하거나 권한을 얻기 위해 솔루션을 순서대로 표시할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색할 수 있습니다.
 
-옵트인 서비스는 다음을 사용하여 쉽게 구현하고 구성할 수 있습니다 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 사용 [옵트인 확장](../../implementation-guides/opt-in-service/launch.md). [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
+옵트인 서비스는 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)과 함께 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하여 쉽게 구현하고 구성할 수 있습니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
 
 시작하려면 [옵트인 서비스 설정](../../implementation-guides/opt-in-service/getting-started.md)을 참조하십시오.
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 * 동의 수집 요구 사항이 일반적으로 사용자에게 적용되는지 여부를 표시합니다.
 * 쿠키 생성이 허용되는 솔루션을 지정합니다.
 * 범주가 사용자에 의해 명시 적으로 동의 또는 거부되지 않은 모든 솔루션에 대해 기본 환경 설정을 적용합니다.
-* 사용자 동의 설정 변경 사항에 따라 사용자 지정 응답을 트리거하여 사용자 설정을 유지하거나 업데이트할 수 있습니다.
+* 사용자 동의 설정 변경 사항에 따라 사용자 정의 응답을 트리거하여 사용자 설정을 유지하거나 업데이트할 수 있습니다.
 
 옵트인 서비스를 사용하면 사용자가 선택하기 전에 사전 동의를 사용하여 일부 쿠키를 로드하도록 사이트를 구성할 수 있습니다. 사용자 동의 후에 또는 선택한 후에 쿠키를 로드할 수 있도록 새 고객에 대한 옵트인 서비스를 설정할 수 있습니다. 또한 기존 동의 관리 플랫폼에서 옵트인 동의를 저장하고 검색하거나 단순히 동의 권한을 쿠키에 저장할 수 있습니다.
 
