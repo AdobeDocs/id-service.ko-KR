@@ -2,15 +2,17 @@
 description: 2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
 title: 2016 릴리스 정보
+feature-set: Experience Cloud Services
+feature: TK421
 exl-id: f96b9869-6282-4090-b392-797608e25a51
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+source-git-commit: d027f7fca8cf62d6b5d80ec3c37049ddd1afdd70
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
 ---
 
-# 2016 릴리스 정보 {#release-notes}
+# 2016 릴리스 노트 {#release-notes}
 
 2016년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
