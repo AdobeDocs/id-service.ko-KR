@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스에서 CORS 지원
 exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
-# Experience Cloud ID 서비스에서 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
+# Experience Cloud Identity 서비스에서 CORS 지원 {#cors-support-in-the-experience-cloud-id-service}
 
 CORS(교차 도메인 리소스 공유)를 사용하면 브라우저에서 현재 도메인 이외의 도메인으로부터 리소스를 요청할 수 있습니다. Experience Cloud ID 서비스는 이러한 클라이언트측의 교차 도메인 리소스 요청을 가능하게 하는 CORS 표준을 지원합니다. ID 서비스는 오래된 브라우저나 CORS를 지원하지 않는 브라우저에서는 JSONP 요청으로 되돌립니다.
 
@@ -45,7 +45,7 @@ CORS는 여러 도메인에서 리소스를 요청할 수 있는 안전하고 �
    <td colname="col1"> <p> <b>요청</b> </p> </td> 
    <td colname="col2"> <p>금융 회사의 페이지가 로드되어 브라우저에서 <span class="codeph">dpm.demdex.net</span>에 요청을 합니다. 이는 ID 서비스에서 사용하는 데이터 수집 서버(DCS)의 도메인에 대한 호출입니다. 이 도메인 간 요청에는 다음 헤더가 포함됩니다. </p> <p> 
      <ul class="simplelist"> 
-      <li> <span class="codeph"> Origin:https://www.finance-website.com</span> </li> 
+      <li> <span class="codeph"> 원본:https://www.finance-website.com</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

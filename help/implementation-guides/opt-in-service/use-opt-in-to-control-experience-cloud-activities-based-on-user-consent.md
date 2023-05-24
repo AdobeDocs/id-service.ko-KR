@@ -3,7 +3,7 @@ title: 사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 활
 description: Adobe 옵트인 개체는 Adobe Experience Platform ID 서비스의 확장으로, 최종 사용자의 동의에 따라 웹 페이지에서 쿠키를 생성하거나, 비콘을 시작할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계되었습니다.
 exl-id: ac44e628-01ca-401c-864b-30fed0450e5f
 source-git-commit: 0dca594c090095a01dfa2d02a98dfeba7ca02dca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 

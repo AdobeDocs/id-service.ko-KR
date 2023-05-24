@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스에서 COPPA 지원
 exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud ID 서비스에서 COPPA 지원{#coppa-support-in-the-experience-cloud-id-service}
+# Experience Cloud Identity 서비스에서 COPPA 지원 {#coppa-support-in-the-experience-cloud-id-service}
 
 COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 브라우저의 서드파티 도메인에서 쿠키를 설정하지 못하도록 하는 옵션 변수를 자신의 Experience Cloud ID 서비스 코드에 추가할 수 있습니다.
 

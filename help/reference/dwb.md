@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Data Workbench 및 Experience Cloud ID 서비스
 exl-id: 1903918d-44e4-4790-ab1f-49f5bb701e31
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
 ---
 
-# Data Workbench 및 Experience Cloud ID 서비스 {#data-workbench-and-the-experience-cloud-id-service}
+# Data Workbench 및 Experience Cloud Identity 서비스 {#data-workbench-and-the-experience-cloud-id-service}
 
 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbench에 통합합니다. 이 프로세스를 통해 데이터 피드에서 영구 Experience Cloud ID를 사용할 수 있습니다. 이 ID는 Adobe Experience Cloud의 다른 제품과 더욱 긴밀하게 통합되고 향상된 방문자 추적을 제공합니다.
 

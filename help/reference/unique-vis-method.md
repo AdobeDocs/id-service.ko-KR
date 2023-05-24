@@ -3,8 +3,8 @@ title: 고유 방문자 식별
 description: Adobe ECID(ID 서비스)에 대한 문서
 exl-id: 379dbf0a-814d-4348-9ac4-d0e8fc13b9dc
 source-git-commit: c65816530ae2269b216f60b9b0450077e5aaac2f
-workflow-type: ht
-source-wordcount: '253'
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 100%
 |  5  |  [HTTP 모바일 가입자 헤더](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR)  |  2  |  디바이스는 모바일 디바이스로 인식됩니다.  |
 |  6  |  [IP 주소, 사용자 에이전트, 게이트웨이 IP 주소](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=ko-KR)  |  1  |  방문자의 브라우저가 쿠키를 승인하지 않습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 고유 방문자를 보고하는 방법에 대한 자세한 내용은 [Analytics 고유 방문자](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=ko-KR)를 참조하십시오.

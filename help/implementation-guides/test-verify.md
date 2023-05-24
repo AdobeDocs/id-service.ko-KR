@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 테스트 및 확인
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -12,9 +12,9 @@ ht-degree: 100%
 
 # Experience Cloud ID 서비스 테스트 및 확인{#test-and-verify-the-experience-cloud-id-service}
 
-이러한 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
+이들 지침, 도구 및 절차를 통해 ID 서비스가 제대로 작동하는지 확인할 수 있습니다. 이러한 테스트는 일반적으로 ID 서비스에 적용되며, 다른 ID 서비스 및 Experience Cloud·솔루션·조합을·위한·것입니다.
 
-## 시작하기 전에 {#section-b1e76ad552ed4eb793b6e521a55127d4}
+## 시작하기에 앞서 {#section-b1e76ad552ed4eb793b6e521a55127d4}
 
 ID 서비스 테스트 및 확인을 시작하기 위해 알고 있어야 할 중요한 정보입니다.
 
@@ -53,8 +53,8 @@ mid=20265673158980419722735089753036633573
 
 [!DNL Analytics] 고객인 경우 MID 외에 AID([!DNL Analytics] ID)가 표시될 수 있습니다. 다음이 발생합니다.
 
-* 초기/장기 사이트 방문자 수 포함.
-* 유예 기간을 활성화한 경우.
+* 초기/장기 사이트 방문자 수 포함
+* 유예 기간을 활성화한 경우
 
 **실패**
 

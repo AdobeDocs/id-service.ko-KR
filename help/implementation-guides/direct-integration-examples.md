@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: 직접 통합 사용 사례
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -21,8 +21,7 @@ ht-degree: 100%
 >
 
 
-
-## 사용 사례 1: Experience Cloud ID(MID)가 있지만 내 방문자 ID를 전달하고 인증 상태를 설정하려고 함{#section-a67d89a343754d1286d03cf08d34b806}
+## 사용 사례 1: Experience Cloud ID(MID)가 있지만 내 방문자 ID를 전달하고 인증 상태를 설정하려고 함 {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 

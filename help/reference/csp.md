@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: 콘텐츠 보안 정책 및 Experience Cloud ID 서비스
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 100%
 
 ---
 
-# 콘텐츠 보안 정책 및 Experience Cloud ID 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
+# 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
 
 CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 

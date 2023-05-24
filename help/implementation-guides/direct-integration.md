@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스와 직접 통합
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud ID 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
+# Experience Cloud Identity 서비스와 직접 통합 {#direct-integration-with-the-experience-cloud-id-service}
 
 이 구현을 통해 고객은 JavaScript 또는 SDK 코드를 수락하거나 사용할 수 없는 디바이스에서 ID 서비스를 사용할 수 있습니다. 여기에는 게임 콘솔, 스마트 TV 또는 기타 인터넷 지원 가전 제품과 같은 디바이스가 포함됩니다. 구문, 코드 샘플 및 정의에 대해서는 이 섹션을 참조하십시오.
 

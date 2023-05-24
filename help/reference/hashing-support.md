@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 100%
 

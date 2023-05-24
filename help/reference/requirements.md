@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 

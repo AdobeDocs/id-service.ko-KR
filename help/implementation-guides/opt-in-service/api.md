@@ -3,7 +3,7 @@ description: 옵트인 라이브러리 및 구성 설정 참조용 API입니다.
 title: 옵트인 참조
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 

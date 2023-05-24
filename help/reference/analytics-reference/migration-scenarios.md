@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 마이그레이션 시나리오
 exl-id: 419532bf-399f-4646-a95f-31c35535d6fc
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
 ---
 
-# Experience Cloud ID 서비스 마이그레이션 시나리오 {#experience-cloud-id-service-migration-scenarios}
+# Experience Cloud Identity 서비스 마이그레이션 시나리오 {#experience-cloud-id-service-migration-scenarios}
 
 서버 예제 구성과 필요한 마이그레이션 단계를 포함합니다.
 

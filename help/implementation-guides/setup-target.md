@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Target용 Experience Cloud ID 서비스 구현
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
 
-# Target용 Experience Cloud ID 서비스 구현{#implement-the-experience-cloud-id-service-for-target}
+# Target용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-target}
 
 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 

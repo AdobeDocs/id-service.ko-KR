@@ -4,13 +4,13 @@ keywords: Experience Cloud ID 서비스
 title: Analytics 및 ID 서비스 FAQ
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 100%
 
 ---
 
-# Analytics 및 ID 서비스 FAQ{#analytics-and-id-service-faqs}
+# Analytics 및 Identity 서비스 FAQ{#analytics-and-id-service-faqs}
 
 ID 서비스에서 Analytics 사용과 관련된 기능 및 문제에 대한 FAQ입니다.
 

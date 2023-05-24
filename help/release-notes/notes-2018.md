@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: 2018 릴리스 정보
 exl-id: ad3cccf1-2753-4ac9-a68c-15b2d62bbc1a
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
 
 ---
 
-# 2018 릴리스 정보 {#release-notes}
+# 2018 릴리스 노트 {#release-notes}
 
 2018년 Experience Cloud ID 서비스의 기능 릴리스, 업데이트 또는 변경 사항입니다.
 

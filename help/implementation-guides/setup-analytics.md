@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: Analytics용 Experience Cloud ID 서비스 구현
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Analytics용 Experience Cloud ID 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics}
+# Analytics용 Experience Cloud Identity 서비스 구현 {#implement-the-experience-cloud-id-service-for-analytics}
 
 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 

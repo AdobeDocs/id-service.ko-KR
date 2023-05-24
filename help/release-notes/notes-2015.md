@@ -4,13 +4,13 @@ keywords: ID 서비스
 title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
 ---
 
-# 2015 릴리스 정보 {#release-notes}
+# 2015 릴리스 노트 {#release-notes}
 
 2015년의 릴리스 정보 및 업데이트입니다.
 
