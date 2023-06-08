@@ -2,10 +2,10 @@
 title: Google Chrome SameSite 레이블 설정 변경
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: ee4b7f8df5766372034da2a76e7acb81ba2a65f0
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ Chrome 80이 SameSite=를 적용하기 전에 만들어진 서드파티 쿠키`n
 
 **대상 및 마켓 플레이스 파트너에 대해 가능한 쿠키 일치 감소(Audience Manager에만 해당)**
 
-Adobe는 쿠키를 업데이트할 수 있는 권한을 가지지만 Adobe는 파트너에게 필요한 변경을 강요할 수 없습니다. 쿠키 일치 기능은 이러한 업데이트를 하지 않은 대상 파트너 또는 마켓 플레이스 파트너를 사용하는 Audience Manager 고객의 경우 감소될 수 있습니다.
+Adobe은 쿠키를 업데이트할 수 있는 권한을 가지지만 Adobe은 파트너에게 필요한 변경을 강요할 수 없습니다. 쿠키 일치 기능은 이러한 업데이트를 하지 않은 대상 파트너 또는 마켓 플레이스 파트너를 사용하는 Audience Manager 고객의 경우 감소될 수 있습니다.
 
 **Analytics에 친숙한 서드파티 쿠키(Analytics `s_vi` 쿠키만 해당)**
 
@@ -117,6 +117,6 @@ Chrome에서 새로운 기본 SameSite 설정이 되는 `lax`를 사용하여 CN
 | ------ | ---- | ------------------ | ---------------- |
 | _mkto_trk | 클라이언트측 자사 | 부가 가치가 없는 *Chrome의 기본값은 `lax` 설정 | 외부 페이지에 대해 구성 가능 |
 
-> !![IMPORTANT] Adobe 서드파티 쿠키가 서버측에서 설정됨
+>  Adobe 서드파티 쿠키가 서버측에서 설정됨.
 
-자세한 내용은 [Target의 Google Chrome SameSite 정책](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/privacy/google-chrome-samesite-cookie-policies.html?lang=ko-KR)에 대한 문서를 참조하십시오.
+자세한 내용은 [Target의 Google Chrome SameSite 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html)에 대한 문서를 참조하십시오.
