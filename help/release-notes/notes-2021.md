@@ -2,8 +2,8 @@
 description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 keywords: ID 서비스
 title: 2021 릴리스 정보
-exl-id: f0bbb100-49a9-4bba-8cee-5f40bec87984
-source-git-commit: fcd3e8b65bb84e94eabac7ffec6a34f4cf75ec3d
+exl-id: 56bffb6f-a4fc-40df-8bb2-17e43772fe60
+source-git-commit: 52956b38c59f60507aaf236b152ce41fc1229d14
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -26,10 +26,10 @@ Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 �
 
 방문자 5.2.0 릴리스에는 다음 업데이트가 포함되어 있습니다.
 
-* 이 버전에서는 ID 서비스에서 ECID를 수신할 때 호출되는 이벤트 `onRecieveEcid`(이)가 도입됩니다. 예:
+* 이 버전에서는 ID 서비스에서 ECID를 수신할 때 호출되는 이벤트 `onReceiveEcid`(이)가 도입됩니다. 예:
 
 ```js
-visitorInstance.onRecieveEcid(callback(ecid){
+visitorInstance.onReceiveEcid(callback(ecid){
  console.log(ecid)
 })
 ```
