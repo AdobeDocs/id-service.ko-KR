@@ -1,24 +1,23 @@
 ---
-description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
 keywords: ID 서비스
 title: Target용 Experience Cloud ID 서비스 구현
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 64%
 
 ---
 
 # Target용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-target}
 
-이러한 지침은 Experience Cloud ID 서비스를 사용하고 DTM(Dynamic Tag Management)은 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 DTM을 사용하여 ID 서비스를 구현하는 것이 매우 좋습니다. DTM을 사용하면 구현 워크플로를 간소화할 수 있고, 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
+이러한 지침은 Experience Cloud ID 서비스를 사용하고 사용하지 않으려는 Target 고객을 대상으로 합니다 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR). 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
 
 >[!IMPORTANT]
 >
 >* [시작하기 전에 요구 사항을 읽어보십시오](../reference/requirements.md).
 >* 프로덕션 환경에서 구현하기 전에 개발 환경에서 이 코드를 구성하고 테스트하십시오.
-
 
 ## 1단계: ID 서비스 코드 가져오기 {#section-b32ba0548aa546a79dd38be59832a53e}
 
