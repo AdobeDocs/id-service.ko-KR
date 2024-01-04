@@ -1,18 +1,18 @@
 ---
-description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
+description: 이들 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 단, 당사는 태그를 사용하여 ID 서비스를 구현할 것을 권장합니다. 태그를 사용하면 구현 워크플로를 간소화할 수 있으며 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 keywords: ID 서비스
 title: Analytics용 Experience Cloud ID 서비스 구현
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Analytics용 Experience Cloud Identity 서비스 구현 {#implement-the-experience-cloud-id-service-for-analytics}
+# Analytics용 Experience Cloud ID 서비스 구현 {#implement-the-experience-cloud-id-service-for-analytics}
 
-이러한 지침은 Experience Cloud ID 서비스를 사용하고 사용하지 않으려는 Analytics 고객을 대상으로 합니다 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR). 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
+이들 지침은 Experience Cloud ID 서비스를 사용하고 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)는 사용하지 않으려는 Analytics 고객을 대상으로 합니다. 단, 당사는 태그를 사용하여 ID 서비스를 구현할 것을 권장합니다. 태그를 사용하면 구현 워크플로를 간소화할 수 있으며 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -135,9 +135,9 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 `linkInternalFilters`, `charSet`, `trackDownloads` 등과 같은 구성을 포함하는 섹션에 코드를 다음과 같이 추가합니다.
 
-***(선택 사항이지만 권장됨)* 사용자 지정 Prop 만들기&#x200B;**
+***(선택 사항이지만 권장됨)* 사용자 정의 Prop 만들기&#x200B;**
 
-`AppMeasurement.js` 또는 `s_code.js`에 사용자 지정 prop을 설정하여 범위를 측정. 이 사용자 지정 prop을 `doPlugins` 또는 `AppMeasurement.js` 파일의 `s_code.js` 함수에 추가합니다.
+`AppMeasurement.js` 또는 `s_code.js`에 사용자 정의 prop을 설정하여 범위를 측정. 이 사용자 정의 prop을 `doPlugins` 또는 `AppMeasurement.js` 파일의 `s_code.js` 함수에 추가합니다.
 
 ```js
 // prop1 is used as an example only. Choose any available prop. 
