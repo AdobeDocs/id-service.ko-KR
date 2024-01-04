@@ -1,18 +1,18 @@
 ---
-description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Target 고객을 대상으로 합니다. 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
+description: 이들 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Target 고객을 대상으로 합니다. 단, 당사는 태그를 사용하여 ID 서비스를 구현할 것을 권장합니다. 태그를 사용하면 구현 워크플로를 간소화할 수 있으며 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 keywords: ID 서비스
 title: Target용 Experience Cloud ID 서비스 구현
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Target용 Experience Cloud Identity 서비스 구현{#implement-the-experience-cloud-id-service-for-target}
+# Target용 Experience Cloud ID 서비스 구현{#implement-the-experience-cloud-id-service-for-target}
 
-이러한 지침은 Experience Cloud ID 서비스를 사용하고 사용하지 않으려는 Target 고객을 대상으로 합니다 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR). 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
+이들 지침은 Experience Cloud ID 서비스를 사용하고 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)는 사용하지 않으려는 Target 고객을 대상으로 합니다. 단, 당사는 태그를 사용하여 ID 서비스를 구현할 것을 권장합니다. 태그를 사용하면 구현 워크플로를 간소화할 수 있으며 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
