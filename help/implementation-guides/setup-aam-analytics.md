@@ -1,18 +1,18 @@
 ---
-description: 이러한 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
+description: 이들 지침은 Experience Cloud ID 서비스를 사용하고 데이터 수집 태그는 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 단, 당사는 태그를 사용하여 ID 서비스를 구현할 것을 권장합니다. 태그를 사용하면 구현 워크플로를 간소화할 수 있으며 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 keywords: ID 서비스
 title: Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
 source-git-commit: 26152f559150f5bd67d4802b8464446482f2e9a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1183'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
-이러한 지침은 Experience Cloud ID 서비스를 사용하고 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR). 그러나 태그를 사용하여 ID 서비스를 구현하는 것이 좋습니다. 태그는 구현 워크플로를 간소화하고 올바른 코드 배치 및 순서를 자동으로 보장합니다.
+이들 지침은 Experience Cloud ID 서비스를 사용하고 [데이터 수집 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)는 사용하지 않으려는 Analytics 및 Audience Manager 고객을 대상으로 합니다. 단, 당사는 태그를 사용하여 ID 서비스를 구현할 것을 권장합니다. 태그를 사용하면 구현 워크플로를 간소화할 수 있으며 올바른 코드 배치 및 순서를 자동으로 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 서버측 전달로 마이그레이션하려면 계획 및 조정이 필요합니다. 이 프로세스에는 계정을 프로비저닝하기 위해 Adobe가 수행해야 하는 사이트 코드와 내부 단계에 대한 외부 변경 사항이 포함됩니다. 실제로 이러한 마이그레이션 절차는 대부분 동시에 수행되어야 하며 함께 출시됩니다. 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
 
-1. [!DNL Analytics] 및 [!DNL Audience Manager] 담당자와 협업하여 ID 서비스 및 서버측 전달 마이그레이션을 계획합니다. 이 계획에서 추적 서버 선택을 중요한 부분으로 다룹니다.
+1. [!DNL Analytics] 및 [!DNL Audience Manager] 담당자와 협업하여 ID 서비스 및 서버측 전달 마이그레이션에 대한 계획을 수립합니다. 이 계획에서 추적 서버 선택을 중요한 부분으로 다룹니다.
 
 1. 시작하려면 [통합 및 프로비저닝 사이트](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)에서 양식을 작성합니다.
 
