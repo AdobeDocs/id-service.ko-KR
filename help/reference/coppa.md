@@ -5,7 +5,7 @@ title: Experience Cloud ID 서비스에서 COPPA 지원
 exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -46,4 +46,3 @@ var visitor = Visitor.getInstance("insert marketing cloud ID here", {
 >
 >* [Adobe 개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)
 >* [COPPA란?](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online#whatis)
-

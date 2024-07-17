@@ -4,8 +4,8 @@ keywords: ID 서비스
 title: Experience Cloud ID 서비스 요구 사항
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 source-git-commit: 00ebcaa16ec6b432b480d96fbf79b6a745515b1b
-workflow-type: ht
-source-wordcount: '653'
+workflow-type: tm+mt
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
@@ -135,4 +135,3 @@ ID 서비스에 대해 SDK 코드를 활성화해야 합니다. [Adobe Mobile Se
 >[!MORELIKETHIS]
 >
 >* [코드 라이브러리](../library/library.md#concept-ff27497375644a898d47984aefb21c97)
-

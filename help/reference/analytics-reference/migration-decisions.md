@@ -5,8 +5,8 @@ title: Experience Cloud ID 서비스 마이그레이션 의사 결정 지점
 exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 94%
 
 ---
 
@@ -53,7 +53,7 @@ Experience Cloud ID 서비스를 배포하기 전에 이 서비스가 여러 도
  <tbody> 
   <tr> 
    <td colname="col1"> <p>복수 도메인 </p> </td> 
-   <td colname="col2"> <p>복수 도메인에서 방문자를 추적하고 고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 데이터 수집 CNAME을 계속 사용해야 합니다. <!--See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation.--> </p> <p>ID 서비스에서 CNAME를 구성하려면 추적 서버 매개 변수인 <span class="codeph">visitor.marketingCloudServer</span> 및 <span class="codeph">visitor.marketingCloudServerSecure</span>를 추가로 지정해야 합니다. </p> </td> 
+   <td colname="col2"> <p>여러 도메인에서 방문자를 추적하고 고객이 다른 도메인을 방문하기 전에 식별될 수 있는 기본 시작 사이트가 있는 경우 데이터 수집 CNAME을 계속 사용해야 합니다. <!--See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation.--> </p> <p>ID 서비스에서 CNAME를 구성하려면 추적 서버 매개 변수인 <span class="codeph">visitor.marketingCloudServer</span> 및 <span class="codeph">visitor.marketingCloudServerSecure</span>를 추가로 지정해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>단일 도메인 </p> </td> 

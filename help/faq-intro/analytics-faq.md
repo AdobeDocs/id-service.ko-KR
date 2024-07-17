@@ -5,8 +5,8 @@ title: Analytics 및 ID 서비스 FAQ
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '963'
+ht-degree: 99%
 
 ---
 
@@ -90,4 +90,3 @@ ID 서비스 사용 시 나타나는 불일치의 가능한 원인은 다음과 
 >[!MORELIKETHIS]
 >
 >* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
-

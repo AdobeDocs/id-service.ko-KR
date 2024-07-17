@@ -4,7 +4,7 @@ title: IAB 프레임워크에서 옵트인 서비스 사용
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '438'
 ht-degree: 100%
 
 ---

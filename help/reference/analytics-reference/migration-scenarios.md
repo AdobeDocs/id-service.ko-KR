@@ -5,8 +5,8 @@ title: Experience Cloud ID 서비스 마이그레이션 시나리오
 exl-id: 419532bf-399f-4646-a95f-31c35535d6fc
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 94%
 
 ---
 

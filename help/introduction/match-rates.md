@@ -5,7 +5,7 @@ title: ID 동기화 및 일치율 이해하기
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '756'
 ht-degree: 100%
 
 ---
@@ -74,4 +74,3 @@ ID 동기화는 대상 게시 iFrame에서 실행되는 URL입니다. 이 일반
 >[!MORELIKETHIS]
 >
 >* [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)
-

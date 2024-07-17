@@ -5,8 +5,8 @@ title: getInstance
 exl-id: 4941cf51-a8d0-4796-a102-4cd13cd5574d
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 });
 ```
 
-`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. 이것은 [ `s_gi()` 기능](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html?lang=ko-KR)([!DNL AppMeasurement]에서 제공됨)과 유사합니다.
+`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. 이는 [!DNL AppMeasurement]의 [`s_gi()` 함수](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html?lang=ko-KR)과(와) 유사합니다.
 
 **일반적인 사용**
 

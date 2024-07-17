@@ -5,8 +5,8 @@ title: Analytics 및 Experience Cloud ID 설정
 exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
 
 <!---However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).-->
 
-## 사용자 지정 분석 ID {#section-b6a7bd19e9ff432390010062450808f6}
+## 사용자 지정 Analytics ID {#section-b6a7bd19e9ff432390010062450808f6}
 
 `s.visitorID`를 사용하여 고객 ID를 설정하는 것은 Analytics에서 사용자를 식별하는 방법입니다. 그러나 ID 서비스를 사용하여 Analytics 데이터를 내보내거나 가져오는 통합은 방문자가 `s.visitorID`.
 
@@ -90,4 +90,3 @@ JavaScript는 자사 도메인(현재 웹 사이트의 도메인)에 설정된 �
 >[!MORELIKETHIS]
 >
 >* [Analytics ID 작업 순서](../../reference/analytics-reference/analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)
-

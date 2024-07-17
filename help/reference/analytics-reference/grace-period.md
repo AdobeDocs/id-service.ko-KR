@@ -5,8 +5,8 @@ title: ID 서비스 유예 기간
 exl-id: 83b4898c-8358-458b-a798-1e3c9633afe9
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,6 @@ ht-degree: 100%
 
 *동일한 보고서 세트*&#x200B;에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.
 
-## 유예 기간을 활성화하려면 어떻게 해야 합니까? {#section-512d5cd8570e483cbdd8b04457a16ced}
+## 유예 기간을 활성화하려면 어떻게 합니까? {#section-512d5cd8570e483cbdd8b04457a16ced}
 
 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.

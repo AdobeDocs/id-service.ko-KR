@@ -7,7 +7,7 @@ feature: TK421
 exl-id: f96b9869-6282-4090-b392-797608e25a51
 source-git-commit: d027f7fca8cf62d6b5d80ec3c37049ddd1afdd70
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1175'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 100%
 >
 >* 버전 1.10에는 [!UICONTROL AppMeasurement] 1.8.0이 필요합니다.
 >* Experience Cloud ID 서비스 라이브러리 2.0.0 이상을 사용하면 기본적으로 Adobe Media Optimizer에 대한 ID 동기화가 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
-
 
 **수정 사항 및 향상된 기능**
 

@@ -4,7 +4,7 @@ keywords: ID 서비스
 title: Target용 Experience Cloud ID 서비스 구현
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 

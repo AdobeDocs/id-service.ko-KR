@@ -5,8 +5,8 @@ title: 콘텐츠 보안 정책 및 Experience Cloud ID 서비스
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 98%
 
 ---
 
@@ -75,4 +75,3 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
 >* [콘텐츠 보안 정책 참조](https://content-security-policy.com/)
 >* [MDN: 콘텐츠 보안 정책](https://developer.mozilla.org/ko-KR/docs/Web/HTTP/CSP)
 >* [Wikipedia: 콘텐츠 보안 정책](https://en.wikipedia.org/wiki/Content_Security_Policy)
-

@@ -5,7 +5,7 @@ title: 고객 ID 및 인증 상태
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,6 @@ Experience Cloud ID 서비스 v1.5 이상부터 `setCustomerIDs`에 선택적 `A
 >* ID에 대해 인코딩이 해제된 값만 사용하십시오.
 >* 고객 ID 및 인증 상태는 방문자 ID 쿠키에 저장되지 않습니다. 모든 페이지 또는 애플리케이션 컨텍스트에 대해 설정되어야 합니다.
 >* 고객 ID에는 PII(개인 식별 정보)를 포함시켜서는 안 됩니다. PII를 사용하여 방문자(예를 들어 이메일 주소)를 식별하는 경우 대신 이 정보의 해시 버전 또는 암호화 버전을 저장하는 것이 좋습니다. ECID 라이브러리는 사용자 ID 해시를 지원합니다. [setCustomerIDs에 대한 SHA256 해시 지원](/help/reference/hashing-support.md)을 참조하십시오.
-
 
 ```js
 // Single ID with a single authentication state 

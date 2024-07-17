@@ -4,8 +4,8 @@ title: 옵트인 참조
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '888'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ false인 경우 방문자가 옵트인할 필요가 없음을 나타냅니다. �
 
 ## 옵트인 워크플로우 매개 변수 {#section-2c5adfa5459c4e72b96d2693123a53c2}
 
-옵트인은 환경 설정이 한 번에 하나씩 제공되는 워크플로우처럼, 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있는 워크플로우를 지원합니다. 다음 함수를 사용하여 *설정에* true`shouldWaitForComplete`를 제공하면 솔루션에서 한 개 솔루션 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 솔루션 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 보류됩니다. 호출되면 상태는 *완료*&#x200B;로 설정됩니다.
+옵트인은 환경 설정이 한 번에 하나씩 제공되는 워크플로우처럼, 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있는 워크플로우를 지원합니다. 다음 함수를 사용하여 *설정에* true`shouldWaitForComplete`를 제공하면 솔루션에서 한 개 솔루션 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 다음, 다음 솔루션 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 보류 상태가 됩니다. 호출되면 상태는 *완료*&#x200B;로 설정됩니다.
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 

@@ -5,8 +5,8 @@ title: 2017 릴리스 정보
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '714'
+ht-degree: 99%
 
 ---
 
@@ -175,7 +175,7 @@ Updated and revised the [FAQs](/help/faq-intro/faq-intro.md) to include separate
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> ID 서비스 API 속성, <span class="codeph">idSyncContainerID</span></p> </td> 
+   <td colname="col1"> <p> ID 서비스 API 속성, <span class="codeph"> idSyncContainerID</span></p> </td> 
    <td colname="col2"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external">idSyncContainerID</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 

@@ -5,7 +5,7 @@ title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Prot
 * 동기화하거나 실행할 데이터가 없는 경우 ID 서비스가 iframe을 요청하지 못하게 하던 버그가 수정되었습니다. (AAM-20164)
 * ID 서비스가 다중 부분, 최상위 도메인 쿠키를 제대로 설정하지 못하게 하던 버그가 수정되었습니다. 예를 들어 `my_company.co.uk`와 같은 도메인이 있는 경우 일부 상황에서 ID 서비스가 `co.uk`에만 쿠키를 설정합니다. (AN-104683)
 
-   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
+  이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * ID 서비스 사용.
    * [유예 기간&#x200B;](../reference/analytics-reference/grace-period.md)*을 활성화했거나*&#x200B;자사 쿠키를 사용하고 사용자가 서드파티 쿠키 차단

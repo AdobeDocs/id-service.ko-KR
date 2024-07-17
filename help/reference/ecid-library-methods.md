@@ -4,7 +4,7 @@ description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 exl-id: ac1d1ee1-2b5f-457a-a694-60bb4c960ae7
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '785'
 ht-degree: 100%
 
 ---
@@ -65,15 +65,15 @@ demdex.net에 ID를 요청하고 ECID를 검색하면 추적 서버가 ECID 라�
 
 * 방문자가 다른 도메인으로 이동할 때 Visitor.appendVisitorIDsTo(url)는 ECID가 추가된 URL을 질의 매개 변수로 반환합니다.
 
-   이 URL을 사용하여 원래 도메인에서 대상 도메인으로 리디렉션합니다.
+  이 URL을 사용하여 원래 도메인에서 대상 도메인으로 리디렉션합니다.
 
 * 대상 도메인의 ID 서비스 코드는 Adobe에 해당 방문자의 ID 요청을 전송하는 대신 URL에서 ECID를 추출합니다.
 
-   이 요청에는 서드파티 쿠키 ID가 포함되어 있으며, 이 경우에는 사용할 수 없습니다.
+  이 요청에는 서드파티 쿠키 ID가 포함되어 있으며, 이 경우에는 사용할 수 없습니다.
 
 * 대상 페이지의 ID 서비스 코드는 전달한 ECID를 사용하여 방문자를 추적합니다.
 
-   >[!NOTE]
-   >대상 페이지에 이미 이전 방문의 ECID가 있는 경우, 기존 쿠키를 겹쳐 쓸 것인지 여부는 이 구성 overwriteCrossDomainMCIDAndAID에 의해 제어됩니다. 이 구성에 대한 자세한 내용은 [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md)를 참조하십시오.
-   >
-   >이 메서드에 대한 자세한 내용은 [appendVisitorIDsTo(도메인 간 추적)](/help/library/get-set/appendvisitorid.md) 참조 페이지를 참조하십시오.
+  >[!NOTE]
+  >대상 페이지에 이미 이전 방문의 ECID가 있는 경우, 기존 쿠키를 겹쳐 쓸 것인지 여부는 이 구성 overwriteCrossDomainMCIDAndAID에 의해 제어됩니다. 이 구성에 대한 자세한 내용은 [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md)를 참조하십시오.
+  >
+  >이 메서드에 대한 자세한 내용은 [appendVisitorIDsTo(도메인 간 추적)](/help/library/get-set/appendvisitorid.md) 참조 페이지를 참조하십시오.

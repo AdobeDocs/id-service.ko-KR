@@ -4,7 +4,7 @@ title: 옵트인 서비스 설정
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
 source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 100%
 
 ---
@@ -97,7 +97,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 ## 옵트인 워크플로 {#section-70cd243dec834c8ea096488640ae20a5}
 
-옵트인 서비스는 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있고 환경 설정이 한 번에 하나씩 제공되는 워크플로를 지원합니다. 다음 함수를 사용하여 `shouldWaitForComplete`에 대해 *true*&#x200B;를 제공하면 솔루션에서 한 개 카테고리 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 후 다음 카테고리 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 *보류*&#x200B;됩니다. 호출되면 상태는 *complete*&#x200B;로 설정됩니다.
+옵트인 서비스는 두 개 이상의 요청 주기를 통해 권한을 수집할 수 있고 환경 설정이 한 번에 하나씩 제공되는 워크플로를 지원합니다. 다음 함수를 사용하여 `shouldWaitForComplete`에 대해 *true*&#x200B;를 제공하면 솔루션에서 한 개 카테고리 또는 전체 카테고리의 서브 세트에 대한 동의를 수집한 후 다음 카테고리 또는 카테고리의 서브 세트에 대한 동의를 수집할 수 있습니다. `adobe.optIn.status` 속성은 첫 번째 호출부터 `adobe.optIn.complete()`가 흐름 끝에서 호출될 때까지 *보류 상태*&#x200B;가 됩니다. 호출되면 상태는 *complete*&#x200B;로 설정됩니다.
 
 ```
 adobe.optIn.approve(['AAM', 'ECID'], true); 

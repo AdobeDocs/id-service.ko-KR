@@ -5,7 +5,7 @@ title: AMCV 쿠키 또는 ID 서비스에서 지역 및 사용자 ID 가져오�
 exl-id: 986e761e-4bc7-4511-86b7-7d13a7761a2b
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '208'
 ht-degree: 100%
 
 ---

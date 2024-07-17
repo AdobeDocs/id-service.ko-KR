@@ -5,8 +5,8 @@ title: isCoopSafe
 exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ ID 서비스에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하
    <td colname="col2"> <p>디바이스 그래프를 작성하기 위해 디바이스 Co-op에서 사용 약관에 동의하거나 동의하지 않은 인증된 방문자에 대한 데이터를 사용하는 방법을 제어하려면 ID 서비스 코드에 <span class="codeph">isCoopSafe</span>를 추가합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </b>서드파티 사이트의 DIL<b> </b></p> </td> 
+   <td colname="col1"> <p> </b>서드파티 사이트의 DIL<b> </p> </td> 
    <td colname="col2"> <p>다음과 같은 서드파티 사이트에서 사용할 ID 서비스 코드에 <span class="codeph">isCoopSafe</span>를 추가합니다. </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">인증된 방문자가 사용 기간 계약을 수락했는지 여부를 확인할 수 없습니다. </li> 
@@ -109,7 +109,7 @@ POST 매개 수는 디바이스 그래프에 사용자 데이터를 포함할 �
  </tbody> 
 </table>
 
-## 사후 인스턴스화 API {#section-9281c39c8b6249d7864100b5cbca7dc6}
+## Post-Instantiation API {#section-9281c39c8b6249d7864100b5cbca7dc6}
 
 이러한 API를 사용하면 `isCoopSafe` 상태를 재정의할 수 있습니다. 이러한 기능은 페이지가 새로 고쳐지지 않는 사이트 또는 단일 페이지 앱에서 방문자의 사후 인스턴스화/사후 로그인 상태를 변경할 수 있도록 해 주므로 필요합니다. 예를 들어, 사용자가 사이트 또는 앱을 인증하고 나중에 Device Co-op에서 해당 데이터를 사용할 수 있도록 하는 사용 약관 정책을 수락하는 경우 이러한 API를 호출해야 합니다.
 
@@ -139,4 +139,3 @@ Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 >[!MORELIKETHIS]
 >
 >* [DIL isCoopSafe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html?lang=ko-KR)
-

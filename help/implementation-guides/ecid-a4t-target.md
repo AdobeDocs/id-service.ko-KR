@@ -5,7 +5,7 @@ title: Target의 서버측 구현 및 A4T에 ID 서비스 사용
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -157,9 +157,9 @@ Response.send("
 * **[!UICONTROL 이름:]** serverState
 * **[!UICONTROL 값:]** %serverState%
 
-   >[!IMPORTANT]
-   >
-   >값 이름은 페이지 코드의 `serverState`에 설정한 변수 이름과 일치해야 합니다.
+  >[!IMPORTANT]
+  >
+  >값 이름은 페이지 코드의 `serverState`에 설정한 변수 이름과 일치해야 합니다.
 
 구성된 설정은 다음과 같습니다.
 
@@ -197,4 +197,3 @@ Response.send("
 >[!MORELIKETHIS]
 >
 >* [노드 패키지 관리자의 서버측 ID 서비스 패키지](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
-
