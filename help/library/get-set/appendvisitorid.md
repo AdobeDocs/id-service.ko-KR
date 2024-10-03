@@ -3,14 +3,18 @@ description: 이 기능을 사용하면 브라우저에서 서드파티 쿠키�
 keywords: ID 서비스
 title: appendVisitorIDsTo (도메인 간 추적)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
-source-git-commit: c035f0af76f70322e4d79ed842502b26c3f155ac
+source-git-commit: fc630f3a161b65edab1c34ec3b3f07938bf13aaf
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 88%
 
 ---
 
 # appendVisitorIDsTo (도메인 간 추적){#appendvisitoridsto-cross-domain-tracking}
+
+>[!TIP]
+>
+>ECID가 초기(또는 이전)에 거부되면 도메인 간 추적이 의도한 대로 작동하지 않습니다. 동의가 &quot;아니요&quot;로 설정된 경우 ID가 URL을 통해 전달되었거나 이전에 쿠키에 존재했던 기존 ID는 확인하지 않습니다
 
 이 기능을 사용하면 브라우저에서 서드파티 쿠키를 차단할 때 도메인에서 방문자의 Experience Cloud ID를 공유할 수 있습니다. 이 기능을 사용하기 위해 ID 서비스를 구현했을 것이며, 소스 및 대상 도메인을 소유해야 합니다. VisitorAPI.js 버전 1.7.0 이상에서 사용 가능합니다.
 
