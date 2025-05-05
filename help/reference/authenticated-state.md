@@ -216,4 +216,4 @@ Object customerIDs = visitor.getCustomerIDs();
 
 ## Analytics 및 Audience Manager 고객을 위한 알림 {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 오브젝트가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 [병합 규칙 코드 구성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html?lang=en#configure-merge-rule-code) 설명서의 [!UICONTROL 방문자 ID 서비스] 섹션을 참조하십시오.
+선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 오브젝트가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 [병합 규칙 코드 구성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html?lang=ko#configure-merge-rule-code) 설명서의 [!UICONTROL 방문자 ID 서비스] 섹션을 참조하십시오.

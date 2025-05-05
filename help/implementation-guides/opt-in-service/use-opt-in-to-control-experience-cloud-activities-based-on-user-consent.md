@@ -31,13 +31,13 @@ Adobe [!UICONTROL 옵트인] 개체는 Adobe [!UICONTROL Experience Platform ID 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
 
-Experience Platform 태그를 사용하지 않는 경우, [설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lank=ko-KR)에 기재된 바와 같이 글로벌 방문자 개체의 초기화에서 [!UICONTROL 옵트인] 구성을 설정할 수 있습니다.
+Experience Platform 태그를 사용하지 않는 경우, [설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=ko&lank=ko-KR)에 기재된 바와 같이 글로벌 방문자 개체의 초기화에서 [!UICONTROL 옵트인] 구성을 설정할 수 있습니다.
 
 ## 페이지에서 [!UICONTROL 옵트인] 구현
 
 이러한 모든 설정 및 백엔드 항목은 사이트 방문자에게 동의 옵션을 제공하는 인터페이스를 제공하기 위한 것입니다. UI는 사용자가 작성할 수도 있고, CMP(동의 관리 플랫폼) 파트너를 사용하여 만들 수도 있습니다.
 
-동의 수집에 [!UICONTROL 옵트인]을 사용하도록 UI를 설정할 때, [!UICONTROL 옵트인]에 연결할 API를 호출하고 일부 또는 모든 Adobe Experience Cloud 솔루션에 동의하도록 구성해야 합니다. 이러한 API에 대한 자세한 내용은 [옵트인 참조 설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/api.html?lank=ko-KR)를 참조하십시오. 옵트인에 대한 추가 정보는 주변 문서 페이지에도 있습니다.
+동의 수집에 [!UICONTROL 옵트인]을 사용하도록 UI를 설정할 때, [!UICONTROL 옵트인]에 연결할 API를 호출하고 일부 또는 모든 Adobe Experience Cloud 솔루션에 동의하도록 구성해야 합니다. 이러한 API에 대한 자세한 내용은 [옵트인 참조 설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/api.html?lang=ko&lank=ko-KR)를 참조하십시오. 옵트인에 대한 추가 정보는 주변 문서 페이지에도 있습니다.
 
 ## [!UICONTROL 옵트인] 데모
 

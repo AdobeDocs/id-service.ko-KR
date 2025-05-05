@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Experience Cloud Identity Service 개요
 
-Experience Cloud Identity Service를 통해 Experience Cloud 애플리케이션 서비스에 대해 공통된 ID 프레임워크를 사용할 수 있습니다. Experience Cloud Identity Service를 사용하여 [Experience Cloud ID(ECID)](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html)를 설정할 수 있습니다.
+Experience Cloud Identity Service를 통해 Experience Cloud 애플리케이션 서비스에 대해 공통된 ID 프레임워크를 사용할 수 있습니다. Experience Cloud Identity Service를 사용하여 [Experience Cloud ID(ECID)](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html?lang=ko)를 설정할 수 있습니다.
 
 ECID는 방문자 행동을 추적하고 각 디바이스에 여러 세션에서 지속될 수 있는 고유 식별자가 있는지 확인하기 위해 Adobe Experience Platform 및 Experience Cloud 애플리케이션에서 사용되는 공유 ID 네임스페이스입니다.
 
