@@ -3,10 +3,10 @@ description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 �
 keywords: ID 서비스
 title: 콘텐츠 보안 정책 및 Experience Cloud ID 서비스
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: 2bb47b56b26ce6ea17297a9ee0200f2623e44e71
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 98%
+source-wordcount: '501'
+ht-degree: 79%
 
 ---
 
@@ -30,44 +30,85 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
 
 사용하는 각 목록 Experience Cloud 솔루션 또는 서비스에 이러한 도메인 이름 또는 URL을 CSP에 추가합니다.
 
-<table id="table_EC9FC999A62D4B7A830CE73B0AB9EF3C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Experience Cloud 솔루션 또는 서비스 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
+<table id="table_EC9FC999A62D4B7A830CE73B0AB9EF3C">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry">Experience Cloud 솔루션 또는 서비스</th>
+   <th colname="col2" class="entry">설명</th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>AppMeasurement</b> </p> </td> 
-   <td colname="col2"> <p>다음을 포함하도록 CSP를 수정합니다. </p> <p> 
-     <ul id="ul_7522AE83A03A4115A84DF5B32D6DD79B"> 
-      <li id="li_AB1EC161FB154BEDA1BEFE76C8A38A90"> <span class="codeph"> *.2o7.net</span> </li> 
-      <li id="li_4B12A283716746949201528CD6AF529E"> <span class="codeph"> *.omtrdc.net</span> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Target</b> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">*.tt.omtrdc.net</span>을 포함하도록 CSP를 수정합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Experience Cloud ID 서비스 및 Audience Manager</b> </p> </td> 
-   <td colname="col2"> <p>아래 도메인을 포함하도록 CSP를 수정합니다.</p> 
-   <p><ul>
-   <li>connect-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
-   <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
-   <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
-   <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
-   <li>Adobe Launch를 사용하여 태그를 배포하는 경우 도메인 목록에 <code>https://assets.adobedtm.com</code>도 추가해야 합니다.</li></ul></p> <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud ID 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하십시오. </p> </td> </tr> 
- <tr>
- <td colname="col1"> <p> <b>Activity Map 플러그인</b> </p> </td> 
- <td colname="col2"> <p>CSP가 *.adobe.com을 포함하도록 수정합니다. **참고**: 2020년 1월 이전에 Activity Map을 이미 설치한 경우 브라우저에는 여전히 *.omniture.com에 대한 초기 요청이 표시되지만 *.adobe.com으로 리디렉션 됩니다. </p></td> 
- </tr>
- <tr>
- <td colname="col1"> <p> <b>Advertising Analytics</b> </p> </td> 
- <td colname="col2"> <p>쿼리 문자열 매개 변수에 대한 제어 권한이 있는 경우 매개 변수 's_kwcid' 및 'ef_id'를 화이트리스트에 추가해야 합니다. 기술적으로, Advertising Analytics는 's_kwcid'만 사용하지만 Ad Cloud 검색 또는 DSP를 선택하는 경우 'ef_id'도 사용합니다. 이러한 쿼리 문자열 매개 변수는 영숫자입니다. `s_kwcid` 매개 변수는 “!”를 사용합니다. 문자 및 `ef_id` 매개 변수는 “:” 문자를 사용합니다. URL에서 “!” 문자를 차단하고 있는 경우, 문자를 화이트리스트에 추가해야 합니다.</p></td> 
- </tr>
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1">
+    <p><b>AppMeasurement</b></p>
+   </td>
+   <td colname="col2">
+    <p>다음을 포함하도록 CSP를 수정합니다.</p>
+    <ul id="ul_7522AE83A03A4115A84DF5B32D6DD79B">
+     <li id="li_AB1EC161FB154BEDA1BEFE76C8A38A90"><span class="codeph">*.2o7.net</span></li>
+     <li id="li_4B12A283716746949201528CD6AF529E"><span class="codeph">*.omtrdc.net</span></li>
+    </ul>
+   </td>
+  </tr>
+  <tr>
+   <td colname="col1">
+    <p><b>Target</b></p>
+   </td>
+   <td colname="col2">
+    <p><span class="codeph">*.tt.omtrdc.net</span>을 포함하도록 CSP를 수정합니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td colname="col1">
+    <p><b>Experience Cloud ID 서비스 및 Audience Manager</b></p>
+   </td>
+   <td colname="col2">
+    <p>아래 도메인을 포함하도록 CSP를 수정합니다.</p>
+    <ul>
+     <li>connect-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
+     <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
+     <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
+     <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
+     <li>Adobe Launch를 사용하여 태그를 배포하는 경우 도메인 목록에 <code>https://assets.adobedtm.com</code>도 추가해야 합니다.</li>
+    </ul>
+    <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하세요.</p>
+   </td>
+  </tr>
+  <tr>
+   <td colname="col1">
+    <p><b>Activity Map 플러그인</b></p>
+   </td>
+   <td colname="col2">
+    <p>CSP가 *.adobe.com을 포함하도록 수정합니다. **참고**: 2020년 1월 이전에 Activity Map을 이미 설치한 경우 브라우저에는 여전히 *.omniture.com에 대한 초기 요청이 표시되지만 *.adobe.com으로 리디렉션 됩니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td colname="col1">
+    <p><b>Advertising Analytics</b></p>
+   </td>
+   <td colname="col2">
+    <p>쿼리 문자열 매개 변수를 제한하는 경우 다음 매개 변수를 허용 목록에 추가합니다.</p>
+    <ul>
+     <li><code>s_kwcid</code> (<code>!</code> 사용)</li>
+     <li><code>ef_id</code> (<code>:</code> 사용)</li>
+    </ul>
+    <p>URL에서 <code>!</code> 문자를 차단하면 화이트리스트에 추가하세요.</p>
+    <p>Advertising Analytics은 <code>s_kwcid</code>만 사용하지만 Advertising 검색, 소셜, Commerce 및 Advertising DSP도 <code>ef_id</code>을(를) 사용합니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td colname="col1">
+    <p><b>Adobe Advertising</b></p>
+   </td>
+   <td colname="col2">
+    <p>다음 도메인을 포함하도록 CSP를 수정합니다.</p>
+    <ul>
+     <li><code>.everestjs.net</code></li>
+     <li><code>.everesttech.net</code></li>
+    </ul>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!MORELIKETHIS]
