@@ -1,24 +1,24 @@
 ---
-description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 허용 목록을 사용하여 신뢰할 수 있는 도메인의 리소스를 수락하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 keywords: ID 서비스
 title: 콘텐츠 보안 정책 및 Experience Cloud ID 서비스
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
-source-git-commit: 2bb47b56b26ce6ea17297a9ee0200f2623e44e71
+source-git-commit: c56bbaa6a3639e421c11a8231e14afb58a4fa305
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 79%
+ht-degree: 62%
 
 ---
 
 # 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
 
-CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 허용 목록을 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 허용 목록을 사용하여 신뢰할 수 있는 도메인의 리소스를 수락하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 
 ## CSP 검토 {#section-5fde5c00a678455c914b8307a8caab82}
 
 CSP는 HTTP 헤더 `Content-Security-Policy`를 사용하여 브라우저에서 페이지에 허용하거나 로드하는 리소스 유형을 제어합니다. CSP를 적용하면 다음을 방지할 수 있습니다.
 
-* 소스를 알 수 없거나 허용 목록에 포함되지 않은 경우 JavaScript 파일이 로드됨.
+* 소스를 알 수 없거나 JavaScript에 포함되지 않은 경우 허용 목록에 추가하다 파일이 로드됨.
 * XXS(교차 사이트 스크립팅) 공격.
 * 데이터 주입 공격.
 * 사이트 디페이스먼트 공격.
@@ -26,7 +26,7 @@ CSP는 HTTP 헤더 `Content-Security-Policy`를 사용하여 브라우저에서 
 
 CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설명하는 것은 이 설명서의 목적이 아닙니다(자세한 내용은 아래 관련 정보 링크 참조). 중요한 것은 CSP를 사용하고 보안 정책이 강력한 경우 CSP에 어떤 Adobe 도메인 이름을 추가해야 하는지를 이해하는 것입니다. 이러한 도메인을 추가하면 사이트에 액세스하는 방문자 브라우저에서 사용하는 Experience Cloud 리소스에 대한 중요한 호출을 수행할 수 있습니다.
 
-## 화이트리스트에 작성할 Experience Cloud 도메인 {#section-30693e9a96834edfbf04de9e698cf2aa}
+## 허용 목록에 추가를 위한 Experience Cloud 도메인 {#section-30693e9a96834edfbf04de9e698cf2aa}
 
 사용하는 각 목록 Experience Cloud 솔루션 또는 서비스에 이러한 도메인 이름 또는 URL을 CSP에 추가합니다.
 
@@ -87,12 +87,12 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
     <p><b>Advertising Analytics</b></p>
    </td>
    <td colname="col2">
-    <p>쿼리 문자열 매개 변수를 제한하는 경우 다음 매개 변수를 허용 목록에 추가합니다.</p>
+    <p>허용 목록에 추가하다 문자열 매개 변수를 쿼리하는 경우 다음 매개 변수를 제한합니다.</p>
     <ul>
      <li><code>s_kwcid</code> (<code>!</code> 사용)</li>
      <li><code>ef_id</code> (<code>:</code> 사용)</li>
     </ul>
-    <p>URL에서 <code>!</code> 문자를 차단하면 화이트리스트에 추가하세요.</p>
+    <p>허용 목록에 추가하다 URL에서 <code>!</code> 문자를 차단하는 경우 URL도 차단하십시오.</p>
     <p>Advertising Analytics은 <code>s_kwcid</code>만 사용하지만 Advertising 검색, 소셜, Commerce 및 Advertising DSP도 <code>ef_id</code>을(를) 사용합니다.</p>
    </td>
   </tr>
