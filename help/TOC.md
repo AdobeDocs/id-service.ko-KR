@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud Identity Service 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: Adobe Experience Cloud Identity Service는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이는 Experience Cloud 솔루션 및 서비스에 대한 레거시 ID 생성 코드를 대체하는 데 도움이 됩니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-source-git-commit: 6ef86bdb7bc10e24dbd3efe2481cb2e6e6c270fb
+source-git-commit: 68beec895b3d1dbab24a243bace52f669dd20247
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
       + [secureCookie](library/function-vars/securecookie.md)
       + [useCORSOnly](library/function-vars/use-cors-only.md)
       + [whitelistParentDomain 및 whitelistIframeDomains](library/function-vars/whitelistdomain.md)
-   + 메서드 {#methods}
+   + 메서드에서 사용할 수 있습니다 {#methods}
       + [메서드에서 사용할 수 있습니다](library/get-set/get-set.md)
       + [appendSupplementalDataIDTo](library/get-set/appendsupplementaldataidto.md)
       + [appendVisitorIDsTo (도메인 간 추적)](library/get-set/appendvisitorid.md)
@@ -108,7 +108,7 @@ ht-degree: 100%
    + [ID 서비스 FAQ](faq-intro/faq.md)
    + [Analytics 및 ID 서비스 FAQ](faq-intro/analytics-faq.md)
    + [기타 Experience Cloud 솔루션에 대한 FAQ](faq-intro/other-faq.md)
-+ ID 서비스에 대한 릴리스 정보 {#release-notes}
++ ID 서비스에 대한 릴리스 노트 {#release-notes}
    + [2022 릴리스 정보](release-notes/notes-2022.md)
    + [2021 릴리스 정보](release-notes/notes-2021.md)
    + [2020 릴리스 정보](release-notes/notes-2020.md)
@@ -118,3 +118,4 @@ ht-degree: 100%
    + [2016 릴리스 정보](release-notes/notes-2016.md)
    + [2015 릴리스 정보](release-notes/notes-2015.md)
 + [TOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
++ [숨겨진 테스트 파일](hidden-file.md)
