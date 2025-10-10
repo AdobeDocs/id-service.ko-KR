@@ -1,9 +1,9 @@
 ---
-description: 이 기능은 주로 A4T 고객이 단일 페이지 사이트/화면 또는 앱에서 ID 작업 관련 문제를 해결할 수 있도록 설계되었습니다.
+description: '이 기능은 주로 A4T 고객이 단일 페이지 사이트/화면 또는 앱에서 ID 작업 관련 문제를 해결할 수 있도록 설계되었습니다. '
 keywords: ID 서비스
 title: resetState
 exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 99%
@@ -25,11 +25,11 @@ ID 서비스를 사용하는 A4T 고객은 다음을 수행해야 하는 경우 
 
 ## 구문 {#section-9e63503e178f4be28ac850abf44d6d91}
 
-**구문:** ` visitor.resetState( *`상태`*);`
+**구문:** `visitor.resetState( *`상태`*);`
 
 ## 코드 샘플 {#section-d75b211bb4ea473887eb284de2ad838b}
 
-ID 서비스 구현은 이 함수를 사용하는 방법에 영향을 줍니다. 예시는 아래 표를 참조하십시오.
+ID 서비스 구현은 이 함수를 사용하는 방법에 영향을 줍니다. 예시는 아래 테이블을 참조하십시오.
 
 **서버측 구현**
 

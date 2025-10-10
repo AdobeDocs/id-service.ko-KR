@@ -3,7 +3,7 @@ description: Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉�
 keywords: ID 서비스
 title: getVisitorValues
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 95%
@@ -25,12 +25,12 @@ Analytics에 대한 식별자, 즉 ID 서비스, 데이터 컬렉션 옵트아�
 
 ## 구문 {#section-5aebe3907b2b46e997f45a1d1ed35c09}
 
-이 함수에서 사용하는 구문(기울임체는 변수 자리 표시자를 나타냄): ` var *`값`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID 유형`*, visitor.FIELDS. *`ID 유형`*]);`
+이 함수에서 사용하는 구문(기울임체는 변수 자리 표시자를 나타냄): `var *`값`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID 유형`*, visitor.FIELDS. *`ID 유형`*]);`
 
 함수 매개 변수 설명:
 
-* ` *`callback`*`은 반환된 ID를 수신하는 고유한 콜백 코드를 나타냅니다.
-* *(선택 사항)* ` visitor.FIELDS. *`ID 유형`*`은 이 함수가 반환할 [ID 값](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5)을 지정할 수 있는 열거형입니다.
+* `*`callback`*`은 반환된 ID를 수신하는 고유한 콜백 코드를 나타냅니다.
+* *(선택 사항)* `visitor.FIELDS. *`ID 유형`*`은 이 함수가 반환할 [ID 값](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5)을 지정할 수 있는 열거형입니다.
 
 자세한 내용은 다음 사용 사례 및 정의를 참조하십시오.
 
@@ -83,7 +83,7 @@ visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIEL
 
 ## 정의된 응답 매개 변수 {#section-4c4c300167694c6fbff1d6c612f372b5}
 
-다음 표에는 응답 매개 변수 목록 및 정의가 나와 있습니다. 또한 이러한 매개 변수는 `visitor.FIELDS` 열거형의 모든 값입니다. 참고 사항으로, 이 메서드는 특정 변수에 대한 값이 없으면 빈 문자열을 반환합니다.
+다음 테이블에는 응답 매개 변수 목록 및 정의가 나와 있습니다. 또한 이러한 매개 변수는 `visitor.FIELDS` 열거형의 모든 값입니다. 참고 사항으로, 이 메서드는 특정 변수에 대한 값이 없으면 빈 문자열을 반환합니다.
 
 <table id="table_32D0FEEA76CE4F298EED4B8F5C644232"> 
  <thead> 

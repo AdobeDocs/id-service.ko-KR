@@ -3,7 +3,7 @@ description: 이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함
 keywords: ID 서비스
 title: sdidParamExpiry
 exl-id: 5458ffa5-03d1-4c52-907d-c50fe00ce35d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 기본 SDID 시간 제한을 변경해야 하는 경우 다음 구문을 사용하여 `sdidParamExpiry`을 `Visitor.getInstance` 함수에 추가합니다.
 
-**구문:** ` sdidParamExpiry: *`시간(초)`*`
+**구문:** `sdidParamExpiry: *`시간(초)`*`
 
 **코드 샘플**
 

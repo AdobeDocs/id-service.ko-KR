@@ -3,7 +3,7 @@ description: 이들 지침은 Experience Cloud ID 서비스를 사용하고 데�
 keywords: ID 서비스
 title: Analytics 및 Audience Manager용 Experience Cloud ID 서비스 구현
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-source-git-commit: 26152f559150f5bd67d4802b8464446482f2e9a1
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 1단계: 서버측 전달 플랜 {#section-880797cc992d4755b29cada7b831f1fc}
 
-여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko-KR)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html?lang=ko)를 참조하십시오.
+여기에 설명된 단계 외에도 [!DNL Analytics] 및 [!DNL Audience Manager]를 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko-KR)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html)를 참조하십시오.
 
 서버측 전달로 마이그레이션하려면 계획 및 조정이 필요합니다. 이 프로세스에는 계정을 프로비저닝하기 위해 Adobe가 수행해야 하는 사이트 코드와 내부 단계에 대한 외부 변경 사항이 포함됩니다. 실제로 이러한 마이그레이션 절차는 대부분 동시에 수행되어야 하며 함께 출시됩니다. 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
 
@@ -151,7 +151,7 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## 7단계: 페이지에 방문자 API 코드 추가 {#section-c2bd096a3e484872a72967b6468d3673}
 
-각 페이지의 `<head>` 태그 내에 ` [!UICONTROL VisitorAPI.js]` 파일을 넣습니다. `VisitorAPI.js` 파일을 페이지에 넣을 경우:
+각 페이지의 `<head>` 태그 내에 `[!UICONTROL VisitorAPI.js]` 파일을 넣습니다. `VisitorAPI.js` 파일을 페이지에 넣을 경우:
 
 * `<head>` 섹션의 시작 부분에 넣어 다른 솔루션 태그 앞에 나타나게 합니다.
 * AppMeasurement 및 다른 [!DNL Experience Cloud] 솔루션에 대한 코드 앞에서 실행해야 합니다.

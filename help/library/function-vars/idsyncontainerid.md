@@ -3,7 +3,7 @@ description: 이 속성은 ID 동기화에 사용할 데이터 소스 컨테이�
 keywords: ID 서비스
 title: idSyncContainerID
 exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 94%
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 ## 구문 및 코드 샘플 {#section-b0c50732b1c84bed8616e82e8e83d58c}
 
-**구문:** ` idSyncContainerID: *`컨테이너 ID 값`*`
+**구문:** `idSyncContainerID: *`컨테이너 ID 값`*`
 
 **코드 샘플:**
 
@@ -81,7 +81,7 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 
 ## DIL 및 VisitorAPI.js 사용 시 컨테이너 ID 설정 {#section-f283cb69c8de4348b5316cc4e02a3e9e}
 
-동일한 페이지에서[!UICONTROL DIL &#x200B;]*및* VisitorAPI.js를 배포한 경우 다음을 수행하십시오.
+동일한 페이지에서[!UICONTROL DIL ]*및* VisitorAPI.js를 배포한 경우 다음을 수행하십시오.
 
 * 방문자 ID 서비스 코드가 ID 동기화를 위한 DIL보다 우선합니다.
 * ID 서비스 코드에서만 `idSyncContainerID` 구성을 설정합니다.

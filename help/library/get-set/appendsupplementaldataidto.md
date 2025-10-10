@@ -3,7 +3,7 @@ description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)�
 keywords: ID 서비스
 title: appendSupplementalDataIDTo를 참조하십시오
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
-source-git-commit: 5710539b45a81394061cd4af2ef3edc27b49092e
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## 구문 및 코드 샘플 {#section-cbb0b2f73bcc418386796c24c01b2365}
 
-**구문:** ` appendSupplementalDataIDTo( *`URL`*, *`SDID`*)`
+**구문:** `appendSupplementalDataIDTo( *`URL`*, *`SDID`*)`
 
 **코드 샘플**
 
@@ -54,7 +54,7 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID));
 
 기본 SDID 시간 제한을 변경해야 하는 경우 다음 구문을 사용하여 `sdidParamExpiry`를 `Visitor.getInstance` 함수에 추가합니다.
 
-**구문:** ` sdidParamExpiry: *`시간(초)`*`
+**구문:** `sdidParamExpiry: *`시간(초)`*`
 
 **코드 샘플**
 

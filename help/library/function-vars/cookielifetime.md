@@ -3,7 +3,7 @@ description: 이 변수를 사용하면 AMCV 쿠키의 기본 수명 간격을 �
 keywords: ID 서비스
 title: cookieLifetime
 exl-id: bdbabdcd-a87b-412c-8c2f-3f39820f939a
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 기본적으로, [!DNL Experience Cloud] ID 서비스 쿠키는 24개월 후에 만료됩니다. 시간 간격을 초 단위로 설정합니다.
 
-**구문:** ` cookieLifetime: *`수명(초)`*`
+**구문:** `cookieLifetime: *`수명(초)`*`
 
 **코드 샘플**
 

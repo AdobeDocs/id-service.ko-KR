@@ -2,10 +2,10 @@
 description: 웹 사이트에서 옵트인을 활성화한 후에는 유효성 검사 메서드를 사용하여 브라우저의 개발자 도구로 서비스가 예상대로 작동하는지 테스트합니다.
 title: 옵트인 서비스 확인
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 89%
+source-wordcount: '434'
+ht-degree: 91%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe 서버로의 요청이 표시되지 않아야 합니다.
 >
 >방문자의 옵트아웃 상태를 검색하는 데 사용되는 읽기 전용 엔드포인트인 `http://dpm.demdex.net/optOutStatus`에 대한 호출이 표시될 수 있습니다. 이 끝점으로 인해 서드파티 쿠키가 생성되지 않으며 페이지로부터 정보를 수집하지 않습니다.
 
-Adobe 태그에서 만든 쿠키(AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)가 표시되지 않아야 합니다.
+Adobe 태그에서 만든 쿠키(`AMCV_{{YOUR_ORG_ID}}`, `mbox`, `demdex`, `s_cc`, `s_sq`, `everest_g_v2`, `everest_session_v2`)가 표시되지 않습니다.
 
 Chrome에서 *애플리케이션* 탭으로 이동하여 *스토리지* 아래의 *쿠키* 섹션을 확장한 다음 웹 사이트의 도메인 이름을 선택합니다.
 

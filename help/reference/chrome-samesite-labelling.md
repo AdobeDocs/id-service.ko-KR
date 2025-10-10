@@ -2,7 +2,7 @@
 title: Google Chrome SameSite 레이블 설정 변경
 description: Adobe ECID(ID 서비스) 라이브러리에 대한 문서입니다.
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
-source-git-commit: ee4b7f8df5766372034da2a76e7acb81ba2a65f0
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 99%
@@ -67,7 +67,7 @@ Chrome에서 새로운 기본 SameSite 설정이 되는 `lax`를 사용하여 CN
 
 ## Adobe 표준 방문자 쿠키
 
-아래 표에는 일반적인 방문자 표준 쿠키만 나열되어 있습니다. 추가 쿠키 구성은 제품별 설명서를 참조하거나 Adobe 담당자에게 문의하십시오.
+아래 테이블에는 일반적인 방문자 표준 쿠키만 나열되어 있습니다. 추가 쿠키 구성은 제품별 설명서를 참조하거나 Adobe 담당자에게 문의하십시오.
 
 ### ECID
 
@@ -117,6 +117,8 @@ Chrome에서 새로운 기본 SameSite 설정이 되는 `lax`를 사용하여 CN
 | ------ | ---- | ------------------ | ---------------- |
 | _mkto_trk | 클라이언트측 자사 | 부가 가치가 없는 *Chrome의 기본값은 `lax` 설정 | 외부 페이지에 대해 구성 가능 |
 
->  Adobe 타사 쿠키가 서버측에서 설정되었습니다.
+>
+>
+>Adobe 서드파티 쿠키가 서버측에서 설정됩니다.
 
-자세한 내용은 [Target의 Google Chrome SameSite 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html?lang=ko)에 대한 문서를 참조하십시오.
+자세한 내용은 [Target의 Google Chrome SameSite 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html)에 대한 문서를 참조하십시오.
