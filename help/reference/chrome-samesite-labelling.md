@@ -121,4 +121,4 @@ Chrome에서 새로운 기본 SameSite 설정이 되는 `lax`를 사용하여 CN
 >
 >Adobe 서드파티 쿠키가 서버측에서 설정됩니다.
 
-자세한 내용은 [Target의 Google Chrome SameSite 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html)에 대한 문서를 참조하십시오.
+자세한 내용은 [Target의 Google Chrome SameSite 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html?lang=ko)에 대한 문서를 참조하십시오.
