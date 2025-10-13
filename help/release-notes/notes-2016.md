@@ -165,7 +165,7 @@ ht-degree: 100%
 **설명서 업데이트**
 
 * [Android 및 iOS용 SDK 요구 사항](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
-* [Data Workbench 및 Experience Cloud ID 서비스 ](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
+* [Data Workbench 및 Experience Cloud ID 서비스 &#x200B;](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
 * [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)
 
 ## 버전 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
@@ -201,7 +201,7 @@ ht-degree: 100%
 
 **설명서 업데이트**
 
-* [Analytics용 Experience Cloud ID 서비스 ](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd): [!DNL Analytics]에서 ID 서비스를 설정하는 방법을 설명하는 새로운 절차입니다.
+* [Analytics용 Experience Cloud ID 서비스 &#x200B;](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd): [!DNL Analytics]에서 ID 서비스를 설정하는 방법을 설명하는 새로운 절차입니다.
 
 * [Experience Cloud ID 서비스 마이그레이션 의사 결정 지점](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): 명확성을 위해 텍스트가 수정되었습니다. 단일 도메인을 사용하여 작업하면 더 이상 관리하지 않으려는 경우 데이터 수집 CNAME에서 마이그레이션할 수 있습니다. 그러나 CNAME이 작동하는 경우에는 변경할 필요가 없습니다.
 
