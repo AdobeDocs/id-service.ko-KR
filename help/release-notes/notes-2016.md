@@ -164,7 +164,7 @@ ht-degree: 100%
 **설명서 업데이트**
 
 * [Android 및 iOS용 SDK 요구 사항](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
-* [Data Workbench 및 Experience Cloud ID 서비스 ](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
+* [Data Workbench 및 Experience Cloud ID 서비스](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
 * [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)
 
 ## 버전 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
