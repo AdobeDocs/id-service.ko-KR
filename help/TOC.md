@@ -4,9 +4,9 @@ user-guide-title: Experience Cloud Identity Service 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: Adobe Experience Cloud Identity Service는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이는 Experience Cloud 솔루션 및 서비스에 대한 레거시 ID 생성 코드를 대체하는 데 도움이 됩니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-source-git-commit: 68beec895b3d1dbab24a243bace52f669dd20247
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '360'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 98%
    + [구현 방법](implementation-guides/implementation-methods.md)
    + [구현 안내서](implementation-guides/implementation-guides.md)
    + [Experience Platform 태그를 사용하여 구현](implementation-guides/ecid-implement-with-launch.md)
-   + [Analytics 구현](implementation-guides/setup-analytics.md)
+   + [Analytics 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
    + [Target 구현](implementation-guides/setup-target.md)
    + [Analytics 및 Audience Manager 구현](implementation-guides/setup-aam-analytics.md)
    + [Analytics, Audience Manager 및 Target 구현](implementation-guides/setup-aam-analytics-target.md)
@@ -81,16 +81,6 @@ ht-degree: 98%
       + [resetState](library/get-set/resetstate.md)
 + 참조 {#reference}
    + [참조 개요](reference/reference.md)
-   + Analytics 참조 {#analytics-reference}
-      + [Analytics 참조 개요](reference/analytics-reference/analytics-reference.md)
-      + [CNAME 구현 개요](reference/analytics-reference/cname.md)
-      + [Analytics 및 Experience Cloud ID 설정](reference/analytics-reference/analytics-ids.md)
-      + [Analytics ID 작업 순서](reference/analytics-reference/analytics-order-of-operations.md)
-      + [ID 서비스 마이그레이션 결정 사항](reference/analytics-reference/migration-decisions.md)
-      + [ID 서비스 마이그레이션 시나리오](reference/analytics-reference/migration-scenarios.md)
-      + [Analytics 및 ID 요청](reference/analytics-reference/legacy-analytics.md)
-      + [JavaScript와 혼합된 서버측 구현](reference/analytics-reference/server-side.md)
-      + [ID 서비스 유예 기간](reference/analytics-reference/grace-period.md)
    + [Google Chrome SameSite 레이블 설정 변경](reference/chrome-samesite-labelling.md)
    + [콘텐츠 보안 정책 및 ID 서비스](reference/csp.md)
    + [ID 서비스에서 COPPA 지원](reference/coppa.md)
@@ -106,7 +96,6 @@ ht-degree: 98%
 + FAQ {#faqs}
    + [FAQ 개요](faq-intro/faq-intro.md)
    + [ID 서비스 FAQ](faq-intro/faq.md)
-   + [Analytics 및 ID 서비스 FAQ](faq-intro/analytics-faq.md)
    + [기타 Experience Cloud 솔루션에 대한 FAQ](faq-intro/other-faq.md)
 + ID 서비스에 대한 릴리스 노트 {#release-notes}
    + [2022 릴리스 정보](release-notes/notes-2022.md)

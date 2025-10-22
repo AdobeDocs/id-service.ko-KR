@@ -3,10 +3,10 @@ description: Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에
 keywords: ID 서비스
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 **사례 2**
 
-ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](../../reference/analytics-reference/grace-period.md)을 사용하는 경우 조회 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid` ([!DNL Experience Cloud] ID) 매개 변수를 받게 됩니다.
+ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 사용하는 경우 조회 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid` ([!DNL Experience Cloud] ID) 매개 변수를 받게 됩니다.
 
 >[!MORELIKETHIS]
 >

@@ -3,10 +3,10 @@ description: 2015년의 릴리스 정보 및 업데이트입니다.
 keywords: ID 서비스
 title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 96%
 
 ---
 
@@ -37,8 +37,7 @@ COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Prot
   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * ID 서비스 사용.
-   * [유예 기간&#x200B;](../reference/analytics-reference/grace-period.md)*을 활성화했거나*&#x200B;자사 쿠키를 사용하고 사용자가 서드파티 쿠키 차단
-
+   * [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
 이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.
@@ -65,8 +64,6 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
     "idSyncContainerID":80 
 });
 ```
-
-[Experience Cloud](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd)를 참조하십시오.
 
 ## 버전 1.3.5 {#section-eed4567f058f446d9a819e4682621aed}
 

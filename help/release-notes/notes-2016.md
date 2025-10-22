@@ -5,9 +5,9 @@ title: 2016 릴리스 정보
 feature-set: Experience Cloud Services
 feature: TK421
 exl-id: f96b9869-6282-4090-b392-797608e25a51
-source-git-commit: d027f7fca8cf62d6b5d80ec3c37049ddd1afdd70
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->* 버전 1.10에는 [!UICONTROL AppMeasurement] 1.8.0이 필요합니다.
->* Experience Cloud ID 서비스 라이브러리 2.0.0 이상을 사용하면 기본적으로 Adobe Media Optimizer에 대한 ID 동기화가 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
+>* 버전 1.10은 [!UICONTROL AppMeasurement] 1.8.0이 필요합니다.
+>* Experience Cloud Identity 서비스 라이브러리 2.0.0 이상을 사용하면 기본적으로 Adobe Media Optimizer에 대한 ID 동기화가 시작됩니다. [ID 동기화 및 일치율 이해](/help/introduction/match-rates.md)를 참조하십시오.
 
 **수정 사항 및 향상된 기능**
 
@@ -123,7 +123,6 @@ ht-degree: 100%
 
 **신규**
 
-* [Analytics용 Experience Cloud ID 서비스 구현](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd)
 * [Analytics, Audience Manager 및 Target용 Experience Cloud ID 서비스 구현](../implementation-guides/setup-aam-analytics-target.md#concept-e7e2dc0d0bbe481db93328b5604b4673)
 
 **수정된 설명서**
@@ -165,7 +164,7 @@ ht-degree: 100%
 **설명서 업데이트**
 
 * [Android 및 iOS용 SDK 요구 사항](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
-* [Data Workbench 및 Experience Cloud ID 서비스 &#x200B;](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
+* [Data Workbench 및 Experience Cloud ID 서비스 ](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
 * [Experience Cloud ID 서비스 테스트 및 확인](../implementation-guides/test-verify.md)
 
 ## 버전 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
@@ -198,12 +197,6 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
-**설명서 업데이트**
-
-* [Analytics용 Experience Cloud ID 서비스 &#x200B;](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd): [!DNL Analytics]에서 ID 서비스를 설정하는 방법을 설명하는 새로운 절차입니다.
-
-* [Experience Cloud ID 서비스 마이그레이션 의사 결정 지점](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): 명확성을 위해 텍스트가 수정되었습니다. 단일 도메인을 사용하여 작업하면 더 이상 관리하지 않으려는 경우 데이터 수집 CNAME에서 마이그레이션할 수 있습니다. 그러나 CNAME이 작동하는 경우에는 변경할 필요가 없습니다.
 
 ## 버전 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 
