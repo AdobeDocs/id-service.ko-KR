@@ -206,7 +206,7 @@ JavaScript 요청에서 SDID 식별자를 확인합니다. Analytics SDID는 Tar
 테스트가 AID를 반환하면 이는 다음 중 하나를 나타냅니다.
 
 * 기존 [!DNL Analytics] ID를 마이그레이션하는 과정에 있는 재방문자입니다.
-* [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 활성화했습니다.
+* [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 활성화했습니다.
 
 AID가 표시되면 [!DNL Target] mboxMCAVID에 대해 해당 값을 확인합니다. 이러한 값은 ID 서비스가 올바르게 구현된 경우 동일합니다.
 

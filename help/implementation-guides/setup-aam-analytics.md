@@ -158,7 +158,7 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## 8단계: (선택 사항) 유예 기간 구성 {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-이러한 사용 사례가 현재 상황에 적용되는 경우 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 임시 [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 설정하도록 요청하십시오. 유예 기간은 최대 180일 동안 실행될 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
+이러한 사용 사례가 현재 상황에 적용되는 경우 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 임시 [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 설정하도록 요청하십시오. 유예 기간은 최대 180일 동안 실행될 수 있습니다. 필요한 경우 유예 기간을 갱신할 수 있습니다.
 
 **부분적인 구현**
 
