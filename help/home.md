@@ -19,8 +19,8 @@ Experience Cloud Identity Service를 통해 Experience Cloud 애플리케이션 
 Adobe이 방문자를 고유하게 식별하고 ID 정보를 확인하는 데 어떻게 도움이 되는지 더 잘 이해하려면 아래 분류를 읽어 보십시오.
 
 * **Experience Cloud Identity Service**: Experience Cloud Identity Service **는 Experience Cloud ID(ECID)** 설정을 담당합니다. 자세한 내용은 [Experience Cloud Identity Service 개요](./introduction/overview.md)를 참조하십시오.
-* **Experience Cloud ID(ECID)**: ECID는 Adobe Experience Platform 및 Adobe Experience Cloud 애플리케이션에서 사용자와 디바이스를 식별하는 데 사용되는 공유 ID 네임스페이스입니다. ECID에 대한 자세한 내용은 [ECID 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html)를 참조하십시오.
-* **Experience Platform Identity Service**: Experience Platform Identity Service는 디바이스와 시스템 간에 ID를 연결하여 고객 및 고객 행동에 대한 포괄적인 보기를 제공합니다. 자세한 내용은 [Experience Platform Identity Service 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)를 참조하십시오.
+* **Experience Cloud ID(ECID)**: ECID는 Adobe Experience Platform 및 Adobe Experience Cloud 애플리케이션에서 사용자와 디바이스를 식별하는 데 사용되는 공유 ID 네임스페이스입니다. ECID에 대한 자세한 내용은 [ECID 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html?lang=ko)를 참조하십시오.
+* **Experience Platform Identity Service**: Experience Platform Identity Service는 디바이스와 시스템 간에 ID를 연결하여 고객 및 고객 행동에 대한 포괄적인 보기를 제공합니다. 자세한 내용은 [Experience Platform Identity Service 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)를 참조하십시오.
 
 <!-- The Adobe Experience Cloud Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for Experience Cloud solutions and services. -->
 
@@ -31,7 +31,7 @@ Adobe이 방문자를 고유하게 식별하고 ID 정보를 확인하는 데 �
      <ul id="ul_D5EC6A54A03F4AB595B588116A7C1296"> 
       <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="introduction/overview.md" format="dita" scope="local"> 개요 </a> </li> 
       <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/requirements.md" format="dita" scope="local">Experience Cloud ID 서비스 요구 사항</a> </li> 
-      <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lank=ko-KR" format="html" scope="external"> Platform 태그를 사용한 표준 구현 </a> </li> 
+      <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko&lank=ko-KR" format="html" scope="external"> Platform 태그를 사용한 표준 구현 </a> </li> 
      </ul> </p> <p><b>Experience Cloud ID Javascript 라이브러리</b> </p> <p>Experience Cloud ID 서비스에 대한 JavaScript는 <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external">https://github.com/Adobe-Marketing-Cloud/id-service/releases</a>에 있습니다. </p> <p> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul id="ul_B0A25B6827734D55BB1E20D12334AC21"> 
       <li id="li_A66924F4948F4A5ABA545A89A28A6F6A"><a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> 옵트인 서비스</a>입니다 </li> 

@@ -15,7 +15,7 @@ Adobe Experience Platform Launch를 사용하여 옵트인에 대한 환경 Expe
 
 ## Experience Platform Launch로 옵트인 시나리오 구성 {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
-[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하면 Adobe 솔루션을 사용하여 시나리오에 옵트인을 쉽게 구성하고 설정할 수 있습니다. Analytics, Target, Audience Manager 등을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화하거나 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
+[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하면 Adobe 솔루션을 사용하여 시나리오에 옵트인을 쉽게 구성하고 설정할 수 있습니다. Analytics, Target, Audience Manager 등을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화하거나 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
 
 **Experience Cloud ID 확장 구성**
 

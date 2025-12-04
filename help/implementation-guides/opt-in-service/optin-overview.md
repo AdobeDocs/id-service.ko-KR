@@ -17,7 +17,7 @@ ht-degree: 100%
 
 옵트인 서비스를 사용하여 방문자가 Adobe 솔루션을 한꺼번에 옵트인할 수 있는지를 지정하거나 권한을 얻기 위해 솔루션을 순서대로 표시할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색할 수 있습니다.
 
-옵트인 서비스는 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)과 함께 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하여 쉽게 구현하고 구성할 수 있습니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
+옵트인 서비스는 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)과 함께 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하여 쉽게 구현하고 구성할 수 있습니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
 
 시작하려면 [옵트인 서비스 설정](../../implementation-guides/opt-in-service/getting-started.md)을 참조하십시오.
 
