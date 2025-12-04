@@ -50,7 +50,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 });
 ```
 
-`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. 이는 [`s_gi()`의 ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html?lang=ko-KR) 함수[!DNL AppMeasurement]과(와) 유사합니다.
+`getInstance`에서 기존 인스턴스를 찾지 못할 경우 새 인스턴스가 만들어진 후 반환됩니다. 이는 [`s_gi()`의 &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html?lang=ko-KR) 함수[!DNL AppMeasurement]과(와) 유사합니다.
 
 **일반적인 사용**
 

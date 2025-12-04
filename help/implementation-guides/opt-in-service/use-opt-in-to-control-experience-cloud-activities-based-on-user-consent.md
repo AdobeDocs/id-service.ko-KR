@@ -31,7 +31,7 @@ Adobe [!UICONTROL Opt-in] 개체는 Adobe [!UICONTROL Experience Platform Identi
 
 >[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
 
-Experience Platform 태그를 사용하지 않는 경우 [!UICONTROL Opt-in]설명서[와 같이 글로벌 방문자 개체의 초기화에서 ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lank=ko-KR)의 구성을 설정할 수 있습니다.
+Experience Platform 태그를 사용하지 않는 경우 [!UICONTROL Opt-in]설명서[와 같이 글로벌 방문자 개체의 초기화에서 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lank=ko-KR)의 구성을 설정할 수 있습니다.
 
 ## 페이지에서 [!UICONTROL Opt-In] 구현
 
