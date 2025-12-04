@@ -3,7 +3,7 @@ description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이
 keywords: ID 서비스
 title: 2020 릴리스 정보
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
-source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 99%
@@ -47,3 +47,4 @@ ECID에 optIn `pre-approval`이 부여되고 나중에 업데이트되는 경우
 * 옵트인이 `doesOptInApply=false` 및 `isIabContext=true`로 구성되었을 때 발생하는 문제를 수정했습니다.
 
 모든 제품에 대한 월별 릴리스 정보는 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 확인하십시오.
+

@@ -3,7 +3,7 @@ description: Adobe Experience Cloud에서 Experience Cloud Identity 서비스의
 keywords: ID 서비스
 title: 개요
 exl-id: d907e299-bde0-4b5f-8c16-867a4eaa8be1
-source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 96%
@@ -20,7 +20,7 @@ mcvid-functionality.xml
 
 ## Experience Cloud ID 서비스: 핵심 서비스의 기본 요소 {#section-2de0eb1d65664e92a4d8bbb167b84bde}
 
-Experience Cloud ID 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상에 공통된 ID 프레임워크를 사용할 수 있습니다. 영구적인 고유 ID를 사이트 방문자에게 할당하여 작동합니다. 조직이 ID 서비스를 구현하면 이 ID를 사용하여 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
+Experience Cloud ID 서비스를 통해 Experience Cloud 핵심 서비스, 솔루션, 고객 속성 및 대상자에 공통된 ID 프레임워크를 사용할 수 있습니다. 영구적인 고유 ID를 사이트 방문자에게 할당하여 작동합니다. 조직이 ID 서비스를 구현하면 이 ID를 사용하여 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다.
 
 ![](assets/ecid-new.png)
 
@@ -38,3 +38,4 @@ ID 서비스를 요약하자면 다음과 같습니다.
 * [!DNL Experience Cloud] 고객 및 파트너로부터 별칭 및 ID 매핑을 받습니다.
 * [!DNL Experience Cloud] 내에서 ID 동기화를 관리합니다.
 * 광고 기술 에코 시스템에서 다른 서드파티와 ID 동기화를 지원합니다.
+

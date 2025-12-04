@@ -3,7 +3,7 @@ description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이
 keywords: ID 서비스
 title: 2021 릴리스 정보
 exl-id: 56bffb6f-a4fc-40df-8bb2-17e43772fe60
-source-git-commit: 52956b38c59f60507aaf236b152ce41fc1229d14
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
@@ -33,3 +33,4 @@ visitorInstance.onReceiveEcid(callback(ecid){
  console.log(ecid)
 })
 ```
+

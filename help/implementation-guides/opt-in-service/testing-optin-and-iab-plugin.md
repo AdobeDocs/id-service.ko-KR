@@ -2,7 +2,7 @@
 description: 웹 사이트에서 옵트인을 활성화한 후에는 유효성 검사 메서드를 사용하여 브라우저의 개발자 도구로 서비스가 예상대로 작동하는지 테스트합니다.
 title: 옵트인 서비스 확인
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 91%
@@ -113,3 +113,4 @@ Visitor.getInstance({{YOUR_ORG_ID}}, {
 
 * 용도 1, 2 또는 5가 승인되지 않았습니다.
 * Audience Manager 공급업체 ID가 승인되지 않았습니다.
+

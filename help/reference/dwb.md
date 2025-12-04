@@ -3,9 +3,9 @@ description: 다음 지침에 따라 Experience Cloud ID 필드를 Data Workbenc
 keywords: ID 서비스
 title: Data Workbench 및 Experience Cloud ID 서비스
 exl-id: 1903918d-44e4-4790-ab1f-49f5bb701e31
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. 현재 [디코더 그룹](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/dataset-include-files/types-dataset-inc-files/c-text-file-dec-groups.html?lang=ko-KR) 구성 파일을 찾습니다.
 
-   일반적으로 [!DNL Decoder Group]은 다음 경로의 [!UICONTROL 프로필 관리자]에 있습니다. `Dataset\Log Processing\Decoding Instructions.cfg` 1. 구성 파일의 현재 디코더 형식을 복사합니다.
+   일반적으로 [!DNL Decoder Group]은 `Dataset\Log Processing\Decoding Instructions.cfg` 경로의 [!UICONTROL Profile Manager]에 있습니다. 1. 구성 파일의 현재 디코더 형식을 복사합니다.
 1. 원본 아래에 디코더 형식을 붙여넣습니다.
 1. 디코더 형식을 열고 다음 새 필드 위치를 목록 끝에 추가합니다.
 
@@ -827,3 +827,4 @@ Log Processing Include = LogProcessingInclude:
   Stage = string: Default
   Transformations = vector: 0 items
 ```
+

@@ -3,10 +3,10 @@ description: ID 서비스 사용과 관련된 기능 및 문제에 대한 FAQ입
 keywords: ID 서비스
 title: ID 서비스 FAQ
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -87,3 +87,4 @@ ID 서비스 호출은 비동기적으로 수행되며 유일한 [demdex.net 도
 >[!MORELIKETHIS]
 >
 >* [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
+

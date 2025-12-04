@@ -2,7 +2,7 @@
 description: 옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다.
 title: 옵트인 서비스
 exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
-source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 옵트인 서비스를 사용하여 방문자가 Adobe 솔루션을 한꺼번에 옵트인할 수 있는지를 지정하거나 권한을 얻기 위해 솔루션을 순서대로 표시할 수 있습니다. 고객이 승인 프로세스를 완료하고 기록하면 모든 Adobe 솔루션에서 CMP 방문자 승인을 검색할 수 있습니다.
 
-옵트인 서비스는 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)과 함께 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하여 쉽게 구현하고 구성할 수 있습니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
+옵트인 서비스는 [옵트인 확장 기능](../../implementation-guides/opt-in-service/launch.md)과 함께 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하여 쉽게 구현하고 구성할 수 있습니다. [DTM](../../implementation-guides/opt-in-service/optin-dtm.md)을 사용하여 구현하고 구성할 수도 있습니다.
 
 시작하려면 [옵트인 서비스 설정](../../implementation-guides/opt-in-service/getting-started.md)을 참조하십시오.
 
@@ -45,3 +45,4 @@ ht-degree: 100%
 ![](assets/Opt-in-approval.png)
 
 그런 다음 Adobe 솔루션에서 태그가 승인되었는지 확인하고 변경 사항에 동의한 다음 모든 옵트인 고객을 검색할 수 있습니다. 옵트인 서비스를 사용하면 솔루션 JavaScript 라이브러리나 ECID가 구현된 경우 해당 라이브러리나 ECID를 통해 직접 권한을 얻을 수 있습니다.
+

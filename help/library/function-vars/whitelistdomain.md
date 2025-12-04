@@ -3,9 +3,9 @@ description: 이러한 구성을 사용하면 iFrame 및 상위 페이지에 구
 keywords: ID 서비스
 title: whitelistParentDomain 및 whitelistIframeDomains
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '859'
 ht-degree: 98%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 98%
 
 ## 코드 샘플 {#section-09d0049fe88a473baa69d404c50bf8ae}
 
-구성된 [!UICONTROL ID 서비스] 코드는 이 예제와 유사할 수 있습니다.
+구성된 [!UICONTROL ID service] 코드는 이 예제와 유사할 수 있습니다.
 
 ```js
 //Instantiate Visitor 
@@ -109,7 +109,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
  </tbody> 
 </table>
 
-**사용 사례 2: 제어하지 않거나 ID 서비스를 사용하지 않는 상위 페이지에 포함된 iFrame에서 ID 요청**
+**사용 사례 2: 제어하지 않거나 ID 서비스를 사용하지 않는 상위 페이지에 임베드된 iFrame에서 ID 요청**
 
 <table id="table_1F21710F9D5F493BA6BA5974F2966DF4"> 
  <thead> 
@@ -184,3 +184,4 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
   </tr> 
  </tbody> 
 </table>
+

@@ -3,7 +3,7 @@ description: 2017년 Experience Cloud ID 서비스의 기능 릴리스, 업데�
 keywords: ID 서비스
 title: 2017 릴리스 정보
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
-source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 99%
@@ -210,3 +210,4 @@ ID 서비스가 AMCV 쿠키에 저장된 ID를 사용하는 대신 ID에 대한 
 ## 이전 연도 {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
 이전 ID 서비스 릴리스 정보입니다.
+

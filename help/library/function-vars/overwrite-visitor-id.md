@@ -3,7 +3,7 @@ description: 이 속성은 방문자가 한 도메인에서 두 번째 도메인
 keywords: ID 서비스
 title: overwriteCrossDomainMCIDAndAID
 exl-id: 726261b1-c8d0-4b12-b0cb-52d7e21e7fac
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -32,7 +32,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", {
 
 **사용 사례**
 
-사이트 방문자를 추적하기 위해 ID 서비스에서는 MID[!DNL Experience Cloud] ID(또는 MID)를 브라우저 쿠키에 작성합니다. 다음 표에서는 다른 도메인의 ID 서비스에서 설정한 기존 MID를 덮어쓸 수 있는 일반적인 사용 사례를 나열하고 설명합니다.
+사이트 방문자를 추적하기 위해 ID 서비스에서는 MID[!DNL Experience Cloud] ID(또는 MID)를 브라우저 쿠키에 작성합니다. 다음 테이블에서는 다른 도메인의 ID 서비스에서 설정한 기존 MID를 덮어쓸 수 있는 일반적인 사용 사례를 나열하고 설명합니다.
 
 <table id="table_FC1AF6551D6646E0BF1C4FB7C1316EBB"> 
  <thead> 
@@ -67,3 +67,4 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", {
   </tr> 
  </tbody> 
 </table>
+

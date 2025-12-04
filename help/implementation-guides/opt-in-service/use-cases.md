@@ -2,10 +2,10 @@
 description: 옵트인 서비스를 관리하는 샘플 사용 사례 및 솔루션.
 title: 옵트인 사용 사례
 exl-id: 4c57685f-40b7-4af4-8527-3c2795586f0f
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>자사 측정은 동의 전 상태에서 수집해도 됩니다. 다른 모든 유형의 데이터 사용은 동의를 받을 때까지 금지됩니다. </p> </td> 
-   <td colname="col2"> <p>동의 전 상태에서 Analytics + ECID 라이브러리를 활성화하려면 옵트인을 사용하십시오. </p> <p>'disablethirdpartycookies' 구성을 ECID 라이브러리에 추가하여 동의 전 상태에서 서드파티 쿠키 + ID 동기화를 차단합니다. </p> </td> 
+   <td colname="col2"> <p>동의 전 상태에서 Analytics + ECID 라이브러리를 활성화하려면 옵트인을 사용하십시오. </p> <p>동의 전 상태에서 타사 쿠키 + ID를 차단하려면 'disablethirdpartycookies' 구성을 ECID 라이브러리에 추가합니다. </p> </td> 
    <td colname="col3"> <p>Adobe Demdex 호출은 ECID 검색을 위해 트리거되지만 Demdex 쿠키는 없으며 다른 서드파티 쿠키 또는 ID 동기화가 존재합니다. </p> <p>일관된 방문자를 Analytics에 대한 동의 전/후 상태로 유지합니다. 동의 전 상태의 수집은 동의 후 데이터 수집과 연결됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -54,3 +54,4 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
+

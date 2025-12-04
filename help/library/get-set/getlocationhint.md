@@ -3,7 +3,7 @@ description: Experience Cloud ID 서비스 지역 ID를 반환합니다. 지역 
 keywords: ID 서비스
 title: getLocationHint
 exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
@@ -32,3 +32,4 @@ var callback = function (
 //Get the region ID 
 visitor.getLocationHint(callback, true); 
 ```
+

@@ -3,7 +3,7 @@ description: 2015년의 릴리스 정보 및 업데이트입니다.
 keywords: ID 서비스
 title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
-source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 96%
@@ -37,7 +37,7 @@ COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Prot
   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * ID 서비스 사용.
-   * [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
+   * [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
 이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.
@@ -76,3 +76,4 @@ AAM Blob 및 위치 힌트 요청에 대한 제한 시간의 처리가 수정되
 2015년 1월
 
 대/소문자 구분 설정이 다를 수 있는 서로 다른 DOM 구현(HTML과 XHTML)을 설명하기 위해 `<script>` 태그의 생성은 물론, JSONP 요청 `<script>` 태그 컨테이너에 대한 `<head>/<body>` 태그 찾기가 다시 작성되었습니다. (AN-9355)
+
