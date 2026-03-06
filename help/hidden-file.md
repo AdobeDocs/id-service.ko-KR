@@ -1,9 +1,8 @@
 ---
 title: 테스트 파일
 description: 숨겨진 테스트 파일입니다. 무시하십시오.
-hidefromtoc: true
 hide: true
-source-git-commit: 024a897ebbe8f134096f2ab7575d5627019c3fa7
+source-git-commit: 13bfd8b38596dd64f607c897a60bbeb2733b89bf
 workflow-type: tm+mt
 source-wordcount: '16'
 ht-degree: 37%

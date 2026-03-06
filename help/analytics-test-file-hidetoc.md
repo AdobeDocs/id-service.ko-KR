@@ -1,9 +1,8 @@
 ---
 title: 테스트 파일
 description: 분석을 수집하기 위한 테스트 파일입니다. 무시하십시오.
-hidefromtoc: true
 exl-id: d764e055-9644-473b-ab0a-e5007319dbc7
-source-git-commit: 024a897ebbe8f134096f2ab7575d5627019c3fa7
+source-git-commit: 13bfd8b38596dd64f607c897a60bbeb2733b89bf
 workflow-type: tm+mt
 source-wordcount: '28'
 ht-degree: 50%
