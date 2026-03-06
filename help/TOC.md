@@ -106,5 +106,5 @@ ht-degree: 96%
    + [2017 릴리스 정보](release-notes/notes-2017.md)
    + [2016 릴리스 정보](release-notes/notes-2016.md)
    + [2015 릴리스 정보](release-notes/notes-2015.md)
-+ {hide-from-toc}[TOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
-+ {hide-from-toc}[숨겨진 테스트 파일](hidden-file.md)
++ [hide-from-tocTOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
++ [hide-from-toc숨겨진 테스트 파일](hidden-file.md)
