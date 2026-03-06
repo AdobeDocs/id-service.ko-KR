@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud Identity Service 도움말
 breadcrumb-title: Identity 서비스 안내서
 user-guide-description: Adobe Experience Cloud Identity Service는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이는 Experience Cloud 솔루션 및 서비스에 대한 레거시 ID 생성 코드를 대체하는 데 도움이 됩니다.
 user-guide-url: /content/help/en/id-service/using/home.html
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+source-git-commit: 13bfd8b38596dd64f607c897a60bbeb2733b89bf
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
    + [구현 방법](implementation-guides/implementation-methods.md)
    + [구현 안내서](implementation-guides/implementation-guides.md)
    + [Experience Platform 태그를 사용하여 구현](implementation-guides/ecid-implement-with-launch.md)
-   + [Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview){target=_blank}
+   + [Analytics 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview){target=_blank}
    + [Target 구현](implementation-guides/setup-target.md)
    + [Analytics 및 Audience Manager 구현](implementation-guides/setup-aam-analytics.md)
    + [Analytics, Audience Manager 및 Target 구현](implementation-guides/setup-aam-analytics-target.md)
@@ -106,5 +106,5 @@ ht-degree: 98%
    + [2017 릴리스 정보](release-notes/notes-2017.md)
    + [2016 릴리스 정보](release-notes/notes-2016.md)
    + [2015 릴리스 정보](release-notes/notes-2015.md)
-+ [TOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
-+ [숨겨진 테스트 파일](hidden-file.md)
++ {hide-from-toc}[TOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
++ {hide-from-toc}[숨겨진 테스트 파일](hidden-file.md)
