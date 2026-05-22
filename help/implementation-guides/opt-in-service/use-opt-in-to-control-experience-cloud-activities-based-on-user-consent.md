@@ -40,7 +40,7 @@ Adobe [!UICONTROL Opt-in] 개체는 Adobe [!UICONTROL Experience Platform Identi
 
 [!UICONTROL Opt-in]은(는) Adobe Experience Platform 태그(이전의 Launch)를 사용하여 가장 쉽게 구성할 수 있습니다. 다음의 짧은 비디오에서 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41135/?captions=kor&quality=12)
 
 Experience Platform 태그를 사용하지 않는 경우 [설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=ko&lank=ko-KR)와 같이 글로벌 방문자 개체의 초기화에서 [!UICONTROL Opt-in]의 구성을 설정할 수 있습니다.
 
@@ -54,7 +54,7 @@ Experience Platform 태그를 사용하지 않는 경우 [설명서](https://exp
 
 다음 비디오에서는 페이지에서 작동하는 [!UICONTROL Opt-in]에 대한 빠른 데모 및 Experience Cloud 솔루션의 쿠키 설정과 비콘 시작 등의 여부를 결정하는데 어떤 영향을 미칠 수 있는지 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41137/?captions=kor&quality=12)
 
 **참고:** 이 문서를 작성할 때 모든 Experience Cloud 응용 프로그램의 라이브러리에 [!UICONTROL Opt-in]이(가) 내장된 것은 아닙니다. 현재 [!UICONTROL Opt-in]에 대해 지원되는 라이브러리는 다음과 같습니다.
 
