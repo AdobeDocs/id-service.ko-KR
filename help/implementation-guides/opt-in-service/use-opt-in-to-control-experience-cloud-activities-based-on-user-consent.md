@@ -2,10 +2,21 @@
 title: 사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 활동 제어
 description: Adobe 옵트인 개체는 Adobe Experience Platform ID 서비스의 확장으로, 최종 사용자의 동의에 따라 웹 페이지에서 쿠키를 생성하거나, 비콘을 시작할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계되었습니다.
 exl-id: ac44e628-01ca-401c-864b-30fed0450e5f
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/YfYkXzK8wKw6JC3-EB2ljIOfXGXQV5r6Nw2-XYsGW6c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 36%
+source-wordcount: 517
+ht-degree: 39%
 
 ---
 
@@ -31,7 +42,7 @@ Adobe [!UICONTROL Opt-in] 개체는 Adobe [!UICONTROL Experience Platform Identi
 
 >[!VIDEO](https://video.tv.adobe.com/v/41135/?captions=kor&quality=12)
 
-Experience Platform 태그를 사용하지 않는 경우 [!UICONTROL Opt-in]설명서[와 같이 글로벌 방문자 개체의 초기화에서 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=ko&lank=ko-KR)의 구성을 설정할 수 있습니다.
+Experience Platform 태그를 사용하지 않는 경우 [설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=ko&lank=ko-KR)와 같이 글로벌 방문자 개체의 초기화에서 [!UICONTROL Opt-in]의 구성을 설정할 수 있습니다.
 
 ## 페이지에서 [!UICONTROL Opt-In] 구현
 
