@@ -2,10 +2,14 @@
 title: 사용자 동의에 따라 옵트인을 사용하여 Experience Cloud 활동 제어
 description: Adobe 옵트인 개체는 Adobe Experience Platform ID 서비스의 확장으로, 최종 사용자의 동의에 따라 웹 페이지에서 쿠키를 생성하거나, 비콘을 시작할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계되었습니다.
 exl-id: ac44e628-01ca-401c-864b-30fed0450e5f
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/YfYkXzK8wKw6JC3-EB2ljIOfXGXQV5r6Nw2-XYsGW6c
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 36%
+source-wordcount: 517
+ht-degree: 39%
 
 ---
 
@@ -29,21 +33,21 @@ Adobe [!UICONTROL Opt-in] 개체는 Adobe [!UICONTROL Experience Platform Identi
 
 [!UICONTROL Opt-in]은(는) Adobe Experience Platform 태그(이전의 Launch)를 사용하여 가장 쉽게 구성할 수 있습니다. 다음의 짧은 비디오에서 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/41135/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
 
-Experience Platform 태그를 사용하지 않는 경우 [!UICONTROL Opt-in]설명서[와 같이 글로벌 방문자 개체의 초기화에서 &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=ko&lank=ko-KR)의 구성을 설정할 수 있습니다.
+Experience Platform 태그를 사용하지 않는 경우 [설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lank=ko-KR)와 같이 글로벌 방문자 개체의 초기화에서 [!UICONTROL Opt-in]의 구성을 설정할 수 있습니다.
 
 ## 페이지에서 [!UICONTROL Opt-In] 구현
 
 이러한 모든 설정 및 백엔드 항목은 사이트 방문자에게 동의 옵션을 제공하는 인터페이스를 제공하기 위한 것입니다. UI는 사용자가 작성할 수도 있고, CMP(동의 관리 플랫폼) 파트너를 사용하여 만들 수도 있습니다.
 
-[!UICONTROL Opt-in]을(를) 사용하여 동의를 수집하도록 UI를 설정할 때, [!UICONTROL Opt-in]에 연결할 API를 호출하고 일부 또는 모든 Adobe Experience Cloud 솔루션에 동의하도록 구성해야 합니다. 이러한 API에 대한 자세한 내용은 [옵트인 참조 설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/api.html?lang=ko&lank=ko-KR)를 참조하십시오. 옵트인에 대한 추가 정보는 주변 문서 페이지에도 있습니다.
+[!UICONTROL Opt-in]을(를) 사용하여 동의를 수집하도록 UI를 설정할 때, [!UICONTROL Opt-in]에 연결할 API를 호출하고 일부 또는 모든 Adobe Experience Cloud 솔루션에 동의하도록 구성해야 합니다. 이러한 API에 대한 자세한 내용은 [옵트인 참조 설명서](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/api.html?lank=ko-KR)를 참조하십시오. 옵트인에 대한 추가 정보는 주변 문서 페이지에도 있습니다.
 
 ## [!UICONTROL Opt-In] 데모
 
 다음 비디오에서는 페이지에서 작동하는 [!UICONTROL Opt-in]에 대한 빠른 데모 및 Experience Cloud 솔루션의 쿠키 설정과 비콘 시작 등의 여부를 결정하는데 어떤 영향을 미칠 수 있는지 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/41137/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12)
 
 **참고:** 이 문서를 작성할 때 모든 Experience Cloud 응용 프로그램의 라이브러리에 [!UICONTROL Opt-in]이(가) 내장된 것은 아닙니다. 현재 [!UICONTROL Opt-in]에 대해 지원되는 라이브러리는 다음과 같습니다.
 

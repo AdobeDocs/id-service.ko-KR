@@ -3,9 +3,12 @@ description: Experience Cloud 방문자 ID와 함께 추가 고객 ID 및 인증
 keywords: ID 서비스
 title: 고객 ID 및 인증 상태
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/0z2HaRyNYcuJhE6WMkTZVXK-DiPu2S5bdnOiYsZwxYg
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 642
 ht-degree: 97%
 
 ---
@@ -45,7 +48,7 @@ Experience Cloud ID 서비스 v1.5 이상부터 `setCustomerIDs`에 선택적 `A
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">2</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 2 </span> </p> </td> 
    <td colname="col3"> <p>로그아웃됨. </p> </td> 
   </tr> 
  </tbody> 
@@ -216,5 +219,5 @@ Object customerIDs = visitor.getCustomerIDs();
 
 ## Analytics 및 Audience Manager 고객을 위한 알림 {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 오브젝트가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 [!UICONTROL Visitor ID Service]병합 규칙 코드 구성[&#x200B; 설명서의 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html?lang=ko#configure-merge-rule-code) 섹션을 참조하십시오.
+선언된 ID를 [!DNL Audience Manager]에 전달하는 경우 `userid` 오브젝트가 데이터 소스와 연결된 통합 코드와 일치해야 합니다. 자세한 내용은 [병합 규칙 코드 구성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html?lang=en#configure-merge-rule-code) 설명서의 [!UICONTROL Visitor ID Service] 섹션을 참조하십시오.
 

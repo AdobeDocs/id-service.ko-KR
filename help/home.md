@@ -3,9 +3,13 @@ description: Experience Cloud Identity Service를 통해 Experience Cloud 애플
 keywords: ID Service; Identity Service; Experience Cloud Identity Service
 title: Experience Cloud Identity Service
 exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
-source-git-commit: 126292a287e219ee3152ce92eec63c620cce1254
+TQID: https://experienceleague.adobe.com/xzEgzuN2NnyOnhCPocQikOXHFRU6zmLWLGdrJL4C3GM
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 89fabda03cf7b1e604cc043d6ec7c75dc967c5e4
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: 428
 ht-degree: 96%
 
 ---
@@ -19,8 +23,8 @@ Experience Cloud Identity Service를 통해 Experience Cloud 애플리케이션 
 Adobe이 방문자를 고유하게 식별하고 ID 정보를 확인하는 데 어떻게 도움이 되는지 더 잘 이해하려면 아래 분류를 읽어 보십시오.
 
 * **Experience Cloud Identity Service**: Experience Cloud Identity Service **는 Experience Cloud ID(ECID)** 설정을 담당합니다. 자세한 내용은 [Experience Cloud Identity Service 개요](./introduction/overview.md)를 참조하십시오.
-* **Experience Cloud ID(ECID)**: ECID는 Adobe Experience Platform 및 Adobe Experience Cloud 애플리케이션에서 사용자와 디바이스를 식별하는 데 사용되는 공유 ID 네임스페이스입니다. ECID에 대한 자세한 내용은 [ECID 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html?lang=ko)를 참조하십시오.
-* **Experience Platform Identity Service**: Experience Platform Identity Service는 디바이스와 시스템 간에 ID를 연결하여 고객 및 고객 행동에 대한 포괄적인 보기를 제공합니다. 자세한 내용은 [Experience Platform Identity Service 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)를 참조하십시오.
+* **Experience Cloud ID(ECID)**: ECID는 Adobe Experience Platform 및 Adobe Experience Cloud 애플리케이션에서 사용자와 디바이스를 식별하는 데 사용되는 공유 ID 네임스페이스입니다. ECID에 대한 자세한 내용은 [ECID 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html)를 참조하십시오.
+* **Experience Platform Identity Service**: Experience Platform Identity Service는 디바이스와 시스템 간에 ID를 연결하여 고객 및 고객 행동에 대한 포괄적인 보기를 제공합니다. 자세한 내용은 [Experience Platform Identity Service 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)를 참조하십시오.
 
 <!-- The Adobe Experience Cloud Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for Experience Cloud solutions and services. -->
 
