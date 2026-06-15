@@ -6,8 +6,8 @@ user-guide-description: Adobe Experience Cloud Identity Service는 Experience Cl
 user-guide-url: /content/help/en/id-service/using/home.html
 source-git-commit: 13bfd8b38596dd64f607c897a60bbeb2733b89bf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 96%
+source-wordcount: '378'
+ht-degree: 93%
 
 ---
 
@@ -106,5 +106,5 @@ ht-degree: 96%
    + [2017 릴리스 정보](release-notes/notes-2017.md)
    + [2016 릴리스 정보](release-notes/notes-2016.md)
    + [2015 릴리스 정보](release-notes/notes-2015.md)
-+ [hide-from-tocTOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
-+ [hide-from-toc숨겨진 테스트 파일](hidden-file.md)
++ {hide-from-toc}[TOC에서 Analytics 테스트 숨김](analytics-test-file-hidetoc.md)
++ {hide-from-toc}[숨겨진 테스트 파일](hidden-file.md)

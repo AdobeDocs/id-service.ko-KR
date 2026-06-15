@@ -62,7 +62,7 @@ ID 서비스는 아래와 같이 JSON 개체에 있는 데이터를 반환합니
 <table id="table_C8FFA89AB74E4E31A6926CDE5CD54217"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 매개변수 </th> 
+   <th colname="col1" class="entry"> 매개 변수 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -123,7 +123,7 @@ ID 서비스는 아래와 같이 JSON 개체에 있는 데이터를 반환합니
 <table id="table_58D0E8876DDC4A81B1F24F845E87EC18"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 매개변수 </th> 
+   <th colname="col1" class="entry"> 매개 변수 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>

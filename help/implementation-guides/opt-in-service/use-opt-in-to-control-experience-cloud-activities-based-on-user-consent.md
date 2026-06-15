@@ -56,7 +56,7 @@ Experience Platform 태그를 사용하지 않는 경우 [설명서](https://exp
 
 >[!VIDEO](https://video.tv.adobe.com/v/41137/?captions=kor&quality=12)
 
-**참고:** 이 문서를 작성할 때 모든 Experience Cloud 응용 프로그램의 라이브러리에 [!UICONTROL Opt-in]이(가) 내장된 것은 아닙니다. 현재 [!UICONTROL Opt-in]에 대해 지원되는 라이브러리는 다음과 같습니다.
+**참고:** 이 문서를 작성할 때 모든 Experience Cloud 애플리케이션의 라이브러리에 [!UICONTROL Opt-in]이(가) 내장된 것은 아니라는 점에 주의하십시오. 현재 [!UICONTROL Opt-in]에 대해 지원되는 라이브러리는 다음과 같습니다.
 
 * ID 서비스
 * Analytics

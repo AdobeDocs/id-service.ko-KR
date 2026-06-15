@@ -137,9 +137,9 @@ Experience Cloud ID(MID)는 조직 ID 및 demdex ID에서 수학적으로 파생
 
 | 쿠키(설정) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| demdex(http 응답) | 아니요 | 예 | &quot;없음&quot; |
-| AMCV(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
-| AMCVS(Javascript) | 아니요 | 구성 가능 | 설정 해제(기본값 Lax) |
+| demdex(http 응답) | 아니오 | 예 | &quot;없음&quot; |
+| AMCV(Javascript) | 아니오 | 구성 가능 | 설정 해제(기본값 Lax) |
+| AMCVS(Javascript) | 아니오 | 구성 가능 | 설정 해제(기본값 Lax) |
 
 *참고: 보안 속성으로 AMCV 및 AMCVS 쿠키를 구성하는 방법에 대한 자세한 내용은 [secureCookie](../library/function-vars/securecookie.md) 항목을 참조하십시오.*
 
