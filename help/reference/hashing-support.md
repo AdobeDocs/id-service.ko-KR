@@ -4,17 +4,12 @@ keywords: ID 서비스
 title: setCustomerIDs에 대한 SHA256 해시 지원
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
 TQID: https://experienceleague.adobe.com/-JBVon-Qf2jtfd5f4UdWcHVyO7c887p1w-k3GnntUCA
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 97%
+source-wordcount: 574
+ht-degree: 92%
 
 ---
 
@@ -70,15 +65,15 @@ ts=1563299964843
 
 `d_cid_ic` 매개변수 및 인증 상태에 대한 설명은 아래 테이블을 참조하십시오.
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |------------|----------|
 | `d_cid_ic` | 통합 코드, DPUUID(고유 사용자 ID) 및 인증된 상태 ID를 ID 서비스에 전달합니다. 통합 코드 및 DPUUID를 인쇄되지 않는 제어 문자 <code>%01과 구분합니다.</code>: <br> 예: <code>d_cid_ic=Integration_code%01DPUUID%01Authentication_state</code> <br> <b>인증 상태</b> <br> d_cid_ic 매개변수에서 선택적 ID입니다. 정수로 표시되며, 아래와 같이 인증 상태에 따라 사용자를 식별합니다. <br> <ul><li>0(알 수 없음 또는 인증되지 않음)</li><li>1(현재 이 인스턴스/페이지/앱 컨텍스트에 대해 인증됨)</li><li>2(로그아웃됨)</li></ul> <br> 예: <br> <ul><li>알 수 없음: ...d_cid=123%01456%01<b>0</b></li><li>인증됨: ...d_cid=123%01456%01<b>1</b></li><li>로그아웃됨: ...d_cid=123%01456%01<b>2</b></li></ul> |
 
 ## Adobe Experience Platform Launch에서 동작 추가 {#add-action-launch}
 
-Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)에서 Platform Launch에 대해 자세히 알아보십시오.
+Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. [Launch 제품 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)에서 Platform Launch에 대해 자세히 알아보십시오.
 
-Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko)를 읽고 아래의 화면 캡처를 참조하십시오.
+Launch에서 작업을 추가하려면 Adobe Launch에서 [규칙 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
 
 ![](/help/reference/assets/hashing-support.png)
 

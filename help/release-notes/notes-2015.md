@@ -4,17 +4,9 @@ keywords: ID 서비스
 title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 TQID: https://experienceleague.adobe.com/WmeSY7aRbvnZJN0a-lNR-yYzWzF4dfJLPZqA--6lpYQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
 source-wordcount: 449
@@ -49,7 +41,7 @@ COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Prot
   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * ID 서비스 사용.
-   * [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
+   * [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
 이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.
