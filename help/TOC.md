@@ -25,7 +25,7 @@ ht-degree: 45%
    + [구현 방법](implementation-guides/implementation-methods.md)
    + [구현 안내서](implementation-guides/implementation-guides.md)
    + [태그를 사용한 구현](implementation-guides/ecid-implement-with-launch.md)
-   + [Analytics 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview){target=_blank}
+   + [Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview){target=_blank}
    + [Target 구현](implementation-guides/setup-target.md)
    + [Analytics 및 Audience Manager 구현](implementation-guides/setup-aam-analytics.md)
    + [Analytics, Audience Manager 및 Target 구현](implementation-guides/setup-aam-analytics-target.md)

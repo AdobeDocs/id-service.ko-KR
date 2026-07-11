@@ -37,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 큰 변경 사항
 
-CX 엔터프라이즈 솔루션 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 `https://github.com/Adobe-Enterprise-Docs/id-service.en`의 개인 리포지토리를 사용해야 합니다.
+CX 엔터프라이즈 솔루션 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 `https://github.com/Adobe-Enterprise-Docs/id-service.ko-KR`의 개인 리포지토리를 사용해야 합니다.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 

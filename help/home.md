@@ -36,7 +36,7 @@ Adobe 방문자 ID 서비스를 통해 CX 엔터프라이즈 애플리케이션 
 Adobe이 방문자를 고유하게 식별하고 ID 정보를 확인하는 데 어떻게 도움이 되는지 더 잘 이해하려면 아래 분류를 읽어 보십시오.
 
 * **방문자 ID 서비스**: 방문자 ID 서비스 **이(가) ECID 설정을 담당합니다**. 자세한 내용은 [방문자 ID 서비스 개요](./introduction/overview.md)를 참조하십시오.
-* **ECID**: ECID는 Adobe Experience Platform 및 Adobe CX 엔터프라이즈 응용 프로그램에서 사용자와 장치를 식별하는 데 사용되는 공유 ID 네임스페이스입니다. ECID에 대한 자세한 내용은 [ECID 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/ecid)를 참조하십시오.
+* **ECID**: ECID는 Adobe Experience Platform 및 Adobe CX 엔터프라이즈 응용 프로그램에서 사용자와 장치를 식별하는 데 사용되는 공유 ID 네임스페이스입니다. ECID에 대한 자세한 내용은 [ECID 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/ecid)를 참조하십시오.
 * **Experience Platform Identity Service**: Experience Platform Identity Service는 디바이스와 시스템 간에 ID를 연결하여 고객 및 고객 행동에 대한 포괄적인 보기를 제공합니다. 자세한 내용은 [Experience Platform Identity Service 개요](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)를 참조하십시오.
 
 ## 시작하기

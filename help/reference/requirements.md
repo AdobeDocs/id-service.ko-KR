@@ -34,7 +34,7 @@ ht-degree: 39%
 
 ### 표준 구현
 
-표준 구현에 대해서는 Adobe Experience Platform 데이터 컬렉션의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
+표준 구현에 대해서는 Adobe Experience Platform 데이터 컬렉션의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하십시오.
 
 ### 비표준 구현
 
@@ -62,7 +62,7 @@ ht-degree: 39%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>확실하지 않음</b> </p> </td> 
-   <td colname="col2"> <p> 회사의 CX 엔터프라이즈 상태를 잘 모를 경우 회사 구성원이 Adobe ID을 사용하여 <a href="https://experiencecloud.adobe.com" format="https" scope="external"> marketing.adobe.com</a>에 로그인할 수 있는지 Adobe 계정 관리자에게 문의하십시오. 로그인할 수 있으면 사용자가 활성화되고 관리자가 IMS 조직 ID를 볼 수 있습니다. IMS 조직 ID를 찾으려면 <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en" format="https" scope="external"> CX 엔터프라이즈 관리</a>의 "관리 페이지" 섹션을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 회사의 CX 엔터프라이즈 상태를 잘 모를 경우 회사 구성원이 Adobe ID을 사용하여 <a href="https://experiencecloud.adobe.com" format="https" scope="external"> marketing.adobe.com</a>에 로그인할 수 있는지 Adobe 계정 관리자에게 문의하십시오. 로그인할 수 있으면 사용자가 활성화되고 관리자가 IMS 조직 ID를 볼 수 있습니다. IMS 조직 ID를 찾으려면 <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko" format="https" scope="external"> CX 엔터프라이즈 관리</a>의 "관리 페이지" 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>활성화되지 않음</b> </p> </td> 
@@ -119,11 +119,11 @@ ht-degree: 39%
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <b> <span class="keyword"> Target </span> </b> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p><a href="https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/at-js/overview" format="https" scope="external">mbox 코드</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p><a href="https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/at-js/overview" format="https" scope="external">mbox 코드</a>를 참조하십시오. </p> </td> 
    <td colname="col4"> <p>61 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p><a href="https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works" format="https" scope="external">at.js 구현</a>을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p><a href="https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works" format="https" scope="external">at.js 구현</a>을 참조하십시오. </p> </td> 
    <td colname="col4"> <p>0.9.1 </p> </td> 
   </tr> 
  </tbody> 

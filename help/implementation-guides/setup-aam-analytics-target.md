@@ -37,7 +37,7 @@ ht-degree: 57%
 
 ## 1단계: 서버측 전달 플랜 {#section-880797cc992d4755b29cada7b831f1fc}
 
-여기에 설명된 단계 외에도 Analytics 및 Audience Manager을 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko-KR)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html)를 참조하십시오.
+여기에 설명된 단계 외에도 Analytics 및 Audience Manager을 사용하는 고객은 서버측 전달로 마이그레이션해야 합니다. 서버측 전달을 통해 DIL(Audience Manager의 데이터 수집 코드)을 제거하고 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko-KR)로 대체합니다. 자세한 내용은 [서버측 전달 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html?lang=ko)를 참조하십시오.
 
 서버측 전달로 마이그레이션하려면 계획 및 조정이 필요합니다. 이 프로세스에는 계정을 프로비저닝하기 위해 Adobe가 수행해야 하는 사이트 코드와 내부 단계에 대한 외부 변경 사항이 포함됩니다. 실제로 이러한 마이그레이션 절차는 대부분 동시에 수행되어야 하며 함께 출시됩니다. 구현 경로는 다음 이벤트 시퀀스를 따라야 합니다.
 
@@ -220,7 +220,7 @@ JavaScript 요청에서 SDID 식별자를 확인합니다. Analytics SDID는 Tar
 테스트가 AID를 반환하면 이는 다음 중 하나를 나타냅니다.
 
 * 기존 Analytics ID를 마이그레이션하는 과정에 있는 재방문자입니다.
-* [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 활성화했습니다.
+* [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 활성화했습니다.
 
 AID가 표시되면 Target mboxMCAVID에 대해 해당 값을 확인합니다. 이러한 값은 방문자 ID 서비스가 올바르게 구현된 경우 동일합니다.
 

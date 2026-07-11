@@ -34,7 +34,7 @@ ht-degree: 16%
 
 ## 표준 구현
 
-표준 구현에서는 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하여 방문자 ID 서비스를 시작하고 다른 CX 엔터프라이즈 솔루션과 통합할 수 있습니다. 방문자 ID 서비스를 구현할 때 태그를 사용하는 것이 좋습니다.
+표준 구현에서는 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하여 방문자 ID 서비스를 시작하고 다른 CX 엔터프라이즈 솔루션과 통합할 수 있습니다. 방문자 ID 서비스를 구현할 때 태그를 사용하는 것이 좋습니다.
 
 ## 구현 리소스
 

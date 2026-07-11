@@ -49,7 +49,7 @@ COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Prot
   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
    * 방문자 ID 서비스 사용.
-   * [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
+   * [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
 이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.

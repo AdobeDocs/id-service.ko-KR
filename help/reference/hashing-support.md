@@ -73,9 +73,9 @@ ts=1563299964843
 
 ## 태그에 작업 추가 {#add-action-launch}
 
-Adobe Experience Platform Data Collection의 태그는 Adobe의 차세대 태그 관리 기능입니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하세요.
+Adobe Experience Platform Data Collection의 태그는 Adobe의 차세대 태그 관리 기능입니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하세요.
 
-태그에 작업을 추가하려면 [규칙 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)를 읽고 아래의 화면 캡처를 참조하십시오.
+태그에 작업을 추가하려면 [규칙 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko)를 읽고 아래의 화면 캡처를 참조하십시오.
 
 ![](/help/reference/assets/hashing-support.png)
 

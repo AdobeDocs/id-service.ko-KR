@@ -58,7 +58,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 **사례 2**
 
-방문자 ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 사용하는 경우 쿼리 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid`(ECID) 매개 변수를 받게 됩니다.
+방문자 ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 사용하는 경우 쿼리 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid`(ECID) 매개 변수를 받게 됩니다.
 
 >[!MORELIKETHIS]
 >
