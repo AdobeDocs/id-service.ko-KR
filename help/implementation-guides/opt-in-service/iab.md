@@ -3,21 +3,13 @@ description: IAB TCF(Transparency and Consent Framework)를 위한 옵트인의 
 title: IAB 프레임워크에서 옵트인 서비스 사용
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
 TQID: https://experienceleague.adobe.com/70QH1BoRSSbiw7cMfRjrHmiSxQLbuiHcWAG5b-xVOLw
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 96%
+source-wordcount: 515
+ht-degree: 94%
 
 ---
 
@@ -46,7 +38,7 @@ CMP(동의 관리 플랫폼)을 옵트인의 IAB 투명도 및 TCF(Transparency 
 >
 >옵트인은 ECID 4.0+에서만 사용할 수 있습니다.
 
-Adobe Experience Platform Launch를 사용하여 사이트에 대해 옵트인의 IAB TCF 플러그인을 구현합니다. 옵트인용 IAB를 수동으로 활성화하는 경우, 방문자 오브젝트 내에서 다음 설정이 true로 설정되어 있는지 확인하십시오.
+태그를 사용하여 사이트에 대한 옵트인의 IAB TCF 플러그인을 구현합니다. 옵트인용 IAB를 수동으로 활성화하는 경우, 방문자 오브젝트 내에서 다음 설정이 true로 설정되어 있는지 확인하십시오.
 
 ```javascript
 Visitor.getInstance("YOUR_ORG_ID", {  

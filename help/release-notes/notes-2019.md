@@ -1,43 +1,37 @@
 ---
-description: Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
-keywords: ID 서비스
+description: 방문자 ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+keywords: 방문자 ID 서비스
 title: 2019 릴리스 정보
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
 TQID: https://experienceleague.adobe.com/KnO04dnP6z7gKrr8vkFiiToDSBfClpiOJkGq8949ahA
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 438
-ht-degree: 100%
+source-wordcount: 426
+ht-degree: 67%
 
 ---
 
-# Experience Cloud 릴리스 정보 - 2019 {#release-notes}
+# 2019 릴리스 정보 {#release-notes}
 
-Experience Cloud ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
+방문자 ID 서비스에 대한 기능 릴리스, 업데이트 또는 변경 사항입니다.
 
 ## 버전 4.4.1
 
-ECID Launch 확장에 미디어 분석에 대한 사전 옵트인 승인 확인란을 추가합니다.
+[!UICONTROL Experience Cloud ID Service] 태그 확장에 Media Analytics에 대한 사전 옵트인 승인 확인란을 추가합니다.
 
 **수정 사항**
 
-* ECID 시작 확장 preOptInApprovals 입력 문자열 구문 분석 문제.
+* [!UICONTROL Experience Cloud ID Service] 태그 확장 preOptInApprovals 입력 문자열 구문 분석에 문제가 있습니다.
 * trackingServer를 사용 중인 경우 성능 저하.
 
 ## 버전 4.4 {#version-4point4}
 
 **새로운 기능**
 
-[setCustomerIDs에 대한 SHA256 해시 지원](/help/reference/hashing-support.md). ECID(Experience Cloud ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다.
+[setCustomerIDs에 대한 SHA256 해시 지원](/help/reference/hashing-support.md). ECID(방문자 ID 서비스)는 고객 ID 또는 이메일 주소에서 전달하고 해시된 ID 밖으로 전달할 수 있는 SHA-256 해시 알고리즘을 지원합니다.
 
 **수정 사항, 향상된 기능, 개선 사항**
 
@@ -64,12 +58,12 @@ ECID 옵트인 오브젝트를 통해 사용할 수 있는 IAB TCF의 Audience M
 **수정 사항**
 
 * IAB + OptIn이 신규 고객 확보를 위한 MID를 얻지 못했습니다.
-* DTM의 옵트인 dotOptInApply 구성에 대한 버그를 수정했습니다.
+* 옵트인 doesOptInApply 구성의 버그가 수정되었습니다.
 * ECID 옵트아웃은 ID 동기화를 사용하지 않습니다.
 
 ## 버전 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**옵트인 서비스**&#x200B;입니다. 옵트인은 Experience Cloud 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID(Experience Cloud ID)의 확장 기능입니다. [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하면 Analytics, Target, Audience Manager 등을 활성화하여 Experience Cloud 솔루션에 대한 방문자 옵트인 동의 수집을 간소화하거나 동의 관리 시스템에 옵트인할 Experience Cloud 솔루션을 모두 선택할 수 있습니다.
+**옵트인 서비스**&#x200B;입니다. 옵트인은 CX 엔터프라이즈 라이브러리에서 방문자 웹 페이지에 쿠키를 생성할 수 있는지 여부를 제어할 수 있는 ECID의 확장 기능입니다. [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하면 Analytics, Target, Audience Manager 등을 활성화하여 CX 엔터프라이즈 솔루션에 대한 방문자 옵트인 동의를 수집하거나, 동의 관리 시스템에 옵트인할 CX 엔터프라이즈 솔루션을 모두 선택할 수 있습니다.
 
 ## 버전 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 

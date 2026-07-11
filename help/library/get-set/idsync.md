@@ -1,26 +1,21 @@
 ---
-description: ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용할 수 있습니다.
-keywords: ID 서비스
+description: 방문자 ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용할 수 있습니다.
+keywords: 방문자 ID 서비스
 title: URL 또는 데이터 소스별 ID 동기화
 exl-id: a22e6b47-00ff-4b51-9958-ddeccc1e507e
 TQID: https://experienceleague.adobe.com/93OKTlZcEibGqbwDnXIH90KyRT2S6Q7P50HgRATEenI
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 248
-ht-degree: 96%
+source-wordcount: 250
+ht-degree: 77%
 
 ---
 
 # URL 또는 데이터 소스별 ID 동기화{#id-synchronization-by-url-or-data-source}
 
-ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. VisitorAPI.js 버전 1.10 이상에서 사용할 수 있습니다.
+방문자 ID 서비스 함수 idSyncByURL 및 idSyncByDataSource를 사용하면 대상 게시 iFrame에서 ID 동기화를 수동으로 구현할 수 있습니다. `VisitorAPI.js` 버전 1.10 이상에서 사용할 수 있습니다.
 
 ## 구문, 속성 및 매크로 {#section-90ac61617482463aaf4c57009b830332}
 

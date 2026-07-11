@@ -1,24 +1,16 @@
 ---
 description: 2015년의 릴리스 정보 및 업데이트입니다.
-keywords: ID 서비스
+keywords: 방문자 ID 서비스
 title: 2015 릴리스 정보
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 TQID: https://experienceleague.adobe.com/WmeSY7aRbvnZJN0a-lNR-yYzWzF4dfJLPZqA--6lpYQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 94%
+source-wordcount: 457
+ht-degree: 60%
 
 ---
 
@@ -30,38 +22,38 @@ ht-degree: 94%
 
 2015년 11월
 
-COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 원하는 경우 브라우저의 서드파티 도메인에서 쿠키를 설정하지 못하도록 하는 변수를 자신의 [!DNL Experience Cloud] ID 서비스 코드에 추가할 수 있습니다. [Experience Cloud ID 서비스에서 COPPA 지원](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413)을 참조하십시오. 버전 1.5.3 이상
+COPPA(온라인 아동 개인정보 보호법 - Children’s Online Privacy Protection Act)에서는 입증할 수 있는 부모의 동의 없이 13세 미만의 어린이로부터 온라인으로 개인정보를 수집하는 것을 금지합니다. COPPA를 중요하게 생각하는 고객은 원하는 경우 브라우저의 타사 도메인에서 쿠키를 설정하지 못하도록 하는 변수를 자신의 방문자 ID 서비스 코드에 추가할 수 있습니다. 방문자 ID 서비스에서 [COPPA 지원](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413)을 참조하십시오. 버전 1.5.3 이상
 
 ## 버전 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
 2015년 9월
 
 * 사용자가 서드파티 쿠키를 차단할 때 동기화 서비스가 작동하지 않는 Safari 브라우저의 버그가 수정되었습니다. (AAM-20764)
-* 이제 ID 서비스 호출 시 `d_visid_ver=` 매개 변수에 버전 ID가 포함됩니다. 반환된 ID는 문제 해결 및 지원 문제와 관련하여 내부 팀에 도움이 됩니다. (AAM-20824)
+* 이제 방문자 ID 서비스 호출 시 `d_visid_ver=` 매개 변수에 버전 ID가 포함됩니다. 반환된 ID는 문제 해결 및 지원 문제와 관련하여 내부 팀에 도움이 됩니다. (AAM-20824)
 
 ## 버전 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
 
 2015년 8월
 
-* 동기화하거나 실행할 데이터가 없는 경우 ID 서비스가 iframe을 요청하지 못하게 하던 버그가 수정되었습니다. (AAM-20164)
-* ID 서비스가 다중 부분, 최상위 도메인 쿠키를 제대로 설정하지 못하게 하던 버그가 수정되었습니다. 예를 들어 `my_company.co.uk`와 같은 도메인이 있는 경우 일부 상황에서 ID 서비스가 `co.uk`에만 쿠키를 설정합니다. (AN-104683)
+* 동기화하거나 실행할 데이터가 없는 경우 방문자 ID 서비스 가 iframe을 요청하지 못하게 하던 버그가 수정되었습니다. (AAM-20164)
+* 방문자 ID 서비스 가 다중 부분, 최상위 도메인 쿠키를 제대로 설정하지 못하게 하던 버그가 수정되었습니다. 예를 들어 `my_company.co.uk`과(와) 같은 도메인이 있는 경우 일부 상황에서 방문자 ID 서비스가 `co.uk`에만 쿠키를 설정합니다. (AN-104683)
 
   이는 다음 기준을 *모두* 충족하는 일부 클라이언트에만 영향을 미쳤습니다.
 
-   * ID 서비스 사용.
-   * [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
+   * 방문자 ID 서비스 사용.
+   * [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *또는*&#x200B;을(를) 사용하도록 설정했으며 사용자는 서드파티 쿠키를 차단합니다.
    * 다중 부분의 최상위 도메인이 있는 페이지 사용
 
 이 릴리스의 설명서 수정 사항에는 다음이 포함됩니다.
 
 * [API 메서드 및 코드 라이브러리](../library/library.md#concept-ff27497375644a898d47984aefb21c97): 콘텐츠 및 텍스트가 재구성되었습니다. 대부분의 경우 각 메서드가 개별 페이지에 설명됩니다.
-* [Experience Cloud ID 서비스 요구 사항](../reference/requirements.md): 콘텐츠가 수정되고 텍스트가 재구성되었습니다.
+* [방문자 ID 서비스에 대한 요구 사항](../reference/requirements.md): 콘텐츠가 수정되고 텍스트가 재구성되었습니다.
 
 ## 버전 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
 2015년 7월
 
-[!DNL Experience Cloud] ID 서비스는 여러 ID 및 인증 상태를 지원합니다. 또한 [!DNL Audience Manager] 함수에 사용되는 사용자 ID에 대한 `setCustomerIDs` DPID 매핑이 더 이상 지원되지 않으므로 제거되었습니다. [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
+방문자 ID 서비스는 여러 ID 및 인증 상태를 지원합니다. 또한 `setCustomerIDs` 함수에서 사용하는 사용자 ID에 대한 Audience Manager DPID 매핑이 더 이상 지원되지 않으므로 제거되었습니다. [고객 ID 및 인증 상태](../reference/authenticated-state.md)를 참조하십시오.
 
 ## 버전 1.4 {#section-f5c596f355b14da28f45c798df513572}
 

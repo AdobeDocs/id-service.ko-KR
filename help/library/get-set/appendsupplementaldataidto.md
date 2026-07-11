@@ -1,26 +1,21 @@
 ---
-description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
-keywords: ID 서비스
+description: 이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 IMS 조직 ID로 방문자 ID 서비스를 구현했어야 합니다.
+keywords: 방문자 ID 서비스
 title: appendSupplementalDataIDTo를 참조하십시오
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
 TQID: https://experienceleague.adobe.com/oR2LCiVk5N-Xnt3wTOKMt7UYFXzwEGFwJpKoz-ikzh8
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 345
-ht-degree: 100%
+source-wordcount: 354
+ht-degree: 61%
 
 ---
 
 # appendSupplementalDataIDTo를 참조하십시오{#appendsupplementaldataidto}
 
-이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 조직 ID로 ID 서비스를 구현했어야 합니다.
+이 도우미 메서드를 사용하면 SDID(Supplemental Data ID)를 쿼리 문자열 매개변수로 리디렉션 URL에 추가할 수 있습니다. 이 작업은 A4T를 사용하며 한 페이지에서 다른 페이지로의 SDID를 유지하면서 이러한 개별 방문을 함께 연결해야 할 때 유용합니다. 이 기능을 사용하려면 소스 및 대상 도메인에서 동일한 IMS 조직 ID로 방문자 ID 서비스를 구현했어야 합니다.
 
 내용:
 
@@ -38,7 +33,7 @@ ht-degree: 100%
 **코드 샘플**
 
 ```js
-var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here"); 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE"); 
 
 //Get current supplemental data id
 var theCurrentSDID = visitor._supplementalDataIDCurrent ? visitor._supplementalDataIDCurrent : "";
@@ -50,7 +45,7 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID));
 
 ## 샘플 출력 {#section-dbe02d7ff6bd4ad1a2a26bf9cff54fa4}
 
-아래 표시된 대로 URL 리디렉션은 수신 페이지에 대한 호출에 방문자의 SDID, 조직 ID 및 UNIX 타임스탬프를 포함합니다.
+아래 표시된 대로 URL 리디렉션은 수신 페이지에 대한 호출에 방문자의 SDID, IMS 조직 ID 및 UNIX 타임스탬프를 포함합니다.
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> www.domain.com/pageB?adobe_mc_sdid=SDID=7996F0B028999505-13DA591039D6226|MCORGID=123456789@AdobeOrg|TS=1498569322 </span> </li> 
@@ -58,7 +53,7 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID));
 
 ## sdidParamExpiry를 사용하여 SDID 시간 제한 변경 {#section-99946715cefa4acc95200b093db5297e}
 
-[sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) 구성을 사용하면 `appendSupplementalDataIDTo` 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID 만료 간격을 변경할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 ID 서비스 코드가 30 초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
+[sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) 구성을 사용하면 `appendSupplementalDataIDTo` 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID 만료 간격을 변경할 수 있습니다. 기본적으로 수신 페이지의 방문자 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 방문자 ID 서비스 코드가 30초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
 
 기본 SDID 시간 제한을 변경해야 하는 경우 다음 구문을 사용하여 `sdidParamExpiry`를 `Visitor.getInstance` 함수에 추가합니다.
 
@@ -66,10 +61,10 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID));
 
 **코드 샘플**
 
-구성되면 ID 서비스 코드가 이 샘플과 유사할 수 있습니다. 이 샘플은 SDID 제한 시간을 15초로 설정합니다.
+구성된 경우 방문자 ID 서비스 코드는 이 샘플과 유사할 수 있습니다. 이 샘플은 SDID 제한 시간을 15초로 설정합니다.
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    ... 
    //Change the default SDID timeout to 15 seconds 
    sdidParamExpiry: 15 

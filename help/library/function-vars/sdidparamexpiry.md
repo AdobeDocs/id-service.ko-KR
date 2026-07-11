@@ -1,26 +1,21 @@
 ---
-description: 이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID(Supplemental Data ID) 만료 간격을 재정의할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 ID 서비스 코드가 30 초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
-keywords: ID 서비스
+description: 이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID(Supplemental Data ID) 만료 간격을 재정의할 수 있습니다. 기본적으로 수신 페이지의 방문자 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 방문자 ID 서비스 코드가 30초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
+keywords: 방문자 ID 서비스
 title: sdidParamExpiry
 exl-id: 5458ffa5-03d1-4c52-907d-c50fe00ce35d
 TQID: https://experienceleague.adobe.com/PUHy-KpWKY0BQSMkKidwpLYES6FvME2EtKCbCpfMFrw
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 100%
+source-wordcount: 266
+ht-degree: 57%
 
 ---
 
 # sdidParamExpiry{#sdidparamexpiry}
 
-이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID(Supplemental Data ID) 만료 간격을 재정의할 수 있습니다. 기본적으로 수신 페이지의 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 ID 서비스 코드가 30 초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
+이 구성을 사용하면 appendSupplementalDataIDTo 도우미 함수를 사용하여 한 페이지에서 다른 페이지로 해당 ID를 전달할 때 기본 SDID(Supplemental Data ID) 만료 간격을 재정의할 수 있습니다. 기본적으로 수신 페이지의 방문자 ID 서비스 코드는 참조 페이지에서 보낸 URL에서 SDID를 가져오는 데 30초가 걸립니다. 수신 페이지의 방문자 ID 서비스 코드가 30초 이내에 SDID를 검색할 수 없으면 새 SDID를 요청합니다. 이 기능은 주로 한 페이지에서 다른 페이지로 SDID를 전달해야 하고 이 시간 제한 간격을 제어하려는 A4T 고객을 위한 것입니다.
 
 **SDID 시간 제한 재정의**
 
@@ -30,10 +25,10 @@ ht-degree: 100%
 
 **코드 샘플**
 
-구성되면 ID 서비스 코드가 이 샘플과 유사할 수 있습니다. 이 샘플은 SDID 제한 시간을 15초로 설정합니다. 이 구성은 [appendSupplementalDataIDTo](../../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d) 도우미 메서드와 함께 작동합니다.
+구성된 경우 방문자 ID 서비스 코드는 이 샘플과 유사할 수 있습니다. 이 샘플은 SDID 제한 시간을 15초로 설정합니다. 이 구성은 [appendSupplementalDataIDTo](../../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d) 도우미 메서드와 함께 작동합니다.
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    ... 
    //Change the default SDID timeout to 15 seconds 
    sdidParamExpiry: 15 

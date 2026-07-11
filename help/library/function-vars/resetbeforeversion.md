@@ -1,30 +1,25 @@
 ---
-description: 이 구성을 사용하면 업데이트할 ID 서비스 버전에 따라 고립되었거나 오래된 ECID(Experience Cloud ID)를 지울 수 있습니다.
-keywords: ID 서비스
+description: 이 구성을 사용하면 업데이트할 방문자 ID 서비스 버전에 따라 고립되었거나 오래된 ECID(ECID)를 지울 수 있습니다.
+keywords: 방문자 ID 서비스
 title: resetBeforeVersion
 exl-id: 9fa40baa-433d-4f16-824b-521948a92a4b
 TQID: https://experienceleague.adobe.com/5aqi7F5QkybjotjVMJgDWCchFw1XOYa6qPOSUzDyeqE
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 254
-ht-degree: 87%
+source-wordcount: 257
+ht-degree: 41%
 
 ---
 
 # resetBeforeVersion{#resetbeforeversion}
 
-이 구성을 사용하면 업데이트할 ID 서비스 버전에 따라 고립되었거나 오래된 ECID(Experience Cloud ID)를 지울 수 있습니다.
+이 구성을 사용하면 업데이트할 방문자 ID 서비스 버전에 따라 고립되었거나 오래된 ECID(ECID)를 지울 수 있습니다.
 
-ID 서비스 버전을 `resetBeforeVersion` 변수 값으로 제공하면 오래된 ECID가 클라이언트 측 ID에서 지워집니다.
+방문자 ID 서비스 버전을 `resetBeforeVersion` 변수 값으로 제공하면 오래된 ECID가 클라이언트 측 ID에서 지워집니다.
 
-세션 시간 제한과 같은 일부 조건으로 인해 ID 서비스가 서버측 ID를 성공적으로 가져오지 않고 클라이언트측 ID가 생성될 수 있습니다. 이 경우 도메인 간에 추적하거나 다른 솔루션과 적절히 동기화할 수 없는 상태에서 고립 클라이언트측 ID가 ID 서비스에 의해 추적됩니다. 이 동작은 현재 AMCV 쿠키의 버전을 `resetBeforeVersion`의 값과 비교합니다. 쿠키가 없거나 쿠키 버전이 `resetBeforeVersion`의 최신 릴리스 버전보다 오래된 경우 AMCV 쿠키가 제거되고 ID 서비스가 새 ECID를 요청합니다.
+세션 시간 초과와 같은 일부 조건으로 인해 방문자 ID 서비스가 서버측 ID를 성공적으로 가져오지 않고 클라이언트측 ID가 생성될 수 있습니다. 이 경우 도메인 간에 추적하거나 다른 솔루션과 제대로 동기화할 수 없는 상태에서 고립 클라이언트측 ID가 방문자 ID 서비스에 의해 추적됩니다. 이 동작은 현재 AMCV 쿠키의 버전을 `resetBeforeVersion`의 값과 비교합니다. 쿠키가 없거나 쿠키 버전이 `resetBeforeVersion`의 최신 릴리스 버전보다 오래된 경우 AMCV 쿠키가 제거되고 방문자 ID 서비스가 새 ECID를 요청합니다.
 
 브라우저에 타사 Demdex 쿠키가 있는 방문자의 경우 ECID를 확인하여 Demdex 쿠키에서 UUID를 사용해 ECID가 올바르게 생성되었는지 확인합니다. 그렇게 확인해서 참으로 판명되면 새 ECID는 동일하며 방문자는 새 방문자로 간주됩니다. 어떤 이유로 지워지는 ECID가 Demdex 쿠키를 사용하여 생성되지 않았거나 Demdex 쿠키가 없는 경우 방문자는 새 ECID를 받고 새 방문자로 간주됩니다.
 
@@ -33,8 +28,8 @@ ID 서비스 버전을 `resetBeforeVersion` 변수 값으로 제공하면 오래
 **코드 샘플**
 
 ```js
-//Call the ID service 
-var visitor = Visitor.getInstance ("Insert Marketing Cloud organization ID here", { 
+//Call the Visitor ID Service 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE", { 
   
     //Same as s.trackingServer 
     trackingServer: "Insert tracking server here ", 

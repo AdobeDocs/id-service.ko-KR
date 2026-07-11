@@ -1,36 +1,30 @@
 ---
-description: 이 예제는 직접 통합 및 Experience Cloud ID(MID)와 관련된 2가지 공통 사용 사례를 다룹니다. MID는 사이트 방문자를 위한 고유하고 영구적인 ID입니다.
-keywords: ID 서비스
+description: 이러한 예제에서는 직접 통합 및 ECID와 관련된 2가지 공통 사용 사례를 다룹니다. MID는 사이트 방문자를 위한 고유하고 영구적인 ID입니다.
+keywords: 방문자 ID 서비스
 title: 직접 통합 사용 사례
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 TQID: https://experienceleague.adobe.com/1vfYQsSZiqM3SrnP0lmSrZEWpAMsbwVK8sR0MNitetQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 457
-ht-degree: 78%
+source-wordcount: 489
+ht-degree: 53%
 
 ---
 
 # 직접 통합 사용 사례 {#direct-integration-use-cases}
 
-이러한 예제에서는 직접 통합 및 Experience Cloud ID(ECID 또는 MID)와 관련된 2가지 공통 사용 사례를 다룹니다. 이 ID는 사이트 방문자의 고유한 영구 ID입니다.
+이러한 예제에서는 직접 통합 및 ECID(MID라고도 함)와 관련된 2가지 공통 사용 사례를 다룹니다. 이 ID는 사이트 방문자의 고유한 영구 ID입니다.
 
 >[!TIP]
 >
 >* [코드 구문 및 변수](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9)를 검토하고 이해한 후에 사용 사례로 이동합니다.
->* MID에 대한 자세한 내용은 [쿠키 및 Experience Cloud ID 서비스](../introduction/cookies.md)를 참조하십시오.
+>* MID에 대한 자세한 내용은 [쿠키 및 방문자 ID 서비스](../introduction/cookies.md)를 참조하십시오.
 >
 
-## 사용 사례 1: Experience Cloud ID(MID)가 있지만 내 방문자 ID를 전달하고 인증 상태를 설정하려고 함 {#section-a67d89a343754d1286d03cf08d34b806}
+## 사용 사례 1: ECID가 있지만 내 방문자 ID를 전달하고 인증 상태를 설정하려고 함 {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -52,7 +46,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>작업</b> </p> </td> 
-   <td colname="col2"> <p>이러한 조건이 주어지면 다음을 포함하는 ID 서비스를 호출합니다. </p> 
+   <td colname="col2"> <p>이러한 조건이 주어지면 다음을 포함하는 방문자 ID 서비스를 호출합니다. </p> 
     <ul id="ul_9ECB1A65266644E89E949C57D202D5A4"> 
      <li id="li_10A6F5A9C54D44A08F4F2E405E6019E2">MID(1234)입니다. </li> 
      <li id="li_4869572B40E54C54B88A2474DAC475A8">데이터 공급자 ID입니다. 회사에 할당된 고유 ID입니다. 이 ID를 4444라고 하겠습니다. </li> 
@@ -62,7 +56,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션 및 코드 샘플</b> </p> </td> 
-   <td colname="col2"> <p>다음과 같이 ID 서비스에 대한 호출 형식을 지정하십시오. </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_mid=1234&d_cid=4444%019876%011&d_ver=2</span> </p> <p>샘플 호출에 다음을 포함하는 방법을 참고하십시오. </p> 
+   <td colname="col2"> <p>다음과 같이 방문자 ID 서비스에 대한 호출 형식을 지정합니다. </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_mid=1234&amp;d_cid=4444%019876%011&amp;d_ver=2</span> </p> <p>샘플 호출에 다음을 포함하는 방법을 참고하십시오. </p> 
     <ul id="ul_0667FBFD8D3C46BDBD027F484691EC97"> 
      <li id="li_FAB1FAE703DB48D1A32EE72684028964">MID: <span class="codeph">d_mid=1234</span> </li> 
      <li id="li_C97B74FF444F4BB4B4A5CB1CBBE52249">방문자의 고유 ID에 연결된 MID: <span class="codeph">d_mid=1234&amp;d_cid=4444%019876%011</span> </li> 
@@ -87,17 +81,17 @@ ht-degree: 78%
    <td colname="col2"> <p>이 사용 사례는 다음을 가정합니다. </p> 
     <ul id="ul_BF3BD821907B46A4B2EFA63146D35722"> 
      <li id="li_E658AE0671D14558B65FDD8992F25996">사이트 방문자를 위한 MID가 없습니다. </li> 
-     <li id="li_28A48BB3F71C4E4297F95A2D3E10AD7B">ID 서비스에서 MID를 요청해야 합니다. </li> 
-     <li id="li_E2C306B9308D41E5BFE2F23EF48F5A41"><a href="../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local">조직 ID</a>를 알고 있습니다. 이 ID를 5555라고 하겠습니다. </li> 
+     <li id="li_28A48BB3F71C4E4297F95A2D3E10AD7B">방문자 ID 서비스에서 MID를 요청해야 합니다. </li> 
+     <li id="li_E2C306B9308D41E5BFE2F23EF48F5A41"><a href="../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local"> IMS 조직 ID</a>을(를) 알고 있습니다. 이 ID를 5555라고 하겠습니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>작업</b> </p> </td> 
-   <td colname="col2"> <p>이러한 조건이 주어지면 조직 ID를 포함하는 ID 서비스를 호출합니다. </p> <p>또한 <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> 직접 통합 안내서</a>에 나열된 다른 매개 변수가 있는 경우(예: <span class="codeph"> d_blob</span> 또는 <span class="codeph"> dcs_region</span> 등) 그것도 전달해도 됩니다. </p> </td> 
+   <td colname="col2"> <p>이러한 조건이 주어지면 IMS 조직 ID를 포함하는 방문자 ID 서비스를 호출합니다. </p> <p>또한 <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> 직접 통합 안내서</a>에 나열된 다른 매개 변수가 있는 경우(예: <span class="codeph"> d_blob</span> 또는 <span class="codeph"> dcs_region</span> 등) 그것도 전달해도 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>솔루션 및 코드 샘플</b> </p> </td> 
-   <td colname="col2"> <p>다음과 같이 ID 서비스에 대한 호출 형식을 지정하십시오. </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&d_ver=2</span> </p> <p>샘플 호출에 조직 ID, <span class="codeph">d_orgid=5555</span>를 포함하는 방법을 확인합니다. 이 방문자에 대한 <span class="keyword">Experience Cloud</span> ID가 반환됩니다. </p> </td> 
+   <td colname="col2"> <p>다음과 같이 방문자 ID 서비스에 대한 호출 형식을 지정합니다. </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>샘플 호출에 IMS 조직 ID, <span class="codeph">d_orgid=5555</span>을(를) 포함하는 방법을 참고하십시오. 이 방문자에 대한 ECID가 반환됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

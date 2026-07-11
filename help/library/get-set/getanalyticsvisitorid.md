@@ -1,40 +1,33 @@
 ---
-description: Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
-keywords: ID 서비스
+description: 방문자 ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+keywords: 방문자 ID 서비스
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
 TQID: https://experienceleague.adobe.com/xJRR3qXoJpCnyFqKuEZqvEs0MpPCCA0brWOT6WbngX4
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 97%
+source-wordcount: 313
+ht-degree: 46%
 
 ---
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Experience Cloud ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
+방문자 ID 서비스가 구현되기 전에 s_vi 쿠키에 저장된 이전 Analytics ID(있는 경우)를 반환합니다. 방문자에게 Analytics ID가 지정되지 않은 경우 빈 문자열을 반환합니다.
 
 **구문** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
-일반적으로 이 함수는 방문자 ID를 읽어야 하는 사용자 지정 솔루션에서 사용됩니다. 표준 구현에서는 사용되지 않습니다. 또한 `getAnalyticsVisitorID`는 [!DNL Analytics] ID를 읽은 후 시스템 또는 애플리케이션으로 가져오기 위해 콜백 함수에서도 사용됩니다.
+일반적으로 이 함수는 방문자 ID를 읽어야 하는 사용자 지정 솔루션에서 사용됩니다. 표준 구현에서는 사용되지 않습니다. `getAnalyticsVisitorID`은(는) 콜백 함수에서도 작동하여 Analytics ID를 읽은 후 시스템 또는 애플리케이션으로 가져옵니다.
 
 **샘플 코드**
 
 ```js
 //callback function 
 var useAnalyticsVisitorID = function(id){ 
-     //whatever your function does with the Experience Cloud ID 
+     //whatever your function does with the ECID 
 }; 
  
 //get Analytics ID and pass it to the function 
@@ -43,7 +36,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 >[!TIP]
 >
->[!DNL Analytics] 고객인 경우 [!DNL Analytics] ID도 확인한 후 함수로 보내십시오. 예를 들어 숨겨진 양식 요소의 방문자 ID를 데이터 삽입 API를 사용하는 서버측 애플리케이션에 전달할 때 두 식별자를 모두 원할 수 있습니다. 이 경우 [!DNL Experience Cloud] 및 [!DNL Analytics] 방문자 ID를 수집한 후 반환해야 합니다. [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md)를 참조하십시오.
+>Analytics 고객인 경우 Analytics ID도 확인한 후 함수로 보내십시오. 예를 들어 숨겨진 양식 요소의 방문자 ID를 데이터 삽입 API를 사용하는 서버측 애플리케이션에 전달할 때 두 식별자를 모두 원할 수 있습니다. 이 경우 ECID 및 Analytics 방문자 ID를 수집한 후 반환해야 합니다. [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md)를 참조하십시오.
 
 **&quot;aid&quot; 매개 변수는 이전 값입니다.**
 
@@ -53,12 +46,12 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 다음 경우에 쿼리 문자열에 `aid` 매개 변수가 표시됩니다.
 
-* [!DNL Experience Cloud] ID 서비스가 올바르게 배포됩니다.
-* 사이트를 방문하는 사용자의 경우 기존 [!DNL Analytics] ID가 [s_vi 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR#section-5d50a078de444d12b7d927d68ff3b679)에 저장되어 있습니다.
+* 방문자 ID 서비스가 올바르게 배포됩니다.
+* 사이트를 방문하는 사용자의 [s_vi 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR#section-5d50a078de444d12b7d927d68ff3b679)에 기존 Analytics ID가 저장되어 있습니다.
 
 **사례 2**
 
-ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 사용하는 경우 조회 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid` ([!DNL Experience Cloud] ID) 매개 변수를 받게 됩니다.
+방문자 ID 서비스를 완전히 구현하기 전에 조직에서 [유예 기간](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 사용하는 경우 쿼리 문자열에 `aid` 매개 변수가 표시됩니다. 사용자가 사이트를 처음 방문하며 유예 기간을 사용하지 않는 경우 방문자는 `mid`(ECID) 매개 변수를 받게 됩니다.
 
 >[!MORELIKETHIS]
 >

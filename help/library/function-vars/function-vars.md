@@ -1,30 +1,21 @@
 ---
-description: 이러한 속성을 Visitor.getInstance 정적 메서드에 전달하여 ID 서비스를 구성합니다.
-keywords: 조직 ID;ID 서비스
+description: 이러한 속성을 Visitor.getInstance 정적 메서드에 전달하여 방문자 ID 서비스를 구성합니다.
+keywords: IMS 조직 ID;방문자 ID 서비스
 title: 구성
 exl-id: a369f624-d263-4287-bb7e-b89d584fa245
 TQID: https://experienceleague.adobe.com/Nif2uo9Emxt2c2NFoVESjM77MkMG15Qw0-Hv8o8i9w8
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 91
-ht-degree: 100%
+source-wordcount: 58
+ht-degree: 41%
 
 ---
 
 # 구성{#configurations}
 
-이러한 속성을 Visitor.getInstance 정적 메서드에 전달하여 ID 서비스를 구성합니다.
-
->[!NOTE]
->
->*Experience Cloud ID Javascript 라이브러리*&#x200B;가 최근에 이동되었습니다. ECID JS 라이브러리의 최신 릴리스는 [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases)에 있습니다.
+이러한 속성을 Visitor.getInstance 정적 메서드에 전달하여 방문자 ID 서비스를 구성합니다.
 
 관련 문서:
 
