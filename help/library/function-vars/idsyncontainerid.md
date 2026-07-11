@@ -1,6 +1,6 @@
 ---
 description: 이 속성은 ID 동기화에 사용할 데이터 소스 컨테이너 ID를 설정합니다.
-keywords: ID 서비스
+keywords: 방문자 ID 서비스
 title: idSyncContainerID
 exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
 TQID: https://experienceleague.adobe.com/bDW5Z4LKbLW2igmRsJ-QxajnBj8KyvoTypUjUekElj4
@@ -11,10 +11,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 91%
+source-wordcount: 328
+ht-degree: 57%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
 **코드 샘플:**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    ... 
    //Set container ID 
    idSyncContainerID:80 
@@ -48,16 +48,16 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 
 **컨테이너**
 
-컨테이너는 [!DNL Audience Manager]에서 만든 개체입니다. 외부에서 액세스할 수는 없지만 이러한 컨테이너에는 다음과 같은 데이터 소스가 모두 나열됩니다.
+컨테이너는 Audience Manager에서 만든 개체입니다. 외부에서 액세스할 수는 없지만 이러한 컨테이너에는 다음과 같은 데이터 소스가 모두 나열됩니다.
 
 * 사용자는 사용할 수 있지만 ID 동기화에는 사용되지는 않습니다.
 * ID 동기화에 사용되고 있습니다.
 
-[!DNL Audience Manager] 고객이 아니더라도 도메인의 다른 페이지에 있는 다른 데이터 소스와 ID를 교환하는 경우 계정에 이러한 컨테이너가 있습니다. [!DNL Audience Manager]에서 ID 동기화를 사용할 수 있는 기술 및 백엔드 기능을 제공하기 때문입니다.
+Audience Manager 고객이 아니더라도 도메인의 다른 페이지에 있는 다른 데이터 소스와 ID를 교환하는 경우 계정에 이러한 컨테이너가 있습니다. Audience Manager에서 ID 동기화를 사용할 수 있는 기술 및 백엔드 기능을 제공하기 때문입니다.
 
 **사용 사례**
 
-상황에 따라 이 구성을 ID 서비스 코드에 추가해야 할 수도 있고 추가할 필요가 없을 수도 있습니다.
+상황에 따라 이 구성을 방문자 ID 서비스 코드에 추가해야 할 수도 있고 추가할 필요가 없을 수도 있습니다.
 
 <table id="table_48621F343C7F4760A75F6BCC2DB2DA20"> 
  <thead> 
@@ -71,7 +71,7 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
    <td colname="col1"> <p> <b>필요 없음</b> </p> </td> 
    <td colname="col2"> <p>다음과 같은 경우에는 이 구성을 사용할 필요가 없습니다. </p> <p> 
      <ul id="ul_4D6F794CD65C43D0BEFBA6F5DE420C2E"> 
-      <li id="li_0F048A6AC7BE4450AFA1B20B1AC25808"><span class="keyword">Experience Cloud</span> 솔루션에서 ID 서비스를 사용하고 있으며, ID를 다른 데이터 소스와 동기화하지 않습니다. 이 경우 계정에는 ID가 0인 기본 컨테이너가 있으며 조치가 필요하지 않습니다. </li> 
+      <li id="li_0F048A6AC7BE4450AFA1B20B1AC25808">CX 엔터프라이즈 솔루션에서 방문자 ID 서비스를 사용하고 있으며, ID를 다른 데이터 소스와 동기화하지 않습니다. 이 경우 계정에는 ID가 0인 기본 컨테이너가 있으며 조치가 필요하지 않습니다. </li> 
       <li id="li_5657D64D9406407D9B4DB7D8BE4F8EE4">모든 데이터 소스는 단일 컨테이너에 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -87,10 +87,10 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
  </tbody> 
 </table>
 
-## DIL 및 VisitorAPI.js 사용 시 컨테이너 ID 설정 {#section-f283cb69c8de4348b5316cc4e02a3e9e}
+## DIL 및 `VisitorAPI.js` 사용 시 컨테이너 ID 설정 {#section-f283cb69c8de4348b5316cc4e02a3e9e}
 
-동일한 페이지에서 [!UICONTROL DIL] *및* VisitorAPI.js를 배포한 경우:
+동일한 페이지에서 [!UICONTROL DIL] *및* `VisitorAPI.js`을(를) 배포한 경우:
 
 * 방문자 ID 서비스 코드가 ID 동기화를 위한 DIL보다 우선합니다.
-* ID 서비스 코드에서만 `idSyncContainerID` 구성을 설정합니다.
+* 방문자 ID 서비스 코드에서만 `idSyncContainerID` 구성을 설정합니다.
 

@@ -1,7 +1,7 @@
 ---
-description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 허용 목록을 사용하여 신뢰할 수 있는 도메인의 리소스를 수락하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
-keywords: ID 서비스
-title: 콘텐츠 보안 정책 및 Experience Cloud ID 서비스
+description: CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. 허용 목록 ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 방문자를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+keywords: 방문자 ID 서비스
+title: 컨텐츠 보안 정책 및 Adobe 방문자 ID 서비스
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
 TQID: https://experienceleague.adobe.com/UX0RWE7v912XEHJCJE49yt1sy13t1P0I0I79gG9Z7m8
 product_v2:
@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 530
-ht-degree: 64%
+source-wordcount: 527
+ht-degree: 49%
 
 ---
 
-# 컨텐츠 보안 정책 및 Experience Cloud Identity 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
+# 컨텐츠 보안 정책 및 Adobe 방문자 ID 서비스 {#content-security-policies-and-the-experience-cloud-id-service}
 
-CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. ID 서비스를 사용하고 허용 목록을 사용하여 신뢰할 수 있는 도메인의 리소스를 수락하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
+CSP(Content Security Policy)는 브라우저가 웹 페이지에 로드되는 리소스 유형을 제어하는 HTTP 헤더 및 보안 기능입니다. 허용 목록 ID 서비스를 사용하고 신뢰할 수 있는 도메인의 리소스를 수락하기 위해 방문자를 사용하는 엄격한 CSP가 있는 경우 이 섹션을 검토하십시오. 여기에 나열된 Adobe 도메인을 CSP 허용 목록에 추가해야 합니다.
 
 ## CSP 검토 {#section-5fde5c00a678455c914b8307a8caab82}
 
@@ -35,16 +35,16 @@ CSP는 HTTP 헤더 `Content-Security-Policy`를 사용하여 브라우저에서 
 * 사이트 디페이스먼트 공격.
 * 악성 코드 배포.
 
-CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설명하는 것은 이 설명서의 목적이 아닙니다(자세한 내용은 아래 관련 정보 링크 참조). 중요한 것은 CSP를 사용하고 보안 정책이 강력한 경우 CSP에 어떤 Adobe 도메인 이름을 추가해야 하는지를 이해하는 것입니다. 이러한 도메인을 추가하면 사이트에 액세스하는 방문자 브라우저에서 사용하는 Experience Cloud 리소스에 대한 중요한 호출을 수행할 수 있습니다.
+CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설명하는 것은 이 설명서의 목적이 아닙니다(자세한 내용은 아래 관련 정보 링크 참조). 중요한 것은 CSP를 사용하고 보안 정책이 강력한 경우 CSP에 어떤 Adobe 도메인 이름을 추가해야 하는지를 이해하는 것입니다. 이러한 도메인을 추가하면 사이트에 액세스하는 방문자 브라우저에서 사용하는 CX 엔터프라이즈 리소스에 대한 중요한 호출을 수행할 수 있습니다.
 
-## 허용 목록에 추가를 위한 Experience Cloud 도메인 {#section-30693e9a96834edfbf04de9e698cf2aa}
+## 허용 목록에 추가를 위한 CX 엔터프라이즈 도메인 {#section-30693e9a96834edfbf04de9e698cf2aa}
 
-사용하는 각 목록 Experience Cloud 솔루션 또는 서비스에 이러한 도메인 이름 또는 URL을 CSP에 추가합니다.
+사용하는 각 목록 CX 엔터프라이즈 솔루션 또는 서비스에 이러한 도메인 이름 또는 URL을 CSP에 추가합니다.
 
 <table id="table_EC9FC999A62D4B7A830CE73B0AB9EF3C">
  <thead>
   <tr>
-   <th colname="col1" class="entry">Experience Cloud 솔루션 또는 서비스</th>
+   <th colname="col1" class="entry">CX 엔터프라이즈 솔루션 또는 서비스</th>
    <th colname="col2" class="entry">설명</th>
   </tr>
  </thead>
@@ -71,7 +71,7 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
   </tr>
   <tr>
    <td colname="col1">
-    <p><b>Experience Cloud ID 서비스 및 Audience Manager</b></p>
+    <p><b>방문자 ID 서비스 및 Audience Manager</b></p>
    </td>
    <td colname="col2">
     <p>아래 도메인을 포함하도록 CSP를 수정합니다.</p>
@@ -80,9 +80,9 @@ CSP의 사용은 일반적이고 이해하기 쉽습니다. CSP를 자세히 설
      <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
      <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
      <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
-     <li>Adobe Launch를 사용하여 태그를 배포하는 경우 도메인 목록에 <code>https://assets.adobedtm.com</code>도 추가해야 합니다.</li>
+     <li>태그를 사용하는 경우 도메인 목록에 <code>https://assets.adobedtm.com</code>도 추가해야 합니다.</li>
     </ul>
-    <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 Experience Cloud Identity 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하세요.</p>
+    <p><span class="codeph">demdex.net</span> 도메인 호출은 <a href="../introduction/cookies.md" format="dita" scope="local">쿠키 및 방문자 ID 서비스</a>를 생성하고 ID를 동기화하는 데 사용됩니다. <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR" format="https" scope="external">Demdex 도메인에 대한 호출 이해</a>도 참조하세요.</p>
    </td>
   </tr>
   <tr>

@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 96%
+source-wordcount: 515
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ CMP(동의 관리 플랫폼)을 옵트인의 IAB 투명도 및 TCF(Transparency 
 >
 >옵트인은 ECID 4.0+에서만 사용할 수 있습니다.
 
-Adobe Experience Platform Launch를 사용하여 사이트에 대해 옵트인의 IAB TCF 플러그인을 구현합니다. 옵트인용 IAB를 수동으로 활성화하는 경우, 방문자 오브젝트 내에서 다음 설정이 true로 설정되어 있는지 확인하십시오.
+태그를 사용하여 사이트에 대한 옵트인의 IAB TCF 플러그인을 구현합니다. 옵트인용 IAB를 수동으로 활성화하는 경우, 방문자 오브젝트 내에서 다음 설정이 true로 설정되어 있는지 확인하십시오.
 
 ```javascript
 Visitor.getInstance("YOUR_ORG_ID", {  
