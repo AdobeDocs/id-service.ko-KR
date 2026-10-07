@@ -3,13 +3,20 @@ description: 방문자 ID 서비스에서 Adobe Device Co-op로 데이터를 전
 keywords: 방문자 ID 서비스
 title: isCoopSafe
 exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
-source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 8164b6bb0cfea56330c775d8ffb0b839a23ecf3f
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 68%
-
 ---
-
 # isCoopSafe{#iscoopsafe}
 
 방문자 ID 서비스에서 Adobe Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
@@ -53,7 +60,7 @@ ht-degree: 68%
    <td colname="col1"> <p> </b>서드파티 사이트의 DIL<b> </p> </td> 
    <td colname="col2"> <p>다음과 같은 타사 사이트에서 사용할 방문자 ID 서비스 코드에 <span class="codeph"> isCoopSafe </span>을(를) 추가합니다. </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
-      <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">인증된 방문자가 사용 기간 계약을 수락했는지 여부를 확인할 수 없습니다. </li> 
+      <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">인증된 방문자가 이용 약관에 동의했는지 또는 동의하지 않았는지 확인할 수 없습니다. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Device Co-op이 데이터를 사용하여 디바이스 그래프를 작성하는 방법을 제어해야 합니다. </li> 
      </ul> </p> </td> 
   </tr> 
