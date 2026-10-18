@@ -7,7 +7,7 @@ product_v2:
 usetq: true
 type: Documentation
 audience: end-user
-git-repo: https://github.com/AdobeDocs/id-service.en
+git-repo: https://github.com/AdobeDocs/id-service.ko-KR
 description: ID 서비스
 index: true
 role: Developer, User, Admin, Leader
